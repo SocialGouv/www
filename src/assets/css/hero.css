@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  color: #fff;
+  background: #45adc5;
+  background: linear-gradient(to right, #c969a6 0%, #e795a8 15%, #a4cfcd 43%, #45adc5 65%, #265c9f 100%);
+}
+
+.hero__container {
+  min-height: 38vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.hero__white-background {
+  padding: 10px 1em;
+  background-color: white;
+}
+
+.hero h1 {
+  color: var(--theme-dark-text);
+  margin: 0;
+}
+
+.hero p {
+  margin: 1em auto;
+  color: var(--theme-dark-text);
+  font-size: 1.2em;
+  font-style: italic;
+}

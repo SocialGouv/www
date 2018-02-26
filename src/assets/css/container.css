@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.container h1:first-of-type {
+  margin-top: 0;
+}
+
+@media (--larger-than-mobile) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+@media (--larger-than-phablet) {
+  .container {
+    width: 80%;
+  }
+}

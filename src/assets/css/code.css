@@ -1,0 +1,23 @@
+pre {
+  display: block;
+  margin-top: 1em;
+}
+
+code {
+  background: var(--lighter-grey);
+  border-radius: var(--theme-border-radius);
+  padding: 0.5em;
+  font-family: 'Courier New';
+  word-break: break-word;
+  white-space: pre-wrap;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+pre code {
+  font-size: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+}

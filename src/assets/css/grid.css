@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.row .column {
+  margin: 0 2em;
+  max-width: 50em;
+}
+
+@media (--smaller-than-tablet) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row p + p {
+    margin-top: 1em;
+  }
+}
+
+.column img {
+  width: 100%;
+}

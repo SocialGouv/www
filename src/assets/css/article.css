@@ -1,0 +1,11 @@
+article {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  color: var(--black);
+  line-height: 1.5;
+  max-width: 35em;
+  width: 100%;
+  margin: 0 auto;
+}

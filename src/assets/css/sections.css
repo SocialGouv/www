@@ -1,0 +1,42 @@
+section {
+  padding: 5em 0;
+  background-color: var(--theme-background-white);
+  color: var(--black);
+}
+
+.section-grey {
+  background-color: var(--theme-background-grey);
+  color: var(--black);
+}
+
+.section-dark {
+  background-color: var(--theme-background-dark);
+  color: #fff;
+}
+
+.section-color {
+  background-color: var(--theme-background-color);
+  color: #fff;
+}
+
+.section__subtitle {
+  margin: 0 auto 2em;
+  max-width: 640px;
+  font-size: 1.3em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.section__subtitle:not(:last-child) {
+  margin-bottom: 3em;
+}
+
+.section__title + .section__subtitle {
+  margin-top: -3em;
+}
+
+.section__title {
+  margin: 0 0 3em;
+  text-align: center;
+}

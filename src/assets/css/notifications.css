@@ -1,0 +1,57 @@
+.notification {
+  color: var(--theme-info-border);
+  background: var(--theme-info-bg);
+  border: 1px solid var(--theme-info-border);
+  border-radius: var(--theme-border-radius);
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.notification .close {
+  border: 0;
+  background: 0;
+  color: currentColor;
+  position: absolute;
+  right: 1em;
+}
+
+.notification .icon {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+
+.notification.closable {
+  padding-right: 3em;
+}
+
+.notification.full-width {
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.notification.full-width.closable .close {
+  right: unset;
+}
+
+.notification.success {
+  color: var(--theme-success-border);
+  background: var(--theme-success-bg);
+  border-color: var(--theme-success-border);
+}
+
+.notification.warning {
+  color: var(--theme-warning-border);
+  background: var(--theme-warning-bg);
+  border-color: var(--theme-warning-border);
+}
+
+.notification.error {
+  color: var(--theme-error-border);
+  background: var(--theme-error-bg);
+  border-color: var(--theme-error-border);
+}
