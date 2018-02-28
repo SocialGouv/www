@@ -48,7 +48,7 @@ const SectionColors = () => (
 
         <div className="color-panel primary">
           {Object.keys(colors.primary).map(name => (
-            <div className="color-panel__block">
+            <div className="color-panel__block" key={name}>
               <div className={`color-panel__sample primary-${slugify(name)}`} />
               <div className="color-panel__name">
                 <h4>{name}</h4>
@@ -60,7 +60,7 @@ const SectionColors = () => (
 
         <div className="color-panel grayscale">
           {Object.keys(colors.grayscale).map(name => (
-            <div className="color-panel__block">
+            <div className="color-panel__block" key={name}>
               <div className={`color-panel__sample ${slugify(name)}`} />
               <div className="color-panel__name">
                 <h4>{name}</h4>
@@ -74,7 +74,7 @@ const SectionColors = () => (
           {colors.others.map(color => {
             const [color1, color2] = Object.keys(color);
             return (
-              <div className="color-panel__block">
+              <div className="color-panel__block" key={color1}>
                 <div className="color-panel__sample-double">
                   <div className={`color-panel__sample ${slugify(color1)}`} />
                   <div className={`color-panel__sample ${slugify(color2)}`} />
