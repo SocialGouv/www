@@ -15,7 +15,7 @@
     "@zeit/next-css": "^0.1.2",
     "cssnano": "^3.10.0",
     "gh-pages": "^1.1.0",
-    "next": "^5.0.1-canary.10",
+    "next": "^6.0.3",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
