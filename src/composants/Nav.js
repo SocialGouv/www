@@ -1,32 +1,40 @@
-const Link = ({ url, title }) => (
+import Link from "next/link";
+
+const NavItem = ({ href, title }) => (
   <li className="nav__item">
-    <a href={url}>{title}</a>
+    <Link href={href}>
+      <a>{title}</a>
+    </Link>
   </li>
 );
 
 export const Nav = ({
   logo = "",
-  logoUrl = "index.html",
+  logoUrl = "/",
   logoAlt = "Accueil de template.data.gouv.fr",
   links = [
     {
-      url: "#typography",
+      href: "/#typography",
       title: "Typographie"
     },
     {
-      url: "#couleurs",
+      href: "/#couleurs",
       title: "Couleurs"
     },
     {
-      url: "#typography",
-      title: "Typographie"
+      href: "/article",
+      title: "Article 1"
     },
     {
-      url: "#form",
+      href: "/example",
+      title: "Example 1"
+    },
+    {
+      href: "/#form",
       title: "Form"
     },
     {
-      url: "#documentation",
+      href: "/#documentation",
       title: "Documentation"
     }
   ]
@@ -42,7 +50,7 @@ export const Nav = ({
       </a>
       <nav>
         <ul className="nav__links">
-          {links.map(link => <Link key={link.url} {...link} />)}
+          {links.map(link => <NavItem key={link.url} {...link} />)}
           {/*
           <li className="nav__item">
             <div className="dropdown">

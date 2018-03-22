@@ -4,6 +4,12 @@ module.exports = withCSS({
   exportPathMap: () => ({
     "/": {
       page: "/"
+    },
+    "/article": {
+      page: "/article"
+    },
+    "/example": {
+      page: "/example"
     }
   })
 });

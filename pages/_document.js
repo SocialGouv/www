@@ -1,5 +1,7 @@
 import Document, { Head, Main, NextScript } from "next/document";
 
+import { Footer, Nav, SvgIcons } from "../src/composants";
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -12,7 +14,10 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body>
+          <SvgIcons />
+          <Nav />
           <Main />
+          <Footer />
           <NextScript />
         </body>
       </html>
