@@ -1,3 +1,11 @@
+const Tag = ({ children }) => (
+  <li className="tag">
+    <a>{children}</a>
+  </li>
+);
+
+const Tags = ({ tags }) => tags.map(t => <Tag key={t}>{t}</Tag>);
+
 const Api = () => (
   <section className="section-grey">
     <div className="container">
@@ -8,17 +16,7 @@ const Api = () => (
         </div>
         <div className="form__group">
           <label>Token rights</label>
-          <ul className="tag-list">
-            <li className="tag">
-              <a>zombies</a>
-            </li>
-            <li className="tag">
-              <a>undeads</a>
-            </li>
-            <li className="tag">
-              <a>creep swarms</a>
-            </li>
-          </ul>
+          <Tags tags={["zombies", "undeads", "creep swarms"]} />
         </div>
         <div className="form__group">
           <label htmlFor="token">Token</label>
