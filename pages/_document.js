@@ -6,6 +6,10 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <link
+            rel="stylesheet"
+            href="//cdn.rawgit.com/etalab/template.data.gouv.fr/master/src/main.css"
+          />
         </Head>
         <body>
           <Main />
