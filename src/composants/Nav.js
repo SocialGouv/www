@@ -17,10 +17,11 @@ const navLinks = [
   }
 ];
 
+
 const Nav = () => (
   <nav className="nav">
     <div className="nav__container">
-      <a className="nav__link" href="index.html">
+      <a className="nav__link" href="/">
         <img
           className="nav__logo"
           src="/static/images/logo_site.svg"
