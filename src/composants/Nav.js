@@ -1,51 +1,63 @@
-const navLinks = [
-  {
-    title: "Typographie",
-    url: "#typography"
-  },
-  {
-    title: "Couleurs",
-    url: "#colors"
-  },
-  {
-    title: "Form",
-    url: "#form"
-  },
-  {
-    title: "Documentation",
-    url: "#documentation"
-  }
-];
+const Link = ({ url, title }) => (
+  <li className="nav__item">
+    <a href={url}>{title}</a>
+  </li>
+);
 
-
-const Nav = () => (
-  <nav className="nav">
-    <div className="nav__container">
-      <a className="nav__link" href="/">
+export const Nav = ({
+  logo = "",
+  logoUrl = "index.html",
+  logoAlt = "Accueil de template.data.gouv.fr",
+  links = [
+    {
+      url: "#typography",
+      title: "Typographie"
+    },
+    {
+      url: "#couleurs",
+      title: "Couleurs"
+    },
+    {
+      url: "#typography",
+      title: "Typographie"
+    },
+    {
+      url: "#form",
+      title: "Form"
+    },
+    {
+      url: "#documentation",
+      title: "Documentation"
+    }
+  ]
+}) => (
+  <header className="navbar">
+    <div className="navbar__container">
+      <a className="navbar__home" href={logoUrl}>
         <img
-          className="nav__logo"
+          className="navbar__logo"
           src="/static/images/logo_site.svg"
-          alt="Accueil de template.data.gouv.fr"
+          alt={logoAlt}
         />
       </a>
-      <ul className="nav__links">
-        {navLinks.map(({ title, url }) => (
-          <li key={url}>
-            <a href={url}>{title}</a>
-          </li>
-        ))}
-        <li>
-          <div className="dropdown">
-            Langage
-            <div className="dropdown-content">
-              <a href="#">Français 🇫🇷</a>
-              <a href="#">Anglais 🇬🇧</a>
+      <nav>
+        <ul className="nav__links">
+          {links.map(link => <Link key={link.url} {...link} />)}
+          {/*
+          <li className="nav__item">
+            <div className="dropdown">
+              Langage
+              <div className="dropdown-content">
+                <a href="#">Français 🇫🇷</a>
+                <a href="#">Anglais 🇬🇧</a>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+          */}
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </header>
 );
 
 export default Nav;
