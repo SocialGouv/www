@@ -27,5 +27,8 @@
     "start": "npm run dev",
     "dev": "next dev",
     "build": "next build && next export"
+  },
+  "dependencies": {
+    "styled-components": "^3.2.6"
   }
 }

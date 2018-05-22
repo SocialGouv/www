@@ -1,9 +1,25 @@
-export default () => (
+export default ({
+  title = "template.data.gouv.fr",
+  links = [
+    {
+      href: "https://www.data.gouv.fr/reference",
+      title: "Données de référence"
+    },
+    {
+      href: "https://www.data.gouv.fr/terms",
+      title: "Conditions générales d'utilisation"
+    },
+    {
+      href: "https://www.data.gouv.fr/api",
+      title: "API"
+    }
+  ]
+}) => (
   <footer className="footer">
     <div className="container">
       <div className="footer__logo">
-        <img src="/static/images/etalab.svg" alt="Logo Etalab" />
         <ul className="footer__social">
+          {/*
           <li>
             <a href="https://twitter.com/etalab" title="Twitter">
               <svg className="icon icon-twitter">
@@ -32,21 +48,18 @@ export default () => (
               </svg>
             </a>
           </li>
+        */}
         </ul>
       </div>
       <ul className="footer__links">
         <li>
-          <h2>template.data.gouv.fr</h2>
+          <h2>{title}</h2>
         </li>
-        <li>
-          <a href="https://www.data.gouv.fr/reference">Données de référence</a>
-        </li>
-        <li>
-          <a href="https://www.data.gouv.fr/terms">Conditions générales d'utilisation</a>
-        </li>
-        <li>
-          <a href="https://www.data.gouv.fr/api">API</a>
-        </li>
+        {links.map(link => (
+          <li>
+            <a href={link.href}>{link.title}</a>
+          </li>
+        ))}
       </ul>
       <ul className="footer__links" />
     </div>
