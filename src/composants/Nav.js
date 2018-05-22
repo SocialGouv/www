@@ -9,9 +9,9 @@ const NavItem = ({ href, title }) => (
 );
 
 export const Nav = ({
-  logo = "",
   logoUrl = "/",
   logoAlt = "Accueil de template.data.gouv.fr",
+  title = "template.data.gouv.fr",
   links = [
     {
       href: "/#typography",
@@ -41,12 +41,18 @@ export const Nav = ({
 }) => (
   <header className="navbar">
     <div className="navbar__container">
-      <a className="navbar__home" href={logoUrl}>
+      <a
+        className="navbar__home"
+        href={logoUrl}
+        style={{ color: "black", fontSize: "2em" }}
+      >
         <img
           className="navbar__logo"
-          src="/static/images/logo_site.svg"
+          src="/static/images/marianne.svg"
           alt={logoAlt}
+          style={{ verticalAlign: "middle", marginRight: 10 }}
         />
+        {title}
       </a>
       <nav>
         <ul className="nav__links">
