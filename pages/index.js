@@ -14,7 +14,7 @@ import {
 
 const App = () => (
   <div>
-    <Hero title="titre 1" subTitle="subTitle 1" />
+    <Hero title="Titre 1" tagline="Sous titre 1" />
     <Section
       className="section-dark"
       title="Titre de section 2"
