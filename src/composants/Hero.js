@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const HeroContainer = styled.div`
-  background-image: url(/static/images/image-fond.jpg);
-  background-position: top center;
+  background-image: url(/static/images/image-fond2.jpg);
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 `;

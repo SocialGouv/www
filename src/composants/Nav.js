@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavItem = ({ href, title }) => (
   <li className="nav__item">
-    <Link href={href}>
+    <Link href={href || "#"}>
       <a>{title}</a>
     </Link>
   </li>

@@ -1,5 +1,7 @@
 export { default as Api } from "./Api";
 export { default as Article } from "./Article";
+export { default as BlocChiffres } from "./BlocChiffres";
+export { default as Card } from "./Card";
 export { default as Doc } from "./Doc";
 export { default as Footer } from "./Footer";
 export { default as Form } from "./Form";

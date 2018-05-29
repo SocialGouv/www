@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
     const headerLinks = [
       {
         title: "Nos produits",
-        url: "/startups"
+        url: "/#startups"
       },
       {
         title: "Actu",
@@ -44,7 +44,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/etalab/template.data.gouv.fr/master/src/main.css"

@@ -19,6 +19,11 @@ export default ({
     <div className="container">
       <div className="footer__logo">
         <ul className="footer__social">
+          Un incubateur propulsé par{" "}
+          <a target="_blank" href="https://beta.gouv.fr">
+            beta.gouv.fr
+          </a>{" "}
+          et la DSI des ministères sociaux.
           {/*
           <li>
             <a href="https://twitter.com/etalab" title="Twitter">
@@ -56,7 +61,7 @@ export default ({
           <h2>{title}</h2>
         </li>
         {links.map(link => (
-          <li>
+          <li key={link.href}>
             <a href={link.href}>{link.title}</a>
           </li>
         ))}
