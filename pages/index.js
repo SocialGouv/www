@@ -17,7 +17,7 @@ import {
 const App = () => (
   <div>
     <Hero
-      title="AsTech.social.gouv.fr"
+      title="ASTech.social.gouv.fr"
       tagline="Bienvenue à l'incubateur des ministères sociaux"
     />
 

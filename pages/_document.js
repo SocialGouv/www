@@ -19,12 +19,12 @@ export default class MyDocument extends Document {
         url: "/#startups"
       },
       {
-        title: "Actu",
-        url: "/actu"
+        title: "Actualités",
+        url: "/actus"
       },
       {
         title: "Evènements",
-        url: "/evenements"
+        url: "/#evenements"
       },
       {
         title: "Qui sommes-nous ?",
@@ -32,10 +32,10 @@ export default class MyDocument extends Document {
       }
     ];
     const footerLinks = [
-      {
-        title: "A propos",
-        href: "/"
-      },
+      // {
+      //   title: "A propos",
+      //   href: "/"
+      // },
       {
         title: "Conditions générales d'utilisation",
         href: "/"
@@ -52,9 +52,9 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <SvgIcons />
-          <Nav title="AsTech.social.gouv.fr" links={headerLinks} />
+          <Nav title="ASTech.social.gouv.fr" links={headerLinks} />
           <Main />
-          <Footer title="AsTech.social.gouv.fr" links={footerLinks} />
+          <Footer title="ASTech.social.gouv.fr" links={footerLinks} />
           <NextScript />
         </body>
       </html>
