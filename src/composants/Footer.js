@@ -13,47 +13,40 @@ export default ({
       href: "https://www.data.gouv.fr/api",
       title: "API"
     }
-  ]
+  ],
+  style,
+  children
 }) => (
-  <footer className="footer">
+  <footer className="footer" style={style}>
     <div className="container">
       <div className="footer__logo">
+        Un incubateur propulsé par{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://beta.gouv.fr"
+        >
+          beta.gouv.fr
+        </a>{" "}
+        et la DSI des ministères sociaux.
         <ul className="footer__social">
-          Un incubateur propulsé par{" "}
-          <a target="_blank" href="https://beta.gouv.fr">
-            beta.gouv.fr
-          </a>{" "}
-          et la DSI des ministères sociaux.
-          {/*
           <li>
-            <a href="https://twitter.com/etalab" title="Twitter">
-              <svg className="icon icon-twitter">
-                <use xlinkHref="#icon-twitter" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/etalab" title="Github">
+            <a href="https://github.com/SocialGouv" title="Github">
               <svg className="icon icon-github">
                 <use xlinkHref="#icon-github" />
               </svg>
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/etalab" title="Facebook">
-              <svg className="icon icon-fb">
-                <use xlinkHref="#icon-fb" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:info@data.gouv.fr" title="Nous écrire un mail">
+            <a
+              href="mailto:contact@astech.social.gouv.fr"
+              title="Nous écrire un mail"
+            >
               <svg className="icon icon-mail">
                 <use xlinkHref="#icon-mail" />
               </svg>
             </a>
           </li>
-        */}
         </ul>
       </div>
       <ul className="footer__links">
@@ -68,5 +61,6 @@ export default ({
       </ul>
       <ul className="footer__links" />
     </div>
+    <div>{children}</div>
   </footer>
 );
