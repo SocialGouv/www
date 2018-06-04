@@ -1,6 +1,5 @@
 # astech.social.gouv.fr [![CircleCI](https://circleci.com/gh/SocialGouv/socialgouv.github.io.svg?style=svg)](https://circleci.com/gh/SocialGouv/socialgouv.github.io)
 
-
 Actu de l'incubateur du Ministère des affaires sociales
 
 ## Dev
@@ -14,6 +13,8 @@ npm start
 ```
 
 `npm run build` pour builder une version statique
+
+Les modifs sur la branche `dev` sont automatiquement déployées sur https://socialgouv.github.io
 
 ## A propos
 
