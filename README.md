@@ -13,7 +13,7 @@ npm i
 npm start
 ```
 
-`npm build` pour builder une version statique
+`npm run build` pour builder une version statique
 
 ## A propos
 
