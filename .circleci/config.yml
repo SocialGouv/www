@@ -9,9 +9,6 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run:
-          name: use dev branch
-          command: git checkout dev
       - restore_cache:
           keys:
           - dependencies-{{ checksum "package.json" }}
