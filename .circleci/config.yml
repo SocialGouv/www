@@ -27,6 +27,8 @@ jobs:
               npm install
               CI="" npm run build
 
+              touch ./out/.nojekyll
+
               remote=$(git config remote.origin.url)
 
               siteSource="out"
