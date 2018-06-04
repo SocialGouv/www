@@ -3,7 +3,7 @@ jobs:
   build:
     branches:
       only:
-        - master
+        - dev
     docker:
       - image: circleci/node:8
     working_directory: ~/repo
@@ -39,28 +39,28 @@ jobs:
                   exit 1
               fi
 
-              mkdir gh-pages-branch
-              cd gh-pages-branch
+              mkdir master-branch
+              cd master-branch
               git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
               git config --global user.name "$GH_NAME" > /dev/null 2>&1
               git init
               git remote add --fetch origin "$remote"
 
-              if git rev-parse --verify origin/gh-pages > /dev/null 2>&1
+              if git rev-parse --verify origin/master > /dev/null 2>&1
               then
-                  git checkout gh-pages
+                  git checkout master
                   git rm -rf .
               else
-                  git checkout --orphan gh-pages
+                  git checkout --orphan master
               fi
 
               cp -a "../${siteSource}/." .
 
               git add -A
               git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
-              git push --force --quiet origin gh-pages > /dev/null 2>&1
+              git push --force --quiet origin master > /dev/null 2>&1
 
               cd ..
-              rm -rf gh-pages-branch
+              rm -rf master-branch
 
               echo "Finished Deployment!"
