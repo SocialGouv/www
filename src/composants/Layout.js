@@ -1,4 +1,5 @@
 import { Footer, Header, SvgIcons } from ".";
+import ReactTooltip from "react-tooltip";
 
 const headerLinks = [
   {
@@ -11,12 +12,12 @@ const headerLinks = [
   },
   {
     title: "Evènements",
-    href: "/#evenements"
-  },
-  {
-    title: "Qui sommes-nous ?",
-    href: "/qui-sommes-nous"
+    href: "/evenements"
   }
+  // {
+  //   title: "Qui sommes-nous ?",
+  //   href: "/qui-sommes-nous"
+  // }
 ];
 const footerLinks = [
   // {
@@ -64,6 +65,7 @@ export default class Layout extends React.Component {
         />
         {this.props.children}
         <Footer title="ASTech.social.gouv.fr" links={footerLinks} />
+        <ReactTooltip />
       </React.Fragment>
     );
   }

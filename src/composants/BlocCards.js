@@ -3,10 +3,7 @@ const BlocCards = ({ title = "Autre articles", cards }) => (
     <div className="container">
       <h1>{title}</h1>
       <div className="row" style={{ maxWidth: 800, color: "black" }}>
-        {cards.map((Card, i) => {
-          console.log(Card);
-          return <Card key={i} />;
-        })}
+        {cards.map((Card, i) => <Card key={i} />)}
       </div>
     </div>
   </section>

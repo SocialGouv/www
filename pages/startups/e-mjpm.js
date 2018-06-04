@@ -9,6 +9,7 @@ export default () => (
         <h3>
           Trouver rapidement le bon professionnel pour les majeurs à protéger
         </h3>
+        Et : <span data-tip="hello world">exemple de tooltip</span>
       </div>
     </section>
     <BlocCards title="Nos autres startups" cards={[Cards.wif, Cards.cdtn]} />

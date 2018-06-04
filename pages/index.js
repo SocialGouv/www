@@ -1,17 +1,9 @@
 import {
-  Api,
   Article,
   Card,
-  Doc,
-  Form,
   Hero,
   Layout,
-  Newsletter,
-  Notes,
-  Notifications,
   Section,
-  SectionColors,
-  Typography,
   BlocChiffres
 } from "../src/composants";
 
@@ -102,12 +94,12 @@ const Homepage = () => (
       </p>
     </Article>
 
+    <a id="produits" name="produits" />
     <Section
       className="section-color cards"
       title="Nos produits"
       subTitle="Découvrez les produits conçus par nos agents"
     >
-      <a id="produits" name="produits" />
       <div className="row" style={{ color: "black" }}>
         <CardWIF />
         <CardMJPM />

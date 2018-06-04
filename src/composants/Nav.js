@@ -11,7 +11,7 @@ const NavItem = ({ href, title }) => (
 const Nav = ({ links }) => (
   <nav>
     <ul className="nav__links">
-      {links.map(link => <NavItem key={link.href} {...link} />)}
+      {links && links.map(link => <NavItem key={link.href} {...link} />)}
       {/*
           <li className="nav__item">
             <div className="dropdown">
