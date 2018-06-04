@@ -12,22 +12,17 @@
   },
   "devDependencies": {
     "@zeit/next-css": "^0.1.2",
+    "@mdx-js/loader": "^0.9.0",
+    "@mdx-js/mdx": "^0.9.0",
     "babel-eslint": "^8.2.3",
-    "cssnano": "^3.10.0",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
-    "gh-pages": "^1.2.0",
     "next": "^6.0.4-canary.3",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
-    "postcss-reporter": "^5.0.0",
     "prettier": "^1.13.4",
-    "raw-loader": "^0.5.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "raw-loader": "^0.5.1"
   },
   "scripts": {
     "start": "npm run dev",
@@ -35,12 +30,12 @@
     "build": "next build && next export"
   },
   "dependencies": {
-    "@mdx-js/loader": "^0.9.0",
-    "@mdx-js/mdx": "^0.9.0",
     "react-countup": "^3.0.3",
     "react-tooltip": "^3.6.0",
     "remark-emoji": "^2.0.1",
     "remark-images": "^0.8.1",
-    "styled-components": "^3.2.6"
+    "styled-components": "^3.2.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
