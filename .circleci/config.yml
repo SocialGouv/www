@@ -27,8 +27,6 @@ jobs:
               npm install
               CI="" npm run build
 
-              touch ./out/.nojekyll
-
               remote=$(git config remote.origin.url)
 
               siteSource="out"
@@ -55,6 +53,7 @@ jobs:
               fi
 
               cp -a "../${siteSource}/." .
+              touch .nojekyll
 
               git add -A
               git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
