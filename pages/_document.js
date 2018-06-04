@@ -1,7 +1,7 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
-import { Footer, Nav, SvgIcons } from "../src/composants";
+import "../src/custom.css";
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -13,37 +13,15 @@ export default class MyDocument extends Document {
     return { ...page, styleTags };
   }
   render() {
-    const headerLinks = [
-      {
-        title: "Nos produits",
-        url: "/#startups"
-      },
-      {
-        title: "Actualités",
-        url: "/actus"
-      },
-      {
-        title: "Evènements",
-        url: "/#evenements"
-      },
-      {
-        title: "Qui sommes-nous ?",
-        url: "/qui-sommes-nous"
-      }
-    ];
-    const footerLinks = [
-      // {
-      //   title: "A propos",
-      //   href: "/"
-      // },
-      {
-        title: "Conditions générales d'utilisation",
-        href: "/"
-      }
-    ];
     return (
-      <html>
+      <html lang="fr">
         <Head>
+          <title>ASTech - L'incubateur des affaires sociales</title>
+          <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no"
+          />
+          <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/etalab/template.data.gouv.fr/master/src/main.css"
@@ -51,10 +29,7 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
-          <SvgIcons />
-          <Nav title="ASTech.social.gouv.fr" links={headerLinks} />
           <Main />
-          <Footer title="ASTech.social.gouv.fr" links={footerLinks} />
           <NextScript />
         </body>
       </html>

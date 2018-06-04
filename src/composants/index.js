@@ -1,11 +1,14 @@
 export { default as Api } from "./Api";
 export { default as Article } from "./Article";
+export { default as BlocCards } from "./BlocCards";
 export { default as BlocChiffres } from "./BlocChiffres";
 export { default as Card } from "./Card";
 export { default as Doc } from "./Doc";
 export { default as Footer } from "./Footer";
 export { default as Form } from "./Form";
+export { default as Header } from "./Header";
 export { default as Hero } from "./Hero";
+export { default as Layout } from "./Layout";
 export { default as Nav } from "./Nav";
 export { default as Newsletter } from "./Newsletter";
 export { default as Notes } from "./Notes";

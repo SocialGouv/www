@@ -4,6 +4,7 @@ import {
   Doc,
   Form,
   Hero,
+  Layout,
   Newsletter,
   Notes,
   Notifications,
@@ -13,7 +14,7 @@ import {
 } from "../src/composants";
 
 const App = () => (
-  <div>
+  <Layout>
     <Hero title="titre 1" subTitle="subTitle 1" />
     <Section
       className="section-dark"
@@ -132,7 +133,7 @@ const App = () => (
         </div>
       </div>
     </Section>
-  </div>
+  </Layout>
 );
 
 export default App;

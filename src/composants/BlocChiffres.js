@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const BlocChiffre = styled.div`
   width: 50%;
-  height: 150px;
+  xheight: 150px;
+  padding-bottom: 1em;
   display: inline-block;
   box-sizing: border-box;
   &:nth-child(2n + 1) {
@@ -13,7 +14,7 @@ const BlocChiffre = styled.div`
     border-bottom: 1px solid silver;
   }
   .num {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: bold;
     text-align: center;
     color: rgb(35, 209, 232);
@@ -25,7 +26,7 @@ const BlocChiffre = styled.div`
 `;
 
 const BlocChiffres = () => (
-  <div style={{ width: 500, margin: "0 auto" }}>
+  <div style={{ width: "80%", maxWidth: 500, margin: "0 auto" }}>
     <BlocChiffre>
       <div className="num">3</div>
       <div className="texte">Start-ups</div>
@@ -35,8 +36,8 @@ const BlocChiffres = () => (
       <div className="texte">m2 d'espace dédié</div>
     </BlocChiffre>
     <BlocChiffre>
-      <div className="num">1ᵉ</div>
-      <div className="texte">Programme</div>
+      <div className="num">5</div>
+      <div className="texte">Intrapreneurs</div>
     </BlocChiffre>
     <BlocChiffre>
       <div className="num">6</div>

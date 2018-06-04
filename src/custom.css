@@ -1,0 +1,35 @@
+.navbar__container .navbar__logo {
+  max-height: 50px;
+  flex: 0 0 120px;
+}
+
+.navbar__container .navbar__title {
+  font-size: 1.5em;
+}
+
+.navbar__title_container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar__container nav {
+  flex: 1 0 auto;
+  text-align: right;
+}
+
+@media (max-width: 549px) {
+  .navbar__container nav {
+    margin-top: 2em;
+  }
+  .navbar__container nav .nav__item {
+    display: block;
+    height: 2em;
+    text-align: center;
+  }
+  .hero__container h1 {
+    font-size: 1.2em;
+  }
+  .hero__container p.hero__white-background {
+    font-size: 0.9em;
+  }
+}
