@@ -20,7 +20,7 @@ export const CardWIF = () => (
 export const CardMJPM = () => (
   <Card
     href="/startups/e-mjpm"
-    img="/static/images/startups/e-mjpm.jpg"
+    img="/static/images/startups/e-MJPM.jpg"
     title="e-MJPM"
     meta="Mai 2018"
     description="Trouver rapidement le bon professionnel pour les majeurs à protéger."
