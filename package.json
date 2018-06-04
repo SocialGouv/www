@@ -38,6 +38,7 @@
   "dependencies": {
     "@mdx-js/loader": "^0.9.0",
     "@mdx-js/mdx": "^0.9.0",
+    "react-countup": "^3.0.3",
     "react-tooltip": "^3.6.0",
     "remark-emoji": "^2.0.1",
     "remark-images": "^0.8.1",

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CountUp from "react-countup";
 
 const BlocChiffre = styled.div`
   width: 50%;
@@ -25,22 +26,32 @@ const BlocChiffre = styled.div`
   }
 `;
 
+const ZeroCounter = ({ end }) => <CountUp start={0} end={end} />;
+
 const BlocChiffres = () => (
   <div style={{ width: "80%", maxWidth: 500, margin: "0 auto" }}>
     <BlocChiffre>
-      <div className="num">3</div>
+      <div className="num">
+        <ZeroCounter end={3} />
+      </div>
       <div className="texte">Start-ups</div>
     </BlocChiffre>
     <BlocChiffre>
-      <div className="num">100</div>
+      <div className="num">
+        <ZeroCounter end={100} duration={1.75} />
+      </div>
       <div className="texte">m2 d'espace dédié</div>
     </BlocChiffre>
     <BlocChiffre>
-      <div className="num">5</div>
+      <div className="num">
+        <ZeroCounter end={5} />
+      </div>
       <div className="texte">Intrapreneurs</div>
     </BlocChiffre>
     <BlocChiffre>
-      <div className="num">6</div>
+      <div className="num">
+        <ZeroCounter end={6} />
+      </div>
       <div className="texte">mois d'accélération</div>
     </BlocChiffre>
   </div>
