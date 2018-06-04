@@ -26,7 +26,7 @@ const footerLinks = [
   // },
   {
     title: "Conditions générales d'utilisation",
-    href: "/"
+    href: "/cgu"
   }
 ];
 

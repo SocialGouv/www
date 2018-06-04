@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default ({
   title = "template.data.gouv.fr",
   links = [
@@ -55,7 +57,9 @@ export default ({
         </li>
         {links.map(link => (
           <li key={link.href}>
-            <a href={link.href}>{link.title}</a>
+            <Link href={link.href}>
+              <a>{link.title}</a>
+            </Link>
           </li>
         ))}
       </ul>
