@@ -20,7 +20,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "next": "^6.0.3",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.1.0",
