@@ -36,6 +36,7 @@ jobs:
               DEST_BRANCH="master"
 
               ls -R .next/
+              npm ls | grep next
 
               echo "***"
               echo $NODE_ENV
