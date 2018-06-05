@@ -9,17 +9,17 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      # - restore_cache:
-      #     keys:
-      #       - dependencies-{{ checksum "package.json" }}
-      #       - dependencies-
+      - restore_cache:
+          keys:
+            - dependencies-{{ checksum "package.json" }}
+            - dependencies-
       - run:
           name: Install dependencies
           command: npm install
-      # - save_cache:
-      #     paths:
-      #       - node_modules
-      #     key: dependencies-{{ checksum "package.json" }}
+      - save_cache:
+          paths:
+            - node_modules
+          key: dependencies-{{ checksum "package.json" }}
       - deploy:
           name: Deploy
           command: |
@@ -30,8 +30,10 @@ jobs:
               CI="" NODE_ENV=production npm run build
 
               SITE_SOURCE="out"
-              REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
+              #REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
+
+              remote=$(git config remote.origin.url)
 
               if [ ! -d "$SITE_SOURCE" ]
               then
@@ -44,7 +46,7 @@ jobs:
               git config --global user.email "$GH_EMAIL" > /dev/null 2>&1
               git config --global user.name "$GH_NAME" > /dev/null 2>&1
               git init
-              git remote add --fetch origin "$REMOTE"
+              git remote add origin "$remote"
 
               if git rev-parse --verify "origin/${DEST_BRANCH}" > /dev/null 2>&1
               then
@@ -57,12 +59,12 @@ jobs:
               cp -a "../${SITE_SOURCE}/." .
               touch .nojekyll
 
+              ls ./_next
+              ls ./_next/static
+
               git add -A
               git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
               git push --force --quiet origin $DEST_BRANCH > /dev/null 2>&1
-
-              ls ./_next
-              ls ./_next/static
 
               cd ..
               rm -rf "${DEST_BRANCH}-branch"
