@@ -27,7 +27,7 @@ jobs:
 
               npm install
 
-              CI="" npm run build
+              CI="" NODE_ENV=production npm run build
 
               SITE_SOURCE="out"
               REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
