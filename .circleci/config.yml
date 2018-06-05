@@ -15,7 +15,7 @@ jobs:
       #       - dependencies-
       - run:
           name: Install dependencies
-          command: NODE_ENV=dev npm install
+          command: npm install
       # - save_cache:
       #     paths:
       #       - node_modules
@@ -24,6 +24,8 @@ jobs:
           name: Deploy
           command: |
               set -e
+
+              npm install --only=dev
 
               CI="" NODE_ENV=production npm run build
 
