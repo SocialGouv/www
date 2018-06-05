@@ -33,12 +33,12 @@ jobs:
               #REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
 
-              ls -R .next/
-              npm ls
+              #ls -R .next/
+              #npm ls
 
-              echo "***"
-              echo $NODE_ENV
-              echo "***"
+              # echo "***"
+              # echo $NODE_ENV
+              # echo "***"
 
               remote=$(git config remote.origin.url)
 
