@@ -15,7 +15,7 @@ jobs:
             - dependencies-
       - run:
           name: Install dependencies
-          command: NODE_ENV=dev npm ci
+          command: NODE_ENV=dev npm install
       - save_cache:
           paths:
             - node_modules
