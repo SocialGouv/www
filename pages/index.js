@@ -7,6 +7,8 @@ import {
   BlocChiffres
 } from "../src/composants";
 
+import "../src/custom.css";
+
 export const CardWIF = () => (
   <Card
     href="/startups/work-in-france"
