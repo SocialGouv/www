@@ -57,8 +57,7 @@ const Homepage = () => (
       <h1>L'incubateur des ministères sociaux, qu'est-ce donc ?</h1>
 
       <p>
-        Qui offenderit rapto, <a href="#">terribilem incessu</a>. The voodoo
-        sacerdos suscitat mortuos comedere carnem.{" "}
+        C'est à la fois un lieu, une démarche et un ensemble de personnes !
       </p>
 
       <h2>Zombie ipsum</h2>
