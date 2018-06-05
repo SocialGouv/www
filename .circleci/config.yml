@@ -25,7 +25,7 @@ jobs:
           command: |
               set -e
 
-              npm install
+              #npm install
 
               CI="" NODE_ENV=production npm run build
 
