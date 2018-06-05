@@ -6,8 +6,6 @@ jobs:
         - dev
     docker:
       - image: circleci/node:8
-    environment:
-      - NODE_ENV: development
     working_directory: ~/repo
     steps:
       - checkout
@@ -17,7 +15,7 @@ jobs:
             - dependencies-
       - run:
           name: Install dependencies
-          command: npm install
+          command: npm install -d
       - save_cache:
           paths:
             - node_modules
