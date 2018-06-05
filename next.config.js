@@ -1,12 +1,21 @@
 const withCSS = require("@zeit/next-css");
 const images = require("remark-images");
 const emoji = require("remark-emoji");
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const extract = new ExtractTextPlugin({ filename: "static/[contenthash].css" });
+//const ExtractTextPlugin = require("extract-text-webpack-plugin");
+//const extract = new ExtractTextPlugin({ filename: "static/[contenthash].css" });
+
+const commonsChunkConfig = require("@zeit/next-css/commons-chunk-config");
+
+// module.exports = withSass(withCss({
+//   webpack(config) {
+//     config = commonsChunkConfig(config, /\.(sass|scss|css)$/);
+//     return config
+//   }
+// }))
 
 module.exports = withCSS({
   pageExtensions: ["js"],
-  extractCSSPlugin: extract,
+  //extractCSSPlugin: extract,
   // webpack: config => {
   //     config.plugins.push(extract);
   //     return config;
@@ -35,7 +44,7 @@ module.exports = withCSS({
   //   return {};
   // },
   webpack: (config, { defaultLoaders }) => {
-    config.plugins.push(extract);
+    config = commonsChunkConfig(config, /\.(css)$/);
     config.module.rules.push({
       test: /\.mdx?$/,
       use: [
