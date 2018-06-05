@@ -9,17 +9,17 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - dependencies-{{ checksum "package.json" }}
-            - dependencies-
+      # - restore_cache:
+      #     keys:
+      #       - dependencies-{{ checksum "package.json" }}
+      #       - dependencies-
       - run:
           name: Install dependencies
           command: npm install
-      - save_cache:
-          paths:
-            - node_modules
-          key: dependencies-{{ checksum "package.json" }}
+      # - save_cache:
+      #     paths:
+      #       - node_modules
+      #     key: dependencies-{{ checksum "package.json" }}
       - deploy:
           name: Deploy
           command: |
