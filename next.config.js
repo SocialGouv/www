@@ -1,9 +1,16 @@
 const withCSS = require("@zeit/next-css");
 const images = require("remark-images");
 const emoji = require("remark-emoji");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const extract = new ExtractTextPlugin({ filename: "static/[contenthash].css" });
 
 module.exports = withCSS({
   pageExtensions: ["js"],
+  extractCSSPlugin: extract,
+  // webpack: config => {
+  //     config.plugins.push(extract);
+  //     return config;
+  // },
   // exportPathMap: () => ({
   //   "/": {
   //     page: "/"
@@ -24,7 +31,11 @@ module.exports = withCSS({
   //     page: "/example"
   //   }
   // }),
+  // exportPathMap: () => {
+  //   return {};
+  // },
   webpack: (config, { defaultLoaders }) => {
+    config.plugins.push(extract);
     config.module.rules.push({
       test: /\.mdx?$/,
       use: [
