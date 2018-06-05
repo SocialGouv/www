@@ -25,6 +25,8 @@ jobs:
           command: |
               set -e
 
+              NODE_ENV=production
+
               npm install
 
               CI="" NODE_ENV=production npm run build
@@ -32,6 +34,10 @@ jobs:
               SITE_SOURCE="out"
               #REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
+
+              echo "***"
+              echo $NODE_ENV
+              echo "***"
 
               remote=$(git config remote.origin.url)
 
