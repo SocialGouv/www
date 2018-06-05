@@ -32,6 +32,7 @@ jobs:
               SITE_SOURCE="out"
               REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
+
               if [ ! -d "$SITE_SOURCE" ]
               then
                   echo "Usage: $0 <site source dir>"
@@ -59,6 +60,9 @@ jobs:
               git add -A
               git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
               git push --force --quiet origin $DEST_BRANCH > /dev/null 2>&1
+
+              ls ./_next
+              ls ./_next/static
 
               cd ..
               rm -rf "${DEST_BRANCH}-branch"
