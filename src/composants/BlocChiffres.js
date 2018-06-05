@@ -50,9 +50,9 @@ const BlocChiffres = () => (
     </BlocChiffre>
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={6} />
+        <ZeroCounter end={9} />
       </div>
-      <div className="texte">mois d'accélération</div>
+      <div className="texte">membres</div>
     </BlocChiffre>
   </div>
 );

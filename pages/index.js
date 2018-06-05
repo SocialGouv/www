@@ -22,10 +22,10 @@ export const CardWIF = () => (
 export const CardMJPM = () => (
   <Card
     href="/startups/e-mjpm"
-    img="/static/images/startups/e-MJPM.jpg"
-    title="e-MJPM"
-    meta="Mai 2018"
-    description="Trouver rapidement le bon professionnel pour les majeurs à protéger."
+    img="/static/images/startups/e-MJPM.jpg" 
+    title="e-MJPM" 
+    meta="Mai 2018" 
+    description="Trouver rapidement le bon professionnel pour les majeurs à protéger." 
   />
 );
 
@@ -39,6 +39,16 @@ export const CardCDTN = () => (
   />
 );
 
+export const CardActuSaison2 = () => (
+   <Card
+    href="/actus/saison2"
+    img="/static/images/startups/TODO.jpg"
+    title="Incubateur - saison 2"
+    meta="Juin 2018"
+    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée. Cliquez pour en savoir plus"
+  />
+);
+
 export const Cards = {
   wif: CardWIF,
   emjpm: CardMJPM,
@@ -49,56 +59,34 @@ const Homepage = () => (
   <Layout>
     <Hero
       title="ASTech.social.gouv.fr"
-      tagline="Bienvenue à l'incubateur des ministères sociaux"
+      tagline="Bienvenue chez l'incubateur des ministères sociaux"
     />
 
     <BlocChiffres />
-    <Article>
-      <h1>L'incubateur des ministères sociaux, qu'est-ce donc ?</h1>
-
-      <p>
-        C'est à la fois un lieu, une démarche et un ensemble de personnes !
-      </p>
-
-      <h2>Zombie ipsum</h2>
-
-      <p>
-        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-        De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo
-        vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
-        Hi mindless mortuis soulless creaturas, imo evil stalking monstra
-        adventus resi dentevil vultus comedat cerebella viventium. Qui animated
-        corpse, cricket bat max brucks terribilem incessu zomby. The voodoo
-        sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi
-        tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains
-        an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv
-        ingdead.
-      </p>
-
-      <h2>Nescio an Undead zombies</h2>
-
-      <p>
-        Cum horribilem walking dead resurgere de crazed sepulcris creaturis,
-        zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe
-        dead scythe animated corpses ipsa screams. Pestilentia est plague haec
-        decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a
-        dolor plan et terror soulless vulnerum contagium accedunt, mortui iam
-        vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia
-        sint terribiles undeath legionis. Alii missing oculis aliorum sicut
-        serpere crabs nostram.
-      </p>
-
-      <p>
-        <strong>
-          Putridi braindead odores kill and infect, aere implent left four dead.
-        </strong>
-      </p><hr/>
-    </Article>
     
-    <Article><hr/>
-	    COUCOU Test<br/>
-	    blablabla
-    </Article> 
+    
+    <Section title="L'incubateur des ministères sociaux, qu'est-ce donc ?" subTitle="Astech" className="section-color">
+      
+
+      <p>
+        C'est à la fois un lieu, une démarche et un ensemble de personnes !<br/>
+        Directement inspiré de l'incubateur beta.gouv.fr, Astech est l'incubateur des ministères sociaux. Il reprend la démarche est les grands principes de beta.gouv, à savoir :<br/>
+			<li>        
+        <ul>Des produits fabriqués par des agents du ministères appelés intrapreneurs, </ul>
+        <ul>Un plateau qui rassemble les développeurs, les coachs, les intrapreneurs</ul>
+        <ul>De la co-construction, des petits pas et des produits utilisables très rapidement</ul>
+         </li>
+        
+      </p>
+    </Section>
+
+	<Section title="Notre actualité" subTitle="">
+     
+      	<div className="row" style={{ color: "black" }}>
+      		<CardActuSaison2 />
+      	</div>
+     
+    </Section>
 
     <a id="produits" name="produits" />
     <Section
