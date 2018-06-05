@@ -35,7 +35,7 @@ jobs:
               #REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
 
-              ls .next/static
+              ls -R .next/
 
               echo "***"
               echo $NODE_ENV
