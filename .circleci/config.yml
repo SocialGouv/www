@@ -25,20 +25,10 @@ jobs:
           command: |
               set -e
 
-              #npm install
-
               CI="" NODE_ENV=production npm run build
 
               SITE_SOURCE="out"
-              #REMOTE="https://github.com/SocialGouv/socialgouv.github.io.git"
               DEST_BRANCH="master"
-
-              #ls -R .next/
-              #npm ls
-
-              # echo "***"
-              # echo $NODE_ENV
-              # echo "***"
 
               remote=$(git config remote.origin.url)
 
@@ -65,9 +55,6 @@ jobs:
 
               cp -a "../${SITE_SOURCE}/." .
               touch .nojekyll
-
-              ls ./_next
-              ls ./_next/static
 
               git add -A
               git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
