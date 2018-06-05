@@ -54,7 +54,7 @@ const Homepage = () => (
 
     <BlocChiffres />
     <Article>
-      <h1>Nos agents au service du public</h1>
+      <h1>L'incubateur des ministères sociaux, qu'est-ce donc ?</h1>
 
       <p>
         Qui offenderit rapto, <a href="#">terribilem incessu</a>. The voodoo
@@ -93,8 +93,13 @@ const Homepage = () => (
         <strong>
           Putridi braindead odores kill and infect, aere implent left four dead.
         </strong>
-      </p>
+      </p><hr/>
     </Article>
+    
+    <Article><hr/>
+	    COUCOU Test<br/>
+	    blablabla
+    </Article> 
 
     <a id="produits" name="produits" />
     <Section
