@@ -60,8 +60,8 @@ export const Cards = {
 const Homepage = () => (
   <Layout>
     <Hero
-      title="IMS.social.gouv.fr"
-      tagline="Bienvenue chez l'incubateur des ministères sociaux"
+      title="Bienvenue chez IMS - l'incubateur des ministères sociaux"
+      tagline="IMS.social.gouv.fr"
     />
 
     <BlocChiffres />
@@ -108,7 +108,7 @@ const Homepage = () => (
                 alt="Illustration fonctionnement Astech"
                 width="600"
                 height="286"
-                style={{ margin: " 0 auto" }}
+                style={{ margin: " 0 auto", borderRadius: "50px" }}
               />
               <br />
               En savoir plus
