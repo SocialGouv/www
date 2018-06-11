@@ -42,10 +42,10 @@ export const CardCDTN = () => (
 export const CardActuSaison2 = () => (
    <Card
     href="/actus/saison2"
-    img="/static/images/startups/TODO.jpg"
+    img="/static/images/saison2.jpg"
     title="Incubateur - saison 2"
     meta="Juin 2018"
-    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée. Cliquez pour en savoir plus"
+    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) Cliquez sur le titre pour en savoir plus"
   />
 );
 
@@ -58,26 +58,39 @@ export const Cards = {
 const Homepage = () => (
   <Layout>
     <Hero
-      title="ASTech.social.gouv.fr"
+      title="IMS.social.gouv.fr"
       tagline="Bienvenue chez l'incubateur des ministères sociaux"
     />
 
     <BlocChiffres />
     
     
-    <Section title="L'incubateur des ministères sociaux, qu'est-ce donc ?" subTitle="Astech" className="section-color">
+    <Section title="L'incubateur des ministères sociaux, qu'est-ce donc ?" subTitle="IMS" className="section-color">
       
 
       <p>
         C'est à la fois un lieu, une démarche et un ensemble de personnes !<br/>
-        Directement inspiré de l'incubateur beta.gouv.fr, Astech est l'incubateur des ministères sociaux. Il reprend la démarche est les grands principes de beta.gouv, à savoir :<br/>
+        Directement inspiré de l'incubateur <a href="beta.gouv.fr" target="_blank">beta.gouv</a>, Astech est l'incubateur des ministères sociaux. Il reprend la démarche et les grands principes de beta.gouv, à savoir :<br/>
 			<li>        
-        <ul>Des produits fabriqués par des agents du ministères appelés intrapreneurs, </ul>
-        <ul>Un plateau qui rassemble les développeurs, les coachs, les intrapreneurs</ul>
-        <ul>De la co-construction, des petits pas et des produits utilisables très rapidement</ul>
+        		<ul>Des produits fabriqués par des agents du ministères appelés intrapreneurs </ul>
+        		<ul>Un plateau qui rassemble les développeurs, les coachs, les intrapreneurs et bien d'autres ;)</ul>
+        		<ul>De la co-construction, des petits pas et des produits utilisables très rapidement</ul>
          </li>
-        
+        L'incubateur offre ainsi l'opportunité de tester de nouveaux modes de conception de services, plus simples, plus agiles et en proximité avec les usagers !
+      <br/><br/>
+
+		<img src="../static/images/schema%20inc%201%20v1.png" alt="Illustration fonctionnement Astech" width="600" height="286"/><br/><br/>
+		
+      Témoins d’irritants récurrents pour les usagers du service public et/ou les agents de l’Etat ? 
+      Idée de services numériques pouvant remédier au problème identifié ? 
+      Ces questions simples mais novatrices, directement posées aux agents, ont permis de remonter 138 candidatures à l’appel à candidatures de l’incubateur à l’automne 2017. 
+      <br/>Deux premiers projets ont été retenus, les deux start-up d’Etat ont été créées en décembre 2017, rejointes deux mois plus tard, par une troisième.
+
+      <br/>Un nouvel appel à candidature va avoir lieu en octobre 2018. 
+      Il donnera naissance à deux nouvelles start-up d’État pour lesquelles les développements débuteront en janvier 2019.
+
       </p>
+      
     </Section>
 
 	<Section title="Notre actualité" subTitle="">
