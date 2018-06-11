@@ -108,7 +108,7 @@ const Homepage = () => (
                 alt="Illustration fonctionnement Astech"
                 width="600"
                 height="286"
-                style={{ margin: " 0 auto" }}
+                style={{ margin: " 0 auto", borderRadius: "50px" }}
               />
               <br />
               En savoir plus
