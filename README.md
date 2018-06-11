@@ -2,6 +2,11 @@
 
 Actu de l'incubateur du Ministère des affaires sociales
 
+## Editer le site
+
+ - éditer les pages dans `./pages`
+ - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
+
 ## Dev
 
 Le site est statique et généré avec [next.js](https://github.com/zeit/next.js)
