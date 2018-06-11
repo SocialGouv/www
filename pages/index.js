@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
   Article,
   Card,
@@ -39,6 +41,16 @@ export const CardCDTN = () => (
   />
 );
 
+export const CardActuSaison2 = () => (
+  <Card
+    href="/actus/saison2"
+    img="/static/images/saison2.jpg"
+    title="Incubateur - saison 2"
+    meta="Juin 2018"
+    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) Cliquez sur le titre pour en savoir plus"
+  />
+);
+
 export const Cards = {
   wif: CardWIF,
   emjpm: CardMJPM,
@@ -48,58 +60,95 @@ export const Cards = {
 const Homepage = () => (
   <Layout>
     <Hero
-      title="ASTech.social.gouv.fr"
-      tagline="Bienvenue à l'incubateur des ministères sociaux"
+      title="IMS.social.gouv.fr"
+      tagline="Bienvenue chez l'incubateur des ministères sociaux"
     />
 
     <BlocChiffres />
-    <Article>
-      <h1>L'incubateur des ministères sociaux, qu'est-ce donc ?</h1>
 
-      <p>
-        Qui offenderit rapto, <a href="#">terribilem incessu</a>. The voodoo
-        sacerdos suscitat mortuos comedere carnem.{" "}
-      </p>
+    <Section
+      title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
+      subTitle=""
+      className="section-color"
+    >
+      <div className="container">
+        <br />
+        C'est à la fois un lieu, une démarche et un ensemble de personnes !<br
+        />
+        <br />
+        Directement inspiré de l'incubateur{" "}
+        <a href="http://beta.gouv.fr" target="_blank">
+          beta.gouv
+        </a>, Astech est l'incubateur des ministères sociaux. Il reprend la
+        démarche et les grands principes de beta.gouv, à savoir :<br />
+        <ul>
+          <li>
+            Des produits fabriqués par des agents du ministères appelés
+            intrapreneurs{" "}
+          </li>
+          <li>
+            Un plateau qui rassemble les développeurs, les coachs, les
+            intrapreneurs et bien d'autres ;)
+          </li>
+          <li>
+            De la co-construction, des petits pas et des produits utilisables
+            très rapidement
+          </li>
+        </ul>
+        L'incubateur offre ainsi l'opportunité de tester de nouveaux modes de
+        conception de services, plus simples, plus agiles et en proximité avec
+        les usagers !
+        <br />
+        <br />
+        <Link href="/fonctionnement-incubateur">
+          <a>
+            <div style={{ textAlign: "center" }}>
+              <img
+                src="../static/images/schema%20inc%201%20v1.png"
+                alt="Illustration fonctionnement Astech"
+                width="600"
+                height="286"
+                style={{ margin: " 0 auto" }}
+              />
+              <br />
+              En savoir plus
+            </div>
+          </a>
+        </Link>
+        {/*
+        <p>
+          Témoins d’irritants récurrents pour les usagers du service public
+          et/ou les agents de l’Etat ?
+        </p>
+        <p>
+          Idée de services numériques pouvant remédier au problème identifié ?
+        </p>
 
-      <h2>Zombie ipsum</h2>
+        <p>
+          Ces questions simples mais novatrices, directement posées aux agents,
+          ont permis de remonter 138 candidatures à l’appel à candidatures de
+          l’incubateur à l’automne 2017.
+        </p>
+        <p>
+          {" "}
+          Deux premiers projets ont été retenus, les deux start-up d’Etat ont
+          été créées en décembre 2017, rejointes deux mois plus tard, par une
+          troisième.
+        </p>
+        <p>
+          Un nouvel appel à candidature va avoir lieu en octobre 2018. Il
+          donnera naissance à deux nouvelles start-up d’État pour lesquelles les
+          développements débuteront en janvier 2019.
+        </p>
+        */}
+      </div>
+    </Section>
 
-      <p>
-        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-        De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo
-        vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
-        Hi mindless mortuis soulless creaturas, imo evil stalking monstra
-        adventus resi dentevil vultus comedat cerebella viventium. Qui animated
-        corpse, cricket bat max brucks terribilem incessu zomby. The voodoo
-        sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi
-        tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains
-        an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv
-        ingdead.
-      </p>
-
-      <h2>Nescio an Undead zombies</h2>
-
-      <p>
-        Cum horribilem walking dead resurgere de crazed sepulcris creaturis,
-        zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe
-        dead scythe animated corpses ipsa screams. Pestilentia est plague haec
-        decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a
-        dolor plan et terror soulless vulnerum contagium accedunt, mortui iam
-        vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia
-        sint terribiles undeath legionis. Alii missing oculis aliorum sicut
-        serpere crabs nostram.
-      </p>
-
-      <p>
-        <strong>
-          Putridi braindead odores kill and infect, aere implent left four dead.
-        </strong>
-      </p><hr/>
-    </Article>
-    
-    <Article><hr/>
-	    COUCOU Test<br/>
-	    blablabla
-    </Article> 
+    <Section title="Notre actualité" subTitle="">
+      <div className="row" style={{ color: "black" }}>
+        <CardActuSaison2 />
+      </div>
+    </Section>
 
     <a id="produits" name="produits" />
     <Section

@@ -5,3 +5,5 @@ out
 *.js~
 
 npm-debug\.log
+
+*.css~

@@ -1,5 +1,14 @@
 import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import { ServerStyleSheet, injectGlobal } from "styled-components";
+
+import "../src/custom.css";
+
+injectGlobal`
+
+* {
+  font-display: swap;
+}
+`;
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -19,11 +28,11 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, user-scalable=no"
           />
+          <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/etalab/template.data.gouv.fr/master/src/main.css"
           />
-          <link rel="stylesheet" href="/_next/static/style.css" />
           {this.props.styleTags}
         </Head>
         <body>
