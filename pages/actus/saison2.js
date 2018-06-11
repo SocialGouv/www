@@ -18,7 +18,7 @@ const Saison2 = () => (
       tagline="Appel à candidatures : participez !"
     />
     
-      <Section title="Devenez entrepreneur d'une Startup d'État !" subTitle="Mode d'emploi" className="section-color">
+      <Section title="Devenez <span data-tip='responsable des développements techniques, biz et autres'>intrapreneur</span> d'une Startup d'État !" subTitle="Mode d'emploi" className="section-color">
       
       Vous êtes témoin d’irritants récurrents pour les usagers ou les agents de votre service? Vous avez une idée de solution numérique qui permettrait d’y remédier? Vous êtes prêt(e) à vous investir aux cotés d’une équipe mobilisée pendant six mois pour réussir? Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de résoudre un vrai problème ? 
       Proposez votre idée sur cette plateforme et devenez entrepreneur(se) d'une Startup d'État !<br/>
