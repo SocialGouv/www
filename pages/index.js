@@ -98,15 +98,21 @@ const Homepage = () => (
         les usagers !
         <br />
         <br />
-        <div style={{ textAlign: "center" }}>
-          <img
-            src="../static/images/schema%20inc%201%20v1.png"
-            alt="Illustration fonctionnement Astech"
-            width="600"
-            height="286"
-            style={{ margin: " 0 auto" }}
-          />
-        </div>
+        <a href="">
+	        <div style={{ textAlign: "center" }}>
+	          <img
+	            src="../static/images/schema%20inc%201%20v1.png"
+	            alt="Illustration fonctionnement Astech"
+	            width="600"
+	            height="286"
+	            style={{ margin: " 0 auto" }}
+	          />
+	          <br/>
+	          En savoir plus
+	        </div>
+	        
+        </a>
+		  {/*        
         <p>
           Témoins d’irritants récurrents pour les usagers du service public
           et/ou les agents de l’Etat ?
@@ -114,6 +120,7 @@ const Homepage = () => (
         <p>
           Idée de services numériques pouvant remédier au problème identifié ?
         </p>
+        
         <p>
           Ces questions simples mais novatrices, directement posées aux agents,
           ont permis de remonter 138 candidatures à l’appel à candidatures de
@@ -130,6 +137,7 @@ const Homepage = () => (
           donnera naissance à deux nouvelles start-up d’État pour lesquelles les
           développements débuteront en janvier 2019.
         </p>
+        */}
       </div>
     </Section>
 
