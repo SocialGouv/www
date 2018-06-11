@@ -20,13 +20,13 @@ const Fonctionnement = () => (
     
       <Section title="De A à Z" subTitle="Toutes les étapes" className="section-color">
 		<div className="container">      
-      		<div style={{ textAlign: "center" }}>
+      		<div style={{ textAlign: "center" }} >
 	         	 <img
 	            	src="../static/images/schema%20inc%201%20v1.png"
 		            alt="Illustration fonctionnement Astech"
 		            width="600"
 	   	         height="286"
-	      	      style={{ margin: " 0 auto" }}
+	      	      style={{ margin: " 0 auto", borderRadius: "10px" }}
 	         	 />
 	   		</div>
 	   </div>
@@ -40,7 +40,7 @@ const Fonctionnement = () => (
 		            alt="Illustration fonctionnement Astech"
 		            width="70%"
 	   	         height=""
-	      	      style={{ margin: " 0 auto" }}
+	      	      style={{ margin: " 0 auto", borderRadius: "10px" }}
 	         	 />
 	   		</div>
 	   </div>
@@ -55,7 +55,7 @@ const Fonctionnement = () => (
 		            alt="Illustration fonctionnement Astech"
 		            width="70%"
 	   	         height=""
-	      	      style={{ margin: " 0 auto" }}
+	      	      style={{ margin: " 0 auto", borderRadius: "10px" }}
 	         	 />
 	   		</div>
 	   </div>
@@ -70,7 +70,7 @@ const Fonctionnement = () => (
 		            alt="Illustration fonctionnement Astech"
 		            width="70%"
 	   	         height=""
-	      	      style={{ margin: " 0 auto" }}
+	      	      style={{ margin: " 0 auto", borderRadius: "10px" }}
 	         	 />
 	   		</div>
 	   </div>
@@ -84,7 +84,7 @@ const Fonctionnement = () => (
 		            alt="Illustration fonctionnement Astech"
 		            width="80%"
 	   	         height=""
-	      	      style={{ margin: " 0 auto" }}
+	      	      style={{ margin: " 0 auto", borderRadius: "10px" }}
 	         	 />
 	   		</div>
 	   </div>
