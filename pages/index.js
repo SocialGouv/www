@@ -22,10 +22,10 @@ export const CardWIF = () => (
 export const CardMJPM = () => (
   <Card
     href="/startups/e-mjpm"
-    img="/static/images/startups/e-MJPM.jpg" 
-    title="e-MJPM" 
-    meta="Mai 2018" 
-    description="Trouver rapidement le bon professionnel pour les majeurs à protéger." 
+    img="/static/images/startups/e-MJPM.jpg"
+    title="e-MJPM"
+    meta="Mai 2018"
+    description="Trouver rapidement le bon professionnel pour les majeurs à protéger."
   />
 );
 
@@ -40,7 +40,7 @@ export const CardCDTN = () => (
 );
 
 export const CardActuSaison2 = () => (
-   <Card
+  <Card
     href="/actus/saison2"
     img="/static/images/saison2.jpg"
     title="Incubateur - saison 2"
@@ -63,42 +63,80 @@ const Homepage = () => (
     />
 
     <BlocChiffres />
-    
-    
-    <Section title="L'incubateur des ministères sociaux, qu'est-ce donc ?" subTitle="IMS" className="section-color">
-      
 
-      <p>
-        C'est à la fois un lieu, une démarche et un ensemble de personnes !<br/>
-        Directement inspiré de l'incubateur <a href="beta.gouv.fr" target="_blank">beta.gouv</a>, Astech est l'incubateur des ministères sociaux. Il reprend la démarche et les grands principes de beta.gouv, à savoir :<br/>
-			<li>        
-        		<ul>Des produits fabriqués par des agents du ministères appelés intrapreneurs </ul>
-        		<ul>Un plateau qui rassemble les développeurs, les coachs, les intrapreneurs et bien d'autres ;)</ul>
-        		<ul>De la co-construction, des petits pas et des produits utilisables très rapidement</ul>
-         </li>
-        L'incubateur offre ainsi l'opportunité de tester de nouveaux modes de conception de services, plus simples, plus agiles et en proximité avec les usagers !
-      <br/><br/>
-
-		<img src="../static/images/schema%20inc%201%20v1.png" alt="Illustration fonctionnement Astech" width="600" height="286"/><br/><br/>
-		
-      Témoins d’irritants récurrents pour les usagers du service public et/ou les agents de l’Etat ? 
-      Idée de services numériques pouvant remédier au problème identifié ? 
-      Ces questions simples mais novatrices, directement posées aux agents, ont permis de remonter 138 candidatures à l’appel à candidatures de l’incubateur à l’automne 2017. 
-      <br/>Deux premiers projets ont été retenus, les deux start-up d’Etat ont été créées en décembre 2017, rejointes deux mois plus tard, par une troisième.
-
-      <br/>Un nouvel appel à candidature va avoir lieu en octobre 2018. 
-      Il donnera naissance à deux nouvelles start-up d’État pour lesquelles les développements débuteront en janvier 2019.
-
-      </p>
-      
+    <Section
+      title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
+      subTitle=""
+      className="section-color"
+    >
+      <div className="container">
+        <br />
+        C'est à la fois un lieu, une démarche et un ensemble de personnes !<br
+        />
+        <br />
+        Directement inspiré de l'incubateur{" "}
+        <a href="http://beta.gouv.fr" target="_blank">
+          beta.gouv
+        </a>, Astech est l'incubateur des ministères sociaux. Il reprend la
+        démarche et les grands principes de beta.gouv, à savoir :<br />
+        <ul>
+          <li>
+            Des produits fabriqués par des agents du ministères appelés
+            intrapreneurs{" "}
+          </li>
+          <li>
+            Un plateau qui rassemble les développeurs, les coachs, les
+            intrapreneurs et bien d'autres ;)
+          </li>
+          <li>
+            De la co-construction, des petits pas et des produits utilisables
+            très rapidement
+          </li>
+        </ul>
+        L'incubateur offre ainsi l'opportunité de tester de nouveaux modes de
+        conception de services, plus simples, plus agiles et en proximité avec
+        les usagers !
+        <br />
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            src="../static/images/schema%20inc%201%20v1.png"
+            alt="Illustration fonctionnement Astech"
+            width="600"
+            height="286"
+            style={{ margin: " 0 auto" }}
+          />
+        </div>
+        <p>
+          Témoins d’irritants récurrents pour les usagers du service public
+          et/ou les agents de l’Etat ?
+        </p>
+        <p>
+          Idée de services numériques pouvant remédier au problème identifié ?
+        </p>
+        <p>
+          Ces questions simples mais novatrices, directement posées aux agents,
+          ont permis de remonter 138 candidatures à l’appel à candidatures de
+          l’incubateur à l’automne 2017.
+        </p>
+        <p>
+          {" "}
+          Deux premiers projets ont été retenus, les deux start-up d’Etat ont
+          été créées en décembre 2017, rejointes deux mois plus tard, par une
+          troisième.
+        </p>
+        <p>
+          Un nouvel appel à candidature va avoir lieu en octobre 2018. Il
+          donnera naissance à deux nouvelles start-up d’État pour lesquelles les
+          développements débuteront en janvier 2019.
+        </p>
+      </div>
     </Section>
 
-	<Section title="Notre actualité" subTitle="">
-     
-      	<div className="row" style={{ color: "black" }}>
-      		<CardActuSaison2 />
-      	</div>
-     
+    <Section title="Notre actualité" subTitle="">
+      <div className="row" style={{ color: "black" }}>
+        <CardActuSaison2 />
+      </div>
     </Section>
 
     <a id="produits" name="produits" />

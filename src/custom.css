@@ -17,6 +17,11 @@
   text-align: right;
 }
 
+section.section-color a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media (max-width: 549px) {
   .navbar__container nav {
     margin-top: 2em;
@@ -33,3 +38,4 @@
     font-size: 0.9em;
   }
 }
+

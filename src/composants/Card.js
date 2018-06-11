@@ -18,7 +18,7 @@ const Card = ({ href, img, title, meta, description }) => (
       <div className="card__meta">
         <time>{meta}</time>
       </div>
-      <p>{description}</p>
+      <p dangerouslySetInnerHTML={{ __html: description }} />
     </div>
   </div>
 );
