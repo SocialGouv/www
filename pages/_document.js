@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
     return (
       <html lang="fr">
         <Head>
-          <title>ASTech - L'incubateur des affaires sociales</title>
+          <title>L'incubateur des affaires sociales</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=no"

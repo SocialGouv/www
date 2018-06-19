@@ -35,19 +35,29 @@ export const CardCDTN = () => (
   <Card
     href="/startups/code-du-travail-numerique"
     img="/static/images/startups/code-du-travail-numerique.jpg"
-    title="Code du travail Numérique"
+    title="Code du travail numérique"
     meta="Juin 2018"
     description="Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s."
   />
 );
 
-export const CardActuSaison2 = () => (
+const CardActuSaison2 = () => (
   <Card
     href="/actus/saison2"
     img="/static/images/saison2.jpg"
     title="Incubateur - saison 2"
     meta="Juin 2018"
     description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) Cliquez sur le titre pour en savoir plus"
+  />
+);
+
+const CardActuCDTN1 = () => (
+  <Card
+    href="/actus/article-cdtn1"
+    img="/static/images/complexite.jpg"
+    title="CDTN - une problématique complexe"
+    meta="Juin 2018"
+    description="Nous nous lançons dans une série d'articles pour tout connaitre du produit 'code du travail numérique' - CDTN pour les intimes. Ce premier article présente les multiples problématiques et le challenge que représente la modélisation informatique du code du travail."
   />
 );
 
@@ -60,8 +70,8 @@ export const Cards = {
 const Homepage = () => (
   <Layout>
     <Hero
-      title="Bienvenue chez IMS - l'incubateur des ministères sociaux"
-      tagline="IMS.social.gouv.fr"
+      title="Bienvenue à l'incubateur des ministères sociaux"
+      tagline="incubateur.social.gouv.fr"
     />
 
     <BlocChiffres />
@@ -79,11 +89,11 @@ const Homepage = () => (
         Directement inspiré de l'incubateur{" "}
         <a href="http://beta.gouv.fr" target="_blank">
           beta.gouv
-        </a>, Astech est l'incubateur des ministères sociaux. Il reprend la
+        </a>, l'incubateur des ministères sociaux reprend la
         démarche et les grands principes de beta.gouv, à savoir :<br />
         <ul>
           <li>
-            Des produits fabriqués par des agents du ministères appelés
+            Des produits fabriqués par des agents appelés
             intrapreneurs{" "}
           </li>
           <li>
@@ -105,7 +115,7 @@ const Homepage = () => (
             <div style={{ textAlign: "center" }}>
               <img
                 src="../static/images/schema%20inc%201%20v1.png"
-                alt="Illustration fonctionnement Astech"
+                alt="Illustration fonctionnement IMS"
                 width="600"
                 height="286"
                 style={{ margin: " 0 auto", borderRadius: "50px" }}
@@ -147,8 +157,13 @@ const Homepage = () => (
     <Section title="Notre actualité" subTitle="">
       <div className="row" style={{ color: "black" }}>
         <CardActuSaison2 />
+        <CardActuCDTN1 />
+        
       </div>
+      
     </Section>
+    <p align="center">Voir toutes actus</p>
+    
 
     <a id="produits" name="produits" />
     <Section
