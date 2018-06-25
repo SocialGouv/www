@@ -23,6 +23,23 @@ export default class MyDocument extends Document {
     return (
       <html lang="fr">
         <Head>
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/images/favicons/apple-icon-180x180.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/images/favicons/favicon-16x16.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/images/favicons/favicon-32x32.png"
+          />
           <title>L'incubateur des affaires sociales</title>
           <meta
             name="viewport"

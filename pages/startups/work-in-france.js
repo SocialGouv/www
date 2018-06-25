@@ -1,5 +1,4 @@
-import { BlocCards, Layout } from "../../src/composants";
-import { Cards } from "../index";
+import { BlocCards, Layout, Cards } from "../../src/composants";
 
 export default () => (
   <Layout>

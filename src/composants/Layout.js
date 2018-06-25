@@ -1,5 +1,10 @@
-import { Footer, Header, SvgIcons } from ".";
+import { Footer, Header, SvgIcons, GenericLink } from ".";
 import ReactTooltip from "react-tooltip";
+import { MDXProvider } from "@mdx-js/tag";
+
+const components = {
+  a: GenericLink
+};
 
 const headerLinks = [
   {
@@ -63,7 +68,10 @@ export default class Layout extends React.Component {
           subTitle="L'incubateur des ministères sociaux"
           links={headerLinks}
         />
-        {this.props.children}
+
+        <MDXProvider components={components}>
+          <div>{this.props.children}</div>
+        </MDXProvider>
         <Footer title="incubateur.social.gouv.fr" links={footerLinks}>
           <div style={{ textAlign: "center" }}>
             <iframe
