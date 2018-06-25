@@ -2,6 +2,8 @@
 
 Actu de l'incubateur du Ministère des affaires sociales
 
+⚠ La branche par défaut est `dev`
+
 ## Editer le site
 
  - éditer les pages dans `./pages`

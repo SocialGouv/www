@@ -1,23 +1,11 @@
 const withCSS = require("@zeit/next-css");
-const images = require("remark-images");
-const emoji = require("remark-emoji");
+const withMDX = require("@zeit/next-mdx");
 
-module.exports = withCSS({
-  pageExtensions: ["js"],
-  webpack: (config, { defaultLoaders }) => {
-    config.module.rules.push({
-      test: /\.mdx?$/,
-      use: [
-        defaultLoaders.babel,
-        {
-          loader: "@mdx-js/loader",
-          options: {
-            mdPlugins: [images, emoji]
-          }
-        }
-      ]
-    });
-
-    return config;
-  }
-});
+module.exports = withMDX({
+  extension: /\.(md|mdx)?$/
+})(
+  withCSS({
+    pageExtensions: ["js", "mdx"],
+    assetPrefix: ""
+  })
+);
