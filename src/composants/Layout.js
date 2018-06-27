@@ -59,12 +59,12 @@ export default class Layout extends React.Component {
       <React.Fragment>
         <SvgIcons />
         <Header
-          title="ASTech.social.gouv.fr"
+          title="incubateur.social.gouv.fr"
           subTitle="L'incubateur des ministères sociaux"
           links={headerLinks}
         />
         {this.props.children}
-        <Footer title="ASTech.social.gouv.fr" links={footerLinks}>
+        <Footer title="incubateur.social.gouv.fr" links={footerLinks}>
           <div style={{ textAlign: "center" }}>
             <iframe
               title="souscrire à la newsletter"

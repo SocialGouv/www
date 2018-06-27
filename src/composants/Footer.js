@@ -41,7 +41,7 @@ export default ({
           </li>
           <li>
             <a
-              href="mailto:contact@astech.social.gouv.fr"
+              href="mailto:contact@incubateur.social.gouv.fr"
               title="Nous écrire un mail"
             >
               <svg className="icon icon-mail">

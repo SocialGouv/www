@@ -62,7 +62,7 @@ const Fonctionnement = () => (
       </Section>
 
 
-      <Section title="Création des startup" subTitle="En un peu plus de 7 jours" >
+      <Section title="Création des startups" subTitle="En un peu plus de 7 jours" >
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img
@@ -76,7 +76,7 @@ const Fonctionnement = () => (
 	   </div>
       </Section>
       
-      <Section title="Phases d'incubation" subTitle="ça fait pas mal" className="section-color">
+      <Section title="Phases d'incubation" subTitle="Ca fait pas mal" className="section-color">
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img

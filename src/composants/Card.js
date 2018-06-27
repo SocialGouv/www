@@ -12,7 +12,7 @@ const Card = ({ href, img, title, meta, description }) => (
     <div className="card__content">
       <h3>
         <Link href={href}>
-          <a style={{ cursor: "pointer" }}>{title}</a>
+          <a style={{ cursor: "pointer", color : "black" }}>{title}</a>
         </Link>
       </h3>
       <div className="card__meta">
