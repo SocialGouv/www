@@ -2,8 +2,10 @@ const withCSS = require("@zeit/next-css");
 
 const withMDX = require("@zeit/next-mdx")({
   options: {
-    mdPlugins: [require("remark-autolink-headings")],
-    hastPlugins: [require("rehype-autolink-headings")]
+    mdPlugins: [
+      require("remark-autolink-headings"),
+      require("remark-highlight.js")
+    ]
   }
 });
 

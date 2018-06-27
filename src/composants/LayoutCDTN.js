@@ -1,6 +1,5 @@
 import { Section, BlocCards, LayoutArticle, Cards } from ".";
 import Link from "next/link";
-import Head from "next/head";
 import { withRouter } from "next/router";
 
 const articles = [
@@ -66,10 +65,7 @@ const Links = withRouter(({ router }) => (
 const footer = <BlocCards cards={[Cards.wif, Cards.emjpm]} />;
 
 const LayoutCDTN = ({ meta, children }) => (
-  <LayoutArticle footer={footer}>
-    <Head>
-      <title>{meta.title}</title>
-    </Head>
+  <LayoutArticle footer={footer} meta={meta}>
     <div>{children}</div>
     <Links />
   </LayoutArticle>

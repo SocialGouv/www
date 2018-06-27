@@ -9,6 +9,12 @@ Actu de l'incubateur du Ministère des affaires sociales
  - éditer les pages dans `./pages`
  - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
 
+Les fichiers peuvent être au format `.js` ou `.mdx`
+
+Pour trouver des 📷 : https://unsplash.com
+
+Commiter les changements sur branche dédiée et faire une pull request sur GitHub.
+
 ## Dev
 
 Le site est statique et généré avec [next.js](https://github.com/zeit/next.js)

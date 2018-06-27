@@ -48,7 +48,11 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
-            href="//cdn.rawgit.com/etalab/template.data.gouv.fr/master/src/main.css"
+            href="//cdn.rawgit.com/etalab/template.data.gouv.fr/8eda9f3d4230fa6162a91172b0e013a04516a11e/src/main.css"
+          />
+          <link
+            rel="stylesheet"
+            href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
           />
           {this.props.styleTags}
         </Head>
