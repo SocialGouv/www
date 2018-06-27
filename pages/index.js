@@ -54,7 +54,7 @@ const CardActuSaison2 = () => (
 const CardActuCDTN1 = () => (
   <Card
     href="/actus/article-cdtn1"
-    img="/static/images/complexite.jpg"
+    img="/static/images/complexite.png"
     title="CDTN - une problématique complexe"
     meta="Juin 2018"
     description="Nous nous lançons dans une série d'articles pour tout connaitre du produit 'code du travail numérique' - CDTN pour les intimes. Ce premier article présente les multiples problématiques et le challenge que représente la modélisation informatique du code du travail."
@@ -86,15 +86,17 @@ const Homepage = () => (
         C'est à la fois un lieu, une démarche et un ensemble de personnes !<br
         />
         <br />
-        Directement inspiré de l'incubateur{" "}
+        L'incubateur des ministères sociaux reprend la
+        démarche et les grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank">
           beta.gouv
-        </a>, l'incubateur des ministères sociaux reprend la
-        démarche et les grands principes de beta.gouv, à savoir :<br />
+        </a>, à savoir :<br />
         <ul>
+        	 <li>
+        	 Un leitmotiv : la résolution d’irritants dont vous êtes témoin
+        	 </li>
           <li>
-            Des produits fabriqués par des agents appelés
-            intrapreneurs{" "}
+            Des produits fabriqués par des agents <a href="/actus/saison2">"intrapreneurs"</a>{" "}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
