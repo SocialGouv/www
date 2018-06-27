@@ -24,7 +24,7 @@ const CardActuSaison2 = () => (
 
 const CardActuCDTN1 = () => (
   <Card
-    href="/actus/article-cdtn1"
+    href="/startups/code-du-travail-numerique"
     img="/static/images/complexite.png"
     title="CDTN - une problématique complexe"
     meta="Juin 2018"
