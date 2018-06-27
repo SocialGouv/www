@@ -39,3 +39,31 @@ section.section-color a {
   }
 }
 
+article,
+.article__container {
+  max-width: 50em !important;
+}
+
+article blockquote {
+  border-left: 2px solid silver;
+  padding-left: 2em;
+  font-style: italic;
+  margin-bottom: 2em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+article img {
+  max-width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+span[data-tip] {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

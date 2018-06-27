@@ -7,14 +7,11 @@ const HeroContainer = styled.div`
   background-repeat: no-repeat;
 `;
 
-export const Hero = ({
-  title = "Titre chili con carne",
-  tagline = "Tagline libérer les données sans effort et sur data.gouv.fr"
-}) => (
-  <HeroContainer className="hero">
+export const Hero = ({ title, tagline, style, alt }) => (
+  <HeroContainer className="hero" style={style} title={alt}>
     <div className="hero__container">
-      <h1 className="hero__white-background">{title}</h1>
-      <p className="hero__white-background">{tagline}</p>
+      {(title && <h1 className="hero__white-background">{title}</h1>) || null}
+      {(tagline && <p className="hero__white-background">{tagline}</p>) || null}
     </div>
   </HeroContainer>
 );

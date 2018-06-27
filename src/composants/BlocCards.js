@@ -1,4 +1,4 @@
-const BlocCards = ({ title = "Autre articles", cards }) => (
+const BlocCards = ({ title = "Nos autres startups", cards }) => (
   <section className="section-color">
     <div className="container">
       <h1>{title}</h1>

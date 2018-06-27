@@ -3,6 +3,7 @@ import Link from "next/link";
 import {
   Article,
   Card,
+  Cards,
   Hero,
   Layout,
   Section,
@@ -10,36 +11,6 @@ import {
 } from "../src/composants";
 
 import "../src/custom.css";
-
-export const CardWIF = () => (
-  <Card
-    href="/startups/work-in-france"
-    img="/static/images/startups/work-in-france.jpg"
-    title="Work In France"
-    meta="Avril 2018"
-    description="La plateforme de demande d'autorisation provisoire de travail pour les étudiants étrangers."
-  />
-);
-
-export const CardMJPM = () => (
-  <Card
-    href="/startups/e-mjpm"
-    img="/static/images/startups/e-MJPM.jpg"
-    title="e-MJPM"
-    meta="Mai 2018"
-    description="Trouver rapidement le bon professionnel pour les majeurs à protéger."
-  />
-);
-
-export const CardCDTN = () => (
-  <Card
-    href="/startups/code-du-travail-numerique"
-    img="/static/images/startups/code-du-travail-numerique.jpg"
-    title="Code du travail numérique"
-    meta="Juin 2018"
-    description="Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s."
-  />
-);
 
 const CardActuSaison2 = () => (
   <Card
@@ -53,19 +24,13 @@ const CardActuSaison2 = () => (
 
 const CardActuCDTN1 = () => (
   <Card
-    href="/actus/article-cdtn1"
+    href="/startups/code-du-travail-numerique"
     img="/static/images/complexite.png"
     title="CDTN - une problématique complexe"
     meta="Juin 2018"
     description="Nous nous lançons dans une série d'articles pour tout connaitre du produit 'code du travail numérique' - CDTN pour les intimes. Ce premier article présente les multiples problématiques et le challenge que représente la modélisation informatique du code du travail."
   />
 );
-
-export const Cards = {
-  wif: CardWIF,
-  emjpm: CardMJPM,
-  cdtn: CardCDTN
-};
 
 const Homepage = () => (
   <Layout>
@@ -86,17 +51,18 @@ const Homepage = () => (
         C'est à la fois un lieu, une démarche et un ensemble de personnes !<br
         />
         <br />
-        L'incubateur des ministères sociaux reprend la
-        démarche et les grands principes de{" "}
+        L'incubateur des ministères sociaux reprend la démarche et les grands
+        principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank">
           beta.gouv
         </a>, à savoir :<br />
         <ul>
-        	 <li>
-        	 Un leitmotiv : la résolution d’irritants dont vous êtes témoin
-        	 </li>
           <li>
-            Des produits fabriqués par des agents <a href="/actus/saison2">"intrapreneurs"</a>{" "}
+            Un leitmotiv : la résolution d’irritants dont vous êtes témoin
+          </li>
+          <li>
+            Des produits fabriqués par des agents{" "}
+            <a href="/actus/saison2">"intrapreneurs"</a>{" "}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
@@ -160,12 +126,9 @@ const Homepage = () => (
       <div className="row" style={{ color: "black" }}>
         <CardActuSaison2 />
         <CardActuCDTN1 />
-        
       </div>
-      
     </Section>
     <p align="center">Voir toutes actus</p>
-    
 
     <a id="produits" name="produits" />
     <Section
@@ -174,9 +137,9 @@ const Homepage = () => (
       subTitle="Découvrez les produits conçus par nos agents"
     >
       <div className="row" style={{ color: "black" }}>
-        <CardWIF />
-        <CardMJPM />
-        <CardCDTN />
+        <Cards.wif />
+        <Cards.emjpm />
+        <Cards.cdtn />
       </div>
     </Section>
   </Layout>
