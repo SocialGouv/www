@@ -11,9 +11,9 @@ const LayoutArticle = ({ meta, footer, children }) => (
       meta.hero.background && (
         <Hero
           style={{ backgroundImage: `url(${meta.hero.background})` }}
-          title=""
+          title={meta.hero.title}
           alt={meta.hero.alt}
-          tagline=""
+          tagline={meta.hero.tagline}
         />
       )) ||
       null}
