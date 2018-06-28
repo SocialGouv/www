@@ -14,11 +14,12 @@ import "../src/custom.css";
 const Fonctionnement = () => (
   <Layout>
     <Hero
+      style= {{backgroundImage: `url(/static/images/etapes.jpg)`}} 
       title="L'incubateur des ministères sociaux"
       tagline="Comment ça marche ?"
     />
     
-      <Section title="De A à Z" subTitle="Toutes les étapes" className="section-color">
+      <Section title="De A à Z" subTitle="Toutes les étapes" >
 		<div className="container">      
       		<div style={{ textAlign: "center" }} >
 	         	 <img
@@ -32,7 +33,7 @@ const Fonctionnement = () => (
 	   </div>
       </Section>
       
-      <Section title="Appels à idées" subTitle="Oyé Oyé ! Braves gens !" >
+      <Section title="Appels à idées" subTitle="Oyé Oyé ! Braves gens !" className="section-color">
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img
@@ -47,7 +48,7 @@ const Fonctionnement = () => (
       </Section>
       
       
-            <Section title="Sélection des lauréats" subTitle="Il n'en restera qu'un... ou plutôt deux en fait" className="section-color">
+            <Section title="Sélection des lauréats" subTitle="Il n'en restera qu'un... ou plutôt deux en fait" >
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img
@@ -62,7 +63,7 @@ const Fonctionnement = () => (
       </Section>
 
 
-      <Section title="Création des startups" subTitle="En un peu plus de 7 jours" >
+      <Section title="Création des startups" subTitle="En un peu plus de 7 jours" className="section-color">
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img
@@ -76,7 +77,7 @@ const Fonctionnement = () => (
 	   </div>
       </Section>
       
-      <Section title="Phases d'incubation" subTitle="Ca fait pas mal" className="section-color">
+      <Section title="Phases d'incubation" subTitle="Ca fait pas mal" >
 		<div className="container">      
       		<div style={{ textAlign: "center" }}>
 	         	 <img
