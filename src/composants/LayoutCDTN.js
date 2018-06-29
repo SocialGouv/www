@@ -13,27 +13,33 @@ const articles = [
   },
   {
     title: "La complexité du droit",
-    href: "/startups/code-du-travail-numerique/complexite"
+    href: "/startups/code-du-travail-numerique/complexite",
+    disabled: true
   },
   {
     title: "Les services de renseignement",
-    href: "/startups/code-du-travail-numerique/sdr"
+    href: "/startups/code-du-travail-numerique/sdr",
+    disabled: true
   },
   {
     title: "Lancement de la startup",
-    href: "/startups/code-du-travail-numerique/kickoff"
+    href: "/startups/code-du-travail-numerique/kickoff",
+    disabled: true
   },
   {
     title: "Les sources de données",
-    href: "/startups/code-du-travail-numerique/data"
+    href: "/startups/code-du-travail-numerique/data",
+    disabled: true
   },
   {
     title: "Premiers prototypes",
-    href: "/startups/code-du-travail-numerique/prototype-1"
+    href: "/startups/code-du-travail-numerique/prototype-1",
+    disabled: true
   },
   {
     title: "Language naturel et Machine Learning",
-    href: "/startups/code-du-travail-numerique/nlp-machine-learning"
+    href: "/startups/code-du-travail-numerique/nlp-machine-learning",
+    disabled: true
   }
 ];
 
@@ -45,7 +51,7 @@ const Links = withRouter(({ router }) => (
     subTitle=""
   >
     <ul>
-      {articles.map(article => {
+      {articles.filter(a => !a.disabled).map(article => {
         return (
           <li key={article.href}>
             {router.pathname === article.href ? (
@@ -64,11 +70,16 @@ const Links = withRouter(({ router }) => (
 
 const footer = <BlocCards cards={[Cards.wif, Cards.emjpm]} />;
 
-const LayoutCDTN = ({ meta, children }) => (
-  <LayoutArticle footer={footer} meta={meta}>
-    <div>{children}</div>
-    <Links />
-  </LayoutArticle>
-);
+const LayoutCDTN = ({ meta, children }) => {
+  if (meta.disabled) {
+    throw new Error("Not found");
+  }
 
+  return (
+    <LayoutArticle footer={footer} meta={meta}>
+      <div>{children}</div>
+      <Links />
+    </LayoutArticle>
+  );
+};
 export default LayoutCDTN;
