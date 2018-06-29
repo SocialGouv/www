@@ -3,9 +3,9 @@ import { ServerStyleSheet, injectGlobal } from "styled-components";
 
 import 'react-accessible-accordion/dist/fancy-example.css'; 
 import "../src/custom.css";
+import "../src/template.data.gouv.fr/dist/template.css";
 
 injectGlobal`
-
 * {
   font-display: swap;
 }
@@ -41,16 +41,12 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/static/images/favicons/favicon-32x32.png"
           />
-          <title>L'incubateur des affaires sociales</title>
+          <title>IMS: L'incubateur des ministères sociaux</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=yes"
           />
           <link rel="stylesheet" href="/_next/static/style.css" />
-          <link
-            rel="stylesheet"
-            href="//cdn.rawgit.com/etalab/template.data.gouv.fr/8eda9f3d4230fa6162a91172b0e013a04516a11e/src/main.css"
-          />
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
