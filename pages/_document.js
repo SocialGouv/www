@@ -3,7 +3,6 @@ import { ServerStyleSheet, injectGlobal } from "styled-components";
 
 import 'react-accessible-accordion/dist/fancy-example.css'; 
 import "../src/custom.css";
-import "../src/template.data.gouv.fr/dist/template.css";
 
 injectGlobal`
 * {
@@ -50,6 +49,10 @@ export default class MyDocument extends Document {
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
+          />
+          <link
+            rel="stylesheet"
+            href="/static/template.data.gouv.fr/dist/template.css"
           />
           {this.props.styleTags}
         </Head>
