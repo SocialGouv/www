@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet, injectGlobal } from "styled-components";
+import GitHubForkRibbon from "react-github-fork-ribbon";
 
 import 'react-accessible-accordion/dist/fancy-example.css'; 
 import "../src/custom.css";
@@ -57,6 +58,14 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
+          <GitHubForkRibbon
+            href="//github.com/SocialGouv/socialgouv.github.io"
+            target="_blank"
+            position="right"
+            color="green"
+          >
+            version bêta
+          </GitHubForkRibbon>
           <Main />
           <NextScript />
         </body>
