@@ -9,7 +9,36 @@ export const meta = {
     alt:'Photo by Bruno Abatti',
     title: "Work in France",
     tagline: "La plateforme de demande d’autorisations provisoires de travail"
-  }
+  },
+  links:[{
+    title: 'Page d\'accueil',
+    subTitle: 'workinfrance.beta.gouv.fr',
+    href: 'https://workinfrance.beta.gouv.fr',
+    description:"Page officielle du produit"
+  },{
+    title: 'Github frontend',
+    subTitle: 'code source',
+    href: 'https://github.com/socialgouv/work-in-france',
+    description: "Le code source de du site d'information en Html, markdown et Python"
+  },{
+    title: 'Impact',
+    subTitle: 'Statistiques',
+    icon: 'bar-chart',
+    href: 'https://workinfrance.beta.gouv.fr/stats.html',
+    description: "Évolution du nombre de dossiers et métriques sur l'usage du service"
+  },{
+    title: 'Validation en ligne des ATP',
+    subTitle: 'Sécurité',
+    icon: 'lock',
+    href: 'https://workinfrance.beta.gouv.fr/validity_check.html',
+    description: "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
+  },{
+    title: 'Page Facebook',
+    subTitle: 'social',
+    icon: 'facebook',
+    href: 'https://www.facebook.com/workinfrance.beta.gouv.fr/',
+    description: "WorkInFrance, service public transparent adapté au rythme des entreprises simplifie la démarche de demande d'autorisation de travail pour les étudiants étrangers."
+  }]
 };
 
 <LayoutArticle meta={meta} footer={footer}>

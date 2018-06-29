@@ -31,6 +31,7 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": "warn",
     "jsx-a11y/no-static-element-interactions": "warn",
     "jsx-a11y/accessible-emoji": "warn",
+    "jsx-a11y/anchor-is-valid": "warn",
     "jsx-a11y/href-no-hash": "warn",
     "react/jsx-no-target-blank": "warn",
     "react/no-unescaped-entities": "warn",
