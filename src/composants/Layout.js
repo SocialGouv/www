@@ -34,10 +34,10 @@ const footerLinks = [
     title: "Conditions générales d'utilisation",
     href: "/cgu"
   },
-    {
-      href: "./faq",
-      title: "F.A.Q."
-    }
+  {
+    href: "/faq",
+    title: "F.A.Q."
+  }
 ];
 
 export default class Layout extends React.Component {
