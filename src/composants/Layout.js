@@ -3,6 +3,9 @@ import { Footer, Header, SvgIcons, GenericLink } from ".";
 import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";
 
+import piwik from "../piwik";
+import ReactPiwik from "react-piwik";
+
 const components = {
   a: GenericLink
 };
@@ -48,6 +51,10 @@ export default class Layout extends React.Component {
   componentDidMount() {
     const isBrowser = typeof document !== undefined;
     if (isBrowser) {
+      ReactPiwik.push(["setCustomUrl", document.location.href]);
+      ReactPiwik.push(["setDocumentTitle", document.title]);
+      ReactPiwik.push(["trackPageView"]);
+
       const url = document.location.href;
       const pattern = /^(\/#.+)|(.+(\/#.+))$/;
       if (url && pattern.test(url)) {
