@@ -13,7 +13,8 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "next dev",
-    "build": "next build && next export"
+    "build": "next build && next export",
+    "lint": "eslint src pages"
   },
   "devDependencies": {
     "@mdx-js/loader": "^0.11.0",

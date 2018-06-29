@@ -5,7 +5,8 @@ const Form = () => (
         <h1>Form</h1>
         <div className="form__group">
           <label htmlFor="email">
-            Pour être informé des nouveautés, inscrivez-vous à notre newsletter :
+            Pour être informé des nouveautés, inscrivez-vous à notre newsletter
+            :
           </label>
           <input type="email" value="" name="email" id="email" />
         </div>
@@ -13,7 +14,13 @@ const Form = () => (
         <div className="form__group">
           <label htmlFor="search">Tapez un mot-clef :</label>
           <div className="search__group">
-            <input type="text" className="" value="" name="search" id="search" />
+            <input
+              type="text"
+              className=""
+              value=""
+              name="search"
+              id="search"
+            />
             <button className="overlay-button" aria-label="Recherche">
               <svg className="icon icon-search">
                 <use xlinkHref="#icon-search" />
@@ -39,15 +46,30 @@ const Form = () => (
         <div className="form__group">
           <fieldset>
             <legend>Checkbox</legend>
-            <input type="checkbox" name="checkbox" id="checkbox-fraises" value="fraise" />
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox-fraises"
+              value="fraise"
+            />
             <label htmlFor="checkbox-fraises" className="label-inline">
               Fraises
             </label>
-            <input type="checkbox" name="checkbox" id="checkbox-bananes" value="bananes" />
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox-bananes"
+              value="bananes"
+            />
             <label htmlFor="checkbox-bananes" className="label-inline">
               Bananes
             </label>
-            <input type="checkbox" name="checkbox" id="checkbox-ananas" value="fraise" />
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox-ananas"
+              value="fraise"
+            />
             <label htmlFor="checkbox-ananas" className="label-inline">
               Ananas
             </label>
