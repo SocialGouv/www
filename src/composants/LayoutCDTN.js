@@ -78,6 +78,10 @@ const LayoutCDTN = ({ meta, children }) => {
   return (
     <LayoutArticle footer={footer} meta={meta}>
       <div>{children}</div>
+      👉 Pour en savoir plus, contactez-nous sur{" "}
+      <a href="mailto:contact@code-du-travail.beta.gouv.fr">
+        contact@code-du-travail.beta.gouv.fr
+      </a>
       <Links />
     </LayoutArticle>
   );
