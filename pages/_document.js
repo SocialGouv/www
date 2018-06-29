@@ -1,6 +1,7 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet, injectGlobal } from "styled-components";
 
+import 'react-accessible-accordion/dist/fancy-example.css'; 
 import "../src/custom.css";
 
 injectGlobal`

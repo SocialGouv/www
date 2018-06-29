@@ -9,7 +9,7 @@ export default ({
     },
     {
       href: "https://www.data.gouv.fr/terms",
-      title: "Conditions générales d'utilisation"
+      title: "Conditions générales d'utilisation !"
     },
     {
       href: "https://www.data.gouv.fr/api",
@@ -30,7 +30,7 @@ export default ({
         >
           beta.gouv.fr
         </a>{" "}
-        et la DSI des ministères sociaux.
+        et la DSI des ministères sociaux. :)
         <ul className="footer__social">
           <li>
             <a href="https://github.com/SocialGouv" title="Github">
