@@ -1,6 +1,6 @@
-# astech.social.gouv.fr [![CircleCI](https://circleci.com/gh/SocialGouv/socialgouv.github.io.svg?style=svg)](https://circleci.com/gh/SocialGouv/socialgouv.github.io)
+# incubateur.social.gouv.fr [![CircleCI](https://circleci.com/gh/SocialGouv/socialgouv.github.io.svg?style=svg)](https://circleci.com/gh/SocialGouv/socialgouv.github.io)
 
-Actu de l'incubateur du Ministère des affaires sociales
+Site de l'incubateur des Ministères sociaux
 
 ⚠ La branche par défaut est `dev`
 
@@ -11,7 +11,7 @@ Actu de l'incubateur du Ministère des affaires sociales
 
 Les fichiers peuvent être au format `.js` ou `.mdx`
 
-Pour trouver des 📷 : https://unsplash.com
+Pour trouver des images 📷 : https://unsplash.com
 
 Commiter les changements sur branche dédiée et faire une pull request sur GitHub.
 
