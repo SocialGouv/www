@@ -2,16 +2,13 @@ import { Section, Layout } from "../src/composants";
 
 const App = () => (
   <Layout>
-    <Section title="Lancement de Work In France" subTitle="bim">
-      <p className="column">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+    <Section title="Actualité du code du travail numérique" subTitle="">
+      <p className="column">Découvrez les étapes de développement du projet.</p>
     </Section>
     <Section
       className="section-color"
-      title="Lancement de e-MJPM"
-      subTitle="bam"
+      title="Tests automatisés de navigateur"
+      subTitle="Augmenter la confiance grâce aux tests automatisés avec cypress.io"
     >
       <p className="column">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -14,7 +14,9 @@ const Notifications = () => (
     <div className="container">
       <Notification>The princess is in another castle.</Notification>
       <Notification className="success">Mission complete!</Notification>
-      <Notification className="warning">All you base are belong to us.</Notification>
+      <Notification className="warning">
+        All you base are belong to us.
+      </Notification>
       <Notification className="error">Game over.</Notification>
     </div>
   </section>

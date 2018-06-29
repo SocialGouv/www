@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import {
-  Article,
   Card,
   Cards,
   Hero,
@@ -38,9 +37,7 @@ const Homepage = () => (
       title="Bienvenue à l'incubateur des ministères sociaux"
       tagline="incubateur.social.gouv.fr"
     />
-
     <BlocChiffres />
-
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
@@ -53,7 +50,7 @@ const Homepage = () => (
         <br />
         L'incubateur des ministères sociaux reprend la démarche et les grands
         principes de{" "}
-        <a href="http://beta.gouv.fr" target="_blank">
+        <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
         </a>, à savoir :<br />
         <ul>
@@ -121,7 +118,6 @@ const Homepage = () => (
         */}
       </div>
     </Section>
-
     <Section title="Notre actualité" subTitle="">
       <div className="row" style={{ color: "black" }}>
         <CardActuSaison2 />
@@ -129,8 +125,9 @@ const Homepage = () => (
       </div>
     </Section>
     <p align="center">Voir toutes actus</p>
-
-    <a id="produits" name="produits" />
+    <a id="produits" name="produits">
+      &nbsp;
+    </a>
     <Section
       className="section-color cards"
       title="Nos produits"

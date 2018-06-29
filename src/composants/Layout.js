@@ -1,3 +1,4 @@
+import React from "react";
 import { Footer, Header, SvgIcons, GenericLink } from ".";
 import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";

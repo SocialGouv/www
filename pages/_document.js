@@ -1,11 +1,10 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet, injectGlobal } from "styled-components";
+import GitHubForkRibbon from "react-github-fork-ribbon";
 
-import 'react-accessible-accordion/dist/fancy-example.css'; 
 import "../src/custom.css";
 
 injectGlobal`
-
 * {
   font-display: swap;
 }
@@ -41,7 +40,7 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/static/images/favicons/favicon-32x32.png"
           />
-          <title>L'incubateur des affaires sociales</title>
+          <title>IMS: L'incubateur des ministères sociaux</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=yes"
@@ -49,15 +48,23 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
-            href="//cdn.rawgit.com/etalab/template.data.gouv.fr/8eda9f3d4230fa6162a91172b0e013a04516a11e/src/main.css"
+            href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
           />
           <link
             rel="stylesheet"
-            href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
+            href="/static/template.data.gouv.fr/dist/template.css"
           />
           {this.props.styleTags}
         </Head>
         <body>
+          <GitHubForkRibbon
+            href="//github.com/SocialGouv/socialgouv.github.io"
+            target="_blank"
+            position="right"
+            color="green"
+          >
+            version bêta
+          </GitHubForkRibbon>
           <Main />
           <NextScript />
         </body>

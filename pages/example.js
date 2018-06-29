@@ -76,15 +76,18 @@ const App = () => (
     <Notifications />
     <Api />
     <Section class="section-grey cards">
-      <div class="container">
-        <div class="row">
-          <div class="card">
-            <div class="card__cover">
-              <img src="https://etalab.github.io/template.data.gouv.fr/images/shiba.jpg" />
+      <div className="container">
+        <div className="row">
+          <div className="card">
+            <div className="card__cover">
+              <img
+                alt="Shiba"
+                src="https://etalab.github.io/template.data.gouv.fr/images/shiba.jpg"
+              />
             </div>
-            <div class="card__content">
+            <div className="card__content">
               <h3>Shiba Inu</h3>
-              <div class="card__meta">
+              <div className="card__meta">
                 <time>12 avril 2018</time>
                 <span>Juna</span>
               </div>
@@ -94,13 +97,16 @@ const App = () => (
               </p>
             </div>
           </div>
-          <div class="card">
-            <div class="card__cover">
-              <img src="https://etalab.github.io/template.data.gouv.fr/images/french.jpg" />
+          <div className="card">
+            <div className="card__cover">
+              <img
+                alt="French"
+                src="https://etalab.github.io/template.data.gouv.fr/images/french.jpg"
+              />
             </div>
-            <div class="card__content">
+            <div className="card__content">
               <h3>French Bulldog</h3>
-              <div class="card__meta">
+              <div className="card__meta">
                 <time>12 avril 2018</time>
                 <span>Tama</span>
               </div>
@@ -112,13 +118,16 @@ const App = () => (
               </p>
             </div>
           </div>
-          <div class="card">
-            <div class="card__cover">
-              <img src="https://etalab.github.io/template.data.gouv.fr/images/corgi.jpg" />
+          <div className="card">
+            <div className="card__cover">
+              <img
+                alt="Corgi"
+                src="https://etalab.github.io/template.data.gouv.fr/images/corgi.jpg"
+              />
             </div>
-            <div class="card__content">
+            <div className="card__content">
               <h3>Corgi</h3>
-              <div class="card__meta">
+              <div className="card__meta">
                 <time>12 avril 2018</time>
                 <span>Nova</span>
               </div>

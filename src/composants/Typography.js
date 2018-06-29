@@ -3,8 +3,9 @@ const Typography = () => (
     <div className="container">
       <h1>Typography</h1>
       <p>
-        Nous utilisons les polices <a>Source Sans Pro</a> pour le corps de texte et <a>Evolventa</a>{" "}
-        pour les titres sur <a>data.gouv.fr</a> et sites parents.
+        Nous utilisons les polices <a>Source Sans Pro</a> pour le corps de texte
+        et <a>Evolventa</a> pour les titres sur <a>data.gouv.fr</a> et sites
+        parents.
       </p>
       <div className="typography__sample">
         <h1>Heading 1</h1>
