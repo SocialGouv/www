@@ -67,3 +67,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.accordion__title {
+	box-sizing:border-box;
+}
+
+.accordion__title h3 {
+	margin-top:0;	
+}
+
+.accordion__body p {
+	margin-top: 0;
+}
+	
