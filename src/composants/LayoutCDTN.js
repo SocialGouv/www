@@ -71,7 +71,7 @@ const Links = withRouter(({ router }) => (
 const footer = <BlocCards cards={[Cards.wif, Cards.emjpm]} />;
 
 const LayoutCDTN = ({ meta, children }) => {
-  if (meta.disabled) {
+  if (typeof window !== "undefined" && meta.disabled) {
     throw new Error("Not found");
   }
 
