@@ -31,6 +31,16 @@ const CardActuCDTN1 = () => (
   />
 );
 
+const CardActuBoard1 = () => (
+  <Card
+    href="/actus/board-juin-2018"
+    img="/static/images/board.jpg"
+    title="Show must go on"
+    meta="Juin 2018"
+    description="Le premier board de l'incubateur a eu lieu. Il s'agit d'une sorte de conseil d'administration aucours duquel les intrapreneurs présentent l'avancement et les perspectives de leur projet. Les membres du board décident alors de la suite à donner aux différentes startups. Cliquez sur l'image pour connaître le résultat."
+  />
+);
+
 const Homepage = () => (
   <Layout>
     <Hero
@@ -122,6 +132,7 @@ const Homepage = () => (
       <div className="row" style={{ color: "black" }}>
         <CardActuSaison2 />
         <CardActuCDTN1 />
+        <CardActuBoard1 />
       </div>
     </Section>
     <p align="center">Voir toutes actus</p>
