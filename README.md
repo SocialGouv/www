@@ -4,6 +4,8 @@ Site de l'incubateur des Ministères sociaux
 
 ⚠ La branche par défaut est `dev`
 
+Les stats sont disponibles sur https://stats.num.social.gouv.fr
+
 ## Editer le site
 
  - éditer les pages dans `./pages`
