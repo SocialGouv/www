@@ -1,4 +1,4 @@
-import { Section, BlocCards, LayoutArticle, Cards } from ".";
+import { Section, BlocCards, LayoutArticle, Cards, StartupMembers } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";
 
@@ -78,10 +78,15 @@ const LayoutCDTN = ({ meta, children }) => {
   return (
     <LayoutArticle footer={footer} meta={meta}>
       <div>{children}</div>
-      👉 Pour en savoir plus, contactez-nous sur{" "}
-      <a href="mailto:contact@code-du-travail.beta.gouv.fr">
-        contact@code-du-travail.beta.gouv.fr
-      </a>
+      <p>
+        {" "}
+        👉 Pour en savoir plus, contactez-nous sur{" "}
+        <a href="mailto:contact@code-du-travail.beta.gouv.fr">
+          contact@code-du-travail.beta.gouv.fr
+        </a>
+      </p>
+      <StartupMembers startup="code-du-travail-numerique" />
+
       <Links />
     </LayoutArticle>
   );
