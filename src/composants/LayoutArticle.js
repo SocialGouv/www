@@ -69,9 +69,23 @@ const LayoutArticle = ({ meta, footer, children }) => (
       {children}
       {meta.links &&
         ((
-          <div className="article__author-list" style={{ marginTop: 50 }}>
-            {meta.links.map(link => <ArticleLink key={link.href} {...link} />)}
-          </div>
+          <React.Fragment>
+            <div
+              style={{
+                marginTop: 50,
+                fontSize: "1.2em",
+                fontWeight: "bold",
+                textAlign: "center"
+              }}
+            >
+              Les liens utiles du projet :
+            </div>
+            <div className="article__author-list">
+              {meta.links.map(link => (
+                <ArticleLink key={link.href} {...link} />
+              ))}
+            </div>
+          </React.Fragment>
         ) ||
           null)}
     </Article>
