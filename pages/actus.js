@@ -1,11 +1,16 @@
-import { Section, Layout, AllActus } from "../src/composants";
+import { Section, Layout, AllActus, Hero } from "../src/composants";
 
 const App = () => (
   <Layout>
+    <Hero
+      title="Toutes les actualités"
+      tagline=""
+      style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
+    />
     <Section
       className="section-color"
-      title="Toutes les actualités"
-      subTitle="A la une"
+      title="A la une"
+      subTitle=""
     >
 	    <div className="row" style={{ color: "black" }}>
 		    <AllActus.actuSaison2 />
