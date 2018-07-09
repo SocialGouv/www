@@ -4,12 +4,6 @@ import GitHubForkRibbon from "react-github-fork-ribbon";
 
 import "../src/custom.css";
 
-injectGlobal`
-* {
-  font-display: swap;
-}
-`;
-
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();
