@@ -23,3 +23,4 @@ export { default as Section } from "./Section";
 export { default as SectionColors } from "./SectionColors";
 export { default as SvgIcons } from "./SvgIcons";
 export { default as Typography } from "./Typography";
+export { default as AllActus } from "./AllActus";

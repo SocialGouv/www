@@ -1,29 +1,24 @@
-import { Section, Layout } from "../src/composants";
+import { Section, Layout, AllActus } from "../src/composants";
 
 const App = () => (
   <Layout>
-    <Section title="Actualité du code du travail numérique" subTitle="">
-      <p className="column">Découvrez les étapes de développement du projet.</p>
-    </Section>
     <Section
       className="section-color"
-      title="Tests automatisés de navigateur"
-      subTitle="Augmenter la confiance grâce aux tests automatisés avec cypress.io"
+      title="Toutes les actualités"
+      subTitle="A la une"
     >
-      <p className="column">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+	    <div className="row" style={{ color: "black" }}>
+		    <AllActus.actuSaison2 />
+	        <AllActus.actuCdtn1 />
+	        <AllActus.actuBoard1 />
+	    </div>
     </Section>
     <Section
       className="section-dark"
-      title="Lancement du code du travail numérique"
-      subTitle="boum"
+      title="Précédemment"
+      subTitle=""
     >
-      <p className="column">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      
     </Section>
   </Layout>
 );
