@@ -17,7 +17,7 @@ const CardActuSaison2 = () => (
     img="/static/images/saison2.jpg"
     title="Incubateur - saison 2"
     meta="Juin 2018"
-    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) Cliquez sur le titre pour en savoir plus"
+    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) <br/>Cliquez sur le titre pour en savoir plus"
   />
 );
 
@@ -37,7 +37,7 @@ const CardActuBoard1 = () => (
     img="/static/images/board.jpg"
     title="Show must go on"
     meta="Juin 2018"
-    description="Le premier board de l'incubateur a eu lieu. Il s'agit d'une sorte de conseil d'administration aucours duquel les intrapreneurs présentent l'avancement et les perspectives de leur projet. Les membres du board décident alors de la suite à donner aux différentes startups. Cliquez sur l'image pour connaître le résultat."
+    description="Le premier board de l'incubateur a eu lieu. Il s'agit d'une sorte de conseil d'administration aucours duquel les intrapreneurs présentent l'avancement et les perspectives de leur produit. Les membres du board décident alors de la suite à donner aux différentes startups. <br/>Cliquez sur l'image pour connaître le résultat."
   />
 );
 

@@ -4,11 +4,11 @@ import "../../src/custom.css";
 
 const title = (
   <div>
-    Devenez
+    Devenez&nbsp;
     <span data-tip="responsable des développements techniques, biz et autres">
-      {" "}
-      intrapreneur{" "}
-    </span>, d'une Startup d'État !
+      
+      intrapreneur
+    </span> d'une Startup d'État !
   </div>
 );
 
@@ -25,7 +25,7 @@ const Saison2 = () => (
         vrai problème ?<br />
         <p align="center">
           <h3>
-            <a href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply">
+            <a href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply" target="_blank">
               Proposez votre idée
             </a>{" "}
             et devenez entrepreneur(se) d'une Startup d'État !
@@ -33,13 +33,18 @@ const Saison2 = () => (
         </p>
         <br />
         Pour devenir entrepreneur(se) des Startups d’État, aucune expertise en
-        informatique ou internet n’est nécessaire :{" "}
+        informatique ou internet n’est nécessaire:{" "}
         <b>
           seule compte votre motivation pour résoudre un véritable problème.
         </b>{" "}
         <br />
         <br />
-        <a href="https://incubateur-ministere-affaires-sociales-sante.selecteev.io/apply">
+        <div style={{textAlign: "center"}}>
+        <img src="/static/images/aventure.jpg"width="50%" />
+        
+        </div>
+        <br/>
+        <a href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply" target="_blank">
           Cette plateforme
         </a>{" "}
         permet de déposer vos idées. Chacune d'entre elle sera étudiée avec
