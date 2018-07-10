@@ -1,4 +1,4 @@
-import { Section, BlocCards, LayoutArticle, Cards, StartupMembers } from ".";
+import { Section, LayoutArticle } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";
 
@@ -68,15 +68,13 @@ const Links = withRouter(({ router }) => (
   </Section>
 ));
 
-const footer = <BlocCards cards={[Cards.wif, Cards.emjpm]} />;
-
 const LayoutCDTN = ({ meta, children }) => {
   if (typeof window !== "undefined" && meta.disabled) {
     throw new Error("Not found");
   }
 
   return (
-    <LayoutArticle footer={footer} meta={meta}>
+    <LayoutArticle meta={meta} startup="code-du-travail-numerique">
       <div>{children}</div>
       <p>
         {" "}
@@ -85,7 +83,6 @@ const LayoutCDTN = ({ meta, children }) => {
           contact@code-du-travail.beta.gouv.fr
         </a>
       </p>
-      <StartupMembers startup="code-du-travail-numerique" />
 
       <Links />
     </LayoutArticle>

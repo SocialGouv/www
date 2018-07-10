@@ -15,6 +15,8 @@ Les fichiers peuvent être au format `.js` ou `.mdx`.
 
 Pour trouver des images 📷 : https://unsplash.com
 
+Les données des `startups` et `members` sont dans [./src/data](./src/data)
+
 Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
 
 ## Dev

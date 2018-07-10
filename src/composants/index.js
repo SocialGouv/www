@@ -1,7 +1,7 @@
 export { default as Api } from "./Api";
 export { default as Article } from "./Article";
 export { default as AuthorPanel } from "./AuthorPanel";
-export { default as BlocCards } from "./BlocCards";
+export { default as SectionCards } from "./SectionCards";
 export { default as BlocChiffres } from "./BlocChiffres";
 export { default as Card } from "./Card";
 export { default as Cards } from "./Cards";

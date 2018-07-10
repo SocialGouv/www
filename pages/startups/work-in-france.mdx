@@ -1,6 +1,4 @@
-import { BlocCards, Cards, LayoutArticle, StartupMembers } from "../../src/composants";
-
-export const footer = <BlocCards cards={[Cards.cdtn, Cards.emjpm]} />;
+import { LayoutArticle } from "../../src/composants";
 
 export const meta = {
   title: 'La plateforme de demande d’autorisations provisoires de travail',
@@ -9,39 +7,10 @@ export const meta = {
     alt:'Photo by Bruno Abatti',
     title: "Work in France",
     tagline: "La plateforme de demande d’autorisations provisoires de travail"
-  },
-  links:[{
-    title: 'Page d\'accueil',
-    subTitle: 'workinfrance.beta.gouv.fr',
-    href: 'https://workinfrance.beta.gouv.fr',
-    description:"Page officielle du produit"
-  },{
-    title: 'Github frontend',
-    subTitle: 'code source',
-    href: 'https://github.com/socialgouv/work-in-france',
-    description: "Le code source de du site d'information en Html, markdown et Python"
-  },{
-    title: 'Impact',
-    subTitle: 'Statistiques',
-    icon: 'bar-chart',
-    href: 'https://workinfrance.beta.gouv.fr/stats.html',
-    description: "Évolution du nombre de dossiers et métriques sur l'usage du service"
-  },{
-    title: 'Validation en ligne des ATP',
-    subTitle: 'Sécurité',
-    icon: 'lock',
-    href: 'https://workinfrance.beta.gouv.fr/validity_check.html',
-    description: "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
-  },{
-    title: 'Page Facebook',
-    subTitle: 'social',
-    icon: 'facebook',
-    href: 'https://www.facebook.com/workinfrance.beta.gouv.fr/',
-    description: "WorkInFrance, service public transparent adapté au rythme des entreprises simplifie la démarche de demande d'autorisation de travail pour les étudiants étrangers."
-  }]
+  }
 };
 
-<LayoutArticle meta={meta} footer={footer}>
+<LayoutArticle meta={meta} startup="work-in-france">
 
 Les étudiant·e·s étranger·e·s qui voudraient travailler en France, au-delà du mi-temps, doivent déposer une demande d’autorisation de travail en DIRECCTE. C’est généralement une démarche critique pour le projet de l’étudiant·e ; « pourrais-je rester en France, payer mes études, valider l’expérience professionnelle nécessaire à mon diplôme ? »
 
@@ -62,7 +31,5 @@ De plus, l’administration est en charge de l’ensemble des instructions des d
 ### WorkinFrance, un service public transparent et adapté au rythme des entreprises
 
 WorkInFrance simplifie la démarche d’autorisation de travail des étudiant·e·s en contrat d’apprentissage, en contrat de professionnalisation, les internes en médecine, et les étudiants algériens soumis à l’accord franco-algérien du 27 décembre 1968. Sur WorkinFrance, l’usager (entreprise ou salarié) trouvera une interface où déposer sa demande, avec une information sur l’état d’avancement de sa demande.
-
-<StartupMembers startup="work-in-france"/>
 
 </LayoutArticle>
