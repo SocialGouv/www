@@ -50,7 +50,7 @@
   },
   {
     "name": "Hela Ghariani",
-    "structure": "DINSIC",
+    "structure": "beta.gouv.fr",
     "startups": ["code-du-travail-numerique"],
     "role": "coach",
     "picture": "/static/images/members/hela.ghariani.jpg"
@@ -71,28 +71,28 @@
   },
   {
     "name": "Catherine Lissarague",
-    "structure": "NUMA",
+    "structure": "DGT",
     "startups": ["code-du-travail-numerique"],
     "role": "Cheffe de projet",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
     "name": "Julien Bouquillon",
-    "structure": "DSI des ministères sociaux",
+    "structure": "DSI",
     "startups": ["code-du-travail-numerique", "work-in-france"],
     "role": "tech lead incubateur",
     "picture": "/static/images/members/julien.bouquillon.jpg"
   },
   {
     "name": "Eric Heijligers",
-    "structure": "DSI des ministères sociaux",
+    "structure": "DSI",
     "startups": ["code-du-travail-numerique", "work-in-france", "e-mjpm"],
     "role": "product manager incubateur",
     "picture": "/static/images/members/eric.heijligers.jpg"
   },
   {
     "name": "Yann-Fanch Madaule",
-    "structure": "DSI des ministères sociaux",
+    "structure": "DSI",
     "startups": [],
     "role": "responsable de l'incubateur",
     "picture": "/static/images/members/avatar.jpg"

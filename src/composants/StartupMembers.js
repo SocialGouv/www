@@ -3,7 +3,7 @@ import { Member } from ".";
 import members from "../data/members.json";
 
 const getStartupMembers = startup =>
-  shuffled(members.filter(member => member.startups.indexOf(startup) > -1));
+  members.filter(member => member.startups.indexOf(startup) > -1);
 
 const shuffled = arr =>
   arr
@@ -11,25 +11,12 @@ const shuffled = arr =>
     .sort((a, b) => a[0] - b[0])
     .map(a => a[1]);
 
-//const Shuffle = ({ children }) => shuffled(React.Children.toArray(children));
-
-class Shuffle extends React.Component {
-  shouldComponentUpdate() {
-    return false;
-  }
-  render() {
-    console.log("shuffle render");
-    return shuffled(React.Children.toArray(this.props.children));
-  }
-}
-
-class StartupMembers extends React.Component {
-  render() {
-    const { startup } = this.props;
-    const startupMembers = getStartupMembers(startup);
-    console.log(startupMembers);
-    return (
-      <div>
+// use class to prevent some hot-reload bugs
+const StartupMembers = ({ startup }) => {
+  const startupMembers = shuffled(getStartupMembers(startup));
+  return (
+    (startupMembers && (
+      <div className="container">
         <div
           style={{
             fontSize: "1.2em",
@@ -39,26 +26,28 @@ class StartupMembers extends React.Component {
             marginBottom: 20
           }}
         >
-          Ils se sont engagés pour ce projet :
+          Personnes qui ont contribué au projet :
         </div>
         <div
           style={{
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
-            justifyContent: "center"
+            justifyContent: "center",
+            paddingBottom: 30
           }}
         >
           {startupMembers.map(member => (
             <Member
               key={member.name}
-              style={{ flex: "1 0 auto", maxWidth: "30%" }}
+              style={{ flex: "1 0 auto" }}
               {...member}
             />
           ))}
         </div>
       </div>
-    );
-  }
-}
+    )) ||
+    null
+  );
+};
 export default StartupMembers;

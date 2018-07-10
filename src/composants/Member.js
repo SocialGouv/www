@@ -17,6 +17,11 @@ const StyledMember = styled.div`
   padding: 1em;
   position: relative;
   margin: 10px;
+  max-width: 30%;
+  @media (max-width: 549px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 const Member = ({ name, structure, startups, role, picture, bio, style }) => {
@@ -25,7 +30,7 @@ const Member = ({ name, structure, startups, role, picture, bio, style }) => {
       <StyledIcon
         key={picture}
         style={{
-          flex: "0 0 45px",
+          flex: "0 0 auto",
           backgroundImage: `url(${picture})`
         }}
       />
@@ -34,17 +39,27 @@ const Member = ({ name, structure, startups, role, picture, bio, style }) => {
         title={name}
         style={{
           marginLeft: 10,
-          lineHeight: "45px",
           flex: "1 0 auto",
-          fontWeight: "bold",
-          color: "#0081d5",
-          width: "calc(100% - 45px)",
-          overflow: "hidden",
-          whiteSpace: "nowrap",
-          textOverflow: "ellipsis"
+          fontSize: "0.9em",
+          width: "calc(100% - 45px)"
         }}
-        dangerouslySetInnerHTML={{ __html: name }}
-      />
+      >
+        <div
+          style={{
+            fontWeight: "bold",
+            color: "#0081d5",
+            overflow: "hidden",
+            whiteSpace: "nowrap",
+            textOverflow: "ellipsis"
+          }}
+          dangerouslySetInnerHTML={{ __html: name }}
+        />
+        <div
+          style={{ marginTop: 5, lineHeight: "1.1em" }}
+          className="article__author-role"
+          dangerouslySetInnerHTML={{ __html: `${role} - ${structure}` }}
+        />
+      </div>
     </StyledMember>
   );
 };

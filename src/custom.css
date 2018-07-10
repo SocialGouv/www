@@ -118,3 +118,7 @@ div.article__author-list .article__author svg {
 div.article__author-list .article__author svg:hover {
   transform: scale(1.1);
 }
+
+div.article__author .article__author-role {
+  margin-top: 5px;
+}
