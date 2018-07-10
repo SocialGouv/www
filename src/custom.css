@@ -49,6 +49,7 @@ section.section-color a {
 article,
 .article__container {
   max-width: 50em !important;
+  margin: 0 auto;
 }
 
 article blockquote {
@@ -117,4 +118,18 @@ div.article__author-list .article__author svg {
 }
 div.article__author-list .article__author svg:hover {
   transform: scale(1.1);
+}
+
+div.article__author .article__author-role {
+  margin-top: 5px;
+}
+
+.card {
+  max-width: 350px;
+}
+
+@media (max-width: 549px) {
+  .card {
+    max-width: 100%;
+  }
 }

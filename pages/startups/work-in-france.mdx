@@ -1,6 +1,4 @@
-import { BlocCards, Cards, LayoutArticle } from "../../src/composants";
-
-export const footer = <BlocCards cards={[Cards.cdtn, Cards.emjpm]} />;
+import { LayoutArticle } from "../../src/composants";
 
 export const meta = {
   title: 'La plateforme de demande d’autorisations provisoires de travail',
@@ -9,39 +7,10 @@ export const meta = {
     alt:'Photo by Bruno Abatti',
     title: "Work in France",
     tagline: "La plateforme de demande d’autorisations provisoires de travail"
-  },
-  links:[{
-    title: 'Page d\'accueil',
-    subTitle: 'workinfrance.beta.gouv.fr',
-    href: 'https://workinfrance.beta.gouv.fr',
-    description:"Page officielle du produit"
-  },{
-    title: 'Github frontend',
-    subTitle: 'code source',
-    href: 'https://github.com/socialgouv/work-in-france',
-    description: "Le code source de du site d'information en Html, markdown et Python"
-  },{
-    title: 'Impact',
-    subTitle: 'Statistiques',
-    icon: 'bar-chart',
-    href: 'https://workinfrance.beta.gouv.fr/stats.html',
-    description: "Évolution du nombre de dossiers et métriques sur l'usage du service"
-  },{
-    title: 'Validation en ligne des ATP',
-    subTitle: 'Sécurité',
-    icon: 'lock',
-    href: 'https://workinfrance.beta.gouv.fr/validity_check.html',
-    description: "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
-  },{
-    title: 'Page Facebook',
-    subTitle: 'social',
-    icon: 'facebook',
-    href: 'https://www.facebook.com/workinfrance.beta.gouv.fr/',
-    description: "WorkInFrance, service public transparent adapté au rythme des entreprises simplifie la démarche de demande d'autorisation de travail pour les étudiants étrangers."
-  }]
+  }
 };
 
-<LayoutArticle meta={meta} footer={footer}>
+<LayoutArticle meta={meta} startup="work-in-france">
 
 Les étudiant·e·s étranger·e·s qui voudraient travailler en France, au-delà du mi-temps, doivent déposer une demande d’autorisation de travail en DIRECCTE. C’est généralement une démarche critique pour le projet de l’étudiant·e ; « pourrais-je rester en France, payer mes études, valider l’expérience professionnelle nécessaire à mon diplôme ? »
 
@@ -55,7 +24,7 @@ Avez-vous reçu ma demande ? Quand vais-je recevoir mon autorisation de travail 
 
 La **lenteur de la procédure** et son **manque de transparence** retardent ainsi la prise de poste et pénalisent l’entreprise qui n’est pas en mesure d’avoir une visibilité sur la validation du recrutement de son personnel.
 
-Les étudiant·e·s consituent la majeure partie du public qui se déplace à l’accueil des DIRECCTE. Que ce soit par téléphone, par mail ou dans les accueils, les agents passent un temps considérable à répondre aux questions des usagers, au détriment du traitement normal des demandes d’autorisation de travail. **Avec WorkInFrance, en traitant simplement la plupart des demandes, nous libérerons du temps de travail pour les agents.**
+Les étudiant·e·s constituent la majeure partie du public qui se déplace à l’accueil des DIRECCTE. Que ce soit par téléphone, par mail ou dans les accueils, les agents passent un temps considérable à répondre aux questions des usagers, au détriment du traitement normal des demandes d’autorisation de travail. **Avec WorkInFrance, en traitant simplement la plupart des demandes, nous libérerons du temps de travail pour les agents.**
 
 De plus, l’administration est en charge de l’ensemble des instructions des demandes d’autorisation, en réceptionnant des demandes en format papier (CERFA et pièces justificatives obligatoires) obligeant celles-ci à stocker des volumes conséquents de documents, et posant de surcroît des difficultés pour accéder à un dossier « en cours ».
 
