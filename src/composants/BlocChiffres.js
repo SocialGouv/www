@@ -36,23 +36,26 @@ const BlocChiffres = () => (
       </div>
       <div className="texte">Start-ups</div>
     </BlocChiffre>
-    <BlocChiffre>
-      <div className="num">
-        <ZeroCounter end={100} duration={1.75} />
-      </div>
-      <div className="texte">m2 d'espace dédié</div>
-    </BlocChiffre>
+
     <BlocChiffre>
       <div className="num">
         <ZeroCounter end={5} />
       </div>
       <div className="texte">Intrapreneurs</div>
     </BlocChiffre>
+
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={9} />
+        <ZeroCounter end={100} duration={1.75} />
       </div>
-      <div className="texte">membres</div>
+      <div className="texte">m2 d'espace dédié</div>
+    </BlocChiffre>
+
+    <BlocChiffre>
+      <div className="num">
+        <ZeroCounter end={138} />
+      </div>
+      <div className="texte">idées déposées</div>
     </BlocChiffre>
   </div>
 );

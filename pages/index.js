@@ -6,30 +6,11 @@ import {
   Hero,
   Layout,
   Section,
+  AllActus,
   BlocChiffres
 } from "../src/composants";
 
 import "../src/custom.css";
-
-const CardActuSaison2 = () => (
-  <Card
-    href="/actus/saison2"
-    img="/static/images/saison2.jpg"
-    title="Incubateur - saison 2"
-    meta="Juin 2018"
-    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) Cliquez sur le titre pour en savoir plus"
-  />
-);
-
-const CardActuCDTN1 = () => (
-  <Card
-    href="/startups/code-du-travail-numerique"
-    img="/static/images/complexite.png"
-    title="CDTN - une problématique complexe"
-    meta="Juin 2018"
-    description="Nous nous lançons dans une série d'articles pour tout connaitre du produit 'code du travail numérique' - CDTN pour les intimes. Ce premier article présente les multiples problématiques et le challenge que représente la modélisation informatique du code du travail."
-  />
-);
 
 const Homepage = () => (
   <Layout>
@@ -120,11 +101,12 @@ const Homepage = () => (
     </Section>
     <Section title="Notre actualité" subTitle="">
       <div className="row" style={{ color: "black" }}>
-        <CardActuSaison2 />
-        <CardActuCDTN1 />
+		    <AllActus.actuSaison2 />
+	        <AllActus.actuCdtn1 />
+	        <AllActus.actuBoard1 />
       </div>
     </Section>
-    <p align="center">Voir toutes actus</p>
+    <p align="center"><a href="/actus">Voir toutes actus</a></p>
     <a id="produits" name="produits">
       &nbsp;
     </a>
