@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import {
   Card,
-  Cards,
+  SectionCards,
   Hero,
   Layout,
   Section,
@@ -110,17 +110,7 @@ const Homepage = () => (
     <a id="produits" name="produits">
       &nbsp;
     </a>
-    <Section
-      className="section-color cards"
-      title="Nos produits"
-      subTitle="Découvrez les produits conçus par nos agents"
-    >
-      <div className="row" style={{ color: "black" }}>
-        <Cards.wif />
-        <Cards.emjpm />
-        <Cards.cdtn />
-      </div>
-    </Section>
+    <SectionCards title="Découvrez nos startups" />
   </Layout>
 );
 

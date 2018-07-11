@@ -27,11 +27,16 @@ section.section-color a {
 @media (max-width: 549px) {
   .navbar__container nav {
     margin-top: 2em;
+    width: 100%;
+    text-align: center;
   }
   .navbar__container nav .nav__item {
-    display: block;
-    height: 2em;
+    display: inline-block;
     text-align: center;
+    margin: 0 3px;
+  }
+  .navbar__container nav .nav__item a {
+    text-decoration: underline;
   }
   .hero__container h1 {
     font-size: 1.2em;
@@ -44,6 +49,7 @@ section.section-color a {
 article,
 .article__container {
   max-width: 50em !important;
+  margin: 0 auto;
 }
 
 article blockquote {
@@ -56,8 +62,10 @@ article blockquote {
 }
 
 article img {
+  /* hack to force center align */
   max-width: 100%;
   margin-left: 50%;
+  margin-right: -50%;
   transform: translateX(-50%);
 }
 
@@ -94,7 +102,34 @@ div.article__author-list .article__author:nth-child(1) {
 div.article__author-list .article__author {
   flex: 0 0 auto;
   width: auto;
-  min-width: 30%;
   max-width: 30%;
+  min-width: 30%;
   margin-top: 2em;
+}
+@media (max-width: 549px) {
+  div.article__author-list .article__author {
+    margin-left: 0 !important;
+    max-width: 100%;
+  }
+}
+
+div.article__author-list .article__author svg {
+  transition: all 0.1s ease-in;
+}
+div.article__author-list .article__author svg:hover {
+  transform: scale(1.1);
+}
+
+div.article__author .article__author-role {
+  margin-top: 5px;
+}
+
+.card {
+  max-width: 350px;
+}
+
+@media (max-width: 549px) {
+  .card {
+    max-width: 100%;
+  }
 }

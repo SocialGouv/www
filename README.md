@@ -4,6 +4,8 @@ Site de l'incubateur des Ministères sociaux
 
 ⚠ La branche par défaut est `dev`
 
+Les stats sont disponibles sur https://stats.num.social.gouv.fr
+
 ## Editer le site
 
  - éditer les pages dans `./pages`
@@ -12,6 +14,8 @@ Site de l'incubateur des Ministères sociaux
 Les fichiers peuvent être au format `.js` ou `.mdx`.
 
 Pour trouver des images 📷 : https://unsplash.com
+
+Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
 Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
 

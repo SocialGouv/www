@@ -1,4 +1,4 @@
-import { Section, BlocCards, LayoutArticle, Cards } from ".";
+import { Section, LayoutArticle } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";
 
@@ -68,20 +68,22 @@ const Links = withRouter(({ router }) => (
   </Section>
 ));
 
-const footer = <BlocCards cards={[Cards.wif, Cards.emjpm]} />;
-
 const LayoutCDTN = ({ meta, children }) => {
   if (typeof window !== "undefined" && meta.disabled) {
     throw new Error("Not found");
   }
 
   return (
-    <LayoutArticle footer={footer} meta={meta}>
+    <LayoutArticle meta={meta} startup="code-du-travail-numerique">
       <div>{children}</div>
-      👉 Pour en savoir plus, contactez-nous sur{" "}
-      <a href="mailto:contact@code-du-travail.beta.gouv.fr">
-        contact@code-du-travail.beta.gouv.fr
-      </a>
+      <p>
+        {" "}
+        👉 Pour en savoir plus, contactez-nous sur{" "}
+        <a href="mailto:contact@code-du-travail.beta.gouv.fr">
+          contact@code-du-travail.beta.gouv.fr
+        </a>
+      </p>
+
       <Links />
     </LayoutArticle>
   );
