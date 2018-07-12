@@ -26,89 +26,77 @@ const Homepage = () => (
     >
       <div className="container">
         <br />
-        C'est à la fois un lieu, une démarche et un ensemble de personnes !<br
-        />
+        C 'est à la fois un lieu, une démarche et un ensemble de personnes !<br />
         <br />
-        L'incubateur des ministères sociaux reprend la démarche et les grands
+        L 'incubateur des ministères sociaux reprend la démarche et les grands
         principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
         </a>, à savoir :<br />
         <ul>
           <li>
-            Un leitmotiv : la résolution d’irritants dont vous êtes témoin
+            Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
           </li>
           <li>
             Des produits fabriqués par des agents{" "}
-            <a href="/actus/saison2">"intrapreneurs"</a>{" "}
+            <a href="/actus/saison2"> "intrapreneurs"</a>{" "}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
-            intrapreneurs et bien d'autres ;)
+            intrapreneurs et bien d 'autres ;)
           </li>
           <li>
-            De la co-construction, des petits pas et des produits utilisables
+            De la co - construction, des petits pas et des produits utilisables
             très rapidement
           </li>
         </ul>
-        L'incubateur offre ainsi l'opportunité de tester de nouveaux modes de
+        L 'incubateur offre ainsi l' opportunité de tester de nouveaux modes de
         conception de services, plus simples, plus agiles et en proximité avec
         les usagers !
         <br />
         <br />
         <Link href="/fonctionnement-incubateur">
           <a>
-            <div style={{ textAlign: "center" }}>
+            <div
+              style={{
+                textAlign: "center"
+              }}
+            >
               <img
                 src="../static/images/schema%20inc%201%20v1.png"
                 alt="Illustration fonctionnement IMS"
                 width="600"
                 height="286"
-                style={{ margin: " 0 auto", borderRadius: "50px" }}
+                style={{
+                  margin: " 0 auto",
+                  borderRadius: "50px"
+                }}
               />
               <br />
               En savoir plus
             </div>
           </a>
-        </Link>
-        {/*
-        <p>
-          Témoins d’irritants récurrents pour les usagers du service public
-          et/ou les agents de l’Etat ?
-        </p>
-        <p>
-          Idée de services numériques pouvant remédier au problème identifié ?
-        </p>
-
-        <p>
-          Ces questions simples mais novatrices, directement posées aux agents,
-          ont permis de remonter 138 candidatures à l’appel à candidatures de
-          l’incubateur à l’automne 2017.
-        </p>
-        <p>
-          {" "}
-          Deux premiers projets ont été retenus, les deux start-up d’Etat ont
-          été créées en décembre 2017, rejointes deux mois plus tard, par une
-          troisième.
-        </p>
-        <p>
-          Un nouvel appel à candidature va avoir lieu en octobre 2018. Il
-          donnera naissance à deux nouvelles start-up d’État pour lesquelles les
-          développements débuteront en janvier 2019.
-        </p>
-        */}
+        </Link>{" "}
       </div>
     </Section>
     <Section title="Notre actualité" subTitle="">
-      <div className="row" style={{ color: "black" }}>
-		    <AllActus.actuSaison2 />
-	        <AllActus.actuCdtn1 />
-	        <AllActus.actuBoard1 />
+      <div
+        className="row"
+        style={{
+          color: "black"
+        }}
+      >
+        <AllActus.actuSaison2 />
+        <AllActus.actuCdtn1 />
+        <AllActus.actuBoard1 />
       </div>
     </Section>
-    <p align="center"><a href="/actus">Voir toutes actus</a></p>
+    <p align="center">
+      {" "}
+      <a href="/actus"> Voir toutes actus</a>
+    </p>
     <a id="produits" name="produits">
-      &nbsp;
+      & nbsp;
     </a>
     <SectionCards title="Découvrez nos startups" />
   </Layout>
