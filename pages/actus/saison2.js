@@ -6,9 +6,9 @@ const title = (
   <div>
     Devenez&nbsp;
     <span data-tip="responsable des développements techniques, biz et autres">
-      
       intrapreneur
-    </span> d'une Startup d'État !
+    </span>{" "}
+    d'une Startup d'État !
   </div>
 );
 
@@ -25,7 +25,10 @@ const Saison2 = () => (
         vrai problème ?<br />
         <p align="center">
           <h3>
-            <a href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply" target="_blank">
+            <a
+              href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+              target="_blank"
+            >
               Proposez votre idée
             </a>{" "}
             et devenez entrepreneur(se) d'une Startup d'État !
@@ -39,12 +42,14 @@ const Saison2 = () => (
         </b>{" "}
         <br />
         <br />
-        <div style={{textAlign: "center"}}>
-        <img src="/static/images/aventure.jpg"width="50%" />
-        
+        <div style={{ textAlign: "center" }}>
+          <img src="/static/images/aventure.jpg" width="50%" />
         </div>
-        <br/>
-        <a href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply" target="_blank">
+        <br />
+        <a
+          href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+          target="_blank"
+        >
           Cette plateforme
         </a>{" "}
         permet de déposer vos idées. Chacune d'entre elle sera étudiée avec
