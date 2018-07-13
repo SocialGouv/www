@@ -96,7 +96,7 @@ const Homepage = () => (
       <a href="/actus"> Voir toutes actus</a>
     </p>
     <a id="produits" name="produits">
-      & nbsp;
+      &nbsp;
     </a>
     <SectionCards title="Découvrez nos startups" />
   </Layout>
