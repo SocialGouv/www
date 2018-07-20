@@ -55,11 +55,15 @@ const Fonctionnement = () => (
         </div>
       </div>
     </Section>
-    <Section title="Phases d'incubation" subTitle="Ca fait pas mal">
+    <Section
+      title="Concrétisation de la startup"
+      subTitle="On s'occupe de tout !"
+      className="section-color"
+    >
       <div className="container">
         <div style={{ textAlign: "center" }}>
           <img
-            src="../static/images/schema%20inc%205%20v1.png"
+            src="../static/images/schema%20inc%204%20v1.png"
             alt="Illustration fonctionnement Astech"
             width="80%"
             height=""
@@ -68,13 +72,13 @@ const Fonctionnement = () => (
         </div>
       </div>
     </Section>
-    <Section title="Appels à idées" subTitle="Oyé Oyé ! Braves gens !">
+    <Section title="Phases d'incubation" subTitle="Ca fait pas mal">
       <div className="container">
         <div style={{ textAlign: "center" }}>
           <img
-            src="../static/images/schema%20inc%202%20v1.png"
+            src="../static/images/schema%20inc%205%20v1.png"
             alt="Illustration fonctionnement Astech"
-            width="70%"
+            width="80%"
             height=""
             style={{ margin: " 0 auto", borderRadius: "10px" }}
           />
