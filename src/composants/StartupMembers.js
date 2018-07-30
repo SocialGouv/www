@@ -11,7 +11,6 @@ const shuffled = arr =>
     .sort((a, b) => a[0] - b[0])
     .map(a => a[1]);
 
-// use class to prevent some hot-reload bugs
 const StartupMembers = ({ startup }) => {
   const startupMembers = shuffled(getStartupMembers(startup));
   return (
