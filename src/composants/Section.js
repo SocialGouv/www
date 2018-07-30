@@ -4,13 +4,16 @@ const Section = ({
   subTitle = "Sous-titre de section",
   children,
   className,
-  style
+  style,
+  rowStyle
 }) => (
   <section className={className} style={style}>
     <div className="container">
       <h2 className="section__title">{title}</h2>
       <p className="section__subtitle">{subTitle}</p>
-      <div className="row">{children}</div>
+      <div className="row" style={rowStyle}>
+        {children}
+      </div>
     </div>
   </section>
 );

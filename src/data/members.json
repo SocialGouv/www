@@ -1,5 +1,6 @@
 [
   {
+    "id": "daniel.balmy",
     "name": "Daniel Balmy",
     "structure": "DIRECCTE",
     "startups": ["work-in-france"],
@@ -7,6 +8,7 @@
     "picture": "/static/images/members/daniel.balmy.jpg"
   },
   {
+    "id": "jonathan-redt.gensinger",
     "name": "Jonathan Redt Gensinger",
     "structure": "DGT",
     "startups": ["work-in-france"],
@@ -14,6 +16,7 @@
     "picture": "/static/images/members/jonathan.redt_gensinger.jpg"
   },
   {
+    "id": "lucie.delorme",
     "name": "Lucie Delorme",
     "structure": "DRJSCS",
     "startups": ["e-mjpm"],
@@ -21,6 +24,7 @@
     "picture": "/static/images/members/lucie.delorme.jpg"
   },
   {
+    "id": "jasmine.meurin",
     "name": "Jasmine Meurin",
     "structure": "DRJSCS",
     "startups": ["e-mjpm"],
@@ -28,6 +32,7 @@
     "picture": "/static/images/members/jasmine.meurin.jpg"
   },
   {
+    "id": "marc.hertzog",
     "name": "Marc Hertzog",
     "structure": "freelance",
     "startups": ["work-in-france", "code-du-travail-numerique"],
@@ -35,6 +40,7 @@
     "picture": "/static/images/members/marc.hertzog.jpg"
   },
   {
+    "id": "adrien.gonzalez",
     "name": "Adrien Gonzalez",
     "structure": "freelance",
     "startups": ["e-mjpm"],
@@ -42,6 +48,7 @@
     "picture": "/static/images/members/adrien.gonzalez.jpg"
   },
   {
+    "id": "jean-rene.duscher",
     "name": "Jean-René Duscher",
     "structure": "DGT",
     "startups": ["code-du-travail-numerique"],
@@ -49,6 +56,7 @@
     "picture": "/static/images/members/avatar.jpg"
   },
   {
+    "id": "hela.ghariani",
     "name": "Hela Ghariani",
     "structure": "beta.gouv.fr",
     "startups": ["code-du-travail-numerique"],
@@ -56,6 +64,7 @@
     "picture": "/static/images/members/hela.ghariani.jpg"
   },
   {
+    "id": "maxime.basset",
     "name": "Maxime Basset",
     "structure": "NUMA",
     "startups": ["e-mjpm", "work-in-france"],
@@ -63,6 +72,7 @@
     "picture": "/static/images/members/maxime.basset.jpg"
   },
   {
+    "id": "catherine.loze-faelens",
     "name": "Catherine Lozé-Faelens",
     "structure": "DSI",
     "startups": ["code-du-travail-numerique"],
@@ -70,6 +80,7 @@
     "picture": "/static/images/members/avatar.jpg"
   },
   {
+    "id": "catherine.lissarague",
     "name": "Catherine Lissarague",
     "structure": "DGT",
     "startups": ["code-du-travail-numerique"],
@@ -77,6 +88,7 @@
     "picture": "/static/images/members/avatar.jpg"
   },
   {
+    "id": "julien.bouquillon",
     "name": "Julien Bouquillon",
     "structure": "DSI",
     "startups": ["code-du-travail-numerique", "work-in-france"],
@@ -84,6 +96,7 @@
     "picture": "/static/images/members/julien.bouquillon.jpg"
   },
   {
+    "id": "eric.heijligers",
     "name": "Eric Heijligers",
     "structure": "DSI",
     "startups": ["code-du-travail-numerique", "work-in-france", "e-mjpm"],
@@ -91,6 +104,7 @@
     "picture": "/static/images/members/eric.heijligers.jpg"
   },
   {
+    "id": "yann-fanch.madaule",
     "name": "Yann-Fanch Madaule",
     "structure": "DSI",
     "startups": [],
