@@ -110,5 +110,14 @@
     "startups": [],
     "role": "responsable de l'incubateur",
     "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "jeremie.cook",
+    "name": "Jérémie Cook",
+    "structure": "DINSIC",
+    "startups": ["code-du-travail-numerique"],
+    "role": "UX Designer",
+    "picture": "/static/images/members/jeremie.cook.jpg"
   }
 ]
+
