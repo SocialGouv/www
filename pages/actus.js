@@ -1,15 +1,6 @@
-import {
-  AuthorPanel,
-  Section,
-  Layout,
-  AllActus,
-  Hero
-} from "../src/composants";
+import { Section, Layout, AllActus, Hero } from "../src/composants";
 
 import news from "../src/data/news";
-import members from "../src/data/members.json";
-
-const getMemberFromId = id => members.find(m => m.id === id);
 
 const News = ({ id, title, date, html }) => (
   <div className="row">
@@ -38,7 +29,9 @@ const App = () => (
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
     <Section title="Brèves" subTitle="" rowStyle={{ display: "block" }}>
-      {news.map(n => <News {...n} key={n.title} />)}
+      {news.map(n => (
+        <News {...n} key={n.title} />
+      ))}
     </Section>
     <Section className="section-color" title="A la une" subTitle="">
       <div className="row" style={{ color: "black" }}>
