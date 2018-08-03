@@ -5,8 +5,7 @@
     "img": "/static/images/startups/work-in-france.jpg",
     "title": "Work In France",
     "meta": "Avril 2018",
-    "description":
-      "La plateforme de demande d'autorisation provisoire de travail pour les étudiants étrangers.",
+    "description": "La plateforme de demande d'autorisation provisoire de travail pour les étudiants étrangers.",
     "links": [
       {
         "title": "Page d'accueil",
@@ -17,33 +16,29 @@
       {
         "title": "Github frontend",
         "subTitle": "code source",
-        "href": "https://github.com/socialgouv/work-in-france",
-        "description":
-          "Le code source de du site d'information en Html, markdown et Python"
+        "href": "https://github.com/SocialGouv/work-in-france",
+        "description": "Le code source de du site d'information en Html, markdown et Python"
       },
       {
         "title": "Impact",
         "subTitle": "Statistiques",
         "icon": "bar-chart",
         "href": "https://workinfrance.beta.gouv.fr/stats.html",
-        "description":
-          "Évolution du nombre de dossiers et métriques sur l'usage du service"
+        "description": "Évolution du nombre de dossiers et métriques sur l'usage du service"
       },
       {
         "title": "Validation en ligne des ATP",
         "subTitle": "Sécurité",
         "icon": "lock",
         "href": "https://workinfrance.beta.gouv.fr/validity_check.html",
-        "description":
-          "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
+        "description": "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
       },
       {
         "title": "Page Facebook",
         "subTitle": "social",
         "icon": "facebook",
         "href": "https://www.facebook.com/workinfrance.beta.gouv.fr/",
-        "description":
-          "WorkInFrance, service public transparent adapté au rythme des entreprises simplifie la démarche de demande d'autorisation de travail pour les étudiants étrangers."
+        "description": "WorkInFrance, service public transparent adapté au rythme des entreprises simplifie la démarche de demande d'autorisation de travail pour les étudiants étrangers."
       }
     ]
   },
@@ -53,8 +48,7 @@
     "img": "/static/images/startups/e-MJPM.jpg",
     "title": "e-MJPM",
     "meta": "Mai 2018",
-    "description":
-      "Trouver rapidement le bon professionnel pour les majeurs à protéger.",
+    "description": "Trouver rapidement le bon professionnel pour les majeurs à protéger.",
     "links": [
       {
         "title": "Page d'accueil",
@@ -63,18 +57,28 @@
         "description": "Page officielle du produit"
       },
       {
+        "title": "Documentation utilisateur",
+        "subTitle": "site web",
+        "href": "https://emjpm-doc.num.social.gouv.fr",
+        "description": "Toute la documentation utilisateur"
+      },
+      {
+        "title": "Github doc",
+        "subTitle": "code source",
+        "href": "https://github.com/SocialGouv/eMJPM-doc",
+        "description": "Le code source de la documentation utilisateur en Markdown"
+      },
+      {
         "title": "Github frontend",
         "subTitle": "code source",
-        "href": "https://github.com/socialgouv/eMJPM-app",
-        "description":
-          "Le code source de l'application Frontend en ReactJS + Next.js"
+        "href": "https://github.com/SocialGouv/eMJPM-app",
+        "description": "Le code source de l'application Frontend en ReactJS + Next.js"
       },
       {
         "title": "Github backend",
         "subTitle": "code source",
-        "href": "https://github.com/socialgouv/eMJPM-api",
-        "description":
-          "Le code source de l'application backend avec du NodeJS et PostgreSQL"
+        "href": "https://github.com/SocialGouv/eMJPM-api",
+        "description": "Le code source de l'application backend avec du NodeJS et PostgreSQL"
       }
     ]
   },
@@ -84,8 +88,7 @@
     "img": "/static/images/startups/code-du-travail-numerique.jpg",
     "title": "Code du travail numérique",
     "meta": "Juin 2018",
-    "description":
-      "Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s.",
+    "description": "Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s.",
     "links": [
       {
         "title": "Démo prototype 1",
@@ -96,21 +99,19 @@
       {
         "title": "Github prototype",
         "subTitle": "code source",
-        "href": "https://github.com/socialgouv/code-du-travail-explorer",
-        "description":
-          "Experimentations sur le frontend du code du travail numérique"
+        "href": "https://github.com/SocialGouv/code-du-travail-explorer",
+        "description": "Experimentations sur le frontend du code du travail numérique"
       },
       {
         "title": "Github données",
         "subTitle": "données",
-        "href": "https://github.com/socialgouv/code-du-travail-data",
-        "description":
-          "Jeux de données et indexation Elastic Search des sources de données"
+        "href": "https://github.com/SocialGouv/code-du-travail-data",
+        "description": "Jeux de données et indexation Elastic Search des sources de données"
       },
       {
         "title": "Github API",
         "subTitle": "code source",
-        "href": "https://github.com/socialgouv/code-du-travail-api",
+        "href": "https://github.com/SocialGouv/code-du-travail-api",
         "description": "Code source de l'API NodeJS/elastic"
       }
     ]
