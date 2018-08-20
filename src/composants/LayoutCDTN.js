@@ -12,6 +12,10 @@ const articles = [
     href: "/startups/code-du-travail-numerique/genese"
   },
   {
+    title: "Lancement de la startup",
+    href: "/startups/code-du-travail-numerique/kickoff"
+  },
+  {
     title: "La complexité du droit",
     href: "/startups/code-du-travail-numerique/complexite",
     disabled: true
@@ -19,11 +23,6 @@ const articles = [
   {
     title: "Les services de renseignement",
     href: "/startups/code-du-travail-numerique/sdr",
-    disabled: true
-  },
-  {
-    title: "Lancement de la startup",
-    href: "/startups/code-du-travail-numerique/kickoff",
     disabled: true
   },
   {
