@@ -1,26 +1,24 @@
 module.exports = [
   {
-    "date:": "2 Aout 2018",
+    date: "2 Aout 2018",
     author: "adrien.gonzalez",
     tags: ["e-mjpm"],
     title: "e-MJPM release 1.2 « still-wildflower » 🌼",
     html: `Nouvelle livraison de l'application e-MJPM avant la pause estivale :
-          <ul>
-            <li>Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a></li>
-            <li>Nouvelles fonctionnalités pour filtrer les mesures sur un fond de carte OpenStreetMap</li>
-            <li>Améliorations cosmétiques et "UX" sur les parties mandataires individuels</li>
-            <li>L'interface des tribunaux d'instance a été enrichie</li>
-            <li>Intégration de la base FINESS des établissements</li>
-            <li>admin : Gestion des utilisateurs</li>
-          </ul>
-          Côté technique, un travail de fond a été mené sur la base de données et nous avons ajouté de nombreux tests unitaires et d'intégration pour prévenir les régressions :)
-          <br><br>
-          Prochaine feature sur notre roadmap pour la rentrée 2018 : la réservation de mesures.
-          <ul>
-            <li> ➡️ <a href="/startups/e-mjpm">En savoir plus sur e-MJPM</a></li>
-            <li> ➡️ <a href="mailto:contact@emjpm.beta.gouv.fr">Contactez l'équipe</a></li>
-            <li> ➡️ <a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a></li>
-          </ul>`
+      <br/>- Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a>
+      <br/>- Nouvelles fonctionnalités pour filtrer les mesures sur un fond de carte OpenStreetMap
+      <br/>- Améliorations cosmétiques et "UX" sur les parties mandataires individuels
+      <br/>- L'interface des tribunaux d'instance a été enrichie
+      <br/>- Intégration de la base FINESS des établissements
+      <br/>- admin : Gestion des utilisateurs
+      <br/><br/>
+    Côté technique, un travail de fond a été mené sur la base de données et nous avons ajouté de nombreux tests unitaires et d'intégration pour prévenir les régressions :)
+    <br/><br/>Prochaine feature sur notre roadmap pour la rentrée 2018 : la réservation de mesures.
+    
+    <br/>- <a href="/startups/e-mjpm">En savoir plus sur e-MJPM</a>
+    <br/>- Contactez l'équipe : <a href="mailto:contact@emjpm.beta.gouv.fr">contact@emjpm.beta.gouv.fr</a>
+    <br/>- <a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a>
+    `
   },
   {
     date: "27 Juillet 2018",
