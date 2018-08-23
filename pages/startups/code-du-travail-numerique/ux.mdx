@@ -4,11 +4,13 @@ export const meta = { title: 'Mise en place d’une démarche UX', date: "23 ao�
 
 <LayoutCDTN meta={meta}>
 
-# Mise en place d’une démarche UX
+# La mise en place d’une démarche UX
 
 ##  Le premier test utilisateur
 
-Le code du travail numérique est un outil destiné à donner des réponses sur le droit du travail simples, intelligibles, accompagnées de sources et des textes de lois correspondants. En juillet, un premier prototype fonctionnel est testé en situation, dans un service de renseignements parisien.
+Le code du travail numérique est un outil destiné à donner des réponses claires et intelligibles sur le droit du travail, accompagnées de sources et des textes de lois correspondants. Cet article donne un retour d'expérience sur la mise en place d'une démarche centrée utilisateur.
+
+Début juillet, nous testons un premier prototype fonctionnel en situation, dans un service de renseignements parisien.
 
 ![Homepage V0](/static/images/startups/code-du-travail-numerique/ux/homepage-v0.png)
 
@@ -24,10 +26,10 @@ Il soulève également des questions d’organisation :
 
 - Le code du travail est complexe et les questions des usagers parfois très spécifiques. Tester un changement d’arborescence ou d’organisation des contenus (taxonomies, catégories) peut être très fastidieux.
 
-- Nous avons besoin de pouvoir expérimenter et tester plus rapidement et simplement nos intuitions et idées. Et d'obtenir des retours d'usagers avant d'engager des développements techniques.
+- Nous avons besoin de pouvoir expérimenter et tester plus rapidement et simplement nos hypothèses et nos idées. Et d'obtenir des retours d'usagers avant d'engager des développements techniques.
 
 
-## Personas
+## Les personas : pour apprendre à connaître nos usagers
 
 Certains publics cibles de l’application sont assez évidents : salarié, employeur… Mais tout au long du projet, nous découvrons des usages et types de questions potentiellement très variés :
 
@@ -37,9 +39,11 @@ Certains publics cibles de l’application sont assez évidents : salarié, empl
 
 - Par **l’urgence**, ou **l’anxiété** que génère une situation : _« J’ai peur que mon patron me licencie », « Je dois embaucher une nounou d’ici la rentrée », «  Mon activité va mal, dois-je licencier des employés ?»  _
 
-Première étape, affiner et formaliser les personas imaginés à la création du projet pour couvrir l’ensemble des usages de l’application. Ils évolueront avec le projet et la découverte de nouveaux besoins.
+Première étape : affiner et formaliser les personas imaginés à la création du projet pour couvrir l’ensemble des usages de l’application. Ils évolueront avec le projet et la découverte de nouveaux besoins.
 
+_Jeanne_, l'un de nos personas_
 ![Jeanne](/static/images/startups/code-du-travail-numerique/personas/jeanne.png)
+
 
 En donnant vie à ces personas, avec une biographie, une photo, des objectifs, il devient plus facile de se projeter à chaque étape du projet, d’imaginer leurs frustrations, et les fonctionnalités importantes qui pourront les aider à trouver leurs réponses.
 
@@ -47,15 +51,15 @@ Lors de tests utilisateurs, ou d’évolutions de l’outil, nous pourrons égal
 
 
 
-## Wireframes : La formalisation de nos idées et intuitions
+## Les wireframes : pour formaliser nos idées
 
-Les wireframes permettent de formaliser nos idées et de nous projeter visuellement sur le résultat attendu. Les tests utilisateurs et les personas nous donnent déjà de bonnes intuitions et pistes d’amélioration :
+Les [wireframes](https://fr.wikipedia.org/wiki/Wireframe_(design)) (ou mock-ups) sont des maquettes en noir & blanc représentant l'organisation des contenus et composants d'une page web ou mobile. Ils nous permettent de formaliser nos idées et de nous projeter visuellement sur le résultat attendu. Les tests utilisateurs et les personas nous donnent déjà de bonnes intuitions et pistes d’amélioration :
 
 Pour accompagner les **usagers néophytes** (en droit, ou en web) :
-- Mettre en valeurs les thèmes les plus recherchés
+- Mettre en valeur les thèmes les plus recherchés
 - Créer des **dossiers thématiques** sur des problématiques courantes (harcèlement, engager une assistance maternelle...)
 - Faire remonter en priorité les questions les plus posées
-- Encourager la navigation croisée, le rebond et les questions complémentaires
+- Encourager la navigation croisée et le rebond (en proposant des questions similaires ou complémentaires)
 - Soigner l'architecture des informations, avec plus de textes explicatifs
 
 Pour les **usagers plus avertis**, ou experts :
@@ -66,21 +70,25 @@ Pour les **usagers plus avertis**, ou experts :
 Pour améliorer la **pertinence** des contenus proposés et des résultats :
 - Mettre en place des fonctionnalités et indicateurs de satisfaction client
 
+_Le wireframe d'une nouvelle page d'accueil_
 ![Wireframe de homepage](/static/images/startups/code-du-travail-numerique/ux/homepage-wf.png)
 
 
 ## Prototype interactif
 
-Pour valider ces hypothèses auprès d’utilisateurs, l'idéal est de proposer un prototype interactif et d'observer leur navigation en condition réelle (sur écran ou tablette).
+Pour valider ces hypothèses auprès d’utilisateurs, l'idéal est de proposer un prototype interactif et d'observer leur navigation en conditions réelles (sur écran ou tablette).
 
-Comme nous ne pouvons pas réaliser de wireframes pour _tous_ les cas de recherche, on choisit généralement un (ou plusieurs) scénario de test, en précisant un contexte _« Vos conditions de travail se sont détériorées ces derniers mois, et vous craignez que des licenciements soient annoncés prochainement »_, et un objectif _« Vous aimeriez trouver quels sont les motifs légaux envisageables lors d'un licenciement »_. 
+Comme nous ne pouvons pas réaliser de wireframes pour _tous_ les cas de recherche, on choisit généralement un (ou plusieurs) scénario de test, en précisant un contexte _« Vos conditions de travail se sont détériorées ces derniers mois, et vous craignez que des licenciements soient annoncés prochainement »_, et un objectif _« Vous aimeriez trouver quels sont les motifs légaux envisageables lors d'un licenciement »_.
 
 Beaucoup d’outils permettent de créer assez simplement un prototype cliquable. Le format PDF cliquable a l’avantage d’être un format d’export standard (Powerpoint, Keynote…) et de pouvoir être testé sur le web comme sur mobile. Pour le code du travail numérique, nous avons opté pour [Invisionapp](https://www.invisionapp.com/), intégré au logiciel de conception [Sketch](https://www.sketchapp.com/) grâce au plugin [Craft](https://www.invisionapp.com/craft)
 
 [Découvrez le prototype du code du travail numérique](https://invis.io/DBMWXF74F2G#/308308616_Home)
 
-Si le prototype interactif ne remplace pas un test en situation réelle du produit, il permet de faire tester la solution à toute personne extérieure au projet (en lui expliquant le contexte) dès la phase de conception, et d'identifier très rapidement d'éventuels problèmes de compréhension, ou de navigation. 
+Si le prototype interactif ne remplace pas un test en situation réelle du produit, il permet de faire tester la solution à toute personne extérieure au projet (en lui expliquant le contexte) dès la phase de conception, et d'identifier très rapidement d'éventuels problèmes de compréhension ou de navigation.
 
+## A suivre !
+
+Vous avez des questions, des idées pour améliorer le code du travail numérique, ou des suggestions sur la méthode présentée dans cet article ?
 
 </LayoutCDTN>
 
