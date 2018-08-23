@@ -1,6 +1,22 @@
 module.exports = [
   {
     date: "23 Août 2018",
+    author: "marc.hertzog",
+    tags: ["code-du-travail-numerique"],
+    title: "Code du travail numérique : nouveau design",
+    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail.num.social.gouv.fr">codedutravail.num.social.gouv.fr</a></p>
+      <p>Cette nouvelle version propose notamment :</p>
+      <ul>
+        <li>un nouveau design</li>
+        <li>une interface adaptative (<i>responsive</i>)</li>
+        <li>un début d'intégration du référentiel général d'accessibilité pour les administrations (RGAA)</li>
+      </ul>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+    `
+},
+{
+date: "23 Août 2018",
     author: "eric.heijligers",
     tags: ["incubateur"],
     title: "L'incubateur pousse les murs",
@@ -11,7 +27,7 @@ module.exports = [
     Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
     <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
     <p align="center"><img src="static/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
-    `
+   `
   },
   {
     date: "2 Août 2018",
