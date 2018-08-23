@@ -91,13 +91,19 @@
     "description": "Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s.",
     "links": [
       {
-        "title": "Démo prototype 1",
-        "subTitle": "prototype",
+        "title": "Prototype web v0",
+        "subTitle": "prototype web",
         "href": "https://socialgouv.github.io/code-du-travail-explorer",
-        "description": "Démo du prototype 1"
+        "description": "Démo du premier prototype fonctionnel"
       },
       {
-        "title": "Github prototype",
+        "title": "Prototype invisionApp",
+        "subTitle": "prototype UX",
+        "href": "https://projects.invisionapp.com/share/DBMWXF74F2G#/screens/308308616",
+        "description": "Prototype interactif UX invisionApp"
+      },
+      {
+        "title": "Code prototype v0",
         "subTitle": "code source",
         "href": "https://github.com/SocialGouv/code-du-travail-explorer",
         "description": "Experimentations sur le frontend du code du travail numérique"
