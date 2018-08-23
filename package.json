@@ -17,8 +17,9 @@
     "lint": "eslint src pages"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^0.11.0",
-    "@mdx-js/mdx": "^0.12.0",
+    "@mdx-js/loader": "^0.15.0",
+    "@mdx-js/mdx": "^0.15.0",
+    "@mdx-js/tag": "^0.15.0",
     "@zeit/next-css": "^0.1.2",
     "@zeit/next-mdx": "^1.1.0",
     "babel-eslint": "^8.2.3",
@@ -33,7 +34,6 @@
     "remark-autolink-headings": "^5.0.0"
   },
   "dependencies": {
-    "@mdx-js/tag": "^0.11.0",
     "react": "^16.4.1",
     "react-accessible-accordion": "^2.4.3",
     "react-countup": "^3.0.3",
