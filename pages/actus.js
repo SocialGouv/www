@@ -30,18 +30,15 @@ const Actus = () => (
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
     <Section title="Brèves" subTitle="" rowStyle={{ display: "block" }}>
-      {news.map(n => (
-        <News {...n} key={n.title} />
-      ))}
+      {news.map(n => <News {...n} key={n.title} />)}
     </Section>
-    <Section className="section-color" title="A la une" subTitle="">
+    <Section className="section-color" title="Articles de fond" subTitle="">
       <div className="row" style={{ color: "black" }}>
         <AllActus.actuSaison2 />
         <AllActus.actuCdtn1 />
         <AllActus.actuBoard1 />
       </div>
     </Section>
-    <Section className="section-dark" title="Précédemment" subTitle="" />
   </Layout>
 );
 

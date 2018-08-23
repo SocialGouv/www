@@ -1,5 +1,19 @@
 module.exports = [
   {
+    date: "23 Août 2018",
+    author: "eric.heijligers",
+    tags: ["incubateur"],
+    title: "L'incubateur pousse les murs",
+    html: `
+    Anticipant l'arrivée prochaine des lauréats de la <a href="actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
+    <br/><p align="center"><img src="static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de l'incubateur"/></p><br/>
+    Conçu par les agents du BOI en collaboration avec les incubés, l'espace de travail passera de 80m² à 150m² en septembre.<br/>
+    Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
+    <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
+    <p align="center"><img src="static/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
+    `
+  },
+  {
     date: "2 Août 2018",
     author: "adrien.gonzalez",
     tags: ["e-mjpm"],
