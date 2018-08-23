@@ -14,6 +14,20 @@ module.exports = [
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
+},
+{
+date: "23 Août 2018",
+    author: "eric.heijligers",
+    tags: ["incubateur"],
+    title: "L'incubateur pousse les murs",
+    html: `
+    Anticipant l'arrivée prochaine des lauréats de la <a href="actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
+    <br/><p align="center"><img src="static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de l'incubateur"/></p><br/>
+    Conçu par les agents du BOI en collaboration avec les incubés, l'espace de travail passera de 80m² à 150m² en septembre.<br/>
+    Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
+    <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
+    <p align="center"><img src="static/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
+   `
   },
   {
     date: "2 Août 2018",
@@ -21,19 +35,25 @@ module.exports = [
     tags: ["e-mjpm"],
     title: "e-MJPM release 1.2 « still-wildflower » 🌼",
     html: `Nouvelle livraison de l'application e-MJPM avant la pause estivale :
-      <br/>- Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a>
-      <br/>- Nouvelles fonctionnalités pour filtrer les mesures sur un fond de carte OpenStreetMap
-      <br/>- Améliorations cosmétiques et "UX" sur les parties mandataires individuels
-      <br/>- L'interface des tribunaux d'instance a été enrichie
-      <br/>- Intégration de la base FINESS des établissements
-      <br/>- admin : Gestion des utilisateurs
-      <br/><br/>
+      <ul>
+        <li>Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a></li>
+        <li>Nouvelles fonctionnalités pour filtrer les mesures sur un fond de carte OpenStreetMap</li>
+        <li>Améliorations cosmétiques et "UX" sur les parties mandataires individuels</li>
+        <li>L'interface des tribunaux d'instance a été enrichie</li>
+        <li>Intégration de la base FINESS des établissements</li>
+        <li>admin : Gestion des utilisateurs</li>
+      </ul>
+      <p>
     Côté technique, un travail de fond a été mené sur la base de données et nous avons ajouté de nombreux tests unitaires et d'intégration pour prévenir les régressions :)
-    <br/><br/>Prochaine feature sur notre roadmap pour la rentrée 2018 : la réservation de mesures.
-    
-    <br/>- <a href="/startups/e-mjpm">En savoir plus sur e-MJPM</a>
-    <br/>- Contactez l'équipe : <a href="mailto:contact@emjpm.beta.gouv.fr">contact@emjpm.beta.gouv.fr</a>
-    <br/>- <a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a>
+    <br/><br/>
+    Prochaine feature sur notre roadmap pour la rentrée 2018 : la réservation de mesures.
+    <br/><br/>
+    Et aussi :
+    <ul>
+      <li><a href="/startups/e-mjpm">En savoir plus sur e-MJPM</a></li>
+      <li>Contactez l'équipe : <a href="mailto:contact@emjpm.beta.gouv.fr">contact@emjpm.beta.gouv.fr</a></li>
+      <li><a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a></li>
+    </ul>
     `
   },
   {
