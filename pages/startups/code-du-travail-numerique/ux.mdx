@@ -1,0 +1,88 @@
+import { LayoutCDTN } from "../../../src/composants";
+
+export const meta = { title: 'Mise en place d’une démarche UX', date: "23 août 2018" }
+
+<LayoutCDTN meta={meta}>
+
+# Mise en place d’une démarche UX
+
+##  Le premier test utilisateur
+
+Le code du travail numérique est un outil destiné à donner des réponses sur le droit du travail simples, intelligibles, accompagnées de sources et des textes de lois correspondants. En juillet, un premier prototype fonctionnel est testé en situation, dans un service de renseignements parisien.
+
+![Homepage V0](/static/images/startups/code-du-travail-numerique/ux/homepage-v0.png)
+
+Ce premier test est riche d’enseignements :
+
+- Malgré un moteur de recherche performant, et plusieurs sources de données croisées, il est difficile pour les usagers non experts de mettre des mots ou de formaliser correctement la question qu’ils se posent.
+
+- Pour une problématique donnée - _ex: « Je conteste mon licenciement »_, plusieurs réponses sont souvent nécessaires : _Quels sont les motifs valables d’un licenciement ? La procédure de licenciement a-t-elle été respectée ? Comment instruire un dossier aux prud’hommes ?…_
+
+Il soulève également des questions d’organisation :
+
+- Chaque nouvelle idée ou fonctionnalité doit être formalisée, intégrée et développée avant de pouvoir être validée (ou rejetée) par des tests utilisateurs.
+
+- Le code du travail est complexe et les questions des usagers parfois très spécifiques. Tester un changement d’arborescence ou d’organisation des contenus (taxonomies, catégories) peut être très fastidieux.
+
+- Nous avons besoin de pouvoir expérimenter et tester plus rapidement et simplement nos intuitions et idées. Et d'obtenir des retours d'usagers avant d'engager des développements techniques.
+
+
+## Personas
+
+Certains publics cibles de l’application sont assez évidents : salarié, employeur… Mais tout au long du projet, nous découvrons des usages et types de questions potentiellement très variés :
+
+- Par **profil** : salarié, employeur, assistantes maternelles, particuliers employeurs, métiers support (RH, comptable), stagiaires ou jobs d’été…
+
+- Par **niveau d’expertise** en droit du travail : _« Mon patron veut me virer »_ / _« Mon patron peut-il modifier les journées travaillées de mon temps partiel ? »_ / _«  Que dit la convention Syntec sur la rémunération des heures supplémentaires pour les agents de maîtrise ? »_
+
+- Par **l’urgence**, ou **l’anxiété** que génère une situation : _« J’ai peur que mon patron me licencie », « Je dois embaucher une nounou d’ici la rentrée », «  Mon activité va mal, dois-je licencier des employés ?»  _
+
+Première étape, affiner et formaliser les personas imaginés à la création du projet pour couvrir l’ensemble des usages de l’application. Ils évolueront avec le projet et la découverte de nouveaux besoins.
+
+![Jeanne](/static/images/startups/code-du-travail-numerique/personas/jeanne.png)
+
+En donnant vie à ces personas, avec une biographie, une photo, des objectifs, il devient plus facile de se projeter à chaque étape du projet, d’imaginer leurs frustrations, et les fonctionnalités importantes qui pourront les aider à trouver leurs réponses.
+
+Lors de tests utilisateurs, ou d’évolutions de l’outil, nous pourrons également valider que nous n’avons oublié personne en chemin.
+
+
+
+## Wireframes : La formalisation de nos idées et intuitions
+
+Les wireframes permettent de formaliser nos idées et de nous projeter visuellement sur le résultat attendu. Les tests utilisateurs et les personas nous donnent déjà de bonnes intuitions et pistes d’amélioration :
+
+Pour accompagner les **usagers néophytes** (en droit, ou en web) :
+- Mettre en valeurs les thèmes les plus recherchés
+- Créer des **dossiers thématiques** sur des problématiques courantes (harcèlement, engager une assistance maternelle...)
+- Faire remonter en priorité les questions les plus posées
+- Encourager la navigation croisée, le rebond et les questions complémentaires
+- Soigner l'architecture des informations, avec plus de textes explicatifs
+
+Pour les **usagers plus avertis**, ou experts :
+- Conserver et mettre en avant le moteur de recherche, performant sur des recherches spécifiques
+- Laisser l'utilisateur choisir les sources de contenus qui l'intéressent (Réponses rédigées, textes de loi, conventions collectives, fiches pratiques...)
+- Lui permettre de filter d'affiner sa recherche grâce à une recherche multi-facettes (à la manière d'un site e-commerce)
+
+Pour améliorer la **pertinence** des contenus proposés et des résultats :
+- Mettre en place des fonctionnalités et indicateurs de satisfaction client
+
+![Wireframe de homepage](/static/images/startups/code-du-travail-numerique/ux/homepage-wf.png)
+
+
+## Prototype interactif
+
+Pour valider ces hypothèses auprès d’utilisateurs, l'idéal est de proposer un prototype interactif et d'observer leur navigation en condition réelle (sur écran ou tablette).
+
+Comme nous ne pouvons pas réaliser de wireframes pour _tous_ les cas de recherche, on choisit généralement un (ou plusieurs) scénario de test, en précisant un contexte _« Vos conditions de travail se sont détériorées ces derniers mois, et vous craignez que des licenciements soient annoncés prochainement »_, et un objectif _« Vous aimeriez trouver quels sont les motifs légaux envisageables lors d'un licenciement »_. 
+
+Beaucoup d’outils permettent de créer assez simplement un prototype cliquable. Le format PDF cliquable a l’avantage d’être un format d’export standard (Powerpoint, Keynote…) et de pouvoir être testé sur le web comme sur mobile. Pour le code du travail numérique, nous avons opté pour [Invisionapp](https://www.invisionapp.com/), intégré au logiciel de conception [Sketch](https://www.sketchapp.com/) grâce au plugin [Craft](https://www.invisionapp.com/craft)
+
+[Découvrez le prototype du code du travail numérique](https://invis.io/DBMWXF74F2G#/308308616_Home)
+
+Si le prototype interactif ne remplace pas un test en situation réelle du produit, il permet de faire tester la solution à toute personne extérieure au projet (en lui expliquant le contexte) dès la phase de conception, et d'identifier très rapidement d'éventuels problèmes de compréhension, ou de navigation. 
+
+
+</LayoutCDTN>
+
+
+
