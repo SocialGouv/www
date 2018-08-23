@@ -2,6 +2,7 @@ import { Section, Layout, AllActus, Hero } from "../src/composants";
 
 import news from "../src/data/news";
 
+// https://github.com/facebook/react/issues/377
 const News = ({ id, title, date, html }) => (
   <div className="row">
     <div
@@ -16,12 +17,12 @@ const News = ({ id, title, date, html }) => (
           </small>
         </h4>
       </div>
-      <p dangerouslySetInnerHTML={{ __html: html }} />
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   </div>
 );
 
-const App = () => (
+const Actus = () => (
   <Layout>
     <Hero
       title="Toutes les actualités"
@@ -44,4 +45,4 @@ const App = () => (
   </Layout>
 );
 
-export default App;
+export default Actus;
