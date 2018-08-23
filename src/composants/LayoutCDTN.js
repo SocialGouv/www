@@ -16,6 +16,10 @@ const articles = [
     href: "/startups/code-du-travail-numerique/kickoff"
   },
   {
+    title: "Mise en place d'une démarche UX",
+    href: "/startups/code-du-travail-numerique/ux"
+  },
+  {
     title: "La complexité du droit",
     href: "/startups/code-du-travail-numerique/complexite",
     disabled: true
