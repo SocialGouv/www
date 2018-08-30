@@ -14,14 +14,14 @@ module.exports = [
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
-},
-{
-date: "23 Août 2018",
+  },
+  {
+    date: "23 Août 2018",
     author: "eric.heijligers",
     tags: ["incubateur"],
     title: "L'incubateur pousse les murs",
     html: `
-    Anticipant l'arrivée prochaine des lauréats de la <a href="actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
+    Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
     <br/><p align="center"><img src="/static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de l'incubateur"/></p><br/>
     Conçu par les agents du BOI en collaboration avec les incubés, l'espace de travail passera de 80m² à 150m² en septembre.<br/>
     Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
