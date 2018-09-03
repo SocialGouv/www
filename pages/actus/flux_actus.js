@@ -14,10 +14,11 @@ const convertNews = news => {
 
 //}
 // le debut du fichier contenant le flux rss
+var currentTime = new Date();
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
       <title>L'actu de l'incubateur des ministères sociaux</title>
-      <updated>2018-08-31T15:50:00+02:00</updated>
+      <updated>${currentTime}</updated>
     
       <channel>
         <title>L'actu de l'incubateur des ministères sociaux</title>
@@ -29,4 +30,4 @@ const rss = `<?xml version="1.0" encoding="UTF-8"?>
  </rss>
   `;
 
-console.log(rss);
+//console.log(rss);
