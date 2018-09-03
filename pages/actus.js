@@ -3,13 +3,13 @@ import { Section, Layout, AllActus, Hero } from "../src/composants";
 import news from "../src/data/news";
 
 // https://github.com/facebook/react/issues/377
-const News = ({ id, title, date, html }) => (
+const News = ({ title, date, html }) => (
   <div className="row">
     <div
       className="panel"
       style={{ width: "80%", margin: "20px auto", paddingTop: 0 }}
     >
-      <div className="panel__header">
+      <div className="panel__header" id={date}>
         <h4>
           {title}
           <small className="panel__header-extra" style={{ float: "right" }}>
