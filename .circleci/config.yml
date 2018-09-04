@@ -27,6 +27,8 @@ jobs:
 
               CI="" NODE_ENV=production npm run build
 
+              npm run rss
+
               SITE_SOURCE="out"
               DEST_BRANCH="master"
 
