@@ -4,6 +4,7 @@ const convertNews = news => {
   return `
   <item>
     <title>${news.title}</title>
+    <pubDate>${news.date}</pubDate>
     <link>https://incubateur.social.gouv.fr/actus#${news.date}</link>
     <description><![CDATA[${news.html}]]></description>
   </item>
