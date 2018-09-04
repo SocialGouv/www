@@ -15,7 +15,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "lint": "eslint src pages",
-    "rss": "node ./scripts/rss.js > ./out/rss.xml"
+    "rss": "node ./scripts/rss.js > ./out/feed.xml"
   },
   "devDependencies": {
     "@mdx-js/loader": "^0.15.0",
