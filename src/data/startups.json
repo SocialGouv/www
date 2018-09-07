@@ -94,7 +94,13 @@
         "title": "Prototype web v0",
         "subTitle": "prototype web",
         "href": "https://socialgouv.github.io/code-du-travail-explorer",
-        "description": "Démo du premier prototype fonctionnel"
+        "description": "Démo du 1er prototype fonctionnel"
+      },
+      {
+        "title": "Prototype web v1",
+        "subTitle": "prototype web",
+        "href": "https://codedutravail.num.social.gouv.fr",
+        "description": "Démo du 2ème prototype fonctionnel"
       },
       {
         "title": "Prototype invisionApp",
