@@ -59,7 +59,7 @@ const Saison2 = () => (
         le formulaire à tout moment grâce au lien que vous recevrez par mail
         après avoir répondu aux deux premières questions.<br />
         <br />
-        Vous avez jusqu'au <b>vendredi 14 Septembre 2018</b> pour déposer votre
+        Vous avez jusqu'au <b>lundi 24 Septembre 2018</b> pour déposer votre
         idée. Si votre candidature est retenue, vous serez ensuite très vite
         recontacté(e) pour participer à la journée de sélection du{" "}
         <b>jeudi 11 octobre 2018</b>. Vous participerez alors à un bootcamp
