@@ -8,16 +8,24 @@ Les stats sont disponibles sur https://stats.num.social.gouv.fr
 
 ## Editer le site
 
- - éditer les pages dans `./pages`
- - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
+Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
 
-Les fichiers peuvent être au format `.js` ou `.mdx`.
+### Ajouter une brève :
 
-Pour trouver des images 📷 : https://unsplash.com
+📝 éditer [src/data/news.js](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/news.js)
 
 Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
-Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
+### Modifier/Créer un article :
+
+- éditer/ajouter des pages dans `./pages`
+- placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
+
+Les fichiers peuvent être au format `.js` ou `.mdx` (prendre exemple sur les fichiers actuels)
+
+Exemple MDX : [./pages/startups/work-in-france.mdx](./pages/startups/work-in-france.mdx)
+
+Pour trouver des images 📷 : https://unsplash.com
 
 ## Dev
 
@@ -36,4 +44,3 @@ Les modifs sur la branche `dev` sont automatiquement déployées sur https://soc
 ## A propos
 
 Template basé sur [template.data.gouv.fr](https://github.com/etalab/template.data.gouv.fr)
-
