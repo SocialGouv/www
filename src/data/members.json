@@ -107,7 +107,7 @@
     "id": "yann-fanch.madaule",
     "name": "Yann-Fanch Madaule",
     "structure": "DSI",
-    "startups": [],
+    "startups": ["code-du-travail-numerique", "work-in-france", "e-mjpm"],
     "role": "responsable de l'incubateur",
     "picture": "/static/images/members/avatar.jpg"
   },

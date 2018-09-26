@@ -40,6 +40,10 @@ const footerLinks = [
   {
     href: "/faq",
     title: "F.A.Q."
+  },
+  {
+    href: "/feed.xml",
+    title: "RSS"
   }
 ];
 
