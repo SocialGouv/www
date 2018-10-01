@@ -1,7 +1,7 @@
 import Link from "next/link";
+import Head from "next/head";
 
 import {
-  Card,
   SectionCards,
   Hero,
   Layout,
@@ -14,6 +14,9 @@ import "../src/custom.css";
 
 const Homepage = () => (
   <Layout>
+    <Head>
+      <title>Incubateur des ministères sociaux</title>
+    </Head>
     <Hero
       title="Bienvenue à l'incubateur des ministères sociaux"
       tagline="incubateur.social.gouv.fr"
@@ -25,14 +28,14 @@ const Homepage = () => (
       className="section-color"
     >
       <div className="container">
-        <br />
-        C 'est à la fois un lieu, une démarche et un ensemble de personnes !<br />
-        <br />
-        L 'incubateur des ministères sociaux reprend la démarche et les grands
-        principes de{" "}
+        <br />C 'est à la fois un lieu, une démarche et un ensemble de personnes
+        !<br />
+        <br />L 'incubateur des ministères sociaux reprend la démarche et les
+        grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
-        </a>, à savoir :<br />
+        </a>
+        , à savoir :<br />
         <ul>
           <li>
             Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
@@ -52,8 +55,7 @@ const Homepage = () => (
         </ul>
         L 'incubateur offre ainsi l' opportunité de tester de nouveaux modes de
         conception de services, plus simples, plus agiles et en proximité avec
-        les usagers !
-        <br />
+        les usagers !<br />
         <br />
         <Link href="/fonctionnement-incubateur">
           <a>
