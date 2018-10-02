@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 import {
   Layout,
@@ -8,16 +8,16 @@ import {
   SectionCards,
   Cards,
   StartupMembers
-} from ".";
-import { default as NextLink } from "next/link";
-import { Facebook, Twitter, Github, Link, BarChart, Lock } from "react-feather";
+} from '.';
+import { default as NextLink } from 'next/link';
+import { Facebook, Twitter, Github, Link, BarChart, Lock } from 'react-feather';
 
 const icons = {
   facebook: Facebook,
   github: Github,
   twitter: Twitter,
   link: Link,
-  "bar-chart": BarChart,
+  'bar-chart': BarChart,
   lock: Lock
 };
 const getIconFromUrl = url => {
@@ -42,8 +42,8 @@ const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   const styledIcon = makeStyledIcon(iconComponent)({
     height: 22,
     width: 22,
-    display: "inline-block",
-    float: "right"
+    display: 'inline-block',
+    float: 'right'
   });
 
   return (
@@ -57,7 +57,7 @@ const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   );
 };
 
-import startups from "../data/startups.json";
+import startups from '../data/startups.json';
 
 const getStartupData = id => startups.find(s => s.id === id);
 const getOtherStartupsData = id => startups.filter(s => s.id !== id);
@@ -79,7 +79,9 @@ const withStartup = Cmp => props => {
       <div>
         <StartupMembers startup={props.startup} />
         {props.footer ||
-          (otherStartups && <SectionCards startups={otherStartups} />)}
+          (otherStartups && (
+            <SectionCards className="section-color" startups={otherStartups} />
+          ))}
       </div>
     )
   };
@@ -112,9 +114,9 @@ const LayoutArticle = ({ meta, footer, children }) => {
               <div
                 style={{
                   marginTop: 50,
-                  fontSize: "1.2em",
-                  fontWeight: "bold",
-                  textAlign: "center"
+                  fontSize: '1.2em',
+                  fontWeight: 'bold',
+                  textAlign: 'center'
                 }}
               >
                 Les liens utiles du projet :

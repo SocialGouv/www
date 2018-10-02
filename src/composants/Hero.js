@@ -5,6 +5,10 @@ const HeroContainer = styled.div`
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  .hero__container {
+    min-height: 400px;
+  }
 `;
 
 export const Hero = ({ title, tagline, style, alt }) => (
