@@ -21,7 +21,9 @@ const Homepage = () => (
       title="Bienvenue à l'incubateur des ministères sociaux"
       tagline="incubateur.social.gouv.fr"
     />
-    <BlocChiffres />
+    <Section className="section-white" title="" subTitle="">
+      <BlocChiffres />
+    </Section>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
@@ -31,7 +33,7 @@ const Homepage = () => (
         <br />C 'est à la fois un lieu, une démarche et un ensemble de personnes
         !<br />
         <br />L 'incubateur des ministères sociaux reprend la démarche et les
-        grands principes de{" "}
+        grands principes de{' '}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
         </a>
@@ -41,8 +43,8 @@ const Homepage = () => (
             Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
           </li>
           <li>
-            Des produits fabriqués par des agents{" "}
-            <a href="/actus/saison2"> "intrapreneurs"</a>{" "}
+            Des produits fabriqués par des agents{' '}
+            <a href="/actus/saison2"> "intrapreneurs"</a>{' '}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
@@ -57,35 +59,33 @@ const Homepage = () => (
         conception de services, plus simples, plus agiles et en proximité avec
         les usagers !<br />
         <br />
+        <br />
+        <br />
         <Link href="/fonctionnement-incubateur">
           <a>
-            <div
-              style={{
-                textAlign: "center"
-              }}
-            >
+            <center>
               <img
                 src="../static/images/schema%20inc%201%20v1.png"
                 alt="Illustration fonctionnement IMS"
                 width="600"
                 height="286"
                 style={{
-                  margin: " 0 auto",
-                  borderRadius: "50px"
+                  margin: ' 0 auto',
+                  borderRadius: '50px'
                 }}
               />
               <br />
               En savoir plus
-            </div>
+            </center>
           </a>
-        </Link>{" "}
+        </Link>{' '}
       </div>
     </Section>
     <Section title="Notre actualité" subTitle="">
       <div
         className="row"
         style={{
-          color: "black"
+          color: 'black'
         }}
       >
         <AllActus.actuSaison2 />
@@ -94,13 +94,13 @@ const Homepage = () => (
       </div>
     </Section>
     <p align="center">
-      {" "}
+      {' '}
       <a href="/actus"> Voir toutes actus</a>
     </p>
     <a id="produits" name="produits">
       &nbsp;
     </a>
-    <SectionCards title="Découvrez nos startups" />
+    <SectionCards className="section-color" title="Découvrez nos startups" />
   </Layout>
 );
 

@@ -7,7 +7,7 @@ const Tag = ({ children }) => (
 const Tags = ({ tags }) => tags.map(t => <Tag key={t}>{t}</Tag>);
 
 const Api = () => (
-  <section className="section-grey">
+  <section className="section section-grey">
     <div className="container">
       <div className="panel">
         <div className="panel__header">

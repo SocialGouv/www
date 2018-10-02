@@ -17,7 +17,7 @@ const BlocChiffre = styled.div`
     font-size: 4em;
     font-weight: bold;
     text-align: center;
-    color: #003b80;
+    color: #53657d;
   }
   .texte {
     font-size: 1em;

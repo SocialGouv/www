@@ -5,7 +5,7 @@ const fetchEventBriteEvents = ({ token, organizerId }) =>
   fetch(getEventBriteUrl({ token, organizerId })).then(r => r.json());
 
 const EventBriteTable = ({ events }) => (
-  <table>
+  <table className="table">
     <thead>
       <tr>
         <th width="150">Date</th>

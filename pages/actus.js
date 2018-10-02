@@ -1,4 +1,10 @@
-import { Section, Layout, AllActus, Hero } from "../src/composants";
+import {
+  Section,
+  SectionCards,
+  Layout,
+  AllActus,
+  Hero
+} from '../src/composants';
 
 import news from "../src/data/news";
 
@@ -29,16 +35,22 @@ const Actus = () => (
       tagline=""
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
-    <Section title="Brèves" subTitle="" rowStyle={{ display: "block" }}>
+    <Section
+      className="section-white"
+      title="Brèves"
+      subTitle=""
+    >
       {news.map(n => <News {...n} key={n.title} />)}
     </Section>
-    <Section className="section-color" title="Articles de fond" subTitle="">
-      <div className="row" style={{ color: "black" }}>
-        <AllActus.actuSaison2 />
-        <AllActus.actuCdtn1 />
-        <AllActus.actuBoard1 />
-      </div>
-    </Section>
+    <SectionCards
+      className="section-color"
+      title="Articles de fond"
+      subTitle=""
+    >
+      <AllActus.actuSaison2 />
+      <AllActus.actuCdtn1 />
+      <AllActus.actuBoard1 />
+    </SectionCards>
   </Layout>
 );
 

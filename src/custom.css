@@ -1,14 +1,10 @@
 @import "../node_modules/template.data.gouv.fr/dist/style/main.css";
 @import "../node_modules/react-accessible-accordion/dist/fancy-example.css";
 
-section.section-color a {
-  color: white;
-  text-decoration: underline;
-}
-
 @media (max-width: 549px) {
   .hero__container h1 {
     font-size: 1.2em;
+    text-align: center;
   }
   .hero__container p.hero__white-background {
     font-size: 0.9em;

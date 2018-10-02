@@ -41,7 +41,7 @@ const slugify = str =>
     .replace(/[\s_'"]/g, "-");
 
 const SectionColors = () => (
-  <section className="section-grey" id="colors">
+  <section className="section section-grey" id="colors">
     <div className="container">
       <div className="panel">
         <h1>Couleurs</h1>
