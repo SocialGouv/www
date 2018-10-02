@@ -1,44 +1,12 @@
 @import "../node_modules/template.data.gouv.fr/dist/style/main.css";
 @import "../node_modules/react-accessible-accordion/dist/fancy-example.css";
 
-.navbar__container .navbar__logo {
-  max-height: 50px;
-  flex: 0 0 120px;
-}
-
-.navbar__container .navbar__title {
-  font-size: 1.5em;
-}
-
-.navbar__title_container {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.navbar__container nav {
-  flex: 1 0 auto;
-  text-align: right;
-}
-
 section.section-color a {
   color: white;
   text-decoration: underline;
 }
 
 @media (max-width: 549px) {
-  .navbar__container nav {
-    margin-top: 2em;
-    width: 100%;
-    text-align: center;
-  }
-  .navbar__container nav .nav__item {
-    display: inline-block;
-    text-align: center;
-    margin: 0 3px;
-  }
-  .navbar__container nav .nav__item a {
-    text-decoration: underline;
-  }
   .hero__container h1 {
     font-size: 1.2em;
   }

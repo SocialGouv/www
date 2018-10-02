@@ -1,6 +1,35 @@
 import Link from "next/link";
+import styled from 'styled-components';
 
 import { Nav } from ".";
+
+//
+
+const LogoImg = ({ className, alt }) => (
+  <img
+    className={className}
+    src="/static/images/marianne.svg"
+    alt={alt}
+  />
+);
+
+// verticalAlign: 'middle', marginRight: 10
+const Logo = styled(LogoImg)`
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+`;
+
+//
+
+const NavbarTitleContainer = styled.div`
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const NavbarTitle = styled.div`
+  font-size: 1.5em;
+`;
 
 export const Header = ({
   logoUrl = "/",
@@ -38,17 +67,12 @@ export const Header = ({
     <div className="navbar__container">
       <Link href={logoUrl}>
         <div style={{ cursor: "pointer" }}>
-          <img
-            className="navbar__logo"
-            src="/static/images/marianne.svg"
-            alt={logoAlt}
-            style={{ verticalAlign: "middle", marginRight: 10 }}
-          />
-          <div className="navbar__title_container">
-            <div className="navbar__title">{title}</div>
+          <Logo alt={logoAlt}></Logo>
+          <NavbarTitleContainer>
+            <NavbarTitle>{title}</NavbarTitle>
             {(subTitle && <div className="navbar__subtitle">{subTitle}</div>) ||
               null}
-          </div>
+          </NavbarTitleContainer>
         </div>
       </Link>
       <Nav links={links} />
