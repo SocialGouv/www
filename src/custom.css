@@ -1,3 +1,4 @@
+@import "../node_modules/template.data.gouv.fr/dist/style/main.css";
 @import "../node_modules/react-accessible-accordion/dist/fancy-example.css";
 
 .navbar__container .navbar__logo {
