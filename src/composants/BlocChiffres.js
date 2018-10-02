@@ -3,8 +3,7 @@ import CountUp from "react-countup";
 
 const BlocChiffre = styled.div`
   width: 50%;
-  xheight: 150px;
-  padding-bottom: 1em;
+  padding: 3em 0;
   display: inline-block;
   box-sizing: border-box;
   &:nth-child(2n + 1) {
