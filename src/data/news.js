@@ -1,5 +1,25 @@
 module.exports = [
   {
+    date: "28 Septembre 2018",
+    author: "julien.bouquillon",
+    tags: ["code-du-travail-numerique"],
+    title: "Code du travail numérique : release 1.1 - blue-firefly",
+    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
+      <p>Cette nouvelle version propose notamment :</p>
+      <ul>
+        <li>un champ de suggestions</li>
+        <li>la navigation dans les thèmes</li>
+        <li>le support d'internet explorer</li>
+        <li>un design mis à jour</li>
+        <li>des URLs fixes pour chaque contenu</li>
+        <li>nombreux bugfixes et améliorations techniques</li>
+        <li><a href="https://github.com/SocialGouv/code-du-travail-frontend/pull/132" target="_blank">details des changements</a></li>
+      </ul>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+    `
+  },
+  {
     date: "23 Août 2018",
     author: "marc.hertzog",
     tags: ["code-du-travail-numerique"],
