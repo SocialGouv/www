@@ -1,5 +1,5 @@
 const Article = ({ children }) => (
-  <section className="section-white">
+  <section className="section section-white">
     <div className="container">
       <article>{children}</article>
     </div>

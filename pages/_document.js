@@ -44,10 +44,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
           />
-          <link
-            rel="stylesheet"
-            href="/static/template.data.gouv.fr/dist/template.css"
-          />
           <script src="//cdn.polyfill.io/v2/polyfill.js?features=es2015" />
           {this.props.styleTags}
         </Head>

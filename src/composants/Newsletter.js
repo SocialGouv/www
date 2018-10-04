@@ -1,5 +1,5 @@
 const Newsletter = () => (
-  <section className="section-grey">
+  <section className="section section-grey">
     <div className="container">
       <div className="form__container">
         <form action="" method="post" name="form" target="_blank" noValidate>
