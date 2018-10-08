@@ -24,6 +24,23 @@ const Homepage = () => (
     <Section className="section-white" title="" subTitle="">
       <BlocChiffres />
     </Section>
+    <Section title="Notre actualité" subTitle="">
+      <div
+        className="row"
+        style={{
+          color: 'black'
+        }}
+      >
+        <AllActus.jourJ />
+        <AllActus.actuSaison2 />
+        <AllActus.actuCdtn1 />
+        
+      </div>
+    </Section>
+    <p align="center">
+      {' '}
+      <a href="/actus"> Voir toutes actus</a>
+    </p>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
