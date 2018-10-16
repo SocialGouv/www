@@ -1,0 +1,30 @@
+---
+dist: trusty
+language: node_js
+sudo: false
+git:
+  depth: 5
+
+node_js: lts/*
+
+cache: yarn
+
+script:
+  - yarn lint
+  - yarn build
+  - yarn rss
+
+before_deploy:
+  - '
+    git config user.name "Deployment Bot (from Travis CI)" &&
+    git config user.email "deploy@travis-ci.org"
+    '
+deploy:
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local_dir: out
+  provider: pages
+  skip_cleanup: true
+  target-branch: master
+  on:
+    branch: dev
