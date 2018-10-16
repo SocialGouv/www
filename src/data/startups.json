@@ -91,13 +91,7 @@
     "description": "Faciliter l'accès au droit du travail pour les employeur·e·s et les employé·e·s.",
     "links": [
       {
-        "title": "Prototype web v0",
-        "subTitle": "prototype web",
-        "href": "https://socialgouv.github.io/code-du-travail-explorer",
-        "description": "Démo du 1er prototype fonctionnel"
-      },
-      {
-        "title": "Prototype web v1",
+        "title": "Prototype web",
         "subTitle": "prototype web",
         "href": "https://codedutravail.num.social.gouv.fr",
         "description": "Démo du 2ème prototype fonctionnel"
@@ -109,22 +103,10 @@
         "description": "Prototype interactif UX invisionApp"
       },
       {
-        "title": "Code prototype v0",
-        "subTitle": "code source",
-        "href": "https://github.com/SocialGouv/code-du-travail-explorer",
-        "description": "Experimentations sur le frontend du code du travail numérique"
-      },
-      {
-        "title": "Github données",
-        "subTitle": "données",
-        "href": "https://github.com/SocialGouv/code-du-travail-data",
-        "description": "Jeux de données et indexation Elastic Search des sources de données"
-      },
-      {
-        "title": "Github API",
-        "subTitle": "code source",
-        "href": "https://github.com/SocialGouv/code-du-travail-api",
-        "description": "Code source de l'API NodeJS/elastic"
+        "title": "Code source",
+        "subTitle": "Licence Apache 2.0",
+        "href": "https://github.com/SocialGouv/code-du-travail-numerique",
+        "description": "Contribuez au code du travail numérique"
       }
     ]
   }
