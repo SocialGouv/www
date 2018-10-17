@@ -18,12 +18,13 @@ const Saison2 = () => (
     <Hero title="Saison 2" tagline="Appel à candidatures : participez !" />
     <Section title={title} subTitle="Mode d'emploi" className="section-color">
       <div className="container">
-        Vous êtes témoin d’irritants récurrents pour les usagers ou les agents
-        de votre service? <br />Vous avez une idée de solution numérique qui
-        permettrait d’y remédier? Vous êtes prêt(e) à vous investir aux cotés
-        d’une équipe mobilisée pendant six mois pour réussir? <br />Vous êtes
-        un(e) agent(e) des ministères sociaux et vous avez envie de résoudre un
-        vrai problème ?<br />
+        Vous êtes témoin d'irritants récurrents pour les usagers ou les agents
+        de votre service? <br />
+        Vous avez une idée de solution numérique qui permettrait d'y remédier?
+        Vous êtes prêt(e) à vous investir aux cotés d'une équipe mobilisée
+        pendant six mois pour réussir? <br />
+        Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de
+        résoudre un vrai problème ?<br />
         <p align="center">
           <h3>
             <a
@@ -36,8 +37,8 @@ const Saison2 = () => (
           </h3>
         </p>
         <br />
-        Pour devenir entrepreneur(se) des Startups d’État, aucune expertise en
-        informatique ou internet n’est nécessaire:{" "}
+        Pour devenir entrepreneur(se) des Startups d'État, aucune expertise en
+        informatique ou internet n'est nécessaire:{" "}
         <b>
           seule compte votre motivation pour résoudre un véritable problème.
         </b>{" "}

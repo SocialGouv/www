@@ -41,7 +41,7 @@ const Homepage = () => (
         , à savoir :<br />
         <ul>
           <li>
-            Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
+            Un leitmotiv : la résolution d 'irritants dont vous êtes témoin
           </li>
           <li>
             Des produits fabriqués par des agents{' '}
