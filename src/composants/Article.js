@@ -1,3 +1,4 @@
+import React from "react";
 const Article = ({ children }) => (
   <section className="section section-white">
     <div className="container">

@@ -1,3 +1,4 @@
+import React from "react";
 import { Section, LayoutArticle } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";

@@ -1,3 +1,4 @@
+import React from "react";
 import { Section, Layout } from "../src/composants";
 
 const App = () => (
