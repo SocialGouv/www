@@ -9,20 +9,24 @@ const title = (
     <span data-tip="responsable des développements techniques, biz et autres">
       intrapreneur
     </span>{" "}
-    d'une Startup d'État !
+    d&apos;une Startup d&apos;État !
   </div>
 );
 
 const Saison2 = () => (
   <Layout>
     <Hero title="Saison 2" tagline="Appel à candidatures : participez !" />
-    <Section title={title} subTitle="Mode d'emploi" className="section-color">
+    <Section
+      title={title}
+      subTitle="Mode d&apos;emploi"
+      className="section-color"
+    >
       <div className="container">
-        Vous êtes témoin d’irritants récurrents pour les usagers ou les agents
-        de votre service? <br />
-        Vous avez une idée de solution numérique qui permettrait d’y remédier?
-        Vous êtes prêt(e) à vous investir aux cotés d’une équipe mobilisée
-        pendant six mois pour réussir? <br />
+        Vous êtes témoin d&apos;irritants récurrents pour les usagers ou les
+        agents de votre service? <br />
+        Vous avez une idée de solution numérique qui permettrait d&apos;y
+        remédier? Vous êtes prêt(e) à vous investir aux cotés d&apos;une équipe
+        mobilisée pendant six mois pour réussir? <br />
         Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de
         résoudre un vrai problème ?<br />
         <p align="center">
@@ -33,12 +37,12 @@ const Saison2 = () => (
             >
               Proposez votre idée
             </a>{" "}
-            et devenez entrepreneur(se) d'une Startup d'État !
+            et devenez entrepreneur(se) d&apos;une Startup d&apos;État !
           </h3>
         </p>
         <br />
-        Pour devenir entrepreneur(se) des Startups d’État, aucune expertise en
-        informatique ou internet n’est nécessaire:{" "}
+        Pour devenir entrepreneur(se) des Startups d&apos;État, aucune expertise
+        en informatique ou internet n&apos;est nécessaire:{" "}
         <b>
           seule compte votre motivation pour résoudre un véritable problème.
         </b>{" "}
@@ -54,21 +58,21 @@ const Saison2 = () => (
         >
           Cette plateforme
         </a>{" "}
-        permet de déposer vos idées. Chacune d'entre elles sera étudiée avec
-        attention.
+        permet de déposer vos idées. Chacune d&apos;entre elles sera étudiée
+        avec attention.
         <br />
         Vous pouvez compléter votre candidature en plusieurs fois et reprendre
         le formulaire à tout moment grâce au lien que vous recevrez par mail
         après avoir répondu aux deux premières questions.
         <br />
         <br />
-        Vous avez jusqu'au <b>lundi 24 Septembre 2018</b> pour déposer votre
-        idée. Si votre candidature est retenue, vous serez ensuite très vite
-        recontacté(e) pour participer à la journée de sélection du{" "}
+        Vous avez jusqu&apos;au <b>lundi 24 Septembre 2018</b> pour déposer
+        votre idée. Si votre candidature est retenue, vous serez ensuite très
+        vite recontacté(e) pour participer à la journée de sélection du{" "}
         <b>jeudi 11 octobre 2018</b>. Vous participerez alors à un bootcamp
         pendant lequel vous serez coaché(e) pour{" "}
         <span data-tip="Présenter de façon très synthétique">pitcher</span>{" "}
-        devant un jury d'experts.
+        devant un jury d&apos;experts.
       </div>
     </Section>
   </Layout>
