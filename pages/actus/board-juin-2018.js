@@ -15,13 +15,15 @@ const Board1 = () => (
         L’aventure Startups d’Etat continue pour Lucie Delorme et Jasmine Meurin
         (DRJSCS HDF), Daniel BALMY (DIRECCTE IDF) et Jonathan Redt-Gensinger
         (DGT) qui ont rejoint l’incubateur des ministères sociaux en janvier
-        2018.<br />
+        2018.
+        <br />
         <br />
         « A quoi ça sert ? »… « Quel problème on essaie de résoudre ? »…
         L’équipe de la mission Incubateur de la DSI (direction des systèmes
         d’information), appuyée par des coachs experts, leur apporte, depuis 6
         mois, un cadre et les outils nécessaires pour pouvoir créer leur produit
-        numérique, en mode Startup d’Etat.<br /> <br />
+        numérique, en mode Startup d’Etat.
+        <br /> <br />
         Le Board de l’incubateur, réuni pour la première fois ce 22 juin 2018 en
         présence de Sabine Fourcade, Secrétaire générale des ministères sociaux,
         Annaïck Laurent, Secrétaire générale adjointe, Hélène Brisset,
@@ -33,7 +35,8 @@ const Board1 = () => (
         <div style={{ textAlign: "center" }}>
           <img src="/static/images/board1.jpg" width="50%" />
         </div>
-        <br />« Les résultats obtenus bousculent nos façons de travailler et nos
+        <br />
+        « Les résultats obtenus bousculent nos façons de travailler et nos
         habitudes », « C’est bluffant. On a réussi à faire en 6 mois ce qu’on ne
         parvenait pas à faire ! », « Cela donne plein d’idées avec un même
         traitement pour d’autres sujets » tels sont les propos recueillis auprès
@@ -43,7 +46,8 @@ const Board1 = () => (
         à l’erreur, travail en cycles courts, auto-organisation sont les
         principes clés de l’incubateur.
         <br />
-        <br />Pour rappel,{" "}
+        <br />
+        Pour rappel,{" "}
         <a href="/actus/saison2">
           <b>
             un deuxième appel à idées va prochainement être lancé auprès de tous

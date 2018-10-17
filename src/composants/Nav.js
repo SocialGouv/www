@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 //
 
@@ -21,7 +21,7 @@ const NavContainer = styled.nav`
 
 const NavItem = ({ href, title }) => (
   <li className="nav__item">
-    <Link href={href || '#'}>
+    <Link href={href || "#"}>
       <a>{title}</a>
     </Link>
   </li>

@@ -19,11 +19,12 @@ const Saison2 = () => (
     <Section title={title} subTitle="Mode d'emploi" className="section-color">
       <div className="container">
         Vous êtes témoin d’irritants récurrents pour les usagers ou les agents
-        de votre service? <br />Vous avez une idée de solution numérique qui
-        permettrait d’y remédier? Vous êtes prêt(e) à vous investir aux cotés
-        d’une équipe mobilisée pendant six mois pour réussir? <br />Vous êtes
-        un(e) agent(e) des ministères sociaux et vous avez envie de résoudre un
-        vrai problème ?<br />
+        de votre service? <br />
+        Vous avez une idée de solution numérique qui permettrait d’y remédier?
+        Vous êtes prêt(e) à vous investir aux cotés d’une équipe mobilisée
+        pendant six mois pour réussir? <br />
+        Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de
+        résoudre un vrai problème ?<br />
         <p align="center">
           <h3>
             <a
@@ -58,7 +59,8 @@ const Saison2 = () => (
         <br />
         Vous pouvez compléter votre candidature en plusieurs fois et reprendre
         le formulaire à tout moment grâce au lien que vous recevrez par mail
-        après avoir répondu aux deux premières questions.<br />
+        après avoir répondu aux deux premières questions.
+        <br />
         <br />
         Vous avez jusqu'au <b>lundi 24 Septembre 2018</b> pour déposer votre
         idée. Si votre candidature est retenue, vous serez ensuite très vite

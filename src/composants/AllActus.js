@@ -40,4 +40,3 @@ const AllActus = {
 };
 
 export default AllActus;
- 
