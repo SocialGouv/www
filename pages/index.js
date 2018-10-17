@@ -29,17 +29,16 @@ const Homepage = () => (
       <div
         className="row"
         style={{
-          color: 'black'
+          color: "black"
         }}
       >
         <AllActus.jourj />
         <AllActus.actuSaison2 />
         <AllActus.actuCdtn1 />
-        
       </div>
     </Section>
     <p align="center">
-      {' '}
+      {" "}
       <a href="/actus"> Voir toutes actus</a>
     </p>
     <Section
@@ -99,10 +98,8 @@ const Homepage = () => (
         </Link>{" "}
       </div>
     </Section>
- 
-    <a id="produits" name="produits">
 
-    </a>
+    <a id="produits" name="produits" />
     <SectionCards className="" title="Découvrez nos startups" />
   </Layout>
 );

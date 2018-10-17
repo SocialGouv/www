@@ -8,10 +8,8 @@ const Notes = () => (
     <Note>Ceci est une note de service.</Note>
     <Note className="warning closable">Ceci est une note de service.</Note>
     <div className="notification full-width">
-      Ceci est une note de service <em>fermable</em>.<button
-        className="close"
-        aria-label="Fermer"
-      >
+      Ceci est une note de service <em>fermable</em>.
+      <button className="close" aria-label="Fermer">
         <svg className="icon icon-cross">
           <use xlinkHref="#icon-cross" />
         </svg>
