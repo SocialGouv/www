@@ -7,7 +7,7 @@ const Board1 = () => (
   <Layout>
     <Hero
       style={{ backgroundImage: `url(/static/images/board.jpg)` }}
-      title="L&apos;aventure Startups d&apos;Etat continue !"
+      title="L&apos;aventure Startups d&apos;Etat continue !"
       tagline="Board #1"
     />
     <Section title="" subTitle="">
@@ -17,8 +17,7 @@ const Board1 = () => (
         Redt-Gensinger (DGT) qui ont rejoint l&apos;incubateur des ministères
         sociaux en janvier 2018.
         <br />
-        <br />
-        « A quoi ça sert ? »… « Quel problème on essaie de résoudre ? »…
+        <br />« A quoi ça sert ? »… « Quel problème on essaie de résoudre ? »…
         L&apos;équipe de la mission Incubateur de la DSI (direction des systèmes
         d&apos;information), appuyée par des coachs experts, leur apporte,
         depuis 6 mois, un cadre et les outils nécessaires pour pouvoir créer
@@ -35,11 +34,10 @@ const Board1 = () => (
         <div style={{ textAlign: "center" }}>
           <img src="/static/images/board1.jpg" width="50%" />
         </div>
-        <br />
-        « Les résultats obtenus bousculent nos façons de travailler et nos
-        habitudes », « C&apos;est bluffant. On a réussi à faire en 6 mois ce
-        qu&apos;on ne parvenait pas à faire ! », « Cela donne plein d&apos;idées
-        avec un même traitement pour d&apos;autres sujets » tels sont les propos
+        <br />« Les résultats obtenus bousculent nos façons de travailler et nos
+        habitudes », « C&apos;est bluffant. On a réussi à faire en 6 mois ce
+        qu&apos;on ne parvenait pas à faire ! », « Cela donne plein d&apos;idées
+        avec un même traitement pour d&apos;autres sujets » tels sont les propos
         recueillis auprès des participants du Board. L&apos;objectif de mettre
         en production un service rapidement, puis de l&apos;améliorer en
         continu, au plus près des attentes des utilisateurs a été atteint.
