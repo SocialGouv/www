@@ -1,7 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 const Note = ({ className, children }) => (
   <div className={`notification full-width ${className}`}>{children}</div>
 );
+
+Note.propTypes = {
+  children: PropTypes.element,
+  className: PropTypes.string
+};
 
 const Notes = () => (
   <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import CountUp from "react-countup";
 
@@ -27,6 +28,9 @@ const BlocChiffre = styled.div`
 `;
 
 const ZeroCounter = ({ end }) => <CountUp start={0} end={end} />;
+ZeroCounter.propTypes = {
+  end: PropTypes.number
+};
 
 const BlocChiffres = () => (
   <div style={{ width: "80%", maxWidth: 500, margin: "0 auto" }}>

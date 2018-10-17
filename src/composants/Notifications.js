@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 const Notification = ({ className, children }) => (
   <div className={`notification closable ${className}`}>
     {children}
@@ -9,6 +11,11 @@ const Notification = ({ className, children }) => (
     </button>
   </div>
 );
+
+Notification.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.element
+};
 
 const Notifications = () => (
   <section className="notifications">

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 import styled from "styled-components";
 
@@ -27,6 +28,11 @@ const NavItem = ({ href, title }) => (
   </li>
 );
 
+NavItem.propTypes = {
+  href: PropTypes.string,
+  title: PropTypes.string
+};
+
 //
 
 const Nav = ({ links }) => (
@@ -47,5 +53,9 @@ const Nav = ({ links }) => (
     </ul>
   </NavContainer>
 );
+
+Nav.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact(NavItem.propTypes))
+};
 
 export default Nav;
