@@ -1,3 +1,4 @@
+import React from "react";
 const Notification = ({ className, children }) => (
   <div className={`notification closable ${className}`}>
     {children}

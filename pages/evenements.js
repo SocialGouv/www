@@ -1,3 +1,4 @@
+import React from "react";
 import { Layout, EventBriteEvents } from "../src/composants";
 
 export default () => (

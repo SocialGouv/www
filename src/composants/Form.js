@@ -1,3 +1,4 @@
+import React from "react";
 const Form = () => (
   <section id="form">
     <div className="container">

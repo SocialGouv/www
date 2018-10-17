@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import CountUp from "react-countup";
 
@@ -47,7 +48,7 @@ const BlocChiffres = () => (
       <div className="num">
         <ZeroCounter end={100} duration={1.75} />
       </div>
-      <div className="texte">m2 d'espace dédié</div>
+      <div className="texte">m2 d&apos;espace dédié</div>
     </BlocChiffre>
 
     <BlocChiffre>
