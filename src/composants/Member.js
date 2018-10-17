@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const StyledIcon = styled.div`
@@ -63,6 +64,16 @@ const Member = ({ name, structure, startups, role, picture, bio, style }) => {
       </div>
     </StyledMember>
   );
+};
+
+Member.propTypes = {
+  name: PropTypes.string,
+  structure: PropTypes.string,
+  startups: PropTypes.string,
+  role: PropTypes.string,
+  picture: PropTypes.string,
+  bio: PropTypes.string,
+  style: PropTypes.object
 };
 
 export default Member;

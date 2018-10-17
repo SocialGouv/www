@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Section, LayoutArticle } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";
@@ -72,6 +73,8 @@ const Links = withRouter(({ router }) => (
   </Section>
 ));
 
+//
+
 const LayoutCDTN = ({ meta, children }) => {
   if (typeof window !== "undefined" && meta.disabled) {
     throw new Error("Not found");
@@ -92,4 +95,10 @@ const LayoutCDTN = ({ meta, children }) => {
     </LayoutArticle>
   );
 };
+
+LayoutCDTN.propTypes = {
+  meta: PropTypes.object,
+  children: PropTypes.element
+};
+
 export default LayoutCDTN;

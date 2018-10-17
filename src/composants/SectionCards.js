@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Card } from ".";
 
 import startups from "../data/startups.json";
@@ -30,5 +31,12 @@ const SectionCards = ({
     </div>
   </section>
 );
+
+SectionCards.propTypes = {
+  title: PropTypes.string,
+  cards: PropTypes.arrayOf(PropTypes.object),
+  className: PropTypes.string,
+  startups: PropTypes.arrayOf(PropTypes.object)
+};
 
 export default withStartups(SectionCards);

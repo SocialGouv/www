@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import {
   Section,
   SectionCards,
@@ -6,7 +8,6 @@ import {
   AllActus,
   Hero
 } from "../src/composants";
-
 import news from "../src/data/news";
 
 // https://github.com/facebook/react/issues/377
@@ -28,6 +29,12 @@ const News = ({ title, date, html }) => (
     </div>
   </div>
 );
+
+News.propTypes = {
+  title: PropTypes.string,
+  date: PropTypes.string,
+  html: PropTypes.string
+};
 
 const Actus = () => (
   <Layout>

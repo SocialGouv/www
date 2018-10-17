@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 
 const AuthorPanel = ({
@@ -32,5 +33,14 @@ const AuthorPanel = ({
     />
   </div>
 );
+
+AuthorPanel.propTypes = {
+  description: PropTypes.string,
+  href: PropTypes.string,
+  Icon: PropTypes.element,
+  name: PropTypes.string,
+  role: PropTypes.string,
+  target: PropTypes.string
+};
 
 export default AuthorPanel;

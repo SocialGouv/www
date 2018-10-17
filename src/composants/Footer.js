@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 
-export default ({
+const Footer = ({
   title = "template.data.gouv.fr",
   links = [
     {
@@ -69,3 +70,17 @@ export default ({
     <div>{children}</div>
   </footer>
 );
+
+Footer.propTypes = {
+  children: PropTypes.element,
+  links: PropTypes.arrayOf(
+    PropTypes.exact({
+      href: PropTypes.string,
+      title: PropTypes.string
+    })
+  ),
+  style: PropTypes.object,
+  title: PropTypes.string
+};
+
+export default Footer;
