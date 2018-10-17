@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Tag = ({ children }) => (
   <li className="tag">
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
     <a>{children}</a>
   </li>
 );

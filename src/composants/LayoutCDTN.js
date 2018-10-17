@@ -63,6 +63,7 @@ const Links = withRouter(({ router }) => (
               <div>{article.title}</div>
             ) : (
               <Link href={article.href}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>{article.title}</a>
               </Link>
             )}

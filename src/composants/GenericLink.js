@@ -21,6 +21,7 @@ export const GenericLink = props => {
 
 export const InternalLink = ({ href, as, children, error = false }) => (
   <NativeLink prefetch href={href} as={as}>
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
     <a>{children}</a>
   </NativeLink>
 );

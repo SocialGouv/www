@@ -65,6 +65,7 @@ const Homepage = () => (
         <br />
         <br />
         <Link href="/fonctionnement-incubateur">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a>
             <center>
               <img
@@ -100,9 +101,7 @@ const Homepage = () => (
       {" "}
       <a href="/actus"> Voir toutes actus</a>
     </p>
-    <a id="produits" name="produits">
-      &nbsp;
-    </a>
+    <div id="produits" />
     <SectionCards className="section-color" title="Découvrez nos startups" />
   </Layout>
 );

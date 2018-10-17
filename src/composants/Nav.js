@@ -23,6 +23,7 @@ const NavContainer = styled.nav`
 const NavItem = ({ href, title }) => (
   <li className="nav__item">
     <Link href={href || "#"}>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a>{title}</a>
     </Link>
   </li>

@@ -80,11 +80,7 @@ export default class Layout extends React.Component {
     return (
       <React.Fragment>
         <SvgIcons />
-        <Header
-          title="incubateur.social.gouv.fr"
-          subTitle="L'incubateur des ministères sociaux"
-          links={headerLinks}
-        />
+        <Header links={headerLinks} />
 
         <MDXProvider components={components}>
           <div>{this.props.children}</div>
