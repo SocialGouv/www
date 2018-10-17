@@ -48,7 +48,7 @@ const BlocChiffres = () => (
       <div className="num">
         <ZeroCounter end={150} duration={1.75} />
       </div>
-      <div className="texte">m² d'espace dédié</div>
+      <div className="texte">m² d&apos;espace dédié</div>
     </BlocChiffre>
 
     <BlocChiffre>

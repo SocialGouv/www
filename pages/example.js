@@ -134,9 +134,10 @@ const App = () => (
               </div>
               <p>
                 The Welsh Corgi, sometimes known as just a Corgi (/ˈkɔːrɡi/,
-                Welsh for "dwarf dog"; plural "corgis" or occasionally the
-                etymologically consistent "corgwn" (/ˈkɔːrɡuːn/)), is a small
-                type of herding dog that originated in Wales.
+                Welsh for &quot;dwarf dog&quot;; plural &quot;corgis&quot; or
+                occasionally the etymologically consistent &quot;corgwn&quot;
+                (/ˈkɔːrɡuːn/)), is a small type of herding dog that originated
+                in Wales.
               </p>
             </div>
           </div>

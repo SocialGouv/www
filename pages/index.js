@@ -47,9 +47,11 @@ const Homepage = () => (
       className="section-color"
     >
       <div className="container">
-        <br />C 'est à la fois un lieu, une démarche et un ensemble de personnes
-        !<br />
-        <br />L 'incubateur des ministères sociaux reprend la démarche et les
+        <br />
+        C&apos;est à la fois un lieu, une démarche et un ensemble de personnes !
+        <br />
+        <br />
+        L&apos;incubateur des ministères sociaux reprend la démarche et les
         grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
@@ -57,24 +59,24 @@ const Homepage = () => (
         , à savoir :<br />
         <ul>
           <li>
-            Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
+            Un leitmotiv : la résolution d&apos;irritants dont vous êtes témoin
           </li>
           <li>
             Des produits fabriqués par des agents{" "}
-            <a href="/actus/saison2"> "intrapreneurs"</a>{" "}
+            <a href="/actus/saison2"> &quot;intrapreneurs&quot;</a>{" "}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
-            intrapreneurs et bien d 'autres ;)
+            intrapreneurs et bien d&apos;autres ;)
           </li>
           <li>
             De la co - construction, des petits pas et des produits utilisables
             très rapidement
           </li>
         </ul>
-        L 'incubateur offre ainsi l' opportunité de tester de nouveaux modes de
-        conception de services, plus simples, plus agiles et en proximité avec
-        les usagers !<br />
+        L&apos;incubateur offre ainsi l&apos;opportunité de tester de nouveaux
+        modes de conception de services, plus simples, plus agiles et en
+        proximité avec les usagers !<br />
         <br />
         <br />
         <br />

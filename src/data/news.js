@@ -37,7 +37,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : release 1.1 - blue-firefly",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
-      <p>Cette nouvelle version propose notamment :</p>
+      <p>Cette nouvelle version propose notamment :</p>
       <ul>
         <li>un champ de suggestions</li>
         <li>la navigation dans les thèmes</li>
@@ -47,8 +47,8 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
         <li>nombreux bugfixes et améliorations techniques</li>
         <li><a href="https://github.com/SocialGouv/code-du-travail-frontend/pull/132" target="_blank">details des changements</a></li>
       </ul>
-      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
   },
   {
@@ -57,14 +57,14 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : nouveau design",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail.num.social.gouv.fr">codedutravail.num.social.gouv.fr</a></p>
-      <p>Cette nouvelle version propose notamment :</p>
+      <p>Cette nouvelle version propose notamment :</p>
       <ul>
         <li>un nouveau design</li>
         <li>une interface adaptative (<i>responsive</i>)</li>
         <li>un début d'intégration du référentiel général d'accessibilité pour les administrations (RGAA)</li>
       </ul>
-      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
   },
   {
