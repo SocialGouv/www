@@ -1,3 +1,4 @@
+import React from "react";
 const colors = {
   primary: {
     Medium: "#0081D5",

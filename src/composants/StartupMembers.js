@@ -1,3 +1,4 @@
+import React from "react";
 import { Member } from ".";
 
 import members from "../data/members.json";

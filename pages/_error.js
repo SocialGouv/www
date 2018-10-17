@@ -1,3 +1,4 @@
+import React from "react";
 import { Layout, Article } from "../src/composants";
 
 export default () => (

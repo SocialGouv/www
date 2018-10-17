@@ -1,3 +1,4 @@
+import React from "react";
 const Doc = () => (
   <div id="documentation" className="documentation">
     <nav className="side-pane">
