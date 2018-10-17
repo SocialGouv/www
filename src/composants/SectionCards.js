@@ -4,14 +4,17 @@ import { Card } from ".";
 
 import startups from "../data/startups.json";
 
-const withStartups = Cmp => props => (
-  <Cmp
-    {...props}
-    startups={startups.filter(
-      s => (props.startups ? props.startups.indexOf(s.id) > -1 : true)
-    )}
-  />
-);
+function withStartups(Cmp) {
+  const CmpWithStartups = props => (
+    <Cmp
+      {...props}
+      startups={startups.filter(
+        s => (props.startups ? props.startups.indexOf(s.id) > -1 : true)
+      )}
+    />
+  );
+  return CmpWithStartups;
+}
 
 const SectionCards = ({
   title = "Nos autres startups",

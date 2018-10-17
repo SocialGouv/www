@@ -35,9 +35,11 @@ const getIconFromUrl = url => {
   return Link;
 };
 
-const makeStyledIcon = Icon => style => props => (
-  <Icon {...props} style={style} />
-);
+const makeStyledIcon = Icon =>
+  function(style) {
+    const StyledIcon = props => <Icon {...props} style={style} />;
+    return StyledIcon;
+  };
 
 const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   const iconComponent = (icon && icons[icon]) || getIconFromUrl(href);
@@ -75,30 +77,37 @@ const getStartupData = id => startups.find(s => s.id === id);
 const getOtherStartupsData = id => startups.filter(s => s.id !== id);
 
 // inject footer + links when props.startup given
-const withStartup = Cmp => props => {
-  const startupData = getStartupData(props.startup);
-  const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
-  const allProps = {
-    ...props,
-    meta: {
-      ...props.meta,
-      links: [
-        ...((props.meta && props.meta.links) || []),
-        ...((startupData && startupData.links) || [])
-      ]
-    },
-    footer: (
-      <div>
-        <StartupMembers startup={props.startup} />
-        {props.footer ||
-          (otherStartups && (
-            <SectionCards className="section-color" startups={otherStartups} />
-          ))}
-      </div>
-    )
+function withStartup(Cmp) {
+  const CmpWithStartup = props => {
+    const startupData = getStartupData(props.startup);
+    const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
+    const allProps = {
+      ...props,
+      meta: {
+        ...props.meta,
+        links: [
+          ...((props.meta && props.meta.links) || []),
+          ...((startupData && startupData.links) || [])
+        ]
+      },
+      footer: (
+        <div>
+          <StartupMembers startup={props.startup} />
+          {props.footer ||
+            (otherStartups && (
+              <SectionCards
+                className="section-color"
+                startups={otherStartups}
+              />
+            ))}
+        </div>
+      )
+    };
+    return <Cmp {...allProps} />;
   };
-  return <Cmp {...allProps} />;
-};
+
+  return CmpWithStartup;
+}
 
 const LayoutArticle = ({ meta, footer, children }) => {
   return (

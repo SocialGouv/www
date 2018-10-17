@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, Article } from "../src/composants";
 
-export default () => (
+const ErrorPage = () => (
   <Layout>
     <Article>
       <h1>Erreur d&apos;aiguillage !</h1>
@@ -9,3 +9,5 @@ export default () => (
     </Article>
   </Layout>
 );
+
+export default ErrorPage;
