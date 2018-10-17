@@ -1,3 +1,4 @@
+import React from "react";
 const Tag = ({ children }) => (
   <li className="tag">
     <a>{children}</a>

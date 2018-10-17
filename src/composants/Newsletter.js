@@ -1,3 +1,4 @@
+import React from "react";
 const Newsletter = () => (
   <section className="section section-grey">
     <div className="container">

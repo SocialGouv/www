@@ -1,3 +1,4 @@
+import React from "react";
 import { Card } from ".";
 
 import startups from "../data/startups.json";

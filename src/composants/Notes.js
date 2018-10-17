@@ -1,3 +1,4 @@
+import React from "react";
 const Note = ({ className, children }) => (
   <div className={`notification full-width ${className}`}>{children}</div>
 );

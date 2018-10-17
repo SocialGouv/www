@@ -1,3 +1,4 @@
+import React from "react";
 //section section-color
 const Section = ({
   title = 'Titre de section',
