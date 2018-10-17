@@ -236,7 +236,9 @@ const Faq = () => (
           <AccordionItemBody>
             <p>
               L&apos;équipe de DSI Incubateur :{" "}
-              <a href="#">DSI-incubateur@sg.social.gouv.fr</a>
+              <a href="mailto:DSI-incubateur@sg.social.gouv.fr">
+                DSI-incubateur@sg.social.gouv.fr
+              </a>
             </p>
           </AccordionItemBody>
         </AccordionItem>

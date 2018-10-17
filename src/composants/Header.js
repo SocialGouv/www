@@ -36,35 +36,10 @@ const NavbarTitle = styled.div`
 
 export const Header = ({
   logoUrl = "/",
-  logoAlt = "Accueil de template.data.gouv.fr",
-  title = "template.data.gouv.fr",
-  subTitle = "",
-  links = [
-    {
-      href: "/#typography",
-      title: "Typographie"
-    },
-    {
-      href: "/#couleurs",
-      title: "Couleurs"
-    },
-    {
-      href: "/article",
-      title: "Article 1"
-    },
-    {
-      href: "/example",
-      title: "Example 1"
-    },
-    {
-      href: "/#form",
-      title: "Form"
-    },
-    {
-      href: "/#documentation",
-      title: "Documentation"
-    }
-  ]
+  logoAlt = "Accueil de incubateur.social.gouv.fr",
+  title = "incubateur.social.gouv.fr",
+  subTitle = "L'incubateur des ministères sociaux",
+  links = []
 }) => (
   <header className="navbar">
     <div className="navbar__container">
