@@ -59,6 +59,7 @@ export default ({
         {links.map(link => (
           <li key={link.href}>
             <Link href={link.href}>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a>{link.title}</a>
             </Link>
           </li>

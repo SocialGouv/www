@@ -12,6 +12,7 @@ const AuthorPanel = ({
   <div className="article__author panel">
     <div className="article__author-info">
       <Link href={href}>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="article__author-name" target={target}>
           {name}
         </a>
@@ -20,6 +21,7 @@ const AuthorPanel = ({
     </div>
     {(Icon && (
       <Link href={href}>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a target={target}>
           <Icon />
         </a>
