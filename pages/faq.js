@@ -31,18 +31,11 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-<<<<<<< HEAD
-              Un incubateur est une structure légère qui permet d’accueillir des
-              porteurs d’idées internes, les « intrapreneurs », et de leur
-              fournir le cadre et les outils nécessaires pour pouvoir créer leur
-              produit numérique en mode « startup d’état » pendant 6 mois.
-=======
               Un incubateur est une structure légère qui permet
               d&apos;accueillir des porteurs d&apos;idées internes, les
               « intrapreneurs », et de leur fournir le cadre et les outils
               nécessaires pour pouvoir créer leur produit numérique en mode
               « startup d&apos;état » pendant 6 mois.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -56,15 +49,6 @@ const Faq = () => (
           <AccordionItemBody>
             <p>
               {" "}
-<<<<<<< HEAD
-              ◦ Une Startup d’Etat permet le développement rapide de produits et
-              services numériques, en cycles courts de développement. Elle est
-              agencée selon le modèle de l’incubateur interministériel porté par
-              la DINSIC. Elle est composée d’une équipe autonome, et a pour
-              objectif de produire un service numérique qui résout un irritant
-              vécu par les usagers ou les agents, et dont les premiers impacts
-              peuvent être mesurés dans les 6 mois.
-=======
               ◦ Une Startup d&apos;Etat permet le développement rapide de
               produits et services numériques, en cycles courts de
               développement. Elle est agencée selon le modèle de
@@ -73,7 +57,6 @@ const Faq = () => (
               produire un service numérique qui résout un irritant vécu par les
               usagers ou les agents, et dont les premiers impacts peuvent être
               mesurés dans les 6 mois.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
               <br />
               <a href="https://beta.gouv.fr/2017/09/05/les-6-prochains-mois-dune-startup-detat.html">
                 https://beta.gouv.fr/2017/09/05/les-6-prochains-mois-dune-startup-detat.html
@@ -94,17 +77,10 @@ const Faq = () => (
               Car le numérique transforme en profondeur notre environnement et
               apporte des opportunités nouvelles. Les ministères sociaux ont un
               rôle à jouer dans le domaine du numérique, en tant que porteurs de
-<<<<<<< HEAD
-              valeurs et de services pour l’ensemble des citoyens. Les attentes
-              des usagers sont particulièrement fortes dans le domaine social,
-              dans toutes ses composantes, qui ont un impact direct sur la vie
-              quotidienne de chacun.
-=======
               valeurs et de services pour l&apos;ensemble des citoyens. Les
               attentes des usagers sont particulièrement fortes dans le domaine
               social, dans toutes ses composantes, qui ont un impact direct sur
               la vie quotidienne de chacun.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -118,19 +94,11 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-<<<<<<< HEAD
-              ◦ Au niveau interministériel, BetaGouv, l’incubateur des services
-              numériques de la DINSIC Incubateur de services publics numériques
-              — <a href="beta.gouv.fr">beta.gouv.fr</a>
-              <br />◦ Au niveau ministériel, le ministère de l’écologie, le
-              ministère de l’Intérieur
-=======
               ◦ Au niveau interministériel, BetaGouv, l&apos;incubateur des
               services numériques de la DINSIC Incubateur de services publics
               numériques — <a href="beta.gouv.fr">beta.gouv.fr</a>
               <br />◦ Au niveau ministériel, le ministère de l&apos;écologie, le
               ministère de l&apos;Intérieur
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -167,19 +135,11 @@ const Faq = () => (
           <AccordionItemBody>
             <p>
               Un total de 138 idées a été déposé par les agents de
-<<<<<<< HEAD
-              l’administration centrale, des  DIRECCTE, des DR(D)JSCS) et des
-              ARS pour l’incubateur des ministères sociaux, dont 41 dossiers
-              pour les DIRECCTE (30 %), 35 dossiers  pour la DGS (25%), 22
-              dossiers pour les DRJSCS  (16%) et 19 dossiers pour les directions
-              du SG (14 %). Parmi ces 138 candidatures, 19 ont été
-=======
               l&apos;administration centrale, des  DIRECCTE, des DR(D)JSCS) et
               des ARS pour l&apos;incubateur des ministères sociaux, dont 41
               dossiers pour les DIRECCTE (30 %), 35 dossiers  pour la DGS (25%),
               22 dossiers pour les DRJSCS  (16%) et 19 dossiers pour les
               directions du SG (14 %). Parmi ces 138 candidatures, 19 ont été
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
               pré-sélectionnées pour la sélection finale effectuée par un jury
               composé d&apos;institutionnels et d&apos;experts issus du
               numérique.
@@ -196,14 +156,6 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-<<<<<<< HEAD
-              Il doit avoir les qualités d’un «  intrapreneur » souhaitant
-              s’engager et étant en capacité de se rendre disponible. C’est une
-              personne engagée, avec des compétences et une expertise propres,
-              qui a la posture nécessaire pour porter une Startup d’Etat. Il est
-              accompagné par des coachs et des développeurs pour présenter un
-              premier produit au bout de six mois.
-=======
               Il doit avoir les qualités d&apos;un «  intrapreneur » souhaitant
               s&apos;engager et étant en capacité de se rendre disponible.
               C&apos;est une personne engagée, avec des compétences et une
@@ -211,7 +163,6 @@ const Faq = () => (
               Startup d&apos;Etat. Il est accompagné par des coachs et des
               développeurs pour présenter un premier produit au bout de six
               mois.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -225,16 +176,6 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-<<<<<<< HEAD
-              Le fonctionnement de l’incubateur est basé sur le principe
-              innovant du développement agile itératif. L’objectif est de mettre
-              en production un service rapidement, puis de l’améliorer en
-              continue, avec les utilisateurs. Confrontation au terrain très
-              tôt, droit à l’erreur, travail par itérations, auto-organisation,…
-              sont des principes liés aux méthodes dites « agiles ». Celles-ci
-              découpent, séquencent les réalisations en briques plus rapides à
-              déployer et plus proches des attentes réelles des utilisateurs.
-=======
               Le fonctionnement de l&apos;incubateur est basé sur le principe
               innovant du développement agile itératif. L&apos;objectif est de
               mettre en production un service rapidement, puis de
@@ -244,7 +185,6 @@ const Faq = () => (
               méthodes dites « agiles ». Celles-ci découpent, séquencent les
               réalisations en briques plus rapides à déployer et plus proches
               des attentes réelles des utilisateurs.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
               <br />◦{" "}
               <a href="https://beta.gouv.fr/2016/11/28/equipes-autonomes.html">
                 https://beta.gouv.fr/2016/11/28/equipes-autonomes.html
@@ -266,13 +206,8 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-<<<<<<< HEAD
-              L’incubateur se situe dans les locaux de la DSI, au 8è étage de la
-              tour Mirabeau à Paris.
-=======
               L&apos;incubateur se situe dans les locaux de la DSI, au 8è étage
               de la tour Mirabeau à Paris.
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
             </p>
           </AccordionItemBody>
         </AccordionItem>

@@ -31,17 +31,11 @@ const Homepage = () => (
       className="section-color"
     >
       <div className="container">
-<<<<<<< HEAD
-        <br />C 'est à la fois un lieu, une démarche et un ensemble de personnes
-        !<br />
-        <br />L 'incubateur des ministères sociaux reprend la démarche et les
-=======
         <br />
         C&apos;est à la fois un lieu, une démarche et un ensemble de personnes !
         <br />
         <br />
         L&apos;incubateur des ministères sociaux reprend la démarche et les
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
         grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
@@ -53,11 +47,7 @@ const Homepage = () => (
           </li>
           <li>
             Des produits fabriqués par des agents{" "}
-<<<<<<< HEAD
-            <a href="/actus/saison2"> "intrapreneurs"</a>{" "}
-=======
             <a href="/actus/saison2"> &quot;intrapreneurs&quot;</a>{" "}
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
