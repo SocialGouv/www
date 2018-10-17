@@ -22,19 +22,11 @@ const Saison2 = () => (
       className="section-color"
     >
       <div className="container">
-<<<<<<< HEAD
-        Vous êtes témoin d’irritants récurrents pour les usagers ou les agents
-        de votre service? <br />
-        Vous avez une idée de solution numérique qui permettrait d’y remédier?
-        Vous êtes prêt(e) à vous investir aux cotés d’une équipe mobilisée
-        pendant six mois pour réussir? <br />
-=======
         Vous êtes témoin d&apos;irritants récurrents pour les usagers ou les
         agents de votre service? <br />
         Vous avez une idée de solution numérique qui permettrait d&apos;y
         remédier? Vous êtes prêt(e) à vous investir aux cotés d&apos;une équipe
         mobilisée pendant six mois pour réussir? <br />
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
         Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de
         résoudre un vrai problème ?<br />
         <p align="center">
@@ -72,10 +64,6 @@ const Saison2 = () => (
         Vous pouvez compléter votre candidature en plusieurs fois et reprendre
         le formulaire à tout moment grâce au lien que vous recevrez par mail
         après avoir répondu aux deux premières questions.
-<<<<<<< HEAD
-        <br />
-=======
->>>>>>> 2c7aceb... style: replace right single quotation mark by single quote (#58)
         <br />
         <br />
         Vous avez jusqu&apos;au <b>lundi 24 Septembre 2018</b> pour déposer
