@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default ({
+const Footer = ({
   title = "template.data.gouv.fr",
   links = [
     {
@@ -69,3 +69,5 @@ export default ({
     <div>{children}</div>
   </footer>
 );
+
+export default Footer;
