@@ -1,5 +1,6 @@
 import React from "react";
-export default () => (
+
+const SvgIcons = () => (
   <svg
     style={{ position: "absolute", width: 0, height: 0, overflow: "hidden" }}
     version="1.1"
@@ -58,3 +59,5 @@ export default () => (
     </defs>
   </svg>
 );
+
+export default SvgIcons;
