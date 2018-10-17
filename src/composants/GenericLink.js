@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import NativeLink from "next/link";
 
 // used for markdown links
@@ -16,11 +17,22 @@ export const GenericLink = props => {
   return <ExternalLink {...props} />;
 };
 
+//
+
 export const InternalLink = ({ href, as, children, error = false }) => (
   <NativeLink prefetch href={href} as={as}>
     <a>{children}</a>
   </NativeLink>
 );
+
+InternalLink.propTypes = {
+  as: PropTypes.string,
+  children: PropTypes.element,
+  error: PropTypes.bool,
+  href: PropTypes.string
+};
+
+//
 
 export const AnchorLink = ({ href, onClick, children }) => (
   <a href={href} onClick={onClick}>
@@ -28,10 +40,23 @@ export const AnchorLink = ({ href, onClick, children }) => (
   </a>
 );
 
+AnchorLink.propTypes = {
+  children: PropTypes.element,
+  href: PropTypes.string,
+  onClick: PropTypes.func
+};
+
+//
+
 export const ExternalLink = ({ href, children }) => (
   <a href={href} target="_blank" rel="noopener noreferrer">
     {children}
   </a>
 );
+
+ExternalLink.propTypes = {
+  children: PropTypes.element,
+  href: PropTypes.string
+};
 
 export default GenericLink;

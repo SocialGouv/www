@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 import styled from "styled-components";
 
@@ -9,6 +10,11 @@ import { Nav } from ".";
 const LogoImg = ({ className, alt }) => (
   <img className={className} src="/static/images/marianne.svg" alt={alt} />
 );
+
+LogoImg.propTypes = {
+  alt: PropTypes.string,
+  className: PropTypes.string
+};
 
 // verticalAlign: 'middle', marginRight: 10
 const Logo = styled(LogoImg)`
@@ -76,5 +82,18 @@ export const Header = ({
     </div>
   </header>
 );
+
+Header.propTypes = {
+  logoUrl: PropTypes.string,
+  logoAlt: PropTypes.string,
+  links: PropTypes.arrayOf(
+    PropTypes.exact({
+      href: PropTypes.string,
+      title: PropTypes.string
+    })
+  ),
+  subTitle: PropTypes.string,
+  title: PropTypes.string
+};
 
 export default Header;

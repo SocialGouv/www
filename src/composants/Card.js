@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 
 const Card = ({ href, img, title, meta, description }) => (
@@ -23,5 +24,13 @@ const Card = ({ href, img, title, meta, description }) => (
     </div>
   </div>
 );
+
+Card.propTypes = {
+  description: PropTypes.string,
+  href: PropTypes.string,
+  img: PropTypes.string,
+  meta: PropTypes.string,
+  title: PropTypes.string
+};
 
 export default Card;

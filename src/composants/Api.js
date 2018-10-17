@@ -1,11 +1,21 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 const Tag = ({ children }) => (
   <li className="tag">
     <a>{children}</a>
   </li>
 );
 
+Tag.propTypes = { children: PropTypes.element };
+
+//
+
 const Tags = ({ tags }) => tags.map(t => <Tag key={t}>{t}</Tag>);
+
+Tags.propTypes = { children: PropTypes.arrayOf(Tag) };
+
+//
 
 const Api = () => (
   <section className="section section-grey">

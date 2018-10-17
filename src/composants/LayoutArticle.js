@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Head from "next/head";
 
 import {
@@ -57,6 +58,16 @@ const ArticleLink = ({ icon, title, href, subTitle, description }) => {
     />
   );
 };
+
+ArticleLink.propTypes = {
+  description: PropTypes.string,
+  href: PropTypes.string,
+  icon: PropTypes.string,
+  subTitle: PropTypes.string,
+  title: PropTypes.string
+};
+
+//
 
 import startups from "../data/startups.json";
 
@@ -135,6 +146,20 @@ const LayoutArticle = ({ meta, footer, children }) => {
       {footer}
     </Layout>
   );
+};
+
+LayoutArticle.propTypes = {
+  meta: PropTypes.exact({
+    hero: PropTypes.exact({
+      alt: PropTypes.string,
+      background: PropTypes.string,
+      tagline: PropTypes.string,
+      title: PropTypes.string
+    }),
+    links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
+  }),
+  footer: PropTypes.element,
+  children: PropTypes.element
 };
 
 export default withStartup(LayoutArticle);

@@ -1,5 +1,6 @@
 import React from "react";
-//section section-color
+import PropTypes from "prop-types";
+
 const Section = ({
   title = "Titre de section",
   subTitle = "Sous-titre de section",
@@ -16,5 +17,13 @@ const Section = ({
     </div>
   </section>
 );
+
+Section.propTypes = {
+  children: PropTypes.element,
+  className: PropTypes.string,
+  style: PropTypes.string,
+  subTitle: PropTypes.string,
+  title: PropTypes.string
+};
 
 export default Section;
