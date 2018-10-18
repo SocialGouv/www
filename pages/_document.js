@@ -1,6 +1,6 @@
 import React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet, injectGlobal } from "styled-components";
+import { ServerStyleSheet } from "styled-components";
 import GitHubForkRibbon from "react-github-fork-ribbon";
 
 import "../src/custom.css";
