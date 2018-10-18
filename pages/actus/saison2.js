@@ -49,7 +49,11 @@ const Saison2 = () => (
         <br />
         <br />
         <div style={{ textAlign: "center" }}>
-          <img src="/static/images/aventure.jpg" width="50%" />
+          <img
+            alt="l'aventure commance"
+            src="/static/images/aventure.jpg"
+            width="50%"
+          />
         </div>
         <br />
         <a

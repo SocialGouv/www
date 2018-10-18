@@ -32,7 +32,11 @@ const Board1 = () => (
         intrapreneurs pour une durée de 6 mois. <br />
         <br />
         <div style={{ textAlign: "center" }}>
-          <img src="/static/images/board1.jpg" width="50%" />
+          <img
+            alt="le board de l'incubateur"
+            src="/static/images/board1.jpg"
+            width="50%"
+          />
         </div>
         <br />« Les résultats obtenus bousculent nos façons de travailler et nos
         habitudes », « C&apos;est bluffant. On a réussi à faire en 6 mois ce
