@@ -1,6 +1,7 @@
 import { Card } from ".";
 
 // Ajouter les actus ici
+
 const CardActuSaison2 = () => (
   <Card
     href="/actus/saison2"
@@ -45,9 +46,8 @@ const JourJ = () => (
 const AllActus = {
   actuSaison2: CardActuSaison2,
   actuCdtn1: CardActuCDTN1,
-  actuBoard1: CardActuBoard1,
-  jourJ: JourJ
+  jourj: JourJ,
+  actuBoard1: CardActuBoard1
 };
 
 export default AllActus;
- 

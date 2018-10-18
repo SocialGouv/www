@@ -24,6 +24,23 @@ const Homepage = () => (
     <Section className="section-white" title="" subTitle="">
       <BlocChiffres />
     </Section>
+    <Section title="Notre actualité" subTitle="">
+      <div
+        className="row"
+        style={{
+          color: 'black'
+        }}
+      >
+        <AllActus.jourj />
+        <AllActus.actuSaison2 />
+        <AllActus.actuCdtn1 />
+        
+      </div>
+    </Section>
+    <p align="center">
+      {' '}
+      <a href="/actus"> Voir toutes actus</a>
+    </p>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
@@ -33,7 +50,7 @@ const Homepage = () => (
         <br />C 'est à la fois un lieu, une démarche et un ensemble de personnes
         !<br />
         <br />L 'incubateur des ministères sociaux reprend la démarche et les
-        grands principes de{' '}
+        grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
         </a>
@@ -43,8 +60,8 @@ const Homepage = () => (
             Un leitmotiv : la résolution d ’irritants dont vous êtes témoin
           </li>
           <li>
-            Des produits fabriqués par des agents{' '}
-            <a href="/actus/saison2"> "intrapreneurs"</a>{' '}
+            Des produits fabriqués par des agents{" "}
+            <a href="/actus/saison2"> "intrapreneurs"</a>{" "}
           </li>
           <li>
             Un plateau qui rassemble les développeurs, les coachs, les
@@ -70,38 +87,22 @@ const Homepage = () => (
                 width="600"
                 height="286"
                 style={{
-                  margin: ' 0 auto',
-                  borderRadius: '50px'
+                  margin: " 0 auto",
+                  borderRadius: "50px"
                 }}
               />
               <br />
               En savoir plus
             </center>
           </a>
-        </Link>{' '}
+        </Link>{" "}
       </div>
     </Section>
-    <Section title="Notre actualité" subTitle="">
-      <div
-        className="row"
-        style={{
-          color: 'black'
-        }}
-      >
-        <AllActus.jourJ />
-        <AllActus.actuSaison2 />
-        <AllActus.actuCdtn1 />
-        <AllActus.actuBoard1 />
-      </div>
-    </Section>
-    <p align="center">
-      {' '}
-      <a href="/actus"> Voir toutes actus</a>
-    </p>
+ 
     <a id="produits" name="produits">
-      &nbsp;
+
     </a>
-    <SectionCards className="section-color" title="Découvrez nos startups" />
+    <SectionCards className="" title="Découvrez nos startups" />
   </Layout>
 );
 
