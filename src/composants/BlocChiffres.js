@@ -33,12 +33,12 @@ const BlocChiffres = () => (
       <div className="num">
         <ZeroCounter end={4} />
       </div>
-      <div className="texte">Start-ups</div>
+      <div className="texte">Startups incubées</div>
     </BlocChiffre>
 
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={5} />
+        <ZeroCounter end={7} />
       </div>
       <div className="texte">Intrapreneurs</div>
     </BlocChiffre>
@@ -47,14 +47,14 @@ const BlocChiffres = () => (
       <div className="num">
         <ZeroCounter end={150} duration={1.75} />
       </div>
-      <div className="texte">m2 d'espace dédié</div>
+      <div className="texte">m² d'espace dédié</div>
     </BlocChiffre>
 
     <BlocChiffre>
       <div className="num">
         <ZeroCounter end={3} />
       </div>
-      <div className="texte">startups en création</div>
+      <div className="texte">Startups en création</div>
     </BlocChiffre>
   </div>
 );
