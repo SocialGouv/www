@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 const getEventBriteUrl = ({ token, organizerId }) =>
   `https://www.eventbriteapi.com/v3/events/search/?token=${token}&organizer.id=${organizerId}`;
 
@@ -6,7 +8,7 @@ const fetchEventBriteEvents = ({ token, organizerId }) =>
   fetch(getEventBriteUrl({ token, organizerId })).then(r => r.json());
 
 const EventBriteTable = ({ events }) => (
-  <table className="table">
+  <table className="table" id="evenement-table">
     <thead>
       <tr>
         <th width="150">Date</th>
@@ -24,7 +26,9 @@ const EventBriteTable = ({ events }) => (
       {(events &&
         events.length === 0 && (
           <tr>
-            <td colSpan={3}>Aucun événement n'est prévu pour le moment.</td>
+            <td colSpan={3}>
+              Aucun événement n&apos;est prévu pour le moment.
+            </td>
           </tr>
         )) ||
         null}
@@ -34,7 +38,11 @@ const EventBriteTable = ({ events }) => (
             <td>{event.start.local}</td>
             <td>{event.name.text}</td>
             <td>
-              <a className="button" onClick={() => window.open(event.url)}>
+              <a
+                className="button"
+                href="#evenement-table"
+                onClick={() => window.open(event.url)}
+              >
                 Inscription
               </a>
             </td>
@@ -44,7 +52,16 @@ const EventBriteTable = ({ events }) => (
   </table>
 );
 
+EventBriteTable.propTypes = {
+  events: PropTypes.arrayFrom(PropTypes.object)
+};
+
 class EventBriteEvents extends React.Component {
+  static propTypes = {
+    token: PropTypes.string,
+    organizerId: PropTypes.string
+  };
+
   state = {
     status: "loading",
     events: null
