@@ -31,7 +31,7 @@ const BlocChiffres = () => (
   <div style={{ width: "80%", maxWidth: 500, margin: "0 auto" }}>
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={3} />
+        <ZeroCounter end={4} />
       </div>
       <div className="texte">Start-ups</div>
     </BlocChiffre>
@@ -45,16 +45,16 @@ const BlocChiffres = () => (
 
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={100} duration={1.75} />
+        <ZeroCounter end={150} duration={1.75} />
       </div>
       <div className="texte">m2 d'espace dédié</div>
     </BlocChiffre>
 
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={138} />
+        <ZeroCounter end={3} />
       </div>
-      <div className="texte">idées déposées</div>
+      <div className="texte">startups en création</div>
     </BlocChiffre>
   </div>
 );
