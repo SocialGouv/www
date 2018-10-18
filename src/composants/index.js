@@ -15,7 +15,6 @@ export { default as LayoutArticle } from "./LayoutArticle";
 export { default as LayoutCDTN } from "./LayoutCDTN";
 export { default as Member } from "./Member";
 export { default as Nav } from "./Nav";
-export { default as Newsletter } from "./Newsletter";
 export { default as Notes } from "./Notes";
 export { default as Notifications } from "./Notifications";
 export { default as Section } from "./Section";
