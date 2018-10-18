@@ -33,7 +33,7 @@ const Board1 = () => (
         <br />
         <div style={{ textAlign: "center" }}>
           <img
-            alt="le board en image"
+            alt="le board de l'incubateur"
             src="/static/images/board1.jpg"
             width="50%"
           />
