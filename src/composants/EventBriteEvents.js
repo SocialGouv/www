@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 const getEventBriteUrl = ({ token, organizerId }) =>
   `https://www.eventbriteapi.com/v3/events/search/?token=${token}&organizer.id=${organizerId}`;
 
@@ -44,7 +46,16 @@ const EventBriteTable = ({ events }) => (
   </table>
 );
 
+EventBriteTable.propTypes = {
+  events: PropTypes.arrayFrom(PropTypes.object)
+};
+
 class EventBriteEvents extends React.Component {
+  static propTypes = {
+    token: PropTypes.string,
+    organizerId: PropTypes.string
+  };
+
   state = {
     status: "loading",
     events: null
