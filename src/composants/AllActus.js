@@ -46,7 +46,8 @@ const JourJ = () => (
 const AllActus = {
   actuSaison2: CardActuSaison2,
   actuCdtn1: CardActuCDTN1,
-  jourj: JourJ
+  jourj: JourJ,
+  actuBoard1: CardActuBoard1
 };
 
 export default AllActus;

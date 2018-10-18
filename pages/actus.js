@@ -40,6 +40,7 @@ const Actus = () => (
     </Section>
     <Section className="section-color" title="Articles de fond" subTitle="">
       <div className="row" style={{ color: 'black' }}>
+        <AllActus.jourj />
         <AllActus.actuSaison2 />
         <AllActus.actuCdtn1 />
         <AllActus.actuBoard1 />
