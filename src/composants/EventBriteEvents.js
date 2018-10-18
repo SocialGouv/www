@@ -1,4 +1,3 @@
-import React from "react";
 const getEventBriteUrl = ({ token, organizerId }) =>
   `https://www.eventbriteapi.com/v3/events/search/?token=${token}&organizer.id=${organizerId}`;
 

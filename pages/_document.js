@@ -1,4 +1,3 @@
-import React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet, injectGlobal } from "styled-components";
 import GitHubForkRibbon from "react-github-fork-ribbon";
@@ -35,7 +34,7 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/static/images/favicons/favicon-32x32.png"
           />
-          <title>IMS: L&apos;incubateur des ministères sociaux</title>
+          <title>IMS: L'incubateur des ministères sociaux</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=yes"

@@ -1,4 +1,3 @@
-import React from "react";
 import { Card } from ".";
 
 // Ajouter les actus ici
@@ -40,3 +39,4 @@ const AllActus = {
 };
 
 export default AllActus;
+ 

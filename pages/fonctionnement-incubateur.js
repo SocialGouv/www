@@ -1,8 +1,7 @@
-import React from "react";
-import { Hero, Layout, Section } from "../src/composants";
-import styled from "styled-components";
+import { Hero, Layout, Section } from '../src/composants';
+import styled from 'styled-components';
 
-import "../src/custom.css";
+import '../src/custom.css';
 
 //
 

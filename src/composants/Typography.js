@@ -1,4 +1,3 @@
-import React from "react";
 const Typography = () => (
   <section className="typography" id="typography">
     <div className="container">
