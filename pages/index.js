@@ -91,6 +91,7 @@ const Homepage = () => (
           color: "black"
         }}
       >
+        <AllActus.jourJ />
         <AllActus.actuSaison2 />
         <AllActus.actuCdtn1 />
         <AllActus.actuBoard1 />
