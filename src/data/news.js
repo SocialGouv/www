@@ -1,5 +1,5 @@
 module.exports = [
-  {
+/*  {
     date: "20 Septembre 2018",
     author: "eric.heijligers",
     tags: ["SIAO, data"],
@@ -17,7 +17,7 @@ c'est sur le projet SIAO qu'intervient l'équipe "data" avec pour objectifs de :
 <li>Former les autres parties  prenantes qui le souhaitent</li>
    `
   },
-  {
+  */{
     date: "14 Septembre 2018",
     author: "eric.heijligers",
     tags: ["work-in-france, WIF, wif"],
