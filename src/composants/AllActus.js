@@ -31,11 +31,22 @@ const CardActuBoard1 = () => (
   />
 );
 
+const JourJ = () => (
+  <Card
+    href="/actus/saison-2-jour-j"
+    img="/static/images/pitchday-1.jpg"
+    title="Saison 2 : le jour J"
+    meta="Octobre 2018"
+    description="Découvrez les idées et les lauréats de la saison 2 de l'incubateur"
+  />
+);
+
 //Penser à ajouter le nom de l'actu pour l'export ci-après
 const AllActus = {
   actuSaison2: CardActuSaison2,
   actuCdtn1: CardActuCDTN1,
-  actuBoard1: CardActuBoard1
+  actuBoard1: CardActuBoard1,
+  jourJ: JourJ
 };
 
 export default AllActus;
