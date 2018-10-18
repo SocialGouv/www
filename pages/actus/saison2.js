@@ -33,6 +33,7 @@ const Saison2 = () => (
           <h3>
             <a
               href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Proposez votre idée
@@ -58,6 +59,7 @@ const Saison2 = () => (
         <br />
         <a
           href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+          rel="noopener noreferrer"
           target="_blank"
         >
           Cette plateforme
