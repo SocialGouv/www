@@ -1,6 +1,17 @@
 import { Card } from ".";
 
 // Ajouter les actus ici
+
+const JourJ = () => (
+  <Card
+    href="/actus/jour-j"
+    img="/static/images/pitchday 1.jpeg"
+    title="Saison 2 : le jour J"
+    meta="Octobre 2018"
+    description="Découvrez les idées et les lauréats de la saison 2 de l'incubateur"
+  />
+);
+
 const CardActuSaison2 = () => (
   <Card
     href="/actus/saison2"
@@ -35,8 +46,7 @@ const CardActuBoard1 = () => (
 const AllActus = {
   actuSaison2: CardActuSaison2,
   actuCdtn1: CardActuCDTN1,
-  actuBoard1: CardActuBoard1
+  jourj: JourJ
 };
 
 export default AllActus;
- 
