@@ -1,13 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import {
-  Section,
-  SectionCards,
-  Layout,
-  AllActus,
-  Hero
-} from "../src/composants";
+import { Section, Layout, AllActus, Hero } from "../src/composants";
 import news from "../src/data/news";
 
 // https://github.com/facebook/react/issues/377

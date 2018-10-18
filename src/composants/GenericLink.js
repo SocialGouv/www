@@ -19,7 +19,7 @@ export const GenericLink = props => {
 
 //
 
-export const InternalLink = ({ href, as, children, error = false }) => (
+export const InternalLink = ({ href, as, children }) => (
   <NativeLink prefetch href={href} as={as}>
     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
     <a>{children}</a>
@@ -29,7 +29,6 @@ export const InternalLink = ({ href, as, children, error = false }) => (
 InternalLink.propTypes = {
   as: PropTypes.string,
   children: PropTypes.element,
-  error: PropTypes.bool,
   href: PropTypes.string
 };
 

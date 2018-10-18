@@ -4,7 +4,6 @@ import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";
 
 import { Footer, Header, SvgIcons, GenericLink } from ".";
-import piwik from "../piwik";
 import ReactPiwik from "react-piwik";
 
 const components = {

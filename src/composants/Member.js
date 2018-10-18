@@ -26,7 +26,7 @@ const StyledMember = styled.div`
   }
 `;
 
-const Member = ({ name, structure, startups, role, picture, bio, style }) => {
+const Member = ({ name, structure, role, picture, style }) => {
   return (
     <StyledMember style={{ display: "flex", ...style }}>
       <StyledIcon
@@ -69,10 +69,8 @@ const Member = ({ name, structure, startups, role, picture, bio, style }) => {
 Member.propTypes = {
   name: PropTypes.string,
   structure: PropTypes.string,
-  startups: PropTypes.string,
   role: PropTypes.string,
   picture: PropTypes.string,
-  bio: PropTypes.string,
   style: PropTypes.object
 };
 

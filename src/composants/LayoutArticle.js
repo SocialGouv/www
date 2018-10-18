@@ -8,10 +8,8 @@ import {
   Hero,
   AuthorPanel,
   SectionCards,
-  Cards,
   StartupMembers
 } from ".";
-import { default as NextLink } from "next/link";
 import { Facebook, Twitter, Github, Link, BarChart, Lock } from "react-feather";
 
 const icons = {
