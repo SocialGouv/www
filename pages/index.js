@@ -98,26 +98,11 @@ const Homepage = () => (
         </Link>{" "}
       </div>
     </Section>
-    <Section title="Notre actualité" subTitle="">
-      <div
-        className="row"
-        style={{
-          color: "black"
-        }}
-      >
-        <AllActus.jourj />
-        <AllActus.actuSaison2 />
-        <AllActus.actuCdtn1 />
-      </div>
-    </Section>
-    <p align="center">
-      {" "}
-      <a href="/actus"> Voir toutes actus</a>
-    </p>
+ 
     <a id="produits" name="produits">
-      &nbsp;
+
     </a>
-    <SectionCards className="section-color" title="Découvrez nos startups" />
+    <SectionCards className="" title="Découvrez nos startups" />
   </Layout>
 );
 
