@@ -1,4 +1,3 @@
-import React from "react";
 import NativeLink from "next/link";
 
 // used for markdown links

@@ -1,4 +1,3 @@
-import React from "react";
 export default () => (
   <svg
     style={{ position: "absolute", width: 0, height: 0, overflow: "hidden" }}
