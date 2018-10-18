@@ -1,4 +1,3 @@
-export { default as Api } from "./Api";
 export { default as Article } from "./Article";
 export { default as AuthorPanel } from "./AuthorPanel";
 export { default as SectionCards } from "./SectionCards";
