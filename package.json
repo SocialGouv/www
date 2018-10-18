@@ -21,7 +21,7 @@
     "@mdx-js/loader": "^0.15.0",
     "@mdx-js/mdx": "^0.15.0",
     "@mdx-js/tag": "^0.15.0",
-    "@socialgouv/eslint-config-react": "^0.1.2",
+    "@socialgouv/eslint-config-react": "^0.2.0",
     "@zeit/next-css": "^0.1.2",
     "@zeit/next-mdx": "^1.1.0",
     "eslint": "^5.7.0",
