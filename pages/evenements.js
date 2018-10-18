@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, EventBriteEvents } from "../src/composants";
 
-const Evenement = () => (
+export default () => (
   <Layout>
     <section className="section section-white">
       <div className="container">
@@ -15,5 +15,3 @@ const Evenement = () => (
     </section>
   </Layout>
 );
-
-export default Evenement;
