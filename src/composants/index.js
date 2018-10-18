@@ -6,7 +6,6 @@ export { default as Card } from "./Card";
 export { default as Cards } from "./Cards";
 export { default as EventBriteEvents } from "./EventBriteEvents";
 export { default as Footer } from "./Footer";
-export { default as Form } from "./Form";
 export { default as GenericLink } from "./GenericLink";
 export { default as Header } from "./Header";
 export { default as Hero } from "./Hero";
