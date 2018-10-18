@@ -31,7 +31,7 @@ const Homepage = () => (
           color: 'black'
         }}
       >
-        <AllActus.jourJ />
+        <AllActus.jourj />
         <AllActus.actuSaison2 />
         <AllActus.actuCdtn1 />
         
