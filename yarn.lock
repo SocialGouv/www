@@ -795,10 +795,10 @@
     eslint-plugin-import "~2.14.0"
     eslint-plugin-prettier "~3.0.0"
 
-"@zeit/next-css@^0.1.2":
-  version "0.1.5"
-  resolved "http://registry.npmjs.org/@zeit/next-css/-/next-css-0.1.5.tgz#e306a0ea7b0f49935632c3b154232d6a8b96f982"
-  integrity sha512-N9RowncpY7XNLxDASFW+7nXxctuDq1Za1V7oC+eN2xZBdFIe0ei+KJQkIHp3cBIV65galghx5nvADLhTUzwUcg==
+"@zeit/next-css@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@zeit/next-css/-/next-css-0.2.0.tgz#35da071256397b509b86ac7726ce0f7d3593e62b"
+  integrity sha512-FgxyNJuFCXVLI4KPEp3r2Zz3wRbwCiVqTgq2hwq/RhUXAAIhxHeJHukBTCk6BbGeZRbsez4qpJNDD1Osjpho4Q==
   dependencies:
     css-loader "0.28.9"
     extract-text-webpack-plugin "3.0.2"
