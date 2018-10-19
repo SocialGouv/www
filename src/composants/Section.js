@@ -19,11 +19,14 @@ const Section = ({
 );
 
 Section.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
   className: PropTypes.string,
-  style: PropTypes.string,
+  style: PropTypes.object,
   subTitle: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.oneOfType([PropTypes.element, PropTypes.string])
 };
 
 export default Section;

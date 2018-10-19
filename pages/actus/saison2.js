@@ -29,18 +29,16 @@ const Saison2 = () => (
         mobilisée pendant six mois pour réussir? <br />
         Vous êtes un(e) agent(e) des ministères sociaux et vous avez envie de
         résoudre un vrai problème ?<br />
-        <p align="center">
-          <h3>
-            <a
-              href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Proposez votre idée
-            </a>{" "}
-            et devenez entrepreneur(se) d&apos;une Startup d&apos;État !
-          </h3>
-        </p>
+        <h3 align="center">
+          <a
+            href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Proposez votre idée
+          </a>{" "}
+          et devenez entrepreneur(se) d&apos;une Startup d&apos;État !
+        </h3>
         <br />
         Pour devenir entrepreneur(se) des Startups d&apos;État, aucune expertise
         en informatique ou internet n&apos;est nécessaire:{" "}

@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Section, LayoutArticle } from ".";
 import Link from "next/link";
 import { withRouter } from "next/router";
+
+import { Section, LayoutArticle } from ".";
 
 const articles = [
   {
@@ -99,7 +100,10 @@ const LayoutCDTN = ({ meta, children }) => {
 
 LayoutCDTN.propTypes = {
   meta: PropTypes.object,
-  children: PropTypes.element
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
 };
 
 export default LayoutCDTN;

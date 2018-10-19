@@ -25,7 +25,7 @@ export const Hero = ({ title, tagline, style, alt }) => (
 Hero.propTypes = {
   alt: PropTypes.string,
   href: PropTypes.string,
-  style: PropTypes.string,
+  style: PropTypes.object,
   tagline: PropTypes.string,
   title: PropTypes.string
 };

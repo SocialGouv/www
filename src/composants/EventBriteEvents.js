@@ -53,7 +53,7 @@ const EventBriteTable = ({ events }) => (
 );
 
 EventBriteTable.propTypes = {
-  events: PropTypes.arrayFrom(PropTypes.object)
+  events: PropTypes.arrayOf(PropTypes.object)
 };
 
 class EventBriteEvents extends React.Component {

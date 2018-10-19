@@ -28,7 +28,10 @@ export const InternalLink = ({ href, as, children }) => (
 
 InternalLink.propTypes = {
   as: PropTypes.string,
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
   href: PropTypes.string
 };
 
@@ -41,7 +44,10 @@ export const AnchorLink = ({ href, onClick, children }) => (
 );
 
 AnchorLink.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
   href: PropTypes.string,
   onClick: PropTypes.func
 };
@@ -55,7 +61,10 @@ export const ExternalLink = ({ href, children }) => (
 );
 
 ExternalLink.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
   href: PropTypes.string
 };
 

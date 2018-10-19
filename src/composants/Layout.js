@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";
 
+import { ReactPiwik } from "../piwik";
 import { Footer, Header, SvgIcons, GenericLink } from ".";
-import ReactPiwik from "react-piwik";
 
 const components = {
   a: GenericLink
@@ -105,4 +105,9 @@ export default class Layout extends React.Component {
   }
 }
 
-Layout.propTypes = { children: PropTypes.element };
+Layout.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
+};

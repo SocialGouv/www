@@ -35,7 +35,7 @@ const Footer = ({
         et la DSI des ministères sociaux. :)
         <ul className="footer__social">
           <li>
-            <a href="https://github.com/SocialGouv" title="Github">
+            <a href="https://github.com/SocialGouv" title="GitHub">
               <svg className="icon icon-github">
                 <use xlinkHref="#icon-github" />
               </svg>
@@ -73,7 +73,10 @@ const Footer = ({
 );
 
 Footer.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
   links: PropTypes.arrayOf(
     PropTypes.exact({
       href: PropTypes.string,

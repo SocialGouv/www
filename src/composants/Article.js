@@ -10,7 +10,11 @@ const Article = ({ children }) => (
 );
 
 Article.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element),
+    PropTypes.arrayOf(PropTypes.node)
+  ])
 };
 
 export default Article;

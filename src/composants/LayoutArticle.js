@@ -10,11 +10,11 @@ import {
   SectionCards,
   StartupMembers
 } from ".";
-import { Facebook, Twitter, Github, Link, BarChart, Lock } from "react-feather";
+import { Facebook, Twitter, GitHub, Link, BarChart, Lock } from "react-feather";
 
 const icons = {
   facebook: Facebook,
-  github: Github,
+  github: GitHub,
   twitter: Twitter,
   link: Link,
   "bar-chart": BarChart,
@@ -22,7 +22,7 @@ const icons = {
 };
 const getIconFromUrl = url => {
   if (url.match(/github/gi)) {
-    return Github;
+    return GitHub;
   }
   if (url.match(/facebook/gi)) {
     return Facebook;
@@ -157,6 +157,7 @@ const LayoutArticle = ({ meta, footer, children }) => {
 
 LayoutArticle.propTypes = {
   meta: PropTypes.exact({
+    title: PropTypes.string,
     hero: PropTypes.exact({
       alt: PropTypes.string,
       background: PropTypes.string,
@@ -166,7 +167,10 @@ LayoutArticle.propTypes = {
     links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
   }),
   footer: PropTypes.element,
-  children: PropTypes.element
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
 };
 
 export default withStartup(LayoutArticle);

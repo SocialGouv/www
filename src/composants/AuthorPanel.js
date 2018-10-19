@@ -39,7 +39,7 @@ const AuthorPanel = ({
 AuthorPanel.propTypes = {
   description: PropTypes.string,
   href: PropTypes.string,
-  Icon: PropTypes.element,
+  Icon: PropTypes.func,
   name: PropTypes.string,
   role: PropTypes.string,
   target: PropTypes.string
