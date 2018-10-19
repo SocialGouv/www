@@ -1,3 +1,4 @@
+import React from "react";
 import { Card } from ".";
 
 // Ajouter les actus ici

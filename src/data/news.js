@@ -1,23 +1,5 @@
 module.exports = [
-/*  {
-    date: "20 Septembre 2018",
-    author: "eric.heijligers",
-    tags: ["SIAO, data"],
-    title: "Les indicateurs du SIAO",
-    html: `
-C'est un autre pan encore méconnu de l'incubateur : l'offre "data". <br/>
-Elle consiste en premier lieu à mettre à disposition des start-ups des outils d'analyse de big data avec notamment du machine learning. Elle s'appuie sur le logiciel de notre partenaire <a href="https://invenis.co/">Invenis</a>.
-Mais c'est aussi un complément à l'offre BI (pour business intelligence) de la DSI qui permet de créer des indicateurs/restitutions à la volé par les utilisateurs eux-même - après une rapide formation.
-<br/><br/>
-Après une première expérimentation sur le SIPERF et fort des enseignements que nous avons pu en tirer,
-c'est sur le projet SIAO qu'intervient l'équipe "data" avec pour objectifs de :
-<ul>
-<li>Avoir des indicateurs/restitutions opérationnels sur le périmètre du 115 pour le 15 octobre</li>
-<li>Former la PO de manière à être autonome sur la conception et la mise en oeuvre d’autres indicateurs/restitutions</li>
-<li>Former les autres parties  prenantes qui le souhaitent</li>
-   `
-  },
-  */{
+  {
     date: "14 Septembre 2018",
     author: "eric.heijligers",
     tags: ["work-in-france, WIF, wif"],
@@ -37,7 +19,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : release 1.1 - blue-firefly",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
-      <p>Cette nouvelle version propose notamment :</p>
+      <p>Cette nouvelle version propose notamment :</p>
       <ul>
         <li>un champ de suggestions</li>
         <li>la navigation dans les thèmes</li>
@@ -47,8 +29,8 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
         <li>nombreux bugfixes et améliorations techniques</li>
         <li><a href="https://github.com/SocialGouv/code-du-travail-frontend/pull/132" target="_blank">details des changements</a></li>
       </ul>
-      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
   },
   {
@@ -57,14 +39,14 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : nouveau design",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail.num.social.gouv.fr">codedutravail.num.social.gouv.fr</a></p>
-      <p>Cette nouvelle version propose notamment :</p>
+      <p>Cette nouvelle version propose notamment :</p>
       <ul>
         <li>un nouveau design</li>
         <li>une interface adaptative (<i>responsive</i>)</li>
         <li>un début d'intégration du référentiel général d'accessibilité pour les administrations (RGAA)</li>
       </ul>
-      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
   },
   {

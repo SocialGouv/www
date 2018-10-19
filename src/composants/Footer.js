@@ -1,6 +1,8 @@
+import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 
-export default ({
+const Footer = ({
   title = "template.data.gouv.fr",
   links = [
     {
@@ -33,7 +35,7 @@ export default ({
         et la DSI des ministères sociaux. :)
         <ul className="footer__social">
           <li>
-            <a href="https://github.com/SocialGouv" title="Github">
+            <a href="https://github.com/SocialGouv" title="GitHub">
               <svg className="icon icon-github">
                 <use xlinkHref="#icon-github" />
               </svg>
@@ -58,6 +60,7 @@ export default ({
         {links.map(link => (
           <li key={link.href}>
             <Link href={link.href}>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a>{link.title}</a>
             </Link>
           </li>
@@ -68,3 +71,20 @@ export default ({
     <div>{children}</div>
   </footer>
 );
+
+Footer.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
+  links: PropTypes.arrayOf(
+    PropTypes.exact({
+      href: PropTypes.string,
+      title: PropTypes.string
+    })
+  ),
+  style: PropTypes.object,
+  title: PropTypes.string
+};
+
+export default Footer;

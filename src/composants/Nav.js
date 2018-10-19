@@ -1,5 +1,7 @@
+import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 //
 
@@ -20,11 +22,17 @@ const NavContainer = styled.nav`
 
 const NavItem = ({ href, title }) => (
   <li className="nav__item">
-    <Link href={href || '#'}>
+    <Link href={href || "#"}>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a>{title}</a>
     </Link>
   </li>
 );
+
+NavItem.propTypes = {
+  href: PropTypes.string,
+  title: PropTypes.string
+};
 
 //
 
@@ -46,5 +54,9 @@ const Nav = ({ links }) => (
     </ul>
   </NavContainer>
 );
+
+Nav.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact(NavItem.propTypes))
+};
 
 export default Nav;

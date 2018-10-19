@@ -1,4 +1,6 @@
-import Head from 'next/head';
+import React from "react";
+import PropTypes from "prop-types";
+import Head from "next/head";
 
 import {
   Layout,
@@ -6,23 +8,21 @@ import {
   Hero,
   AuthorPanel,
   SectionCards,
-  Cards,
   StartupMembers
-} from '.';
-import { default as NextLink } from 'next/link';
-import { Facebook, Twitter, Github, Link, BarChart, Lock } from 'react-feather';
+} from ".";
+import { Facebook, Twitter, GitHub, Link, BarChart, Lock } from "react-feather";
 
 const icons = {
   facebook: Facebook,
-  github: Github,
+  github: GitHub,
   twitter: Twitter,
   link: Link,
-  'bar-chart': BarChart,
+  "bar-chart": BarChart,
   lock: Lock
 };
 const getIconFromUrl = url => {
   if (url.match(/github/gi)) {
-    return Github;
+    return GitHub;
   }
   if (url.match(/facebook/gi)) {
     return Facebook;
@@ -33,17 +33,19 @@ const getIconFromUrl = url => {
   return Link;
 };
 
-const makeStyledIcon = Icon => style => props => (
-  <Icon {...props} style={style} />
-);
+const makeStyledIcon = Icon =>
+  function(style) {
+    const StyledIcon = props => <Icon {...props} style={style} />;
+    return StyledIcon;
+  };
 
 const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   const iconComponent = (icon && icons[icon]) || getIconFromUrl(href);
   const styledIcon = makeStyledIcon(iconComponent)({
     height: 22,
     width: 22,
-    display: 'inline-block',
-    float: 'right'
+    display: "inline-block",
+    float: "right"
   });
 
   return (
@@ -57,36 +59,53 @@ const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   );
 };
 
-import startups from '../data/startups.json';
+ArticleLink.propTypes = {
+  description: PropTypes.string,
+  href: PropTypes.string,
+  icon: PropTypes.string,
+  subTitle: PropTypes.string,
+  title: PropTypes.string
+};
+
+//
+
+import startups from "../data/startups.json";
 
 const getStartupData = id => startups.find(s => s.id === id);
 const getOtherStartupsData = id => startups.filter(s => s.id !== id);
 
 // inject footer + links when props.startup given
-const withStartup = Cmp => props => {
-  const startupData = getStartupData(props.startup);
-  const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
-  const allProps = {
-    ...props,
-    meta: {
-      ...props.meta,
-      links: [
-        ...((props.meta && props.meta.links) || []),
-        ...((startupData && startupData.links) || [])
-      ]
-    },
-    footer: (
-      <div>
-        <StartupMembers startup={props.startup} />
-        {props.footer ||
-          (otherStartups && (
-            <SectionCards className="section-color" startups={otherStartups} />
-          ))}
-      </div>
-    )
+function withStartup(Cmp) {
+  const CmpWithStartup = props => {
+    const startupData = getStartupData(props.startup);
+    const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
+    const allProps = {
+      ...props,
+      meta: {
+        ...props.meta,
+        links: [
+          ...((props.meta && props.meta.links) || []),
+          ...((startupData && startupData.links) || [])
+        ]
+      },
+      footer: (
+        <div>
+          <StartupMembers startup={props.startup} />
+          {props.footer ||
+            (otherStartups && (
+              <SectionCards
+                className="section-color"
+                startups={otherStartups}
+              />
+            ))}
+        </div>
+      )
+    };
+    return <Cmp {...allProps} />;
   };
-  return <Cmp {...allProps} />;
-};
+
+  return CmpWithStartup;
+}
 
 const LayoutArticle = ({ meta, footer, children }) => {
   return (
@@ -114,9 +133,9 @@ const LayoutArticle = ({ meta, footer, children }) => {
               <div
                 style={{
                   marginTop: 50,
-                  fontSize: '1.2em',
-                  fontWeight: 'bold',
-                  textAlign: 'center'
+                  fontSize: "1.2em",
+                  fontWeight: "bold",
+                  textAlign: "center"
                 }}
               >
                 Les liens utiles du projet :
@@ -134,6 +153,24 @@ const LayoutArticle = ({ meta, footer, children }) => {
       {footer}
     </Layout>
   );
+};
+
+LayoutArticle.propTypes = {
+  meta: PropTypes.exact({
+    title: PropTypes.string,
+    hero: PropTypes.exact({
+      alt: PropTypes.string,
+      background: PropTypes.string,
+      tagline: PropTypes.string,
+      title: PropTypes.string
+    }),
+    links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
+  }),
+  footer: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
 };
 
 export default withStartup(LayoutArticle);

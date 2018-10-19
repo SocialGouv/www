@@ -1,10 +1,10 @@
 import React from "react";
-import { Footer, Header, SvgIcons, GenericLink } from ".";
+import PropTypes from "prop-types";
 import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";
 
-import piwik from "../piwik";
-import ReactPiwik from "react-piwik";
+import { ReactPiwik } from "../piwik";
+import { Footer, Header, SvgIcons, GenericLink } from ".";
 
 const components = {
   a: GenericLink
@@ -79,11 +79,7 @@ export default class Layout extends React.Component {
     return (
       <React.Fragment>
         <SvgIcons />
-        <Header
-          title="incubateur.social.gouv.fr"
-          subTitle="L'incubateur des ministères sociaux"
-          links={headerLinks}
-        />
+        <Header links={headerLinks} />
 
         <MDXProvider components={components}>
           <div>{this.props.children}</div>
@@ -108,3 +104,10 @@ export default class Layout extends React.Component {
     );
   }
 }
+
+Layout.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
+};

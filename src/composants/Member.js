@@ -1,3 +1,5 @@
+import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const StyledIcon = styled.div`
@@ -24,7 +26,7 @@ const StyledMember = styled.div`
   }
 `;
 
-const Member = ({ name, structure, startups, role, picture, bio, style }) => {
+const Member = ({ name, structure, role, picture, style }) => {
   return (
     <StyledMember style={{ display: "flex", ...style }}>
       <StyledIcon
@@ -62,6 +64,14 @@ const Member = ({ name, structure, startups, role, picture, bio, style }) => {
       </div>
     </StyledMember>
   );
+};
+
+Member.propTypes = {
+  name: PropTypes.string,
+  structure: PropTypes.string,
+  role: PropTypes.string,
+  picture: PropTypes.string,
+  style: PropTypes.object
 };
 
 export default Member;

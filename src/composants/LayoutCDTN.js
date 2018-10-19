@@ -1,6 +1,9 @@
-import { Section, LayoutArticle } from ".";
+import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 import { withRouter } from "next/router";
+
+import { Section, LayoutArticle } from ".";
 
 const articles = [
   {
@@ -61,6 +64,7 @@ const Links = withRouter(({ router }) => (
               <div>{article.title}</div>
             ) : (
               <Link href={article.href}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>{article.title}</a>
               </Link>
             )}
@@ -70,6 +74,8 @@ const Links = withRouter(({ router }) => (
     </ul>
   </Section>
 ));
+
+//
 
 const LayoutCDTN = ({ meta, children }) => {
   if (typeof window !== "undefined" && meta.disabled) {
@@ -91,4 +97,13 @@ const LayoutCDTN = ({ meta, children }) => {
     </LayoutArticle>
   );
 };
+
+LayoutCDTN.propTypes = {
+  meta: PropTypes.object,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ])
+};
+
 export default LayoutCDTN;

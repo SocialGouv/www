@@ -7,3 +7,4 @@ const piwik = new ReactPiwik({
 });
 
 export default piwik;
+export { ReactPiwik };

@@ -1,3 +1,5 @@
+import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 
 const AuthorPanel = ({
@@ -11,6 +13,7 @@ const AuthorPanel = ({
   <div className="article__author panel">
     <div className="article__author-info">
       <Link href={href}>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="article__author-name" target={target}>
           {name}
         </a>
@@ -19,6 +22,7 @@ const AuthorPanel = ({
     </div>
     {(Icon && (
       <Link href={href}>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a target={target}>
           <Icon />
         </a>
@@ -31,5 +35,14 @@ const AuthorPanel = ({
     />
   </div>
 );
+
+AuthorPanel.propTypes = {
+  description: PropTypes.string,
+  href: PropTypes.string,
+  Icon: PropTypes.func,
+  name: PropTypes.string,
+  role: PropTypes.string,
+  target: PropTypes.string
+};
 
 export default AuthorPanel;
