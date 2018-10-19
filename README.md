@@ -1,4 +1,4 @@
-# incubateur.social.gouv.fr [![CircleCI](https://circleci.com/gh/SocialGouv/socialgouv.github.io.svg?style=svg)](https://circleci.com/gh/SocialGouv/socialgouv.github.io)
+# incubateur.social.gouv.fr [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=dev)](https://travis-ci.com/SocialGouv/socialgouv.github.io)
 
 Site de l'incubateur des Ministères sociaux
 
