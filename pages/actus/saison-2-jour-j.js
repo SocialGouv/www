@@ -38,7 +38,7 @@ const JourJ = () => (
         7- Stimuler les jeunes dans leurs démarches tout au long de leur
         parcours afin d&apos;assurer un meilleur suivi par les DIRECCTE et les
         conseillers Mission Locale. <br />
-        8- Améliorer l’accès à l’offre de soins en cas d&apos;urgence.
+        8- Améliorer l&apos;accès à l&apos;offre de soins en cas d&apos;urgence.
         <br />
         <br /> La matinée et le début d&apos;après-midi ont été consacrés à un
         coaching des candidats puis à la présentation des pitchs.
