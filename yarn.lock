@@ -5422,10 +5422,10 @@ react-feather@^1.1.0:
   resolved "https://registry.npmjs.org/react-feather/-/react-feather-1.1.4.tgz#d0143da95f9d52843cf13a553091573a7c617897"
   integrity sha512-Odke3WUl00+a2scGQKlep4m+qDESl/x+PsTRB3v6fAV/2dteF4EaRjqhX8h7HM3mU3V3v0xGTv8Z5S26bpQ5PQ==
 
-react-github-fork-ribbon@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/react-github-fork-ribbon/-/react-github-fork-ribbon-0.5.1.tgz#35ab2815b2b5b02cb2ebd7d1bb46fee0c43ed5bb"
-  integrity sha512-IJfP9vOWQmZ8wiCEAyWJ84RHOLJTty3Odzf1xgp3/LtQJJf1bGCmKYRuXUt8UMVmtHzREG5U9BOPWw3rMikkzg==
+react-github-fork-ribbon@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-github-fork-ribbon/-/react-github-fork-ribbon-0.6.0.tgz#8b7454fec5bd5481af7fdf6d0fc8aa7653373301"
+  integrity sha512-lmobEGwg1k/JGMJMbiWNh3dd+5HUtePVqUu1LPr5L65MiK6mnn7ZgkGpFYXLijPxO9hD7x+f9qUrEzeazQdx2g==
 
 react-is@^16.3.1:
   version "16.5.2"

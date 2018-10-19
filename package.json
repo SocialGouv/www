@@ -37,7 +37,7 @@
     "react-countup": "^3.0.3",
     "react-dom": "^16.4.1",
     "react-feather": "^1.1.0",
-    "react-github-fork-ribbon": "^0.5.1",
+    "react-github-fork-ribbon": "^0.6.0",
     "react-piwik": "^1.5.0",
     "react-tooltip": "^3.6.0",
     "remark-highlight.js": "^5.0.0",
