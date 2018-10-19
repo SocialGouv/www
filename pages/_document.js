@@ -40,7 +40,6 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, user-scalable=yes"
           />
-          <link rel="stylesheet" href="/_next/static/style.css" />
           <link
             rel="stylesheet"
             href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
