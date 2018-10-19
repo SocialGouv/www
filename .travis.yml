@@ -12,6 +12,7 @@ script:
   - yarn lint
   - NODE_ENV=production yarn build
   - yarn rss
+  - touch out/.nojekyll
 
 before_deploy:
   - |
