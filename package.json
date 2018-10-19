@@ -22,7 +22,7 @@
     "@mdx-js/mdx": "^0.15.0",
     "@mdx-js/tag": "^0.15.0",
     "@socialgouv/eslint-config-react": "^0.2.0",
-    "@zeit/next-css": "^0.2.0",
+    "@zeit/next-css": "^1.0.0",
     "@zeit/next-mdx": "^1.1.0",
     "eslint": "^5.7.0",
     "next": "^6.1.1",
