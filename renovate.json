@@ -1,8 +1,5 @@
 {
   "extends": [
-    "config:base",
-    ":preserveSemverRanges",
-    ":reviewer(douglasduteil)",
-    ":semanticCommits"
+    "github>SocialGouv/renovate-config"
   ]
 }
