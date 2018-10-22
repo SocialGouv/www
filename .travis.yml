@@ -3,24 +3,19 @@ language: node_js
 sudo: false
 git:
   depth: 5
-
 node_js: lts/*
-
 cache: yarn
-
 script:
-  - yarn lint
-  - NODE_ENV=production yarn build
-  - yarn rss
-  - touch out/.nojekyll
-
+- yarn lint
+- NODE_ENV=production yarn build
+- yarn rss
+- touch out/.nojekyll
 before_deploy:
-  - |
-    git config user.name "Deployment Bot (from Travis CI)" &&
-    git config user.email "deploy@travis-ci.org"
-    
+- |
+  git config user.name "Deployment Bot (from Travis CI)" &&
+  git config user.email "deploy@travis-ci.org"
 deploy:
-  github-token: $GITHUB_TOKEN
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
   local_dir: out
   provider: pages
@@ -28,6 +23,6 @@ deploy:
   target-branch: master
   on:
     branch: dev
-
 notifications:
-    slack: incubateur-mas:hmWaMIMmPXfMzUNG2UaSB4wh
+  slack:
+    secure: qgb5K4l7/2P8RLbVdPKSfYHLg3coCa9e+xYuzRSyZ9SvbqAofksKnSB//SWyKTxkuntc9CyEsnOWT14FzrOhHa8xU4YeOwamRSs6aeujHLx8+P99Ne1MFWOZIX+bCAgzwkpxxGiRMhX8bMXSQ9mjAbwLrOdNVtK6d5tUdDZ9zgFcPT+FW8vaYTZLfGS/jnkRZBcfd4hRo2ycMIfaGk/i+3tQr+qBYIdEyyhnU7EH9bJ1v85sPhRLKeeyd4Y5Ox4XLNlbfo5r42moce4WAuVoqCt3/70zyVn5Z2Ts1Je35RnIi1Krx31BKFPGjV+dV74lVeFUm5/XZy9WcuGUfupSQhLMGjasmL87b/xwQFUxLKz3Rof/PxMa31h9CwB644tbBv+ifETU55OaV2ZrCoGmISiI6lLEGBa5zGR27TQfxHtwElGild7Qfel+4P7j1/PRbOIfrUclerlbwC3qs5ElUVIXiVKs+S1vL/13eiWBYRRvZ2k+zAYoiIpyhx/1eKHb4iAxtL7Vgmeh5l5BvMFlu2MzxQPV/oGT7EgvbNSJNVwwCKvr8T5aT07m7WOtDbkjq+aapA89kg+P5sQWnvlWBQDA/l51N2tMguLVRLXzjxZZjsZu1TtwD3C8/Bz1beHl1Qw+yF2c+HdEkM1ztZNsIXpMSwLrIxTJK45UsSL4yP0=
