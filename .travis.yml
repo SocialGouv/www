@@ -28,3 +28,6 @@ deploy:
   target-branch: master
   on:
     branch: dev
+
+notifications:
+    slack: incubateur-mas:hmWaMIMmPXfMzUNG2UaSB4wh
