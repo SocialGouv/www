@@ -11,8 +11,6 @@ import {
   BlocChiffres
 } from "../src/composants";
 
-import "../src/custom.css";
-
 const Homepage = () => (
   <Layout>
     <Head>
