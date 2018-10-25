@@ -6,6 +6,8 @@ import { MDXProvider } from "@mdx-js/tag";
 import { ReactPiwik } from "../piwik";
 import { Footer, Header, SvgIcons, GenericLink } from ".";
 
+import "../custom.css";
+
 const components = {
   a: GenericLink
 };
