@@ -1,8 +1,6 @@
 import React from "react";
 import { Hero, Layout, Section } from "../../src/composants";
 
-import "../../src/custom.css";
-
 const Board1 = () => (
   <Layout>
     <Hero
