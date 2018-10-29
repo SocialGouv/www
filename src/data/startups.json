@@ -127,14 +127,14 @@
       {
         "title": "Github doc",
         "subTitle": "code source",
-        "href": "https://github.com/SocialGouv/eMJPM-doc",
-        "description": "Le code source de la documentation utilisateur en Markdown"
+        "href": "https://github.com/SocialGouv/#",
+        "description": "Bientôt ! Le code source de la documentation utilisateur en Markdown"
       },
       {
         "title": "Github frontend",
         "subTitle": "code source",
-        "href": "https://github.com/SocialGouv/eMJPM-app",
-        "description": "Le code source de l'application Frontend en ReactJS + Next.js"
+        "href": "https://github.com/SocialGouv/#",
+        "description": "Bientôt ! Le code source de l'application Frontend en ReactJS + Next.js"
       }
     ]
   }
