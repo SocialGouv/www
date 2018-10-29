@@ -4777,12 +4777,14 @@ react-accessible-accordion@^2.4.3:
     consecutive "^5.0.4"
     unstated "^2.1.1"
 
-react-countup@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/react-countup/-/react-countup-3.0.3.tgz#e698a4e28964fe0322a925f52929e3b08db714fd"
-  integrity sha512-QXlDzvZiOrx0MJkUqAJyqCj3zqVUFWYBTIPJIyC04LLBOprHAStxIBmB8l20Xbs1S4uuUFaliXucl02fVOpwAw==
+react-countup@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-4.0.0.tgz#cbce95c8f4d03fccc431bc52707dba23654621a8"
+  integrity sha512-l2GZY274KJir6Lvxahr+ZKT4xl9zzpSXO9dTvyKylm6jQcaSzk8TVECYlznTxWw4ctte3PBk+W1o3PeCXRyijg==
   dependencies:
     countup.js "^1.9.3"
+    prop-types "^15.6.2"
+    warning "^4.0.2"
 
 react-dom@^16.4.1:
   version "16.5.2"
@@ -6122,6 +6124,13 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+warning@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.2.tgz#aa6876480872116fa3e11d434b0d0d8d91e44607"
+  integrity sha512-wbTp09q/9C+jJn4KKJfJfoS6VleK/Dti0yqWSm6KMvJ4MRCXFQNapHuJXutJIrWV0Cf4AhTdeIe4qdKHR1+Hug==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack@^1.5.0:
   version "1.6.0"
