@@ -131,7 +131,7 @@
         "description": "Le code source de la documentation utilisateur en Markdown"
       },
       {
-        "title": "Github frontend",
+        "title": "Github frontend ",
         "subTitle": "code source",
         "href": "https://github.com/SocialGouv/eMJPM-app",
         "description": "Le code source de l'application Frontend en ReactJS + Next.js"
