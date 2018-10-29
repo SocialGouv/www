@@ -16,6 +16,22 @@
     "picture": "/static/images/members/jonathan.redt_gensinger.jpg"
   },
   {
+    "id": "chloe.mandelblat",
+    "name": "Chloe Mandelblat",
+    "structure": "Dirrecte Occitanie",
+    "startups": ["fce"],
+    "role": "intrapreneuse",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "pierre.vercauteren",
+    "name": "Pierre Vercauteren",
+    "structure": "DSI",
+    "startups": ["fce"],
+    "role": "intrapreneur",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "lucie.delorme",
     "name": "Lucie Delorme",
     "structure": "DRJSCS",
@@ -91,7 +107,7 @@
     "id": "julien.bouquillon",
     "name": "Julien Bouquillon",
     "structure": "DSI",
-    "startups": ["code-du-travail-numerique", "work-in-france"],
+    "startups": ["code-du-travail-numerique", "work-in-france", "fce"],
     "role": "tech lead incubateur",
     "picture": "/static/images/members/julien.bouquillon.jpg"
   },
@@ -99,7 +115,12 @@
     "id": "eric.heijligers",
     "name": "Eric Heijligers",
     "structure": "DSI",
-    "startups": ["code-du-travail-numerique", "work-in-france", "e-mjpm"],
+    "startups": [
+      "code-du-travail-numerique",
+      "work-in-france",
+      "e-mjpm",
+      "fce"
+    ],
     "role": "product manager incubateur",
     "picture": "/static/images/members/eric.heijligers.jpg"
   },
@@ -120,4 +141,3 @@
     "picture": "/static/images/members/jeremie.cook.jpg"
   }
 ]
-

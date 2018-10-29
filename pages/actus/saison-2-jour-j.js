@@ -32,32 +32,19 @@ const JourJ = () => (
         les personnes à la rue durant l&apos;hiver. <br />
         4- Mettre en valeur les territoires déficitaires en professionels de
         santé afin de favoriser leur installation <br />
-<<<<<<< refs/remotes/origin/dev
         5- &quot;Dites le nous une fois&quot; pour les entreprises étrangères
         détachant des salariés en France <br />
-=======
-        5- "Dites le nous une fois" pour les entreprises étrangères détachant
-        des salariés en France <br />
->>>>>>> formattage du fichier avec eslint et prettier
         6- Outiller les travailleurs sociaux pour accompagner les exclus
         numériques <br />
         7- Stimuler les jeunes dans leurs démarches tout au long de leur
         parcours afin d&apos;assurer un meilleur suivi par les DIRECCTE et les
         conseillers Mission Locale. <br />
-<<<<<<< refs/remotes/origin/dev
         8- Améliorer l&apos;accès à l&apos;offre de soins en cas d&apos;urgence.
-=======
-        8- Améliorer l’accès à l’offre de soins en cas d&apos;urgence.
->>>>>>> formattage du fichier avec eslint et prettier
         <br />
         <br /> La matinée et le début d&apos;après-midi ont été consacrés à un
         coaching des candidats puis à la présentation des pitchs.
         <center>
-<<<<<<< refs/remotes/origin/dev
           <img alt="Panneau pitch" src="/static/images/pitch.jpg" width="40%" />
-=======
-          <img src="/static/images/pitch.jpg" width="40%" />
->>>>>>> formattage du fichier avec eslint et prettier
           <br />
         </center>
         <br /> Puis, à 15h, les présentations officielles ont commencé devant un
@@ -72,7 +59,6 @@ const JourJ = () => (
         <br /> Les orateurs ont eu beaucoup de talent ! Le choix fut compliqué
         mais c&apos;est au final les projets 1, 3 et 4 qui ont remporté
         l&apos;adhésion du jury. <br />
-<<<<<<< refs/remotes/origin/dev
         <br />A très bientôt pour avoir des nouvelles de nos nouveaux
         &quot;intras&quot; !<br />
         <br />
@@ -83,14 +69,6 @@ const JourJ = () => (
             src="/static/images/pitchday-1.jpg"
             width="70%"
           />
-=======
-        <br />A très bientôt pour avoir des nouvelles de nos nouveaux "intras" !
-        <br />
-        <br />
-        <br />
-        <center>
-          <img src="/static/images/pitchday-1.jpg" width="70%" />
->>>>>>> formattage du fichier avec eslint et prettier
           <br />
           <i>Les participants de cette belle journée</i>
         </center>
