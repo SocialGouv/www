@@ -743,6 +743,11 @@
     hoist-non-react-statics "^2.5.5"
     prop-types "^15.6.1"
 
+"@mdx-js/tag@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.16.0.tgz#a676132203a484b575c8837cd24dea5e02e91beb"
+  integrity sha512-Myz+KO7IlbWE+ZLcVvqxEGQMbQMOBrblb/j20r1+FOrftHdzDM4f1BFBlmc8ZVjjz07emJWYP0P8o13/1BNZbw==
+
 "@socialgouv/eslint-config-react@^0.2.0":
   version "0.2.0"
   resolved "https://registry.npmjs.org/@socialgouv/eslint-config-react/-/eslint-config-react-0.2.0.tgz#bed2b9d3756c16c2cad9c931b3ac864026d7ab59"
