@@ -1,8 +1,21 @@
 module.exports = [
   {
+    date: "8 Novembre 2018",
+    author: "julien.bouquillon",
+    tags: ["code-du-travail-numerique"],
+    title: "Code du travail numérique : Jury de selection des EIG",
+    html: `
+Hier a eu lieu la journée de selection des candidats au programme <a target="_blank" href="http://entrepreneur-interet-general.etalab.gouv.fr">"Entrepreneur d'intérêt général" promo 2019</a> pour notre défi <a target="_blank" href="https://entrepreneur-interet-general.etalab.gouv.fr/defis/2019/explocode.html">"Explocode"</a>.
+<br/><br/>
+Assistés des EIG de la promo 2018, d'experts techniques Etalab et de collègues d'autres défis, nous avons eu la chance d'auditionner plusieurs candidats aussi compétents que determinés pour aider notre équipe à **rendre le droit du travail plus lisible** dès le 1er Janvier 2020.
+<br/><br/>
+Deux EIG nous rejoindront donc début 2019, et commenceront leur mission par une immersion dans les services des DIRECCTE en région, où ils pourront mieux comprendre les attentes des usagers et des agents, et en profiter pour compléter notre stock de données qui nous permettrons d'améliorer notre modèle d'intelligence artificelle pour la compréhension des questions posées par les usagers.
+`
+  },
+  {
     date: "14 Septembre 2018",
     author: "eric.heijligers",
-    tags: ["work-in-france, WIF, wif"],
+    tags: ["work-in-france"],
     title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾",
     html: `
 Le service WorkinFrance a ouvert en expérimentation le 27 mars 2018 sur le périmètre de l'unité départementale 75 de la DIRECCTE Ile-de-France.
