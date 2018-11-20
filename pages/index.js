@@ -20,20 +20,16 @@ const Homepage = () => (
       title="Bienvenue à l'incubateur des ministères sociaux"
       tagline="incubateur.social.gouv.fr"
     />
-    <Section className="section-white" title="" subTitle="">
+    <Section
+      className="section-white"
+      title=""
+      subTitle=""
+      style={{ padding: "1em 0" }}
+    >
       <BlocChiffres />
     </Section>
     <Section title="Notre actualité" subTitle="">
-      <div
-        className="row"
-        style={{
-          color: "black"
-        }}
-      >
-        <AllActus.jourj />
-        <AllActus.actuSaison2 />
-        <AllActus.actuCdtn1 />
-      </div>
+      <AllActus.all />
     </Section>
     <p align="center">
       {" "}
