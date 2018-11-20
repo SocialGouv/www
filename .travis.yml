@@ -3,29 +3,77 @@ language: node_js
 sudo: false
 git:
   depth: 5
-node_js: lts/*
+node_js: 10
 cache: yarn
-script:
-- yarn lint
-- NODE_ENV=production yarn build
-- yarn rss
-- touch out/.nojekyll
-before_deploy:
-- |
-  git config user.name "Deployment Bot (from Travis CI)" &&
-  git config user.email "deploy@travis-ci.org"
-deploy:
-  github-token: "$GITHUB_TOKEN"
-  keep-history: true
-  local_dir: out
-  provider: pages
-  skip_cleanup: true
-  target-branch: master
-  on:
-    branch: dev
+
+#
+
+_environments:
+  - &docker_image
+    - DOCKER_IMAGE="${echo $TRAVIS_REPO_SLUG | tr A-Z a-z}:${TRAVIS_COMMIT:0:7}"
+  - &docker-keys
+    - secure: gIZPyLgWTlPfg1ac54IP8CwGvuAAp8dHhSi2Hqw/lSGDANme2vbncXlTTUejyzPZs4G7gsz55lV2eU/dAhkc4P9u21Eja0pALmvC/0rNXDl9QchRKbMmlLZ1OHhPrp6ORE5GUEMA2llKb431yyLTzH9O8fPj6FT6o/ySAS6cAE2j+ry+ufP9Wl4CUkX4VTLj6CzNqouy/xP+Lj4N9GlbO0iyMroPqGRnf8xSbG+jbbz/FBlqY62qMSJEOKSoQMOoFE5SeHHJmxWBB7Z5gpaz0DqsUHTaYpvO7wERqCn0vtOansPAZsseG1Ka2NQ7Da0r5MXdFgKgg7MbKnnJ0/s2mv6N5bDxqmoPwOHSZRpGjicuseQBlyHMCnRJ5w+Dqa/QKWlvKKZSPOPgULiGF7fOq9lBk0cZ0T9TkIIGITO5irBcGcEYryYeuHldZj4lYYQWOaOW3xAkdby2gCXlZmJazsI+Ac1/ib30WVhdHvS56+I8TlfDkcT5wN+D3tj/fpukUgii7pVh5vGeglUgORNeE/MPjVFPwOOW0IH/MujtrzmHuJ0EL6CEmozKNzDbMicpd8i4ujNyC9M0vgyQTLj6F/kYmEjWYddojrgdLBTMYLpudfeoDaSq9La3x9z0tSgibE4ZfCENuqXpHykTRS2bz9PXvAs184Eese3e4TZYgNs=
+    - secure: CLtmrV7o/M7Vni7Ph7aj0XuTiscicsxBepqnADeK/DmNo7FVPv9HPpDeWDeRdwUfNPfQ0QqCnJ2euU2BIykGqUfJOhnV7K6ahPRVhi/TDbi2e+LJ9LbbMRAnHEFj9gC1JFResJVViqDyJXanQnbJQeQPgjAJcYnL/8FNtkNBBQMnCKo0WI5efyo+SWa3rL3nZ1nvF/pV+BVR15isYIWSgOBChKLQ6KSGBNdaI+D7TOFBcw4WilXrt3JGAgI7k8xmDnnwSKgkvrLgzbK8Ak0mazqLrzSMhcOgf2xnupy0qK/XVReLBTF+hKMTWIu52XfBAQnKThUTKwDIJWIs+3OX5quono/d/YVOoZMfwddMOH/fgWrrzAMShwIV9rFeqcZ9P0eXn7LDveBHkbV7D+TubllMEEHmmtRlKBpFjRDseMba3CAw0bYESpXAM9KeJpVwkBhMYktoVeDMdGPiBdUjDdUIsuzvO2uKbGVS9kXbSCPdTUqIT/pQK9kCp/2Q1Yzl8xf5b6wcayMRBOkSZ3JRNO8/OR2OAjGcYYIM1Tu7lCC69yav2KKlJ+Fmif4Nrsw3oUoOtt6El9KgGbNvsi4y2TU5dZoB/V5YGq5/6JXSlRv/vf6m8EwL3ZcrdgXKaYjVJSyC8OKilUZhcM4fYKG4QwYlK7O+Qkcyfyra26cUvwo=
+
+#
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
+  - export PATH="$HOME/.yarn/bin:$PATH"
+
+jobs:
+  include:
+    - stage: Verify
+      script: yarn lint
+    - #
+      script: NODE_ENV=production yarn build
+    - stage: Deploy
+      if: type = push AND branch = dev
+      script:
+      - NODE_ENV=production yarn build
+      - yarn rss
+      - touch out/.nojekyll
+      before_deploy:
+        - git config user.name "Social Groovy Bot"
+        - git config user.email "douglas.duteil@sg.social.gouv.fr"
+      env:
+        secure: q4iyhIyH9ctaT+dSDv6RGAFTUUaotwp2BZTz3Xp1CesaI+Sjr+Jr6pOWcGadthBUR0/1BjQBsZjKnOmYDCGLGvdSEGwGgRkMT6GIgTp++Bf7tLBlRHCmxRCejZFi8cH4z27mUnTc9SRgFlQnypvN0hVDSmlA0qV6DfZcjl8UHmBQcRliPFcUUTySE22HumVu3LiSJfk/QeEMtUpVeM0enIzNiPoSDFGMvKperb4FEBbxQ4HPyRA4oj2zll7bAZeZJaQcaK7zh8JFuZHszTnrDVXhS8O0Aoh3dFbBbwqql1xPGuOCjGszFrz/o+Pkst3Zt1JW8mb45mF2OagliuJk5SfpkKZ9kChE4KCKYRZYC/oj2NhTphh0Mvh0m2xTekTM7DuuM4iZEWeTf2nmKDFozV0kc+VA9Xax9QXlq7Cf2QyugA7vFyJ22U9R//MZwKlmaBsyYri3SWVqgi03tX3tcb/ci7Kp4xEwotgBRvcUCSLSzmkD3P6F9Duaeu0vou3NHGG/m2RBFj8Onoh4RFLK0PFkXk7SENsmr+Q3/zFFvoou91lEhzGtq62RYYdqxk2HIbqD1jp6VgEEr8esJAgpGNE2uSFQYlKM2BiHhiZzt4DFpClTKMehBWoedWWjkQx9KIeeQmM0759M00N9hG2VyL9J4IF5OQ0Eqr0VkZRg3AM=
+      deploy:
+        github-token: "$GITHUB_TOKEN"
+        keep-history: true
+        local_dir: out
+        provider: pages
+        skip_cleanup: true
+        target-branch: master
+        on:
+          branch: dev
+    - stage: Build docker image
+      if: type = push AND branch = dev
+      env: [*docker_image, *docker-keys]
+      script:
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+      - docker build -t $DOCKER_IMAGE .
+      - docker images
+      - docker push $DOCKER_IMAGE
+    - stage: Run e2e tests
+      if: type = push AND branch = dev
+      env:
+      - BASE_URL=localhost:8080 # Needed by the "yarn test" script
+      before_install: cd optional/e2e
+      before_script: docker run --name test_server -d -p 8080:80 $DOCKER_IMAGE
+      after_script: docker stop test_server
+    - #
+      if: type = push AND branch = dev
+      language: generic
+      services:
+      - docker
+      env: [*docker_image, *docker-keys]
+      script:
+      - docker pull $DOCKER_IMAGE
+      - docker tag $DOCKER_IMAGE $TRAVIS_REPO_SLUG:latest
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+      - docker push $TRAVIS_REPO_SLUG:latest
+
 notifications:
   slack:
     secure: qgb5K4l7/2P8RLbVdPKSfYHLg3coCa9e+xYuzRSyZ9SvbqAofksKnSB//SWyKTxkuntc9CyEsnOWT14FzrOhHa8xU4YeOwamRSs6aeujHLx8+P99Ne1MFWOZIX+bCAgzwkpxxGiRMhX8bMXSQ9mjAbwLrOdNVtK6d5tUdDZ9zgFcPT+FW8vaYTZLfGS/jnkRZBcfd4hRo2ycMIfaGk/i+3tQr+qBYIdEyyhnU7EH9bJ1v85sPhRLKeeyd4Y5Ox4XLNlbfo5r42moce4WAuVoqCt3/70zyVn5Z2Ts1Je35RnIi1Krx31BKFPGjV+dV74lVeFUm5/XZy9WcuGUfupSQhLMGjasmL87b/xwQFUxLKz3Rof/PxMa31h9CwB644tbBv+ifETU55OaV2ZrCoGmISiI6lLEGBa5zGR27TQfxHtwElGild7Qfel+4P7j1/PRbOIfrUclerlbwC3qs5ElUVIXiVKs+S1vL/13eiWBYRRvZ2k+zAYoiIpyhx/1eKHb4iAxtL7Vgmeh5l5BvMFlu2MzxQPV/oGT7EgvbNSJNVwwCKvr8T5aT07m7WOtDbkjq+aapA89kg+P5sQWnvlWBQDA/l51N2tMguLVRLXzjxZZjsZu1TtwD3C8/Bz1beHl1Qw+yF2c+HdEkM1ztZNsIXpMSwLrIxTJK45UsSL4yP0=
-
-env:
-  secure: q4iyhIyH9ctaT+dSDv6RGAFTUUaotwp2BZTz3Xp1CesaI+Sjr+Jr6pOWcGadthBUR0/1BjQBsZjKnOmYDCGLGvdSEGwGgRkMT6GIgTp++Bf7tLBlRHCmxRCejZFi8cH4z27mUnTc9SRgFlQnypvN0hVDSmlA0qV6DfZcjl8UHmBQcRliPFcUUTySE22HumVu3LiSJfk/QeEMtUpVeM0enIzNiPoSDFGMvKperb4FEBbxQ4HPyRA4oj2zll7bAZeZJaQcaK7zh8JFuZHszTnrDVXhS8O0Aoh3dFbBbwqql1xPGuOCjGszFrz/o+Pkst3Zt1JW8mb45mF2OagliuJk5SfpkKZ9kChE4KCKYRZYC/oj2NhTphh0Mvh0m2xTekTM7DuuM4iZEWeTf2nmKDFozV0kc+VA9Xax9QXlq7Cf2QyugA7vFyJ22U9R//MZwKlmaBsyYri3SWVqgi03tX3tcb/ci7Kp4xEwotgBRvcUCSLSzmkD3P6F9Duaeu0vou3NHGG/m2RBFj8Onoh4RFLK0PFkXk7SENsmr+Q3/zFFvoou91lEhzGtq62RYYdqxk2HIbqD1jp6VgEEr8esJAgpGNE2uSFQYlKM2BiHhiZzt4DFpClTKMehBWoedWWjkQx9KIeeQmM0759M00N9hG2VyL9J4IF5OQ0Eqr0VkZRg3AM=

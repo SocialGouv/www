@@ -47,6 +47,6 @@ test.each(cases)("%s (on %s)", async (path, _size, breakpoint) => {
     width: breakpoint,
     height: breakpoint / (16 / 9)
   });
-  await page.goto("https://incubateur.social.gouv.fr" + path);
+  await page.goto(process.env.BASE_URL + path);
   expect(await page.screenshot({ fullPage: true })).toMatchImageSnapshot();
 });
