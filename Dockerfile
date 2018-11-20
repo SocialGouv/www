@@ -22,5 +22,5 @@ RUN yarn rss
 
 FROM nginx:alpine
 
+COPY --from=builder /app/out /www
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY --from=builder /app/out /usr/share/nginx/html
