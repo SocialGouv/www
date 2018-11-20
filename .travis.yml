@@ -62,7 +62,7 @@ jobs:
       before_install: cd optional/e2e
       before_script: docker run --name test_server -d -p 8080:80 $DOCKER_IMAGE
       after_script: docker stop test_server
-    - stage: Deploy *latest* image
+    - #
       if: type = push AND branch = dev
       language: generic
       services:
