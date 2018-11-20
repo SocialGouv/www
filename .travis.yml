@@ -28,6 +28,7 @@ jobs:
     - #
       script: NODE_ENV=production yarn build
     - stage: Deploy
+      if: type = push AND branch = dev
       script:
       - NODE_ENV=production yarn build
       - yarn rss
