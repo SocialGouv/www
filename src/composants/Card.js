@@ -32,7 +32,9 @@ Card.propTypes = {
   href: PropTypes.string,
   img: PropTypes.string,
   meta: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
+  style: PropTypes.object,
+  className: PropTypes.string
 };
 
 export default Card;
