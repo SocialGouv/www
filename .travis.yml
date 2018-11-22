@@ -28,6 +28,14 @@ jobs:
       script: yarn lint
     - #
       script: NODE_ENV=production yarn build
+    - #
+      if: type = push AND branch = dev
+      env: [*docker_image, *docker-keys]
+      script:
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        - docker build -t $DOCKER_IMAGE .
+        - docker images
+        - docker push $DOCKER_IMAGE
     - stage: Deploy
       if: type = push AND branch = dev
       script:
@@ -48,19 +56,11 @@ jobs:
         target-branch: master
         on:
           branch: dev
-    - stage: Build docker image
-      if: type = push AND branch = dev
-      env: [*docker_image, *docker-keys]
-      script:
-        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-        - docker build -t $DOCKER_IMAGE .
-        - docker images
-        - docker push $DOCKER_IMAGE
-    - stage: Run e2e tests
+    - #
       if: type = push AND branch = dev
       env:
         - *docker_image
-        - BASE_URL=localhost:8080 # Needed by the "yarn test" script
+        - BASE_URL=http://localhost:8080 # Needed by the "yarn test" script
       before_install: cd optional/e2e
       before_script: docker run -d --name socialgouv.github.io -p 8080:80 $DOCKER_IMAGE
       after_script: docker stop socialgouv.github.io
