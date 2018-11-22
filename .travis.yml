@@ -59,6 +59,7 @@ jobs:
     - stage: Run e2e tests
       if: type = push AND branch = dev
       env:
+        - *docker_image
         - BASE_URL=localhost:8080 # Needed by the "yarn test" script
       before_install: cd optional/e2e
       before_script: docker run -d --name socialgouv.github.io -p 8080:80 $DOCKER_IMAGE
