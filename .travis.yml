@@ -31,9 +31,9 @@ jobs:
     - stage: Deploy
       if: type = push AND branch = dev
       script:
-      - NODE_ENV=production yarn build
-      - yarn rss
-      - touch out/.nojekyll
+        - NODE_ENV=production yarn build
+        - yarn rss
+        - touch out/.nojekyll
       before_deploy:
         - git config user.name "Social Groovy Bot"
         - git config user.email "45039513+SocialGroovyBot@users.noreply.github.com"
@@ -52,28 +52,28 @@ jobs:
       if: type = push AND branch = dev
       env: [*docker_image, *docker-keys]
       script:
-      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      - docker build -t $DOCKER_IMAGE .
-      - docker images
-      - docker push $DOCKER_IMAGE
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        - docker build -t $DOCKER_IMAGE .
+        - docker images
+        - docker push $DOCKER_IMAGE
     - stage: Run e2e tests
       if: type = push AND branch = dev
       env:
-      - BASE_URL=localhost:8080 # Needed by the "yarn test" script
+        - BASE_URL=localhost:8080 # Needed by the "yarn test" script
       before_install: cd optional/e2e
-      before_script: docker run --name test_server -d -p 8080:80 $DOCKER_IMAGE
-      after_script: docker stop test_server
+      before_script: docker run -d --name socialgouv.github.io -p 8080:80 $DOCKER_IMAGE
+      after_script: docker stop socialgouv.github.io
     - #
       if: type = push AND branch = dev
       language: generic
       services:
-      - docker
+        - docker
       env: [*docker_image, *docker-keys]
       script:
-      - docker pull $DOCKER_IMAGE
-      - docker tag $DOCKER_IMAGE $REPO_SLUG:latest
-      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      - docker push $REPO_SLUG:latest
+        - docker pull $DOCKER_IMAGE
+        - docker tag $DOCKER_IMAGE $REPO_SLUG:latest
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        - docker push $REPO_SLUG:latest
 
 notifications:
   slack:
