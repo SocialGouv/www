@@ -4,16 +4,17 @@ import styled from "styled-components";
 import CountUp from "react-countup";
 
 const BlocChiffre = styled.div`
-  width: 50%;
-  padding: 3em 0;
+  width: 25%;
+  padding: 1em;
   display: inline-block;
   box-sizing: border-box;
-  &:nth-child(2n + 1) {
+  vertical-align: top;
+  &:nth-child(2n + 1),
+  &:nth-child(2) {
     border-right: 1px solid silver;
   }
   &:nth-child(1),
   &:nth-child(2) {
-    border-bottom: 1px solid silver;
   }
   .num {
     font-size: 4em;
@@ -25,6 +26,9 @@ const BlocChiffre = styled.div`
     font-size: 1em;
     text-align: center;
   }
+  @media (max-width: 549px) {
+    font-size: 0.6em;
+  }
 `;
 
 const ZeroCounter = ({ end }) => <CountUp start={0} end={end} />;
@@ -33,7 +37,7 @@ ZeroCounter.propTypes = {
 };
 
 const BlocChiffres = () => (
-  <div style={{ width: "80%", maxWidth: 500, margin: "0 auto" }}>
+  <div style={{ width: "100%", margin: "0 auto" }}>
     <BlocChiffre>
       <div className="num">
         <ZeroCounter end={4} />

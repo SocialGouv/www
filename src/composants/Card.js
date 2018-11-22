@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
 
-const Card = ({ href, img, title, meta, description }) => (
-  <div className="card">
+const Card = ({ href, img, title, meta, description, style, className }) => (
+  <div className={`card ${className || ""}`} style={style}>
     <div className="card__cover">
       <Link href={href}>
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -32,7 +32,9 @@ Card.propTypes = {
   href: PropTypes.string,
   img: PropTypes.string,
   meta: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
+  style: PropTypes.object,
+  className: PropTypes.string
 };
 
 export default Card;

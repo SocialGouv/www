@@ -90,11 +90,16 @@ div.article__author .article__author-role {
 }
 
 .card {
-  max-width: 350px;
+  max-width: 450px;
+  min-width: 350px;
 }
 
 @media (max-width: 549px) {
   .card {
     max-width: 100%;
   }
+}
+
+.section {
+  padding: 3em 0;
 }

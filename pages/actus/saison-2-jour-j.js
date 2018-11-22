@@ -1,12 +1,7 @@
 import React from "react";
 import { Hero, Layout, Section } from "../../src/composants";
 
-const title = (
-  <div>
-    And the winner is...
-    <span data-tip="responsable des développements techniques, biz et autres" />{" "}
-  </div>
-);
+const title = <div>And the winner is...</div>;
 
 const JourJ = () => (
   <Layout>

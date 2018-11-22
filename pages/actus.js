@@ -42,13 +42,12 @@ const Actus = () => (
         <News {...n} key={n.title} />
       ))}
     </Section>
-    <Section className="section-color" title="Articles de fond" subTitle="">
-      <div className="row" style={{ color: "black" }}>
-        <AllActus.jourj />
-        <AllActus.actuSaison2 />
-        <AllActus.actuCdtn1 />
-        <AllActus.actuBoard1 />
-      </div>
+    <Section
+      className="section-color cards"
+      title="Articles de fond"
+      subTitle=""
+    >
+      <AllActus.all />
     </Section>
   </Layout>
 );

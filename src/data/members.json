@@ -139,5 +139,13 @@
     "startups": ["code-du-travail-numerique"],
     "role": "UX Designer",
     "picture": "/static/images/members/jeremie.cook.jpg"
+  },
+  {
+    "id": "lionel.breduillieard",
+    "name": "Lionel Breduillieard",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur full-stack",
+    "picture": "/static/images/members/lionel.breduillieard.jpg"
   }
 ]
