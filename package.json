@@ -41,7 +41,7 @@
     "react-piwik": "^1.5.0",
     "react-tooltip": "^3.6.0",
     "remark-highlight.js": "^5.0.0",
-    "styled-components": "^4.0.0",
+    "styled-components": "^4.1.1",
     "template.data.gouv.fr": "^1.1.6"
   }
 }
