@@ -29,7 +29,7 @@ jobs:
     - #
       script: NODE_ENV=production yarn build
     - #
-      if: (type = push AND branch = dev) OR branch = ^renovate/
+      if: (type = push AND branch = dev) OR branch =~ ^renovate/
       env: [*docker_image, *docker-keys]
       script:
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
@@ -57,7 +57,7 @@ jobs:
         on:
           branch: dev
     - #
-      if: (type = push AND branch = dev) OR branch = ^renovate/
+      if: (type = push AND branch = dev) OR branch =~ ^renovate/
       env:
         - *docker_image
         - BASE_URL=http://localhost:8080 # Needed by the "yarn test" script
