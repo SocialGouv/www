@@ -25,10 +25,13 @@ before_install:
 jobs:
   include:
     - stage: Verify
+      name: Lint
       script: yarn lint
-    - #
+    - stage: Verify
+      name: Build
       script: NODE_ENV=production yarn build
-    - #
+    - stage: Verify
+      name: Build and deploy current commit docker image
       if: (type = push AND branch = dev) OR branch =~ ^renovate/
       env: [*docker_image, *docker-keys]
       script:
@@ -37,6 +40,7 @@ jobs:
         - docker images
         - docker push $DOCKER_IMAGE
     - stage: Deploy
+      name: Deploy to gh-pages
       if: type = push AND branch = dev
       script:
         - NODE_ENV=production yarn build
@@ -56,7 +60,8 @@ jobs:
         target-branch: master
         on:
           branch: dev
-    - #
+    - stage: Deploy
+      name: Run E2E tests on the commit image
       if: (type = push AND branch = dev) OR branch =~ ^renovate/
       env:
         - *docker_image
@@ -64,7 +69,8 @@ jobs:
       before_install: cd optional/e2e
       before_script: docker run -d --name socialgouv.github.io -p 8080:80 $DOCKER_IMAGE
       after_script: docker stop socialgouv.github.io
-    - #
+    - stage: Deploy to Docker Hub
+      name: Deploy to Docker Hub
       if: type = push AND branch = dev
       language: generic
       services:
