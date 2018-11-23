@@ -743,10 +743,10 @@
     unified "^6.1.6"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/mdx@^0.16.3":
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.16.3.tgz#8ec80c5c12e0f8668890de2a12611196c5556f08"
-  integrity sha512-T7vBZFcjMRTYtmuUGCqueZmw28Wa2gbyO07joOLrpJwiAfEkrro3cMM+lEwWmt59IkbXz1IvaI67jgG0wUYw6Q==
+"@mdx-js/mdx@^0.16.4":
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.16.4.tgz#47d47dec9602deb137f0b1b9d535169f7555b2d6"
+  integrity sha512-TcabDVJPDicxfUtnD+aIPDBmj10j4gxpBUtVDIdk0ofgJE3cFEg/W8CH9NcxMdlxpM/VQW0YMo8vEhY5B44P5Q==
   dependencies:
     change-case "^3.0.2"
     detab "^2.0.0"
@@ -758,10 +758,10 @@
     unist-builder "^1.0.1"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/mdx@^0.16.4":
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.16.4.tgz#47d47dec9602deb137f0b1b9d535169f7555b2d6"
-  integrity sha512-TcabDVJPDicxfUtnD+aIPDBmj10j4gxpBUtVDIdk0ofgJE3cFEg/W8CH9NcxMdlxpM/VQW0YMo8vEhY5B44P5Q==
+"@mdx-js/mdx@^0.16.5":
+  version "0.16.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.16.5.tgz#05ba344098b88b4d3cb2437e199078c799e4beca"
+  integrity sha512-O+4BmL6OVD2LfcYwDfUnE2R8b/kdGn0Fv2/wXe59pTcJo0WrDhyB9irqqcJREFc6KScMhGNgz5sxbq6kQZO16A==
   dependencies:
     change-case "^3.0.2"
     detab "^2.0.0"
