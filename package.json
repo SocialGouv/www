@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "react": "^16.6.3",
-    "react-accessible-accordion": "^2.4.3",
+    "react-accessible-accordion": "^2.4.5",
     "react-countup": "^4.0.0",
     "react-dom": "^16.6.3",
     "react-feather": "^1.1.0",
