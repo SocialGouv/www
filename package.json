@@ -42,6 +42,6 @@
     "react-tooltip": "^3.6.0",
     "remark-highlight.js": "^5.0.0",
     "styled-components": "^4.0.0",
-    "template.data.gouv.fr": "^1.1.6"
+    "template.data.gouv.fr": "^1.1.8"
   }
 }
