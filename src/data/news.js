@@ -9,7 +9,7 @@ module.exports = [
     Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par l’Incubateur des Ministères Sociaux.
     <br/>
     Il y a quelques mois, l’équipe annonçait le développement  d’e-MJPM sur Paris et c’est aujourd’hui chose faite.  Depuis ce lundi 26 novembre, l’outil est disponible pour l’ensemble des acteurs de la protection juridique des majeurs exerçant sur Paris. Deuxième date importante pour la startup d’Etat qui a déjà ouvert e-MJPM dans trois territoires des Hauts-de-France au printemps  dernier.
-    <br/>
+    <br/><br/>
     Cette ouverture marque la fin d’une période  de formation auprès des différents utilisateurs du site. En effet, l’ensemble des mandataires agréés sur Paris ainsi que la totalité des greffiers et magistrats du Tribunal d’Instance ont été conviés à 4 sessions de formation. Celles-ci avaient pour but de présenter officiellement e-MJPM et de former l’ensemble des usagers sur l’utilisation de l'outil.
     <br/>
     L’équipe, qui a pour objectif de rendre ce produit national, continue sur sa lancée avec la tenue prochaine d’un OpenLab le 13 décembre. Elle compte récolter les avis des usagers et réfléchir aux futures améliorations et développements à apporter afin de rendre e-MJPM pertinent et efficace pour tous.
