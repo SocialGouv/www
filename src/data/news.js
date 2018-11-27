@@ -14,7 +14,7 @@ module.exports = [
     <br/>
     L’équipe, qui a pour objectif de rendre ce produit national, continue sur sa lancée avec la tenue prochaine d’un OpenLab le 13 décembre. Elle compte récolter les avis des usagers et réfléchir aux futures améliorations et développements à apporter afin de rendre e-MJPM pertinent et efficace pour tous.
     <br/>
-    <p align="center">
+    <p align="center"> 
     Regarder la vidéo de présentation d’e-MJPM : 
     <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6jn6sw" allowfullscreen allow="autoplay"></iframe>
     </p>
