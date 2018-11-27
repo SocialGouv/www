@@ -21,6 +21,25 @@ module.exports = [
     `
   },
   {
+    date: "16 Novembre 2018",
+    author: "julien.bouquillon",
+    tags: ["code-du-travail-numerique"],
+    title: "release 1.4 - Twinkle Cookie",
+    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
+      <p>Cette nouvelle version propose notamment :</p>
+      <ul>
+         <li>Affichage des dates fiches ministère</li>
+         <li>Search facetting</li>
+         <li>Modal Feedback</li>
+         <li>PoC Indemnités licenciement + convention collective "chimie"</li>
+         <li>Ajout modèles de courriers</li>
+         <li><a href="https://github.com/SocialGouv/code-du-travail-numerique/commits/75fc7c473d344b48ca18e6f5ebbd62b6e2446c0f" target="_blank">details des changements</a></li>
+      </ul>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+    `
+  },
+  {
     date: "8 Novembre 2018",
     author: "julien.bouquillon",
     tags: ["code-du-travail-numerique"],
