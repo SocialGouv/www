@@ -12,6 +12,10 @@ const components = {
 
 const headerLinks = [
   {
+    title: "Vos idées",
+    href: "/idees"
+  },
+  {
     title: "Nos produits",
     href: "/#produits"
   },
