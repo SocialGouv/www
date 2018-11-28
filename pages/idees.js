@@ -1,9 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ReactTypeformEmbed } from "react-typeform-embed";
+import dynamic from "next/dynamic";
 
 import { Section, Layout, AllActus, Hero } from "../src/composants";
 import news from "../src/data/news";
+
+const ReactTypeformEmbed = dynamic(() => import("react-typeform-embed-2"), {
+  ssr: false
+});
 
 // https://github.com/facebook/react/issues/377
 const News = ({ title, date, html }) => (
@@ -44,15 +48,22 @@ const Actus = () => (
       subTitle="Vous avez une idée de solution numérique qui permettrait d’y remédier ?"
     />
 
-    <Section className="section-color cards" title=" - " subTitle="">
+    <Section
+      className="section-color cards"
+      title="Déposer votre idée"
+      subTitle=""
+    >
       <ReactTypeformEmbed
         url={"https://incubateurministeressociaux.typeform.com/to/BNlCIL"}
         buttonText="Déposer mon idée"
-        style={"height: 300px; width: 50%; "}
+        style={{
+          height: 500,
+          margin: "0 auto",
+          textAlign: "center"
+        }}
         autoOpen="false"
         hideHeaders="true"
         hideFooter="true"
-        opacity="50"
       />
     </Section>
   </Layout>
