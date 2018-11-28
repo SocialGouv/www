@@ -40,6 +40,7 @@
     "react-github-fork-ribbon": "^0.6.0",
     "react-piwik": "^1.6.0",
     "react-tooltip": "^3.9.0",
+    "react-typeform-embed": "^0.1.6",
     "remark-highlight.js": "^5.0.0",
     "styled-components": "^4.0.0",
     "template.data.gouv.fr": "^1.1.6"
