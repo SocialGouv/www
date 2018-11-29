@@ -3,6 +3,8 @@
 node_modules
 out
 
+package-lock.json
+
 *.js~
 
 npm-debug\.log
