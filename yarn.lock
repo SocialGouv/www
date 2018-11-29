@@ -5932,10 +5932,10 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-template.data.gouv.fr@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/template.data.gouv.fr/-/template.data.gouv.fr-1.1.6.tgz#19d8e94d190b6685c2918f9dee26021935f5351b"
-  integrity sha512-3292v2oVFp3Gmi48EgvwNySLpOZAIrqLMQ7bOQIXgH6aFR0nyZU5wB7U7P2FW58Szzwm0sLj5j/Xl2vfLelf7g==
+template.data.gouv.fr@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/template.data.gouv.fr/-/template.data.gouv.fr-1.1.8.tgz#acf2e23cd7ff39e30857edc560c5e9e2e1363a3c"
+  integrity sha512-grYRMPzHI4UNfekCgtKdzdCilkpnNFwRGlnai2IPyLLCW+DhkAxUukYuIdYuRyQcHNmprHqHS+m9xiwSxLLIKg==
 
 terser-webpack-plugin@1.0.2:
   version "1.0.2"
