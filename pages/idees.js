@@ -2,8 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import dynamic from "next/dynamic";
 
-import { Section, Layout, AllActus, Hero } from "../src/composants";
-import news from "../src/data/news";
+import { Section, Layout, Hero } from "../src/composants";
 
 const ReactTypeformEmbed = dynamic(() => import("react-typeform-embed-2"), {
   ssr: false
