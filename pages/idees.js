@@ -47,11 +47,7 @@ const Actus = () => (
       subTitle="Vous avez une idée de solution numérique qui permettrait d’y remédier ?"
     />
 
-    <Section
-      className="section-color cards"
-      title="Déposer votre idée"
-      subTitle=""
-    >
+    <Section className="section-white" title="Déposer votre idée" subTitle="">
       <ReactTypeformEmbed
         url={"https://incubateurministeressociaux.typeform.com/to/BNlCIL"}
         buttonText="Déposer mon idée"
@@ -60,7 +56,6 @@ const Actus = () => (
           margin: "0 auto",
           textAlign: "center"
         }}
-        autoOpen="false"
         hideHeaders="true"
         hideFooter="true"
       />
