@@ -2746,9 +2746,9 @@ file-entry-cache@^2.0.0:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
-file-loader@^2.0:
+file-loader@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/file-loader/-/file-loader-2.0.0.tgz#39749c82f020b9e85901dcff98e8004e6401cfde"
+  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-2.0.0.tgz#39749c82f020b9e85901dcff98e8004e6401cfde"
   integrity sha512-YCsBfd1ZGCyonOKLxPiKPdu+8ld9HAaMEvJewzz+b2eTF7uL5Zm/HdBF6FjCrpCMRq25Mi0U1gl4pwn2TlH7hQ==
   dependencies:
     loader-utils "^1.0.2"
@@ -4124,13 +4124,13 @@ neo-async@^2.5.0:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-next-images@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/next-images/-/next-images-1.0.1.tgz#011c9dc9648770ec2ca664059950749ab92a46ad"
-  integrity sha512-LEa/+NiowtKJebREsSR/3/VTaTrzr+NJXbtYd8p7UwKS1mUEhVEi9kfS9BsTAzzrvzYBne3V+dSl4+xLvCErKw==
+next-images@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.0.3.tgz#d766ac036b2d54d9d10a4539eeecacb39c9e24d5"
+  integrity sha512-yZNljIWgCd6CZpn2Rn6bC1DoSfmkqelk4Fw0d1QgoyuH7DT9IA2kJIVaEiESxOjN6mAUI5fFi12i++GcrgK8uA==
   dependencies:
-    file-loader "^2.0"
-    url-loader "^1.0.1"
+    file-loader "^2.0.0"
+    url-loader "^1.1.2"
 
 next@^7.0.2:
   version "7.0.2"
@@ -6300,9 +6300,9 @@ urix@^0.1.0:
   resolved "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-loader@^1.0.1:
+url-loader@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/url-loader/-/url-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
+  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
   integrity sha512-dXHkKmw8FhPqu8asTc1puBfe3TehOCo2+RmOOev5suNCIYBcT626kxiWg1NBVkwc4rO8BGa7gP70W7VXuqHrjg==
   dependencies:
     loader-utils "^1.1.0"
