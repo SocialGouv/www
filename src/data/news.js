@@ -1,5 +1,25 @@
 module.exports = [
   {
+    date: "5 Décembre 2018",
+    author: "julien.bouquillon",
+    tags: ["code-du-travail-numerique"],
+    title: "release 1.5 - Balinese Rose Lion",
+    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
+      <p>Cette nouvelle version propose notamment :</p>
+      <ul>
+         <li>nombreuses corrections suite à des retours utilisateurs</li>
+         <li>meilleure recherche dans les conventions collectives</li>
+         <li>mise à jour des fiches service-public</li>
+         <li>intégration de nouvelles FAQ</li>
+         <li>nombreux tests unitaires</li>
+         <li>améliorations de performances</li>
+         <li><a href="https://github.com/SocialGouv/code-du-travail-numerique/commits/1.5" target="_blank">details des changements</a></li>
+      </ul>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
+      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+    `
+  },
+  {
     date: "26 Novembre 2018",
     author: "melanie.roge",
     tags: ["e-mjpm"],
@@ -35,7 +55,7 @@ module.exports = [
          <li>Ajout modèles de courriers</li>
          <li><a href="https://github.com/SocialGouv/code-du-travail-numerique/commits/75fc7c473d344b48ca18e6f5ebbd62b6e2446c0f" target="_blank">details des changements</a></li>
       </ul>
-      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
+      <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
       <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
     `
   },
