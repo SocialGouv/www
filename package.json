@@ -28,7 +28,7 @@
     "next": "^7.0.2",
     "next-images": "^1.0.3",
     "prettier": "^1.14.3",
-    "raw-loader": "^0.5.1",
+    "raw-loader": "^1.0.0",
     "remark-autolink-headings": "^5.0.0"
   },
   "dependencies": {
