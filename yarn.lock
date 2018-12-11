@@ -5207,10 +5207,10 @@ remark-autolink-headings@^5.0.0:
   dependencies:
     unist-util-visit "^1.0.1"
 
-remark-highlight.js@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/remark-highlight.js/-/remark-highlight.js-5.0.0.tgz#468fb8ac6e1702bd44ee9670e172e26e2fa0f05a"
-  integrity sha1-Ro+4rG4XAr1E7pZw4XLibi+g8Fo=
+remark-highlight.js@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/remark-highlight.js/-/remark-highlight.js-5.1.0.tgz#0333fa214b409dd78b9935b7afd4a09fe2f4ab3a"
+  integrity sha512-m5d0RreEJ1z1Ug2LUCkCsNJ48Bcc15bx1lO3ZfQfYqMSI+J+bg8qz8p/cblJL1VB3oxqgbfRelj65AJAepn/zg==
   dependencies:
     lowlight "^1.2.0"
     unist-util-visit "^1.0.0"
