@@ -2646,7 +2646,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@^3.0.0:
+extend@^3.0.0, extend@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
@@ -5200,11 +5200,12 @@ regjsparser@^0.3.0:
   dependencies:
     jsesc "~0.5.0"
 
-remark-autolink-headings@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/remark-autolink-headings/-/remark-autolink-headings-5.0.0.tgz#9c00fed8d0ab33fba9cce83dff66a6fdd8efb31f"
-  integrity sha1-nAD+2NCrM/upzOg9/2am/djvsx8=
+remark-autolink-headings@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-5.1.0.tgz#73c92bcf6b0b4bddf2a52696d4434d77e4b1c962"
+  integrity sha512-+dMaZ9qxEiuC7EyCWdwE9cm6AlVP+GaoEIdD8DtjnqZdMEInt0fRoDNrILOBL3gh6v3MhzfGeus4VcRVXniYQQ==
   dependencies:
+    extend "^3.0.2"
     unist-util-visit "^1.0.1"
 
 remark-highlight.js@^5.0.0:
