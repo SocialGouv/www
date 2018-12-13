@@ -23,14 +23,11 @@ const EventBriteTable = ({ events }) => (
         </tr>
       )) ||
         null}
-      {(events &&
-        events.length === 0 && (
-          <tr>
-            <td colSpan={3}>
-              Aucun événement n&apos;est prévu pour le moment.
-            </td>
-          </tr>
-        )) ||
+      {(events && events.length === 0 && (
+        <tr>
+          <td colSpan={3}>Aucun événement n&apos;est prévu pour le moment.</td>
+        </tr>
+      )) ||
         null}
       {events &&
         events.map(event => (

@@ -5,7 +5,7 @@ const Board1 = () => (
   <Layout>
     <Hero
       style={{ backgroundImage: `url(/static/images/board.jpg)` }}
-      title="L&apos;aventure Startups d&apos;Etat continue !"
+      title="L'aventure Startups d'Etat continue !"
       tagline="Board #1"
     />
     <Section title="" subTitle="">

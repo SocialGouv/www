@@ -14,11 +14,7 @@ const title = (
 const Saison2 = () => (
   <Layout>
     <Hero title="Saison 2" tagline="Appel à candidatures : participez !" />
-    <Section
-      title={title}
-      subTitle="Mode d&apos;emploi"
-      className="section-color"
-    >
+    <Section title={title} subTitle="Mode d'emploi" className="section-color">
       <div className="container">
         Vous êtes témoin d&apos;irritants récurrents pour les usagers ou les
         agents de votre service? <br />

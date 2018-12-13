@@ -57,20 +57,22 @@ const Links = withRouter(({ router }) => (
     subTitle=""
   >
     <ul>
-      {articles.filter(a => !a.disabled).map(article => {
-        return (
-          <li key={article.href}>
-            {router.pathname === article.href ? (
-              <div>{article.title}</div>
-            ) : (
-              <Link href={article.href}>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a>{article.title}</a>
-              </Link>
-            )}
-          </li>
-        );
-      })}
+      {articles
+        .filter(a => !a.disabled)
+        .map(article => {
+          return (
+            <li key={article.href}>
+              {router.pathname === article.href ? (
+                <div>{article.title}</div>
+              ) : (
+                <Link href={article.href}>
+                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                  <a>{article.title}</a>
+                </Link>
+              )}
+            </li>
+          );
+        })}
     </ul>
   </Section>
 ));

@@ -8,8 +8,8 @@ function withStartups(Cmp) {
   const CmpWithStartups = props => (
     <Cmp
       {...props}
-      startups={startups.filter(
-        s => (props.startups ? props.startups.indexOf(s.id) > -1 : true)
+      startups={startups.filter(s =>
+        props.startups ? props.startups.indexOf(s.id) > -1 : true
       )}
     />
   );
