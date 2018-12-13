@@ -12,10 +12,6 @@ const components = {
 
 const headerLinks = [
   {
-    title: "Vos idées",
-    href: "/idees"
-  },
-  {
     title: "Nos produits",
     href: "/#produits"
   },
@@ -26,6 +22,10 @@ const headerLinks = [
   {
     title: "Evènements",
     href: "/evenements"
+  },
+  {
+    title: "Proposez vos idées",
+    href: "/idees"
   }
   // {
   //   title: "Qui sommes-nous ?",
