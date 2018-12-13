@@ -113,15 +113,14 @@ const LayoutArticle = ({ meta, footer, children }) => {
       <Head>
         <title>{meta.title}</title>
       </Head>
-      {(meta.hero &&
-        meta.hero.background && (
-          <Hero
-            style={{ backgroundImage: `url(${meta.hero.background})` }}
-            title={meta.hero.title}
-            alt={meta.hero.alt}
-            tagline={meta.hero.tagline}
-          />
-        )) ||
+      {(meta.hero && meta.hero.background && (
+        <Hero
+          style={{ backgroundImage: `url(${meta.hero.background})` }}
+          title={meta.hero.title}
+          alt={meta.hero.alt}
+          tagline={meta.hero.tagline}
+        />
+      )) ||
         null}
 
       <Article>

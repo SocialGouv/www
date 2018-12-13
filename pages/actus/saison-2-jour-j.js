@@ -5,7 +5,7 @@ const title = <div>And the winner is...</div>;
 
 const JourJ = () => (
   <Layout>
-    <Hero title="Jour J" tagline="C&apos;est l&apos;heure du choix !" />
+    <Hero title="Jour J" tagline="C'est l'heure du choix !" />
     <Section
       title={title}
       subTitle="Retour sur le déroulé de la journée de sélection"
