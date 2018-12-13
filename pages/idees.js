@@ -37,16 +37,10 @@ News.propTypes = {
 const Actus = () => (
   <Layout>
     <Hero
-      title="Soumettez-nous vos meilleures idées"
-      tagline="Participer à l'amélioration du service public"
+      title="Proposez-nous vos idées"
+      tagline="Participer à l'amélioration du service public des Ministères Sociaux"
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
-    <Section
-      className="section-white"
-      title="Vous êtes témoin d’irritants récurrents pour les usagers ou les agents de votre service ? "
-      subTitle="Vous avez une idée de solution numérique qui permettrait d’y remédier ?"
-    />
-
     <Section className="section-white" title="Déposer votre idée" subTitle="">
       <ReactTypeformEmbed
         url={"https://incubateurministeressociaux.typeform.com/to/BNlCIL"}
