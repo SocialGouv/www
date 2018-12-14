@@ -799,20 +799,20 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.16.6.tgz#af340b15a8ed6794bcae5d10611792b28238fa0c"
   integrity sha512-cTv+DLNEUPjAExizE2ujdUxQ6OO3z/ttzeh2JAweMh5uLfWHceSQiX9sbl16AYuV00MiOu//6gHoa+Ob2NZxNA==
 
-"@socialgouv/eslint-config-react@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-0.4.0.tgz#417213f0d2dcd3276bbf37ffd539ea1580cbf2b3"
-  integrity sha512-MQwBrbhqX/aoyfnjOhe+YYOoSW4+JtJIWzbiS0T1iJlGwbFoRQYZzF6Q9LUes1sFCCBku0k76KlEWqeUENx38w==
+"@socialgouv/eslint-config-react@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-0.4.1.tgz#e971c5492426740ba531a0bd8e463195f4e8be70"
+  integrity sha512-I9ZG0yguFDJhnwCyQ20/qCM/uaBFngr6jjmYd1gFIexQzdj89kZIltFCIGyLsUSZnfgpSNEMXooyRYnBpsq5pg==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^0.4.0"
+    "@socialgouv/eslint-config-recommended" "^0.4.1"
     babel-eslint "^10.0.1"
     eslint-plugin-jsx-a11y "~6.1.2"
     eslint-plugin-react "~7.11.1"
 
-"@socialgouv/eslint-config-recommended@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-0.4.0.tgz#571b968dfb1bd9d12873bb1d3f71faa13d9a442b"
-  integrity sha512-3Q3f3IkyWuGGTJBhMhSrLb+63gMav94oyGE2EDMHa8qWISh2imaYQrHFJabWl4DrKDRyAF9S+4LyP6gUp7N8Zg==
+"@socialgouv/eslint-config-recommended@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-0.4.1.tgz#9b9f999abf36ce94e9f1e900abf3d35c08bb7080"
+  integrity sha512-OOQ/l831LouuozdZvL+6MTcLbq8D3o1OrmgmEUBkyGK/YcmXV4whKNPpHdNeijNQh2Ut1S04+e/nYE+8UKJH2Q==
   dependencies:
     eslint-config-prettier "~3.3.0"
     eslint-plugin-import "~2.14.0"
