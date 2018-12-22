@@ -2761,10 +2761,10 @@ file-entry-cache@^2.0.0:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
-file-loader@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-2.0.0.tgz#39749c82f020b9e85901dcff98e8004e6401cfde"
-  integrity sha512-YCsBfd1ZGCyonOKLxPiKPdu+8ld9HAaMEvJewzz+b2eTF7uL5Zm/HdBF6FjCrpCMRq25Mi0U1gl4pwn2TlH7hQ==
+file-loader@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-3.0.1.tgz#f8e0ba0b599918b51adfe45d66d1e771ad560faa"
+  integrity sha512-4sNIOXgtH/9WZq4NvlfU3Opn5ynUsqBwSLyM+I7UOwdGigTBYfVVQEwe/msZNX/j4pCJTIM14Fsw66Svo1oVrw==
   dependencies:
     loader-utils "^1.0.2"
     schema-utils "^1.0.0"
@@ -4134,12 +4134,12 @@ neo-async@^2.5.0:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-next-images@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.0.3.tgz#d766ac036b2d54d9d10a4539eeecacb39c9e24d5"
-  integrity sha512-yZNljIWgCd6CZpn2Rn6bC1DoSfmkqelk4Fw0d1QgoyuH7DT9IA2kJIVaEiESxOjN6mAUI5fFi12i++GcrgK8uA==
+next-images@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.0.4.tgz#46d3e5d001ee548f797c4955c005770b54df9f0a"
+  integrity sha512-DUZ3zpQi3tdzEoIvyJisv10TcRoNXRYPd2gLAd8fVCyyxFnsoVNNghjUUwahxEf79BO86J7rj/RMZfEbnAP+1Q==
   dependencies:
-    file-loader "^2.0.0"
+    file-loader "^3.0.1"
     url-loader "^1.1.2"
 
 next@^7.0.2:
