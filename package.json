@@ -26,7 +26,7 @@
     "@zeit/next-mdx": "^1.2.0",
     "eslint": "^5.10.0",
     "next": "^7.0.2",
-    "next-images": "^1.0.3",
+    "next-images": "^1.0.4",
     "prettier": "^1.15.3",
     "raw-loader": "^1.0.0",
     "remark-autolink-headings": "^5.1.0"
