@@ -4972,10 +4972,10 @@ react-piwik@^1.6.0:
   resolved "https://registry.yarnpkg.com/react-piwik/-/react-piwik-1.6.0.tgz#3b9eee55167d953824867791cd5288593d652d66"
   integrity sha512-ANK/SDDA3z827vcY8w77tTC8pOkpMSw1xNs5ifImho92oNS1rIfiTdVXNW7TpqP3a8hU+p9AxPAgPZhmkYtyzw==
 
-react-tooltip@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-3.9.1.tgz#1447e18aca2e49efc189247616685ea5359c620d"
-  integrity sha512-X37shdSCop3Fsj+fcraqq3r2tmj6HJ0xSE31He5+s7BYs4s97pxxQUswkuZyTzf2Frunw2VxGydeaMYOe8MRNQ==
+react-tooltip@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-3.9.2.tgz#df74e6f5fd454bb15132d5d2d506895cf505cb5e"
+  integrity sha512-uoOXt/LVX9JhSYjAa3F2qSJuaTwod1fW2PWJGWGZ7Sfm6M8/JGWvGY1LsR51g8LYteVcSbDFuHfuB3rmNFACRw==
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
