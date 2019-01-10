@@ -14,25 +14,25 @@ const CardActuSaison2 = () => (
   />
 );
 
-const CardActuCDTN1 = () => (
+const CardActuEmpjpmParis = () => (
   <Card
-    href="/startups/code-du-travail-numerique"
-    img="/static/images/complexite.png"
-    title="CDTN - une problématique complexe"
-    meta="Juin 2018"
+    href="/actus/actuEmjpmParis"
+    img="/static/images/actus/TGI-Paris.jpg"
+    title="E-mjpm est à Paris"
+    meta="Décembre 2018"
     style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="Nous nous lançons dans une série d'articles pour tout connaitre du produit 'code du travail numérique' - CDTN pour les intimes. Ce premier article présente les multiples problématiques et le challenge que représente la modélisation informatique du code du travail."
+    description="Le déploiement d'e-MJPM sur Paris est acté."
   />
 );
 
-const CardActuBoard1 = () => (
+const CardBA2019 = () => (
   <Card
-    href="/actus/board-juin-2018"
-    img="/static/images/board.jpg"
-    title="Show must go on"
-    meta="Juin 2018"
+    href="/actus/2019"
+    img="/static/images/actus/bonne-annee-2019.jpg"
+    title="Bonne année 2019"
+    meta="Janvier 2019"
     style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="Le premier board de l'incubateur a eu lieu. Il s'agit d'une sorte de conseil d'administration aucours duquel les intrapreneurs présentent l'avancement et les perspectives de leur produit. Les membres du board décident alors de la suite à donner aux différentes startups. <br/>Cliquez sur l'image pour connaître le résultat."
+    description="C'est parti pour une nouvelle année !"
   />
 );
 
@@ -56,19 +56,19 @@ const _AllActus = () => (
       justifyContent: "space-between"
     }}
   >
+    <CardBA2019 />
+    <CardActuEmpjpmParis />
     <JourJ />
     <CardActuSaison2 />
-    <CardActuCDTN1 />
-    <CardActuBoard1 />
   </div>
 );
 
 //Penser à ajouter le nom de l'actu pour l'export ci-après
 const AllActus = {
   actuSaison2: CardActuSaison2,
-  actuCdtn1: CardActuCDTN1,
+  actuEmjpmParis: CardActuEmpjpmParis,
   jourj: JourJ,
-  actuBoard1: CardActuBoard1,
+  ba2019: CardBA2019,
   all: _AllActus
 };
 
