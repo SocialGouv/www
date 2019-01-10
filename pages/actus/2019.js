@@ -1,13 +1,6 @@
 import React from "react";
 import { Hero, Layout, Section } from "../../src/composants";
 
-const title = (
-  <div>
-    L'incubateur des ministères sociaux vous souhaite une très bonne année 2019
-    !
-  </div>
-);
-
 const BA2019 = () => (
   <Layout>
     <Hero

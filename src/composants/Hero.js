@@ -38,7 +38,8 @@ Hero.propTypes = {
   href: PropTypes.string,
   style: PropTypes.object,
   tagline: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
+  backgroundImage: PropTypes.string
 };
 
 export default Hero;
