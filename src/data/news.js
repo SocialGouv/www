@@ -1,5 +1,37 @@
 module.exports = [
   {
+    date: "16 janvier 2018",
+    author: "jonanthan.redt.gensinger",
+    tags: ["workinfrance"],
+    title: "Une année qui démarre bien !",
+    html: `
+    Bonjour à tous !
+<br/><br/>
+L'équipe WorkinFrance vous souhaite une très belle année 2019, riche en projets personnels et professionnels !
+<br/><br/>
+Le projet commence à s'installer durablement et nous avons désormais 4 nouveaux départements ouverts pour vos demandes d'autorisation de travail !
+WorkinFrance est désormais ouvert pour les démarches d'autorisation de travail des étudiants qui résident dans : 
+<br/>- Les Bouches-du-Rhône (13)
+<br/>- La Seine-et-Marne (77)
+<br/>- Les Hauts-de-Seine (92)
+<br/>- Le Val d'Oise (95)
+<br/><br/>
+Les conditions d'éligibilité n'ont pas changé, à savoir la demande et la délivrance d'autorisations de travail dématérialisées pour :
+<br/>- les étudiants en contrat d'apprentissage,
+<br/>- les étudiants en contrat de professionnalisation,
+<br/>- les étudiants en formation doctorale,
+<br/>- les étudiants algériens soumis à l'accord franco-algérien du 27 décembre 1968
+<br/><br/>
+Si vous avez des connaissances à Marseille, Cergy-Pontoise, Melun, Nanterre et les communes environnantes de ces quatre départements, on vous invite à faire passer le message, les équipes des services de main d'oeuvre étrangère (SMOE) sont prêtes à traîter vos demandes en lignes :)
+<br/><br/>
+Désormais, vous pouvez faire votre démarche sur https://workinfrance.beta.gouv.fr/
+dès lors que l'adresse figurant sur le document de séjour en cours de validité est située à Paris (75), le Rhône (69), le Loiret (45), la Seine-et-Marne (77), les Bouches-du-Rhône (13), les Hauts-de-Seine (92) ou le Val d'Oise (95)
+<br/><br/>
+A bientôt pour d'autres bonnes nouvelles ;)
+
+    `
+  },
+  {
     date: "5 Décembre 2018",
     author: "julien.bouquillon",
     tags: ["code-du-travail-numerique"],

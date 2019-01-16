@@ -1,5 +1,13 @@
 [
   {
+    "id": "saniya.al.saadi",
+    "name": "Saniya Al Saadi",
+    "structure": "",
+    "startups": ["domifacile"],
+    "role": "Designer UX",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "anais.martins.del.cruz",
     "name": "Anaïs Martins Da Cruz",
     "structure": "DRDJSCS Auvergne-Rhône-Alpes",
