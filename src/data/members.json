@@ -1,5 +1,13 @@
 [
   {
+    "id": "anais.martins.del.cruz",
+    "name": "Anaïs Martins Da Cruz",
+    "structure": "DRDJSCS Auvergne-Rhône-Alpes",
+    "startups": ["domifacile"],
+    "role": "intrapreneuse",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "daniel.balmy",
     "name": "Daniel Balmy",
     "structure": "DIRECCTE",
@@ -83,9 +91,17 @@
     "id": "maxime.basset",
     "name": "Maxime Basset",
     "structure": "NUMA",
-    "startups": ["e-mjpm", "work-in-france"],
+    "startups": ["e-mjpm", "work-in-france", "domifacile"],
     "role": "coach",
     "picture": "/static/images/members/maxime.basset.jpg"
+  },
+  {
+    "id": "adrien.laville",
+    "name": "Adrien Laville",
+    "structure": "NUMA",
+    "startups": ["domifacile"],
+    "role": "coach",
+    "picture": "/static/images/members/avatar.jpg"
   },
   {
     "id": "catherine.loze-faelens",
@@ -119,7 +135,8 @@
       "code-du-travail-numerique",
       "work-in-france",
       "e-mjpm",
-      "fce"
+      "fce",
+      "domifacile"
     ],
     "role": "product manager incubateur",
     "picture": "/static/images/members/eric.heijligers.jpg"

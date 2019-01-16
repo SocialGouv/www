@@ -40,14 +40,14 @@ const BlocChiffres = () => (
   <div style={{ width: "100%", margin: "0 auto" }}>
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={4} />
+        <ZeroCounter end={5} />
       </div>
       <div className="texte">Startups incubées</div>
     </BlocChiffre>
 
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={7} />
+        <ZeroCounter end={8} />
       </div>
       <div className="texte">Intrapreneurs</div>
     </BlocChiffre>
@@ -61,7 +61,7 @@ const BlocChiffres = () => (
 
     <BlocChiffre>
       <div className="num">
-        <ZeroCounter end={3} />
+        <ZeroCounter end={2} />
       </div>
       <div className="texte">Startups en création</div>
     </BlocChiffre>
