@@ -3,6 +3,17 @@ import { Card } from ".";
 
 // Ajouter les actus ici
 
+const CardBoard2 = () => (
+  <Card
+    href="/actus/board-janvier-2019"
+    img="/static/images/actus/board2.jpg"
+    title="Incubateur - 2ème board"
+    meta="Janvier 2019"
+    style={{ flex: "1 0 auto", margin: "5px auto" }}
+    description="Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
+  />
+);
+
 const CardActuSaison2 = () => (
   <Card
     href="/actus/saison2"
@@ -56,10 +67,10 @@ const _AllActus = () => (
       justifyContent: "space-between"
     }}
   >
+    <CardBoard2 />
     <CardBA2019 />
     <CardActuEmpjpmParis />
     <JourJ />
-    <CardActuSaison2 />
   </div>
 );
 
@@ -69,6 +80,7 @@ const AllActus = {
   actuEmjpmParis: CardActuEmpjpmParis,
   jourj: JourJ,
   ba2019: CardBA2019,
+  board2: CardBoard2,
   all: _AllActus
 };
 
