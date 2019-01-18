@@ -6,7 +6,7 @@ import { Card } from ".";
 const CardBoard2 = () => (
   <Card
     href="/actus/board-janvier-2019"
-    img="/static/images/actus/board2.jpg"
+    img="/static/images/actus/board-0119.jpg"
     title="Incubateur - 2ème board"
     meta="Janvier 2019"
     style={{ flex: "1 0 auto", margin: "5px auto" }}
