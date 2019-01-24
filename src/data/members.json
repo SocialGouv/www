@@ -132,7 +132,7 @@
     "name": "Julien Bouquillon",
     "structure": "Incubateur des ministères sociaux",
     "startups": ["code-du-travail-numerique", "work-in-france", "fce"],
-    "role": "tech lead incubateur",
+    "role": "Tech lead",
     "picture": "/static/images/members/julien.bouquillon.jpg"
   },
   {
@@ -172,5 +172,21 @@
     "startups": ["code-du-travail-numerique"],
     "role": "Développeur full-stack",
     "picture": "/static/images/members/lionel.breduillieard.jpg"
+  },
+  {
+    "id": "adrien.dipasquale",
+    "name": "Adrien Di Pasquale",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur backend",
+    "picture": "/static/images/members/adrien.dipasquale.jpg"
+  },
+  {
+    "id": "douglas.duteil",
+    "name": "Douglas Duteil",
+    "structure": "Incubateur des ministères sociaux",
+    "startups": ["code-du-travail-numerique", "e-mjpm", "work-in-france"],
+    "role": "Lead Developer",
+    "picture": "/static/images/members/douglas.duteil.jpg"
   }
 ]
