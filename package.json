@@ -18,7 +18,7 @@
     "rss": "node ./scripts/rss.js > ./out/feed.xml"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^0.16.6",
+    "@mdx-js/loader": "^0.16.8",
     "@mdx-js/mdx": "^0.16.6",
     "@mdx-js/tag": "^0.16.6",
     "@socialgouv/eslint-config-react": "^0.4.1",
