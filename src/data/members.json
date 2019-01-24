@@ -172,5 +172,13 @@
     "startups": ["code-du-travail-numerique"],
     "role": "Développeur full-stack",
     "picture": "/static/images/members/lionel.breduillieard.jpg"
+  },
+  {
+    "id": "adrien.dipasquale",
+    "name": "Adrien Di Pasquale",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur backend",
+    "picture": "/static/images/members/adrien.dipasquale.jpg"
   }
 ]
