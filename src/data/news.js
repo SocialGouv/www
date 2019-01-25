@@ -68,7 +68,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     <br/>
     <p align="center"> 
     Regardez la vidéo de présentation d’e-MJPM : 
-    <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6x9sqq" allowfullscreen allow="autoplay"></iframe>
+    <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6z9qkc" allowfullscreen allow="autoplay"></iframe>
     </p>
     `
   },
