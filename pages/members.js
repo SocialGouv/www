@@ -1,7 +1,5 @@
 import React from "react";
-import { Hero, Layout, Section } from "../src/composants";
-
-import { Card } from "../src/composants";
+import { Hero, Layout, Card } from "../src/composants";
 
 const shuffleArray = arr =>
   arr
@@ -32,7 +30,7 @@ const Members = () => {
           {items.map(member => {
             return (
               <Card
-                ref={member.id}
+                key={member.id}
                 href="#"
                 img={member.picture}
                 title={member.name}
@@ -41,7 +39,9 @@ const Members = () => {
                 description={member.role}
               >
                 {member.startups.map(startup => (
-                  <div className="label label">{startup}</div>
+                  <div key={startup} className="label label">
+                    {startup}
+                  </div>
                 ))}
               </Card>
             );

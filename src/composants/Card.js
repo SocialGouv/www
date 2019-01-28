@@ -46,7 +46,8 @@ Card.propTypes = {
   meta: PropTypes.string,
   title: PropTypes.string,
   style: PropTypes.object,
-  className: PropTypes.string
+  className: PropTypes.string,
+  children: PropTypes.element
 };
 
 export default Card;
