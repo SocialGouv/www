@@ -47,7 +47,7 @@ Card.propTypes = {
   title: PropTypes.string,
   style: PropTypes.object,
   className: PropTypes.string,
-  children: PropTypes.element
+  children: PropTypes.array
 };
 
 export default Card;
