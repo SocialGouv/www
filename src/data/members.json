@@ -188,5 +188,13 @@
     "startups": ["code-du-travail-numerique", "e-mjpm", "work-in-france"],
     "role": "Lead Developer",
     "picture": "/static/images/members/douglas.duteil.jpg"
+  },
+  {
+    "id": "melanie.roge",
+    "name": "Mélanie Rogé",
+    "structure": "Freelance",
+    "startups": ["e-mjpm"],
+    "role": "Business Developer",
+    "picture": "/static/images/members/avatar.jpg"
   }
 ]
