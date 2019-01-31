@@ -1,4 +1,4 @@
-dist: trusty
+dist: xenial
 language: node_js
 sudo: false
 git:
