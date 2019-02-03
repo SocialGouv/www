@@ -27,7 +27,7 @@
     "eslint": "^5.13.0",
     "next": "^7.0.2",
     "next-images": "^1.0.4",
-    "prettier": "^1.16.2",
+    "prettier": "^1.16.4",
     "raw-loader": "^1.0.0",
     "remark-autolink-headings": "^5.1.0"
   },
