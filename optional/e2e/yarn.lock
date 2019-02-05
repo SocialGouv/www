@@ -168,10 +168,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/puppeteer@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-1.12.0.tgz#0bd11f1aae4130b164d1759e69b8376a75d034fa"
-  integrity sha512-chymwff4/kbiHWkG/ZqkyLboFWMmbO5gz9AozDKqdv6T9ca1ScI1jsK5A7vM5hp2qoxfADN/UEOpMDXaA/L0VA==
+"@types/puppeteer@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-1.12.1.tgz#f61f9e0da45e36cdbbeab3b088995a8a2cad47a4"
+  integrity sha512-6qpe7XXM93iWh8quEP8Ay516Vmfc2r+ZAxFH3Mt6fx3vzmZz+4Q+hYxc9PxeEIXJhWLAAPYAgAiM/vLHEUwGpw==
   dependencies:
     "@types/node" "*"
 
@@ -2973,10 +2973,10 @@ punycode@^2.1.0:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer@^1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-1.12.1.tgz#440241743f4c909015d0924bdb7f99f670d9c955"
-  integrity sha512-FlMLdgAnURMMtwb2S6XtkBRw+kh1V+gGt09pCJF9mB1eOnF9+JhtvTxFeu1Rm5X1pKMXq5xrosrhBTgmdwzPeA==
+puppeteer@^1.12.2:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-1.12.2.tgz#dbc36afc3ba2d7182b1a37523c0081a0e8507c9a"
+  integrity sha512-xWSyCeD6EazGlfnQweMpM+Hs6X6PhUYhNTHKFj/axNZDq4OmrVERf70isBf7HsnFgB3zOC1+23/8+wCAZYg+Pg==
   dependencies:
     debug "^4.1.0"
     extract-zip "^1.6.6"
