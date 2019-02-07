@@ -1,0 +1,105 @@
+import { LayoutCDTN } from "../../../src/composants";
+import YouTube from "react-youtube";
+
+export const meta = {
+  title: "Ecosystème du droit libre",
+  date: "24 Janvier 2019"
+};
+
+<LayoutCDTN meta={meta}>
+
+# L'écosystème du droit libre
+
+Que ce soit pour proposer aux usagers de consulter les textes de lois, ou de pouvoir travailler sur les données pour en extraire de la **sémantique**, l'équipe du Code du Travail numérique doit disposer des textes de lois au format brut.
+
+## DILA
+
+La référence en matière de distribution des textes de lois est le site [Légifrance](http://legifrance.gouv.fr), édité par [la DILA](https://www.dila.premier-ministre.gouv.fr/) : La direction de l'information légale et administrative, qui y publie des contenus certifiés. En 2019, le site fait peau neuve, et **une API** sera mise à disposition pour pouvoir récupérer les données brutes, ce qui permettra à des tiers d'intégrer ces contenus certifiés directement dans leurs produits.
+
+<YouTube
+  videoId="G-vuFuC6hMo"
+  opts={{
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 0
+    }
+  }}
+/>
+
+C'est le cas pour le **Code du Travail numérique** qui intégrera les contenus officiels dans son moteur de rercherche.
+
+En attendant l'API, ces bases sont publiées en OpenData sur [data.gouv.fr](https://data.gouv.fr)
+
+Dans le domaine du droit du Travail, trois bases de données publiques nous intéressent particulièrement :
+
+#### La base LEGI
+
+▶️ [télécharger LEGI sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/legi-codes-lois-et-reglements-consolides/)
+
+La base LEGI est exhaustive pour toutes les lois, décrets-lois, ordonnances, décrets depuis 1945, soit 73 codes officiels en vigueur consolidés +29 abrogés. La base contient chaque texte, toutes ses versions historiques, ainsi que les liens entre les articles, ce qui en fait une base incontournable pour qui veut disséquer ces textes.
+
+Cette base est mise à jour quotidiennent vers 21h et contient plus de 2 millions de fichiers XML
+
+#### La base KALI
+
+▶️ [télécharger KALI sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/kali-conventions-collectives-nationales/)
+
+La base KALI contient toutes les conventions collectives et textes associés (accords, salaires et arrétés d'extension).
+
+Cette base contient plus de 200.000 fichiers XML.
+
+#### Les fiches service-public.fr
+
+▶️ [télécharger sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-particuliers/)
+
+Le site [service-public.fr](https://service-public.fr) met à disposition en OpenData toutes les fiches éditoriales publiées sur son site, avec une grande richesse de méta-données. Environ 800 fiches permettent d'addresser le sujet du droit du travail.
+
+## Regards citoyens
+
+L'association regards citoyens, prolifique dans le domaine de l'Open Data, l'Open Source, et la transparence de la vie publique, met à disposition de nombreux outils permettant d'exploiter les données des sites [Légifrance](https://legifrance.gouv.fr), [assemblee-nationale.fr](https://assemblee-nationale.fr), ou [senat.fr](https://senat.fr).
+
+Grâce au travail de ses membres, les citoyens peuvent obtenir une meilleure information sur la vie politique :
+
+- [La fabrique de la loi](https://www.lafabriquedelaloi.fr) : suivre l'évolution de la loi au fil de la procédure parlementaire.
+- [Nos députés](https://nosdeputes.fr) : comprendre et analyser le travail des députés.
+- [Regards Citoyens](https://www.regardscitoyens.org) : présentation de l'association.
+
+Regards citoyens fournit également de nombreuses contributions en Open Source comme des scrappers et des analyseurs : [github.com/regardscitoyens](https://github.com/regardscitoyens)
+
+## Parlement Ouvert
+
+Sur l'initiative de la députée [Paula Fortezza](https://twitter.com/PaulaForteza), le palais Bourbon ouvre ses portes toutes les vendredis pour accueillir toute personne ayant un projet d’ouverture du Parlement par le numérique ou souhaitant contribuer à de tels projets. Pour participer, il suffit de vous inscrire sur [parlement-ouvert.fr](https://parlement-ouvert.fr).
+
+De nombreux outils libres sont issus de ces rencontres : [framagit.org/parlement-ouvert](https://framagit.org/parlement-ouvert)
+
+## Legilibre
+
+L’association [Légilibre](https://legilibre.fr) a pour objet de promouvoir et de démocratiser l’accès à l’information légale et administrative.
+
+À cette fin, elle organise le développement de logiciels libres et héberge des services basés sur ces derniers.
+
+Plusieurs projets intéressants sont issus de cette communauté :
+
+- [legi.py](https://github.com/legilibre/legi.py) : permet de télécharger, normaliser et convertir la base de données LEGI au format SQLite
+- [Archeo-Lex](https://archeo-lex.fr/) : Toute la loi sous GIT
+- [Duralex/SedLex](https://github.com/Legilibre/DuraLex) : calcule les modifications d'un amendement sur les textes de loi
+- [anomalies.legilibre.fr](http://anomalies.legilibre.fr) : permet de détecter les anomalies dans la base LEGI
+- [legiXplore](https://legi.now.sh) : permet d'explorer les codes de la loi
+
+## Open Law
+
+Espace de travail et d’expérimentation pour l’ensemble des acteurs du monde du droit prêts à innover dans un mode collaboratif et ouvert.
+
+Rencontres régulières de la #LegalTech: https://www.meetup.com/fr-FR/Open-Law/
+
+- https://droit.org : mise à disposition des textes
+- https://framagit.org/OpenLawFr/
+
+## A suivre !
+
+Vous avez d'autres ressources sur le droit libre ? [Editez cet article sur GitHub](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/pages/startups/code-du-travail-numerique/droit-libre.mdx)
+
+Des questions, idées pour améliorer le code du travail numérique ?
+
+</LayoutCDTN>
