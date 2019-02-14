@@ -32,10 +32,10 @@
     "remark-autolink-headings": "^5.1.0"
   },
   "dependencies": {
-    "react": "^16.8.1",
+    "react": "^16.8.2",
     "react-accessible-accordion": "^2.4.5",
     "react-countup": "^4.1.0",
-    "react-dom": "^16.8.1",
+    "react-dom": "^16.8.2",
     "react-feather": "^1.1.6",
     "react-github-fork-ribbon": "^0.6.0",
     "react-piwik": "^1.6.0",
