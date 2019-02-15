@@ -830,13 +830,13 @@
     "@mdx-js/tag" "^0.15.0"
     loader-utils "^1.1.0"
 
-"@mdx-js/loader@^0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-0.17.4.tgz#9ba6f652c10d30df85f20d09f101e410efc82a4d"
-  integrity sha512-YjvBrDmQfiLRITPrLLX4SqhsIK+4O48GKWlR+oc/d1gcvEOeALPORFIE8xD4H6oqfaAY9ZfIb0uPF0E4O3HNnw==
+"@mdx-js/loader@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-0.17.5.tgz#26ce463142acaf66c9a286f2e794b04a510a4488"
+  integrity sha512-y74/IVGpB2alXd3kkF/GgNqJAZjBnY/kgFTSqA3rTQlzjpsSb5VJxWp4wvHpJupYvbCr/0TnxXgkY2gYGsBWGA==
   dependencies:
-    "@mdx-js/mdx" "^0.17.4"
-    "@mdx-js/tag" "^0.17.0"
+    "@mdx-js/mdx" "^0.17.5"
+    "@mdx-js/tag" "^0.17.5"
     loader-utils "^1.1.0"
 
 "@mdx-js/mdx@^0.15.5":
@@ -869,10 +869,10 @@
     unist-builder "^1.0.1"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/mdx@^0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.17.4.tgz#119aae0dd1e4bdf5b3a0c8fb9106e332ac151974"
-  integrity sha512-sBrdWWxq72bjR6sGTOCLLg9OQUjam1pT+uRQBzhgqatlkVAzCjSj9vhaeuS40dm3zIqHom98uzkSSmkT71Veyg==
+"@mdx-js/mdx@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.17.5.tgz#0c760562e9ad66458c40c78c09cdeea768d5e073"
+  integrity sha512-GVJCWbgVonPelL74Ec/uNyUzH0DGce6ob50L8gySCKQmgIvPvYYd0PflalhxVwMfmaQdcalDAzUVsUR7P2l/3w==
   dependencies:
     "@babel/plugin-proposal-object-rest-spread" "^7.3.2"
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -899,6 +899,11 @@
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.17.0.tgz#e883f9c1f67341ceebc6eefa1621d741e839ad34"
   integrity sha512-/EiCBNqLplUTWmqVssh1cZiq95I9+EST5mVxzWUWd4z/8x8wZNJwQcvzwhCNsBK6g3JWAIokJujX2t5SM5RgIQ==
+
+"@mdx-js/tag@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.17.5.tgz#7eef984a9433776f2fc5ca0352fac523d28e43f0"
+  integrity sha512-Qjfo9nkFY7qAN1DkAx7oKPZ3xLWSNtVJ22+m58FxYLfVzCXlElj0OXka4lC6ERPnW40q8v5rmJKJfqnI8mKr8g==
 
 "@socialgouv/eslint-config-react@^0.4.1":
   version "0.4.1"
