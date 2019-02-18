@@ -228,5 +228,13 @@
     "startups": ["code-du-travail-numerique"],
     "role": "Développeur",
     "picture": "/static/images/members/manuel.colasante.jpg"
+  },
+  {
+    "id": "clement.chapalain",
+    "name": "Clément Chapalain",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Coach",
+    "picture": "/static/images/members/clement.chapalain.jpg"
   }
 ]
