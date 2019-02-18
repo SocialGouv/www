@@ -45,7 +45,7 @@ const parseRepos = async repos => {
   );
 
   const contributors = uniquify(
-    flatten(reposStats.map(repo => repo.contributors))
+    flatten(reposStats.filter(Boolean).map(repo => repo.contributors))
   ).filter(isValidContributor).length;
 
   return {
