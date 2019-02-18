@@ -52,7 +52,7 @@ const parseRepos = async repos => {
     count: validRepos.length,
     issues: sum(validRepos.map(repo => repo.open_issues)),
     size: sum(validRepos.map(repo => repo.size)),
-    commits: sum(reposStats.map(repo => repo.commits)),
+    commits: sum(reposStats.filter(Boolean).map(repo => repo.commits)),
     contributors
   };
 };
