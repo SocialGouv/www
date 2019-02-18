@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Link from "next/link";
 import Head from "next/head";
 
@@ -185,5 +187,9 @@ class Homepage extends React.Component {
     );
   }
 }
+
+Homepage.propTypes = {
+  githubStats: PropTypes.array.isRequired
+};
 
 export default Homepage;

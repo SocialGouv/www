@@ -49,4 +49,8 @@ const BlocChiffres = ({ chiffres }) => (
   </div>
 );
 
+BlocChiffres.propTypes = {
+  chiffres: PropTypes.array.isRequired
+};
+
 export default BlocChiffres;
