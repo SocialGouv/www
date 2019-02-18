@@ -36,36 +36,24 @@ ZeroCounter.propTypes = {
   end: PropTypes.number
 };
 
-const BlocChiffres = () => (
+const BlocChiffres = ({ chiffres }) => (
   <div style={{ width: "100%", margin: "0 auto" }}>
-    <BlocChiffre>
-      <div className="num">
-        <ZeroCounter end={5} />
-      </div>
-      <div className="texte">Startups incubées</div>
-    </BlocChiffre>
-
-    <BlocChiffre>
-      <div className="num">
-        <ZeroCounter end={8} />
-      </div>
-      <div className="texte">Intrapreneurs</div>
-    </BlocChiffre>
-
-    <BlocChiffre>
-      <div className="num">
-        <ZeroCounter end={150} duration={1.75} />
-      </div>
-      <div className="texte">m² d&apos;espace dédié</div>
-    </BlocChiffre>
-
-    <BlocChiffre>
-      <div className="num">
-        <ZeroCounter end={2} />
-      </div>
-      <div className="texte">Startups en création</div>
-    </BlocChiffre>
+    {chiffres.map(chiffre => (
+      <BlocChiffre key={chiffre.title}>
+        <div className="num">
+          <ZeroCounter end={chiffre.value} />
+        </div>
+        <div
+          className="texte"
+          dangerouslySetInnerHTML={{ __html: chiffre.title }}
+        />
+      </BlocChiffre>
+    ))}
   </div>
 );
+
+BlocChiffres.propTypes = {
+  chiffres: PropTypes.array.isRequired
+};
 
 export default BlocChiffres;

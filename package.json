@@ -1,5 +1,5 @@
 {
-  "name": "astech.social.gouv.fr",
+  "name": "incubateur.social.gouv.fr",
   "version": "1.0.1",
   "license": "Apache-2.0",
   "repository": {
@@ -15,7 +15,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "lint": "eslint src pages",
-    "rss": "node ./scripts/rss.js > ./out/feed.xml"
+    "rss": "node ./scripts/rss.js > ./out/feed.xml",
+    "github-stats": "node ./scripts/github-stats.js > ./out/static/github-stats.json"
   },
   "devDependencies": {
     "@mdx-js/loader": "^0.17.5",
@@ -32,6 +33,7 @@
     "remark-autolink-headings": "^5.1.0"
   },
   "dependencies": {
+    "github-base": "^1.0.0",
     "react": "^16.8.2",
     "react-accessible-accordion": "^2.4.5",
     "react-countup": "^4.1.0",
