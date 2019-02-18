@@ -43,7 +43,10 @@ const BlocChiffres = ({ chiffres }) => (
         <div className="num">
           <ZeroCounter end={chiffre.value} />
         </div>
-        <div className="texte">{chiffre.title}</div>
+        <div
+          className="texte"
+          dangerouslySetInnerHTML={{ __html: chiffre.title }}
+        />
       </BlocChiffre>
     ))}
   </div>
