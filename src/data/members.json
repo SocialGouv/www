@@ -196,5 +196,45 @@
     "startups": ["e-mjpm"],
     "role": "Business Developer",
     "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "mathieu.havel",
+    "name": "Mathieu Havel",
+    "structure": "EIG",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Data Scientist",
+    "picture": "/static/images/members/mathieu.havel.jpg"
+  },
+  {
+    "id": "armand.giraud",
+    "name": "Armand Giraud",
+    "structure": "EIG",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Data Scientist",
+    "picture": "/static/images/members/armand.giraud.jpg"
+  },
+  {
+    "id": "ivan.gabriele",
+    "name": "Ivan Gabriele",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur",
+    "picture": "/static/images/members/ivan.gabriele.jpg"
+  },
+  {
+    "id": "manuel.colasante",
+    "name": "Manuel Colasante",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur",
+    "picture": "/static/images/members/manuel.colasante.jpg"
+  },
+  {
+    "id": "clement.chapalain",
+    "name": "Clément Chapalain",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Coach",
+    "picture": "/static/images/members/clement.chapalain.jpg"
   }
 ]
