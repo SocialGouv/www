@@ -20,6 +20,10 @@ const headerLinks = [
     href: "/actus"
   },
   {
+    title: "Communauté",
+    href: "/members"
+  },
+  {
     title: "Evènements",
     href: "/evenements"
   },
