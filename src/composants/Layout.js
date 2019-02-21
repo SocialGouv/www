@@ -27,20 +27,8 @@ const headerLinks = [
     title: "Proposez vos idées",
     href: "/idees"
   }
-  // {
-  //   title: "Qui sommes-nous ?",
-  //   href: "/qui-sommes-nous"
-  // }
 ];
 const footerLinks = [
-  // {
-  //   title: "A propos",
-  //   href: "/"
-  // },
-  //{
-  //  title: "Conditions générales d'utilisation",
-  //  href: "/cgu"
-  //},
   {
     href: "/faq",
     title: "F.A.Q."
