@@ -4,7 +4,6 @@ export { default as SectionCards } from "./SectionCards";
 export { default as BlocChiffres } from "./BlocChiffres";
 export { default as Card } from "./Card";
 export { default as Cards } from "./Cards";
-export { default as EventBriteEvents } from "./EventBriteEvents";
 export { default as Footer } from "./Footer";
 export { default as GenericLink } from "./GenericLink";
 export { default as Header } from "./Header";
