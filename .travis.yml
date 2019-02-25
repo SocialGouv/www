@@ -80,7 +80,7 @@ jobs:
       after_script: docker stop socialgouv.github.io
     - stage: Deploy to Docker Hub
       name: Deploy to Docker Hub
-      if: type = push AND branch = dev
+      if: type = push
       language: generic
       services:
         - docker
