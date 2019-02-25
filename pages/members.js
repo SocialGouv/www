@@ -30,7 +30,6 @@ const Members = () => {
           {items.map(member => (
             <Card
               key={member.id + member.name}
-              ref={member.id}
               href="#"
               img={member.picture}
               title={member.name}
