@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "yarn run -- percy exec -- jest"
   },
   "dependencies": {
+    "@percy/puppeteer": "^1.0.5",
     "jest": "^24.1.0",
     "puppeteer": "^1.12.2"
   },

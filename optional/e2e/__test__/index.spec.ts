@@ -1,5 +1,7 @@
 //
 
+const { percySnapshot } = require('@percy/puppeteer')
+
 const paths = [
   ["/"],
   ["/404"],
@@ -22,6 +24,7 @@ const paths = [
 
 jest.setTimeout(10 * 1000) // allow to be 10s slow
 
-test.each(paths)("%s should be reachable", async path => {
+test.each(paths)("%s should be match visual snapshot", async path => {
   await page.goto(process.env.BASE_URL + path);
+  await percySnapshot(page, path);
 });
