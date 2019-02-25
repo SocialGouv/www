@@ -1,13 +1,12 @@
 import React from "react";
 import { Hero, Layout, Card } from "../src/composants";
+import members from "../src/data/members.json";
 
 const shuffleArray = arr =>
   arr
     .map(a => [Math.random(), a])
     .sort((a, b) => a[0] - b[0])
     .map(a => a[1]);
-
-import members from "../src/data/members.json";
 
 const Members = () => {
   const items = shuffleArray(members);
@@ -22,6 +21,7 @@ const Members = () => {
         <div
           className="row cards cards--small"
           style={{
+            padding: "2em 0",
             color: "black",
             flexWrap: "wrap",
             justifyContent: "space-around"
