@@ -16,6 +16,14 @@
     "picture": "/static/images/members/avatar.jpg"
   },
   {
+    "id": "pierre.yves.darnaudet",
+    "name": "Pierre-Yves Darnaudet",
+    "structure": "",
+    "startups": ["tremplin"],
+    "role": "intrapreneuse",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "daniel.balmy",
     "name": "Daniel Balmy",
     "structure": "DIRECCTE",
@@ -80,6 +88,14 @@
     "picture": "/static/images/members/adrien.gonzalez.jpg"
   },
   {
+    "id": "thomas.glatt",
+    "name": "Thomas Glatt",
+    "structure": "freelance",
+    "startups": ["tremplin"],
+    "role": "développeur",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "jean-rene.duscher",
     "name": "Jean-René Duscher",
     "structure": "DGT",
@@ -107,7 +123,7 @@
     "id": "adrien.laville",
     "name": "Adrien Laville",
     "structure": "NUMA",
-    "startups": ["domifacile"],
+    "startups": ["domifacile", "tremplin"],
     "role": "coach",
     "picture": "/static/images/members/avatar.jpg"
   },
@@ -144,7 +160,8 @@
       "work-in-france",
       "e-mjpm",
       "fce",
-      "domifacile"
+      "domifacile",
+      "tremplin"
     ],
     "role": "product manager incubateur",
     "picture": "/static/images/members/eric.heijligers.jpg"
