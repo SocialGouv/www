@@ -34,7 +34,7 @@ jobs:
       script: NODE_ENV=production yarn build
     - stage: Verify
       name: Build and deploy current commit docker image
-      if: (type = push AND branch = dev) OR branch =~ ^renovate/
+      if: type = push OR branch =~ ^renovate/
       env: [*docker_image, *docker-keys]
       script:
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
@@ -65,7 +65,7 @@ jobs:
           branch: dev
     - stage: Deploy
       name: Run E2E tests on the commit image
-      if: (type = push AND branch = dev) OR branch =~ ^renovate/
+      if: type = push OR branch =~ ^renovate/
       env:
         - *docker_image
         - *percy-keys
@@ -80,7 +80,7 @@ jobs:
       after_script: docker stop socialgouv.github.io
     - stage: Deploy to Docker Hub
       name: Deploy to Docker Hub
-      if: type = push
+      if: type = push AND branch = dev
       language: generic
       services:
         - docker
