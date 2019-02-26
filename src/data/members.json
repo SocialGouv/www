@@ -2,10 +2,26 @@
   {
     "id": "saniya.al.saadi",
     "name": "Saniya Al Saadi",
-    "structure": "",
-    "startups": ["domifacile"],
+    "structure": "freelance",
+    "startups": ["domifacile", "work-in-france"],
     "role": "Designer UX",
     "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "romy.duhem.verdiere",
+    "name": "Romy Duhem-Verdière",
+    "structure": "Octo",
+    "startups": ["tremplin", "fce"],
+    "role": "Designer UX",
+    "picture": "/static/images/members/romy.duhem-verdiere.jpg"
+  },
+  {
+    "id": "fabien.marie",
+    "name": "Fabien Marie",
+    "structure": "Octo",
+    "startups": ["tremplin"],
+    "role": "Designer UI",
+    "picture": "/static/images/members/fabien-marie.jpg"
   },
   {
     "id": "anais.martins.del.cruz",
@@ -18,10 +34,10 @@
   {
     "id": "pierre.yves.darnaudet",
     "name": "Pierre-Yves Darnaudet",
-    "structure": "",
+    "structure": "ARS Occitanie",
     "startups": ["tremplin"],
-    "role": "intrapreneuse",
-    "picture": "/static/images/members/avatar.jpg"
+    "role": "intrapreneur",
+    "picture": "/static/images/members/pierre-yves.jpg"
   },
   {
     "id": "daniel.balmy",
@@ -93,7 +109,7 @@
     "structure": "freelance",
     "startups": ["tremplin"],
     "role": "développeur",
-    "picture": "/static/images/members/avatar.jpg"
+    "picture": "/static/images/members/thomas-glatt.jpg"
   },
   {
     "id": "jean-rene.duscher",
@@ -125,7 +141,7 @@
     "structure": "NUMA",
     "startups": ["domifacile", "tremplin"],
     "role": "coach",
-    "picture": "/static/images/members/avatar.jpg"
+    "picture": "/static/images/members/adrien-laville.jpg"
   },
   {
     "id": "catherine.loze-faelens",
@@ -163,7 +179,7 @@
       "domifacile",
       "tremplin"
     ],
-    "role": "product manager incubateur",
+    "role": "product manager",
     "picture": "/static/images/members/eric.heijligers.jpg"
   },
   {
