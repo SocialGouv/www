@@ -104,6 +104,23 @@ div.article__author .article__author-role {
   }
 }
 
+.cards--small .card {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+@media (max-width: 549px) {
+  .cards--small .card {
+    max-width: 90%;
+    min-width: 90%;
+    width: 90%;
+  }
+}
+
 .section {
   padding: 3em 0;
+}
+
+.card__cover img {
+  object-position: center;
 }
