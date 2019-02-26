@@ -53,6 +53,7 @@ class Members extends React.Component {
                     href={`/startups/${startup}`}
                     key={startup + member.name}
                   >
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a className="label">{startup}</a>
                   </Link>
                 ))}
