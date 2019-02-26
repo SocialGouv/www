@@ -4,12 +4,14 @@ cache:
   paths:
     - node_modules/
     - .yarn
+
 before_script:
-  - yarn config set cache-folder .yarn
-  - yarn install
+  - global before script
 
 Lint:
-  script: yarn lint
+  script:
+    - yarn lint
 
 Build:
-  script: NODE_ENV=production yarn build
+  script:
+    - NODE_ENV=production yarn build
