@@ -1,14 +1,15 @@
 image: node:10
+
 cache:
   paths:
     - node_modules/
     - .yarn
+before_script:
+  - yarn config set cache-folder .yarn
+  - yarn install
 
 Lint:
-  stage: Lint
-  tags:
-    - node
-  before_script:
-    - yarn config set cache-folder .yarn
-    - yarn install
   script: yarn lint
+
+Build:
+  script: NODE_ENV=production yarn build
