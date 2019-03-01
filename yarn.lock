@@ -830,12 +830,12 @@
     "@mdx-js/tag" "^0.15.0"
     loader-utils "^1.1.0"
 
-"@mdx-js/loader@^0.18.2":
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-0.18.2.tgz#fac2a13f23514ff3dc0e2a003df0e83d92f0da09"
-  integrity sha512-XMptm/9aZODvf1wUyvQYGyiccRq4hs3kffb+Yl4Nz78HkMD58fyhRutsEyNWe5KBGjp6TX8/CeOcmxwZOzYkoQ==
+"@mdx-js/loader@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-0.19.0.tgz#02d49fd99e49de8ac0c03f351b080c4d7abc2f19"
+  integrity sha512-B0L06YN3+//AitL9mUo/1jrSgNt3C4XGJR8hvmSU/n9efB4A6/rO5F+jaeFNO4dJB1sRtrs00H7sU9b+mkZ8Ag==
   dependencies:
-    "@mdx-js/mdx" "^0.18.2"
+    "@mdx-js/mdx" "^0.19.0"
     "@mdx-js/tag" "^0.18.0"
     loader-utils "^1.1.0"
 
@@ -850,23 +850,6 @@
     remark-squeeze-paragraphs "^3.0.1"
     to-style "^1.3.3"
     unified "^6.1.6"
-    unist-util-visit "^1.3.0"
-
-"@mdx-js/mdx@^0.18.2":
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-0.18.2.tgz#5ed20c70ea89b13035c4534cbe43372ff459fe1c"
-  integrity sha512-7DqNBOGPV+36qpH8YZmKI5uvuXhrGZFhJ4C9+9uaQSpH2hQg9xAfdzjSSEO8FQhAlu6wJtUgb72J5/eWdc1HFw==
-  dependencies:
-    "@babel/plugin-proposal-object-rest-spread" "^7.3.2"
-    "@babel/plugin-syntax-jsx" "^7.2.0"
-    change-case "^3.0.2"
-    detab "^2.0.0"
-    mdast-util-to-hast "^4.0.0"
-    remark-parse "^6.0.0"
-    remark-squeeze-paragraphs "^3.0.1"
-    to-style "^1.3.3"
-    unified "^7.0.0"
-    unist-builder "^1.0.1"
     unist-util-visit "^1.3.0"
 
 "@mdx-js/mdx@^0.19.0":
