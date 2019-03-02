@@ -19,7 +19,7 @@
     "github-stats": "node ./scripts/github-stats.js > ./out/static/github-stats.json"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^0.19.0",
+    "@mdx-js/loader": "^0.20.0",
     "@mdx-js/mdx": "^0.19.0",
     "@mdx-js/tag": "^0.18.0",
     "@socialgouv/eslint-config-react": "^0.4.1",
