@@ -4241,10 +4241,10 @@ neo-async@^2.5.0:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-next-images@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.0.4.tgz#46d3e5d001ee548f797c4955c005770b54df9f0a"
-  integrity sha512-DUZ3zpQi3tdzEoIvyJisv10TcRoNXRYPd2gLAd8fVCyyxFnsoVNNghjUUwahxEf79BO86J7rj/RMZfEbnAP+1Q==
+next-images@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.1.0.tgz#603b947ea1733654c9e10eb466617a30a0ed3bbf"
+  integrity sha512-SN9meHeX5LUsLhshY9SISLjrxUyF312yeeF2WsL20+DjMPEd2pbQxVqA3dP0Sg66ihFGogM3qmyK5ovaxdRXag==
   dependencies:
     file-loader "^3.0.1"
     url-loader "^1.1.2"
