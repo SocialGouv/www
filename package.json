@@ -25,7 +25,7 @@
     "@socialgouv/eslint-config-react": "^0.4.1",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-mdx": "^1.2.0",
-    "eslint": "^5.15.0",
+    "eslint": "^5.15.1",
     "next": "^8.0.3",
     "next-images": "^1.1.0",
     "prettier": "^1.16.4",
