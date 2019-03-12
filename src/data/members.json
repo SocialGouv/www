@@ -4,7 +4,7 @@
     "name": "Saniya Al Saadi",
     "structure": "freelance",
     "startups": ["domifacile", "work-in-france"],
-    "role": "Designer UX",
+    "role": "designer UX",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Romy Duhem-Verdière",
     "structure": "Octo",
     "startups": ["tremplin", "fce"],
-    "role": "Designer UX",
+    "role": "designer UX",
     "picture": "/static/images/members/romy.duhem-verdiere.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Fabien Marie",
     "structure": "Octo",
     "startups": ["tremplin"],
-    "role": "Designer UI",
+    "role": "designer UI",
     "picture": "/static/images/members/fabien-marie.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Jean-René Duscher",
     "structure": "DGT",
     "startups": ["code-du-travail-numerique"],
-    "role": "Intrapreneur/expert métier",
+    "role": "intrapreneur/expert métier",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Catherine Lozé-Faelens",
     "structure": "DSI",
     "startups": ["code-du-travail-numerique"],
-    "role": "Cheffe de projet",
+    "role": "cheffe de projet",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Catherine Lissarague",
     "structure": "DGT",
     "startups": ["code-du-travail-numerique"],
-    "role": "Cheffe de projet",
+    "role": "cheffe de projet",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Julien Bouquillon",
     "structure": "Incubateur des ministères sociaux",
     "startups": ["code-du-travail-numerique", "work-in-france", "fce"],
-    "role": "Tech lead",
+    "role": "tech lead",
     "picture": "/static/images/members/julien.bouquillon.jpg"
   },
   {
@@ -195,7 +195,7 @@
     "name": "Jérémie Cook",
     "structure": "DINSIC",
     "startups": ["code-du-travail-numerique"],
-    "role": "UX Designer",
+    "role": "designer UX",
     "picture": "/static/images/members/jeremie.cook.jpg"
   },
   {
@@ -203,7 +203,7 @@
     "name": "Lionel Breduillieard",
     "structure": "Freelance",
     "startups": ["code-du-travail-numerique"],
-    "role": "Développeur full-stack",
+    "role": "développeur full-stack",
     "picture": "/static/images/members/lionel.breduillieard.jpg"
   },
   {
@@ -211,7 +211,7 @@
     "name": "Adrien Di Pasquale",
     "structure": "Freelance",
     "startups": ["code-du-travail-numerique"],
-    "role": "Développeur backend",
+    "role": "développeur backend",
     "picture": "/static/images/members/adrien.dipasquale.jpg"
   },
   {
@@ -219,7 +219,7 @@
     "name": "Douglas Duteil",
     "structure": "Incubateur des ministères sociaux",
     "startups": ["code-du-travail-numerique", "e-mjpm", "work-in-france"],
-    "role": "Lead Developer",
+    "role": "lead developer",
     "picture": "/static/images/members/douglas.duteil.jpg"
   },
   {
@@ -227,7 +227,7 @@
     "name": "Mélanie Rogé",
     "structure": "Freelance",
     "startups": ["e-mjpm"],
-    "role": "Business Developer",
+    "role": "business developer",
     "picture": "/static/images/members/avatar.jpg"
   },
   {
@@ -235,7 +235,7 @@
     "name": "Mathieu Havel",
     "structure": "EIG",
     "startups": ["code-du-travail-numerique"],
-    "role": "Data Scientist",
+    "role": "data scientist",
     "picture": "/static/images/members/mathieu.havel.jpg"
   },
   {
@@ -243,7 +243,7 @@
     "name": "Armand Giraud",
     "structure": "EIG",
     "startups": ["code-du-travail-numerique"],
-    "role": "Data Scientist",
+    "role": "data scientist",
     "picture": "/static/images/members/armand.giraud.jpg"
   },
   {
@@ -251,7 +251,7 @@
     "name": "Ivan Gabriele",
     "structure": "Freelance",
     "startups": ["code-du-travail-numerique"],
-    "role": "Développeur",
+    "role": "développeur",
     "picture": "/static/images/members/ivan.gabriele.jpg"
   },
   {
@@ -259,7 +259,7 @@
     "name": "Manuel Colasante",
     "structure": "Freelance",
     "startups": ["code-du-travail-numerique"],
-    "role": "Développeur",
+    "role": "développeur",
     "picture": "/static/images/members/manuel.colasante.jpg"
   },
   {
@@ -267,7 +267,7 @@
     "name": "Clément Chapalain",
     "structure": "Freelance",
     "startups": ["code-du-travail-numerique"],
-    "role": "Coach",
+    "role": "coach",
     "picture": "/static/images/members/clement.chapalain.jpg"
   }
 ]
