@@ -23,7 +23,7 @@
         "title": "Impact",
         "subTitle": "Statistiques",
         "icon": "bar-chart",
-        "href": "https://workinfrance.beta.gouv.fr/stats.html",
+        "href": "https://wif-dashboard.num.social.gouv.fr/national",
         "description": "Évolution du nombre de dossiers et métriques sur l'usage du service"
       },
       {
