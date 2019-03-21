@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/github.css"
           />
-          <script src="//cdn.polyfill.io/v2/polyfill.js?features=es2015" />
+          <script src="//polyfill.io/v3/polyfill.min.js?flags=gated&features=fetch" />
           {this.props.styleTags}
         </Head>
         <body>
