@@ -13,12 +13,14 @@ import {
   BlocChiffres
 } from "../src/composants";
 
+import startups from "../src/data/startups.json";
+
 import AsyncFetch from "../src/composants/AsyncFetch";
 
 const chiffres = [
   {
     title: "Startups incubées",
-    value: 5
+    value: startups.length
   },
   {
     title: "Intrapreneurs",
