@@ -5129,10 +5129,10 @@ react-accessible-accordion@^2.4.5:
     consecutive "^5.0.4"
     recompose "^0.30.0"
 
-react-countup@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-4.1.1.tgz#4c8e70187ae07840cfd75bee29a0892e97d17c49"
-  integrity sha512-j9YFcCTFiJ1lDqn9JARk6pLfhV5bgEnVF0Ltmlf+j8z/uuOLoxHpsj9masgpfA72/8FHwLYssMFKUE4fngyTzQ==
+react-countup@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-4.1.2.tgz#a3e2c9d83b63524e89d519b42fe8ad23b3990ce0"
+  integrity sha512-U3AGHrn+BV2LNI0gCzVWELgw1Q1gILDjiOdsaNKfOTnCekx7SAqNZ3otk9MDy4t5VNVdmVLRWDEqdxtfuEcFhg==
   dependencies:
     countup.js "^1.9.3"
     prop-types "^15.6.2"
