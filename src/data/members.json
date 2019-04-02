@@ -64,6 +64,22 @@
     "picture": "/static/images/members/avatar.jpg"
   },
   {
+    "id": "chloe.moser",
+    "name": "Chloe Moser",
+    "structure": "",
+    "startups": ["archifiltre"],
+    "role": "intrapreneuse",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "anne.lambert",
+    "name": "Anne Lambert",
+    "structure": "",
+    "startups": ["archifiltre"],
+    "role": "intrapreneuse",
+    "picture": "/static/images/members/avatar.jpg"
+  },
+  {
     "id": "pierre.vercauteren",
     "name": "Pierre Vercauteren",
     "structure": "DSI",
@@ -176,6 +192,7 @@
       "work-in-france",
       "e-mjpm",
       "fce",
+      "archifiltre",
       "domifacile",
       "tremplin"
     ],
@@ -269,5 +286,13 @@
     "startups": ["code-du-travail-numerique"],
     "role": "coach",
     "picture": "/static/images/members/clement.chapalain.jpg"
+  },
+  {
+    "id": "helene.",
+    "name": "Hélène ",
+    "structure": "Benext",
+    "startups": ["archifiltre"],
+    "role": "coach",
+    "picture": "/static/images/members/avatar.jpg"
   }
 ]
