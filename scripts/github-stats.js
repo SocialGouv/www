@@ -40,9 +40,7 @@ const isValidContributor = name =>
 const parseRepos = async repos => {
   const validRepos = (repos && repos.filter(isRepoVisible)) || [];
   const reposStats = await Promise.all(
-    validRepos.map(
-      async repo => await getRepoStats(`${repo.owner.login}/${repo.name}`)
-    )
+    validRepos.map(repo => getRepoStats(`${repo.owner.login}/${repo.name}`))
   );
 
   const contributors = uniquify(
