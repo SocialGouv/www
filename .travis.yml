@@ -46,6 +46,7 @@ jobs:
         - NODE_ENV=production yarn build
         - yarn rss
         - yarn github-stats
+        - cat static/github-stats.json
         - touch out/.nojekyll
       before_deploy:
         - git config user.name "Social Groovy Bot"
