@@ -1,6 +1,13 @@
 module.exports = [
   {
-    date: "16 janvier 2018",
+    date: "22 janvier 2019",
+    author: "julien.bouquillon",
+    tags: ["incubateur"],
+    title: "Premier petit séminaire de l'incubateur",
+    url: "/actus/seminaire-1"
+  },
+  {
+    date: "16 janvier 2019",
     author: "jonanthan.redt.gensinger",
     tags: ["workinfrance"],
     title: "Une année qui démarre bien !",
@@ -10,7 +17,7 @@ module.exports = [
 L'équipe WorkinFrance vous souhaite une très belle année 2019, riche en projets personnels et professionnels !
 <br/><br/>
 Le projet commence à s'installer durablement et nous avons désormais 4 nouveaux départements ouverts pour vos demandes d'autorisation de travail !
-WorkinFrance est désormais ouvert pour les démarches d'autorisation de travail des étudiants qui résident dans : 
+WorkinFrance est désormais ouvert pour les démarches d'autorisation de travail des étudiants qui résident dans :
 <br/>- Les Bouches-du-Rhône (13)
 <br/>- La Seine-et-Marne (77)
 <br/>- Les Hauts-de-Seine (92)
@@ -66,8 +73,8 @@ A bientôt pour d'autres bonnes nouvelles ;)
     <br/>
     <br/>L’équipe, qui a pour objectif de rendre ce produit national, continue sur sa lancée avec la tenue prochaine d’un OpenLab le 13 décembre. Elle compte récolter les avis des usagers et réfléchir aux futures améliorations et développements à apporter afin de rendre e-MJPM pertinent et efficace pour tous.
     <br/>
-    <p align="center"> 
-    Regardez la vidéo de présentation d’e-MJPM : 
+    <p align="center">
+    Regardez la vidéo de présentation d’e-MJPM :
     <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6z9qkc" allowfullscreen allow="autoplay"></iframe>
     </p>
     `
