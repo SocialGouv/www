@@ -72,7 +72,7 @@ const Homepage = () => (
     >
       <BlocChiffres chiffres={chiffres} />
     </Section>
-    <Section title="Notre actualité" subTitle="">
+    <Section title="Notre activité" subTitle="">
       <br />
       <br />
       <AsyncFetch
@@ -88,16 +88,18 @@ const Homepage = () => (
           );
         }}
       />
-      <br />
-      <br />
-      <AllActus count={6} />
     </Section>
-    <p align="center">
+
+    <Section title="Dernières actualités" subTitle="">
+      <br />
+      <AllActus count={3} promote={true} />
+    </Section>
+
+    <div align="center" style={{ marginBottom: 50 }}>
       <a className="button large" href="/actus">
-        {" "}
-        Voir toutes actus
+        Voir toutes les actus
       </a>
-    </p>
+    </div>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""

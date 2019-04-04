@@ -2,13 +2,17 @@
 
 Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher les actus de la home (les 6 dernieres) et celles de la page actu
 
-Si une page dédiée est crée pour l'actu, renseigner son url en tant que href dans votre saisie
+ - clé `href` : permet de lier un contenu "en savoir plus"
+ - clé `promote: true` : permet d'afficher la news sur la page d'accueil
+
+
 
 */
 
 module.exports = [
   {
     date: "22 janvier 2019",
+    promote: true,
     author: "julien.bouquillon",
     img: "/static/images/actus/taking-notes.jpg",
     tags: ["incubateur"],
@@ -17,6 +21,7 @@ module.exports = [
   },
   {
     date: "16 janvier 2019",
+    promote: true,
     img: "/static/images/startups/work-in-france.jpg",
     author: "jonanthan.redt.gensinger",
     tags: ["workinfrance"],
