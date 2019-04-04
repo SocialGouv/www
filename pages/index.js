@@ -72,6 +72,7 @@ const Homepage = () => (
     >
       <BlocChiffres chiffres={chiffres} />
     </Section>
+
     <Section title="Notre activité" subTitle="">
       <br />
       <br />
@@ -90,20 +91,13 @@ const Homepage = () => (
       />
     </Section>
 
-    <Section title="Dernières actualités" subTitle="">
-      <br />
-      <AllActus count={3} promote={true} />
-    </Section>
+    <div id="produits" />
+    <SectionCards className="section-color" title="Nos startups" />
 
-    <div align="center" style={{ marginBottom: 50 }}>
-      <a className="button large" href="/actus">
-        Voir toutes les actus
-      </a>
-    </div>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
-      className="section-color"
+      className="section-white"
     >
       <div className="container">
         <br />
@@ -154,15 +148,26 @@ const Homepage = () => (
                 }}
               />
               <br />
-              En savoir plus
+              <div align="center" style={{ margin: "20px 0" }}>
+                <a className="button warning large" href="/actus">
+                  En savoir plus
+                </a>
+              </div>
             </center>
           </a>
         </Link>{" "}
       </div>
     </Section>
 
-    <div id="produits" />
-    <SectionCards className="section-color" title="Découvrez nos startups" />
+    <Section title="Dernières actualités" className="section-color" subTitle="">
+      <br />
+      <AllActus count={3} promote={true} />
+      <div align="center" style={{ marginBottom: 50 }}>
+        <a className="button large" href="/actus">
+          Voir toutes les actus
+        </a>
+      </div>
+    </Section>
   </Layout>
 );
 

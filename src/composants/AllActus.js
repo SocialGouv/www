@@ -35,7 +35,12 @@ const News = ({ title, href, date, html }) => (
   <div className="row">
     <div
       className="panel"
-      style={{ width: "80%", margin: "20px auto", paddingTop: 0 }}
+      style={{
+        width: "80%",
+        margin: "20px auto",
+        paddingTop: 0,
+        color: "initial"
+      }}
     >
       <div className="panel__header" id={date}>
         <h4>
