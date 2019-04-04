@@ -6,27 +6,26 @@ const github = new GitHub({
 
 const sum = arr => arr.reduce((sum, i) => sum + i, 0);
 
-const getRepoActivity = repo =>
-  github
-    .get(`/repos/${repo}/stats/contributors`)
-    .then(res => res.body)
-    .catch(console.error);
+const getRepoActivity = async repo => {
+  const constributors = await github.get(`/repos/${repo}/stats/contributors`);
+  return constributors.body;
+};
 
-const getRepos = org =>
-  github
-    .get(`/orgs/${org}/repos`)
-    .then(res => res.body)
-    .catch(console.error);
+const getRepos = async org => {
+  const repos = await github.get(`/orgs/${org}/repos`);
+  return repos.body;
+};
 
-const getRepoStats = repo =>
-  getRepoActivity(repo).then(
-    activity =>
-      activity &&
-      activity.map && {
-        commits: sum(activity.map(a => a.total)) || 0,
-        contributors: activity.map(a => a.author.login)
-      }
+const getRepoStats = async repo => {
+  const activity = await getRepoActivity(repo);
+  return (
+    activity &&
+    activity.map && {
+      commits: sum(activity.map(a => a.total)) || 0,
+      contributors: activity.map(a => a.author.login)
+    }
   );
+};
 
 const isRepoVisible = repo =>
   !repo.fork && !repo.private && repo.name !== "next-routes";
@@ -57,10 +56,18 @@ const parseRepos = async repos => {
   };
 };
 
-const getOrgData = org => getRepos(org).then(parseRepos);
+const getOrgData = async org => parseRepos(await getRepos(org));
+
+const fetchGithubStats = async () => await getOrgData("SocialGouv");
 
 if (require.main === module) {
-  getOrgData("SocialGouv")
-    .then(data => console.log(JSON.stringify(data, null, 2)))
-    .catch(console.log);
+  (async () => {
+    try {
+      const stats = await fetchGithubStats();
+      console.log(JSON.stringify(stats, null, 2));
+    } catch (e) {
+      console.log("e", e);
+      throw e;
+    }
+  })();
 }
