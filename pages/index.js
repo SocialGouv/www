@@ -90,10 +90,13 @@ const Homepage = () => (
       />
       <br />
       <br />
-      <AllActus.all />
+      <AllActus count={6} />
     </Section>
     <p align="center">
-      <a href="/actus"> Voir toutes actus</a>
+      <a className="button large" href="/actus">
+        {" "}
+        Voir toutes actus
+      </a>
     </p>
     <Section
       title="L'incubateur des ministères sociaux, qu'est-ce donc ?"

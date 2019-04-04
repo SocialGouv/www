@@ -1,16 +1,26 @@
+/*
+
+Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher les actus de la home (les 6 dernieres) et celles de la page actu
+
+Si une page dédiée est crée pour l'actu, renseigner son url en tant que href dans votre saisie
+
+*/
+
 module.exports = [
   {
     date: "22 janvier 2019",
     author: "julien.bouquillon",
+    img: "/static/images/actus/taking-notes.jpg",
     tags: ["incubateur"],
     title: "Premier petit séminaire de l'incubateur",
-    url: "/actus/seminaire-1"
+    href: "/actus/seminaire-1"
   },
   {
     date: "16 janvier 2019",
+    img: "/static/images/startups/work-in-france.jpg",
     author: "jonanthan.redt.gensinger",
     tags: ["workinfrance"],
-    title: "Une année qui démarre bien !",
+    title: "Work in France : Une année qui démarre bien !",
     html: `
     Bonjour à tous !
 <br/><br/>
@@ -35,15 +45,34 @@ Désormais, vous pouvez faire votre démarche sur https://workinfrance.beta.gouv
 dès lors que l'adresse figurant sur le document de séjour en cours de validité est située à Paris (75), le Rhône (69), le Loiret (45), la Seine-et-Marne (77), les Bouches-du-Rhône (13), les Hauts-de-Seine (92) ou le Val d'Oise (95)
 <br/><br/>
 A bientôt pour d'autres bonnes nouvelles ;)
-
     `
   },
   {
+    date: "15 janvier 2019",
+    author: "eric.heijligers",
+    img: "/static/images/actus/board-0119.jpg",
+    tags: ["incubateur"],
+    title: "Deuxième board de l'incubateur",
+    href: "/actus/board-janvier-2019",
+    html:
+      "Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
+  },
+  {
+    date: "1er janvier 2019",
+    img: "/static/images/actus/bonne-annee-2019.jpg",
+    author: "eric.heijligers",
+    tags: ["incubateur"],
+    title: "Bonne année 2019 !",
+    html: "C'est parti pour une nouvelle année !",
+    href: "/actus/board-janvier-2019"
+  },
+  {
     date: "5 Décembre 2018",
+    img: "/static/images/startups/code-du-travail-numerique.jpg",
     author: "julien.bouquillon",
     tags: ["code-du-travail-numerique"],
-    title: "release 1.5 - Balinese Rose Lion",
-    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
+    title: "Code du travail numérique v1.5",
+    html: `<p>La version 1.5 - Balinese Rose Lion du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
          <li>nombreuses corrections suite à des retours utilisateurs</li>
@@ -61,6 +90,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "26 Novembre 2018",
     author: "melanie.roge",
+    img: "/static/images/actus/TGI-Paris.jpg",
     tags: ["e-mjpm"],
     title: "C’est officiel : e-MJPM s’installe à Paris !",
     html: `

@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Section, Layout, AllActus, Hero } from "../src/composants";
-import news from "../src/data/news";
+import news from "../src/data/news.js";
 
 // https://github.com/facebook/react/issues/377
-const News = ({ title, url, date, html }) => (
+const News = ({ title, href, date, html }) => (
   <div className="row">
     <div
       className="panel"
@@ -19,8 +19,14 @@ const News = ({ title, url, date, html }) => (
           </small>
         </h4>
       </div>
-      {url && <a href={url}>En savoir plus : {title}</a>}
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      {html && <div dangerouslySetInnerHTML={{ __html: html }} />}
+      {href && (
+        <React.Fragment>
+          {html && <br />}
+          {html && <br />}
+          <a href={href}>Lire la suite : {title}</a>
+        </React.Fragment>
+      )}
     </div>
   </div>
 );
@@ -39,17 +45,10 @@ const Actus = () => (
       tagline=""
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
-    <Section className="section-white" title="Brèves" subTitle="">
+    <Section className="section-white" title="Actus" subTitle="">
       {news.map(n => (
         <News {...n} key={n.title} />
       ))}
-    </Section>
-    <Section
-      className="section-color cards"
-      title="Articles de fond"
-      subTitle=""
-    >
-      <AllActus.all />
     </Section>
   </Layout>
 );
