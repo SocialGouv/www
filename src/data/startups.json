@@ -112,7 +112,7 @@
   },
   {
     "id": "fce",
-    "href": "/startups/fiche_entreprise",
+    "href": "/startups/fce",
     "img": "/static/images/startups/fce.jpg",
     "title": "Fiche commune entreprise",
     "meta": "Octobre 2018",
@@ -120,8 +120,8 @@
     "links": [
       {
         "title": "Page d'accueil",
-        "subTitle": "https://incubateur.social.gouv.fr/startups/fiche_entreprise/",
-        "href": "https://incubateur.social.gouv.fr/startups/fiche_entreprise/",
+        "subTitle": "https://incubateur.social.gouv.fr/startups/fce/",
+        "href": "https://incubateur.social.gouv.fr/startups/fce/",
         "description": "Page officielle du produit"
       },
       {
