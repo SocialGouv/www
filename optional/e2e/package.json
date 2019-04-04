@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "jest": "^24.7.1",
-    "puppeteer": "^1.13.0"
+    "puppeteer": "^1.14.0"
   },
   "devDependencies": {
     "@types/expect-puppeteer": "^3.3.1",
