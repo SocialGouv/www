@@ -1,14 +1,63 @@
-image: node:10
-cache:
-  paths:
-    - node_modules/
-    - .yarn
+---
+variables:
+  NODE_VERSION: "10.15"
+  YARN_VERSION: "1.13.0"
 
-Lint:
-  stage: Lint
-  tags:
-    - node
+.node_stage_template: &node_stage
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+    - node_modules/
+  image: node:${NODE_VERSION}-slim
   before_script:
-    - yarn config set cache-folder .yarn
-    - yarn install
-  script: yarn lint
+  - npm install -g yarn@${YARN_VERSION}
+  - yarn --frozen-lockfile
+
+stages:
+- "Build"
+- "Test"
+- "Dockerize"
+- "Integration tests"
+
+build:
+  <<: *node_stage
+  stage: "Build"
+  script:
+  - yarn build
+  artifacts:
+    expire_in: "1 day"
+    paths:
+    - build
+
+test:
+  <<: *node_stage
+  stage: "Test"
+  script:
+  - yarn test
+
+lint:
+  <<: *node_stage
+  stage: "Test"
+  script:
+  - yarn lint
+
+docker_image:
+  stage: "Dockerize"
+  image: docker:stable
+  variables:
+    DOCKER_HOST: tcp://localhost:2375
+  services:
+  - name: docker:stable-dind
+  script:
+    - docker login $CI_REGISTRY -u gitlab-ci-token -p $CI_JOB_TOKEN
+    - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA" .
+    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"
+
+run_docker_image:
+  stage: "Integration tests"
+  image: ubuntu:18.10
+  services:
+  - name: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+  script:
+  - apt update && apt install -y curl
+  - curl -v http://localhost/
