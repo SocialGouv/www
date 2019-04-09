@@ -45,7 +45,7 @@ jobs:
       script:
         - NODE_ENV=production yarn build
         - yarn rss
-        - yarn github-stats
+        - DEBUG=github-stats yarn github-stats
         - cat ./out/static/github-stats.json
         - touch out/.nojekyll
       before_deploy:
