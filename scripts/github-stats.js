@@ -18,9 +18,9 @@ const getRepoActivity = async repo => {
 
 const getRepos = async org => {
   trace("getRepos", org);
-  const repos = await github.get(`/orgs/${org}/repos`);
-  trace("getRepos", org, { repos });
-  return repos.body;
+  const { body } = await github.get(`/orgs/${org}/repos`);
+  trace("getRepos", org, { body });
+  return body;
 };
 
 const getRepoStats = async repo => {
