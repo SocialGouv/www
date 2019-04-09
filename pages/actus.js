@@ -5,7 +5,7 @@ import { Section, Layout, AllActus, Hero } from "../src/composants";
 import news from "../src/data/news";
 
 // https://github.com/facebook/react/issues/377
-const News = ({ title, date, html }) => (
+const News = ({ title, url, date, html }) => (
   <div className="row">
     <div
       className="panel"
@@ -19,6 +19,7 @@ const News = ({ title, date, html }) => (
           </small>
         </h4>
       </div>
+      {url && <a href={url}>En savoir plus : {title}</a>}
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   </div>
@@ -27,7 +28,8 @@ const News = ({ title, date, html }) => (
 News.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
-  html: PropTypes.string
+  html: PropTypes.string,
+  url: PropTypes.string
 };
 
 const Actus = () => (
