@@ -41,7 +41,7 @@ jobs:
         - docker push $DOCKER_IMAGE
     - stage: Deploy
       name: Deploy to gh-pages
-      # if: type = push AND branch = dev
+      if: type = push AND branch = dev
       script:
         - NODE_ENV=production yarn build
         - yarn rss
