@@ -16,11 +16,10 @@ function withStartups(Cmp) {
   return CmpWithStartups;
 }
 
-const cardStyle = { flex: "1 0 33%", margin: 5 };
+const cardStyle = { flex: "1 0 30%", margin: 5 };
 
 const SectionCards = ({
   title = "Nos autres startups",
-  cards,
   className,
   startups
 }) => (
@@ -36,7 +35,6 @@ const SectionCards = ({
           padding: 5
         }}
       >
-        {cards && cards.map((Card, i) => <Card style={cardStyle} key={i} />)}
         {startups.map(startup => (
           <Card style={cardStyle} key={startup.href} {...startup} />
         ))}

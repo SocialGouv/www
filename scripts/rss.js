@@ -5,7 +5,8 @@ const convertNews = news => {
   <item>
     <title>${news.title}</title>
     <pubDate>${news.date}</pubDate>
-    <link>https://incubateur.social.gouv.fr/actus#${news.date}</link>
+    <link>https://incubateur.social.gouv.fr${news.href ||
+      `/actus/${news.date}`}</link>
     <description><![CDATA[${news.html}]]></description>
   </item>
   `;

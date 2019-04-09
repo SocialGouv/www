@@ -20,6 +20,7 @@ Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
 - éditer/ajouter des pages dans `./pages`
 - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
+- référencer l'article dans une news dans `./src/data/news.js` si nécessaire.
 
 Les fichiers peuvent être au format `.js` ou `.mdx` (prendre exemple sur les fichiers actuels)
 
@@ -33,11 +34,11 @@ Le site est statique et généré avec [next.js](https://github.com/zeit/next.js
 
 ```
 git clone
-npm i
-npm start
+yarn
+yarn dev
 ```
 
-`npm run build` pour builder une version statique
+`yarn build` pour builder une version statique
 
 Les modifs sur la branche `dev` sont automatiquement déployées sur https://socialgouv.github.io
 
