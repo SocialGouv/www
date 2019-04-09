@@ -19,14 +19,14 @@ const getRepoActivity = async repo => {
 const getRepos = async org => {
   trace("getRepos", org);
   const { body } = await github.get(`/orgs/${org}/repos`);
-  trace("getRepos", org, { body });
+  trace("getRepos", org, "\n", JSON.stringify({ body }, null, 2));
   return body;
 };
 
 const getRepoStats = async repo => {
   trace("getRepoStats", repo);
   const activity = await getRepoActivity(repo);
-  trace("getRepoStats ", repo, { activity });
+  trace("getRepoStats ", repo, "\n", JSON.stringify({ activity }, null, 2));
   return (
     activity &&
     activity.map && {
@@ -49,11 +49,11 @@ const isValidContributor = name =>
 const parseRepos = async repos => {
   trace("parseRepos", repos);
   const validRepos = (repos && repos.filter(isRepoVisible)) || [];
-  trace("parseRepos", repos, { validRepos });
+  trace("parseRepos", repos, "\n", JSON.stringify({ validRepos }));
   const reposStats = await Promise.all(
     validRepos.map(repo => getRepoStats(`${repo.owner.login}/${repo.name}`))
   );
-  trace("parseRepos", repos, { reposStats });
+  trace("parseRepos", repos, "\n", JSON.stringify({ reposStats }));
 
   const contributors = uniquify(
     flatten(reposStats.filter(Boolean).map(repo => repo.contributors))
