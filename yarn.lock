@@ -915,13 +915,13 @@
     "@mdx-js/tag" "^0.15.0"
     loader-utils "^1.1.0"
 
-"@mdx-js/loader@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-1.0.5.tgz#e0ccaa265c49af46935ff344197cba034b4600ba"
-  integrity sha512-/UXIT9YBa8ryEtMHqZjo5a2YuPAtQsBV99cgk4ioF9YuqVJlnb18ncC+VDL8tEwe4No4/F1yvHiRuZAjiM2q+Q==
+"@mdx-js/loader@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-1.0.6.tgz#8be32489c510e9c114033395b150f293fdd8f662"
+  integrity sha512-GXD9z9L5lM6wzaEuKr5fZbUcnqhatG7mVnnso38GCRBCsh8vVXkhjJ6WLRI6FPhprDqvq0FrSR4e70NLFtGBRQ==
   dependencies:
-    "@mdx-js/mdx" "^1.0.5"
-    "@mdx-js/react" "^1.0.2"
+    "@mdx-js/mdx" "^1.0.6"
+    "@mdx-js/react" "^1.0.6"
     loader-utils "^1.1.0"
 
 "@mdx-js/mdx@^0.15.5":
@@ -937,10 +937,10 @@
     unified "^6.1.6"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/mdx@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.0.5.tgz#380eb24d04c99f608b82cf4f4ef6bddca3342b45"
-  integrity sha512-vyqW9GDixcUhEKxuXzIMHpKFbKxc8HzJQQ86Piy5w2QFUSEedjZ2U1gqjkUWec3zUeD0PBBpCig3BH249CMwtw==
+"@mdx-js/mdx@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.0.6.tgz#95edb662a637e8325e80e9a21cb686277a4d35de"
+  integrity sha512-cB+/iwMgv8vPytc+R1FnE58Cj3tWbbx+3q9J+diBAFTQOPOLL8/ult4cF8U2O4SwNjpHRRaDiSyr/+JdeQH5kg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -958,10 +958,10 @@
     unist-builder "^1.0.1"
     unist-util-visit "^1.3.0"
 
-"@mdx-js/react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.2.tgz#5390102a5d4f4666fe40184622a8cc75bd8f4f77"
-  integrity sha512-CUlVG7FQytvzsIgoRYd3TSTzeHSwhG9sY0i7XBKpk8btxBPkwZju7Rgy322AKcR2PYxqJtT40rm7FQ/jgE9kLA==
+"@mdx-js/react@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.6.tgz#59bc131b68cc4f1a246d1e2b79f1223a897e6b65"
+  integrity sha512-y7Oua/TqZ+2JxRP7Skdno6SPuRnStAgk5LVFLcsowlhu2h6WuUfVI0HvL0KVouCW030v95qDAiLZDVhBiuDSNQ==
 
 "@mdx-js/tag@^0.15.0":
   version "0.15.0"
