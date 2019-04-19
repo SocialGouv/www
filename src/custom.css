@@ -124,3 +124,14 @@ div.article__author .article__author-role {
 .card__cover img {
   object-position: center;
 }
+
+.vertical-timeline *{
+  box-sizing: initial;
+}
+
+@media (min-width: 1170px) {
+  /* this seems to match the breakpoint of the react-vertical-timeline-component */
+  .vertical-timeline-element-content span.vertical-timeline-element-date {
+    color: #fff;
+  }
+}
