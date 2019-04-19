@@ -30,7 +30,7 @@
     "next-images": "^1.1.1",
     "prettier": "^1.17.0",
     "raw-loader": "^2.0.0",
-    "remark-autolink-headings": "^5.1.0"
+    "remark-autolink-headings": "^5.2.0"
   },
   "dependencies": {
     "github-base": "^1.0.0",
