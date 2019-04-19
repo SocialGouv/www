@@ -33,8 +33,8 @@ Le site est statique et généré avec [next.js](https://github.com/zeit/next.js
 
 ```
 git clone
-npm i
-npm start
+yarn install
+yarn start
 ```
 
 `npm run build` pour builder une version statique
