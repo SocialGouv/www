@@ -23,15 +23,16 @@ const headerLinks = [
     title: "Communauté",
     href: "/members"
   },
-  {
-    title: "Evènements",
-    href: "/evenements"
-  },
+  // {
+  //   title: "Evènements",
+  //   href: "/evenements"
+  // },
   {
     title: "Proposez vos idées",
     href: "/idees"
   }
 ];
+
 const footerLinks = [
   {
     href: "/faq",
