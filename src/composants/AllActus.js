@@ -1,87 +1,52 @@
 import React from "react";
-import { Card } from ".";
+import PropTypes from "prop-types";
 
-// Ajouter les actus ici
+import news from "../data/news";
 
-const CardBoard2 = () => (
-  <Card
-    href="/actus/board-janvier-2019"
-    img="/static/images/actus/board-0119.jpg"
-    title="Incubateur - 2ème board"
-    meta="Janvier 2019"
-    style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
-  />
-);
-
-const CardActuSaison2 = () => (
-  <Card
-    href="/actus/saison2"
-    img="/static/images/saison2.jpg"
-    title="Incubateur - saison 2"
-    meta="Juin 2018"
-    style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="A vos idées : devenez acteur de la transformation numérique du ministère en proposant une solution à un irritant ! <br/>La deuxième saison de l'incubateur est lancée :) <br/>Cliquez sur le titre pour en savoir plus"
-  />
-);
-
-const CardActuEmpjpmParis = () => (
-  <Card
-    href="/actus/actuEmjpmParis"
-    img="/static/images/actus/TGI-Paris.jpg"
-    title="E-mjpm est à Paris"
-    meta="Décembre 2018"
-    style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="Le déploiement d'e-MJPM sur Paris est acté."
-  />
-);
-
-const CardBA2019 = () => (
-  <Card
-    href="/actus/2019"
-    img="/static/images/actus/bonne-annee-2019.jpg"
-    title="Bonne année 2019"
-    meta="Janvier 2019"
-    style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="C'est parti pour une nouvelle année !"
-  />
-);
-
-const JourJ = () => (
-  <Card
-    href="/actus/saison-2-jour-j"
-    img="/static/images/pitchday-1.jpg"
-    title="Saison 2 : le jour J"
-    meta="Octobre 2018"
-    style={{ flex: "1 0 auto", margin: "5px auto" }}
-    description="Découvrez les idées et les lauréats de la saison 2 de l'incubateur"
-  />
-);
-
-const _AllActus = () => (
-  <div
-    className="row cards"
-    style={{
-      color: "black",
-      flexWrap: "wrap",
-      justifyContent: "space-between"
-    }}
-  >
-    <CardBoard2 />
-    <CardBA2019 />
-    <CardActuEmpjpmParis />
-    <JourJ />
+// https://github.com/facebook/react/issues/377
+const News = ({ title, href, date, html }) => (
+  <div className="row" name={date}>
+    <div
+      className="panel"
+      style={{
+        width: "80%",
+        margin: "20px auto",
+        paddingTop: 0,
+        color: "initial"
+      }}
+    >
+      <div className="panel__header" id={date}>
+        <h4>
+          {title}
+          <small className="panel__header-extra" style={{ float: "right" }}>
+            {date}
+          </small>
+        </h4>
+      </div>
+      {html && <div dangerouslySetInnerHTML={{ __html: html }} />}
+      {href && (
+        <React.Fragment>
+          {html && <br />}
+          {html && <br />}
+          <a href={href}>Lire la suite : {title}</a>
+        </React.Fragment>
+      )}
+    </div>
   </div>
 );
 
-//Penser à ajouter le nom de l'actu pour l'export ci-après
-const AllActus = {
-  actuSaison2: CardActuSaison2,
-  actuEmjpmParis: CardActuEmpjpmParis,
-  jourj: JourJ,
-  ba2019: CardBA2019,
-  board2: CardBoard2,
-  all: _AllActus
+News.propTypes = {
+  title: PropTypes.string,
+  date: PropTypes.string,
+  html: PropTypes.string,
+  href: PropTypes.string
+};
+
+const AllActus = ({ count, promote }) => {
+  return news
+    .filter(n => (promote ? n.promote : true))
+    .slice(0, count ? count : news.length)
+    .map(n => <News {...n} key={n.title} />);
 };
 
 export default AllActus;

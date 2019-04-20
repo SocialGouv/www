@@ -1,49 +1,82 @@
+/*
+
+Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher les actus de la home (les 6 dernieres) et celles de la page actu
+
+ - clé `href` : permet de lier un contenu "en savoir plus"
+ - clé `promote: true` : permet d'afficher la news sur la page d'accueil
+
+
+
+*/
+
 module.exports = [
   {
     date: "22 janvier 2019",
+    promote: true,
     author: "julien.bouquillon",
-    tags: ["incubateur"],
+    img: "/static/images/actus/taking-notes.jpg",
     title: "Premier petit séminaire de l'incubateur",
-    url: "/actus/seminaire-1"
+    href: "/actus/seminaire-1",
+    html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`
   },
   {
     date: "16 janvier 2019",
+    promote: true,
+    img: "/static/images/startups/work-in-france.jpg",
     author: "jonanthan.redt.gensinger",
-    tags: ["workinfrance"],
-    title: "Une année qui démarre bien !",
+    title: "Work in France : Une année qui démarre bien !",
     html: `
     Bonjour à tous !
 <br/><br/>
-L'équipe WorkinFrance vous souhaite une très belle année 2019, riche en projets personnels et professionnels !
+L'équipe <a href="/startups/work-in-france">WorkinFrance</a> vous souhaite une très belle année 2019, riche en projets personnels et professionnels !
 <br/><br/>
-Le projet commence à s'installer durablement et nous avons désormais 4 nouveaux départements ouverts pour vos demandes d'autorisation de travail !
+Le projet commence à s'installer durablement et nous avons désormais <b>4 nouveaux départements ouverts</b> pour vos demandes d'autorisation de travail !
+<br/><br/>
 WorkinFrance est désormais ouvert pour les démarches d'autorisation de travail des étudiants qui résident dans :
-<br/>- Les Bouches-du-Rhône (13)
-<br/>- La Seine-et-Marne (77)
-<br/>- Les Hauts-de-Seine (92)
-<br/>- Le Val d'Oise (95)
+<br/><br/>
+<li>Les Bouches-du-Rhône (13)</li>
+<li>La Seine-et-Marne (77)</li>
+<li>Les Hauts-de-Seine (92)</li>
+<li>Le Val d'Oise (95)</li>
 <br/><br/>
 Les conditions d'éligibilité n'ont pas changé, à savoir la demande et la délivrance d'autorisations de travail dématérialisées pour :
-<br/>- les étudiants en contrat d'apprentissage,
-<br/>- les étudiants en contrat de professionnalisation,
-<br/>- les étudiants en formation doctorale,
-<br/>- les étudiants algériens soumis à l'accord franco-algérien du 27 décembre 1968
+<br/><br/>
+<li>les étudiants en contrat d'apprentissage</li>
+<li>les étudiants en contrat de professionnalisation</li>
+<li>les étudiants en formation doctorale</li>
+<li>les étudiants algériens soumis à l'accord franco-algérien du 27 décembre 1968</li>
 <br/><br/>
 Si vous avez des connaissances à Marseille, Cergy-Pontoise, Melun, Nanterre et les communes environnantes de ces quatre départements, on vous invite à faire passer le message, les équipes des services de main d'oeuvre étrangère (SMOE) sont prêtes à traîter vos demandes en lignes :)
 <br/><br/>
-Désormais, vous pouvez faire votre démarche sur https://workinfrance.beta.gouv.fr/
+Désormais, vous pouvez faire votre démarche sur <a href="https://workinfrance.beta.gouv.fr/">https://workinfrance.beta.gouv.fr/</a>
 dès lors que l'adresse figurant sur le document de séjour en cours de validité est située à Paris (75), le Rhône (69), le Loiret (45), la Seine-et-Marne (77), les Bouches-du-Rhône (13), les Hauts-de-Seine (92) ou le Val d'Oise (95)
 <br/><br/>
 A bientôt pour d'autres bonnes nouvelles ;)
-
     `
   },
   {
+    date: "15 janvier 2019",
+    author: "eric.heijligers",
+    img: "/static/images/actus/board-0119.jpg",
+    title: "Deuxième board de l'incubateur",
+    href: "/actus/board-janvier-2019",
+    html:
+      "Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
+  },
+  {
+    date: "1er janvier 2019",
+    img: "/static/images/actus/bonne-annee-2019.jpg",
+    author: "eric.heijligers",
+    title: "Bonne année 2019 !",
+    html: "C'est parti pour une nouvelle année !",
+    href: "/actus/board-janvier-2019"
+  },
+  {
     date: "5 Décembre 2018",
+    img: "/static/images/startups/code-du-travail-numerique.jpg",
     author: "julien.bouquillon",
-    tags: ["code-du-travail-numerique"],
-    title: "release 1.5 - Balinese Rose Lion",
-    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
+    title: "Code du travail numérique v1.5",
+    html: `<p>La version 1.5 - Balinese Rose Lion du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
          <li>nombreuses corrections suite à des retours utilisateurs</li>
@@ -61,7 +94,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "26 Novembre 2018",
     author: "melanie.roge",
-    tags: ["e-mjpm"],
+    img: "/static/images/actus/TGI-Paris.jpg",
     title: "C’est officiel : e-MJPM s’installe à Paris !",
     html: `
     <br/>
@@ -82,7 +115,6 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "16 Novembre 2018",
     author: "julien.bouquillon",
-    tags: ["code-du-travail-numerique"],
     title: "release 1.4 - Twinkle Cookie",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
@@ -101,7 +133,6 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "8 Novembre 2018",
     author: "julien.bouquillon",
-    tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : Jury de selection des EIG",
     html: `
 Hier a eu lieu la journée de selection des candidats au programme <a target="_blank" href="http://entrepreneur-interet-general.etalab.gouv.fr">"Entrepreneur d'intérêt général" promo 2019</a> pour notre défi <a target="_blank" href="https://entrepreneur-interet-general.etalab.gouv.fr/defis/2019/explocode.html">"Explocode"</a>.
@@ -114,7 +145,6 @@ Deux EIG nous rejoindront donc début 2019, et commenceront leur mission par une
   {
     date: "14 Septembre 2018",
     author: "eric.heijligers",
-    tags: ["work-in-france"],
     title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾",
     html: `
 Le service WorkinFrance a ouvert en expérimentation le 27 mars 2018 sur le périmètre de l'unité départementale 75 de la DIRECCTE Ile-de-France.
@@ -128,7 +158,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "28 Septembre 2018",
     author: "julien.bouquillon",
-    tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : release 1.1 - blue-firefly",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
@@ -148,7 +177,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "23 Août 2018",
     author: "marc.hertzog",
-    tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : nouveau design",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail.num.social.gouv.fr">codedutravail.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
@@ -164,7 +192,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "23 Août 2018",
     author: "eric.heijligers",
-    tags: ["incubateur"],
     title: "L'incubateur pousse les murs",
     html: `
     Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
@@ -178,7 +205,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "2 Août 2018",
     author: "adrien.gonzalez",
-    tags: ["e-mjpm"],
     title: "e-MJPM release 1.2 « still-wildflower » 🌼",
     html: `Nouvelle livraison de l'application e-MJPM avant la pause estivale :
       <ul>
@@ -205,7 +231,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "27 Juillet 2018",
     author: "maxime.basset",
-    tags: ["work-in-france"],
     title: "Work In France: plus de 200 demandes traitées en Juillet",
     html: `🎉 Le service <a href="/startups/work-in-france">Work In France</a> qui dématérialise les demande d'autorisation de travail pour les étudiants étrangers,
                 a pour la première fois dépassé les <strong>200 dossiers déposés en un mois</strong> sur la seule DR de Paris.
@@ -218,7 +243,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "20 Juillet 2018",
     author: "yann-fanch.madaule",
-    tags: ["eig", "code-du-travail-numerique"],
     title:
       "Code du travail numérique : notre défi lauréat du programme EIG 2018 !",
     html: `🎉 Le <a href="/startups/code-du-travail-numerique">code du travail numérique</a> a le privilège de faire partie des
@@ -229,7 +253,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "27 Juin 2018",
     author: "marc.hertzog",
-    tags: ["code-du-travail-numerique"],
     title: "Code du travail numérique : nouveau prototype",
     html: `
       Une nouvelle version du prototype a été déployée sur <a href="https://code-du-travail.beta.gouv.fr">code-du-travail.beta.gouv.fr</a>.
@@ -244,7 +267,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "20 Juin 2018",
     author: "julien.bouquillon",
-    tags: [],
     title: "Outil de standup sur GitHub",
     html: `Nous avons <a href="https://github.com/SocialGouv/standup">publié sur GitHub</a> un clone du <a href="https://github.com/betagouv/standup">projet original</a>, adapté pour servir de timer à notre rituel de standup hebdomadaire (Le mardi à midi).
             <br><br>
@@ -254,7 +276,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "18 Janvier 2018",
     author: "julien.bouquillon",
-    tags: ["code-du-travail-numerique"],
     title:
       "Code du travail numérique : publication des 50 questions les plus fréquentes",
     html:
