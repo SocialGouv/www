@@ -21,3 +21,5 @@ export { default as SectionColors } from "./SectionColors";
 export { default as StartupMembers } from "./StartupMembers";
 export { default as SvgIcons } from "./SvgIcons";
 export { default as AllActus } from "./AllActus";
+export { default as Timeline } from "./Timeline";
+export { default as TimelineEvent } from "./TimelineEvent";
