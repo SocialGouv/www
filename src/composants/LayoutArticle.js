@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
-import EventsTimeline from "./EventsTimeline";
 
 import {
   Layout,
@@ -108,7 +107,7 @@ function withStartup(Cmp) {
   return CmpWithStartup;
 }
 
-const LayoutArticle = ({ meta, footer, children, events }) => {
+const LayoutArticle = ({ meta, footer, children }) => {
   return (
     <Layout>
       <Head>
@@ -147,7 +146,6 @@ const LayoutArticle = ({ meta, footer, children, events }) => {
         )) ||
           null}
       </Article>
-      {events && <EventsTimeline events={events} />}
       {footer}
     </Layout>
   );
@@ -168,8 +166,7 @@ LayoutArticle.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element)
-  ]),
-  events: PropTypes.arrayOf(PropTypes.element)
+  ])
 };
 
 export default withStartup(LayoutArticle);
