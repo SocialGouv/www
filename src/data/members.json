@@ -294,5 +294,13 @@
     "startups": ["archifiltre"],
     "role": "coach",
     "picture": "/static/images/members/avatar.jpg"
+  },
+  {
+    "id": "yassine.riffi",
+    "name": "Yassine Riffi",
+    "structure": "Freelance",
+    "startups": ["domifacile"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/yassine.riffi.jpg"
   }
 ]
