@@ -310,5 +310,13 @@
     "startups": ["e-mjpm", "work-in-france"],
     "role": "Développeur Fullstack, UX/UI",
     "picture": "/static/images/members/christophe.dumont.jpg"
+  },
+  {
+    "id": "siegrid.henry",
+    "name": "Siegrid Henry",
+    "structure": "Freelance",
+    "startups": ["work-in-france"],
+    "role": "Chargée de déploiement",
+    "picture": "/static/images/members/siegrid.henry.jpg"
   }
 ]
