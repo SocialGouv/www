@@ -302,5 +302,13 @@
     "startups": ["domifacile"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/yassine.riffi.jpg"
+  },
+  {
+    "id": "christophe.dumont",
+    "name": "Christophe Dumont",
+    "structure": "Freelance",
+    "startups": ["e-mjpm", "work-in-france"],
+    "role": "Développeur Fullstack, UX/UI",
+    "picture": "/static/images/members/christophe.dumont.jpg"
   }
 ]
