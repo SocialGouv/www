@@ -302,5 +302,13 @@
     "startups": ["domifacile"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/yassine.riffi.jpg"
+  },
+  {
+    "id": "siegrid.henry",
+    "name": "Siegrid Henry",
+    "structure": "Freelance",
+    "startups": ["work-in-france"],
+    "role": "Chargée de déploiement",
+    "picture": "/static/images/members/siegrid.henry.jpg"
   }
 ]
