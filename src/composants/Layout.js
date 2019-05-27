@@ -81,21 +81,7 @@ export default class Layout extends React.Component {
         <MDXProvider components={components}>
           <div>{this.props.children}</div>
         </MDXProvider>
-        <Footer title="incubateur.social.gouv.fr" links={footerLinks}>
-          <div style={{ textAlign: "center" }}>
-            <iframe
-              title="souscrire à la newsletter"
-              style={{ maxWidth: 600, margin: "0 auto" }}
-              frameBorder="0"
-              scrolling="no"
-              marginHeight="0"
-              marginWidth="0"
-              src="https://app.mailjet.com/widget/iframe/3car/7gW"
-              width="100%"
-              height="242"
-            />
-          </div>
-        </Footer>
+        <Footer title="incubateur.social.gouv.fr" links={footerLinks} />
         <ReactTooltip />
       </React.Fragment>
     );
