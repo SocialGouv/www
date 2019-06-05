@@ -47,7 +47,7 @@
     "react-vertical-timeline-component": "^2.3.1",
     "react-youtube": "^7.9.0",
     "remark-highlight.js": "^5.1.0",
-    "styled-components": "^4.2.1",
+    "styled-components": "^4.3.0",
     "template.data.gouv.fr": "^1.1.8"
   }
 }
