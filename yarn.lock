@@ -5552,10 +5552,10 @@ regjsparser@^0.3.0:
   dependencies:
     jsesc "~0.5.0"
 
-remark-autolink-headings@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-5.2.0.tgz#2095870e473ae96b5d1f09880d7c914b80d4f21e"
-  integrity sha512-U4T4VrShCPX9l3hKinZHBwSabIKcJU4qe0M4l9T1dDWs/2qw7Z+gN6BpvYu4UUzv6/Oj4rAyUPwbpztbhb55AQ==
+remark-autolink-headings@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-5.2.1.tgz#620639081372feddaf5d8e9838052f615931974d"
+  integrity sha512-pAsIVtbYWIkCDoR/hXJQAjXRnzQ5hjQzmiz2eQnZMIQbsiut3x5xEQYF+urpNEQSUG1/I+9wp2sSERgaxiaBdQ==
   dependencies:
     extend "^3.0.2"
     unist-util-visit "^1.0.1"
