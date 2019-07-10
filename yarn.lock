@@ -5276,10 +5276,10 @@ react-accessible-accordion@^2.4.5:
     consecutive "^5.0.4"
     recompose "^0.30.0"
 
-react-countup@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-4.1.3.tgz#57e9be04a77c0b55a501aa74e35e536b9523b826"
-  integrity sha512-lbipT26PoPAM8kUTcDn8NEnWSXFSDcXaFNzKHLrxyL+8g74TlYV2dg7JdcgGJJWm04UKgQDLEjJxc8judfctbg==
+react-countup@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-4.2.0.tgz#ecbcd85182ceb27cea5a9227219f8fad8443cd52"
+  integrity sha512-CkmtvYOZV0iW8byfrZ96OKPDWwmvpS7rcfTKU9Ngn+oYRVoZrZ5quoKC2gbUS66Iona6vAoko6f8YxXJJuP2FQ==
   dependencies:
     countup.js "^1.9.3"
     prop-types "^15.6.2"
