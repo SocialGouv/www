@@ -1,13 +1,16 @@
+import France from "@socialgouv/react-departements";
+
 import { LayoutArticle } from "../../src/composants";
 
 export const meta = {
-  title: "Work In France : un an déjà",
-  hero: {
-    background: "/static/images/startups/todd-trapani-1054329-unsplash.jpg",
-    alt: "Photo by Harli Marten",
-    title: "Work-In-France : un an déjà",
-    tagline: "La Startup d’État Work in France fête son premier anniversaire !"
-  }
+    title: "Work In France : un an déjà",
+    hero: {
+        background: "/static/images/actus/kent-pilcher-unsplash.jpg",
+        alt: "Photo by Kent Pilcher on Unsplash",
+        title: "Work-In-France : un an déjà",
+        tagline:
+            "La Startup d’État Work in France fête son premier anniversaire !"
+    }
 };
 
 <LayoutArticle meta={meta} startup="work-in-france">
@@ -35,23 +38,56 @@ Pour l’ensemble de la procédure de dépôt et d’instruction, Work in France
 
 L’équipe de Work in France a notamment contribué à l’enrichissement de cette plateforme en développant, au cours de l’année 2018 :
 
-- un module de vérification des attestations émises via la plateforme : le [« validity check »](https://workinfrance.beta.gouv.fr/validitycheck) ;
+-   un module de vérification des attestations émises via la plateforme : le [« validity check »](https://workinfrance.beta.gouv.fr/validitycheck) ;
 
-- un module statistiques en « temps réel » permettant un suivi de l’activité par les services.
+-   un module statistiques en « temps réel » permettant un suivi de l’activité par les services.
 
 C’est en mars 2018 que l’équipe déploie l’applicatif Work in France dans un premier territoire pilote : la Direccte de Paris. Suite à l’engouement des agent, illustré par l’ouverture de sept nouveaux départements, et l’enthousiasme des usagers, qui ont déposé plus de 2 000 dossiers, l’équipe accueille, en février 2019, une chargée de déploiement afin de poursuivre ses ambitions.
 
 **Aujourd’hui, Work in France est désormais présent dans 26 départements, au sein de 8 régions**, et **plus de 7 600 dossiers** ont d’ores et déjà été déposés depuis avril 2018.
 
+<France
+    color="rgba(176, 189, 232, 1)"
+    highlightColor="rgb(46, 72, 156)"
+    departements={[
+        10,
+        13,
+        25,
+        33,
+        35,
+        42,
+        45,
+        51,
+        52,
+        54,
+        55,
+        57,
+        63,
+        67,
+        68,
+        69,
+        75,
+        76,
+        77,
+        78,
+        88,
+        91,
+        92,
+        93,
+        94,
+        95
+    ]}
+/>
+
 Avec Work in France, étudiants et entreprises peuvent désormais demander leur autorisation de travail en quelques clics !
 
 La démarche est ainsi **simplifiée et accélérée pour l’usager** :
 
-- La procédure est entièrement dématérialisée ;
+-   La procédure est entièrement dématérialisée ;
 
-- Le délai de traitement est réduit d’au moins 50 %;
+-   Le délai de traitement est réduit d’au moins 50 %;
 
-- Le suivi de dossier est notifié automatiquement par e-mail.
+-   Le suivi de dossier est notifié automatiquement par e-mail.
 
 Les usagers de Work in France n’ont désormais plus besoin de se déplacer au guichet et attribuent une note de satisfaction de 9,8 / 10 au service :
 
@@ -62,8 +98,8 @@ Les usagers de Work in France n’ont désormais plus besoin de se déplacer au 
 
 Par ailleurs, Work in France permet de **libérer du temps de travail pour les agents instructeurs**. Ces derniers bénéficient désormais :
 
-- d’un accès au suivi en temps réel des dossiers déposés, instruits et validés ;
-- d'une diminution des appels, e-mails et déplacements à l’accueil du service.
+-   d’un accès au suivi en temps réel des dossiers déposés, instruits et validés ;
+-   d'une diminution des appels, e-mails et déplacements à l’accueil du service.
 
 > « Work in France est intuitif et permet un traitement diligent des demandes par le service de main d’œuvre étrangère. »
 >
