@@ -1,0 +1,83 @@
+import { LayoutArticle } from "../../src/composants";
+
+export const meta = {
+  title: "Work In France : un an déjà",
+  hero: {
+    background: "/static/images/startups/todd-trapani-1054329-unsplash.jpg",
+    alt: "Photo by Harli Marten",
+    title: "Work-In-France : un an déjà",
+    tagline: "La Startup d’État Work in France fête son premier anniversaire !"
+  }
+};
+
+<LayoutArticle meta={meta} startup="work-in-france">
+
+### Une frustration
+
+Partagée par les usagers comme par les agents - et une procédure sont à l’origine de la [Startup d’État Work in France](http://localhost:3000/startups/work-in-france) : la demande d’autorisation provisoire de travail pour les étudiants étrangers (APT – [Code du travail, article R5221-3-14°](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000020562687&cidTexte=LEGITEXT000006072050)). Les étudiantes et étudiants étrangers extra-communautaires désirant travailler en France, au-delà du mi-temps, sont en effet contraints de la solliciter auprès de la Direccte (Direction régionale des entreprises, de la concurrence, de la consommation, du travail et de l'emploi). Ce sont environ **27 000 demandes qui sont déposées par leurs employeurs chaque année**.
+
+L’histoire débute en 2017, au service de la main d’œuvre étrangère de la Direccte, à Paris.
+[Daniel Balmy](https://www.linkedin.com/in/daniel-balmy-5a7147162/), agent instructeur, constate l’ampleur des demandes d’APT pour étudiants étrangers déposées à Paris chaque année - près de 4 000 dossiers - et de sa procédure associée, relativement complexe. Il s’agit d’une procédure à la fois **lente** - la demande d'autorisation de travail et la réponse de l'administration, sous format papier, se font uniquement par courrier ou au guichet - et **peu transparente** : l'étudiant et son employeur ne sont pas en mesure d’être informés de l’avancement de leur demande. De ce fait, les usagers demeurent mécontents et reportent leurs frustrations sur les agents : l'accueil de la Direccte est ainsi surchargé d’appels, d’e-mails et de déplacements au guichet de la part d’usagers souhaitant connaître l'état d’avancement de leur dossier : « Avez-vous reçu ma demande ? Quand vais-je recevoir mon autorisation ? ». Cette logique entraîne mécaniquement des **retards de traitement importants**.
+
+> « J'ai dû prendre deux jours de congés afin de terminer mes démarches de renouvellement d'autorisation provisoire de travail. Il a été difficile de faire comprendre à mon employeur que je ne pouvais pas terminer la procédure sans me déplacer ici, à l’accueil. »
+>
+> ̶ Un étudiant présent à l'accueil du service de main d’œuvre étrangère de la Direccte Paris, en janvier 2018 ̶
+
+La lenteur de cette procédure et son manque de transparence retardent ainsi la prise de poste de l'étudiant salarié et pénalisent l’entreprise, qui ne peut obtenir de visibilité sur le recrutement de son personnel.
+
+### Un mode de développement agile, itératif et ancré sur le terrain.
+
+Piloté par Daniel Balmy et Jonathan Redt-Gensinger, intrapreneurs et lauréats du premier appel à candidature du secrétariat général des ministères sociaux pour la création de services publics numériques, **Work in France permet de dématérialiser intégralement cette demande** pour les étudiants étrangers en contrat d’alternance - apprentissage et professionnalisation - , les mineurs non accompagnés, internes en médecine, doctorants, stagiaires experts-comptables et les étudiants algériens soumis à l’accord franco-algérien du 27 décembre 1968. La Start-up d’Etat est, depuis septembre 2017, portée par [l’incubateur des affaires sociales](https://incubateur.social.gouv.fr), affilié à la [communauté Beta.gouv](https://beta.gouv.fr).
+
+Après une première phase d’immersion, au contact des agents et des usagers, l’équipe (composée des deux intrapreneurs et d’un développeur) a développé, en moins de deux mois, un premier prototype fonctionnel.
+
+Pour l’ensemble de la procédure de dépôt et d’instruction, Work in France a fait le choix d’utiliser la plateforme de dématérialisation [demarches-simplifiees.fr](https://demarches-simplifiees.fr), une autre Startup d’État. Ce recours a permis de générer des économies substantielles, mais aussi de développer une synergie entre produits, d’autant que la plateforme - en perpétuel développement - s’adapte aux différentes demandes exprimées par les usagers comme par les agents.
+
+L’équipe de Work in France a notamment contribué à l’enrichissement de cette plateforme en développant, au cours de l’année 2018 :
+
+- un module de vérification des attestations émises via la plateforme : le [« validity check »](https://workinfrance.beta.gouv.fr/validitycheck) ;
+
+- un module statistiques en « temps réel » permettant un suivi de l’activité par les services.
+
+C’est en mars 2018 que l’équipe déploie l’applicatif Work in France dans un premier territoire pilote : la Direccte de Paris. Suite à l’engouement des agent, illustré par l’ouverture de sept nouveaux départements, et l’enthousiasme des usagers, qui ont déposé plus de 2 000 dossiers, l’équipe accueille, en février 2019, une chargée de déploiement afin de poursuivre ses ambitions.
+
+**Aujourd’hui, Work in France est désormais présent dans 26 départements, au sein de 8 régions**, et **plus de 7 600 dossiers** ont d’ores et déjà été déposés depuis avril 2018.
+
+Avec Work in France, étudiants et entreprises peuvent désormais demander leur autorisation de travail en quelques clics !
+
+La démarche est ainsi **simplifiée et accélérée pour l’usager** :
+
+- La procédure est entièrement dématérialisée ;
+
+- Le délai de traitement est réduit d’au moins 50 %;
+
+- Le suivi de dossier est notifié automatiquement par e-mail.
+
+Les usagers de Work in France n’ont désormais plus besoin de se déplacer au guichet et attribuent une note de satisfaction de 9,8 / 10 au service :
+
+> « C’est vraiment très rapide, d’habitude ça prend 15 jours, mais là moins de 24 heures !
+> Merci pour ces simplifications ».
+>
+> ̶ Diego, élève avocat à Marseille et utilisateur du service̶ ̶
+
+Par ailleurs, Work in France permet de **libérer du temps de travail pour les agents instructeurs**. Ces derniers bénéficient désormais :
+
+- d’un accès au suivi en temps réel des dossiers déposés, instruits et validés ;
+- d'une diminution des appels, e-mails et déplacements à l’accueil du service.
+
+> « Work in France est intuitif et permet un traitement diligent des demandes par le service de main d’œuvre étrangère. »
+>
+> ̶ M. Coppard, responsable du service de la main d'œuvre étrangère du Rhône, après la mise en place de Work in France ̶
+
+**Avec Work in France, le temps de traitement des dossiers est réduit d’au moins 50% !**
+
+### Et demain ?
+
+L’équipe poursuit désormais le déploiement au sein de nouveaux territoires et cible prioritairement les **départements accueillant un nombre important d’étudiants étrangers !**
+
+![Les intrapreneurs Work-in-France](/static/images/actus/wif-un-an-intrapreneurs.jpg)
+
+N’hésitez pas à contacter l’équipe via [contact@workinfrance.beta.gouv.fr](mailto:contact@workinfrance.beta.gouv.fr) !
+Et à nous suivre sur [Twitter](https://twitter.com/work_in_France), [Facebook](https://www.facebook.com/workinfrance.beta.gouv.fr/) et [LinkedIn](https://www.linkedin.com/company/workinfrance/) !
+
+</LayoutArticle >

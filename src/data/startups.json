@@ -30,7 +30,7 @@
         "title": "Validation en ligne des ATP",
         "subTitle": "Sécurité",
         "icon": "lock",
-        "href": "https://workinfrance.beta.gouv.fr/validity_check.html",
+        "href": "https://workinfrance.beta.gouv.fr/validitycheck",
         "description": "Vérifiez la validité d'une autorisation provisoire de travail pour un étudiant étranger"
       },
       {

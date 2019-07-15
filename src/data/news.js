@@ -11,6 +11,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 
 module.exports = [
   {
+    date: "1er janvier 2019",
+    promote: true,
+    author: "siegrid.henry",
+    img: "/static/images/actus/taking-notes.jpg",
+    title: "Work In France : Un an déjà !",
+    href: "/actus/work-in-france-un-an",
+    html: `La Startup d’État Work in France fête son premier anniversaire`
+  },
+  {
     date: "22 janvier 2019",
     promote: true,
     author: "julien.bouquillon",
