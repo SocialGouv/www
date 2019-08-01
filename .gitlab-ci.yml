@@ -9,7 +9,6 @@ variables:
   IMAGE_INFRA_BASE_NAME: "infra/images-docker"
   DEV_ENVIRONMENT_NAME: "dev.factory"
   PROD_ENVIRONMENT_NAME: "incubateur"
-  API_PORT: 4000
 
 stages:
   - "Code Quality"
@@ -116,7 +115,7 @@ Deploy www (dev):
   stage: "Deploy dev"
   variables:
     <<: *deploy_stage_variables
-    PORT: $API_PORT
+    PORT: 80
   environment:
     name: $DEV_ENVIRONMENT_NAME
   only:
@@ -130,7 +129,7 @@ Deploy www (prod):
   stage: "Deploy prod"
   variables:
     <<: *deploy_stage_variables
-    PORT: $API_PORT
+    PORT: 80
   environment:
     name: $PROD_ENVIRONMENT_NAME
   when: manual
