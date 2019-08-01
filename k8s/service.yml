@@ -1,0 +1,14 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: www${HASH_BRANCH_NAME}
+  labels:
+    app: www${HASH_BRANCH_NAME}
+    branch: www${HASH_BRANCH_NAME}
+spec:
+  selector:
+    app: www${HASH_BRANCH_NAME}
+  ports:
+  - port: ${PORT}
+    name: api
