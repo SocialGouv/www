@@ -1,0 +1,17 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: www${HASH_BRANCH_NAME}
+  labels:
+    app: www${HASH_BRANCH_NAME}
+    branch: www${HASH_BRANCH_NAME}
+spec:
+  rules:
+  - host: ${HASH_BRANCH_INGRESS}www.dev.factory.social.gouv.fr
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: www${HASH_BRANCH_NAME}
+          servicePort: ${PORT}

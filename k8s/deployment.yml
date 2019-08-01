@@ -1,0 +1,26 @@
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: www${HASH_BRANCH_NAME}
+  labels:
+    app: www${HASH_BRANCH_NAME}
+    branch: www${HASH_BRANCH_NAME}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: www${HASH_BRANCH_NAME}
+  template:
+    metadata:
+      labels:
+        app: www${HASH_BRANCH_NAME}
+    spec:
+      containers:
+        - image: ${CI_REGISTRY_IMAGE}:${IMAGE_TAG}
+          name: www
+          ports:
+            - containerPort: ${PORT}
+          env:
+            - name: PORT
+              value: "${PORT}"
