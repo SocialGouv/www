@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, user-scalable=yes"
           />
-          <script src="//polyfill.num.social.gouv.fr/v3/polyfill.min.js?flags=gated&features=fetch%2CArray.prototype.find" />
+          <script src="//polyfill.incubateur.social.gouv.fr/v3/polyfill.min.js?flags=gated&features=fetch%2CArray.prototype.find" />
           {this.props.styleTags}
         </Head>
         <body>
