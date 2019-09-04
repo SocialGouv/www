@@ -11,6 +11,8 @@ assignees: ''
 
 Bienvenue à SocialGouv, l'incubateur des Ministères Sociaux
 
+![](https://avatars0.githubusercontent.com/u/45039513?s=400&v=4)
+
 Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. Les autres membres de l'incubateur sont à ta disposition pour t'aider à répondre à toutes tes questions.
 
 ## Avant d'arriver
