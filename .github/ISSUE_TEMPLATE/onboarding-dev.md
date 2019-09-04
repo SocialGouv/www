@@ -23,21 +23,21 @@ Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. L
 
  - [ ] Lire le [welcome pack dev](https://github.com/SocialGouv/socialgouv.github.io/wiki/Social-Gouv-Tech-Welcome-Pack-🖖) : liens vers les outils, recommandations et bonnes pratiques
  - [ ] Parcourir les [repos SocialGouv](http://github.com/SocialGouv)
- - [ ] ajouter le calendrier de l'incubateur : freego.mas@gmail.com (calendrier google partagé)
+ - [ ] Ajouter le calendrier de l'incubateur : freego.mas@gmail.com (calendrier google partagé)
  
 ## En arrivant
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
- - [ ] (optionnel) créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
- - [ ] (optionnel) rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
- - [ ] rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur
- - [ ] rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
- - [ ] (optionnel) : demander un accès à Sentry
- - [ ] (optionnel) : demander un accès à Matomo
+ - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
+ - [ ] (optionnel) Rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
+ - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur
+ - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
+ - [ ] (optionnel) : Demander un accès à Sentry
+ - [ ] (optionnel) : Demander un accès à Matomo
 
 ### Carte d'accès Mirabeau
 
- - Si tu est présent plus de 2 jours par semaine à l'incubateur, tu peux demander un badge d'accès.
+ - Si tu es présent plus de 2 jours par semaine à l'incubateur, tu peux demander un badge d'accès.
  - Tu dois faire ta demande par email à dsi-incubateur@sg.social.gouv.fr en précisant :
      - nom, prénom
      - entreprise qui porte ton contrat (beNext ou Octo)
