@@ -24,6 +24,8 @@ Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. L
  - [ ] (optionnel) rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
  - [ ] rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur
  - [ ] rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
+ - [ ] (optionnel) : demander un accès à Sentry
+ - [ ] (optionnel) : demander un accès à Matomo
 
 ### Carte d'accès Mirabeau
 
