@@ -18,7 +18,9 @@ Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. L
 ## Avant d'arriver
 
  - [ ] Lire le [welcome pack dev](https://github.com/SocialGouv/socialgouv.github.io/wiki/Social-Gouv-Tech-Welcome-Pack-🖖) : liens vers les outils, recommandations et bonnes pratiques
+ - [ ] Parcourir les [repos SocialGouv](http://github.com/SocialGouv)
  - [ ] ajouter le calendrier de l'incubateur : freego.mas@gmail.com (calendrier google partagé)
+ 
 ## En arrivant
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
