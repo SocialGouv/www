@@ -13,6 +13,10 @@ Bienvenue à SocialGouv, l'incubateur des Ministères Sociaux
 
 ![](https://avatars0.githubusercontent.com/u/45039513?s=400&v=4)
 
+Notre incubateur bouillonne d'idées, de projets et pire.. d’acronymes ! Cela peut sembler confus pour tout impétrant.e (et parfois même pour les plus averti.es).
+
+Nous avons donc décidé lors de l'un de nos séminaires de permettre à tous nos nouveaux venus de choisir une marraine ou un parrain. N'hésite vraiment pas à le demander, tu ne manqueras pas de candidat.es :blush:.
+
 Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. Les autres membres de l'incubateur sont à ta disposition pour t'aider à répondre à toutes tes questions.
 
 ## Avant d'arriver
