@@ -21,6 +21,7 @@ Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. L
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
  - [ ] (optionnel) créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
+ - [ ] (optionnel) rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
  - [ ] rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur
  - [ ] rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
 
