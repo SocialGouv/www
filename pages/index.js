@@ -24,7 +24,7 @@ const chiffres = [
   },
   {
     title: "Intrapreneurs",
-    value: 8
+    value: 11
   },
   {
     title: "m² d&apos;espace dédié",
@@ -32,7 +32,7 @@ const chiffres = [
   },
   {
     title: "Startups en création",
-    value: 2
+    value: 3
   }
 ];
 
