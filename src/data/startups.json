@@ -195,6 +195,28 @@
     ]
   },
   {
+    "id": "Egapro",
+    "href": "/startups/Egapro",
+    "img": "",
+    "title": "Egapro",
+    "meta": "Avril 2019",
+    "description": "L’outil de calcul de votre index égalité professionnelle Femmes- Hommes",
+    "links": [
+      {
+        "title": "Page d'accueil",
+        "subTitle": "https://index-egapro.travail.gouv.fr/",
+        "href": "https://index-egapro.travail.gouv.fr/",
+        "description": "Page officielle du produit"
+      },
+      {
+        "title": "Github",
+        "subTitle": "code source",
+        "href": "https://github.com/SocialGouv/egapro",
+        "description": "Les sources de l'application"
+      }
+    ]
+  },
+  {
     "id": "archifiltre",
     "href": "/startups/archifiltre",
     "img": "/static/images/startups/todd-trapani-1054329-unsplash.jpg",
