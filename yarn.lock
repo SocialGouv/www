@@ -2003,7 +2003,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -5450,21 +5450,21 @@ react-typeform-embed-2@0.2.1:
   dependencies:
     "@typeform/embed" "^0.5.8"
 
-react-vertical-timeline-component@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-2.4.0.tgz#b366ab95fe816b24e275c3de9716a838b9607a4d"
-  integrity sha512-UFqpZkD+rJQKVbS/uPccieVkXLTPl6grUehpVjQaGCKlYuO+NhI6aYczz9iNDo74/5yW8Uvm9YDA5QR+Np5Wqw==
+react-vertical-timeline-component@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-2.5.0.tgz#0b8e54b21c0ce9ffc2fa2ce3831ad7f4001d68a3"
+  integrity sha512-922SH2Rxiuis1KwpHGSiMbegzIbkICEQpfHAQ2LuDW+oqQRhEaC27Mh73f+Fez7iEFqGYvMUEPzwjqfmRpQw6Q==
   dependencies:
-    classnames "^2.2.5"
-    prop-types "^15.6.1"
-    react-visibility-sensor "^5.0.2"
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+    react-visibility-sensor "^5.1.1"
 
-react-visibility-sensor@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/react-visibility-sensor/-/react-visibility-sensor-5.0.2.tgz#e360fff81572cb3a2a9fd680484447a9da09a55d"
-  integrity sha512-7+1lr7oQOO2vKr5u/uxoDGFWAAy7lsDy2aJU3Zy1/OymI+TRqOBk8m2L8YE1B0UyfCDWxVAWO+aifVGqNOvqeQ==
+react-visibility-sensor@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/react-visibility-sensor/-/react-visibility-sensor-5.1.1.tgz#5238380960d3a0b2be0b7faddff38541e337f5a9"
+  integrity sha512-cTUHqIK+zDYpeK19rzW6zF9YfT4486TIgizZW53wEZ+/GPBbK7cNS0EHyJVyHYacwFEvvHLEKfgJndbemWhB/w==
   dependencies:
-    prop-types "^15.6.2"
+    prop-types "^15.7.2"
 
 react-youtube@^7.9.0:
   version "7.9.0"
