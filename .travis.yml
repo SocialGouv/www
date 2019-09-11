@@ -48,6 +48,7 @@ jobs:
         #- DEBUG=github-stats yarn github-stats
         #- cat ./out/static/github-stats.json
         - touch out/.nojekyll
+        - echo "incubateur.social.gouv.fr" > out/CNAME
       before_deploy:
         - git config user.name "Social Groovy Bot"
         - git config user.email "45039513+SocialGroovyBot@users.noreply.github.com"
