@@ -4452,10 +4452,10 @@ neo-async@^2.5.0:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-next-images@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.1.2.tgz#de08706154953aaaffda67a3bc83d76be145b174"
-  integrity sha512-6w7D9seVQKANuFPCfEfpfjQAs4zpl//ldGtjggQK6gwQjchJ3HGyMuOP8cf5t/PzMOQ3NhoJ/WzJMJuvemBsLQ==
+next-images@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.2.0.tgz#9bbcc4ea8787bc5ed4abc0da575a212bd75bbbd0"
+  integrity sha512-NhOiUk5StO82074KpnrcITM0OdONUu0T15Sd0VbipxHJueofKAw9zdmAejht0EhwgQDFt63+1OLFYA5web0x9w==
   dependencies:
     file-loader "^4.0.0"
     url-loader "^2.0.0"
