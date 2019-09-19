@@ -88,7 +88,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
          <li><a href="https://github.com/SocialGouv/code-du-travail-numerique/commits/1.5" target="_blank">details des changements</a></li>
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `
   },
   {
@@ -123,7 +123,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
          <li><a href="https://github.com/SocialGouv/code-du-travail-numerique/commits/75fc7c473d344b48ca18e6f5ebbd62b6e2446c0f" target="_blank">details des changements</a></li>
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `
   },
   {
@@ -167,7 +167,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
         <li><a href="https://github.com/SocialGouv/code-du-travail-frontend/pull/132" target="_blank">details des changements</a></li>
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `
   },
   {
@@ -182,7 +182,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
         <li>un début d'intégration du référentiel général d'accessibilité pour les administrations (RGAA)</li>
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
-      <p>💬 Des remarques ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a></p>
+      <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `
   },
   {
@@ -257,7 +257,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <br><br>
       📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-data">code-du-travail.beta.gouv.fr</a>
       <br>
-       💬 Des feedbacks ? <a href="mailto:contact@codedutravail.beta.gouv.fr">contact@codedutravail.beta.gouv.fr</a>
+       💬 Des feedbacks ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a>
       `
   },
   {
