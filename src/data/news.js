@@ -11,6 +11,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 
 module.exports = [
   {
+    date: "23 Septembre 2019",
+    promote: true,
+    author: "julien.bouquillon",
+    img: "/static/images/actus/taking-notes.jpg",
+    title: "Livraison v-3.2.0 Fuschia Eagle",
+    href: "/startups/code-du-travail-numerique/release-v3.2.0",
+    html: `Livraison de la version v3.2.0 Fuschia Eagle du Code du travail numérique`
+  },
+  {
     date: "22 janvier 2019",
     promote: true,
     author: "julien.bouquillon",

@@ -27,6 +27,10 @@ const articles = [
     href: "/startups/code-du-travail-numerique/droit-libre"
   },
   {
+    title: "Release v-3.2.0 Fuschia Eagle",
+    href: "/startups/code-du-travail-numerique/release-v3.2.0"
+  },
+  {
     title: "La complexité du droit",
     href: "/startups/code-du-travail-numerique/complexite",
     disabled: true
