@@ -318,5 +318,13 @@
     "startups": ["work-in-france"],
     "role": "Chargée de déploiement",
     "picture": "/static/images/members/siegrid.henry.jpg"
+  },
+  {
+    "id": "nicolas.kremer",
+    "name": "Nicolas Kremer",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur Fullstack, UX/UI",
+    "picture": "/static/images/members/nicolas.kremer.jpg"
   }
 ]
