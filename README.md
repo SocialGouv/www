@@ -12,8 +12,7 @@ Faire les changements directement sur GitHub ou sur une branche locale, et soume
 
 ### Ajouter son profil :
 
-Editer [members.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.json) et ajouter
-
+Editer [members.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.json) et ajouter votre photo :)
 
 ### Ajouter une brève :
 
