@@ -7,11 +7,14 @@ assignees: ''
 
 ---
 
-# Welcome !
+
+<h1 align="center">
+  <img src="https://avatars0.githubusercontent.com/u/45039513?s=400&v=4" width="250"/>
+  <br>
+  Welcome
+</h1>
 
 Bienvenue à SocialGouv, l'incubateur des Ministères Sociaux
-
-![](https://avatars0.githubusercontent.com/u/45039513?s=400&v=4)
 
 Notre incubateur bouillonne d'idées, de projets et pire.. d’acronymes ! Cela peut sembler confus pour tout impétrant.e (et parfois même pour les plus averti.es).
 
