@@ -10,6 +10,11 @@ Les stats sont disponibles sur https://stats.num.social.gouv.fr
 
 Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
 
+### Ajouter son profil :
+
+Editer [members.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.json) et ajouter
+
+
 ### Ajouter une brève :
 
 📝 éditer [src/data/news.js](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/news.js)
