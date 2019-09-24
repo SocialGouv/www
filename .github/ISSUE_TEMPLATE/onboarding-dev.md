@@ -48,5 +48,5 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
      
 ### Accéder à la salle de réunion 
 
-- Pour réserver la salle de réunion vous devez inscrire votre créneau directement sur le planning de réservation situé sur la porte de la salle !
+- Pour réserver tu dois inscrire ton créneau directement sur le planning de réservation situé sur la porte de la salle !
 
