@@ -38,10 +38,15 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.tools.factory.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.tools.factory.social.gouv.fr)
 
-### Carte d'accès Mirabeau
+### Carte d'accès Mirabeau et carte de cantine
 
  - Si tu es présent plus de 2 jours par semaine à l'incubateur, tu peux demander un badge d'accès.
  - Tu dois faire ta demande par email à dsi-incubateur@sg.social.gouv.fr en précisant :
      - nom, prénom
      - entreprise qui porte ton contrat (beNext ou Octo)
      - date d'entrée et de sortie prévues
+     
+### Accéder à la salle de réunion 
+
+- Pour réserver la salle de réunion vous devez inscrire votre créneau directement sur le planning de réservation situé sur la porte de la salle !
+
