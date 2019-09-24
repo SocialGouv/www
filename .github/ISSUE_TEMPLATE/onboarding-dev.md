@@ -19,6 +19,8 @@ Nous avons donc décidé lors de l'un de nos séminaires de permettre à tous no
 
 Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. Les autres membres de l'incubateur sont à ta disposition pour t'aider à répondre à toutes tes questions.
 
+N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélioration continue :)
+
 ## Avant d'arriver
 
  - [ ] Lire le [welcome pack dev](https://github.com/SocialGouv/socialgouv.github.io/wiki/Social-Gouv-Tech-Welcome-Pack-🖖) : liens vers les outils, recommandations et bonnes pratiques
@@ -26,6 +28,7 @@ Cette issue va nous permettre de suivre l'avancement des étapes d'onboarding. L
  - [ ] Ajouter le calendrier de l'incubateur : freego.mas@gmail.com (calendrier google partagé)
  
 ## En arrivant
+
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
  - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
