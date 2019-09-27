@@ -1,11 +1,11 @@
-const withCSS = require('@zeit/next-css');
-const withImages = require('next-images');
+const withCSS = require("@zeit/next-css");
+const withImages = require("next-images");
 
-const withMDX = require('@zeit/next-mdx')({
+const withMDX = require("@zeit/next-mdx")({
   options: {
-    mdPlugins: [
-      require('remark-autolink-headings'),
-      require('remark-highlight.js')
+    remarkPlugins: [
+      require("remark-autolink-headings"),
+      require("remark-highlight.js")
     ]
   }
 });
@@ -13,13 +13,13 @@ const withMDX = require('@zeit/next-mdx')({
 module.exports = withMDX(
   withImages(
     withCSS({
-      pageExtensions: ['js', 'mdx'],
-      assetPrefix: '',
+      pageExtensions: ["js", "mdx"],
+      assetPrefix: "",
 
       webpack: config => {
         config.module.rules.push({
           test: /\.(woff|woff2|eot|ttf|otf)$/,
-          use: 'file-loader?name=static/fonts/[name].[ext]'
+          use: "file-loader?name=static/fonts/[name].[ext]"
         });
 
         return config;
