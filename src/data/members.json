@@ -326,5 +326,13 @@
     "startups": ["code-du-travail-numerique"],
     "role": "Développeur Fullstack, UX/UI",
     "picture": "/static/images/members/nicolas.kremer.jpg"
+  },
+  {
+    "id": "mathieu.agopian",
+    "name": "Mathieu Agopian",
+    "structure": "Freelance",
+    "startups": ["egapro"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/mathieu.agopian.jpg"
   }
 ]
