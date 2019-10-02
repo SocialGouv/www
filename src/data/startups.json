@@ -213,5 +213,27 @@
         "description": "Bientôt ! Le code source de l'application Archifiltre"
       }
     ]
+  },
+  {
+    "id": "textstyle",
+    "href": "/startups/textstyle",
+    "img": "/static/images/startups/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg",
+    "title": "TextStyle",
+    "meta": "Juillet 2019",
+    "description": "TextStyle simplifie la rédaction des textes normatifs",
+    "links": [
+      {
+        "title": "Page d'accueil",
+        "subTitle": "https://textstyle.github.io/",
+        "href": "https://textstyle.github.io/",
+        "description": "Page officielle du produit"
+      },
+      {
+        "title": "Github",
+        "subTitle": "code source",
+        "href": "https://github.com/SocialGouv/textStyle ",
+        "description": "Bientôt ! Le code source de la documentation utilisateur en Markdown"
+      }
+    ]
   }
 ]
