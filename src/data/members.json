@@ -334,5 +334,13 @@
     "startups": ["egapro"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/mathieu.agopian.jpg"
+  },
+  {
+    "id": "eglantine.schmitt",
+    "name": "Eglantine Schmitt",
+    "structure": "Freelance",
+    "startups": ["ramses"],
+    "role": "Product, UX, Data",
+    "picture": "/static/images/members/eglantine.schmitt.jpg"
   }
 ]
