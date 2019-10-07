@@ -342,5 +342,13 @@
     "startups": ["ramses"],
     "role": "Product, UX, Data",
     "picture": "/static/images/members/eglantine.schmitt.jpg"
+  },
+  {
+    "id": "benjamin.morali",
+    "name": "Benjamin Morali",
+    "structure": "beNext",
+    "startups": ["archifiltre"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/benjamin.morali.jpg"
   }
 ]
