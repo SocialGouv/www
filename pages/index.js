@@ -14,12 +14,11 @@ import {
 } from "../src/composants";
 
 import startups from "../src/data/startups.json";
-
-import AsyncFetch from "../src/composants/AsyncFetch";
+import stats from "../static/github-stats.json";
 
 const chiffres = [
   {
-    title: "Startups incubées",
+    title: "Startups",
     value: startups.length
   },
   {
@@ -27,31 +26,12 @@ const chiffres = [
     value: 11
   },
   {
-    title: "m² d&apos;espace dédié",
-    value: 150
-  },
-  {
-    title: "Startups en création",
-    value: 3
-  }
-];
-
-const normalizeGithubStats = stats => [
-  {
     title: "Projets open-source",
     value: stats.count
   },
   {
-    title: "Tickets",
-    value: stats.issues
-  },
-  {
     title: "Commits",
     value: stats.commits
-  },
-  {
-    title: "Contributeurs",
-    value: stats.contributors
   }
 ];
 
@@ -72,25 +52,6 @@ const Homepage = () => (
     >
       <BlocChiffres chiffres={chiffres} />
     </Section>
-
-    <Section title="Notre activité" subTitle="">
-      <br />
-      <br />
-      <AsyncFetch
-        fetch={() =>
-          fetch(document.location.origin + "/static/github-stats.json").then(
-            res => res.json()
-          )
-        }
-        render={({ status, result }) => {
-          return (
-            status === "success" &&
-            result && <BlocChiffres chiffres={normalizeGithubStats(result)} />
-          );
-        }}
-      />
-    </Section>
-
     <div id="produits" />
     <SectionCards className="section-color" title="Nos startups" />
 
