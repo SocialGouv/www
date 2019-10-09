@@ -23,6 +23,7 @@ stages:
   - "Registration"
   - "Deploy dev"
   - "Send Url to GitHub (dev)"
+  - "Make a new release"
   - "Deploy prod"
   - "Send Url to GitHub (prod)"
 
@@ -89,18 +90,35 @@ Get Github Id (prod):
   before_script:
     - echo "$CI_JOB_TOKEN" | docker login $CI_REGISTRY -u gitlab-ci-token --password-stdin
     - docker pull $IMAGE_NAME:$CI_COMMIT_BEFORE_SHA || true
-  script:
-    - echo "Build $IMAGE_NAME:$CI_COMMIT_SHA from $IMAGE_NAME:$CI_COMMIT_BEFORE_SHA"
-    - docker build --cache-from $IMAGE_NAME:$CI_COMMIT_BEFORE_SHA -t $IMAGE_NAME:$CI_COMMIT_SHA -f $DOCKERFILE_PATH $CONTEXT
-    - docker push $IMAGE_NAME
+
 #
 
-Register api image:
+Register api image with commit sha:
   <<: *register_stage
   variables:
     CONTEXT: .
     DOCKERFILE_PATH: Dockerfile
     IMAGE_NAME: $CI_REGISTRY_IMAGE
+  script:
+    - echo "Build $IMAGE_NAME:$CI_COMMIT_SHA from $IMAGE_NAME:$CI_COMMIT_BEFORE_SHA"
+    - docker build --cache-from $IMAGE_NAME:$CI_COMMIT_BEFORE_SHA -t $IMAGE_NAME:$CI_COMMIT_SHA -f $DOCKERFILE_PATH $CONTEXT
+    - docker push $IMAGE_NAME
+  except:
+    - /^v.*/
+
+Register api image with release version:
+  <<: *register_stage
+  variables:
+    CONTEXT: .
+    DOCKERFILE_PATH: Dockerfile
+    IMAGE_NAME: $CI_REGISTRY_IMAGE
+  script:
+    - echo "Build $IMAGE_NAME:${RELEASE_VERSION}"
+    - docker build -t $IMAGE_NAME:${RELEASE_VERSION} -f $DOCKERFILE_PATH $CONTEXT
+    - docker push $IMAGE_NAME:${RELEASE_VERSION}
+  only:
+    - /^v.*/
+
 
 ###########################################
 ###            DEPLOY TO K8S            ###
@@ -179,6 +197,23 @@ Deploy preprod:
     - export HELM_RELEASE_NAME=${APP_NAME}-${PREPROD_ENVIRONMENT_NAME}
   only:
     - /^v.*/
+
+###########################################
+###           RELEASE VERSION           ###
+###########################################
+
+Make a new release to deploy to preprod environment :
+  stage: "Make a new release"
+  image: ${CI_REGISTRY}/${IMAGE_INFRA_BASE_NAME}/curl:${INFRA_CURL_VERSION}
+  script:
+    - >-
+      curl --verbose POST
+      https://${GITHUB_TOKEN}@api.github.com/repos/SocialGouv/socialgouv.github.io/git/refs
+      --header 'Content-Type:application/json'
+      --data '{"ref": "refs/tags/'${RELEASE_VERSION}'", "sha": "'${CI_COMMIT_SHA}'"}'
+  when: manual
+  only:
+    - helm
 
 ###########################################
 ###            DEPLOY TO PROD           ###
