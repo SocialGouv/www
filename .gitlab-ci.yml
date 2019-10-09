@@ -23,6 +23,7 @@ stages:
   - "Registration"
   - "Deploy dev"
   - "Send Url to GitHub (dev)"
+  - "Make a new release"
   - "Deploy prod"
   - "Send Url to GitHub (prod)"
 
@@ -179,6 +180,23 @@ Deploy preprod:
     - export HELM_RELEASE_NAME=${APP_NAME}-${PREPROD_ENVIRONMENT_NAME}
   only:
     - /^v.*/
+
+###########################################
+###           RELEASE VERSION           ###
+###########################################
+
+Make a new release to deploy to preprod environment :
+  stage: "Make a new release"
+  image: ${CI_REGISTRY}/${IMAGE_INFRA_BASE_NAME}/curl:${INFRA_CURL_VERSION}
+  script:
+    - >-
+      curl --verbose POST
+      https://${GITHUB_TOKEN}@api.github.com/repos/SocialGouv/socialgouv.github.io/git/refs
+      --header 'Content-Type:application/json'
+      --data '{"ref": "refs/tags/'${RELEASE_VERSION}'", "sha": "'${CI_COMMIT_SHA}'"}'
+  when: manual
+  only:
+    - helm
 
 ###########################################
 ###            DEPLOY TO PROD           ###
