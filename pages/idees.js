@@ -1,12 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import dynamic from "next/dynamic";
 
 import { Section, Layout, Hero } from "../src/composants";
-
-const ReactTypeformEmbed = dynamic(() => import("react-typeform-embed-2"), {
-  ssr: false
-});
 
 // https://github.com/facebook/react/issues/377
 const News = ({ title, date, html }) => (
@@ -41,18 +36,14 @@ const Actus = () => (
       tagline="Participer à l'amélioration du service public des Ministères Sociaux"
       style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
     />
-    <Section className="section-white" title="Déposer votre idée" subTitle="">
-      <ReactTypeformEmbed
-        url={"https://incubateurministeressociaux.typeform.com/to/BNlCIL"}
-        buttonText="Déposer mon idée"
-        style={{
-          height: 500,
-          margin: "0 auto",
-          textAlign: "center"
-        }}
-        hideHeaders="true"
-        hideFooter="true"
-      />
+    <Section className="section-white" title="Déposez votre idée" subTitle="">
+      <p>&nbsp;</p>
+      <p style={{ textAlign: "center" }}>
+        Envoyez-nous dès maintenant un email sur{" "}
+        <a href="mailto:DSI-incubateur@sg.social.gouv.fr">
+          DSI-incubateur@sg.social.gouv.fr
+        </a>
+      </p>
     </Section>
   </Layout>
 );
