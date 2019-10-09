@@ -350,5 +350,13 @@
     "startups": ["archifiltre"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/benjamin.morali.jpg"
+  },
+  {
+    "id": "pierre-olivier.mauguet",
+    "name": "Pierre-Olivier Mauguet",
+    "structure": "Incubateur des ministères sociaux",
+    "startups": ["MedLé"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/pierre-olivier.mauguet.jpg"
   }
 ]
