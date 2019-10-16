@@ -1,0 +1,31 @@
+# Default values for Mas webapp. https://github.com/SocialGouv/helm-charts/blob/master/webapp/values.yaml
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  repository: ${CI_REGISTRY_IMAGE}
+  tag: ${IMAGE_TAG}
+
+deployment:
+  port: ${PORT}
+  resources:
+    requests:
+      cpu: 100m
+      memory: 128Mi
+    limits:
+      cpu: 200m
+      memory: 256Mi
+service:
+  port: ${PORT}
+
+certificate:
+  clusterIssuer: ${LETSENCRYPT_ISSUER}
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: "azure/application-gateway"
+  hosts:
+  - ${INGRESS_ENVIRONMENT_PREFIX}${APP_NAME}.${DOMAIN_NAME}
+  tls:
+  - secretName: ${APP_NAME}-crt-secret${HASH_BRANCH_NAME}
+    hosts:
+    - ${INGRESS_ENVIRONMENT_PREFIX}${APP_NAME}.${DOMAIN_NAME}
