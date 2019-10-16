@@ -12,7 +12,6 @@ const Section = ({
     <div className="container">
       <h2 className="section__title">{title}</h2>
       <p className="section__subtitle">{subTitle}</p>
-
       {children}
     </div>
   </section>

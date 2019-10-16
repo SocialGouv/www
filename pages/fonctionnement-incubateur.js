@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Layout, Section } from "../src/composants";
+import { Layout, Section } from "../src/composants";
 import styled from "styled-components";
 
 //
@@ -15,31 +15,41 @@ const CentralFigure = styled.figure`
 
 //
 
-const BlocHorizontal = ({ title, children }) => (
-  <div style={{ width: "25%" }}>
-    <div
-      style={{
-        width: 100,
-        height: 100,
-        margin: "0 auto",
-        background: "#efefef"
-      }}
-    >
-      &nbsp;
-    </div>
-    <h4 style={{ textAlign: "center" }}>{title}</h4>
-    <div style={{ textAlign: "justify" }}>{children}</div>
+const BlocHorizontal = styled(({ className, title, children }) => (
+  <div className={className}>
+    <div className="BlocHorizontal__icon">&nbsp;</div>
+    <h4>{title}</h4>
+    <div className="BlocHorizontal__text">{children}</div>
   </div>
-);
+))`
+  width: 25%;
+  margin-bottom: 40px;
+  @media (max-width: 549px) {
+    width: 100%;
+  }
+  .BlocHorizontal__icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: #efefef;
+  }
+  .BlocHorizontal__text {
+    text-align: justify;
+    line-height: 1.3em;
+  }
+  h4 {
+    text-align: center;
+  }
+`;
 
 const BlocVertical = ({ title, children }) => (
   <div style={{ display: "flex", flexDirection: "row", marginBottom: 20 }}>
     <div
       style={{
         display: "inline-block",
-        flex: "0 0 100px",
-        width: 100,
-        height: 100,
+        flex: "0 0 80px",
+        width: 80,
+        height: 80,
         marginRight: 40,
         background: "#efefef"
       }}
@@ -55,6 +65,16 @@ const BlocVertical = ({ title, children }) => (
   </div>
 );
 
+const HorizontalContainer = styled.div`
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+
+  @media (max-width: 549px) {
+    display: block;
+  }
+`;
+
 const Fonctionnement = () => (
   <Layout>
     <Section
@@ -62,13 +82,7 @@ const Fonctionnement = () => (
       title="Comment candidater"
       subTitle="Proposez votre idée"
     >
-      <div
-        style={{
-          display: "flex",
-          marginTop: 40,
-          justifyContent: "space-between"
-        }}
-      >
+      <HorizontalContainer>
         <BlocHorizontal icon="ampoule" title="Appel à idées">
           Un appel à idées est adressé chaque année à l’ensemble des agents des
           ministères sociaux. Témoins d’irritants récurrents pour les usagers ou
@@ -87,15 +101,21 @@ const Fonctionnement = () => (
           présenter devant un jury d'experts.
         </BlocHorizontal>
         <BlocHorizontal icon="cog" title="Incubation">
-          L’incubateur accueille des porteurs d'idées - **les « intrapreneurs
-          »** - qui, après avoir identifié un irritant sur le terrain, sont
-          accompagnés afin de développer un produit numérique dans une logique
-          de “start-up d’Etat”. d’administration centrale.
+          L’incubateur accueille des porteurs d'idées -{" "}
+          <strong>les « intrapreneur(se)s »</strong> - qui, après avoir
+          identifié un irritant sur le terrain, sont accompagnés afin de
+          développer un produit numérique dans une logique de “start-up d’Etat”.
+          d’administration centrale.
         </BlocHorizontal>
+      </HorizontalContainer>
+      <div style={{ textAlign: "center", marginTop: 20 }}>
+        <a className="button primary large" href="/actus">
+          Candidater
+        </a>
       </div>
     </Section>
     <Section
-      className="section-white"
+      className="section-color"
       title="6 mois d'accompagnement"
       subTitle="du lancement à la mise en production"
     >
@@ -125,6 +145,19 @@ const Fonctionnement = () => (
           disponible pour tous les usagers et se développe au sein de la
           direction ou intègre l’administration porteuse.
         </BlocVertical>
+      </div>
+    </Section>
+    <Section
+      className="section-white"
+      title="Et après"
+      subTitle="Déploiement progressif et pérennisation"
+    >
+      <div
+        style={{
+          marginTop: 40
+        }}
+      >
+        Accompagnement, certifications
       </div>
     </Section>
   </Layout>
