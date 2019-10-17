@@ -108,7 +108,6 @@ const Fonctionnement = () => (
       </div>
     </Section>
     <Section
-      className="section-color"
       title="6 mois d'accompagnement"
       subTitle="du lancement à la mise en production"
     >
