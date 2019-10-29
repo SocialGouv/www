@@ -336,6 +336,14 @@
     "picture": "/static/images/members/mathieu.agopian.jpg"
   },
   {
+    "id": "victoria.martinez",
+    "name": "Victoria Martinez",
+    "structure": "Incubateur des ministères sociaux",
+    "startups": ["egapro"],
+    "role": "intrapreneur",
+    "picture": "/static/images/members/victoria.martinez.jpg"
+  },
+  {
     "id": "eglantine.schmitt",
     "name": "Eglantine Schmitt",
     "structure": "Freelance",
