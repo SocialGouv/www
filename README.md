@@ -14,6 +14,12 @@ Faire les changements directement sur GitHub ou sur une branche locale, et soume
 
 Editer [members.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.json) et ajouter votre photo :)
 
+### Ajouter une startup :
+
+📝 ajouter la startup dans [src/data/startups.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/startups.json)
+
+📝 ajouter la fiche produit dans `pages/startups/startup.mdx`. Copier le fichier work-in-france.mdx par exemple.
+
 ### Ajouter une brève :
 
 📝 éditer [src/data/news.js](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/news.js)
