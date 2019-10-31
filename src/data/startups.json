@@ -231,8 +231,24 @@
       {
         "title": "Github",
         "subTitle": "code source",
-        "href": "https://github.com/SocialGouv/textStyle ",
+        "href": "https://github.com/SocialGouv/textStyle",
         "description": "Bientôt ! Le code source de la documentation utilisateur en Markdown"
+      }
+    ]
+  },
+  {
+    "id": "pass-preservatif",
+    "href": "/startups/pass-preservatif",
+    "img": "/static/images/startups/photo-1571954471509-801c155e01ec.jpeg",
+    "title": "PassPreservatif",
+    "meta": "Juillet 2019",
+    "description": "L'app de la santé et de l'éducation sexuelle pour les moins de 25 ans",
+    "links": [
+      {
+        "title": "Github",
+        "subTitle": "code source",
+        "href": "https://github.com/SocialGouv/PassPreservatif ",
+        "description": "Bientôt ! Le code source de l'application'"
       }
     ]
   }
