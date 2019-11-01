@@ -35,10 +35,6 @@ stages:
 
 Quality tests:
   <<: *quality_stage
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
   script:
     - yarn lint
 
@@ -119,7 +115,6 @@ Register api image with release version:
   only:
     - /^v.*/
 
-
 ###########################################
 ###            DEPLOY TO K8S            ###
 ###########################################
@@ -168,7 +163,7 @@ Deploy master:
     <<: *deploy_stage_variables
     PORT: ${FRONT_PORT}
     NAMESPACE: ${MASTER_ENVIRONMENT_NAME}
-    HASH_BRANCH_NAME: ''
+    HASH_BRANCH_NAME: ""
     INGRESS_ENVIRONMENT_PREFIX: ${MASTER_ENVIRONMENT_NAME}. # "." at the end of line is needed to deploy into hors prod environment
     LETSENCRYPT_ISSUER: letsencrypt-prod
     IMAGE_TAG: ${CI_COMMIT_SHA}
@@ -186,7 +181,7 @@ Deploy preprod:
   variables:
     <<: *deploy_stage_variables
     NAMESPACE: ${PREPROD_ENVIRONMENT_NAME}
-    HASH_BRANCH_NAME: ''
+    HASH_BRANCH_NAME: ""
     INGRESS_ENVIRONMENT_PREFIX: ${PREPROD_ENVIRONMENT_NAME}. # "." at the end of line is needed to deploy into hors prod environment
     LETSENCRYPT_ISSUER: letsencrypt-prod
     IMAGE_TAG: ${RELEASE_VERSION}
@@ -202,7 +197,7 @@ Deploy preprod:
 ###           RELEASE VERSION           ###
 ###########################################
 
-Make a new release to deploy to preprod environment :
+Make a new release to deploy to preprod environment:
   stage: "Make a new release"
   image: ${CI_REGISTRY}/${IMAGE_INFRA_BASE_NAME}/curl:${INFRA_CURL_VERSION}
   script:
@@ -225,7 +220,7 @@ Deploy prod:
   variables:
     <<: *deploy_stage_variables
     NAMESPACE: ${PROD_ENVIRONMENT_NAME}
-    INGRESS_ENVIRONMENT_PREFIX: ''
+    INGRESS_ENVIRONMENT_PREFIX: ""
     LETSENCRYPT_ISSUER: letsencrypt-prod
     IMAGE_TAG: ${RELEASE_VERSION}
   environment:
