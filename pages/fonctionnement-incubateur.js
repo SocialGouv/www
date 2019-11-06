@@ -1,11 +1,24 @@
 import React from "react";
-import { Layout, Section } from "../src/composants";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-const BlocHorizontal = styled(({ className, title, children }) => (
+import { Layout, Section } from "../src/composants";
+
+import {
+  FaWifi,
+  FaAward,
+  FaRocket,
+  FaSearch,
+  FaCogs,
+  FaChartLine,
+  FaCheckSquare
+} from "react-icons/fa";
+
+const BlocHorizontal = styled(({ className, Icon, title, children }) => (
   <div className={className}>
-    <div className="BlocHorizontal__icon">&nbsp;</div>
+    <div className="BlocHorizontal__icon">
+      <Icon size="80" />
+    </div>
     <h4>{title}</h4>
     <div className="BlocHorizontal__text">{children}</div>
   </div>
@@ -19,7 +32,7 @@ const BlocHorizontal = styled(({ className, title, children }) => (
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    background: #efefef;
+    text-align: center;
   }
   .BlocHorizontal__text {
     text-align: justify;
@@ -30,19 +43,16 @@ const BlocHorizontal = styled(({ className, title, children }) => (
   }
 `;
 
-const BlocVertical = ({ title, children }) => (
+const BlocVertical = ({ title, children, Icon }) => (
   <div style={{ display: "flex", flexDirection: "row", marginBottom: 20 }}>
     <div
       style={{
-        display: "inline-block",
+        textAlign: "center",
         flex: "0 0 80px",
-        width: 80,
-        height: 80,
-        marginRight: 40,
-        background: "#efefef"
+        marginRight: 20
       }}
     >
-      &nbsp;
+      <Icon size="60" />
     </div>
     <div style={{ flex: "1 0 calc(100% - 150px)" }}>
       <h4 style={{ marginTop: 0, marginBottom: 10, textAlign: "left" }}>
@@ -76,7 +86,7 @@ const Fonctionnement = () => (
       subTitle="Proposez votre idée"
     >
       <HorizontalContainer>
-        <BlocHorizontal icon="ampoule" title="Appel à idées">
+        <BlocHorizontal Icon={FaWifi} title="Appel à idées">
           Un appel à idées est adressé chaque année à l’ensemble des agents des
           ministères sociaux. Témoins d’irritants récurrents pour les usagers ou
           les agents, ils sont invités à exprimer leurs idées et solutions afin
@@ -87,13 +97,13 @@ const Fonctionnement = () => (
             besoins des directions d’administration centrale.
           </div>
         </BlocHorizontal>
-        <BlocHorizontal icon="check" title="Sélection des lauréats">
+        <BlocHorizontal Icon={FaAward} title="Sélection des lauréats">
           L’incubateur sélectionne des candidatures et invite les candidats à
           participer à une journée de sélection. Tout au long de cette journée
           les candidats seront accompagnés afin de structurer leur idée et la
           présenter devant un jury d&apos;experts.
         </BlocHorizontal>
-        <BlocHorizontal icon="cog" title="Incubation">
+        <BlocHorizontal Icon={FaRocket} title="Incubation">
           L’incubateur accueille des porteurs d&apos;idées -{" "}
           <strong>les « intrapreneur(se)s »</strong> - qui, après avoir
           identifié un irritant sur le terrain, sont accompagnés afin de
@@ -102,7 +112,10 @@ const Fonctionnement = () => (
         </BlocHorizontal>
       </HorizontalContainer>
       <div style={{ textAlign: "center", marginTop: 20 }}>
-        <a className="button primary large" href="/actus">
+        <a
+          className="button primary large"
+          href="mailto:DSI-incubateur@sg.social.gouv.fr&subject=candidature"
+        >
           Candidater
         </a>
       </div>
@@ -116,29 +129,33 @@ const Fonctionnement = () => (
           marginTop: 40
         }}
       >
-        <BlocVertical icon="target" title="Identification du problème">
+        <BlocVertical Icon={FaSearch} title="Identification du problème">
           L’intrapreneur est accompagné par l’incubateur afin de formaliser le
           problème identifié et de garantir qu’il concerne un public
           suffisamment large, qu’un outil numérique pourrait le faire
           disparaître et que les obstacles techniques sont surmontables.
         </BlocVertical>
-        <BlocVertical icon="target" title="Construction">
+        <BlocVertical Icon={FaCogs} title="Construction">
           L’équipe dispose de six mois pour lancer une solution et la tester
           auprès de ses premiers usagers. Sans cahier des charges, elle lance un
           service fonctionnel rapidement, même s’il est imparfait.
         </BlocVertical>
-        <BlocVertical icon="target" title="Accélération">
+        <BlocVertical Icon={FaChartLine} title="Accélération">
           L’administration fixe des objectifs à atteindre pour les six prochains
           mois. Le service est progressivement étendu à de nouveaux usagers. Les
           retours des utilisateurs permettent d’améliorer le service en continu.
         </BlocVertical>
-        <BlocVertical icon="target" title="Consolidation et pérennisation">
+        <BlocVertical
+          Icon={FaCheckSquare}
+          title="Consolidation et pérennisation"
+        >
           La start-up d’État devient un service public numérique national
           disponible pour tous les usagers et se développe au sein de la
           direction ou intègre l’administration porteuse.
         </BlocVertical>
       </div>
     </Section>
+    {/*
     <Section
       className="section-white"
       title="Et après"
@@ -151,7 +168,7 @@ const Fonctionnement = () => (
       >
         Accompagnement, certifications
       </div>
-    </Section>
+    </Section>*/}
   </Layout>
 );
 
