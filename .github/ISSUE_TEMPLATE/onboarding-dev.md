@@ -34,10 +34,11 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
+ - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur et se présenter sur [~incub/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/incub-nouveaux)
+ - [ ] Consulter les [bonnes pratiques mattermost](https://github.com/SocialGouv/socialgouv.github.io/wiki/Mattermost)
+ - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
  - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
  - [ ] (optionnel) Rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
- - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur et se présenter sur [~incub/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/incub-nouveaux)
- - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de l'incubateur
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.tools.factory.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.tools.factory.social.gouv.fr)
 
