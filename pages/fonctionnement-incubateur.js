@@ -43,7 +43,7 @@ const BlocHorizontal = styled(({ className, Icon, title, children }) => (
   }
 `;
 
-const BlocVertical = ({ title, children, Icon }) => (
+const BlocVertical = ({ title, children }) => (
   <div style={{ display: "flex", flexDirection: "row", marginBottom: 20 }}>
     <div
       style={{
