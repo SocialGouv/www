@@ -360,6 +360,14 @@
     "picture": "/static/images/members/benjamin.morali.jpg"
   },
   {
+    "id": "yowa.muzadi",
+    "name": "Yowa Muzadi",
+    "structure": "Freelance",
+    "startups": ["pass-preservatif"],
+    "role": "Chargée de déploiement",
+    "picture": "/static/images/members/yowa.muzadi.jpg"
+  },
+  {
     "id": "pierre-olivier.mauguet",
     "name": "Pierre-Olivier Mauguet",
     "structure": "Incubateur des ministères sociaux",
