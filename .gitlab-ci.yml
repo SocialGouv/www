@@ -123,6 +123,7 @@ Register api image with release version:
 .deploy_stage: &deploy_stage
   image:
     name: ${CI_REGISTRY}/${IMAGE_INFRA_BASE_NAME}/helm:${INFRA_HELM_VERSION}
+  when: manual
   variables: &deploy_stage_variables
     PORT: ${FRONT_PORT}
   script:
