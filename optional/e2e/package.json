@@ -16,7 +16,7 @@
     "@types/puppeteer": "^1.20.2",
     "expect-puppeteer": "^4.3.0",
     "jest-environment-puppeteer": "^4.3.0",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^24.2.0",
     "typescript": "^3.6.4"
   }
 }
