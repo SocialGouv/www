@@ -374,5 +374,14 @@
     "startups": ["MedLé"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/pierre-olivier.mauguet.jpg"
+  },
+  {
+    "id": "remi.melisson",
+    "name": "Rémi Mélisson",
+    "structure": "Freelance",
+    "startups": ["code-du-travail-numerique"],
+    "role": "Développeur : back / ML /  NLP",
+    "picture": "/static/images/members/remi.m.jpg"
   }
+
 ]
