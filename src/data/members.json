@@ -384,6 +384,14 @@
     "picture": "/static/images/members/remi.m.jpg"
   },
   {
+    "id": "paul.launay",
+    "name": "Paul Launay",
+    "structure": "Freelance",
+    "startups": ["e-mjpm"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/paul.launay.jpg"
+  },
+  {
     "id": "hugo.feldstein",
     "name": "Hugo Feldstein",
     "structure": "Freelance",
@@ -391,5 +399,4 @@
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/hugo.f.jpg"
   }
-
 ]
