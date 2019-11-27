@@ -390,5 +390,13 @@
     "startups": ["e-mjpm"],
     "role": "Développeur Fullstack",
     "picture": "/static/images/members/paul.launay.jpg"
+  },
+  {
+    "id": "hugo.feldstein",
+    "name": "Hugo Feldstein",
+    "structure": "Freelance",
+    "startups": ["textstyle"],
+    "role": "Développeur Fullstack",
+    "picture": "/static/images/members/hugo.f.jpg"
   }
 ]
