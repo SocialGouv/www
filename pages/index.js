@@ -13,7 +13,7 @@ import {
   BlocChiffres
 } from "../src/composants";
 
-import startups from "../src/data/startups.json";
+import startups from "../src/data/startups.yml";
 import stats from "../static/github-stats.json";
 
 const chiffres = [

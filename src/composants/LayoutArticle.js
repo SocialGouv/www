@@ -10,7 +10,10 @@ import {
   SectionCards,
   StartupMembers
 } from ".";
+
 import { Facebook, Twitter, GitHub, Link, BarChart, Lock } from "react-feather";
+
+import startups from "../data/startups.yml";
 
 const icons = {
   facebook: Facebook,
@@ -66,10 +69,6 @@ ArticleLink.propTypes = {
   subTitle: PropTypes.string,
   title: PropTypes.string
 };
-
-//
-
-import startups from "../data/startups.json";
 
 const getStartupData = id => startups.find(s => s.id === id);
 const getOtherStartupsData = id => startups.filter(s => s.id !== id);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from ".";
-import startups from "../data/startups.json";
+import startups from "../data/startups.yml";
 
 // startups par id {"e-mjpm": {...}, "work-in-france":{...} ...}
 const Cards = startups.reduce(

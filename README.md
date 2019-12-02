@@ -12,11 +12,11 @@ Faire les changements directement sur GitHub ou sur une branche locale, et soume
 
 ### Ajouter son profil :
 
-Editer [members.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.json) et ajouter votre photo :)
+Editer [members.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.yml) et ajouter votre photo :)
 
 ### Ajouter une startup :
 
-📝 ajouter la startup dans [src/data/startups.json](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/startups.json)
+📝 ajouter la startup dans [src/data/startups.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/startups.yml)
 
 📝 ajouter la fiche produit dans `pages/startups/startup.mdx`. Copier le fichier work-in-france.mdx par exemple.
 
