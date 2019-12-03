@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { Hero, Layout, Card } from "../src/composants";
-import members from "../src/data/members.json";
+import members from "../src/data/members.yml";
 
 const shuffled = arr =>
   arr

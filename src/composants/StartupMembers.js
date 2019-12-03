@@ -1,7 +1,7 @@
 import React from "react";
 import { Member } from ".";
 
-import members from "../data/members.json";
+import members from "../data/members.yml";
 
 const getStartupMembers = startup =>
   members.filter(member => member.startups.indexOf(startup) > -1);
