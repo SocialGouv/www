@@ -164,7 +164,6 @@
   startups:
     - code-du-travail-numerique
     - work-in-france
-    - fce
   role: tech lead
   picture: /static/images/members/julien.bouquillon.jpg
 - id: eric.heijligers
