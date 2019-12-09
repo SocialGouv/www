@@ -48,7 +48,7 @@
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^2.5.0",
     "react-youtube": "^7.9.0",
-    "remark-highlight.js": "^5.1.1",
+    "remark-highlight.js": "^5.2.0",
     "styled-components": "^4.4.0",
     "template.data.gouv.fr": "^1.1.8"
   }
