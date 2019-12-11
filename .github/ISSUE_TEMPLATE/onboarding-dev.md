@@ -29,7 +29,8 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] Lire le [welcome pack dev](https://github.com/SocialGouv/socialgouv.github.io/wiki/Social-Gouv-Tech-Welcome-Pack-🖖) : liens vers les outils, recommandations et bonnes pratiques
  - [ ] Parcourir les [repos SocialGouv](http://github.com/SocialGouv)
  - [ ] Ajouter le calendrier de l'incubateur : freego.mas@gmail.com (calendrier google partagé)
- 
+ - [ ] Verifier que [ton compte GitHub est sécurisé](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)
+
 ## En arrivant
 
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas.  
