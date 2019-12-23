@@ -289,6 +289,22 @@
     - work-in-france
   role: Chargée de déploiement
   picture: /static/images/members/siegrid.henry.jpg
+- id: aurelie.rolland
+  name: Aurélie Rolland
+  structure: Freelance
+  startups:
+    - code-du-travail-numerique
+    - egapro
+    - pass-preservatif
+  role: designer UX
+  picture: /static/images/members/aurelie-rolland.jpg
+- id: viriginie.lastisneres
+  name: Virginie Lastisneres
+  structure: DGT
+  startups:
+    - code-du-travail-numerique
+  role: expert métier
+  picture: /static/images/members/virginie-lastisneres.jpg
 - id: nicolas.kremer
   name: Nicolas Kremer
   structure: Freelance
