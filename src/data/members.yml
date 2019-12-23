@@ -347,6 +347,13 @@
     - pass-preservatif
   role: Chargée de déploiement
   picture: /static/images/members/yowa.muzadi.jpg
+- id: abdessamad.youssfi
+  name: Abdessamad Youssfi
+  structure: Freelance
+  startups:
+    - code-du-travail-numerique
+  role: Growth
+  picture: /static/images/members/abdessamad-youssfi.jpg
 - id: pierre-olivier.mauguet
   name: Pierre-Olivier Mauguet
   structure: Incubateur des ministères sociaux
