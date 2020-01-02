@@ -98,8 +98,8 @@ const LayoutCDTN = ({ meta, children }) => {
       <p>
         {" "}
         👉 Pour en savoir plus, contactez-nous sur{" "}
-        <a href="mailto:codedutravail@travail.gouv.fr">
-          codedutravail@travail.gouv.fr
+        <a href="mailto:codedutravailnumerique@travail.gouv.fr">
+          codedutravailnumerique@travail.gouv.fr
         </a>
       </p>
 
