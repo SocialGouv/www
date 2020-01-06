@@ -382,3 +382,10 @@
     - textstyle
   role: Développeur Fullstack
   picture: /static/images/members/hugo.f.jpg
+- id: gary.van-woerkens
+  name: Gary van Woerkens
+  structure: Incubateur des ministères sociaux
+  startups:
+    - code-du-travail-numerique
+  role: Delivery Manager
+  picture: /static/images/members/avatar.jpg
