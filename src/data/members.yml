@@ -389,3 +389,10 @@
     - code-du-travail-numerique
   role: Delivery Manager
   picture: /static/images/members/avatar.jpg
+- id: clement.berthou
+  name: Clément Berthou
+  structure: beNext
+  startups:
+    - archifiltre
+  role: Développeur Fullstack
+  picture: /static/images/members/clement.berthou.jpg
