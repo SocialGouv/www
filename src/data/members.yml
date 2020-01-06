@@ -386,5 +386,6 @@
   name: Gary van Woerkens
   structure: Incubateur des ministères sociaux
   startups:
+    - code-du-travail-numerique
   role: Delivery Manager
   picture: /static/images/members/avatar.jpg
