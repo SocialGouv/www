@@ -98,6 +98,11 @@ div.article__author .article__author-role {
   min-width: 300px;
 }
 
+.card.startup--finished {
+  opacity: 20%;
+  filter: grayscale(100%);
+}
+
 @media (max-width: 549px) {
   .card {
     max-width: 100%;
@@ -124,4 +129,3 @@ div.article__author .article__author-role {
 .card__cover img {
   object-position: center;
 }
-
