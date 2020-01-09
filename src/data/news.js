@@ -183,7 +183,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     date: "23 Août 2018",
     author: "marc.hertzog",
     title: "Code du travail numérique : nouveau design",
-    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail.num.social.gouv.fr">codedutravail.num.social.gouv.fr</a></p>
+    html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://code.travail.gouv.fr">code.travail.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
         <li>un nouveau design</li>
