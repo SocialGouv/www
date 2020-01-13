@@ -174,6 +174,7 @@ LayoutArticle.propTypes = {
     }),
     links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
   }),
+  startupData: PropTypes.object,
   footer: PropTypes.element,
   children: PropTypes.oneOfType([
     PropTypes.element,
