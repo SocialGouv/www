@@ -80,6 +80,7 @@ function withStartup(Cmp) {
     const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
     const allProps = {
       ...props,
+      startupData,
       meta: {
         ...props.meta,
         links: [
@@ -106,7 +107,7 @@ function withStartup(Cmp) {
   return CmpWithStartup;
 }
 
-const LayoutArticle = ({ meta, footer, children }) => {
+const LayoutArticle = ({ meta, footer, children, startupData }) => {
   return (
     <Layout>
       <Head>
@@ -123,6 +124,18 @@ const LayoutArticle = ({ meta, footer, children }) => {
         null}
 
       <Article>
+        {startupData.finished && (
+          <div
+            style={{
+              background: "#efefef",
+              padding: 10,
+              borderRadius: 2,
+              fontSize: "1.5em"
+            }}
+          >
+            Cette startup a cessé son activité au {startupData.finished}
+          </div>
+        )}
         {children}
         {(meta && meta.links && meta.links.length && (
           <React.Fragment>
@@ -161,6 +174,7 @@ LayoutArticle.propTypes = {
     }),
     links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
   }),
+  startupData: PropTypes.object,
   footer: PropTypes.element,
   children: PropTypes.oneOfType([
     PropTypes.element,

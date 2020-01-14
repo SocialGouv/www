@@ -9,7 +9,7 @@ function withStartups(Cmp) {
     <Cmp
       {...props}
       startups={startups.filter(s =>
-        props.startups ? props.startups.indexOf(s.id) > -1 : true
+        props.startups ? props.startups.includes(s.id) : true
       )}
     />
   );
@@ -36,7 +36,12 @@ const SectionCards = ({
         }}
       >
         {startups.map(startup => (
-          <Card style={cardStyle} key={startup.href} {...startup} />
+          <Card
+            style={cardStyle}
+            className={startup.finished && "startup--finished"}
+            key={startup.href}
+            {...startup}
+          />
         ))}
       </div>
     </div>
