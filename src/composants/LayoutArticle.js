@@ -124,7 +124,7 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
         null}
 
       <Article>
-        {startupData.finished && (
+        {startupData && startupData.finished && (
           <div
             style={{
               background: "#efefef",
