@@ -14,19 +14,23 @@ const Card = ({
 }) => (
   <div className={`card ${className || ""}`} style={style}>
     <div className="card__cover">
-      <Link href={href}>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a style={{ cursor: "pointer" }}>
-          <img alt={`Aperçu ${title}`} src={img} />
-        </a>
-      </Link>
+      {(href && (
+        <Link href={href}>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a style={{ cursor: "pointer" }}>
+            <img alt={`Aperçu ${title}`} src={img} />
+          </a>
+        </Link>
+      )) || <img alt={`Aperçu ${title}`} src={img} />}
     </div>
     <div className="card__content">
       <h3>
-        <Link href={href}>
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a style={{ cursor: "pointer", color: "black" }}>{title}</a>
-        </Link>
+        {(href && (
+          <Link href={href}>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a style={{ cursor: "pointer", color: "black" }}>{title}</a>
+          </Link>
+        )) || <span>{title}</span>}
       </h3>
       {meta && (
         <div className="card__meta">
