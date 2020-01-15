@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Link from "next/link";
 import Head from "next/head";
@@ -131,9 +130,5 @@ const Homepage = () => (
     </Section>
   </Layout>
 );
-
-Homepage.propTypes = {
-  githubStats: PropTypes.array.isRequired
-};
 
 export default Homepage;
