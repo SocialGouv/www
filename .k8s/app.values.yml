@@ -1,5 +1,5 @@
 image:
-  repository: registry.gitlab.factory.social.gouv.fr/socialgouv/socialgouv-github-io
+  repository: registry.gitlab.factory.social.gouv.fr/socialgouv/docker/nginx4spa
   tag: master
 
 labels:
