@@ -396,3 +396,10 @@
     - archifiltre
   role: Développeur Fullstack
   picture: /static/images/members/clement.berthou.jpg
+- id: vincent.motte
+  name: Vincent Motte
+  structure: NumériCité
+  startups:
+    - tumeplay
+  role: Proxy PO
+  picture: /static/images/members/avatar.jpg
