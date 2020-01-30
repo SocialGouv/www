@@ -1,7 +1,7 @@
 import ReactPiwik from "react-piwik";
 
 const piwik = new ReactPiwik({
-  url: "matomo.tools.factory.social.gouv.fr",
+  url: "matomo.fabrique.social.gouv.fr",
   siteId: 2,
   trackErrors: true
 });
