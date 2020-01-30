@@ -12,7 +12,7 @@ deployment:
     app.gitlab.com/app: ${CI_PROJECT_PATH_SLUG}
     app.gitlab.com/env: ${CI_ENVIRONMENT_SLUG}
 
-  port: 8000
+  port: 80
 
   livenessProbe:
     periodSeconds: 20
