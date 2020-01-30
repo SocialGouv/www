@@ -39,7 +39,8 @@ ingress:
   hosts:
     - host: "www.fabrique.social.gouv.fr"
       paths:
-        - /
+        - path: /
+          servicePort: 80
   tls:
     - hosts:
         - "www.fabrique.social.gouv.fr"
