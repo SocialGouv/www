@@ -15,6 +15,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "lint": "eslint src pages",
+    "test": "exit 0",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
     "github-stats": "node ./scripts/github-stats.js > ./static/github-stats.json"
   },
