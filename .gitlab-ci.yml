@@ -1,3 +1,5 @@
+---
+
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops_simple_app.yml
