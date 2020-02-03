@@ -45,10 +45,6 @@
       subTitle: https://emjpm.beta.gouv.fr
       href: https://emjpm.beta.gouv.fr
       description: Page officielle du produit
-    - title: Documentation utilisateur
-      subTitle: site web
-      href: https://emjpm-doc.num.social.gouv.fr
-      description: Toute la documentation utilisateur
     - title: Github doc
       subTitle: code source
       href: https://github.com/SocialGouv/eMJPM-doc
@@ -164,8 +160,8 @@
   description: TextStyle simplifie la rédaction des textes normatifs
   links:
     - title: Page d'accueil
-      subTitle: https://textstyle.github.io/
-      href: https://textstyle.github.io/
+      subTitle: https://textstyle.fabrique.social.gouv.fr
+      href: https://textstyle.fabrique.social.gouv.fr
       description: Page officielle du produit
     - title: Github
       subTitle: code source
