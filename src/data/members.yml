@@ -295,7 +295,7 @@
   startups:
     - code-du-travail-numerique
     - egapro
-    - pass-preservatif
+    - tumeplay
   role: designer UX
   picture: /static/images/members/aurelie-rolland.jpg
 - id: viriginie.lastisneres
@@ -344,7 +344,7 @@
   name: Yowa Muzadi
   structure: Freelance
   startups:
-    - pass-preservatif
+    - tumeplay
   role: Chargée de déploiement
   picture: /static/images/members/yowa.muzadi.jpg
 - id: abdessamad.youssfi
