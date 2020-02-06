@@ -6511,12 +6511,11 @@ react-piwik@^1.8.0:
   resolved "https://registry.yarnpkg.com/react-piwik/-/react-piwik-1.8.0.tgz#f0ff0d54c4923c80c9497b728a1863c4d2609cfc"
   integrity sha512-ZpT7oPcdSIXt1yZvRWU/qq/EX7rXZELkwEJq2cDDejFlVYq7NKXtiMpuAvkO6QNeFwOmkO/820MHgmJ+fDug/Q==
 
-react-tooltip@^3.11.2:
-  version "3.11.2"
-  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-3.11.2.tgz#78972910657d6184defdcdc9a0182c1e44e01ce6"
-  integrity sha512-7EJ7Cv7lgctw02j0hyp+PpJklIP3gyDbm4CvVQvq7U6zgZtuI+bFFnRzsQB1oTiHPkkhE2NU04EIkgBDiVNzxw==
+react-tooltip@^3.11.6:
+  version "3.11.6"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-3.11.6.tgz#4f9735a2a4aa50580af351ce23e74a56f41afc0c"
+  integrity sha512-nTc1yHHaPCHHURvMpf/VNF17pIZiU4zwUGFJBUVr1fZkezFC7E0VPMMVrCfDjt+IpwTHICyzlyx+1FiQ7lw5LQ==
   dependencies:
-    classnames "^2.2.5"
     prop-types "^15.6.0"
 
 react-typeform-embed-2@0.2.1:
