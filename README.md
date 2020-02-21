@@ -1,10 +1,8 @@
-# incubateur.social.gouv.fr [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=dev)](https://travis-ci.com/SocialGouv/socialgouv.github.io) [![pipeline status](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/badges/dev/pipeline.svg)](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/commits/dev)
+# fabrique.social.gouv.fr [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=dev)](https://travis-ci.com/SocialGouv/socialgouv.github.io) [![pipeline status](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/badges/dev/pipeline.svg)](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/commits/dev)
 
-Site de l'incubateur des Ministères sociaux
+Site de la fabrique numérique des Ministères sociaux
 
 ⚠ La branche par défaut est `dev`
-
-Les stats sont disponibles sur https://stats.num.social.gouv.fr
 
 ## Editer le site
 
