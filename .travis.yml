@@ -63,15 +63,6 @@ jobs:
         target-branch: master
         on:
           branch: dev
-    - stage: Deploy
-      name: Run E2E tests on the commit image
-      if: (type = push AND branch = dev) OR branch =~ ^renovate/
-      env:
-        - *docker_image
-        - BASE_URL=http://localhost:8080 # Needed by the "yarn test" script
-      before_install: cd optional/e2e
-      before_script: docker run -d --name socialgouv.github.io -p 8080:80 $DOCKER_IMAGE
-      after_script: docker stop socialgouv.github.io
     - stage: Deploy to Docker Hub
       name: Deploy to Docker Hub
       if: type = push AND branch = dev
