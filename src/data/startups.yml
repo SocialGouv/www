@@ -191,3 +191,14 @@
       subTitle: code source
       href: "https://github.com/SocialGouv/Medlé "
       description: Bientôt ! Le code source de l'application'
+- id: didoc
+  href: /startups/didoc
+  img: /static/images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg
+  title: DIDOC
+  meta: Février 2020
+  description: Dématérialisation des Invitations au Dépistage Organisé des Cancers
+  links:
+    - title: Github
+      subTitle: code source
+      href: "https://github.com/SocialGouv/didoc"
+      description: Bientôt ! Le code source de l'application'

@@ -258,6 +258,7 @@
   structure: Freelance
   startups:
     - code-du-travail-numerique
+    - didoc
   role: coach
   picture: /static/images/members/clement.chapalain.jpg
 - id: helene.
