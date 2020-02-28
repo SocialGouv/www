@@ -1,5 +1,5 @@
 image:
-  repository: registry.gitlab.factory.social.gouv.fr/socialgouv/www
+  repository: registry.gitlab.factory.social.gouv.fr/socialgouv/socialgouv-github-io
 
 labels:
   app.kubernetes.io/part-of: www
