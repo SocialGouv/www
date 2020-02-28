@@ -13,6 +13,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "next dev",
+    "test": "exit 0",
     "build": "next build && next export",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
