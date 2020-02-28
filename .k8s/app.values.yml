@@ -48,5 +48,5 @@ ingress:
           servicePort: 80
   tls:
     - hosts:
-        - "medle.fabrique.social.gouv.fr"
-      secretName: medle-crt
+        - "www.fabrique.social.gouv.fr"
+      secretName: www-crt
