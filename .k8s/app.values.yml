@@ -11,14 +11,14 @@ deployment:
     app.gitlab.com/app: ${CI_PROJECT_PATH_SLUG}
     app.gitlab.com/env: ${CI_ENVIRONMENT_SLUG}
 
-  port: 3000
+  port: 80
 
   livenessProbe:
     periodSeconds: 20
-    port: 3000
+    port: 80
   readinessProbe:
     periodSeconds: 20
-    port: 3000
+    port: 80
 
   resources:
     limits:
@@ -33,8 +33,8 @@ deployment:
       value: "production"
 
 service:
-  port: 3000
-  targetPort: 3000
+  port: 80
+  targetPort: 80
 
 ingress:
   enabled: true
@@ -45,7 +45,7 @@ ingress:
     - host: "www.fabrique.social.gouv.fr"
       paths:
         - path: /
-          servicePort: 3000
+          servicePort: 80
   tls:
     - hosts:
         - "medle.fabrique.social.gouv.fr"
