@@ -1,7 +1,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops_simple_app.yml
-    ref: v7.3.2
+    ref: v7.3.3
 
 variables:
   PROJECT: "www"
