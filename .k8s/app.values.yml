@@ -1,0 +1,52 @@
+image:
+  repository: registry.gitlab.factory.social.gouv.fr/socialgouv/socialgouv-github-io
+
+labels:
+  app.kubernetes.io/part-of: www
+  owner: www
+  team: www
+
+deployment:
+  annotations:
+    app.gitlab.com/app: ${CI_PROJECT_PATH_SLUG}
+    app.gitlab.com/env: ${CI_ENVIRONMENT_SLUG}
+
+  port: 80
+
+  livenessProbe:
+    periodSeconds: 20
+    port: 80
+  readinessProbe:
+    periodSeconds: 20
+    port: 80
+
+  resources:
+    limits:
+      memory: 128Mi
+      cpu: 300m
+    requests:
+      memory: 64Mi
+      cpu: 100m
+
+  env:
+    - name: NODE_ENV
+      value: "production"
+
+service:
+  port: 80
+  targetPort: 80
+
+ingress:
+  enabled: true
+  annotations:
+    appgw.ingress.kubernetes.io/ssl-redirect: "true"
+    kubernetes.io/ingress.class: "azure/application-gateway"
+  hosts:
+    - host: "www.fabrique.social.gouv.fr"
+      paths:
+        - path: /
+          servicePort: 80
+  tls:
+    - hosts:
+        - "www.fabrique.social.gouv.fr"
+      secretName: www-crt
