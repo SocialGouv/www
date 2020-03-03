@@ -39,30 +39,7 @@ jobs:
         - docker build -t $DOCKER_IMAGE .
         - docker images
         - docker push $DOCKER_IMAGE
-    - stage: Deploy
-      name: Deploy to gh-pages
-      if: type = push AND branch = dev
-      script:
-        - NODE_ENV=production yarn build
-        - yarn rss
-        #- DEBUG=github-stats yarn github-stats
-        #- cat ./out/static/github-stats.json
-        - touch out/.nojekyll
-        - echo "incubateur.social.gouv.fr" > out/CNAME
-      before_deploy:
-        - git config user.name "Social Groovy Bot"
-        - git config user.email "45039513+SocialGroovyBot@users.noreply.github.com"
-      env:
-        secure: q4iyhIyH9ctaT+dSDv6RGAFTUUaotwp2BZTz3Xp1CesaI+Sjr+Jr6pOWcGadthBUR0/1BjQBsZjKnOmYDCGLGvdSEGwGgRkMT6GIgTp++Bf7tLBlRHCmxRCejZFi8cH4z27mUnTc9SRgFlQnypvN0hVDSmlA0qV6DfZcjl8UHmBQcRliPFcUUTySE22HumVu3LiSJfk/QeEMtUpVeM0enIzNiPoSDFGMvKperb4FEBbxQ4HPyRA4oj2zll7bAZeZJaQcaK7zh8JFuZHszTnrDVXhS8O0Aoh3dFbBbwqql1xPGuOCjGszFrz/o+Pkst3Zt1JW8mb45mF2OagliuJk5SfpkKZ9kChE4KCKYRZYC/oj2NhTphh0Mvh0m2xTekTM7DuuM4iZEWeTf2nmKDFozV0kc+VA9Xax9QXlq7Cf2QyugA7vFyJ22U9R//MZwKlmaBsyYri3SWVqgi03tX3tcb/ci7Kp4xEwotgBRvcUCSLSzmkD3P6F9Duaeu0vou3NHGG/m2RBFj8Onoh4RFLK0PFkXk7SENsmr+Q3/zFFvoou91lEhzGtq62RYYdqxk2HIbqD1jp6VgEEr8esJAgpGNE2uSFQYlKM2BiHhiZzt4DFpClTKMehBWoedWWjkQx9KIeeQmM0759M00N9hG2VyL9J4IF5OQ0Eqr0VkZRg3AM=
-      deploy:
-        github-token: "$GITHUB_TOKEN"
-        keep-history: true
-        local_dir: out
-        provider: pages
-        skip_cleanup: true
-        target-branch: master
-        on:
-          branch: dev
+
     - stage: Deploy to Docker Hub
       name: Deploy to Docker Hub
       if: type = push AND branch = dev
