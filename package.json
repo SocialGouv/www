@@ -20,8 +20,8 @@
     "github-stats": "node ./scripts/github-stats.js > ./static/github-stats.json"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^1.5.5",
-    "@mdx-js/mdx": "^1.5.5",
+    "@mdx-js/loader": "^1.5.7",
+    "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/tag": "^0.20.3",
     "@socialgouv/eslint-config-react": "^0.17.0",
     "@socialgouv/eslint-config-recommended": "^0.17.0",
