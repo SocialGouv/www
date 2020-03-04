@@ -44,6 +44,10 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.fabrique.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.fabrique.social.gouv.fr)
 
+### A tout moment
+
+Si tu as une question, besoin d'aide ou de soutien, n'hésites pas à solliciter à tout moment une personne de la communauté.
+
 ### Carte d'accès Mirabeau et carte de cantine
 
  - Si tu es présent plus de 2 jours par semaine à l'incubateur, tu peux demander un badge d'accès.
