@@ -404,3 +404,10 @@
     - tumeplay
   role: Proxy PO
   picture: /static/images/members/vincent.motte.jpg
+- id: remi.roycourt
+  name: Rémi Roycourt
+  structure: Freelance
+  startups:
+    - e-mjpm
+  role: Développeur Fullstack
+  picture: /static/images/members/remi.roycourt.jpg
