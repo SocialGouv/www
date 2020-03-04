@@ -33,7 +33,7 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
 ## En arrivant
 
- - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas.  
+ - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members) qui t'accompagnera dans tes premiers pas.  
  - [ ] [Assigne le(la) à cette issue](https://help.github.com/en/github/managing-your-work-on-github/assigning-issues-and-pull-requests-to-other-github-users) :ok_hand:
  - [ ] Créer ta fiche sur le [site de l'incubateur](https://github.com/SocialGouv/socialgouv.github.io)
  - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de l'incubateur et se présenter sur [~incub/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/incub-nouveaux)
@@ -43,6 +43,10 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] (optionnel) Rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de l'incubateur
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.fabrique.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.fabrique.social.gouv.fr)
+
+### A tout moment
+
+Si tu as une question, besoin d'aide ou de soutien, n'hésites pas à solliciter à tout moment une personne de la communauté.
 
 ### Carte d'accès Mirabeau et carte de cantine
 
