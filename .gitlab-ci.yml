@@ -5,9 +5,6 @@ include:
 
 variables:
   PROJECT: "www"
-  # NOTE(douglasduteil): explicit project path
-  # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
-  PROJECT_PATH: "SocialGouv/socialgouv.github.io"
   HELM_CHART_VERSION: "3.0.1"
   VALUES_FILE: ./.k8s/app.values.yml
 
@@ -37,7 +34,7 @@ Deploy app (prod):
     refs:
       - master
   variables:
-    HOST: ${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+    HOST: socialgouv-github-io.${KUBE_INGRESS_BASE_DOMAIN}
     K8S_NAMESPACE: www
     PRODUCTION: "true"
   environment:
