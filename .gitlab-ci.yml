@@ -7,9 +7,26 @@ variables:
   PROJECT: "www"
   # NOTE(douglasduteil): explicit project path
   # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
-  PROJECT_PATH: "SocialGouv/socialgouv.github.io" 
+  PROJECT_PATH: "SocialGouv/socialgouv.github.io"
   HELM_CHART_VERSION: "3.0.1"
   VALUES_FILE: ./.k8s/app.values.yml
+
+#
+
+Build:
+  extends:
+    - .base_yarn_build_next
+  dependencies:
+    - Install
+  needs:
+    - Install
+  script:
+    - yarn build
+    - yarn rss
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
 
 #
 
