@@ -1,6 +1,8 @@
 image:
   repository: registry.gitlab.factory.social.gouv.fr/socialgouv/socialgouv-github-io
 
+nameOverride: www
+
 labels:
   app.kubernetes.io/part-of: www
   owner: www
