@@ -10,15 +10,3 @@ variables:
   PROJECT_PATH: "SocialGouv/socialgouv.github.io" 
   HELM_CHART_VERSION: "3.0.1"
   VALUES_FILE: ./.k8s/app.values.yml
-
-#
-
-Delete useless k8s namespaces:
-  extends:
-    - .base_delete_useless_k8s_ns_stage
-  only:
-    - dev
-  variables:
-    K8S_NAMESPACE_PREFIX: "${PROJECT}-${CI_PROJECT_ID}-review"
-
-#
