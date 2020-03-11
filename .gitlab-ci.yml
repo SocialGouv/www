@@ -37,7 +37,7 @@ Deploy app (prod):
     refs:
       - master
   variables:
-    HOST: socialgouv-github-io.${KUBE_INGRESS_BASE_DOMAIN}
+    HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
     K8S_NAMESPACE: www
     PRODUCTION: "true"
   environment:
