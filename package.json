@@ -14,11 +14,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "build-start": "next build && next start",
-=======
-    "build-start": "next build && yarn start",
->>>>>>> change build process
     "test": "exit 0",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
