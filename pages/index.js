@@ -13,7 +13,7 @@ import {
 } from "../src/composants";
 
 import startups from "../src/data/startups.yml";
-import stats from "../static/github-stats.json";
+import stats from "../public/github-stats.json";
 
 const chiffres = [
   {
@@ -98,7 +98,7 @@ const Homepage = () => (
           <a>
             <center>
               <img
-                src="../static/images/schema%20inc%201%20v1.png"
+                src="../images/schema%20inc%201%20v1.png"
                 alt="Illustration fonctionnement IMS"
                 width="600"
                 height="286"

@@ -15,7 +15,7 @@ import {
 const Faq = () => (
   <Layout>
     <Hero
-      style={{ backgroundImage: `url(/static/images/faq.jpg)` }}
+      style={{ backgroundImage: `url(/images/faq.jpg)` }}
       title="FAQ"
       tagline="Les questions le plus fréquemment posées"
     />

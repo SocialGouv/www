@@ -4,7 +4,7 @@ import { Hero, Layout, Section } from "../../src/composants";
 const Board1 = () => (
   <Layout>
     <Hero
-      style={{ backgroundImage: `url(/static/images/board.jpg)` }}
+      style={{ backgroundImage: `url(/images/board.jpg)` }}
       title="L'aventure Startups d'Etat continue !"
       tagline="Board #1"
     />
@@ -32,7 +32,7 @@ const Board1 = () => (
         <div style={{ textAlign: "center" }}>
           <img
             alt="le board de la fabrique numérique"
-            src="/static/images/board1.jpg"
+            src="/images/board1.jpg"
             width="50%"
           />
         </div>

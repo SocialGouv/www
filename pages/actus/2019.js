@@ -13,7 +13,7 @@ const BA2019 = () => (
         <div style={{ textAlign: "center" }}>
           <img
             alt="l'aventure commence"
-            src="/static/images/actus/bonne-annee-2019.jpg"
+            src="/images/actus/bonne-annee-2019.jpg"
           />
         </div>
         <br />

@@ -39,7 +39,7 @@ const JourJ = () => (
         <br /> La matinée et le début d&apos;après-midi ont été consacrés à un
         coaching des candidats puis à la présentation des pitchs.
         <center>
-          <img alt="Panneau pitch" src="/static/images/pitch.jpg" width="40%" />
+          <img alt="Panneau pitch" src="/images/pitch.jpg" width="40%" />
           <br />
         </center>
         <br /> Puis, à 15h, les présentations officielles ont commencé devant un
@@ -59,11 +59,7 @@ const JourJ = () => (
         <br />
         <br />
         <center>
-          <img
-            alt="Le pitch day"
-            src="/static/images/pitchday-1.jpg"
-            width="70%"
-          />
+          <img alt="Le pitch day" src="/images/pitchday-1.jpg" width="70%" />
           <br />
           <i>Les participants de cette belle journée</i>
         </center>

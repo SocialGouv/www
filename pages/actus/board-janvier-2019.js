@@ -29,7 +29,7 @@ const actuBoard2 = () => (
         <center>
           <img
             alt="Panneau pitch"
-            src="/static/images/actus/board-0119.jpg"
+            src="/images/actus/board-0119.jpg"
             width="60%"
           />
           <br />

@@ -7,7 +7,7 @@ const Actus = () => (
     <Hero
       title="Toutes les actualités"
       tagline=""
-      style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
+      style={{ backgroundImage: `url(/images/all-actus.jpg)` }}
     />
     <Section className="section-white" title="Actus" subTitle="">
       <AllActus />

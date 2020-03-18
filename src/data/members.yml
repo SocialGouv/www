@@ -5,7 +5,7 @@
     - domifacile
     - work-in-france
   role: designer UX
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: romy.duhem.verdiere
   name: Romy Duhem-Verdière
   structure: Octo
@@ -13,84 +13,84 @@
     - tremplin
     - fce
   role: designer UX
-  picture: /static/images/members/romy.duhem-verdiere.jpg
+  picture: /images/members/romy.duhem-verdiere.jpg
 - id: fabien.marie
   name: Fabien Marie
   structure: Octo
   startups:
     - tremplin
   role: designer UI
-  picture: /static/images/members/fabien-marie.jpg
+  picture: /images/members/fabien-marie.jpg
 - id: anais.martins.del.cruz
   name: Anaïs Martins Da Cruz
   structure: DRDJSCS Auvergne-Rhône-Alpes
   startups:
     - domifacile
   role: intrapreneuse
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: pierre.yves.darnaudet
   name: Pierre-Yves Darnaudet
   structure: ARS Occitanie
   startups:
     - tremplin
   role: intrapreneur
-  picture: /static/images/members/pierre-yves.jpg
+  picture: /images/members/pierre-yves.jpg
 - id: daniel.balmy
   name: Daniel Balmy
   structure: DIRECCTE
   startups:
     - work-in-france
   role: intrapreneur
-  picture: /static/images/members/daniel.balmy.jpg
+  picture: /images/members/daniel.balmy.jpg
 - id: jonathan-redt.gensinger
   name: Jonathan Redt Gensinger
   structure: DGT
   startups:
     - work-in-france
   role: intrapreneur
-  picture: /static/images/members/jonathan.redt_gensinger.jpg
+  picture: /images/members/jonathan.redt_gensinger.jpg
 - id: chloe.mandelblat
   name: Chloe Mandelblat
   structure: Dirrecte Occitanie
   startups:
     - fce
   role: intrapreneuse
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: chloe.moser
   name: Chloe Moser
   structure: DFAS/ARCH
   startups:
     - archifiltre
   role: intrapreneuse
-  picture: /static/images/members/chloe-moser.jpg
+  picture: /images/members/chloe-moser.jpg
 - id: anne.lambert
   name: Anne Lambert
   structure: DFAS/ARCH
   startups:
     - archifiltre
   role: intrapreneuse
-  picture: /static/images/members/anne-lambert.jpg
+  picture: /images/members/anne-lambert.jpg
 - id: pierre.vercauteren
   name: Pierre Vercauteren
   structure: DSI
   startups:
     - fce
   role: intrapreneur
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: lucie.delorme
   name: Lucie Delorme
   structure: DRJSCS
   startups:
     - e-mjpm
   role: intrapreneuse
-  picture: /static/images/members/lucie.delorme.jpg
+  picture: /images/members/lucie.delorme.jpg
 - id: jasmine.meurin
   name: Jasmine Meurin
   structure: DRJSCS
   startups:
     - e-mjpm
   role: intrapreneuse
-  picture: /static/images/members/jasmine.meurin.jpg
+  picture: /images/members/jasmine.meurin.jpg
 - id: marc.hertzog
   name: Marc Hertzog
   structure: freelance
@@ -98,35 +98,35 @@
     - work-in-france
     - code-du-travail-numerique
   role: développeur
-  picture: /static/images/members/marc.hertzog.jpg
+  picture: /images/members/marc.hertzog.jpg
 - id: adrien.gonzalez
   name: Adrien Gonzalez
   structure: freelance
   startups:
     - e-mjpm
   role: développeur
-  picture: /static/images/members/adrien.gonzalez.jpg
+  picture: /images/members/adrien.gonzalez.jpg
 - id: thomas.glatt
   name: Thomas Glatt
   structure: freelance
   startups:
     - tremplin
   role: développeur
-  picture: /static/images/members/thomas-glatt.jpg
+  picture: /images/members/thomas-glatt.jpg
 - id: jean-rene.duscher
   name: Jean-René Duscher
   structure: DGT
   startups:
     - code-du-travail-numerique
   role: intrapreneur/expert métier
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: hela.ghariani
   name: Hela Ghariani
   structure: beta.gouv.fr
   startups:
     - code-du-travail-numerique
   role: coach
-  picture: /static/images/members/hela.ghariani.jpg
+  picture: /images/members/hela.ghariani.jpg
 - id: maxime.basset
   name: Maxime Basset
   structure: NUMA
@@ -135,7 +135,7 @@
     - work-in-france
     - domifacile
   role: coach
-  picture: /static/images/members/maxime.basset.jpg
+  picture: /images/members/maxime.basset.jpg
 - id: adrien.laville
   name: Adrien Laville
   structure: NUMA
@@ -143,21 +143,21 @@
     - domifacile
     - tremplin
   role: coach
-  picture: /static/images/members/adrien-laville.jpg
+  picture: /images/members/adrien-laville.jpg
 - id: catherine.loze-faelens
   name: Catherine Lozé-Faelens
   structure: DSI
   startups:
     - code-du-travail-numerique
   role: cheffe de projet
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: catherine.lissarague
   name: Catherine Lissarague
   structure: DGT
   startups:
     - code-du-travail-numerique
   role: cheffe de projet
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: julien.bouquillon
   name: Julien Bouquillon
   structure: Fabrique numérique des ministères sociaux
@@ -165,7 +165,7 @@
     - code-du-travail-numerique
     - work-in-france
   role: tech lead
-  picture: /static/images/members/julien.bouquillon.jpg
+  picture: /images/members/julien.bouquillon.jpg
 - id: eric.heijligers
   name: Eric Heijligers
   structure: Fabrique numérique des ministères sociaux
@@ -178,7 +178,7 @@
     - domifacile
     - tremplin
   role: product manager
-  picture: /static/images/members/eric.heijligers.jpg
+  picture: /images/members/eric.heijligers.jpg
 - id: yann-fanch.madaule
   name: Yann-Fanch Madaule
   structure: Fabrique numérique des ministères sociaux
@@ -187,28 +187,28 @@
     - work-in-france
     - e-mjpm
   role: responsable de la fabrique numérique
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: jeremie.cook
   name: Jérémie Cook
   structure: DINSIC
   startups:
     - code-du-travail-numerique
   role: designer UX
-  picture: /static/images/members/jeremie.cook.jpg
+  picture: /images/members/jeremie.cook.jpg
 - id: lionel.breduillieard
   name: Lionel Breduillieard
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: développeur full-stack
-  picture: /static/images/members/lionel.breduillieard.jpg
+  picture: /images/members/lionel.breduillieard.jpg
 - id: adrien.dipasquale
   name: Adrien Di Pasquale
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: développeur backend
-  picture: /static/images/members/adrien.dipasquale.jpg
+  picture: /images/members/adrien.dipasquale.jpg
 - id: douglas.duteil
   name: Douglas Duteil
   structure: Fabrique numérique des ministères sociaux
@@ -217,42 +217,42 @@
     - e-mjpm
     - work-in-france
   role: lead developer
-  picture: /static/images/members/douglas.duteil.jpg
+  picture: /images/members/douglas.duteil.jpg
 - id: melanie.roge
   name: Mélanie Rogé
   structure: Freelance
   startups:
     - e-mjpm
   role: business developer
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: mathieu.havel
   name: Mathieu Havel
   structure: EIG
   startups:
     - code-du-travail-numerique
   role: data scientist
-  picture: /static/images/members/mathieu.havel.jpg
+  picture: /images/members/mathieu.havel.jpg
 - id: armand.giraud
   name: Armand Giraud
   structure: EIG
   startups:
     - code-du-travail-numerique
   role: data scientist
-  picture: /static/images/members/armand.giraud.jpg
+  picture: /images/members/armand.giraud.jpg
 - id: ivan.gabriele
   name: Ivan Gabriele
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: développeur
-  picture: /static/images/members/ivan.gabriele.jpg
+  picture: /images/members/ivan.gabriele.jpg
 - id: manuel.colasante
   name: Manuel Colasante
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: développeur
-  picture: /static/images/members/manuel.colasante.jpg
+  picture: /images/members/manuel.colasante.jpg
 - id: clement.chapalain
   name: Clément Chapalain
   structure: Freelance
@@ -260,21 +260,21 @@
     - code-du-travail-numerique
     - didoc
   role: coach
-  picture: /static/images/members/clement.chapalain.jpg
+  picture: /images/members/clement.chapalain.jpg
 - id: helene.
   name: "Hélène "
   structure: Benext
   startups:
     - archifiltre
   role: coach
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: yassine.riffi
   name: Yassine Riffi
   structure: Freelance
   startups:
     - domifacile
   role: Développeur Fullstack
-  picture: /static/images/members/yassine.riffi.jpg
+  picture: /images/members/yassine.riffi.jpg
 - id: christophe.dumont
   name: Christophe Dumont
   structure: Freelance
@@ -282,14 +282,14 @@
     - e-mjpm
     - work-in-france
   role: Développeur Fullstack, UX/UI
-  picture: /static/images/members/christophe.dumont.jpg
+  picture: /images/members/christophe.dumont.jpg
 - id: siegrid.henry
   name: Siegrid Henry
   structure: Freelance
   startups:
     - work-in-france
   role: Chargée de déploiement
-  picture: /static/images/members/siegrid.henry.jpg
+  picture: /images/members/siegrid.henry.jpg
 - id: aurelie.rolland
   name: Aurélie Rolland
   structure: Freelance
@@ -298,116 +298,116 @@
     - egapro
     - tumeplay
   role: designer UX
-  picture: /static/images/members/aurelie-rolland.jpg
+  picture: /images/members/aurelie-rolland.jpg
 - id: viriginie.lastisneres
   name: Virginie Lastisneres
   structure: DGT
   startups:
     - code-du-travail-numerique
   role: expert métier
-  picture: /static/images/members/virginie-lastisneres.jpg
+  picture: /images/members/virginie-lastisneres.jpg
 - id: nicolas.kremer
   name: Nicolas Kremer
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: Développeur Fullstack, UX/UI
-  picture: /static/images/members/nicolas.kremer.jpg
+  picture: /images/members/nicolas.kremer.jpg
 - id: mathieu.agopian
   name: Mathieu Agopian
   structure: Freelance
   startups:
     - egapro
   role: Développeur Fullstack
-  picture: /static/images/members/mathieu.agopian.jpg
+  picture: /images/members/mathieu.agopian.jpg
 - id: victoria.martinez
   name: Victoria Martinez
   structure: Fabrique numérique des ministères sociaux
   startups:
     - egapro
   role: intrapreneur
-  picture: /static/images/members/victoria.martinez.jpg
+  picture: /images/members/victoria.martinez.jpg
 - id: eglantine.schmitt
   name: Eglantine Schmitt
   structure: Freelance
   startups:
     - ramses
   role: Product, UX, Data
-  picture: /static/images/members/eglantine.schmitt.jpg
+  picture: /images/members/eglantine.schmitt.jpg
 - id: benjamin.morali
   name: Benjamin Morali
   structure: beNext
   startups:
     - archifiltre
   role: Développeur Fullstack
-  picture: /static/images/members/benjamin.morali.jpg
+  picture: /images/members/benjamin.morali.jpg
 - id: yowa.muzadi
   name: Yowa Muzadi
   structure: Freelance
   startups:
     - tumeplay
   role: Chargée de déploiement
-  picture: /static/images/members/yowa.muzadi.jpg
+  picture: /images/members/yowa.muzadi.jpg
 - id: abdessamad.youssfi
   name: Abdessamad Youssfi
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: Growth
-  picture: /static/images/members/abdessamad-youssfi.jpg
+  picture: /images/members/abdessamad-youssfi.jpg
 - id: pierre-olivier.mauguet
   name: Pierre-Olivier Mauguet
   structure: Fabrique numérique des ministères sociaux
   startups:
     - MedLé
   role: Développeur Fullstack
-  picture: /static/images/members/pierre-olivier.mauguet.jpg
+  picture: /images/members/pierre-olivier.mauguet.jpg
 - id: remi.melisson
   name: Rémi Mélisson
   structure: Freelance
   startups:
     - code-du-travail-numerique
   role: "Développeur : back / ML /  NLP"
-  picture: /static/images/members/remi.m.jpg
+  picture: /images/members/remi.m.jpg
 - id: paul.launay
   name: Paul Launay
   structure: Freelance
   startups:
     - e-mjpm
   role: Développeur Fullstack
-  picture: /static/images/members/paul.launay.jpg
+  picture: /images/members/paul.launay.jpg
 - id: hugo.feldstein
   name: Hugo Feldstein
   structure: Freelance
   startups:
     - textstyle
   role: Développeur Fullstack
-  picture: /static/images/members/hugo.f.jpg
+  picture: /images/members/hugo.f.jpg
 - id: gary.van-woerkens
   name: Gary van Woerkens
   structure: Fabrique numérique des ministères sociaux
   startups:
     - code-du-travail-numerique
   role: Delivery Manager
-  picture: /static/images/members/avatar.jpg
+  picture: /images/members/avatar.jpg
 - id: clement.berthou
   name: Clément Berthou
   structure: beNext
   startups:
     - archifiltre
   role: Développeur Fullstack
-  picture: /static/images/members/clement.berthou.jpg
+  picture: /images/members/clement.berthou.jpg
 - id: vincent.motte
   name: Vincent Motte
   structure: NumériCité
   startups:
     - tumeplay
   role: Proxy PO
-  picture: /static/images/members/vincent.motte.jpg
+  picture: /images/members/vincent.motte.jpg
 - id: remi.roycourt
   name: Rémi Roycourt
   structure: Freelance
   startups:
     - e-mjpm
   role: Développeur Fullstack
-  picture: /static/images/members/remi.roycourt.jpg
+  picture: /images/members/remi.roycourt.jpg

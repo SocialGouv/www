@@ -18,7 +18,7 @@ export const Hero = ({
   tagline,
   style,
   alt,
-  backgroundImage = "/static/images/image-fond2.jpg"
+  backgroundImage = "/images/image-fond2.jpg"
 }) => (
   <HeroContainer
     className="hero"

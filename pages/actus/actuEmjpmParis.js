@@ -8,7 +8,7 @@ const actuEmjpmParis = () => (
     <Hero
       title="e-MJPM invité au Tribunal d'Instance de Paris"
       tagline="Une nouvelle étape franchie avec succès"
-      backgroundImage="/static/images/actus/TGI-Paris.jpg"
+      backgroundImage="/images/actus/TGI-Paris.jpg"
     />
     <Section
       title={title}

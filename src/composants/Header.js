@@ -8,7 +8,7 @@ import { Nav } from ".";
 //
 
 const LogoImg = ({ className, alt }) => (
-  <img className={className} src="/static/images/marianne.svg" alt={alt} />
+  <img className={className} src="/images/marianne.svg" alt={alt} />
 );
 
 LogoImg.propTypes = {
