@@ -14,11 +14,6 @@ const shuffled = arr =>
     .map(a => a[1]);
 
 class Members extends React.Component {
-  static getInitialProps() {
-    return {
-      members: shuffled(members)
-    };
-  }
   render() {
     return (
       <Layout>
@@ -64,6 +59,12 @@ class Members extends React.Component {
       </Layout>
     );
   }
+}
+
+export async function getStaticProps() {
+  return {
+    props: { members: shuffled(members) }
+  };
 }
 
 Members.propTypes = {
