@@ -13,21 +13,6 @@ variables:
 
 #
 
-# Build:
-#   extends:
-#     - .base_yarn_build_next
-#   dependencies:
-#     - Install
-#   needs:
-#     - Install
-#   script:
-#     - yarn build
-#     - yarn rss
-#   artifacts:
-#     expire_in: 1 day
-#     paths:
-#       - out
-
 Deploy app (prod):
   extends:
     - .deploy_app_stage
