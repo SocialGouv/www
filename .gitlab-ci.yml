@@ -13,33 +13,16 @@ variables:
 
 #
 
-# Build:
-#   extends:
-#     - .base_yarn_build_next
-#   dependencies:
-#     - Install
-#   needs:
-#     - Install
-#   script:
-#     - yarn build
-#     - yarn rss
-#   artifacts:
-#     expire_in: 1 day
-#     paths:
-#       - out
-
-#
-
-# Deploy app (prod):
-#   extends:
-#     - .deploy_app_stage
-#   only:
-#     refs:
-#       - master
-#   variables:
-#     HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
-#     K8S_NAMESPACE: www
-#     PRODUCTION: "true"
-#   environment:
-#     name: prod
-#     url: https://${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+Deploy app (prod):
+  extends:
+    - .deploy_app_stage
+  only:
+    refs:
+      - master
+  variables:
+    HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
+    K8S_NAMESPACE: www
+    PRODUCTION: "true"
+  environment:
+    name: prod
+    url: https://${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
