@@ -65,7 +65,7 @@ const BlocVertical = ({ title, Icon, children }) => (
 
 BlocVertical.propTypes = {
   title: PropTypes.string,
-  Icon: PropTypes.element.isRequired,
+  Icon: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired
 };
 
