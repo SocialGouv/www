@@ -14,7 +14,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "build-start": "next build && yarn start",
+    "build-start": "next build && next start",
     "test": "exit 0",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",

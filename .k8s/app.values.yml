@@ -23,12 +23,12 @@ deployment:
     port: 80
 
   resources:
-    limits:
-      memory: 128Mi
-      cpu: 300m
     requests:
-      memory: 64Mi
       cpu: 100m
+      memory: 128Mi
+    limits:
+      cpu: 1000m
+      memory: 1024Mi
 
   env:
     - name: NODE_ENV
