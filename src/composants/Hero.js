@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const HeroContainer = styled.div`
-  background-image: url(${props => props.backgroundImage});
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(${props => props.backgroundImage}) !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 
   .hero__container {
     min-height: 400px;
