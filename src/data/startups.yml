@@ -1,6 +1,6 @@
 - id: work-in-france
   href: /startups/work-in-france
-  img: /static/images/startups/work-in-france.jpg
+  img: /images/startups/work-in-france.jpg
   title: Work In France
   meta: Avril 2018
   description:
@@ -23,7 +23,7 @@
     - title: Validation en ligne des ATP
       subTitle: Sécurité
       icon: lock
-      href: https://work-in-france.incubateur.social.gouv.fr/validitycheck
+      href: https://work-in-france.fabrique.social.gouv.fr/validitycheck
       description:
         Vérifiez la validité d'une autorisation provisoire de travail pour un
         étudiant étranger
@@ -36,7 +36,7 @@
         pour les étudiants étrangers.
 - id: e-mjpm
   href: /startups/e-mjpm
-  img: /static/images/startups/e-MJPM.jpg
+  img: /images/startups/e-MJPM.jpg
   title: e-MJPM
   meta: Mai 2018
   description: Trouver rapidement le bon professionnel pour les majeurs à protéger.
@@ -55,7 +55,7 @@
       description: Le code source de l'application eMJPM
 - id: code-du-travail-numerique
   href: /startups/code-du-travail-numerique
-  img: /static/images/startups/code-du-travail-numerique.jpg
+  img: /images/startups/code-du-travail-numerique.jpg
   title: Code du travail numérique
   meta: Juin 2018
   description:
@@ -76,7 +76,7 @@
       description: Contribuez au code du travail numérique
 - id: fce
   href: /startups/fce
-  img: /static/images/startups/fce.jpg
+  img: /images/startups/fce.jpg
   title: Fiche commune entreprise
   meta: Octobre 2018
   description:
@@ -84,8 +84,8 @@
     échanges  entre services.
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/fce/
-      href: https://incubateur.social.gouv.fr/startups/fce
+      subTitle: https://fabrique.social.gouv.fr/startups/fce/
+      href: https://fabrique.social.gouv.fr/startups/fce
       description: Page officielle du produit
     - title: Github
       subTitle: code source
@@ -93,14 +93,14 @@
       description: Bientôt ! Le code source de l'application FCE
 - id: domifacile
   href: /startups/domifacile
-  img: /static/images/startups/harli-marten-135841-unsplash.jpg
+  img: /images/startups/harli-marten-135841-unsplash.jpg
   title: DomiFa
   meta: Janvier 2019
   description: Faciliter la domiciliation pour les personnes sans domicile stable.
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/domifacile/
-      href: https://incubateur.social.gouv.fr/startups/domifacile/
+      subTitle: https://fabrique.social.gouv.fr/startups/domifacile/
+      href: https://fabrique.social.gouv.fr/startups/domifacile/
       description: Page officielle du produit
     - title: Github
       subTitle: code source
@@ -109,14 +109,14 @@
 - id: tremplin
   finished: 01/01/2020
   href: /startups/tremplin
-  img: /static/images/startups/rawpixel-602153-unsplash.jpg
+  img: /images/startups/rawpixel-602153-unsplash.jpg
   title: Tremplin
   meta: Février 2019
   description: Rapprocher les professionnels de santé de leur futur territoire d’exercice
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/tremplin/
-      href: https://incubateur.social.gouv.fr/startups/tremplin/
+      subTitle: https://fabrique.social.gouv.fr/startups/tremplin/
+      href: https://fabrique.social.gouv.fr/startups/tremplin/
       description: Page officielle du produit
     - title: Github
       subTitle: code source
@@ -124,7 +124,7 @@
       description: Bientôt ! Le code source de l'application Tremplin
 - id: egapro
   href: /startups/egapro
-  img: /static/images/tim-mossholder-UcUROHSJfRA-unsplash.jpg
+  img: /images/tim-mossholder-UcUROHSJfRA-unsplash.jpg
   title: Egapro
   meta: Avril 2019
   description: L’outil de calcul de votre index égalité professionnelle Femmes- Hommes
@@ -139,7 +139,7 @@
       description: Les sources de l'application
 - id: archifiltre
   href: /startups/archifiltre
-  img: /static/images/startups/todd-trapani-1054329-unsplash.jpg
+  img: /images/startups/todd-trapani-1054329-unsplash.jpg
   title: Archifiltre
   meta: Avril 2019
   description: Vos arborescences de fichiers bureautiques comme vous ne les avez jamais vues
@@ -154,7 +154,7 @@
       description: Bientôt ! Le code source de l'application Archifiltre
 - id: textstyle
   href: /startups/textstyle
-  img: /static/images/startups/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
+  img: /images/startups/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
   title: TextStyle
   meta: Juillet 2019
   description: TextStyle simplifie la rédaction des textes normatifs
@@ -169,7 +169,7 @@
       description: Bientôt ! Le code source de la documentation utilisateur en Markdown
 - id: tumeplay
   href: /startups/tumeplay
-  img: /static/images/startups/photo-1571954471509-801c155e01ec.jpeg
+  img: /images/startups/photo-1571954471509-801c155e01ec.jpeg
   title: TuMePlay
   meta: Juillet 2019
   description: L'app de la santé et de l'éducation sexuelle pour les moins de 25 ans
@@ -180,7 +180,7 @@
       description: Le code source de l'application
 - id: medle
   href: /startups/medle
-  img: /static/images/startups/medle.jpg
+  img: /images/startups/medle.jpg
   title: MedLé
   meta: Juin 2019
   description:
@@ -193,7 +193,7 @@
       description: Bientôt ! Le code source de l'application'
 - id: didoc
   href: /startups/didoc
-  img: /static/images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg
+  img: /images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg
   title: DIDOC
   meta: Février 2020
   description: Dématérialisation des Invitations au Dépistage Organisé des Cancers

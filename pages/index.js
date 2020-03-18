@@ -13,7 +13,7 @@ import {
 } from "../src/composants";
 
 import startups from "../src/data/startups.yml";
-import stats from "../static/github-stats.json";
+import stats from "../public/github-stats.json";
 
 const chiffres = [
   {
@@ -37,11 +37,11 @@ const chiffres = [
 const Homepage = () => (
   <Layout>
     <Head>
-      <title>Incubateur des ministères sociaux</title>
+      <title>La fabrique numérique des ministères sociaux</title>
     </Head>
     <Hero
-      title="Bienvenue à l'incubateur des ministères sociaux"
-      tagline="incubateur.social.gouv.fr"
+      title="Bienvenue à la fabrique numérique des ministères sociaux"
+      tagline="fabrique.social.gouv.fr"
     />
     <Section
       className="section-white"
@@ -55,7 +55,7 @@ const Homepage = () => (
     <SectionCards className="section-color" title="Nos startups" />
 
     <Section
-      title="L'incubateur des ministères sociaux, qu'est-ce donc ?"
+      title="La fabrique numérique des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
       className="section-white"
     >
@@ -64,7 +64,7 @@ const Homepage = () => (
         C&apos;est à la fois un lieu, une démarche et un ensemble de personnes !
         <br />
         <br />
-        L&apos;incubateur des ministères sociaux reprend la démarche et les
+        La fabrique numérique des ministères sociaux reprend la démarche et les
         grands principes de{" "}
         <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
@@ -87,9 +87,9 @@ const Homepage = () => (
             très rapidement
           </li>
         </ul>
-        L&apos;incubateur offre ainsi l&apos;opportunité de tester de nouveaux
-        modes de conception de services, plus simples, plus agiles et en
-        proximité avec les usagers !<br />
+        La fabrique numérique offre ainsi l&apos;opportunité de tester de
+        nouveaux modes de conception de services, plus simples, plus agiles et
+        en proximité avec les usagers !<br />
         <br />
         <br />
         <br />
@@ -98,7 +98,7 @@ const Homepage = () => (
           <a>
             <center>
               <img
-                src="../static/images/schema%20inc%201%20v1.png"
+                src="../images/schema%20inc%201%20v1.png"
                 alt="Illustration fonctionnement IMS"
                 width="600"
                 height="286"
@@ -109,9 +109,7 @@ const Homepage = () => (
               />
               <br />
               <div align="center" style={{ margin: "20px 0" }}>
-                <a className="button warning large" href="/actus">
-                  En savoir plus
-                </a>
+                <button className="button warning large">En savoir plus</button>
               </div>
             </center>
           </a>

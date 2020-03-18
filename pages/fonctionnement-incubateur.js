@@ -65,7 +65,7 @@ const BlocVertical = ({ title, Icon, children }) => (
 
 BlocVertical.propTypes = {
   title: PropTypes.string,
-  Icon: PropTypes.element.isRequired,
+  Icon: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired
 };
 
@@ -94,18 +94,18 @@ const Fonctionnement = () => (
           de transformer une politique publique : la rendre plus rapide, plus
           efficace ou moins contraignante.
           <div style={{ marginTop: 20, fontSize: 12 }}>
-            *L’incubateur recueille également, dans cette même logique, les
-            besoins des directions d’administration centrale.
+            *La fabrique numérique recueille également, dans cette même logique,
+            les besoins des directions d’administration centrale.
           </div>
         </BlocHorizontal>
         <BlocHorizontal Icon={FaAward} title="Sélection des lauréats">
-          L’incubateur sélectionne des candidatures et invite les candidats à
-          participer à une journée de sélection. Tout au long de cette journée
-          les candidats seront accompagnés afin de structurer leur idée et la
-          présenter devant un jury d&apos;experts.
+          La fabrique numérique sélectionne des candidatures et invite les
+          candidats à participer à une journée de sélection. Tout au long de
+          cette journée les candidats seront accompagnés afin de structurer leur
+          idée et la présenter devant un jury d&apos;experts.
         </BlocHorizontal>
         <BlocHorizontal Icon={FaRocket} title="Incubation">
-          L’incubateur accueille des porteurs d&apos;idées -{" "}
+          La fabrique numérique accueille des porteurs d&apos;idées -{" "}
           <strong>les « intrapreneur(se)s »</strong> - qui, après avoir
           identifié un irritant sur le terrain, sont accompagnés afin de
           développer un produit numérique dans une logique de “start-up d’Etat”.
@@ -131,9 +131,9 @@ const Fonctionnement = () => (
         }}
       >
         <BlocVertical Icon={FaSearch} title="Identification du problème">
-          L’intrapreneur est accompagné par l’incubateur afin de formaliser le
-          problème identifié et de garantir qu’il concerne un public
-          suffisamment large, qu’un outil numérique pourrait le faire
+          L’intrapreneur est accompagné par La fabrique numérique afin de
+          formaliser le problème identifié et de garantir qu’il concerne un
+          public suffisamment large, qu’un outil numérique pourrait le faire
           disparaître et que les obstacles techniques sont surmontables.
         </BlocVertical>
         <BlocVertical Icon={FaCogs} title="Construction">

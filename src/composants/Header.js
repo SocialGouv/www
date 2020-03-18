@@ -8,7 +8,7 @@ import { Nav } from ".";
 //
 
 const LogoImg = ({ className, alt }) => (
-  <img className={className} src="/static/images/marianne.svg" alt={alt} />
+  <img className={className} src="/images/marianne.svg" alt={alt} />
 );
 
 LogoImg.propTypes = {
@@ -36,9 +36,9 @@ const NavbarTitle = styled.div`
 
 export const Header = ({
   logoUrl = "/",
-  logoAlt = "Accueil de incubateur.social.gouv.fr",
-  title = "incubateur.social.gouv.fr",
-  subTitle = "L'incubateur des ministères sociaux",
+  logoAlt = "Accueil de fabrique.social.gouv.fr",
+  title = "fabrique.social.gouv.fr",
+  subTitle = "La fabrique numérique des ministères sociaux",
   links = []
 }) => (
   <header className="navbar">

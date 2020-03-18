@@ -1,20 +1,21 @@
 {
-  "name": "incubateur.social.gouv.fr",
-  "version": "1.0.1",
+  "name": "fabrique.social.gouv.fr",
+  "version": "1.1.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SocialGouv/socialgouv.github.io.git"
+    "url": "git+https://github.com/SocialGouv/www"
   },
-  "homepage": "https://SocialGouv.github.io/socialgouv.github.io/",
+  "homepage": "https://SocialGouv.github.io/www/",
   "bugs": {
-    "url": "https://github.com/SocialGouv/socialgouv.github.io/issues"
+    "url": "https://github.com/SocialGouv/www/issues"
   },
   "scripts": {
-    "start": "npm run dev",
-    "dev": "next dev",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "build-start": "next build && next start",
     "test": "exit 0",
-    "build": "next build && next export",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
     "github-stats": "node ./scripts/github-stats.js > ./static/github-stats.json"
