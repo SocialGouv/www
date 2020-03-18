@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/static/images/favicons/favicon-32x32.png"
           />
-          <title>L&apos;incubateur des ministères sociaux</title>
+          <title>La fabrique numérique des ministères sociaux</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=yes"

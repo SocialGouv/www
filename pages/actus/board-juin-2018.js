@@ -12,26 +12,26 @@ const Board1 = () => (
       <div className="container">
         L&apos;aventure Startups d&apos;Etat continue pour Lucie Delorme et
         Jasmine Meurin (DRJSCS HDF), Daniel BALMY (DIRECCTE IDF) et Jonathan
-        Redt-Gensinger (DGT) qui ont rejoint l&apos;incubateur des ministères
-        sociaux en janvier 2018.
+        Redt-Gensinger (DGT) qui ont rejoint la fabrique numérique des
+        ministères sociaux en janvier 2018.
         <br />
         <br />« A quoi ça sert ? »… « Quel problème on essaie de résoudre ? »…
-        L&apos;équipe de la mission Incubateur de la DSI (direction des systèmes
-        d&apos;information), appuyée par des coachs experts, leur apporte,
-        depuis 6 mois, un cadre et les outils nécessaires pour pouvoir créer
-        leur produit numérique, en mode Startup d&apos;Etat.
+        L&apos;équipe de la mission Fabrique Numérique de la DSI (direction des
+        systèmes d&apos;information), appuyée par des coachs experts, leur
+        apporte, depuis 6 mois, un cadre et les outils nécessaires pour pouvoir
+        créer leur produit numérique, en mode Startup d&apos;Etat.
         <br /> <br />
-        Le Board de l&apos;incubateur, réuni pour la première fois ce 22 juin
-        2018 en présence de Sabine Fourcade, Secrétaire générale des ministères
-        sociaux, Annaïck Laurent, Secrétaire générale adjointe, Hélène Brisset,
-        Directrice des systèmes d&apos;information et les managers des porteurs
-        d&apos;idées (DRDJSCS Hauts-de-France, DIRECCTE Ile de France et
-        Direction Générale du Travail), a décidé de reconduire les missions des
-        intrapreneurs pour une durée de 6 mois. <br />
+        Le Board de la fabrique numérique, réuni pour la première fois ce 22
+        juin 2018 en présence de Sabine Fourcade, Secrétaire générale des
+        ministères sociaux, Annaïck Laurent, Secrétaire générale adjointe,
+        Hélène Brisset, Directrice des systèmes d&apos;information et les
+        managers des porteurs d&apos;idées (DRDJSCS Hauts-de-France, DIRECCTE
+        Ile de France et Direction Générale du Travail), a décidé de reconduire
+        les missions des intrapreneurs pour une durée de 6 mois. <br />
         <br />
         <div style={{ textAlign: "center" }}>
           <img
-            alt="le board de l'incubateur"
+            alt="le board de la fabrique numérique"
             src="/static/images/board1.jpg"
             width="50%"
           />
@@ -44,8 +44,8 @@ const Board1 = () => (
         en production un service rapidement, puis de l&apos;améliorer en
         continu, au plus près des attentes des utilisateurs a été atteint.
         Confrontation au terrain très tôt, droit à l&apos;erreur, travail en
-        cycles courts, auto-organisation sont les principes clés de
-        l&apos;incubateur.
+        cycles courts, auto-organisation sont les principes clés de la fabrique
+        numérique.
         <br />
         <br />
         Pour rappel,{" "}

@@ -23,11 +23,11 @@ class Members extends React.Component {
     return (
       <Layout>
         <Head>
-          <title>Les acteurs de l&apos;incubateur</title>
+          <title>Les acteurs de la fabrique numérique</title>
         </Head>
         <Hero
-          title="Les acteurs de l'incubateur"
-          tagline="Ils contribuent à l'incubateur des ministères Sociaux"
+          title="Les acteurs de la fabrique numérique"
+          tagline="Ils contribuent à la fabrique numérique des ministères Sociaux"
         />
         <div className="container">
           <div

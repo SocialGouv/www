@@ -81,7 +81,7 @@ export default class Layout extends React.Component {
         <MDXProvider components={components}>
           <div>{this.props.children}</div>
         </MDXProvider>
-        <Footer title="incubateur.social.gouv.fr" links={footerLinks} />
+        <Footer title="fabrique.social.gouv.fr" links={footerLinks} />
         <ReactTooltip />
       </React.Fragment>
     );

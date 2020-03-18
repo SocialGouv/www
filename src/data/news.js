@@ -24,7 +24,7 @@ module.exports = [
     promote: true,
     author: "julien.bouquillon",
     img: "/static/images/actus/taking-notes.jpg",
-    title: "Premier petit séminaire de l'incubateur",
+    title: "Premier petit séminaire de la fabrique numérique",
     href: "/actus/seminaire-1",
     html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`
   },
@@ -67,10 +67,10 @@ A bientôt pour d'autres bonnes nouvelles ;)
     date: "15 janvier 2019",
     author: "eric.heijligers",
     img: "/static/images/actus/board-0119.jpg",
-    title: "Deuxième board de l'incubateur",
+    title: "Deuxième board de la fabrique numérique",
     href: "/actus/board-janvier-2019",
     html:
-      "Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
+      "Le deuxième board de la fabrique numérique s'est tenu le 15 janvier : découvrez comment il s'est passé"
   },
   {
     date: "1er janvier 2019",
@@ -107,7 +107,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     title: "C’est officiel : e-MJPM s’installe à Paris !",
     html: `
     <br/>
-    Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par l’Incubateur des Ministères Sociaux.
+    Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par la fabrique numérique des Ministères Sociaux.
     <br/>
     Il y a quelques mois, l’équipe annonçait le développement  d’e-MJPM sur Paris et c’est aujourd’hui chose faite.  <br/><br/>Depuis ce lundi 26 novembre, l’outil est disponible pour l’ensemble des acteurs de la protection juridique des majeurs exerçant sur Paris. Deuxième date importante pour la startup d’Etat qui a déjà ouvert e-MJPM dans trois territoires des Hauts-de-France au printemps  dernier.
     <br/><br/>
@@ -197,10 +197,10 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "23 Août 2018",
     author: "eric.heijligers",
-    title: "L'incubateur pousse les murs",
+    title: "La fabrique numérique pousse les murs",
     html: `
-    Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
-    <br/><p align="center"><img src="/static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de l'incubateur"/></p><br/>
+    Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de la fabrique numérique s'agrandit.
+    <br/><p align="center"><img src="/static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de la fabrique numérique"/></p><br/>
     Conçu par les agents du bureau des opérations immobilières (DFAS) en collaboration avec les incubés, l'espace de travail passera de 80m² à 150m² en septembre.<br/>
     Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
     <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>

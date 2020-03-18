@@ -4,7 +4,7 @@ import { Hero, Layout, Section } from "../../src/composants";
 const BA2019 = () => (
   <Layout>
     <Hero
-      title="L'incubateur des ministères sociaux vous souhaite une très bonne année 2019
+      title="La fabrique numérique des ministères sociaux vous souhaite une très bonne année 2019
       !"
       tagline="Plein de beaux produits"
     />

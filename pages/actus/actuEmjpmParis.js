@@ -44,8 +44,8 @@ const actuEmjpmParis = () => (
         dans son projet de se lancer à la conquête de nouveaux territoires.
         <br />
         <br /> Pour plus d&apos;informations au sujet de la startup e-MJPM
-        développée par l’Incubateur des Ministères Sociaux, nous vous invitions
-        à regarder une vidéo explicative
+        développée par la fabrique numérique des Ministères Sociaux, nous vous
+        invitions à regarder une vidéo explicative
         (https://www.dailymotion.com/video/x6z9qkc) ou nous contacter
         directement par email (contact@emjpm.beta.gouv.fr).
       </div>

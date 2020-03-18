@@ -23,7 +23,7 @@
     - title: Validation en ligne des ATP
       subTitle: Sécurité
       icon: lock
-      href: https://work-in-france.incubateur.social.gouv.fr/validitycheck
+      href: https://work-in-france.fabrique.social.gouv.fr/validitycheck
       description:
         Vérifiez la validité d'une autorisation provisoire de travail pour un
         étudiant étranger
@@ -84,8 +84,8 @@
     échanges  entre services.
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/fce/
-      href: https://incubateur.social.gouv.fr/startups/fce
+      subTitle: https://fabrique.social.gouv.fr/startups/fce/
+      href: https://fabrique.social.gouv.fr/startups/fce
       description: Page officielle du produit
     - title: Github
       subTitle: code source
@@ -99,8 +99,8 @@
   description: Faciliter la domiciliation pour les personnes sans domicile stable.
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/domifacile/
-      href: https://incubateur.social.gouv.fr/startups/domifacile/
+      subTitle: https://fabrique.social.gouv.fr/startups/domifacile/
+      href: https://fabrique.social.gouv.fr/startups/domifacile/
       description: Page officielle du produit
     - title: Github
       subTitle: code source
@@ -115,8 +115,8 @@
   description: Rapprocher les professionnels de santé de leur futur territoire d’exercice
   links:
     - title: Page d'accueil
-      subTitle: https://incubateur.social.gouv.fr/startups/tremplin/
-      href: https://incubateur.social.gouv.fr/startups/tremplin/
+      subTitle: https://fabrique.social.gouv.fr/startups/tremplin/
+      href: https://fabrique.social.gouv.fr/startups/tremplin/
       description: Page officielle du produit
     - title: Github
       subTitle: code source

@@ -25,13 +25,13 @@ const Faq = () => (
         <AccordionItem>
           <AccordionItemTitle>
             <h3 className="u-position-relative">
-              Qu&apos;est-ce qu&apos;un incubateur de services numériques ?
+              Qu&apos;est-ce qu&apos;une fabrique de services numériques ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-              Un incubateur est une structure légère qui permet
+              Une fabrique numérique est une structure légère qui permet
               d&apos;accueillir des porteurs d&apos;idées internes, les «
               intrapreneurs », et de leur fournir le cadre et les outils
               nécessaires pour pouvoir créer leur produit numérique en mode «
@@ -51,12 +51,12 @@ const Faq = () => (
               {" "}
               ◦ Une Startup d&apos;Etat permet le développement rapide de
               produits et services numériques, en cycles courts de
-              développement. Elle est agencée selon le modèle de
-              l&apos;incubateur interministériel porté par la DINSIC. Elle est
-              composée d&apos;une équipe autonome, et a pour objectif de
-              produire un service numérique qui résout un irritant vécu par les
-              usagers ou les agents, et dont les premiers impacts peuvent être
-              mesurés dans les 6 mois.
+              développement. Elle est agencée selon le modèle de la fabrique
+              numérique interministériel portée par la DINSIC. Elle est composée
+              d&apos;une équipe autonome, et a pour objectif de produire un
+              service numérique qui résout un irritant vécu par les usagers ou
+              les agents, et dont les premiers impacts peuvent être mesurés dans
+              les 6 mois.
               <br />
               <a href="https://beta.gouv.fr/2017/09/05/les-6-prochains-mois-dune-startup-detat.html">
                 https://beta.gouv.fr/2017/09/05/les-6-prochains-mois-dune-startup-detat.html
@@ -68,7 +68,7 @@ const Faq = () => (
         <AccordionItem>
           <AccordionItemTitle>
             <h3 className="u-position-relative">
-              Pourquoi un incubateur dans les ministères sociaux ?
+              Pourquoi une fabrique numérique dans les ministères sociaux ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
@@ -88,15 +88,15 @@ const Faq = () => (
         <AccordionItem>
           <AccordionItemTitle>
             <h3 className="u-position-relative">
-              Y a-t-il d&apos;autres incubateurs ministériels ?
+              Y a-t-il d&apos;autres fabriques numériques ministérielles ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-              ◦ Au niveau interministériel, BetaGouv, l&apos;incubateur des
-              services numériques de la DINSIC Incubateur de services publics
-              numériques — <a href="beta.gouv.fr">beta.gouv.fr</a>
+              ◦ Au niveau interministériel, BetaGouv, la fabrique des services
+              numériques de la DINSIC Fabrique de services publics numériques —{" "}
+              <a href="beta.gouv.fr">beta.gouv.fr</a>
               <br />◦ Au niveau ministériel, le ministère de l&apos;écologie, le
               ministère de l&apos;Intérieur
             </p>
@@ -107,19 +107,19 @@ const Faq = () => (
           <AccordionItemTitle>
             <h3 className="u-position-relative">
               Qui est chargé fonctionnellement de l&apos;animation de la mission
-              «incubateur de services numériques des ministères sociaux » ?
+              «Fabrique numérique des ministères sociaux » ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
               La direction des systèmes d&apos;information (DSI) est chargée de
-              l&apos;animation fonctionnelle de la mission « incubateur de
-              services numériques des ministères sociaux ». Elle est composée
-              d&apos;un chef de la mission, d&apos;un Techlead, d&apos;un
-              Product Manager. Les intrapreneurs sont également aidés de coachs
-              et de développeurs (experts du secteur numérique Numa, coachs et
-              développeurs de la DINSIC).
+              l&apos;animation fonctionnelle de la mission « fabrique numérique
+              des ministères sociaux ». Elle est composée d&apos;un chef de la
+              mission, d&apos;un Techlead, d&apos;un Product Manager. Les
+              intrapreneurs sont également aidés de coachs et de développeurs
+              (experts du secteur numérique Numa, coachs et développeurs de la
+              DINSIC).
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -135,7 +135,7 @@ const Faq = () => (
             <p>
               Un total de 138 idées a été déposé par les agents de
               l&apos;administration centrale, des DIRECCTE, des DR(D)JSCS) et
-              des ARS pour l&apos;incubateur des ministères sociaux, dont 41
+              des ARS pour la fabrique numérique des ministères sociaux, dont 41
               dossiers pour les DIRECCTE (30 %), 35 dossiers pour la DGS (25%),
               22 dossiers pour les DRJSCS (16%) et 19 dossiers pour les
               directions du SG (14 %). Parmi ces 138 candidatures, 19 ont été
@@ -169,15 +169,15 @@ const Faq = () => (
         <AccordionItem>
           <AccordionItemTitle>
             <h3 className="u-position-relative">
-              Travaille-t-on différemment au sein de l&apos;incubateur ?
+              Travaille-t-on différemment au sein de la fabrique numérique ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-              Le fonctionnement de l&apos;incubateur est basé sur le principe
-              innovant du développement agile itératif. L&apos;objectif est de
-              mettre en production un service rapidement, puis de
+              Le fonctionnement de la fabrique numérique est basé sur le
+              principe innovant du développement agile itératif. L&apos;objectif
+              est de mettre en production un service rapidement, puis de
               l&apos;améliorer en continue, avec les utilisateurs. Confrontation
               au terrain très tôt, droit à l&apos;erreur, travail par
               itérations, auto-organisation,… sont des principes liés aux
@@ -199,14 +199,14 @@ const Faq = () => (
         <AccordionItem>
           <AccordionItemTitle>
             <h3 className="u-position-relative">
-              Où se situe l&apos;incubateur des ministères sociaux ?
+              Où se situe la fabrique numérique des ministères sociaux ?
               <div className="accordion__arrow" role="presentation" />
             </h3>
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-              L&apos;incubateur se situe dans les locaux de la DSI, au 8è étage
-              de la tour Mirabeau à Paris.
+              La fabrique numérique se situe dans les locaux de la DSI, au 8è
+              étage de la tour Mirabeau à Paris.
             </p>
           </AccordionItemBody>
         </AccordionItem>
@@ -235,7 +235,7 @@ const Faq = () => (
           </AccordionItemTitle>
           <AccordionItemBody>
             <p>
-              L&apos;équipe de DSI Incubateur :{" "}
+              L&apos;équipe de DSI Fabrique Numérique :{" "}
               <a href="mailto:DSI-incubateur@sg.social.gouv.fr">
                 DSI-incubateur@sg.social.gouv.fr
               </a>
