@@ -109,9 +109,7 @@ const Homepage = () => (
               />
               <br />
               <div align="center" style={{ margin: "20px 0" }}>
-                <a className="button warning large" href="/actus">
-                  En savoir plus
-                </a>
+                <button className="button warning large">En savoir plus</button>
               </div>
             </center>
           </a>
