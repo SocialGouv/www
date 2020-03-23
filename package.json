@@ -35,7 +35,7 @@
     "node-fetch": "^2.6.0",
     "prettier": "^1.19.1",
     "raw-loader": "^4.0.0",
-    "remark-autolink-headings": "^5.2.2"
+    "remark-autolink-headings": "^6.0.0"
   },
   "dependencies": {
     "github-base": "^1.0.0",
@@ -51,7 +51,7 @@
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^2.5.0",
     "react-youtube": "^7.9.0",
-    "remark-highlight.js": "^5.2.0",
+    "remark-highlight.js": "^6.0.0",
     "styled-components": "^5.0.1",
     "template.data.gouv.fr": "^1.1.8",
     "trim-right": "^1.0.1"
