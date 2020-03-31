@@ -33,7 +33,7 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
 ## En arrivant
 
- - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members) qui t'accompagnera dans tes premiers pas.  
+ - [ ] Choisir [un(e) marraine](https://www.fabrique.social.gouv.fr/members) qui t'accompagnera dans tes premiers pas.  
  - [ ] [Assigne le(la) à cette issue](https://help.github.com/en/github/managing-your-work-on-github/assigning-issues-and-pull-requests-to-other-github-users) :ok_hand:
  - [ ] Créer ta fiche sur le [site de la fabrique numérique](https://github.com/SocialGouv/socialgouv.github.io)
  - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de la fabrique numérique et se présenter sur [~incub/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/incub-nouveaux)
