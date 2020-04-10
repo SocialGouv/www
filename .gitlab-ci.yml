@@ -8,7 +8,8 @@ variables:
   # NOTE(douglasduteil): explicit project path
   # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
   PROJECT_PATH: "SocialGouv/www"
-  VALUES_FILE: ./.k8s/app.values.yml
+  PORT: 3000
+  VALUES_FILE: ./.k8s.app.values.yml
 
 #
 
@@ -38,6 +39,9 @@ Deploy app (prod):
     refs:
       - master
   variables:
+    HELM_RENDER_ARGS: >-
+      --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
+      --set ingress.tls[0].hosts[0]=www.${KUBE_INGRESS_BASE_DOMAIN}
     HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
     K8S_NAMESPACE: www
     PRODUCTION: "true"
