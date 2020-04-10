@@ -1,14 +1,3 @@
-FROM node:12-alpine
+FROM registry.gitlab.factory.social.gouv.fr/socialgouv/docker/nginx4spa:0.29.0
 
-WORKDIR /app
-
-RUN chown node:node /app
-
-COPY . .
-
-RUN yarn --frozen-lockfile
-RUN yarn build
-
-ENV NODE_ENV=production
-
-ENTRYPOINT ["yarn", "run", "build-start"]
+COPY ./out /usr/share/nginx/html

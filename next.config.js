@@ -13,8 +13,9 @@ const withMDX = require("@zeit/next-mdx")({
 module.exports = withMDX(
   withImages(
     withCSS({
-      pageExtensions: ["js", "mdx"],
       assetPrefix: "",
+      exportTrailingSlash: true,
+      pageExtensions: ["js", "mdx"],
       webpack: config => {
         config.module.rules.push({
           test: /\.(woff|woff2|eot|ttf|otf)$/,
