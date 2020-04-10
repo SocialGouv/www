@@ -23,8 +23,8 @@ Build:
   variables:
     VERSION: ${CI_COMMIT_SHORT_SHA}
   script:
-    - yarn build
-    - yarn export
+    - yarn next build
+    - yarn next export
   artifacts:
     expire_in: 1 day
     paths:
