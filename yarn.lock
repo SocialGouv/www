@@ -1092,24 +1092,24 @@
   resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.3.2.tgz#f8e282fdeb448eb6b70bcc18c5d46c911072687a"
   integrity sha512-kEa7v3trZmW6iWeTJrhg+ZsE9njae7mLkgyZB5M1r975JHr5PQ69B5aX7hrEAj7aAJYvCKETgAczx4gGR8MOzQ==
 
-"@socialgouv/eslint-config-react@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-0.18.0.tgz#7b18f1ee94b92bff6a24d915087ab819ec07aadf"
-  integrity sha512-Ip1+B8rLd88/FM3aHDMAOoX9HUU74FRdpnZbYbcoNaxHQMJkEsuDyTyzYFQ0/qwJOIF+Foez6V1vPW/UXQzB6w==
+"@socialgouv/eslint-config-react@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-0.20.0.tgz#15e590faaaa3ae2934b43f3b82d70cb86ad60918"
+  integrity sha512-8+jPNejVDg7MWfkgUVfeSsPSDMWBi3wgb4QiIgsbViDsDxAgn1SkSzbDHw+imXHYFz2mdFDjwcNXECyIgOe5LA==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^0.18.0"
+    "@socialgouv/eslint-config-recommended" "^0.20.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.2.3"
     eslint-plugin-react "~7.19.0"
-    eslint-plugin-react-hooks "~2.5.0"
+    eslint-plugin-react-hooks "~3.0.0"
 
-"@socialgouv/eslint-config-recommended@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-0.18.0.tgz#46203d1a294b41682737579fd74457cb7e54017d"
-  integrity sha512-bsx3/fgTeFyPyJHMMvMRTaa7AlfLFEwj9WQeTwC+iiYdO7sTyEZBMmCrAXb2uUP0AaxiDsckEu5YKY+3nXPoOQ==
+"@socialgouv/eslint-config-recommended@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-0.20.0.tgz#a0df29a4cf6e6a5f1d73f440388b9baeb796f0a5"
+  integrity sha512-uisvQu4vQeXhydMSW1iUs5e/82xTYdxMgo4iiUpEoUgMd2X49N4N6xmYD/3tzVrCr4IFnBk4lzTkaQj6enSPHw==
   dependencies:
-    eslint-config-prettier "~6.10.0"
-    eslint-plugin-import "~2.20.1"
+    eslint-config-prettier "~6.10.1"
+    eslint-plugin-import "~2.20.2"
     eslint-plugin-jest "~23.8.2"
     eslint-plugin-prettier "~3.1.2"
 
@@ -3097,10 +3097,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@~6.10.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.0.tgz#7b15e303bf9c956875c948f6b21500e48ded6a7f"
-  integrity sha512-AtndijGte1rPILInUdHjvKEGbIV06NuvPrqlIEaEaWtbtvJh464mDeyGMdZEQMsGvC0ZVkiex1fSNcC4HAbRGg==
+eslint-config-prettier@~6.10.1:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz#129ef9ec575d5ddc0e269667bf09defcd898642a"
+  integrity sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -3120,10 +3120,10 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@~2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.1.tgz#802423196dcb11d9ce8435a5fc02a6d3b46939b3"
-  integrity sha512-qQHgFOTjguR+LnYRoToeZWT62XM55MBVXObHM6SKFd1VzDcX/vqT1kAz8ssqigh5eMj8qXcRoXXGZpPP6RfdCw==
+eslint-plugin-import@~2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.2.tgz#91fc3807ce08be4837141272c8b99073906e588d"
+  integrity sha512-FObidqpXrR8OnCh4iNsxy+WACztJLXAHBO5hK79T1Hc77PgQZkyDGA5Ag9xAvRpglvLNxhH/zSmZ70/pZ31dHg==
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
@@ -3167,10 +3167,10 @@ eslint-plugin-prettier@~3.1.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@~2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.5.0.tgz#c50ab7ca5945ce6d1cf8248d9e185c80b54171b6"
-  integrity sha512-bzvdX47Jx847bgAYf0FPX3u1oxU+mKU8tqrpj4UX9A96SbAmj/HVEefEy6rJUog5u8QIlOPTKZcBpGn5kkKfAQ==
+eslint-plugin-react-hooks@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-3.0.0.tgz#9e80c71846eb68dd29c3b21d832728aa66e5bd35"
+  integrity sha512-EjxTHxjLKIBWFgDJdhKKzLh5q+vjTFrqNZX36uIxWS4OfyXe5DawqPj3U5qeJ1ngLwatjzQnmR0Lz0J0YH3kxw==
 
 eslint-plugin-react@~7.19.0:
   version "7.19.0"
@@ -5111,12 +5111,7 @@ minimist@0.0.8:
   resolved "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
-
-minimist@^1.2.5:
+minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
