@@ -1,18 +1,3 @@
-FROM node:12-alpine
+FROM registry.gitlab.factory.social.gouv.fr/socialgouv/docker/nginx4spa:0.29.0
 
-WORKDIR /app
-
-COPY package.json yarn.lock ./
-
-RUN yarn --production --frozen-lockfile
-
-COPY next.config.js server.js  ./
-COPY src/sentry.js ./src/sentry.js
-COPY .next/ ./.next
-
-USER node
-
-ENV NODE_ENV=production
-ENV NEXT_TELEMETRY_DISABLED=1
-
-CMD ["yarn", "start"]
+COPY ./out /usr/share/nginx/html

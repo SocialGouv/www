@@ -13,6 +13,25 @@ variables:
 
 #
 
+Build:
+  extends:
+    - .base_yarn_build_next
+  dependencies:
+    - Install
+  needs:
+    - Install
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
+  script:
+    - yarn build
+    - yarn export
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
+
+#
+
 Deploy app (prod):
   extends:
     - .deploy_app_stage
