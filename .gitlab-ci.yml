@@ -1,25 +1,21 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops_simple_app.yml
-    ref: v9.1.1
+    ref: v15.1.0
 
 variables:
   PROJECT: "www"
   # NOTE(douglasduteil): explicit project path
   # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
   PROJECT_PATH: "SocialGouv/www"
-  HELM_CHART_VERSION: "3.0.1"
-  VALUES_FILE: ./.k8s/app.values.yml
+  PORT: 3000
+  VALUES_FILE: ./.k8s.app.values.yml
 
 #
 
 Build:
   extends:
-    - .base_yarn_build_next
-  dependencies:
-    - Install
-  needs:
-    - Install
+    - .autodevops_build
   variables:
     VERSION: ${CI_COMMIT_SHORT_SHA}
   script:
@@ -34,14 +30,14 @@ Build:
 
 Deploy app (prod):
   extends:
-    - .deploy_app_stage
-  only:
-    refs:
-      - master
+    - .autodevops_deploy_app_prod
   variables:
+    HELM_RENDER_ARGS: >-
+      --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
+      --set ingress.tls[0].hosts[0]=www.${KUBE_INGRESS_BASE_DOMAIN}
     HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
     K8S_NAMESPACE: www
     PRODUCTION: "true"
   environment:
     name: prod
-    url: https://${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+    url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
