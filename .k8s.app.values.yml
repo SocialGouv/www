@@ -8,11 +8,9 @@ deployment:
 
   livenessProbe:
     initialDelaySeconds: 30
-    failureThreshold: 50
 
   readinessProbe:
     initialDelaySeconds: 30
-    failureThreshold: 50
 
   resources:
     requests:
