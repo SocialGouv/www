@@ -15,12 +15,12 @@ deployment:
     failureThreshold: 50
 
   resources:
-    limits:
-      cpu: 250m
-      memory: 32Mi
     requests:
-      cpu: 5m
-      memory: 16Mi
+      cpu: 100m
+      memory: 128Mi
+    limits:
+      cpu: 500m
+      memory: 256Mi
 
   env:
     - name: PORT
