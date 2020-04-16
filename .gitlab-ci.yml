@@ -1,7 +1,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops_simple_app.yml
-    ref: v15.0.0
+    ref: v15.1.0
 
 variables:
   PROJECT: "www"
@@ -15,11 +15,7 @@ variables:
 
 Build:
   extends:
-    - .base_yarn_build_next
-  dependencies:
-    - Install
-  needs:
-    - Install
+    - .autodevops_build
   variables:
     VERSION: ${CI_COMMIT_SHORT_SHA}
   script:
@@ -34,10 +30,7 @@ Build:
 
 Deploy app (prod):
   extends:
-    - .deploy_app_stage
-  only:
-    refs:
-      - master
+    - .autodevops_deploy_app_prod
   variables:
     HELM_RENDER_ARGS: >-
       --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
@@ -47,4 +40,4 @@ Deploy app (prod):
     PRODUCTION: "true"
   environment:
     name: prod
-    url: https://${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+    url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
