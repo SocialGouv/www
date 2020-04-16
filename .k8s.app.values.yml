@@ -7,13 +7,20 @@ image:
 deployment:
 
   livenessProbe:
-    initialDelaySeconds: 15
+    initialDelaySeconds: 30
+    failureThreshold: 50
+
+  readinessProbe:
+    initialDelaySeconds: 30
+    failureThreshold: 50
 
   resources:
     limits:
-      memory: 128Mi
+      cpu: 250m
+      memory: 32Mi
     requests:
-      memory: 64Mi
+      cpu: 5m
+      memory: 16Mi
 
   env:
     - name: PORT
