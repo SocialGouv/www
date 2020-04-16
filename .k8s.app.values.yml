@@ -7,11 +7,11 @@ image:
 deployment:
 
   livenessProbe:
-    initialDelaySeconds: 30
+    initialDelaySeconds: 45
     failureThreshold: 10
 
   readinessProbe:
-    initialDelaySeconds: 30
+    initialDelaySeconds: 45
     failureThreshold: 10
 
   resources:
