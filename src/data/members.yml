@@ -411,3 +411,10 @@
     - e-mjpm
   role: Développeur Fullstack
   picture: /images/members/remi.roycourt.jpg
+- id: nicolas.toublanc
+  name: Nicolas TOUBLANC
+  structure: Freelance
+  startups:
+    - e-mjpm
+  role: Développeur Fullstack
+  picture: /images/members/nicolas.toublanc.jpg
