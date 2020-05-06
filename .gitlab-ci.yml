@@ -42,6 +42,17 @@ Deploy app (prod):
     name: prod
     url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
 
+Deploy incubateur redirect pod (prod):
+  extends: .base_docker_kubectl_image_stage
+  variables:
+    K8S_NAMESPACE: www
+    PRODUCTION: "true"
+    script:
+      - echo "kubectl get namespace ${K8S_NAMESPACE}"
+      - kubectl apply -f .k8s/redirect.yml -n ${K8S_NAMESPACE}
+  environment:
+    name: prod
+
 #
 
 Delete useless k8s namespaces:

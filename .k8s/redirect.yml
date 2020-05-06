@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redirect-incubateur
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redirect-incubateur
+  template:
+    metadata:
+      labels:
+        app: redirect-incubateur
+    spec:
+      containers:
+        - image: pindar/docker-nginx-redirect-301
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /
+              port: 80
+              scheme: HTTP
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          name: redirect-incubateur
+          env:
+            - name: REDIRECT_URL
+              value: "https://fabrique.social.gouv.fr"
+            - name: REDIRECT_CODE
+              value: "301"
+          ports:
+            - containerPort: 80
+          #              protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /
+              port: 80
+              scheme: HTTP
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 50m
+              memory: 64Mi
+            requests:
+              cpu: 50m
+              memory: 64Mi
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redirect-incubateur
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 80
+  selector:
+    app: redirect-incubateur
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: azure/application-gateway
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/tls-acme: "true"
+  name: redirect-incubateur
+spec:
+  rules:
+    - host: incubateur.social.gouv.fr
+      http:
+        paths:
+          - backend:
+              serviceName: redirect-incubateur
+              servicePort: 80
+    - host: www.incubateur.social.gouv.fr
+      http:
+        paths:
+          - backend:
+              serviceName: redirect-incubateur
+              servicePort: 80
+  tls:
+    - hosts:
+        - incubateur.social.gouv.fr
+        - www.incubateur.social.gouv.fr
+      secretName: incubateur-crt
