@@ -26,7 +26,7 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
 ## Avant d'arriver
 
- - [ ] Lire le [welcome pack dev](https://github.com/SocialGouv/socialgouv.github.io/wiki/Social-Gouv-Tech-Welcome-Pack-🖖) : liens vers les outils, recommandations et bonnes pratiques
+ - [ ] Parcours la [documentation SRE](https://socialgouv.github.io/support) : liens vers les outils, recommandations et bonnes pratiques
  - [ ] Parcourir les [repos SocialGouv](http://github.com/SocialGouv)
  - [ ] Ajouter le calendrier de la fabrique numérique : freego.mas@gmail.com (calendrier google partagé)
  - [ ] Verifier que [ton compte GitHub est sécurisé](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)
@@ -47,6 +47,8 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 ### A tout moment
 
 Si tu as une question, besoin d'aide ou de soutien, n'hésites pas à solliciter à tout moment une personne de la communauté.
+
+L'équipe SRE est dispo à tout moment pour le support technique
 
 ### Carte d'accès Mirabeau et carte de cantine
 
