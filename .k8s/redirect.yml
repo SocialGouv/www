@@ -32,7 +32,6 @@ spec:
               value: "301"
           ports:
             - containerPort: 80
-          #              protocol: TCP
           readinessProbe:
             failureThreshold: 3
             httpGet:
