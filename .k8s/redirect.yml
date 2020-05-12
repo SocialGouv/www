@@ -27,7 +27,7 @@ spec:
           name: redirect-incubateur
           env:
             - name: REDIRECT_URL
-              value: "https://fabrique.social.gouv.fr"
+              value: "https://www.fabrique.social.gouv.fr"
             - name: REDIRECT_CODE
               value: "301"
           ports:
