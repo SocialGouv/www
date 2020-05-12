@@ -3,6 +3,8 @@
 image:
   repository: $CI_REGISTRY_IMAGE
   tag: master
+  
+nameOverride: www
 
 deployment:
 
