@@ -6149,10 +6149,10 @@ react-dom@^16.13.0:
     prop-types "^15.6.2"
     scheduler "^0.19.0"
 
-react-feather@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.3.tgz#1453ff5d8c242f72b8c02846118fbd2d406375ad"
-  integrity sha512-XVjtxIyMxb2RFlqC2APoB/IZvXKDW9uLN1c264XEeZNYe8jIxjQVQpeTo3nxtHiLTgMfgf0ZYxJC6HwmY8+9BA==
+react-feather@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.8.tgz#455baf1470f756a57e2ad6c72545444ce5925781"
+  integrity sha512-J0dCEOvOxpovHeOVj3+8mAhN3/UERTfX6rSxnV6x4E+0s+STY536jhSjRfpSvTQA0SSFjYr4KrpPfdsLmK+zZg==
   dependencies:
     prop-types "^15.7.2"
 
