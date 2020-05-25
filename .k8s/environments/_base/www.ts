@@ -21,6 +21,12 @@ const env: AppComponentEnvironment = {
   labels: {
     component: "nginx4spa",
   },
+
+  requests: {
+    cpu: "1m",
+    memory: "8Mi",
+  },
+
   name: "www",
 
   servicePort: 80,
