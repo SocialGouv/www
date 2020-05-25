@@ -5,7 +5,7 @@ ok(process.env.CI_REGISTRY_IMAGE);
 ok(process.env.CI_COMMIT_SHA);
 
 const env: AppComponentEnvironment = {
-  containerPort: 8080,
+  containerPort: 80,
 
   image: {
     name: process.env.CI_REGISTRY_IMAGE,
