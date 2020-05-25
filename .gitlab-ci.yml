@@ -6,3 +6,21 @@ include:
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "true"
   AUTO_DEVOPS_PRODUCTION_AUTO: "true"
+
+#
+
+# NOTE(douglasduteil): use custom build job
+# The website it statically built with Nextjs
+# Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
+Build:
+  extends:
+    - .autodevops_build
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
+  script:
+    - yarn next build
+    - yarn next export
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
