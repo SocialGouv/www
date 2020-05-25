@@ -54,5 +54,6 @@
     "styled-components": "^5.1.0",
     "template.data.gouv.fr": "^1.1.8",
     "trim-right": "^1.0.1"
-  }
+  },
+  "private": true
 }
