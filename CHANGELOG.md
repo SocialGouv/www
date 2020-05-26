@@ -1,3 +1,10 @@
+# [1.0.0-beta.7](https://github.com/SocialGouv/www/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-05-26)
+
+
+### Bug Fixes
+
+* **release:** add @semantic-release/npm plugin ([434af7c](https://github.com/SocialGouv/www/commit/434af7c80ffeef1f2376bad706fa0ca8936119c9))
+
 # [1.0.0-beta.6](https://github.com/SocialGouv/www/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-05-26)
 
 
