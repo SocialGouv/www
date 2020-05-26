@@ -36,3 +36,17 @@ ingress:
     certmanager.k8s.io/cluster-issuer: letsencrypt-prod
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: ${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+      paths:
+        - path: /
+          servicePort: "${PORT}"
+    - host: ${KUBE_INGRESS_BASE_DOMAIN}
+      paths:
+        - path: /
+          servicePort: "${PORT}"
+  tls:
+    - hosts:
+        - ${CI_PROJECT_NAME}.${KUBE_INGRESS_BASE_DOMAIN}
+        - ${KUBE_INGRESS_BASE_DOMAIN}
+      secretName: ${CI_PROJECT_NAME}-crt
