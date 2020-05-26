@@ -1,3 +1,18 @@
+# [1.0.0-beta.8](https://github.com/SocialGouv/www/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2020-05-26)
+
+
+* feat(ci)!: socialgouv/gitlab-ci-yml v16 ([e9703df](https://github.com/SocialGouv/www/commit/e9703df4e0c46fe14855908c49db819ec47871df))
+
+
+### Bug Fixes
+
+* **gitlab:** update socialgouv/gitlab-ci-yml to v16.0.0-beta.10 ([445d5a9](https://github.com/SocialGouv/www/commit/445d5a9e9c527527140b1d5b25d280236dfb9108))
+
+
+### BREAKING CHANGES
+
+* use socialgouv/gitlab-ci-yml v16 + AutoRelease + AutoMep
+
 # [1.0.0-beta.7](https://github.com/SocialGouv/www/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-05-26)
 
 
