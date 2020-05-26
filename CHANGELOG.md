@@ -1,3 +1,10 @@
+# [1.0.0-beta.5](https://github.com/SocialGouv/www/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2020-05-26)
+
+
+### Features
+
+* **pages:** add healthz page ([053b15d](https://github.com/SocialGouv/www/commit/053b15dfb7aaae0b7a5f7e8196fb54d58c49114b))
+
 # [1.0.0-beta.4](https://github.com/SocialGouv/www/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-26)
 
 
