@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/SocialGouv/www/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-26)
+
+
+### Bug Fixes
+
+* **gitlab:** update @socialgouv/kosko-charts to 2.0.0-beta.5 ([54a80d9](https://github.com/SocialGouv/www/commit/54a80d9195f2c85b79191b7691856abff0408bd3))
+
 # [1.0.0-beta.3](https://github.com/SocialGouv/www/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-25)
 
 
