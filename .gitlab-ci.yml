@@ -26,6 +26,20 @@ Build:
     paths:
       - out
 
+Create namespace:
+  extends: .autodevops_create_namespace
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
+
+Stop review:
+  extends: .autodevops_stop_review
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
+
+Deploy app (dev):
+  extends: .autodevops_deploy_app_dev
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
 #
 
 Deploy app (prod):
@@ -39,7 +53,7 @@ Deploy app (prod):
     K8S_NAMESPACE: www
     PRODUCTION: "true"
   environment:
-    name: prod
+    name: prod2
     url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
 
 #
