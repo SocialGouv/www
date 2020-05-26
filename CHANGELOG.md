@@ -1,3 +1,10 @@
+# [1.0.0-beta.9](https://github.com/SocialGouv/www/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2020-05-26)
+
+
+### Bug Fixes
+
+* trigger patch release ([58039e0](https://github.com/SocialGouv/www/commit/58039e033840b909222183546bfc3a3b8c1d4367))
+
 # [1.0.0-beta.8](https://github.com/SocialGouv/www/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2020-05-26)
 
 
