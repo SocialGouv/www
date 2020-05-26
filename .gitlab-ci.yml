@@ -26,6 +26,7 @@ Build:
     paths:
       - out
 
+#
 Create namespace:
   extends: .autodevops_create_namespace
   environment:
