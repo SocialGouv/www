@@ -51,7 +51,7 @@ Deploy app (prod):
       --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
       --set ingress.tls[0].hosts[0]=www.${KUBE_INGRESS_BASE_DOMAIN}
     HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
-    K8S_NAMESPACE: www
+    K8S_NAMESPACE: incubateur
     PRODUCTION: "true"
   environment:
     name: prod2
