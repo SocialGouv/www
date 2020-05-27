@@ -411,6 +411,13 @@
     - e-mjpm
   role: Développeur Fullstack
   picture: /images/members/remi.roycourt.jpg
+- id: tiphaine.raffray 
+  name: Tiphaine Raffray
+  structure: freelance
+  startups:
+    - e-mjpm
+  role: biz dev
+  picture: /images/members/avatar.jpg
 - id: nicolas.toublanc
   name: Nicolas TOUBLANC
   structure: Freelance
