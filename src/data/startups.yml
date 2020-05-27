@@ -93,14 +93,14 @@
       description: Bientôt ! Le code source de l'application FCE
 - id: domifacile
   href: /startups/domifacile
-  img: /images/startups/harli-marten-135841-unsplash.jpg
+  img: /images/startups/domifa.jpg
   title: DomiFa
   meta: Janvier 2019
   description: Faciliter la domiciliation pour les personnes sans domicile stable.
   links:
     - title: Page d'accueil
-      subTitle: https://fabrique.social.gouv.fr/startups/domifacile/
-      href: https://fabrique.social.gouv.fr/startups/domifacile/
+      subTitle: https://domifa.fabrique.social.gouv.fr/
+      href: https://domifa.fabrique.social.gouv.fr/
       description: Page officielle du produit
     - title: Github
       subTitle: code source
