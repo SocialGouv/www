@@ -34,7 +34,7 @@ const Actus = () => (
     <Hero
       title="Proposez-nous vos idées"
       tagline="Participer à l'amélioration du service public des Ministères Sociaux"
-      style={{ backgroundImage: `url(/static/images/all-actus.jpg)` }}
+      style={{ backgroundImage: `url(/images/all-actus.jpg)` }}
     />
     <Section className="section-white" title="Déposez votre idée" subTitle="">
       <p>&nbsp;</p>

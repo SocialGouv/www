@@ -18,26 +18,25 @@ export default class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/static/images/favicons/apple-icon-180x180.png"
+            href="/images/favicons/apple-icon-180x180.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/static/images/favicons/favicon-16x16.png"
+            href="/images/favicons/favicon-16x16.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/static/images/favicons/favicon-32x32.png"
+            href="/images/favicons/favicon-32x32.png"
           />
-          <title>L&apos;incubateur des ministères sociaux</title>
           <meta
             name="viewport"
             content="width=device-width, user-scalable=yes"
           />
-          <script src="//polyfill.incubateur.social.gouv.fr/v3/polyfill.min.js?flags=gated&features=fetch%2CArray.prototype.find" />
+          <script src="/polyfill.js" />
           {this.props.styleTags}
         </Head>
         <body>

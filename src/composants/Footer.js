@@ -24,7 +24,7 @@ const Footer = ({
   <footer className="footer" style={style}>
     <div className="container">
       <div className="footer__logo">
-        Un incubateur propulsé par{" "}
+        Une fabrique numérique propulsée par{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"

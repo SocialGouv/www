@@ -14,7 +14,7 @@ module.exports = [
     date: "23 Septembre 2019",
     promote: true,
     author: "julien.bouquillon",
-    img: "/static/images/actus/taking-notes.jpg",
+    img: "/images/actus/taking-notes.jpg",
     title: "Livraison v-3.2.0 Fuschia Eagle",
     href: "/startups/code-du-travail-numerique/release-v3.2.0",
     html: `Livraison de la version v3.2.0 Fuschia Eagle du Code du travail numérique`
@@ -23,15 +23,15 @@ module.exports = [
     date: "22 janvier 2019",
     promote: true,
     author: "julien.bouquillon",
-    img: "/static/images/actus/taking-notes.jpg",
-    title: "Premier petit séminaire de l'incubateur",
+    img: "/images/actus/taking-notes.jpg",
+    title: "Premier petit séminaire de la fabrique numérique",
     href: "/actus/seminaire-1",
     html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`
   },
   {
     date: "16 janvier 2019",
     promote: true,
-    img: "/static/images/startups/work-in-france.jpg",
+    img: "/images/startups/work-in-france.jpg",
     author: "jonanthan.redt.gensinger",
     title: "Work in France : Une année qui démarre bien !",
     html: `
@@ -66,15 +66,15 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "15 janvier 2019",
     author: "eric.heijligers",
-    img: "/static/images/actus/board-0119.jpg",
-    title: "Deuxième board de l'incubateur",
+    img: "/images/actus/board-0119.jpg",
+    title: "Deuxième board de la fabrique numérique",
     href: "/actus/board-janvier-2019",
     html:
-      "Le deuxième board de l'incubateur s'est tenu le 15 janvier : découvrez comment il s'est passé"
+      "Le deuxième board de la fabrique numérique s'est tenu le 15 janvier : découvrez comment il s'est passé"
   },
   {
     date: "1er janvier 2019",
-    img: "/static/images/actus/bonne-annee-2019.jpg",
+    img: "/images/actus/bonne-annee-2019.jpg",
     author: "eric.heijligers",
     title: "Bonne année 2019 !",
     html: "C'est parti pour une nouvelle année !",
@@ -82,7 +82,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
   },
   {
     date: "5 Décembre 2018",
-    img: "/static/images/startups/code-du-travail-numerique.jpg",
+    img: "/images/startups/code-du-travail-numerique.jpg",
     author: "julien.bouquillon",
     title: "Code du travail numérique v1.5",
     html: `<p>La version 1.5 - Balinese Rose Lion du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
@@ -103,11 +103,11 @@ A bientôt pour d'autres bonnes nouvelles ;)
   {
     date: "26 Novembre 2018",
     author: "melanie.roge",
-    img: "/static/images/actus/TGI-Paris.jpg",
+    img: "/images/actus/TGI-Paris.jpg",
     title: "C’est officiel : e-MJPM s’installe à Paris !",
     html: `
     <br/>
-    Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par l’Incubateur des Ministères Sociaux.
+    Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par la fabrique numérique des Ministères Sociaux.
     <br/>
     Il y a quelques mois, l’équipe annonçait le développement  d’e-MJPM sur Paris et c’est aujourd’hui chose faite.  <br/><br/>Depuis ce lundi 26 novembre, l’outil est disponible pour l’ensemble des acteurs de la protection juridique des majeurs exerçant sur Paris. Deuxième date importante pour la startup d’Etat qui a déjà ouvert e-MJPM dans trois territoires des Hauts-de-France au printemps  dernier.
     <br/><br/>
@@ -156,7 +156,7 @@ Le service WorkinFrance a ouvert en expérimentation le 27 mars 2018 sur le pér
 Et, depuis le 5 septembre, c'est plus de 1000 dossiers qui ont été déposés !
 <br/>Cerise sur le gâteau : le déploiement s’étend avec la mise en œuvre de WorkinFrance dans le département du Rhône depuis le 27 août dernier.
 <br/>
-<p align="center"><img src="/static/images/counter-wif.gif" height="50%" width="50%" alt="Plus de 1000 dossiers déposés"/></p>
+<p align="center"><img src="/images/counter-wif.gif" height="50%" width="50%" alt="Plus de 1000 dossiers déposés"/></p>
 Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-France et Jonathan REDT-GENSINGER de la DGT.
    `
   },
@@ -197,14 +197,14 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
   {
     date: "23 Août 2018",
     author: "eric.heijligers",
-    title: "L'incubateur pousse les murs",
+    title: "La fabrique numérique pousse les murs",
     html: `
-    Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de l'incubateur s'agrandit.
-    <br/><p align="center"><img src="/static/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de l'incubateur"/></p><br/>
+    Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de la fabrique numérique s'agrandit.
+    <br/><p align="center"><img src="/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de la fabrique numérique"/></p><br/>
     Conçu par les agents du bureau des opérations immobilières (DFAS) en collaboration avec les incubés, l'espace de travail passera de 80m² à 150m² en septembre.<br/>
     Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
     <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
-    <p align="center"><img src="/static/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
+    <p align="center"><img src="/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
    `
   },
   {

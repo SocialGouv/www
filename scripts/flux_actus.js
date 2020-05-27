@@ -5,7 +5,7 @@ const convertNews = news => {
   <item>
     <title>${news.title}</title>
     <pubDate>${news.date}</pubDate>
-    <link>https://incubateur.social.gouv.fr/actus#${news.date}</link>
+    <link>https://fabrique.social.gouv.fr/actus#${news.date}</link>
     <description><![CDATA[${news.html}]]></description>
   </item>
   `;
@@ -18,15 +18,15 @@ const convertNews = news => {
 var currentTime = new Date();
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
-      <title>L'actu de l'incubateur des ministères sociaux</title>
+      <title>L'actu de la fabrique numérique des ministères sociaux</title>
       <updated>${currentTime}</updated>
-    
+
       <channel>
-        <title>L'actu de l'incubateur des ministères sociaux</title>
-        <link>https://incubateur.social.gouv.fr/actus#{id}</link>
-        <description>L'incubateur des ministères sociaux...</description>
+        <title>L'actu de la fabrique numérique des ministères sociaux</title>
+        <link>https://fabrique.social.gouv.fr/actus#{id}</link>
+        <description>La fabrique numérique des ministères sociaux...</description>
         <language>fr</language>
-        ${news.map(convertNews).join("\n")}  
+        ${news.map(convertNews).join("\n")}
       </channel>
  </rss>
   `;

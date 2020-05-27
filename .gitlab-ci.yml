@@ -1,24 +1,65 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops_simple_app.yml
-    ref: v9.1.1
+    ref: v15.9.0
 
 variables:
   PROJECT: "www"
   # NOTE(douglasduteil): explicit project path
   # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
-  PROJECT_PATH: "SocialGouv/socialgouv.github.io" 
-  HELM_CHART_VERSION: "3.0.1"
-  VALUES_FILE: ./.k8s/app.values.yml
+  PROJECT_PATH: "SocialGouv/www"
+  PORT: 3000
+  VALUES_FILE: ./.k8s.app.values.yml
+
+#
+
+Build:
+  extends:
+    - .autodevops_build
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
+  script:
+    - yarn next build
+    - yarn next export
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
+
+#
+Create namespace:
+  extends: .autodevops_create_namespace
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
+
+Stop review:
+  extends: .autodevops_stop_review
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
+
+Deploy app (dev):
+  extends: .autodevops_deploy_app_dev
+  environment:
+    name: ${CI_COMMIT_REF_NAME}-dev2
+#
+
+Deploy app (prod):
+  extends:
+    - .autodevops_deploy_app_prod
+  variables:
+    HELM_RENDER_ARGS: >-
+      --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
+      --set ingress.tls[0].hosts[0]=www.${KUBE_INGRESS_BASE_DOMAIN}
+    HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
+    K8S_NAMESPACE: incubateur
+    PRODUCTION: "true"
+  environment:
+    name: prod2
+    url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
 
 #
 
 Delete useless k8s namespaces:
-  extends:
-    - .base_delete_useless_k8s_ns_stage
-  only:
-    - dev
+  extends: .autodevops_delete_useless_k8s_namespaces
   variables:
-    K8S_NAMESPACE_PREFIX: "${PROJECT}-${CI_PROJECT_ID}-review"
-
-#
+    K8S_NAMESPACE_PREFIX: "${CI_PROJECT_NAME}-${CI_PROJECT_ID}-review"

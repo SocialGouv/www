@@ -4,7 +4,7 @@ import { Hero, Layout, Section } from "../../src/composants";
 const BA2019 = () => (
   <Layout>
     <Hero
-      title="L'incubateur des ministères sociaux vous souhaite une très bonne année 2019
+      title="La fabrique numérique des ministères sociaux vous souhaite une très bonne année 2019
       !"
       tagline="Plein de beaux produits"
     />
@@ -13,7 +13,7 @@ const BA2019 = () => (
         <div style={{ textAlign: "center" }}>
           <img
             alt="l'aventure commence"
-            src="/static/images/actus/bonne-annee-2019.jpg"
+            src="/images/actus/bonne-annee-2019.jpg"
           />
         </div>
         <br />
