@@ -10,3 +10,19 @@ variables:
   AUTO_DEVOPS_DEV_ENVIRONMENT_NAME: "-dev2"
   AUTO_DEVOPS_PREPROD_ENVIRONMENT_NAME: "-dev2"
   AUTO_DEVOPS_PROD_ENVIRONMENT_NAME: "prod2"
+
+# NOTE(douglasduteil): use custom build job
+# The website it statically built with Nextjs
+# Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
+Build:
+  extends:
+    - .autodevops_build
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
+  script:
+    - yarn next build
+    - yarn next export
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
