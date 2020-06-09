@@ -5,7 +5,7 @@ ok(process.env.CI_REGISTRY_IMAGE);
 ok(process.env.CI_COMMIT_SHA);
 
 const env: AppComponentEnvironment = {
-  containerPort: 80,
+  containerPort: 8080,
 
   image: {
     name: process.env.CI_REGISTRY_IMAGE,
@@ -19,14 +19,8 @@ const env: AppComponentEnvironment = {
   },
 
   labels: {
-    component: "nginx4spa",
+    component: "next",
   },
-
-  requests: {
-    cpu: "1m",
-    memory: "8Mi",
-  },
-
   name: "www",
 
   servicePort: 80,
