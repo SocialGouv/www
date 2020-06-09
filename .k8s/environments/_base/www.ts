@@ -5,25 +5,25 @@ ok(process.env.CI_REGISTRY_IMAGE);
 ok(process.env.CI_COMMIT_SHA);
 
 const env: AppComponentEnvironment = {
-  containerPort: 8080,
+  containerPort: 80,
 
   image: {
     name: process.env.CI_REGISTRY_IMAGE,
     tag: process.env.CI_COMMIT_TAG
       ? process.env.CI_COMMIT_TAG.slice(1)
-      : process.env.CI_COMMIT_SHA,
+      : process.env.CI_COMMIT_SHA
   },
 
   ingress: {
-    secretName: process.env.PRODUCTION ? "www-crt" : "wildcard-crt",
+    secretName: process.env.PRODUCTION ? "www-crt" : "wildcard-crt"
   },
 
   labels: {
-    component: "next",
+    component: "next"
   },
   name: "www",
 
-  servicePort: 80,
+  servicePort: 80
 };
 
 export default env;
