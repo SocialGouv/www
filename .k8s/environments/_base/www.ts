@@ -11,19 +11,24 @@ const env: AppComponentEnvironment = {
     name: process.env.CI_REGISTRY_IMAGE,
     tag: process.env.CI_COMMIT_TAG
       ? process.env.CI_COMMIT_TAG.slice(1)
-      : process.env.CI_COMMIT_SHA
+      : process.env.CI_COMMIT_SHA,
   },
 
   ingress: {
-    secretName: process.env.PRODUCTION ? "www-crt" : "wildcard-crt"
+    secretName: process.env.PRODUCTION ? "www-crt" : "wildcard-crt",
+  },
+
+  requests: {
+    cpu: "1m",
+    memory: "8Mi",
   },
 
   labels: {
-    component: "nginx4spa"
+    component: "nginx4spa",
   },
   name: "www",
 
-  servicePort: 80
+  servicePort: 80,
 };
 
 export default env;
