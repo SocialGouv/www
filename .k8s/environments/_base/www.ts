@@ -19,7 +19,7 @@ const env: AppComponentEnvironment = {
   },
 
   labels: {
-    component: "next"
+    component: "nginx4spa"
   },
   name: "www",
 
