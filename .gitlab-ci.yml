@@ -1,13 +1,15 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v16.0.0-beta.11
+    ref: v17.0.0-beta.21
 
 variables:
-  AUTO_DEVOPS_RELEASE_AUTO: "true"
-  AUTO_DEVOPS_PRODUCTION_AUTO: "/^v[1-9]+\\.[0-9]+\\.[0-9]+$/"
+  # AUTO_DEVOPS_RELEASE_AUTO: "true"
+  # AUTO_DEVOPS_PRODUCTION_AUTO: "/^v[1-9]+\\.[0-9]+\\.[0-9]+$/"
 
-#
+  AUTO_DEVOPS_DEV_ENVIRONMENT_NAME: "-dev2"
+  AUTO_DEVOPS_PREPROD_ENVIRONMENT_NAME: "-dev2"
+  AUTO_DEVOPS_PROD_ENVIRONMENT_NAME: "prod2"
 
 # NOTE(douglasduteil): use custom build job
 # The website it statically built with Nextjs

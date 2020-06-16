@@ -18,15 +18,14 @@ const env: AppComponentEnvironment = {
     secretName: process.env.PRODUCTION ? "www-crt" : "wildcard-crt",
   },
 
-  labels: {
-    component: "nginx4spa",
-  },
-
   requests: {
     cpu: "1m",
     memory: "8Mi",
   },
 
+  labels: {
+    component: "nginx4spa",
+  },
   name: "www",
 
   servicePort: 80,
