@@ -28,7 +28,8 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
  - [ ] Ajouter le calendrier de la fabrique numérique : freego.mas@gmail.com (calendrier google partagé)
  - [ ] Verifier que [ton compte GitHub est sécurisé](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)
-
+ - [ ] Lire la [charte de collaboration](https://github.com/SocialGouv/www/wiki/Charte-de-collaboration) de la fabrique
+ 
 ## En arrivant
 
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas.  
