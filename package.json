@@ -49,7 +49,7 @@
     "react-piwik": "^1.8.0",
     "react-tooltip": "^3.11.6",
     "react-typeform-embed-2": "0.2.1",
-    "react-vertical-timeline-component": "^2.6.2",
+    "react-vertical-timeline-component": "^3.0.2",
     "remark-highlight.js": "^5.2.0",
     "styled-components": "^5.1.1",
     "template.data.gouv.fr": "^1.1.8",
