@@ -8,7 +8,7 @@ const TimelineEvent = ({ date, title, children, className = "" }) => (
     className={`vertical-timeline-element ${className}`}
     date={date}
   >
-    <div className="vertical-timeline-element-datefr">{date}</div>
+    {/*<div className="vertical-timeline-element-datefr">{date}</div>*/}
     <div
       className={`vertical-timeline-element-title`}
       dangerouslySetInnerHTML={{ __html: title }}
@@ -57,13 +57,20 @@ const StyledTimelineEvent = styled(TimelineEvent)`
     padding: 1em;
   }
 
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid ${props => colors[props.category]};
+  }
+
   .vertical-timeline-element-icon {
     background-color: ${props => colors[props.category]};
     box-shadow: none;
   }
 
-  .vertical-timeline-element-date {
-    display: none;
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-weight: bold !important;
+    font-size: 1.4rem !important;
+    margin: 0 10px !important;
+    padding: 10px 0 !important;
   }
 
   .vertical-timeline-element-datefr {
