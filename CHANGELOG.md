@@ -1,3 +1,22 @@
+# [2.0.0-beta.12](https://github.com/SocialGouv/www/compare/v2.0.0-beta.11...v2.0.0-beta.12) (2020-06-24)
+
+
+### Bug Fixes
+
+* **cdtn:** add context for widget ([#665](https://github.com/SocialGouv/www/issues/665)) ([4f99dcb](https://github.com/SocialGouv/www/commit/4f99dcbcb0f96a8897ed29531bf2bd824be98a6c))
+* **deps:** update dependency react-vertical-timeline-component to v3 ([#672](https://github.com/SocialGouv/www/issues/672)) ([eb9b038](https://github.com/SocialGouv/www/commit/eb9b038e47191237820417727c5ef8d1230d1ea5))
+* **deps:** update dependency styled-components to ^5.1.1 ([#657](https://github.com/SocialGouv/www/issues/657)) ([183e00d](https://github.com/SocialGouv/www/commit/183e00d7bc87b5ca4f45644010aab9f380568e3e))
+* **domifa:** lien du site incorrect ([#656](https://github.com/SocialGouv/www/issues/656)) ([f482d5e](https://github.com/SocialGouv/www/commit/f482d5ebe152a2c3292df3b80c80b1a068c580d8))
+* **home:** update github stats ([#663](https://github.com/SocialGouv/www/issues/663)) ([4d9fddb](https://github.com/SocialGouv/www/commit/4d9fddb0a77dfa54cb128d4ad2d10487c260d618))
+* **onboarding-dev:** add link to charte collab ([#679](https://github.com/SocialGouv/www/issues/679)) ([1b35c83](https://github.com/SocialGouv/www/commit/1b35c8302481336ab356fb93d2643053cf518d89))
+* **onboarding-ppo:** ajout lien vers charte ([#680](https://github.com/SocialGouv/www/issues/680)) ([ea193aa](https://github.com/SocialGouv/www/commit/ea193aaf7470047b7ca6ad2465814ca60e94c3e4))
+* **timeline:** fix some timeline css ([#666](https://github.com/SocialGouv/www/issues/666)) ([08cda12](https://github.com/SocialGouv/www/commit/08cda127b220bc150db64eb61caed49b5f4ea5c5))
+
+
+### Features
+
+* **cdtn:** add sample widget ([#664](https://github.com/SocialGouv/www/issues/664)) ([7b23d60](https://github.com/SocialGouv/www/commit/7b23d601658f15d1be46bd6e3f2eeb583103b7ab))
+
 # [2.0.0-beta.11](https://github.com/SocialGouv/www/compare/v2.0.0-beta.10...v2.0.0-beta.11) (2020-05-26)
 
 
