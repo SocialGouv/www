@@ -11,29 +11,26 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 
 module.exports = [
   {
+    author: "julien.bouquillon",
     date: "23 Septembre 2019",
-    promote: true,
-    author: "julien.bouquillon",
-    img: "/images/actus/taking-notes.jpg",
-    title: "Livraison v-3.2.0 Fuschia Eagle",
     href: "/startups/code-du-travail-numerique/release-v3.2.0",
-    html: `Livraison de la version v3.2.0 Fuschia Eagle du Code du travail numérique`
-  },
-  {
-    date: "22 janvier 2019",
-    promote: true,
-    author: "julien.bouquillon",
+    html: `Livraison de la version v3.2.0 Fuschia Eagle du Code du travail numérique`,
     img: "/images/actus/taking-notes.jpg",
-    title: "Premier petit séminaire de la fabrique numérique",
-    href: "/actus/seminaire-1",
-    html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`
+    promote: true,
+    title: "Livraison v-3.2.0 Fuschia Eagle"
   },
   {
-    date: "16 janvier 2019",
+    author: "julien.bouquillon",
+    date: "22 janvier 2019",
+    href: "/actus/seminaire-1",
+    html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`,
+    img: "/images/actus/taking-notes.jpg",
     promote: true,
-    img: "/images/startups/work-in-france.jpg",
+    title: "Premier petit séminaire de la fabrique numérique"
+  },
+  {
     author: "jonanthan.redt.gensinger",
-    title: "Work in France : Une année qui démarre bien !",
+    date: "16 janvier 2019",
     html: `
     Bonjour à tous !
 <br/><br/>
@@ -61,30 +58,31 @@ Désormais, vous pouvez faire votre démarche sur <a href="https://workinfrance.
 dès lors que l'adresse figurant sur le document de séjour en cours de validité est située à Paris (75), le Rhône (69), le Loiret (45), la Seine-et-Marne (77), les Bouches-du-Rhône (13), les Hauts-de-Seine (92) ou le Val d'Oise (95)
 <br/><br/>
 A bientôt pour d'autres bonnes nouvelles ;)
-    `
+    `,
+    img: "/images/startups/work-in-france.jpg",
+    promote: true,
+    title: "Work in France : Une année qui démarre bien !"
   },
   {
-    date: "15 janvier 2019",
     author: "eric.heijligers",
-    img: "/images/actus/board-0119.jpg",
-    title: "Deuxième board de la fabrique numérique",
+    date: "15 janvier 2019",
     href: "/actus/board-janvier-2019",
     html:
-      "Le deuxième board de la fabrique numérique s'est tenu le 15 janvier : découvrez comment il s'est passé"
+      "Le deuxième board de la fabrique numérique s'est tenu le 15 janvier : découvrez comment il s'est passé",
+    img: "/images/actus/board-0119.jpg",
+    title: "Deuxième board de la fabrique numérique"
   },
   {
-    date: "1er janvier 2019",
-    img: "/images/actus/bonne-annee-2019.jpg",
     author: "eric.heijligers",
-    title: "Bonne année 2019 !",
+    date: "1er janvier 2019",
+    href: "/actus/board-janvier-2019",
     html: "C'est parti pour une nouvelle année !",
-    href: "/actus/board-janvier-2019"
+    img: "/images/actus/bonne-annee-2019.jpg",
+    title: "Bonne année 2019 !"
   },
   {
-    date: "5 Décembre 2018",
-    img: "/images/startups/code-du-travail-numerique.jpg",
     author: "julien.bouquillon",
-    title: "Code du travail numérique v1.5",
+    date: "5 Décembre 2018",
     html: `<p>La version 1.5 - Balinese Rose Lion du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
@@ -98,13 +96,13 @@ A bientôt pour d'autres bonnes nouvelles ;)
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
-    `
+    `,
+    img: "/images/startups/code-du-travail-numerique.jpg",
+    title: "Code du travail numérique v1.5"
   },
   {
-    date: "26 Novembre 2018",
     author: "melanie.roge",
-    img: "/images/actus/TGI-Paris.jpg",
-    title: "C’est officiel : e-MJPM s’installe à Paris !",
+    date: "26 Novembre 2018",
     html: `
     <br/>
     Trouver rapidement le bon professionnel pour les majeurs à protéger, tel est le défi de la startup e-MJPM développée par la fabrique numérique des Ministères Sociaux.
@@ -115,12 +113,13 @@ A bientôt pour d'autres bonnes nouvelles ;)
     <br/>
     <br/>L’équipe, qui a pour objectif de rendre ce produit national, continue sur sa lancée avec la tenue prochaine d’un OpenLab le 13 décembre. Elle compte récolter les avis des usagers et réfléchir aux futures améliorations et développements à apporter afin de rendre e-MJPM pertinent et efficace pour tous.
     <br/>
-    `
+    `,
+    img: "/images/actus/TGI-Paris.jpg",
+    title: "C’est officiel : e-MJPM s’installe à Paris !"
   },
   {
-    date: "16 Novembre 2018",
     author: "julien.bouquillon",
-    title: "release 1.4 - Twinkle Cookie",
+    date: "16 Novembre 2018",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
@@ -133,24 +132,24 @@ A bientôt pour d'autres bonnes nouvelles ;)
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
-    `
+    `,
+    title: "release 1.4 - Twinkle Cookie"
   },
   {
-    date: "8 Novembre 2018",
     author: "julien.bouquillon",
-    title: "Code du travail numérique : Jury de selection des EIG",
+    date: "8 Novembre 2018",
     html: `
 Hier a eu lieu la journée de selection des candidats au programme <a target="_blank" href="http://entrepreneur-interet-general.etalab.gouv.fr">"Entrepreneur d'intérêt général" promo 2019</a> pour notre défi <a target="_blank" href="https://entrepreneur-interet-general.etalab.gouv.fr/defis/2019/explocode.html">"Explocode"</a>.
 <br/><br/>
 Assistés des EIG de la promo 2018, d'experts techniques Etalab et de collègues d'autres défis, nous avons eu la chance d'auditionner plusieurs candidats aussi compétents que determinés pour aider notre équipe à **rendre le droit du travail plus lisible** dès le 1er Janvier 2020.
 <br/><br/>
 Deux EIG nous rejoindront donc début 2019, et commenceront leur mission par une immersion dans les services des DIRECCTE en région, où ils pourront mieux comprendre les attentes des usagers et des agents, et en profiter pour compléter notre stock de données qui nous permettrons d'améliorer notre modèle d'intelligence artificelle pour la compréhension des questions posées par les usagers.
-`
+`,
+    title: "Code du travail numérique : Jury de selection des EIG"
   },
   {
-    date: "14 Septembre 2018",
     author: "eric.heijligers",
-    title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾",
+    date: "14 Septembre 2018",
     html: `
 Le service WorkinFrance a ouvert en expérimentation le 27 mars 2018 sur le périmètre de l'unité départementale 75 de la DIRECCTE Ile-de-France.
 Et, depuis le 5 septembre, c'est plus de 1000 dossiers qui ont été déposés !
@@ -158,12 +157,12 @@ Et, depuis le 5 septembre, c'est plus de 1000 dossiers qui ont été déposés !
 <br/>
 <p align="center"><img src="/images/counter-wif.gif" height="50%" width="50%" alt="Plus de 1000 dossiers déposés"/></p>
 Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-France et Jonathan REDT-GENSINGER de la DGT.
-   `
+   `,
+    title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾"
   },
   {
-    date: "28 Septembre 2018",
     author: "julien.bouquillon",
-    title: "Code du travail numérique : release 1.1 - blue-firefly",
+    date: "28 Septembre 2018",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://codedutravail-dev.num.social.gouv.fr">codedutravail-dev.num.social.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
@@ -177,12 +176,12 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
-    `
+    `,
+    title: "Code du travail numérique : release 1.1 - blue-firefly"
   },
   {
-    date: "23 Août 2018",
     author: "marc.hertzog",
-    title: "Code du travail numérique : nouveau design",
+    date: "23 Août 2018",
     html: `<p>Une nouvelle version du prototype du site du Code du travail numérique a été déployée sur <a href="https://code.travail.gouv.fr">code.travail.gouv.fr</a></p>
       <p>Cette nouvelle version propose notamment :</p>
       <ul>
@@ -192,12 +191,12 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       </ul>
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
-    `
+    `,
+    title: "Code du travail numérique : nouveau design"
   },
   {
-    date: "23 Août 2018",
     author: "eric.heijligers",
-    title: "La fabrique numérique pousse les murs",
+    date: "23 Août 2018",
     html: `
     Anticipant l'arrivée prochaine des lauréats de la <a href="/actus/saison2">saison 2</a>, l'espace de vie de la fabrique numérique s'agrandit.
     <br/><p align="center"><img src="/images/extension_incubateur.jpg" height="80%" width="80%" alt="plan de la fabrique numérique"/></p><br/>
@@ -205,12 +204,12 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     Il proposera des espaces distincts qui permettront de garantir un environnement de travail collaboratif optimal.
     <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
     <p align="center"><img src="/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
-   `
+   `,
+    title: "La fabrique numérique pousse les murs"
   },
   {
-    date: "2 Août 2018",
     author: "adrien.gonzalez",
-    title: "e-MJPM release 1.2 « still-wildflower » 🌼",
+    date: "2 Août 2018",
     html: `Nouvelle livraison de l'application e-MJPM avant la pause estivale :
       <ul>
         <li>Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a></li>
@@ -231,34 +230,34 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <li>Contactez l'équipe : <a href="mailto:contact@emjpm.beta.gouv.fr">contact@emjpm.beta.gouv.fr</a></li>
       <li><a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a></li>
     </ul>
-    `
+    `,
+    title: "e-MJPM release 1.2 « still-wildflower » 🌼"
   },
   {
-    date: "27 Juillet 2018",
     author: "maxime.basset",
-    title: "Work In France: plus de 200 demandes traitées en Juillet",
+    date: "27 Juillet 2018",
     html: `🎉 Le service <a href="/startups/work-in-france">Work In France</a> qui dématérialise les demande d'autorisation de travail pour les étudiants étrangers,
                 a pour la première fois dépassé les <strong>200 dossiers déposés en un mois</strong> sur la seule DR de Paris.
                 <br><br>
                 Work In France s'appuie sur le service <a href="https://demarches-simplifiees.fr">démarches simplifiées</a> pour gérer la téléprocédure
                 ce qui a permis de réduire rapidement les temps de traitement et <a href="https://medium.com/numa/quand-le-service-public-devient-digital-e4d48d358345">améliorer la relation usager</a>.
                 <br><br>
-                📊 <a href="https://workinfrance.beta.gouv.fr/stats.html">dashboard public</a>`
+                📊 <a href="https://workinfrance.beta.gouv.fr/stats.html">dashboard public</a>`,
+    title: "Work In France: plus de 200 demandes traitées en Juillet"
   },
   {
-    date: "20 Juillet 2018",
     author: "yann-fanch.madaule",
-    title:
-      "Code du travail numérique : notre défi lauréat du programme EIG 2018 !",
+    date: "20 Juillet 2018",
     html: `🎉 Le <a href="/startups/code-du-travail-numerique">code du travail numérique</a> a le privilège de faire partie des
       <a href="https://www.etalab.gouv.fr/entrepreneur-e-dinteret-general-3eme-promotion-decouvrez-les-15-defis-laureats">15 défis lauréats du jury</a>
       pour participer au programme "Entrepreneur d'intérêt général" 2018. <br><br>
-      Notre équipe pourra donc bénéficier <strong>pendant 10 mois</strong> de deux spécialistes de la data science et du traitement du language naturel pour améliorer les résultats de notre service.`
+      Notre équipe pourra donc bénéficier <strong>pendant 10 mois</strong> de deux spécialistes de la data science et du traitement du language naturel pour améliorer les résultats de notre service.`,
+    title:
+      "Code du travail numérique : notre défi lauréat du programme EIG 2018 !"
   },
   {
-    date: "27 Juin 2018",
     author: "marc.hertzog",
-    title: "Code du travail numérique : nouveau prototype",
+    date: "27 Juin 2018",
     html: `
       Une nouvelle version du prototype a été déployée sur <a href="https://code-du-travail.beta.gouv.fr">code-du-travail.beta.gouv.fr</a>.
       <br><br>
@@ -267,23 +266,24 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-data">code-du-travail.beta.gouv.fr</a>
       <br>
        💬 Des feedbacks ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a>
-      `
+      `,
+    title: "Code du travail numérique : nouveau prototype"
   },
   {
-    date: "20 Juin 2018",
     author: "julien.bouquillon",
-    title: "Outil de standup sur GitHub",
+    date: "20 Juin 2018",
     html: `Nous avons <a href="https://github.com/SocialGouv/standup">publié sur GitHub</a> un clone du <a href="https://github.com/betagouv/standup">projet original</a>, adapté pour servir de timer à notre rituel de standup hebdomadaire (Le mardi à midi).
             <br><br>
             Pour ajouter un sujet au prochain standup, il suffit de <a href="https://github.com/SocialGouv/standup/edit/master/src/startups.json">soumettre une pull request</a> sur la page du projet.
-      `
+      `,
+    title: "Outil de standup sur GitHub"
   },
   {
-    date: "18 Janvier 2018",
     author: "julien.bouquillon",
-    title:
-      "Code du travail numérique : publication des 50 questions les plus fréquentes",
+    date: "18 Janvier 2018",
     html:
-      'Une F.A.Q. qui reprend les 50 questions les plus fréquemment posées vient d\'être publiée par les services de renseignement et aussitôt mise en ligne : <a href="https://socialgouv.github.io/faq-code-du-travail">socialgouv.github.io/faq-code-du-travail</a>'
+      'Une F.A.Q. qui reprend les 50 questions les plus fréquemment posées vient d\'être publiée par les services de renseignement et aussitôt mise en ligne : <a href="https://socialgouv.github.io/faq-code-du-travail">socialgouv.github.io/faq-code-du-travail</a>',
+    title:
+      "Code du travail numérique : publication des 50 questions les plus fréquentes"
   }
 ];

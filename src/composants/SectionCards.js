@@ -1,8 +1,8 @@
-import React from "react";
 import PropTypes from "prop-types";
-import { Card } from ".";
+import React from "react";
 
 import startups from "../data/startups.yml";
+import { Card } from ".";
 
 function withStartups(Cmp) {
   const CmpWithStartups = props => (
@@ -30,8 +30,8 @@ const SectionCards = ({
         className="row"
         style={{
           color: "black",
-          justifyContent: "center",
           flexWrap: "wrap",
+          justifyContent: "center",
           padding: 5
         }}
       >
@@ -49,10 +49,10 @@ const SectionCards = ({
 );
 
 SectionCards.propTypes = {
-  title: PropTypes.string,
   cards: PropTypes.arrayOf(PropTypes.object),
   className: PropTypes.string,
-  startups: PropTypes.arrayOf(PropTypes.object)
+  startups: PropTypes.arrayOf(PropTypes.object),
+  title: PropTypes.string
 };
 
 export default withStartups(SectionCards);

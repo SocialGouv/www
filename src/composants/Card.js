@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Link from "next/link";
+import PropTypes from "prop-types";
+import React from "react";
 
 const Card = ({
   href,
@@ -28,7 +28,7 @@ const Card = ({
         {(href && (
           <Link href={href}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a style={{ cursor: "pointer", color: "black" }}>{title}</a>
+            <a style={{ color: "black", cursor: "pointer" }}>{title}</a>
           </Link>
         )) || <span>{title}</span>}
       </h3>
@@ -44,14 +44,14 @@ const Card = ({
 );
 
 Card.propTypes = {
+  children: PropTypes.array,
+  className: PropTypes.string,
   description: PropTypes.string,
   href: PropTypes.string,
   img: PropTypes.string,
   meta: PropTypes.string,
-  title: PropTypes.string,
   style: PropTypes.object,
-  className: PropTypes.string,
-  children: PropTypes.array
+  title: PropTypes.string
 };
 
 export default Card;

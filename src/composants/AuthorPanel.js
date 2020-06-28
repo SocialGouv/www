@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Link from "next/link";
+import PropTypes from "prop-types";
+import React from "react";
 
 const AuthorPanel = ({
   name = "Corgi",
@@ -37,9 +37,9 @@ const AuthorPanel = ({
 );
 
 AuthorPanel.propTypes = {
+  Icon: PropTypes.func,
   description: PropTypes.string,
   href: PropTypes.string,
-  Icon: PropTypes.func,
   name: PropTypes.string,
   role: PropTypes.string,
   target: PropTypes.string

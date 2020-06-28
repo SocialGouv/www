@@ -1,18 +1,17 @@
-import React from "react";
-import styled from "styled-components";
 import PropTypes from "prop-types";
-
-import { Layout, Section } from "../src/composants";
-
+import React from "react";
 import {
-  FaWifi,
   FaAward,
+  FaChartLine,
+  FaCheckSquare,
+  FaCogs,
   FaRocket,
   FaSearch,
-  FaCogs,
-  FaChartLine,
-  FaCheckSquare
+  FaWifi
 } from "react-icons/fa";
+import styled from "styled-components";
+
+import { Layout, Section } from "../src/composants";
 
 const BlocHorizontal = styled(({ className, Icon, title, children }) => (
   <div className={className}>
@@ -47,15 +46,15 @@ const BlocVertical = ({ title, Icon, children }) => (
   <div style={{ display: "flex", flexDirection: "row", marginBottom: 20 }}>
     <div
       style={{
-        textAlign: "center",
         flex: "0 0 80px",
-        marginRight: 20
+        marginRight: 20,
+        textAlign: "center"
       }}
     >
       <Icon size="60" />
     </div>
     <div style={{ flex: "1 0 calc(100% - 150px)" }}>
-      <h4 style={{ marginTop: 0, marginBottom: 10, textAlign: "left" }}>
+      <h4 style={{ marginBottom: 10, marginTop: 0, textAlign: "left" }}>
         {title}
       </h4>
       <div style={{ textAlign: "left" }}>{children}</div>
@@ -64,9 +63,9 @@ const BlocVertical = ({ title, Icon, children }) => (
 );
 
 BlocVertical.propTypes = {
-  title: PropTypes.string,
   Icon: PropTypes.func.isRequired,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  title: PropTypes.string
 };
 
 const HorizontalContainer = styled.div`
@@ -93,7 +92,7 @@ const Fonctionnement = () => (
           les agents, ils sont invités à exprimer leurs idées et solutions afin
           de transformer une politique publique : la rendre plus rapide, plus
           efficace ou moins contraignante.
-          <div style={{ marginTop: 20, fontSize: 12 }}>
+          <div style={{ fontSize: 12, marginTop: 20 }}>
             *La fabrique numérique recueille également, dans cette même logique,
             les besoins des directions d’administration centrale.
           </div>
@@ -112,7 +111,7 @@ const Fonctionnement = () => (
           d’administration centrale.
         </BlocHorizontal>
       </HorizontalContainer>
-      <div style={{ textAlign: "center", marginTop: 20 }}>
+      <div style={{ marginTop: 20, textAlign: "center" }}>
         <a
           className="button primary large"
           href="mailto:DSI-incubateur@sg.social.gouv.fr&subject=candidature"

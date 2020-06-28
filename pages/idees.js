@@ -1,14 +1,14 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
-import { Section, Layout, Hero } from "../src/composants";
+import { Hero, Layout, Section } from "../src/composants";
 
 // https://github.com/facebook/react/issues/377
 const News = ({ title, date, html }) => (
   <div className="row">
     <div
       className="panel"
-      style={{ width: "80%", margin: "20px auto", paddingTop: 0 }}
+      style={{ margin: "20px auto", paddingTop: 0, width: "80%" }}
     >
       <div className="panel__header" id={date}>
         <h4>
@@ -24,9 +24,9 @@ const News = ({ title, date, html }) => (
 );
 
 News.propTypes = {
-  title: PropTypes.string,
   date: PropTypes.string,
-  html: PropTypes.string
+  html: PropTypes.string,
+  title: PropTypes.string
 };
 
 const Actus = () => (

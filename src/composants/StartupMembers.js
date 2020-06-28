@@ -1,7 +1,7 @@
 import React from "react";
-import { Member } from ".";
 
 import members from "../data/members.yml";
+import { Member } from ".";
 
 const getStartupMembers = startup =>
   members.filter(member => member.startups.indexOf(startup) > -1);
@@ -21,9 +21,9 @@ const StartupMembers = ({ startup }) => {
           style={{
             fontSize: "1.2em",
             fontWeight: "bold",
-            textAlign: "center",
+            marginBottom: 20,
             marginTop: 40,
-            marginBottom: 20
+            textAlign: "center"
           }}
         >
           Personnes qui ont contribué au projet :

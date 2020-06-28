@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import NativeLink from "next/link";
+import PropTypes from "prop-types";
+import React from "react";
 
 // used for markdown links
 // from https://raw.githubusercontent.com/zeit/next-site/master/components/docs/text/link.js
