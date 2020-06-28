@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Section, Layout, AllActus, Hero } from "../src/composants";
+import { AllActus, Hero, Layout, Section } from "../src/composants";
 
 const Actus = () => (
   <Layout>

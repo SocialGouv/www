@@ -1,7 +1,7 @@
-import React from "react";
 import PropTypes from "prop-types";
-import styled from "styled-components";
+import React from "react";
 import CountUp from "react-countup";
+import styled from "styled-components";
 
 const BlocChiffre = styled.div`
   width: 25%;
@@ -37,7 +37,7 @@ ZeroCounter.propTypes = {
 };
 
 const BlocChiffres = ({ chiffres }) => (
-  <div style={{ width: "100%", margin: "0 auto" }}>
+  <div style={{ margin: "0 auto", width: "100%" }}>
     {chiffres.map(chiffre => (
       <BlocChiffre key={chiffre.title}>
         <div className="num">

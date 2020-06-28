@@ -1,12 +1,12 @@
 import React from "react";
-import { Hero, Layout, Section } from "../src/composants";
-
 import {
   Accordion,
   AccordionItem,
-  AccordionItemTitle,
-  AccordionItemBody
+  AccordionItemBody,
+  AccordionItemTitle
 } from "react-accessible-accordion";
+
+import { Hero, Layout, Section } from "../src/composants";
 
 // Demo styles, see 'Styles' section below for some notes on use.
 //import 'react-accessible-accordion/dist/fancy-example.css';

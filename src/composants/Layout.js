@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import ReactTooltip from "react-tooltip";
 import { MDXProvider } from "@mdx-js/tag";
+import PropTypes from "prop-types";
+import React from "react";
+import ReactTooltip from "react-tooltip";
 
 import { ReactPiwik } from "../piwik";
-import { Footer, Header, SvgIcons, GenericLink } from ".";
+import { Footer, GenericLink, Header, SvgIcons } from ".";
 
 const components = {
   a: GenericLink
@@ -12,24 +12,24 @@ const components = {
 
 const headerLinks = [
   {
-    title: "Nos produits",
-    href: "/#produits"
+    href: "/#produits",
+    title: "Nos produits"
   },
   {
-    title: "Actualités",
-    href: "/actus"
+    href: "/actus",
+    title: "Actualités"
   },
   {
-    title: "Communauté",
-    href: "/members"
+    href: "/members",
+    title: "Communauté"
   },
   // {
   //   title: "Evènements",
   //   href: "/evenements"
   // },
   {
-    title: "Proposez vos idées",
-    href: "/idees"
+    href: "/idees",
+    title: "Proposez vos idées"
   }
 ];
 

@@ -1,10 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-
 import Head from "next/head";
 import Link from "next/link";
+import PropTypes from "prop-types";
+import React from "react";
 
-import { Hero, Layout, Card } from "../src/composants";
+import { Card, Hero, Layout } from "../src/composants";
 import members from "../src/data/members.yml";
 
 const shuffled = arr =>
@@ -28,10 +27,10 @@ class Members extends React.Component {
           <div
             className="row cards cards--small"
             style={{
-              padding: "2em 0",
               color: "black",
               flexWrap: "wrap",
-              justifyContent: "space-around"
+              justifyContent: "space-around",
+              padding: "2em 0"
             }}
           >
             {this.props.members.map(member => (

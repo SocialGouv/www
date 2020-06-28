@@ -1,59 +1,59 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Link from "next/link";
 import { withRouter } from "next/router";
+import PropTypes from "prop-types";
+import React from "react";
 
-import { Section, LayoutArticle } from ".";
+import { LayoutArticle, Section } from ".";
 
 const articles = [
   {
-    title: "Introduction",
-    href: "/startups/code-du-travail-numerique"
+    href: "/startups/code-du-travail-numerique",
+    title: "Introduction"
   },
   {
-    title: "La genèse du code du travail numérique",
-    href: "/startups/code-du-travail-numerique/genese"
+    href: "/startups/code-du-travail-numerique/genese",
+    title: "La genèse du code du travail numérique"
   },
   {
-    title: "Lancement de la startup",
-    href: "/startups/code-du-travail-numerique/kickoff"
+    href: "/startups/code-du-travail-numerique/kickoff",
+    title: "Lancement de la startup"
   },
   {
-    title: "Mise en place d'une démarche UX",
-    href: "/startups/code-du-travail-numerique/ux"
+    href: "/startups/code-du-travail-numerique/ux",
+    title: "Mise en place d'une démarche UX"
   },
   {
-    title: "Ecosystème du droit libre",
-    href: "/startups/code-du-travail-numerique/droit-libre"
+    href: "/startups/code-du-travail-numerique/droit-libre",
+    title: "Ecosystème du droit libre"
   },
   {
-    title: "Release v-3.2.0 Fuschia Eagle",
-    href: "/startups/code-du-travail-numerique/release-v3.2.0"
+    href: "/startups/code-du-travail-numerique/release-v3.2.0",
+    title: "Release v-3.2.0 Fuschia Eagle"
   },
   {
-    title: "La complexité du droit",
+    disabled: true,
     href: "/startups/code-du-travail-numerique/complexite",
-    disabled: true
+    title: "La complexité du droit"
   },
   {
-    title: "Les services de renseignement",
+    disabled: true,
     href: "/startups/code-du-travail-numerique/sdr",
-    disabled: true
+    title: "Les services de renseignement"
   },
   {
-    title: "Les sources de données",
+    disabled: true,
     href: "/startups/code-du-travail-numerique/data",
-    disabled: true
+    title: "Les sources de données"
   },
   {
-    title: "Premiers prototypes",
+    disabled: true,
     href: "/startups/code-du-travail-numerique/prototype-1",
-    disabled: true
+    title: "Premiers prototypes"
   },
   {
-    title: "Language naturel et Machine Learning",
+    disabled: true,
     href: "/startups/code-du-travail-numerique/nlp-machine-learning",
-    disabled: true
+    title: "Language naturel et Machine Learning"
   }
 ];
 
@@ -109,11 +109,11 @@ const LayoutCDTN = ({ meta, children }) => {
 };
 
 LayoutCDTN.propTypes = {
-  meta: PropTypes.object,
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element)
-  ])
+  ]),
+  meta: PropTypes.object
 };
 
 export default LayoutCDTN;

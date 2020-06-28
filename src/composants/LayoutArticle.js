@@ -1,27 +1,25 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Head from "next/head";
+import PropTypes from "prop-types";
+import React from "react";
+import { BarChart, Facebook, GitHub, Link, Lock, Twitter } from "react-feather";
 
+import startups from "../data/startups.yml";
 import {
-  Layout,
   Article,
-  Hero,
   AuthorPanel,
+  Hero,
+  Layout,
   SectionCards,
   StartupMembers
 } from ".";
 
-import { Facebook, Twitter, GitHub, Link, BarChart, Lock } from "react-feather";
-
-import startups from "../data/startups.yml";
-
 const icons = {
+  "bar-chart": BarChart,
   facebook: Facebook,
   github: GitHub,
-  twitter: Twitter,
   link: Link,
-  "bar-chart": BarChart,
-  lock: Lock
+  lock: Lock,
+  twitter: Twitter
 };
 const getIconFromUrl = url => {
   if (url.match(/github/gi)) {
@@ -45,10 +43,10 @@ const makeStyledIcon = Icon =>
 const ArticleLink = ({ icon, title, href, subTitle, description }) => {
   const iconComponent = (icon && icons[icon]) || getIconFromUrl(href);
   const styledIcon = makeStyledIcon(iconComponent)({
-    height: 22,
-    width: 22,
     display: "inline-block",
-    float: "right"
+    float: "right",
+    height: 22,
+    width: 22
   });
 
   return (
@@ -80,14 +78,6 @@ function withStartup(Cmp) {
     const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
     const allProps = {
       ...props,
-      startupData,
-      meta: {
-        ...props.meta,
-        links: [
-          ...((props.meta && props.meta.links) || []),
-          ...((startupData && startupData.links) || [])
-        ]
-      },
       footer: (
         <div>
           {props.startup && <StartupMembers startup={props.startup} />}
@@ -99,7 +89,15 @@ function withStartup(Cmp) {
               />
             ))}
         </div>
-      )
+      ),
+      meta: {
+        ...props.meta,
+        links: [
+          ...((props.meta && props.meta.links) || []),
+          ...((startupData && startupData.links) || [])
+        ]
+      },
+      startupData
     };
     return <Cmp {...allProps} />;
   };
@@ -128,9 +126,9 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
           <div
             style={{
               background: "#efefef",
-              padding: 10,
               borderRadius: 2,
-              fontSize: "1.5em"
+              fontSize: "1.5em",
+              padding: 10
             }}
           >
             Cette startup a cessé son activité au {startupData.finished}
@@ -141,9 +139,9 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
           <React.Fragment>
             <div
               style={{
-                marginTop: 50,
                 fontSize: "1.2em",
                 fontWeight: "bold",
+                marginTop: 50,
                 textAlign: "center"
               }}
             >
@@ -164,22 +162,22 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
 };
 
 LayoutArticle.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element)
+  ]),
+  footer: PropTypes.element,
   meta: PropTypes.exact({
-    title: PropTypes.string,
     hero: PropTypes.exact({
       alt: PropTypes.string,
       background: PropTypes.string,
       tagline: PropTypes.string,
       title: PropTypes.string
     }),
-    links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string }))
+    links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string })),
+    title: PropTypes.string
   }),
-  startupData: PropTypes.object,
-  footer: PropTypes.element,
-  children: PropTypes.oneOfType([
-    PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
-  ])
+  startupData: PropTypes.object
 };
 
 export default withStartup(LayoutArticle);

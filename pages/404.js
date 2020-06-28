@@ -1,5 +1,6 @@
 import React from "react";
-import { Layout, Article } from "../src/composants";
+
+import { Article, Layout } from "../src/composants";
 
 export default function Custom404() {
   return (

@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled from "styled-components";
 
@@ -18,21 +18,21 @@ const TimelineEvent = ({ date, title, children, className = "" }) => (
 );
 
 TimelineEvent.propTypes = {
-  date: PropTypes.string,
-  className: PropTypes.string,
   category: PropTypes.string,
-  title: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element)
-  ])
+  ]),
+  className: PropTypes.string,
+  date: PropTypes.string,
+  title: PropTypes.string
 };
 
 const colors = {
   Déploiement: "rgb(181, 201, 55)",
-  Équipe: "rgb(150, 33, 243)",
+  Pilotage: "rgb(102, 140, 194)",
   Usage: "rgb(102, 140, 194)",
-  Pilotage: "rgb(102, 140, 194)"
+  Équipe: "rgb(150, 33, 243)"
 };
 
 const StyledTimelineEvent = styled(TimelineEvent)`

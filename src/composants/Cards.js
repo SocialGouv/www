@@ -1,6 +1,7 @@
 import React from "react";
-import { Card } from ".";
+
 import startups from "../data/startups.yml";
+import { Card } from ".";
 
 // startups par id {"e-mjpm": {...}, "work-in-france":{...} ...}
 const Cards = startups.reduce(

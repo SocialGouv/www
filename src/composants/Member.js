@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
 
 const StyledIcon = styled.div`
@@ -32,32 +32,32 @@ const Member = ({ name, structure, role, picture, style }) => {
       <StyledIcon
         key={picture}
         style={{
-          flex: "0 0 auto",
-          backgroundImage: `url(${picture})`
+          backgroundImage: `url(${picture})`,
+          flex: "0 0 auto"
         }}
       />
       <div
         key={name}
         title={name}
         style={{
-          marginLeft: 10,
           flex: "1 0 auto",
           fontSize: "0.9em",
+          marginLeft: 10,
           width: "calc(100% - 45px)"
         }}
       >
         <div
           style={{
-            fontWeight: "bold",
             color: "#0081d5",
+            fontWeight: "bold",
             overflow: "hidden",
-            whiteSpace: "nowrap",
-            textOverflow: "ellipsis"
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap"
           }}
           dangerouslySetInnerHTML={{ __html: name }}
         />
         <div
-          style={{ marginTop: 5, lineHeight: "1.1em" }}
+          style={{ lineHeight: "1.1em", marginTop: 5 }}
           className="article__author-role"
           dangerouslySetInnerHTML={{ __html: `${role} - ${structure}` }}
         />
@@ -68,9 +68,9 @@ const Member = ({ name, structure, role, picture, style }) => {
 
 Member.propTypes = {
   name: PropTypes.string,
-  structure: PropTypes.string,
-  role: PropTypes.string,
   picture: PropTypes.string,
+  role: PropTypes.string,
+  structure: PropTypes.string,
   style: PropTypes.object
 };
 

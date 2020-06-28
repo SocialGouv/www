@@ -1,19 +1,17 @@
+import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
-import Link from "next/link";
-import Head from "next/head";
-
+import stats from "../public/github-stats.json";
 import {
-  SectionCards,
+  AllActus,
+  BlocChiffres,
   Hero,
   Layout,
   Section,
-  AllActus,
-  BlocChiffres
+  SectionCards
 } from "../src/composants";
-
 import startups from "../src/data/startups.yml";
-import stats from "../public/github-stats.json";
 
 const chiffres = [
   {
@@ -103,8 +101,8 @@ const Homepage = () => (
                 width="600"
                 height="286"
                 style={{
-                  margin: " 0 auto",
-                  borderRadius: "50px"
+                  borderRadius: "50px",
+                  margin: " 0 auto"
                 }}
               />
               <br />

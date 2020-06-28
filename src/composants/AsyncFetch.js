@@ -1,10 +1,10 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
 class AsyncFetch extends React.Component {
   state = {
-    status: "idle",
-    result: null
+    result: null,
+    status: "idle"
   };
 
   mounted = false;
@@ -39,15 +39,15 @@ class AsyncFetch extends React.Component {
           .then(result => {
             this.mounted &&
               this.setState({
-                status: "success",
-                result
+                result,
+                status: "success"
               });
           })
           .catch(e => {
             this.mounted &&
               this.setState({
-                status: "error",
-                result: e.message
+                result: e.message,
+                status: "error"
               });
           });
       }
@@ -63,8 +63,8 @@ class AsyncFetch extends React.Component {
   render() {
     return this.props.render({
       ...this.state,
-      fetch: this.fetch,
-      clear: this.clear
+      clear: this.clear,
+      fetch: this.fetch
     });
   }
 }
