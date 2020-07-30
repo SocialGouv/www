@@ -1,24 +1,9 @@
 import env from "@kosko/env";
 
-import { create } from "@socialgouv/kosko-charts/components/app";
+import { create } from "@socialgouv/kosko-charts/components/nginx";
 
 const manifests = create("app", {
-  env,
-  config: { containerPort: 80 },
-  deployment: {
-    container: {
-      resources: {
-        requests: {
-          cpu: "1m",
-          memory: "64Mi"
-        },
-        limits: {
-          cpu: "50m",
-          memory: "128Mi"
-        }
-      }
-    }
-  }
+  env
 });
 
 export default manifests;
