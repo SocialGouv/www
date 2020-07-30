@@ -6,6 +6,15 @@ include:
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
   AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
+  TEST_DISABLED: 1
+
+Lint:
+  rules:
+    - when: never
+
+Test:
+  rules:
+    - when: never
 
 # NOTE(douglasduteil): use custom build job
 # The website it statically built with Nextjs
@@ -22,3 +31,13 @@ Build:
     expire_in: 1 day
     paths:
       - out
+
+# NOTE(julienbouquillon): use custom register job
+# By default, kosko-charts use a "/app" for docker images names
+# TODO: discuss
+Register image:
+  extends: .autodevops_register_image
+  variables:
+    DOCKER_BUILD_ARGS: >-
+      --shm-size 512M
+    IMAGE_NAME: $CI_REGISTRY_IMAGE/app
