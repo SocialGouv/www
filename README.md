@@ -2,8 +2,6 @@
 
 Site de la fabrique numérique des Ministères sociaux
 
-⚠ La branche par défaut est `dev`
-
 ## Editer le site
 
 Faire les changements directement sur GitHub ou sur une branche locale, et soumettre une pull request :)
@@ -48,7 +46,7 @@ yarn dev
 
 `yarn build` pour builder une version statique
 
-Les modifs sur la branche `dev` sont automatiquement déployées sur https://socialgouv.github.io
+Les modifs sur la branche `master` sont automatiquement déployées sur https://fabrique.social.gouv.fr
 
 ## A propos
 
