@@ -1,19 +1,15 @@
 import React from "react";
+
 const colors = {
-  primary: {
-    Medium: "#0081D5",
-    Light: "#1E90DA",
-    Dark: "#006CB0"
-  },
   grayscale: {
-    White: "#FFFFFF",
-    "Lighter grey": "#EBEFF3",
-    "Light grey": "#C9D3DF",
-    Grey: "#ADB9C9",
+    "Almost black": "#26353f",
+    Black: "#1C1C1C",
     "Dark grey": "#8393A7",
     "Darker grey": "#C9D3DF",
-    "Almost black": "#26353f",
-    Black: "#1C1C1C"
+    Grey: "#ADB9C9",
+    "Light grey": "#C9D3DF",
+    "Lighter grey": "#EBEFF3",
+    White: "#FFFFFF"
   },
   others: [
     {
@@ -21,18 +17,23 @@ const colors = {
       "Light green": "#DAF5E7"
     },
     {
-      Orange: "#FF9947",
-      "Light orange": "#FFF0E4"
+      "Light orange": "#FFF0E4",
+      Orange: "#FF9947"
     },
     {
-      Red: "#D1335B",
-      "Light red": "#F8E1E7"
+      "Light red": "#F8E1E7",
+      Red: "#D1335B"
     },
     {
       Blue: "#03BD5B",
       "Light blue": "#DAF5E7"
     }
-  ]
+  ],
+  primary: {
+    Dark: "#006CB0",
+    Light: "#1E90DA",
+    Medium: "#0081D5"
+  }
 };
 
 const slugify = str =>

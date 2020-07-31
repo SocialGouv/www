@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
 const Notification = ({ className, children }) => (
   <div className={`notification closable ${className}`}>
@@ -13,11 +13,11 @@ const Notification = ({ className, children }) => (
 );
 
 Notification.propTypes = {
-  className: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element)
-  ])
+  ]),
+  className: PropTypes.string
 };
 
 const Notifications = () => (

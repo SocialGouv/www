@@ -1,5 +1,6 @@
 import React from "react";
-import { Section, Layout } from "../src/composants";
+
+import { Layout, Section } from "../src/composants";
 
 const App = () => (
   <Layout>

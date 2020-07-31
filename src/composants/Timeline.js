@@ -1,9 +1,9 @@
-import React from "react";
+import "react-vertical-timeline-component/style.min.css";
+
 import PropTypes from "prop-types";
+import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import styled from "styled-components";
-
-import "react-vertical-timeline-component/style.min.css";
 
 const Section = styled("section")`
   * {

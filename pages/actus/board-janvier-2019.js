@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Hero, Layout, Section } from "../../src/composants";
 
 const title = <div>C&apos;est reparti pour 6 mois</div>;

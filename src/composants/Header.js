@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Link from "next/link";
+import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
 
 import { Nav } from ".";
@@ -59,14 +59,14 @@ export const Header = ({
 );
 
 Header.propTypes = {
-  logoUrl: PropTypes.string,
-  logoAlt: PropTypes.string,
   links: PropTypes.arrayOf(
     PropTypes.exact({
       href: PropTypes.string,
       title: PropTypes.string
     })
   ),
+  logoAlt: PropTypes.string,
+  logoUrl: PropTypes.string,
   subTitle: PropTypes.string,
   title: PropTypes.string
 };

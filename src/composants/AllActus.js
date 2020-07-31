@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
 import news from "../data/news";
 
@@ -9,10 +9,10 @@ const News = ({ title, href, date, html }) => (
     <div
       className="panel"
       style={{
-        width: "80%",
+        color: "initial",
         margin: "20px auto",
         paddingTop: 0,
-        color: "initial"
+        width: "80%"
       }}
     >
       <div className="panel__header" id={date}>
@@ -36,10 +36,10 @@ const News = ({ title, href, date, html }) => (
 );
 
 News.propTypes = {
-  title: PropTypes.string,
   date: PropTypes.string,
+  href: PropTypes.string,
   html: PropTypes.string,
-  href: PropTypes.string
+  title: PropTypes.string
 };
 
 const AllActus = ({ count, promote }) => {

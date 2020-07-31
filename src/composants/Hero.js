@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
 
 const HeroContainer = styled.div`
@@ -35,11 +35,11 @@ export const Hero = ({
 
 Hero.propTypes = {
   alt: PropTypes.string,
+  backgroundImage: PropTypes.string,
   href: PropTypes.string,
   style: PropTypes.object,
   tagline: PropTypes.string,
-  title: PropTypes.string,
-  backgroundImage: PropTypes.string
+  title: PropTypes.string
 };
 
 export default Hero;
