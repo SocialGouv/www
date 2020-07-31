@@ -6,7 +6,12 @@ include:
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
   AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
-  TEST_DISABLED: 1
+
+# NOTE(douglasduteil): No install :(
+# sharing the node_modules is too slow...
+Install:
+  rules:
+    - when: never
 
 Lint:
   rules:
