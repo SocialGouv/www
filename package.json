@@ -1,6 +1,6 @@
 {
   "name": "fabrique.social.gouv.fr",
-  "version": "1.1.0",
+  "version": "2.0.0-beta.13",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
     "test": "exit 0",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
-    "github-stats": "node ./scripts/github-stats.js > ./public/github-stats.json"
+    "github-stats": "node ./scripts/github-stats.js > ./public/github-stats.json",
+    "k8s": "yarn --silent --cwd .k8s"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.16",
@@ -54,5 +55,6 @@
     "styled-components": "^5.1.1",
     "template.data.gouv.fr": "^1.1.8",
     "trim-right": "^1.0.1"
-  }
+  },
+  "private": true
 }
