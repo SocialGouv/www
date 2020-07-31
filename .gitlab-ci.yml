@@ -31,7 +31,8 @@ Build:
   script:
     - yarn config set cache-folder $CI_PROJECT_DIR/.cache/yarn
     - yarn --frozen-lockfile --prefer-offline
-    - yarn build
+    - yarn next build
+    - yarn next export
   variables:
     VERSION: ${CI_COMMIT_SHORT_SHA}
   artifacts:
