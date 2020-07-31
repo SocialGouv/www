@@ -1,65 +1,54 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
-    file: /autodevops_simple_app.yml
-    ref: v16.2.0
+    file: /autodevops.yml
+    ref: v17.1.1
 
 variables:
-  PROJECT: "www"
-  # NOTE(douglasduteil): explicit project path
-  # As GitLab is setting CI_PROJECT_PATH to SocialGouv/socialgouv-github-io
-  PROJECT_PATH: "SocialGouv/www"
-  PORT: 3000
-  VALUES_FILE: ./.k8s.app.values.yml
+  AUTO_DEVOPS_RELEASE_AUTO: "🔖"
+  AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
 
-#
+# NOTE(douglasduteil): No install :(
+# sharing the node_modules is too slow...
+Install:
+  rules:
+    - when: never
 
+Lint:
+  rules:
+    - when: never
+
+Test:
+  rules:
+    - when: never
+
+# NOTE(douglasduteil): use custom build job
+# The website it statically built with Nextjs
+# Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
 Build:
-  extends:
-    - .autodevops_build
-  variables:
-    VERSION: ${CI_COMMIT_SHORT_SHA}
+  needs: []
+  cache:
+    key:
+      files:
+        - yarn.lock
+      prefix: ${CI_JOB_NAME}
+    paths:
+      - .cache
   script:
+    - yarn config set cache-folder $CI_PROJECT_DIR/.cache/yarn
+    - yarn --frozen-lockfile --prefer-offline
     - yarn next build
     - yarn next export
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
   artifacts:
     expire_in: 1 day
     paths:
       - out
 
-#
-Create namespace:
-  extends: .autodevops_create_namespace
-  environment:
-    name: ${CI_COMMIT_REF_NAME}-dev2
-
-Stop review:
-  extends: .autodevops_stop_review
-  environment:
-    name: ${CI_COMMIT_REF_NAME}-dev2
-
-Deploy app (dev):
-  extends: .autodevops_deploy_app_dev
-  environment:
-    name: ${CI_COMMIT_REF_NAME}-dev2
-#
-
-Deploy app (prod):
-  extends:
-    - .autodevops_deploy_app_prod
+# NOTE(julienbouquillon): use custom register job
+# By default, kosko-charts use a "/app" for default docker images names
+# TODO: discuss
+Register image:
+  extends: .autodevops_register_image
   variables:
-    HELM_RENDER_ARGS: >-
-      --set ingress.hosts[0].host=www.${KUBE_INGRESS_BASE_DOMAIN}
-      --set ingress.tls[0].hosts[0]=www.${KUBE_INGRESS_BASE_DOMAIN}
-    HOST: www.${KUBE_INGRESS_BASE_DOMAIN}
-    K8S_NAMESPACE: incubateur
-    PRODUCTION: "true"
-  environment:
-    name: prod2
-    url: https://www.${KUBE_INGRESS_BASE_DOMAIN}
-
-#
-
-Delete useless k8s namespaces:
-  extends: .autodevops_delete_useless_k8s_namespaces
-  variables:
-    K8S_NAMESPACE_PREFIX: "${CI_PROJECT_NAME}-${CI_PROJECT_ID}-review"
+    IMAGE_NAME: $CI_REGISTRY_IMAGE/app
