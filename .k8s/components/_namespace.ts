@@ -1,6 +1,5 @@
-import env from "@kosko/env";
-import { create } from "@socialgouv/kosko-charts/components/namespace";
+import { createNamespace } from "@socialgouv/kosko-charts/utils/createNamespace";
 
-const { namespace } = create(env.component("namespace"));
+const manifests = createNamespace();
 
-export default [namespace];
+export default manifests;

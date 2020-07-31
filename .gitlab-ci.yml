@@ -1,24 +1,54 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v17.0.0-beta.29
+    ref: v17.1.1
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
   AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
 
+# NOTE(douglasduteil): No install :(
+# sharing the node_modules is too slow...
+Install:
+  rules:
+    - when: never
+
+Lint:
+  rules:
+    - when: never
+
+Test:
+  rules:
+    - when: never
+
 # NOTE(douglasduteil): use custom build job
 # The website it statically built with Nextjs
 # Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
 Build:
-  extends:
-    - .autodevops_build
-  variables:
-    VERSION: ${CI_COMMIT_SHORT_SHA}
+  needs: []
+  cache:
+    key:
+      files:
+        - yarn.lock
+      prefix: ${CI_JOB_NAME}
+    paths:
+      - .cache
   script:
+    - yarn config set cache-folder $CI_PROJECT_DIR/.cache/yarn
+    - yarn --frozen-lockfile --prefer-offline
     - yarn next build
     - yarn next export
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
   artifacts:
     expire_in: 1 day
     paths:
       - out
+
+# NOTE(julienbouquillon): use custom register job
+# By default, kosko-charts use a "/app" for default docker images names
+# TODO: discuss
+Register image:
+  extends: .autodevops_register_image
+  variables:
+    IMAGE_NAME: $CI_REGISTRY_IMAGE/app
