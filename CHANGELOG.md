@@ -1,3 +1,10 @@
+# [2.0.0-beta.13](https://github.com/SocialGouv/www/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2020-07-31)
+
+
+### Features
+
+* use @socialgouv/kosko-charts:2.0.0-beta.23 ([#702](https://github.com/SocialGouv/www/issues/702)) ([feca049](https://github.com/SocialGouv/www/commit/feca049db6375800197b3681a80aa2bdac658092))
+
 # [2.0.0-beta.12](https://github.com/SocialGouv/www/compare/v2.0.0-beta.11...v2.0.0-beta.12) (2020-06-24)
 
 
