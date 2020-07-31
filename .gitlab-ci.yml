@@ -1,7 +1,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v17.0.0-beta.29
+    ref: v17.0.0-beta.35
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
@@ -20,13 +20,20 @@ Test:
 # The website it statically built with Nextjs
 # Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
 Build:
-  extends:
-    - .autodevops_build
+  needs: []
+  cache:
+    key:
+      files:
+        - yarn.lock
+      prefix: ${CI_JOB_NAME}
+    paths:
+      - .cache
+  script:
+    - yarn config set cache-folder $CI_PROJECT_DIR/.cache/yarn
+    - yarn --frozen-lockfile --prefer-offline
+    - yarn build
   variables:
     VERSION: ${CI_COMMIT_SHORT_SHA}
-  script:
-    - yarn next build
-    - yarn next export
   artifacts:
     expire_in: 1 day
     paths:
