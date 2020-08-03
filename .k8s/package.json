@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@kosko/env": "^0.5.2",
-    "@socialgouv/kosko-charts": "^2.1.0",
+    "@socialgouv/kosko-charts": "^2.2.0",
     "kubernetes-models": "^0.8.1",
     "toml": "^3.0.0"
   },
