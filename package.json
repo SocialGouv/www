@@ -40,10 +40,10 @@
   },
   "dependencies": {
     "github-base": "^1.0.0",
-    "react": "^16.13.0",
+    "react": "^16.13.1",
     "react-accessible-accordion": "^2.4.5",
     "react-countup": "^4.3.3",
-    "react-dom": "^16.13.0",
+    "react-dom": "^16.13.1",
     "react-feather": "^2.0.8",
     "react-github-fork-ribbon": "^0.6.0",
     "react-icons": "^3.10.0",
