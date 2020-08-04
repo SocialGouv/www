@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/permanent-redirect: https://www.fabrique.social.gouv.fr
+  labels:
+    app.kubernetes.io/component: redirect
+    app.kubernetes.io/name: www
+  name: www-redirect
+  namespace: incubateur
+spec:
+  rules:
+    - host: www.incubateur.social.gouv.fr
+    - host: incubateur.social.gouv.fr
+    - host: fabrique.social.gouv.fr
+  tls:
+    - secretName: www-redirect
+status:
+  loadBalancer:
+    ingress:
+      - ip: 10.2.64.239
+      - ip: 10.2.64.97
+      - ip: 10.2.65.94
