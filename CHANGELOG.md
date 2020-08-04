@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/SocialGouv/www/compare/v2.0.0...v2.0.1) (2020-08-04)
+
+
+### Bug Fixes
+
+* dummy ([3585305](https://github.com/SocialGouv/www/commit/3585305774da16d4cc799720f4fd1496e0a9c651))
+
 # [2.0.0](https://github.com/SocialGouv/www/compare/v1.2.1...v2.0.0) (2020-08-04)
 
 
