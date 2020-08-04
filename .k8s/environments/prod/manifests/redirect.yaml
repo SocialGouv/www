@@ -4,6 +4,8 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/permanent-redirect: https://www.fabrique.social.gouv.fr
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/tls-acme: "true"
   labels:
     app.kubernetes.io/component: redirect
     app.kubernetes.io/name: www
@@ -16,9 +18,3 @@ spec:
     - host: fabrique.social.gouv.fr
   tls:
     - secretName: www-redirect
-status:
-  loadBalancer:
-    ingress:
-      - ip: 10.2.64.239
-      - ip: 10.2.64.97
-      - ip: 10.2.65.94
