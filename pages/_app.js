@@ -12,7 +12,7 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>La fabrique numérique des ministères sociaux</title>
+          <title>La fabrique numérique des Ministères sociaux</title>
         </Head>
         <Component {...pageProps} />
       </>
