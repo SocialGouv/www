@@ -1,3 +1,43 @@
+# [2.0.0](https://github.com/SocialGouv/www/compare/v1.2.1...v2.0.0) (2020-08-04)
+
+
+### Bug Fixes
+
+* test title ([e93d36b](https://github.com/SocialGouv/www/commit/e93d36bc582f5cc251da0ef0b8b73e861596e62e))
+* **deps:** update dependency kubernetes-models to ^0.8.1 ([#709](https://github.com/SocialGouv/www/issues/709)) ([419e357](https://github.com/SocialGouv/www/commit/419e357ca5714a450c9db8e01dcdfe3b4b06658a))
+
+
+* refactor!: v2.0.0 Beta (#684) ([68b7607](https://github.com/SocialGouv/www/commit/68b76070640b01120d975350d631fcbe009fcfa4)), closes [#684](https://github.com/SocialGouv/www/issues/684) [SocialGouv/gitlab-ci-yml/autodevops.yml#v16](https://github.com/SocialGouv/gitlab-ci-yml/autodevops.yml/issues/v16) [SocialGouv/kosko-charts/templates/simple#v2](https://github.com/SocialGouv/kosko-charts/templates/simple/issues/v2) [#678](https://github.com/SocialGouv/www/issues/678) [#681](https://github.com/SocialGouv/www/issues/681) [#665](https://github.com/SocialGouv/www/issues/665) [#672](https://github.com/SocialGouv/www/issues/672) [#657](https://github.com/SocialGouv/www/issues/657) [#656](https://github.com/SocialGouv/www/issues/656) [#663](https://github.com/SocialGouv/www/issues/663) [#679](https://github.com/SocialGouv/www/issues/679) [#680](https://github.com/SocialGouv/www/issues/680) [#666](https://github.com/SocialGouv/www/issues/666) [#664](https://github.com/SocialGouv/www/issues/664) [#702](https://github.com/SocialGouv/www/issues/702) [#702](https://github.com/SocialGouv/www/issues/702)
+
+
+### BREAKING CHANGES
+
+* use socialgouv/gitlab-ci-yml v16 + AutoRelease + AutoMep
+
+* chore(release): version 1.0.0-beta.8
+
+* feat(ci)!: socialgouv/gitlab-ci-yml v16 ([e9703df](https://github.com/SocialGouv/www/commit/e9703df4e0c46fe14855908c49db819ec47871df))
+
+* **gitlab:** update socialgouv/gitlab-ci-yml to v16.0.0-beta.10 ([445d5a9](https://github.com/SocialGouv/www/commit/445d5a9e9c527527140b1d5b25d280236dfb9108))
+
+* use socialgouv/gitlab-ci-yml v16 + AutoRelease + AutoMep
+
+* fix: trigger patch release
+
+* chore(release): version 1.0.0-beta.9
+
+* trigger patch release ([58039e0](https://github.com/SocialGouv/www/commit/58039e033840b909222183546bfc3a3b8c1d4367))
+
+* fix: trigger patch release
+
+* chore(release): version 2.0.0-beta.11
+
+* trigger patch release ([f191f4b](https://github.com/SocialGouv/www/commit/f191f4bae44bcae6e9e85f712e0a427743164816))
+
+* ci(gitlab): update to SocialGouv/gitlab-ci-yml#autodevops 16.0.0-beta.11
+
+* build(k8s): deploy an ingress nginx
+
 # [2.0.0-beta.13](https://github.com/SocialGouv/www/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2020-07-31)
 
 
