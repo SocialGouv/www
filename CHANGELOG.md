@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/SocialGouv/www/compare/v2.0.2...v2.1.0) (2020-08-04)
+
+
+### Features
+
+* **k8s:** add productions redirections ([#716](https://github.com/SocialGouv/www/issues/716)) ([be845e7](https://github.com/SocialGouv/www/commit/be845e7365a99f8fec2d23061930d5773443a0d0))
+
 ## [2.0.2](https://github.com/SocialGouv/www/compare/v2.0.1...v2.0.2) (2020-08-04)
 
 
