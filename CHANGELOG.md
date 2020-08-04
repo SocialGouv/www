@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/SocialGouv/www/compare/v2.0.1...v2.0.2) (2020-08-04)
+
+
+### Bug Fixes
+
+* update gh-stats ([#715](https://github.com/SocialGouv/www/issues/715)) ([e5b054a](https://github.com/SocialGouv/www/commit/e5b054a847c68cb1fb69dad1621083d9d3de9b54))
+
 ## [2.0.1](https://github.com/SocialGouv/www/compare/v2.0.0...v2.0.1) (2020-08-04)
 
 
