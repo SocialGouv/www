@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/SocialGouv/www/compare/v2.1.0...v2.1.1) (2020-08-05)
+
+
+### Bug Fixes
+
+* **k8s:** fix additionnal ingress ([#717](https://github.com/SocialGouv/www/issues/717)) ([fb6fb84](https://github.com/SocialGouv/www/commit/fb6fb84b20b8ad2e4f9ec5554aaaaa06ad20f4da))
+
 # [2.1.0](https://github.com/SocialGouv/www/compare/v2.0.2...v2.1.0) (2020-08-04)
 
 
