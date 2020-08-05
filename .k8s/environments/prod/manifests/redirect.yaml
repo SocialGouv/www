@@ -17,4 +17,8 @@ spec:
     - host: incubateur.social.gouv.fr
     - host: fabrique.social.gouv.fr
   tls:
-    - secretName: www-redirect
+    - hosts:
+      - www.incubateur.social.gouv.fr
+      - incubateur.social.gouv.fr
+      - fabrique.social.gouv.fr
+      secretName: www-redirect
