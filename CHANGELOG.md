@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/SocialGouv/www/compare/v2.1.1...v2.1.2) (2020-08-07)
+
+
+### Bug Fixes
+
+* **k8s:** edd preprod env ([#718](https://github.com/SocialGouv/www/issues/718)) ([b186f4e](https://github.com/SocialGouv/www/commit/b186f4e60156cb5b0d70e39203228494e7b6ea5e))
+
 ## [2.1.1](https://github.com/SocialGouv/www/compare/v2.1.0...v2.1.1) (2020-08-05)
 
 
