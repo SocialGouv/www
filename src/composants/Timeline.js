@@ -1,5 +1,3 @@
-import "react-vertical-timeline-component/style.min.css";
-
 import PropTypes from "prop-types";
 import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
