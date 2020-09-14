@@ -8,7 +8,7 @@ const AuthorPanel = ({
   Icon,
   href = "#",
   target = "_blank",
-  description
+  description,
 }) => (
   <div className="article__author panel">
     <div className="article__author-info">
@@ -42,7 +42,7 @@ AuthorPanel.propTypes = {
   href: PropTypes.string,
   name: PropTypes.string,
   role: PropTypes.string,
-  target: PropTypes.string
+  target: PropTypes.string,
 };
 
 export default AuthorPanel;

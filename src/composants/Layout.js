@@ -7,21 +7,21 @@ import { ReactPiwik } from "../piwik";
 import { Footer, GenericLink, Header, SvgIcons } from ".";
 
 const components = {
-  a: GenericLink
+  a: GenericLink,
 };
 
 const headerLinks = [
   {
     href: "/#produits",
-    title: "Nos produits"
+    title: "Nos produits",
   },
   {
     href: "/actus",
-    title: "Actualités"
+    title: "Actualités",
   },
   {
     href: "/members",
-    title: "Communauté"
+    title: "Communauté",
   },
   // {
   //   title: "Evènements",
@@ -29,19 +29,19 @@ const headerLinks = [
   // },
   {
     href: "/idees",
-    title: "Proposez vos idées"
-  }
+    title: "Proposez vos idées",
+  },
 ];
 
 const footerLinks = [
   {
     href: "/faq",
-    title: "F.A.Q."
+    title: "F.A.Q.",
   },
   {
     href: "/feed.xml",
-    title: "RSS"
-  }
+    title: "RSS",
+  },
 ];
 
 export default class Layout extends React.Component {
@@ -61,7 +61,7 @@ export default class Layout extends React.Component {
       if (url && pattern.test(url)) {
         const hash = pattern
           .exec(url)
-          .filter(item => item)
+          .filter((item) => item)
           .pop();
         const id = hash.replace(/\/?#/, "");
         const target = document.getElementById(id);
@@ -91,6 +91,6 @@ export default class Layout extends React.Component {
 Layout.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
-  ])
+    PropTypes.arrayOf(PropTypes.element),
+  ]),
 };

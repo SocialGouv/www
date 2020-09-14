@@ -10,7 +10,7 @@ const Card = ({
   description,
   style,
   className,
-  children
+  children,
 }) => (
   <div className={`card ${className || ""}`} style={style}>
     <div className="card__cover">
@@ -51,7 +51,7 @@ Card.propTypes = {
   img: PropTypes.string,
   meta: PropTypes.string,
   style: PropTypes.object,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default Card;

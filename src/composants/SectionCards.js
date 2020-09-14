@@ -5,10 +5,10 @@ import startups from "../data/startups.yml";
 import { Card } from ".";
 
 function withStartups(Cmp) {
-  const CmpWithStartups = props => (
+  const CmpWithStartups = (props) => (
     <Cmp
       {...props}
-      startups={startups.filter(s =>
+      startups={startups.filter((s) =>
         props.startups ? props.startups.includes(s.id) : true
       )}
     />
@@ -21,7 +21,7 @@ const cardStyle = { flex: "1 0 30%", margin: 5 };
 const SectionCards = ({
   title = "Nos autres startups",
   className,
-  startups
+  startups,
 }) => (
   <section className={"section " + className}>
     <div className="container">
@@ -32,10 +32,10 @@ const SectionCards = ({
           color: "black",
           flexWrap: "wrap",
           justifyContent: "center",
-          padding: 5
+          padding: 5,
         }}
       >
-        {startups.map(startup => (
+        {startups.map((startup) => (
           <Card
             style={cardStyle}
             className={startup.finished && "startup--finished"}
@@ -52,7 +52,7 @@ SectionCards.propTypes = {
   cards: PropTypes.arrayOf(PropTypes.object),
   className: PropTypes.string,
   startups: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default withStartups(SectionCards);

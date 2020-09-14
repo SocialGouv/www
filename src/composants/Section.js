@@ -6,7 +6,7 @@ const Section = ({
   subTitle = "Sous-titre de section",
   children,
   className,
-  style
+  style,
 }) => (
   <section className={"section " + className} style={style}>
     <div className="container">
@@ -20,12 +20,12 @@ const Section = ({
 Section.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
   className: PropTypes.string,
   style: PropTypes.object,
   subTitle: PropTypes.string,
-  title: PropTypes.oneOfType([PropTypes.element, PropTypes.string])
+  title: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
 };
 
 export default Section;

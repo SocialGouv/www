@@ -13,7 +13,7 @@ const LogoImg = ({ className, alt }) => (
 
 LogoImg.propTypes = {
   alt: PropTypes.string,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 // verticalAlign: 'middle', marginRight: 10
@@ -39,7 +39,7 @@ export const Header = ({
   logoAlt = "Accueil de fabrique.social.gouv.fr",
   title = "fabrique.social.gouv.fr",
   subTitle = "La fabrique numérique des ministères sociaux",
-  links = []
+  links = [],
 }) => (
   <header className="navbar">
     <div className="navbar__container">
@@ -62,13 +62,13 @@ Header.propTypes = {
   links: PropTypes.arrayOf(
     PropTypes.exact({
       href: PropTypes.string,
-      title: PropTypes.string
+      title: PropTypes.string,
     })
   ),
   logoAlt: PropTypes.string,
   logoUrl: PropTypes.string,
   subTitle: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default Header;

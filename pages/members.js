@@ -6,11 +6,11 @@ import React from "react";
 import { Card, Hero, Layout } from "../src/composants";
 import members from "../src/data/members.yml";
 
-const shuffled = arr =>
+const shuffled = (arr) =>
   arr
-    .map(a => [Math.random(), a])
+    .map((a) => [Math.random(), a])
     .sort((a, b) => a[0] - b[0])
-    .map(a => a[1]);
+    .map((a) => a[1]);
 
 class Members extends React.Component {
   render() {
@@ -30,10 +30,10 @@ class Members extends React.Component {
               color: "black",
               flexWrap: "wrap",
               justifyContent: "space-around",
-              padding: "2em 0"
+              padding: "2em 0",
             }}
           >
-            {this.props.members.map(member => (
+            {this.props.members.map((member) => (
               <Card
                 key={member.name}
                 img={member.picture}
@@ -42,7 +42,7 @@ class Members extends React.Component {
                 style={{ flex: "1 0 auto", margin: "5px auto" }}
                 description={member.role}
               >
-                {member.startups.map(startup => (
+                {member.startups.map((startup) => (
                   <Link
                     href={`/startups/${startup}`}
                     key={startup + member.name}
@@ -62,16 +62,16 @@ class Members extends React.Component {
 
 export async function getStaticProps() {
   return {
-    props: { members: shuffled(members) }
+    props: { members: shuffled(members) },
   };
 }
 
 Members.propTypes = {
-  members: PropTypes.array
+  members: PropTypes.array,
 };
 
 Members.defaultProps = {
-  members: []
+  members: [],
 };
 
 export default Members;

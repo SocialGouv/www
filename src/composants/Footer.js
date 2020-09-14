@@ -7,19 +7,19 @@ const Footer = ({
   links = [
     {
       href: "https://www.data.gouv.fr/reference",
-      title: "Données de référence"
+      title: "Données de référence",
     },
     {
       href: "https://www.data.gouv.fr/terms",
-      title: "Conditions générales d'utilisation !"
+      title: "Conditions générales d'utilisation !",
     },
     {
       href: "https://www.data.gouv.fr/api",
-      title: "API"
-    }
+      title: "API",
+    },
   ],
   style,
-  children
+  children,
 }) => (
   <footer className="footer" style={style}>
     <div className="container">
@@ -57,7 +57,7 @@ const Footer = ({
         <li>
           <h2>{title}</h2>
         </li>
-        {links.map(link => (
+        {links.map((link) => (
           <li key={link.href}>
             <Link href={link.href}>
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -75,16 +75,16 @@ const Footer = ({
 Footer.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
   links: PropTypes.arrayOf(
     PropTypes.exact({
       href: PropTypes.string,
-      title: PropTypes.string
+      title: PropTypes.string,
     })
   ),
   style: PropTypes.object,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default Footer;

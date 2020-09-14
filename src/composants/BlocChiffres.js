@@ -33,12 +33,12 @@ const BlocChiffre = styled.div`
 
 const ZeroCounter = ({ end }) => <CountUp start={0} end={end} />;
 ZeroCounter.propTypes = {
-  end: PropTypes.number
+  end: PropTypes.number,
 };
 
 const BlocChiffres = ({ chiffres }) => (
   <div style={{ margin: "0 auto", width: "100%" }}>
-    {chiffres.map(chiffre => (
+    {chiffres.map((chiffre) => (
       <BlocChiffre key={chiffre.title}>
         <div className="num">
           <ZeroCounter end={chiffre.value} />
@@ -53,7 +53,7 @@ const BlocChiffres = ({ chiffres }) => (
 );
 
 BlocChiffres.propTypes = {
-  chiffres: PropTypes.array.isRequired
+  chiffres: PropTypes.array.isRequired,
 };
 
 export default BlocChiffres;

@@ -15,9 +15,9 @@ const Notification = ({ className, children }) => (
 Notification.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 const Notifications = () => (

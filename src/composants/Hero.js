@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const HeroContainer = styled.div`
-  background-image: url(${props => props.backgroundImage}) !important;
+  background-image: url(${(props) => props.backgroundImage}) !important;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -18,7 +18,7 @@ export const Hero = ({
   tagline,
   style,
   alt,
-  backgroundImage = "/images/image-fond2.jpg"
+  backgroundImage = "/images/image-fond2.jpg",
 }) => (
   <HeroContainer
     className="hero"
@@ -39,7 +39,7 @@ Hero.propTypes = {
   href: PropTypes.string,
   style: PropTypes.object,
   tagline: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default Hero;

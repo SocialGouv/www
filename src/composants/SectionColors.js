@@ -9,34 +9,34 @@ const colors = {
     Grey: "#ADB9C9",
     "Light grey": "#C9D3DF",
     "Lighter grey": "#EBEFF3",
-    White: "#FFFFFF"
+    White: "#FFFFFF",
   },
   others: [
     {
       Green: "#03BD5B",
-      "Light green": "#DAF5E7"
+      "Light green": "#DAF5E7",
     },
     {
       "Light orange": "#FFF0E4",
-      Orange: "#FF9947"
+      Orange: "#FF9947",
     },
     {
       "Light red": "#F8E1E7",
-      Red: "#D1335B"
+      Red: "#D1335B",
     },
     {
       Blue: "#03BD5B",
-      "Light blue": "#DAF5E7"
-    }
+      "Light blue": "#DAF5E7",
+    },
   ],
   primary: {
     Dark: "#006CB0",
     Light: "#1E90DA",
-    Medium: "#0081D5"
-  }
+    Medium: "#0081D5",
+  },
 };
 
-const slugify = str =>
+const slugify = (str) =>
   str
     .toString()
     .toLowerCase()
@@ -49,7 +49,7 @@ const SectionColors = () => (
         <h1>Couleurs</h1>
 
         <div className="color-panel primary">
-          {Object.keys(colors.primary).map(name => (
+          {Object.keys(colors.primary).map((name) => (
             <div className="color-panel__block" key={name}>
               <div className={`color-panel__sample primary-${slugify(name)}`} />
               <div className="color-panel__name">
@@ -61,7 +61,7 @@ const SectionColors = () => (
         </div>
 
         <div className="color-panel grayscale">
-          {Object.keys(colors.grayscale).map(name => (
+          {Object.keys(colors.grayscale).map((name) => (
             <div className="color-panel__block" key={name}>
               <div className={`color-panel__sample ${slugify(name)}`} />
               <div className="color-panel__name">
@@ -73,7 +73,7 @@ const SectionColors = () => (
         </div>
 
         <div className="color-panel notifications">
-          {colors.others.map(color => {
+          {colors.others.map((color) => {
             const [color1, color2] = Object.keys(color);
             return (
               <div className="color-panel__block" key={color1}>
