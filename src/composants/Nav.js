@@ -31,7 +31,7 @@ const NavItem = ({ href, title }) => (
 
 NavItem.propTypes = {
   href: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 //
@@ -39,7 +39,7 @@ NavItem.propTypes = {
 const Nav = ({ links }) => (
   <NavContainer>
     <ul className="nav__links">
-      {links && links.map(link => <NavItem key={link.href} {...link} />)}
+      {links && links.map((link) => <NavItem key={link.href} {...link} />)}
       {/*
           <li className="nav__item">
             <div className="dropdown">
@@ -56,7 +56,7 @@ const Nav = ({ links }) => (
 );
 
 Nav.propTypes = {
-  links: PropTypes.arrayOf(PropTypes.exact(NavItem.propTypes))
+  links: PropTypes.arrayOf(PropTypes.exact(NavItem.propTypes)),
 };
 
 export default Nav;

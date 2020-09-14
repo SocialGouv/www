@@ -10,7 +10,7 @@ import {
   Hero,
   Layout,
   SectionCards,
-  StartupMembers
+  StartupMembers,
 } from ".";
 
 const icons = {
@@ -19,9 +19,9 @@ const icons = {
   github: GitHub,
   link: Link,
   lock: Lock,
-  twitter: Twitter
+  twitter: Twitter,
 };
-const getIconFromUrl = url => {
+const getIconFromUrl = (url) => {
   if (url.match(/github/gi)) {
     return GitHub;
   }
@@ -34,9 +34,9 @@ const getIconFromUrl = url => {
   return Link;
 };
 
-const makeStyledIcon = Icon =>
-  function(style) {
-    const StyledIcon = props => <Icon {...props} style={style} />;
+const makeStyledIcon = (Icon) =>
+  function (style) {
+    const StyledIcon = (props) => <Icon {...props} style={style} />;
     return StyledIcon;
   };
 
@@ -46,7 +46,7 @@ const ArticleLink = ({ icon, title, href, subTitle, description }) => {
     display: "inline-block",
     float: "right",
     height: 22,
-    width: 22
+    width: 22,
   });
 
   return (
@@ -65,17 +65,17 @@ ArticleLink.propTypes = {
   href: PropTypes.string,
   icon: PropTypes.string,
   subTitle: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
-const getStartupData = id => startups.find(s => s.id === id);
-const getOtherStartupsData = id => startups.filter(s => s.id !== id);
+const getStartupData = (id) => startups.find((s) => s.id === id);
+const getOtherStartupsData = (id) => startups.filter((s) => s.id !== id);
 
 // inject footer + links when props.startup given
 function withStartup(Cmp) {
-  const CmpWithStartup = props => {
+  const CmpWithStartup = (props) => {
     const startupData = getStartupData(props.startup);
-    const otherStartups = getOtherStartupsData(props.startup).map(s => s.id);
+    const otherStartups = getOtherStartupsData(props.startup).map((s) => s.id);
     const allProps = {
       ...props,
       footer: (
@@ -94,10 +94,10 @@ function withStartup(Cmp) {
         ...props.meta,
         links: [
           ...((props.meta && props.meta.links) || []),
-          ...((startupData && startupData.links) || [])
-        ]
+          ...((startupData && startupData.links) || []),
+        ],
       },
-      startupData
+      startupData,
     };
     return <Cmp {...allProps} />;
   };
@@ -128,7 +128,7 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
               background: "#efefef",
               borderRadius: 2,
               fontSize: "1.5em",
-              padding: 10
+              padding: 10,
             }}
           >
             Cette startup a cessé son activité au {startupData.finished}
@@ -142,13 +142,13 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
                 fontSize: "1.2em",
                 fontWeight: "bold",
                 marginTop: 50,
-                textAlign: "center"
+                textAlign: "center",
               }}
             >
               Les liens utiles du projet :
             </div>
             <div className="article__author-list">
-              {meta.links.map(link => (
+              {meta.links.map((link) => (
                 <ArticleLink key={link.href} {...link} />
               ))}
             </div>
@@ -164,7 +164,7 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
 LayoutArticle.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
   footer: PropTypes.element,
   meta: PropTypes.exact({
@@ -172,12 +172,12 @@ LayoutArticle.propTypes = {
       alt: PropTypes.string,
       background: PropTypes.string,
       tagline: PropTypes.string,
-      title: PropTypes.string
+      title: PropTypes.string,
     }),
     links: PropTypes.arrayOf(PropTypes.shape({ href: PropTypes.string })),
-    title: PropTypes.string
+    title: PropTypes.string,
   }),
-  startupData: PropTypes.object
+  startupData: PropTypes.object,
 };
 
 export default withStartup(LayoutArticle);

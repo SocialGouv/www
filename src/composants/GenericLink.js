@@ -5,7 +5,7 @@ import React from "react";
 // used for markdown links
 // from https://raw.githubusercontent.com/zeit/next-site/master/components/docs/text/link.js
 
-export const GenericLink = props => {
+export const GenericLink = (props) => {
   if (props.href.startsWith("/") || props.href.startsWith("./")) {
     return <InternalLink {...props} />;
   }
@@ -30,9 +30,9 @@ InternalLink.propTypes = {
   as: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
-  href: PropTypes.string
+  href: PropTypes.string,
 };
 
 //
@@ -46,10 +46,10 @@ export const AnchorLink = ({ href, onClick, children }) => (
 AnchorLink.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
   href: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
 };
 
 //
@@ -63,9 +63,9 @@ export const ExternalLink = ({ href, children }) => (
 ExternalLink.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
-  href: PropTypes.string
+  href: PropTypes.string,
 };
 
 export default GenericLink;

@@ -7,7 +7,7 @@ import {
   FaCogs,
   FaRocket,
   FaSearch,
-  FaWifi
+  FaWifi,
 } from "react-icons/fa";
 import styled from "styled-components";
 
@@ -48,7 +48,7 @@ const BlocVertical = ({ title, Icon, children }) => (
       style={{
         flex: "0 0 80px",
         marginRight: 20,
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
       <Icon size="60" />
@@ -65,7 +65,7 @@ const BlocVertical = ({ title, Icon, children }) => (
 BlocVertical.propTypes = {
   Icon: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 const HorizontalContainer = styled.div`
@@ -126,7 +126,7 @@ const Fonctionnement = () => (
     >
       <div
         style={{
-          marginTop: 40
+          marginTop: 40,
         }}
       >
         <BlocVertical Icon={FaSearch} title="Identification du problème">

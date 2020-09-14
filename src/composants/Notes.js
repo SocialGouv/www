@@ -8,9 +8,9 @@ const Note = ({ className, children }) => (
 Note.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 const Notes = () => (

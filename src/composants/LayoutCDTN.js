@@ -8,53 +8,53 @@ import { LayoutArticle, Section } from ".";
 const articles = [
   {
     href: "/startups/code-du-travail-numerique",
-    title: "Introduction"
+    title: "Introduction",
   },
   {
     href: "/startups/code-du-travail-numerique/genese",
-    title: "La genèse du code du travail numérique"
+    title: "La genèse du code du travail numérique",
   },
   {
     href: "/startups/code-du-travail-numerique/kickoff",
-    title: "Lancement de la startup"
+    title: "Lancement de la startup",
   },
   {
     href: "/startups/code-du-travail-numerique/ux",
-    title: "Mise en place d'une démarche UX"
+    title: "Mise en place d'une démarche UX",
   },
   {
     href: "/startups/code-du-travail-numerique/droit-libre",
-    title: "Ecosystème du droit libre"
+    title: "Ecosystème du droit libre",
   },
   {
     href: "/startups/code-du-travail-numerique/release-v3.2.0",
-    title: "Release v-3.2.0 Fuschia Eagle"
+    title: "Release v-3.2.0 Fuschia Eagle",
   },
   {
     disabled: true,
     href: "/startups/code-du-travail-numerique/complexite",
-    title: "La complexité du droit"
+    title: "La complexité du droit",
   },
   {
     disabled: true,
     href: "/startups/code-du-travail-numerique/sdr",
-    title: "Les services de renseignement"
+    title: "Les services de renseignement",
   },
   {
     disabled: true,
     href: "/startups/code-du-travail-numerique/data",
-    title: "Les sources de données"
+    title: "Les sources de données",
   },
   {
     disabled: true,
     href: "/startups/code-du-travail-numerique/prototype-1",
-    title: "Premiers prototypes"
+    title: "Premiers prototypes",
   },
   {
     disabled: true,
     href: "/startups/code-du-travail-numerique/nlp-machine-learning",
-    title: "Language naturel et Machine Learning"
-  }
+    title: "Language naturel et Machine Learning",
+  },
 ];
 
 const Links = withRouter(({ router }) => (
@@ -66,8 +66,8 @@ const Links = withRouter(({ router }) => (
   >
     <ul>
       {articles
-        .filter(a => !a.disabled)
-        .map(article => {
+        .filter((a) => !a.disabled)
+        .map((article) => {
           return (
             <li key={article.href}>
               {router.pathname === article.href ? (
@@ -111,9 +111,9 @@ const LayoutCDTN = ({ meta, children }) => {
 LayoutCDTN.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
-  meta: PropTypes.object
+  meta: PropTypes.object,
 };
 
 export default LayoutCDTN;

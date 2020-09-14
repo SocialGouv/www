@@ -17,7 +17,7 @@ module.exports = [
     html: `Livraison de la version v3.2.0 Fuschia Eagle du Code du travail numérique`,
     img: "/images/actus/taking-notes.jpg",
     promote: true,
-    title: "Livraison v-3.2.0 Fuschia Eagle"
+    title: "Livraison v-3.2.0 Fuschia Eagle",
   },
   {
     author: "julien.bouquillon",
@@ -26,7 +26,7 @@ module.exports = [
     html: `Nous avons organisé notre premier séminaire pour questionner et améliorer nos pratiques`,
     img: "/images/actus/taking-notes.jpg",
     promote: true,
-    title: "Premier petit séminaire de la fabrique numérique"
+    title: "Premier petit séminaire de la fabrique numérique",
   },
   {
     author: "jonanthan.redt.gensinger",
@@ -61,7 +61,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     `,
     img: "/images/startups/work-in-france.jpg",
     promote: true,
-    title: "Work in France : Une année qui démarre bien !"
+    title: "Work in France : Une année qui démarre bien !",
   },
   {
     author: "eric.heijligers",
@@ -70,7 +70,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     html:
       "Le deuxième board de la fabrique numérique s'est tenu le 15 janvier : découvrez comment il s'est passé",
     img: "/images/actus/board-0119.jpg",
-    title: "Deuxième board de la fabrique numérique"
+    title: "Deuxième board de la fabrique numérique",
   },
   {
     author: "eric.heijligers",
@@ -78,7 +78,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     href: "/actus/board-janvier-2019",
     html: "C'est parti pour une nouvelle année !",
     img: "/images/actus/bonne-annee-2019.jpg",
-    title: "Bonne année 2019 !"
+    title: "Bonne année 2019 !",
   },
   {
     author: "julien.bouquillon",
@@ -98,7 +98,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `,
     img: "/images/startups/code-du-travail-numerique.jpg",
-    title: "Code du travail numérique v1.5"
+    title: "Code du travail numérique v1.5",
   },
   {
     author: "melanie.roge",
@@ -115,7 +115,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
     <br/>
     `,
     img: "/images/actus/TGI-Paris.jpg",
-    title: "C’est officiel : e-MJPM s’installe à Paris !"
+    title: "C’est officiel : e-MJPM s’installe à Paris !",
   },
   {
     author: "julien.bouquillon",
@@ -133,7 +133,7 @@ A bientôt pour d'autres bonnes nouvelles ;)
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-numerique">code-du-travail-numerique</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `,
-    title: "release 1.4 - Twinkle Cookie"
+    title: "release 1.4 - Twinkle Cookie",
   },
   {
     author: "julien.bouquillon",
@@ -145,7 +145,7 @@ Assistés des EIG de la promo 2018, d'experts techniques Etalab et de collègues
 <br/><br/>
 Deux EIG nous rejoindront donc début 2019, et commenceront leur mission par une immersion dans les services des DIRECCTE en région, où ils pourront mieux comprendre les attentes des usagers et des agents, et en profiter pour compléter notre stock de données qui nous permettrons d'améliorer notre modèle d'intelligence artificelle pour la compréhension des questions posées par les usagers.
 `,
-    title: "Code du travail numérique : Jury de selection des EIG"
+    title: "Code du travail numérique : Jury de selection des EIG",
   },
   {
     author: "eric.heijligers",
@@ -158,7 +158,7 @@ Et, depuis le 5 septembre, c'est plus de 1000 dossiers qui ont été déposés !
 <p align="center"><img src="/images/counter-wif.gif" height="50%" width="50%" alt="Plus de 1000 dossiers déposés"/></p>
 Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-France et Jonathan REDT-GENSINGER de la DGT.
    `,
-    title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾"
+    title: "WorkInFrance : plus de 1000 dossiers ont été déposés 🍾",
   },
   {
     author: "julien.bouquillon",
@@ -177,7 +177,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `,
-    title: "Code du travail numérique : release 1.1 - blue-firefly"
+    title: "Code du travail numérique : release 1.1 - blue-firefly",
   },
   {
     author: "marc.hertzog",
@@ -192,7 +192,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <p>📚 Le code source est disponible sur GitHub : <a href="https://github.com/SocialGouv/code-du-travail-explorer">code-du-travail-explorer</a></p>
       <p>💬 Des remarques ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a></p>
     `,
-    title: "Code du travail numérique : nouveau design"
+    title: "Code du travail numérique : nouveau design",
   },
   {
     author: "eric.heijligers",
@@ -205,7 +205,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     <br/>Pour celles ou ceux qui se demandent ce qu'est "l'alcôve" 😎<br/>
     <p align="center"><img src="/images/alcove.jpg" height="50%" width="50%" alt="L'alcove"/></p>
    `,
-    title: "La fabrique numérique pousse les murs"
+    title: "La fabrique numérique pousse les murs",
   },
   {
     author: "adrien.gonzalez",
@@ -231,7 +231,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <li><a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a></li>
     </ul>
     `,
-    title: "e-MJPM release 1.2 « still-wildflower » 🌼"
+    title: "e-MJPM release 1.2 « still-wildflower » 🌼",
   },
   {
     author: "maxime.basset",
@@ -243,7 +243,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
                 ce qui a permis de réduire rapidement les temps de traitement et <a href="https://medium.com/numa/quand-le-service-public-devient-digital-e4d48d358345">améliorer la relation usager</a>.
                 <br><br>
                 📊 <a href="https://workinfrance.beta.gouv.fr/stats.html">dashboard public</a>`,
-    title: "Work In France: plus de 200 demandes traitées en Juillet"
+    title: "Work In France: plus de 200 demandes traitées en Juillet",
   },
   {
     author: "yann-fanch.madaule",
@@ -253,7 +253,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       pour participer au programme "Entrepreneur d'intérêt général" 2018. <br><br>
       Notre équipe pourra donc bénéficier <strong>pendant 10 mois</strong> de deux spécialistes de la data science et du traitement du language naturel pour améliorer les résultats de notre service.`,
     title:
-      "Code du travail numérique : notre défi lauréat du programme EIG 2018 !"
+      "Code du travail numérique : notre défi lauréat du programme EIG 2018 !",
   },
   {
     author: "marc.hertzog",
@@ -267,7 +267,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
       <br>
        💬 Des feedbacks ? <a href="mailto:codedutravailnumerique@travail.gouv.fr">codedutravailnumerique@travail.gouv.fr</a>
       `,
-    title: "Code du travail numérique : nouveau prototype"
+    title: "Code du travail numérique : nouveau prototype",
   },
   {
     author: "julien.bouquillon",
@@ -276,7 +276,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
             <br><br>
             Pour ajouter un sujet au prochain standup, il suffit de <a href="https://github.com/SocialGouv/standup/edit/master/src/startups.json">soumettre une pull request</a> sur la page du projet.
       `,
-    title: "Outil de standup sur GitHub"
+    title: "Outil de standup sur GitHub",
   },
   {
     author: "julien.bouquillon",
@@ -284,6 +284,6 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     html:
       'Une F.A.Q. qui reprend les 50 questions les plus fréquemment posées vient d\'être publiée par les services de renseignement et aussitôt mise en ligne : <a href="https://socialgouv.github.io/faq-code-du-travail">socialgouv.github.io/faq-code-du-travail</a>',
     title:
-      "Code du travail numérique : publication des 50 questions les plus fréquentes"
-  }
+      "Code du travail numérique : publication des 50 questions les plus fréquentes",
+  },
 ];

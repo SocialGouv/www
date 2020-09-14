@@ -3,7 +3,7 @@ import {
   Accordion,
   AccordionItem,
   AccordionItemBody,
-  AccordionItemTitle
+  AccordionItemTitle,
 } from "react-accessible-accordion";
 
 import { Hero, Layout, Section } from "../src/composants";

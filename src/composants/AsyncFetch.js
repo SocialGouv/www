@@ -4,7 +4,7 @@ import React from "react";
 class AsyncFetch extends React.Component {
   state = {
     result: null,
-    status: "idle"
+    status: "idle",
   };
 
   mounted = false;
@@ -28,26 +28,26 @@ class AsyncFetch extends React.Component {
     this.mounted = false;
   }
 
-  fetch = args => {
+  fetch = (args) => {
     this.setState(
       {
-        status: "loading"
+        status: "loading",
       },
       () => {
         this.props
           .fetch(args)
-          .then(result => {
+          .then((result) => {
             this.mounted &&
               this.setState({
                 result,
-                status: "success"
+                status: "success",
               });
           })
-          .catch(e => {
+          .catch((e) => {
             this.mounted &&
               this.setState({
                 result: e.message,
-                status: "error"
+                status: "error",
               });
           });
       }
@@ -56,7 +56,7 @@ class AsyncFetch extends React.Component {
 
   clear = () => {
     this.setState({
-      result: null
+      result: null,
     });
   };
 
@@ -64,7 +64,7 @@ class AsyncFetch extends React.Component {
     return this.props.render({
       ...this.state,
       clear: this.clear,
-      fetch: this.fetch
+      fetch: this.fetch,
     });
   }
 }
@@ -73,11 +73,11 @@ AsyncFetch.propTypes = {
   autoFetch: PropTypes.bool,
   // the fetch call function
   fetch: PropTypes.func.isRequired,
-  render: PropTypes.func.isRequired
+  render: PropTypes.func.isRequired,
 };
 
 AsyncFetch.defaultProps = {
-  autoFetch: true
+  autoFetch: true,
 };
 
 export default AsyncFetch;

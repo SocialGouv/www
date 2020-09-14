@@ -21,18 +21,18 @@ TimelineEvent.propTypes = {
   category: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
+    PropTypes.arrayOf(PropTypes.element),
   ]),
   className: PropTypes.string,
   date: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 const colors = {
   Déploiement: "rgb(181, 201, 55)",
   Pilotage: "rgb(102, 140, 194)",
   Usage: "rgb(102, 140, 194)",
-  Équipe: "rgb(150, 33, 243)"
+  Équipe: "rgb(150, 33, 243)",
 };
 
 const StyledTimelineEvent = styled(TimelineEvent)`
@@ -52,17 +52,17 @@ const StyledTimelineEvent = styled(TimelineEvent)`
   }
 
   .vertical-timeline-element-content {
-    border-color: ${props => colors[props.category]};
+    border-color: ${(props) => colors[props.category]};
     box-shadow: none;
     padding: 1em;
   }
 
   .vertical-timeline-element-content-arrow {
-    border-right: 7px solid ${props => colors[props.category]};
+    border-right: 7px solid ${(props) => colors[props.category]};
   }
 
   .vertical-timeline-element-icon {
-    background-color: ${props => colors[props.category]};
+    background-color: ${(props) => colors[props.category]};
     box-shadow: none;
   }
 
@@ -74,7 +74,7 @@ const StyledTimelineEvent = styled(TimelineEvent)`
   }
 
   .vertical-timeline-element-datefr {
-    color: ${props => colors[props.category]};
+    color: ${(props) => colors[props.category]};
     font-weight: bold;
     font-size: 1.2rem;
     margin: 10px 0;

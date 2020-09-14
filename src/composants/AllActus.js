@@ -12,7 +12,7 @@ const News = ({ title, href, date, html }) => (
         color: "initial",
         margin: "20px auto",
         paddingTop: 0,
-        width: "80%"
+        width: "80%",
       }}
     >
       <div className="panel__header" id={date}>
@@ -39,14 +39,14 @@ News.propTypes = {
   date: PropTypes.string,
   href: PropTypes.string,
   html: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 const AllActus = ({ count, promote }) => {
   return news
-    .filter(n => (promote ? n.promote : true))
+    .filter((n) => (promote ? n.promote : true))
     .slice(0, count ? count : news.length)
-    .map(n => <News {...n} key={n.title} />);
+    .map((n) => <News {...n} key={n.title} />);
 };
 
 export default AllActus;

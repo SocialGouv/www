@@ -26,7 +26,7 @@ const News = ({ title, date, html }) => (
 News.propTypes = {
   date: PropTypes.string,
   html: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 const Actus = () => (

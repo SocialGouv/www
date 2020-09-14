@@ -26,8 +26,8 @@ const Timeline = ({ children }) => (
 Timeline.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
-  ])
+    PropTypes.arrayOf(PropTypes.element),
+  ]),
 };
 
 export default Timeline;

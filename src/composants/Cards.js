@@ -7,7 +7,7 @@ import { Card } from ".";
 const Cards = startups.reduce(
   (startups, startup) => ({
     ...startups,
-    [startup.id]: <Card {...startup} />
+    [startup.id]: <Card {...startup} />,
   }),
   {}
 );

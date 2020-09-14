@@ -33,7 +33,7 @@ const Member = ({ name, structure, role, picture, style }) => {
         key={picture}
         style={{
           backgroundImage: `url(${picture})`,
-          flex: "0 0 auto"
+          flex: "0 0 auto",
         }}
       />
       <div
@@ -43,7 +43,7 @@ const Member = ({ name, structure, role, picture, style }) => {
           flex: "1 0 auto",
           fontSize: "0.9em",
           marginLeft: 10,
-          width: "calc(100% - 45px)"
+          width: "calc(100% - 45px)",
         }}
       >
         <div
@@ -52,7 +52,7 @@ const Member = ({ name, structure, role, picture, style }) => {
             fontWeight: "bold",
             overflow: "hidden",
             textOverflow: "ellipsis",
-            whiteSpace: "nowrap"
+            whiteSpace: "nowrap",
           }}
           dangerouslySetInnerHTML={{ __html: name }}
         />
@@ -71,7 +71,7 @@ Member.propTypes = {
   picture: PropTypes.string,
   role: PropTypes.string,
   structure: PropTypes.string,
-  style: PropTypes.object
+  style: PropTypes.object,
 };
 
 export default Member;
