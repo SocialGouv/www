@@ -1,3 +1,5 @@
+import "template.data.gouv.fr";
+import "react-vertical-timeline-component/style.min.css";
 import "../src/custom.css";
 import "../src/github-highlight.css";
 

@@ -1,3 +1,4 @@
 {
-  "extends": ["github>SocialGouv/renovate-config:light"]
+  "extends": ["github>SocialGouv/renovate-config:light"],
+  "ignoreDeps": ["template.data.gouv.fr"]
 }
