@@ -91,6 +91,17 @@
       subTitle: code source
       href: https://github.com/SocialGouv/fce
       description: Bientôt ! Le code source de l'application FCE
+- id: MANO
+  href: /startups/mano
+  img: /images/startups/mano.jpg
+  title: MANO
+  meta: Septembre 2020
+  description: Service de soutien aux équipes mobiles visant à améliorer la vie des populations en rue et à favoriser leur réinsertion.
+  links:
+    - title: Github
+      subTitle: code source
+      href: https://github.com/SocialGouv/mano
+      description: Bientôt ! Le code source de l'application Archifiltre
 - id: domifacile
   href: /startups/domifacile
   img: /images/startups/domifa.jpg
