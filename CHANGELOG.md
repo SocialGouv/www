@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/SocialGouv/www/compare/v2.1.2...v2.1.3) (2020-09-17)
+
+
+### Bug Fixes
+
+* **domifa:** fix title indentation ([#729](https://github.com/SocialGouv/www/issues/729)) ([00576a5](https://github.com/SocialGouv/www/commit/00576a51f8feebb678ac375ccf53138604949460))
+
 ## [2.1.2](https://github.com/SocialGouv/www/compare/v2.1.1...v2.1.2) (2020-08-07)
 
 
