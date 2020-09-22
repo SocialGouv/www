@@ -349,8 +349,8 @@
   role: Chargée de déploiement
   picture: /images/members/yowa.muzadi.jpg
   missions:
-    - start: 2019-11-12
-      end: 2020-09-18
+    - start: "2019-11-12"
+      end: "2020-09-18"
       status: independent
 - id: abdessamad.youssfi
   name: Abdessamad Youssfi
@@ -415,7 +415,7 @@
     - e-mjpm
   role: Développeur Fullstack
   picture: /images/members/remi.roycourt.jpg
-- id: tiphaine.raffray 
+- id: tiphaine.raffray
   name: Tiphaine Raffray
   structure: freelance
   startups:
