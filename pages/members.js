@@ -39,7 +39,11 @@ class Members extends React.Component {
                 img={member.picture}
                 title={member.name}
                 meta={member.structure}
-                style={{ flex: "1 0 auto", margin: "5px auto" }}
+                style={{
+                  flex: "1 0 auto",
+                  margin: "5px auto",
+                  ...memberStyle(member),
+                }}
                 description={member.role}
               >
                 {member.startups.map((startup) => (
@@ -58,6 +62,24 @@ class Members extends React.Component {
       </Layout>
     );
   }
+}
+
+function memberStyle(member) {
+  if (!(member && member.missions && Array.isArray(member.missions))) {
+    // In case the yaml is broken we silently fail
+    return {};
+  }
+  const [latestMission] = member.missions.slice(-1);
+  if (new Date(latestMission.end) > new Date()) {
+    // The member is still in mission :)
+    return {};
+  }
+
+  // The member is no longer here :(
+  return {
+    opacity: "20%",
+    filter: "grayscale(100%)",
+  };
 }
 
 export async function getStaticProps() {
