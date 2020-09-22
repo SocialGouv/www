@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/SocialGouv/www/compare/v2.1.3...v2.2.0) (2020-09-22)
+
+
+### Features
+
+* **members:** add missions start end ([8aaee20](https://github.com/SocialGouv/www/commit/8aaee20e050c244a9411f9e153815d8987a1a82d))
+* **members:** fade out if not here anymore ([#736](https://github.com/SocialGouv/www/issues/736)) ([636b39e](https://github.com/SocialGouv/www/commit/636b39ea59d0b8a023a954f494a03c8a9f15663c))
+
 ## [2.1.3](https://github.com/SocialGouv/www/compare/v2.1.2...v2.1.3) (2020-09-17)
 
 
