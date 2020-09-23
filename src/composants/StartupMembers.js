@@ -4,7 +4,7 @@ import members from "../data/members.yml";
 import { Member } from ".";
 
 const getStartupMembers = (startup) =>
-  members.filter((member) => member.startups.indexOf(startup) > -1);
+  members.filter((member) => member.startups?.indexOf(startup) > -1);
 
 const shuffled = (arr) =>
   arr

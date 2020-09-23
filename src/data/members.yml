@@ -1,3 +1,12 @@
+- id: qcattez
+  name: Quentin Cattez
+  structure: Octo
+  role: Ops
+  picture: /images/members/qcattez.jpg
+  missions:
+    - start: "2020-09-22"
+      end: "2023-09-22"
+      status: octo
 - id: saniya.al.saadi
   name: Saniya Al Saadi
   structure: freelance

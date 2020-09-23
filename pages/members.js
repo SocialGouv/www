@@ -46,7 +46,7 @@ class Members extends React.Component {
                 }}
                 description={member.role}
               >
-                {member.startups.map((startup) => (
+                {member.startups?.map((startup) => (
                   <Link
                     href={`/startups/${startup}`}
                     key={startup + member.name}
@@ -65,7 +65,7 @@ class Members extends React.Component {
 }
 
 function memberStyle(member) {
-  if (!(member && member.missions && Array.isArray(member.missions))) {
+  if (!Array.isArray(member?.missions)) {
     // In case the yaml is broken we silently fail
     return {};
   }
