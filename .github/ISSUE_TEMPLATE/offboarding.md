@@ -1,5 +1,5 @@
 ---
-name: OffBoarding
+name: ⛱️ OffBoarding
 about: Toutes les étapes de l'offboarding SocialGouv
 title: Départ de prenom.nom
 labels: offboarding
