@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/SocialGouv/www/compare/v2.3.0...v2.4.0) (2020-09-23)
+
+
+### Features
+
+* **member:** Nicolas works for domifa now ([a9a822f](https://github.com/SocialGouv/www/commit/a9a822f3d9b62f938756f09ec44fd51e0eb7f11f))
+
 # [2.3.0](https://github.com/SocialGouv/www/compare/v2.2.0...v2.3.0) (2020-09-23)
 
 
