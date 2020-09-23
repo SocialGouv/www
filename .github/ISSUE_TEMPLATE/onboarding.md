@@ -1,6 +1,6 @@
 ---
-name: On Boarding PPO
-about: Toutes les étapes de l'onboarding ppo SocialGouv
+name: On Boarding
+about: Toutes les étapes de l'onboarding SocialGouv
 title: Arrivée de prenom.nom
 labels: onboarding
 assignees: ''
