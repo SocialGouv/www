@@ -1,5 +1,5 @@
 ---
-name: On Boarding
+name: 🧑‍🚀 OnBoarding
 about: Toutes les étapes de l'onboarding SocialGouv
 title: Arrivée de prenom.nom
 labels: onboarding
