@@ -1,5 +1,5 @@
 ---
-name: OnBoarding dev
+name: 🤖 OnBoarding for dev
 about: Toutes les étapes de l'onboarding dev SocialGouv
 title: Arrivée de prenom.nom
 labels: onboarding
