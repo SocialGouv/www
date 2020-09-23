@@ -1,3 +1,17 @@
+# [2.3.0](https://github.com/SocialGouv/www/compare/v2.2.0...v2.3.0) (2020-09-23)
+
+
+### Bug Fixes
+
+* update gh-stats ([#732](https://github.com/SocialGouv/www/issues/732)) ([29d0252](https://github.com/SocialGouv/www/commit/29d025220ca2a8c9423706716281df312a9df523))
+
+
+### Features
+
+* **legal:** add mentions legales fix ([#730](https://github.com/SocialGouv/www/issues/730)) ([3dc28fc](https://github.com/SocialGouv/www/commit/3dc28fc503d84aaf06ca1720e57e54155abb285f)), closes [#579](https://github.com/SocialGouv/www/issues/579)
+* **mano:** add mano startup ([#728](https://github.com/SocialGouv/www/issues/728)) ([04ba71f](https://github.com/SocialGouv/www/commit/04ba71f7cf34592b2adfdd60970be4e1e26a754e))
+* **member:** add qcattez member ([#738](https://github.com/SocialGouv/www/issues/738)) ([5437120](https://github.com/SocialGouv/www/commit/5437120e1720ab85c16a2bea0f68b3a62004cae7))
+
 # [2.2.0](https://github.com/SocialGouv/www/compare/v2.1.3...v2.2.0) (2020-09-22)
 
 
