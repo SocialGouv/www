@@ -17,7 +17,6 @@
   picture: /images/members/avatar.jpg
   missions:
     - start: "2019-01-16"
-      end: "2022-01-16"
       status: independent
 - id: romy.duhem.verdiere
   name: Romy Duhem-Verdière
@@ -95,7 +94,6 @@
   picture: /images/members/avatar.jpg
   missions:
     - start: "2018-10-29"
-      end: "2022-01-01"
       status: independent
 - id: chloe.moser
   name: Chloe Moser
@@ -106,7 +104,6 @@
   picture: /images/members/chloe-moser.jpg
   missions:
     - start: "2019-04-02"
-      end: "2022-01-01"
       status: independent
 - id: anne.lambert
   name: Anne Lambert

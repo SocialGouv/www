@@ -70,7 +70,7 @@ function memberStyle(member) {
     return {};
   }
   const [latestMission] = member.missions.slice(-1);
-  if (new Date(latestMission.end) > new Date()) {
+  if (!latestMission.end || new Date(latestMission.end) > new Date()) {
     // The member is still in mission :)
     return {};
   }
