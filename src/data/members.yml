@@ -475,8 +475,18 @@
       status: independent
       startup: e-mjpm
     - start: "2020-09-21"
-      end: "2023-09-21"
       status: independent
       startup: domifa
   role: Développeur Fullstack
   picture: /images/members/nicolas.toublanc.jpg
+- id: nicolas.lagreze
+  name: Nicolas Lagrèze
+  structure:
+  startups:
+    - mano
+    - ozensemble
+    - pep
+  missions:
+    - start: "2020-01-22"
+  role:
+  picture: /images/members/nicolas.lagreze.jpg
