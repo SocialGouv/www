@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/SocialGouv/www/compare/v2.4.0...v2.5.0) (2020-09-23)
+
+
+### Features
+
+* **member:** make end mission date optional ([c02ee78](https://github.com/SocialGouv/www/commit/c02ee785db37e377d84ee74c16886a306a547b31))
+
 # [2.4.0](https://github.com/SocialGouv/www/compare/v2.3.0...v2.4.0) (2020-09-23)
 
 
