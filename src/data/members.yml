@@ -471,6 +471,15 @@
   name: Nicolas TOUBLANC
   structure: Freelance
   startups:
-    - e-mjpm
+    - domifa
+  missions:
+    - start: "2020-04-30"
+      end: "2020-07-01"
+      status: independent
+      startup: e-mjpm
+    - start: "2020-09-21"
+      end: "2023-09-21"
+      status: independent
+      startup: domifa
   role: Développeur Fullstack
   picture: /images/members/nicolas.toublanc.jpg
