@@ -39,6 +39,10 @@ const footerLinks = [
     title: "F.A.Q.",
   },
   {
+    href: "/mentions-legales",
+    title: "Mentions légales",
+  },
+  {
     href: "/feed.xml",
     title: "RSS",
   },
