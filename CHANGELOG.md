@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/SocialGouv/www/compare/v2.5.0...v2.5.1) (2020-09-25)
+
+
+### Bug Fixes
+
+* **startup:** rename domifacile to domifa ([#739](https://github.com/SocialGouv/www/issues/739)) ([fb57012](https://github.com/SocialGouv/www/commit/fb5701243cf43093868467778e800bcf9cb42e6d))
+
 # [2.5.0](https://github.com/SocialGouv/www/compare/v2.4.0...v2.5.0) (2020-09-23)
 
 
