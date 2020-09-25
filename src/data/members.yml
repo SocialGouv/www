@@ -11,7 +11,7 @@
   name: Saniya Al Saadi
   structure: freelance
   startups:
-    - domifacile
+    - domifa
     - work-in-france
   role: designer UX
   picture: /images/members/avatar.jpg
@@ -45,7 +45,7 @@
   name: Anaïs Martins Da Cruz
   structure: DRDJSCS Auvergne-Rhône-Alpes
   startups:
-    - domifacile
+    - domifa
   role: intrapreneuse
   picture: /images/members/avatar.jpg
   missions:
@@ -175,14 +175,14 @@
   startups:
     - e-mjpm
     - work-in-france
-    - domifacile
+    - domifa
   role: coach
   picture: /images/members/maxime.basset.jpg
 - id: adrien.laville
   name: Adrien Laville
   structure: NUMA
   startups:
-    - domifacile
+    - domifa
     - tremplin
   role: coach
   picture: /images/members/adrien-laville.jpg
@@ -217,7 +217,7 @@
     - e-mjpm
     - fce
     - archifiltre
-    - domifacile
+    - domifa
     - tremplin
   role: product manager
   picture: /images/members/eric.heijligers.jpg
@@ -314,7 +314,7 @@
   name: Yassine Riffi
   structure: Freelance
   startups:
-    - domifacile
+    - domifa
   role: Développeur Fullstack
   picture: /images/members/yassine.riffi.jpg
 - id: christophe.dumont
