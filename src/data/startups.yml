@@ -202,6 +202,21 @@
       subTitle: code source
       href: "https://github.com/SocialGouv/Medlé "
       description: Bientôt ! Le code source de l'application'
+- id: ozensemble
+  href: /startups/ozensemble
+  img: /images/startups/ozensemble.jpg
+  title: Oz Ensemble
+  meta: Décembre 2019
+  description: Offrir à tous un accès simple aux soins en addictologie
+  links:
+    - title: Page d'accueil
+      subTitle: https://ozensemble.fr
+      href: https://ozensemble.fr
+      description: Page officielle du produit
+    - title: Github
+      subTitle: code source
+      href: "https://github.com/SocialGouv/ozensemble"
+      description: Les sources de l'application
 - id: didoc
   href: /startups/didoc
   img: /images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg
