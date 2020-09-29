@@ -6,7 +6,7 @@
   startups:
     - tumeplay
   missions:
-    - start: "2019-09-29"
+    - start: "2019-10-10"
       startup: tumeplay
 - id: qcattez
   name: Quentin Cattez
