@@ -202,6 +202,22 @@
       subTitle: code source
       href: "https://github.com/SocialGouv/Medlé "
       description: Bientôt ! Le code source de l'application'
+- id: ops
+  href: /startups/ops
+  img: /images/startups/ops.jpg
+  title: OPS
+  meta: Janvier 2019
+  description: Modeler les plateformes d'hébergement et de déploiement.
+  links:
+    - title: GitLab
+      subTitle: Code source de la Fabrique
+      href: "https://gitlab.factory.social.gouv.fr"
+    - title: Rancher
+      subTitle: Kubernetes Management
+      href: "https://rancher.fabrique.social.gouv.fr/"
+    - title: Grafana
+      subTitle: Suivez le monitoring ici
+      href: "https://grafana.fabrique.social.gouv.fr"
 - id: ozensemble
   href: /startups/ozensemble
   img: /images/startups/ozensemble.jpg
