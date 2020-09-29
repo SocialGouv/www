@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/SocialGouv/www/compare/v2.5.1...v2.6.0) (2020-09-29)
+
+
+### Features
+
+* **membres:** add perrineg ([#743](https://github.com/SocialGouv/www/issues/743)) ([63c365b](https://github.com/SocialGouv/www/commit/63c365b84f10a367231d7e20ae81a8b527c09e38))
+
 ## [2.5.1](https://github.com/SocialGouv/www/compare/v2.5.0...v2.5.1) (2020-09-25)
 
 
