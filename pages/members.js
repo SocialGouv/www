@@ -77,8 +77,8 @@ function memberStyle(member) {
 
   // The member is no longer here :(
   return {
-    opacity: "20%",
     filter: "grayscale(100%)",
+    opacity: "20%",
   };
 }
 
