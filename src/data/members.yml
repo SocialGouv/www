@@ -1,3 +1,13 @@
+- id: perrineg
+  name: Perrine Garnault
+  structure: BeNext
+  role: UI/UX
+  picture: /images/members/perrineg.jpg
+  startups:
+    - tumeplay
+  missions:
+    - start: "2019-09-29"
+      startup: tumeplay
 - id: qcattez
   name: Quentin Cattez
   structure: Octo
@@ -5,7 +15,6 @@
   picture: /images/members/qcattez.jpg
   missions:
     - start: "2020-09-22"
-      end: "2023-09-22"
       status: octo
 - id: saniya.al.saadi
   name: Saniya Al Saadi
