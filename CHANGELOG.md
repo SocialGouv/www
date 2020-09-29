@@ -1,3 +1,11 @@
+# [2.7.0](https://github.com/SocialGouv/www/compare/v2.6.0...v2.7.0) (2020-09-29)
+
+
+### Features
+
+* **members:** add nicolas lagreze ([#741](https://github.com/SocialGouv/www/issues/741)) ([d6f92e5](https://github.com/SocialGouv/www/commit/d6f92e5a639a474c5415b9519ed858f747d14067))
+* **startup:** add ozensemble startup ([#740](https://github.com/SocialGouv/www/issues/740)) ([78654d5](https://github.com/SocialGouv/www/commit/78654d50574e3dd95ba1b820b363ecbec534a6d1))
+
 # [2.6.0](https://github.com/SocialGouv/www/compare/v2.5.1...v2.6.0) (2020-09-29)
 
 
