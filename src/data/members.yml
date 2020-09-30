@@ -13,6 +13,8 @@
   structure: Octo
   role: Ops
   picture: /images/members/qcattez.jpg
+  startups:
+    - ops
   missions:
     - start: "2020-09-22"
       status: octo
