@@ -52,8 +52,10 @@ iframe {
   margin-top: 0;
 }
 
-.accordion__body p {
-  margin-top: 0;
+.accordion__button {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Evolventa, Trebuchet MS, sans-serif;
 }
 
 div.article__author-list {

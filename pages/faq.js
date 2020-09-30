@@ -2,8 +2,9 @@ import React from "react";
 import {
   Accordion,
   AccordionItem,
-  AccordionItemBody,
-  AccordionItemTitle,
+  AccordionItemButton,
+  AccordionItemHeading,
+  AccordionItemPanel,
 } from "react-accessible-accordion";
 
 import { Hero, Layout, Section } from "../src/composants";
@@ -21,15 +22,14 @@ const Faq = () => (
     />
 
     <Section className="section-white" title="" subTitle="">
-      <Accordion>
+      <Accordion allowMultipleExpanded="true">
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Qu&apos;est-ce qu&apos;une fabrique de services numériques ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Une fabrique numérique est une structure légère qui permet
               d&apos;accueillir des porteurs d&apos;idées internes, les «
@@ -37,16 +37,16 @@ const Faq = () => (
               nécessaires pour pouvoir créer leur produit numérique en mode «
               startup d&apos;état » pendant 6 mois.
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
+
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Qu&apos;est-ce qu&apos;une Startup d&apos;Etat ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               {" "}
               ◦ Une Startup d&apos;Etat permet le développement rapide de
@@ -62,17 +62,16 @@ const Faq = () => (
                 https://beta.gouv.fr/2017/09/05/les-6-prochains-mois-dune-startup-detat.html
               </a>
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Pourquoi une fabrique numérique dans les ministères sociaux ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Car le numérique transforme en profondeur notre environnement et
               apporte des opportunités nouvelles. Les ministères sociaux ont un
@@ -82,17 +81,16 @@ const Faq = () => (
               social, dans toutes ses composantes, qui ont un impact direct sur
               la vie quotidienne de chacun.
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Y a-t-il d&apos;autres fabriques numériques ministérielles ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               ◦ Au niveau interministériel, BetaGouv, la fabrique des services
               numériques de la DINSIC Fabrique de services publics numériques —{" "}
@@ -100,18 +98,17 @@ const Faq = () => (
               <br />◦ Au niveau ministériel, le ministère de l&apos;écologie, le
               ministère de l&apos;Intérieur
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Qui est chargé fonctionnellement de l&apos;animation de la mission
               «Fabrique numérique des ministères sociaux » ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               La direction des systèmes d&apos;information (DSI) est chargée de
               l&apos;animation fonctionnelle de la mission « fabrique numérique
@@ -121,17 +118,17 @@ const Faq = () => (
               (experts du secteur numérique Numa, coachs et développeurs de la
               DINSIC).
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Quels ont été les résultats du premier appel à candidatures en
               2017 ?<div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Un total de 138 idées a été déposé par les agents de
               l&apos;administration centrale, des DIRECCTE, des DR(D)JSCS) et
@@ -143,17 +140,16 @@ const Faq = () => (
               composé d&apos;institutionnels et d&apos;experts issus du
               numérique.
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Quelles qualités doivent avoir un porteur d&apos;idées ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Il doit avoir les qualités d&apos;un « intrapreneur » souhaitant
               s&apos;engager et étant en capacité de se rendre disponible.
@@ -163,17 +159,16 @@ const Faq = () => (
               développeurs pour présenter un premier produit au bout de six
               mois.
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Travaille-t-on différemment au sein de la fabrique numérique ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Le fonctionnement de la fabrique numérique est basé sur le
               principe innovant du développement agile itératif. L&apos;objectif
@@ -193,54 +188,52 @@ const Faq = () => (
                 https://beta.gouv.fr/2017/10/02/10-bonnes-raisons-pour-ne-pas-faire-de-tests-utilisateur.html
               </a>
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Où se situe la fabrique numérique des ministères sociaux ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               La fabrique numérique se situe dans les locaux de la DSI, au 8è
               étage de la tour Mirabeau à Paris.
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               Y aura-t-il d&apos;autres appels à candidatures auprès des agents
-              ?<div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+              ?
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               Oui, tous les ans mais rien n&apos;est figé… L&apos;appel à idées
               pour la saison 2 est en cours !
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
 
         <AccordionItem>
-          <AccordionItemTitle>
-            <h3 className="u-position-relative">
+          <AccordionItemHeading>
+            <AccordionItemButton>
               J&apos;ai encore des questions… Qui contacter ?
-              <div className="accordion__arrow" role="presentation" />
-            </h3>
-          </AccordionItemTitle>
-          <AccordionItemBody>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
             <p>
               L&apos;équipe de DSI Fabrique Numérique :{" "}
               <a href="mailto:DSI-incubateur@sg.social.gouv.fr">
                 DSI-incubateur@sg.social.gouv.fr
               </a>
             </p>
-          </AccordionItemBody>
+          </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
     </Section>
