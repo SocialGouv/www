@@ -1,3 +1,15 @@
+# [2.8.0](https://github.com/SocialGouv/www/compare/v2.7.0...v2.8.0) (2020-09-30)
+
+
+### Bug Fixes
+
+* **k8s:** allow path in redirect ([#744](https://github.com/SocialGouv/www/issues/744)) ([f3a0e46](https://github.com/SocialGouv/www/commit/f3a0e467f3addebc5bc1a8d2ad0ee004e7648fd4))
+
+
+### Features
+
+* **startup:** add ops startup ([#745](https://github.com/SocialGouv/www/issues/745)) ([ea18ce4](https://github.com/SocialGouv/www/commit/ea18ce4d70239a66dddb769e3ea7e6a60dd4dd22))
+
 # [2.7.0](https://github.com/SocialGouv/www/compare/v2.6.0...v2.7.0) (2020-09-29)
 
 
