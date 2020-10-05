@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/SocialGouv/www/compare/v2.8.0...v2.9.0) (2020-10-05)
+
+
+### Features
+
+* **cdtn:** add API info entreprise ([#749](https://github.com/SocialGouv/www/issues/749)) ([555bfe3](https://github.com/SocialGouv/www/commit/555bfe3c30354c39cb774ea6b19f166dcd5fb6b8))
+
 # [2.8.0](https://github.com/SocialGouv/www/compare/v2.7.0...v2.8.0) (2020-09-30)
 
 
