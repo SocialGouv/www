@@ -246,6 +246,11 @@
   structure: DINSIC
   startups:
     - code-du-travail-numerique
+    - e-mjpm
+    - pep
+  missions:
+    - start: "2020-09-28"
+      startup: pep
   role: designer UX
   picture: /images/members/jeremie.cook.jpg
 - id: lionel.breduillieard
@@ -498,6 +503,36 @@
     - ozensemble
     - pep
   missions:
-    - start: "2020-01-22"
+    - start: "2019-12-01"
+      startup: ozensemble
+    - start: "2019-12-01"
+      startup: mano
+    - start: "2020-09-01"
+      startup: pep
   role: Mentor
   picture: /images/members/nicolas.lagreze.jpg
+- id: caroline.dekerhor
+  name: Caroline de Kerhor
+  structure: Freelance
+  startups:
+    - mano
+    - ozensemble
+    - pep
+  missions:
+    - start: "2019-12-01"
+      startup: ozensemble
+    - start: "2019-12-01"
+      startup: mano
+    - start: "2020-09-01"
+      startup: pep
+  role: Coach
+  picture: /images/members/caroline.dekerhor.png
+- id: lya.pedron
+  name: Lya Pedron
+  structure: Hôpital Barthélemy Durand
+  startups:
+    - pep
+  missions:
+    - start: "2020-09-01"
+  role: Intrapreneuse
+  picture: /images/members/avatar.jpg
