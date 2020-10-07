@@ -248,7 +248,10 @@
     - code-du-travail-numerique
     - e-mjpm
     - pep
+    - ozensemble
   missions:
+    - start: "2019-12-01"
+      startup: ozensemble
     - start: "2020-09-28"
       startup: pep
   role: designer UX
