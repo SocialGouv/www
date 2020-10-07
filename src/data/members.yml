@@ -492,7 +492,7 @@
   picture: /images/members/nicolas.toublanc.jpg
 - id: nicolas.lagreze
   name: Nicolas Lagrèze
-  structure:
+  structure: Freelance
   startups:
     - mano
     - ozensemble
