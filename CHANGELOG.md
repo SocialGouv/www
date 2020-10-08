@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/SocialGouv/www/compare/v2.9.0...v2.10.0) (2020-10-08)
+
+
+### Features
+
+* **startup:** add pep startup ([#750](https://github.com/SocialGouv/www/issues/750)) ([cdb426b](https://github.com/SocialGouv/www/commit/cdb426bddef5376374978be9bbc4a48b7178e379))
+
 # [2.9.0](https://github.com/SocialGouv/www/compare/v2.8.0...v2.9.0) (2020-10-05)
 
 
