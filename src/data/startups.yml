@@ -202,6 +202,17 @@
       subTitle: code source
       href: "https://github.com/SocialGouv/Medlé "
       description: Bientôt ! Le code source de l'application'
+- id: monsuivipsy
+  href: /startups/monsuivipsy
+  img: /images/startups/monsuivipsy.jpg
+  title: MonSuiviPsy
+  meta: Septembre 2020
+  description: Permettre à chacun de mieux connaitre son trouble pour faciliter le choix du bon traitement
+  links:
+    - title: Github
+      subTitle: code source
+      href: "https://github.com/SocialGouv/monsuivipsy"
+      description: Bientôt ! Le code source de l'application'
 - id: ops
   href: /startups/ops
   img: /images/startups/ops.jpg
@@ -233,17 +244,6 @@
       subTitle: code source
       href: "https://github.com/SocialGouv/ozensemble"
       description: Les sources de l'application
-- id: pep
-  href: /startups/pep
-  img: /images/startups/pep.jpg
-  title: PEP
-  meta: Septembre 2020
-  description: Permettre à chacun de mieux connaitre son trouble pour faciliter le choix du bon traitement
-  links:
-    - title: Github
-      subTitle: code source
-      href: "https://github.com/SocialGouv/pep"
-      description: Bientôt ! Le code source de l'application'
 - id: didoc
   href: /startups/didoc
   img: /images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg

@@ -247,13 +247,13 @@
   startups:
     - code-du-travail-numerique
     - e-mjpm
-    - pep
+    - monsuivipsy
     - ozensemble
   missions:
     - start: "2019-12-01"
       startup: ozensemble
     - start: "2020-09-28"
-      startup: pep
+      startup: monsuivipsy
   role: designer UX
   picture: /images/members/jeremie.cook.jpg
 - id: lionel.breduillieard
@@ -504,14 +504,14 @@
   startups:
     - mano
     - ozensemble
-    - pep
+    - monsuivipsy
   missions:
     - start: "2019-12-01"
       startup: ozensemble
     - start: "2019-12-01"
       startup: mano
     - start: "2020-09-01"
-      startup: pep
+      startup: monsuivipsy
   role: Mentor
   picture: /images/members/nicolas.lagreze.jpg
 - id: caroline.dekerhor
@@ -520,21 +520,21 @@
   startups:
     - mano
     - ozensemble
-    - pep
+    - monsuivipsy
   missions:
     - start: "2019-12-01"
       startup: ozensemble
     - start: "2019-12-01"
       startup: mano
     - start: "2020-09-01"
-      startup: pep
+      startup: monsuivipsy
   role: Coach
   picture: /images/members/caroline.dekerhor.png
 - id: lya.pedron
   name: Lya Pedron
   structure: Hôpital Barthélemy Durand
   startups:
-    - pep
+    - monsuivipsy
   missions:
     - start: "2020-09-01"
   role: Intrapreneuse
