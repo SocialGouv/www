@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/SocialGouv/www/compare/v2.10.0...v2.11.0) (2020-10-13)
+
+
+### Features
+
+* **monsuivipsy:** rename pep to monsuivipsy ([#754](https://github.com/SocialGouv/www/issues/754)) ([a49aea3](https://github.com/SocialGouv/www/commit/a49aea38624dc84026953dc1aaaef01e4c40e663))
+
 # [2.10.0](https://github.com/SocialGouv/www/compare/v2.9.0...v2.10.0) (2020-10-08)
 
 
