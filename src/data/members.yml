@@ -397,9 +397,15 @@
   picture: /images/members/eglantine.schmitt.jpg
 - id: benjamin.morali
   name: Benjamin Morali
+  missions:
+    - start: "2019-10-07"
+      startup: archifiltre
+    - start: "2020-09-01"
+      startup: monsuivipsy
   structure: beNext
   startups:
     - archifiltre
+    - monsuivipsy
   role: Développeur Fullstack
   picture: /images/members/benjamin.morali.jpg
 - id: yowa.muzadi
