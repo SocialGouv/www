@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/SocialGouv/www/compare/v2.11.0...v2.12.0) (2020-10-26)
+
+
+### Features
+
+* **startups:** textstyle is no more ([#756](https://github.com/SocialGouv/www/issues/756)) ([7689033](https://github.com/SocialGouv/www/commit/76890331f6bd9359312048f263fd8044faf300a3))
+
 # [2.11.0](https://github.com/SocialGouv/www/compare/v2.10.0...v2.11.0) (2020-10-13)
 
 
