@@ -56,7 +56,7 @@
       description: Le code source de l'application eMJPM
 - id: code-du-travail-numerique
   betaId: codedutravail
-  page: code-du-travail-numerique/index.mdx
+  page: code-du-travail-numerique/index.mdx # permet de définir la page de la fiche produit si different de startups/[startup].mdx
   href: /startups/code-du-travail-numerique
   img: /images/startups/code-du-travail-numerique.jpg
   title: Code du travail numérique
