@@ -1,4 +1,5 @@
 - id: work-in-france
+  betaId: workinfrance
   href: /startups/work-in-france
   img: /images/startups/work-in-france.jpg
   title: Work In France
@@ -54,6 +55,8 @@
       href: https://github.com/SocialGouv/eMJPM
       description: Le code source de l'application eMJPM
 - id: code-du-travail-numerique
+  betaId: codedutravail
+  page: code-du-travail-numerique/index.mdx
   href: /startups/code-du-travail-numerique
   img: /images/startups/code-du-travail-numerique.jpg
   title: Code du travail numérique
