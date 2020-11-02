@@ -32,7 +32,7 @@
     "eslint": "^7.10.0",
     "js-yaml-loader": "^1.2.2",
     "next": "^9.5.5",
-    "next-images": "^1.6.0",
+    "next-images": "^1.6.2",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",
     "raw-loader": "^4.0.2",
@@ -52,7 +52,7 @@
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^3.2.0",
     "remark-highlight.js": "^6.0.0",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.2.1",
     "template.data.gouv.fr": "1.1.8",
     "trim-right": "^1.0.1"
   },
