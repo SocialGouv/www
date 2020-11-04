@@ -1,3 +1,10 @@
+## [2.12.1](https://github.com/SocialGouv/www/compare/v2.12.0...v2.12.1) (2020-11-04)
+
+
+### Bug Fixes
+
+* update stats ([#768](https://github.com/SocialGouv/www/issues/768)) ([f8d80d5](https://github.com/SocialGouv/www/commit/f8d80d55e7e3c2af9ce4709ff8701891ceee48d3))
+
 # [2.12.0](https://github.com/SocialGouv/www/compare/v2.11.0...v2.12.0) (2020-10-26)
 
 
