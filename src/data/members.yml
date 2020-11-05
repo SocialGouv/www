@@ -545,3 +545,13 @@
     - start: "2020-09-01"
   role: Intrapreneuse
   picture: /images/members/avatar.jpg
+- id: alix.romatet
+  name: Alix ROMATET
+  structure: Freelance
+  role: BizDev
+  picture: /images/members/alix.romatet.jpg
+  startups:
+    - tumeplay
+  missions:
+    - start: "2020-11-01"
+      startup: tumeplay
