@@ -1,3 +1,10 @@
+# [2.14.0](https://github.com/SocialGouv/www/compare/v2.13.0...v2.14.0) (2020-11-05)
+
+
+### Features
+
+* **membres:** add laetitia.hurez ([#771](https://github.com/SocialGouv/www/issues/771)) ([9525fb4](https://github.com/SocialGouv/www/commit/9525fb4458d63e436880034df9a05cb0b6214a17))
+
 # [2.13.0](https://github.com/SocialGouv/www/compare/v2.12.1...v2.13.0) (2020-11-05)
 
 
