@@ -18,7 +18,7 @@
     - title: Impact
       subTitle: Statistiques
       icon: bar-chart
-      href: https://wif-dashboard.num.social.gouv.fr/national
+      href: https://work-in-france.fabrique.social.gouv.fr/stats/?region=national
       description: Évolution du nombre de dossiers et métriques sur l'usage du service
     - title: Validation en ligne des ATP
       subTitle: Sécurité
