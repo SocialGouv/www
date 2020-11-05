@@ -31,7 +31,7 @@
     "@zeit/next-mdx": "^1.2.0",
     "eslint": "^7.10.0",
     "js-yaml-loader": "^1.2.2",
-    "next": "^9.5.5",
+    "next": "^10.0.1",
     "next-images": "^1.6.2",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",
