@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/SocialGouv/www/compare/v2.12.1...v2.13.0) (2020-11-05)
+
+
+### Features
+
+* **membres:** add alix.romatet ([#770](https://github.com/SocialGouv/www/issues/770)) ([db16a14](https://github.com/SocialGouv/www/commit/db16a14ebd202b1484bffdd7c4781122c4cf59b8))
+
 ## [2.12.1](https://github.com/SocialGouv/www/compare/v2.12.0...v2.12.1) (2020-11-04)
 
 
