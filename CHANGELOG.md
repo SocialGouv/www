@@ -1,3 +1,10 @@
+## [2.14.1](https://github.com/SocialGouv/www/compare/v2.14.0...v2.14.1) (2020-11-05)
+
+
+### Bug Fixes
+
+* **startups:** update wif stats link ([#772](https://github.com/SocialGouv/www/issues/772)) ([9e488a2](https://github.com/SocialGouv/www/commit/9e488a2d154911fe4aa55dbf6de5e0037620620f))
+
 # [2.14.0](https://github.com/SocialGouv/www/compare/v2.13.0...v2.14.0) (2020-11-05)
 
 
