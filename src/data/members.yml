@@ -24,6 +24,7 @@
   startups:
     - domifa
     - work-in-france
+    - medle
   role: designer UX
   picture: /images/members/avatar.jpg
   missions:
@@ -430,7 +431,7 @@
   name: Pierre-Olivier Mauguet
   structure: Fabrique numérique des ministères sociaux
   startups:
-    - MedLé
+    - medle
   role: Développeur Fullstack
   picture: /images/members/pierre-olivier.mauguet.jpg
 - id: remi.melisson
@@ -555,3 +556,13 @@
   missions:
     - start: "2020-11-01"
       startup: tumeplay
+- id: laetitia.hurez
+  name: Laetitia Hurez
+  structure: Ministère de la santé DGOS
+  startups:
+    - medle
+  missions:
+    - start: "2020-11-01"
+      startup: medle
+  role: Intrapreneuse
+  picture: /images/members/laetitia.hurez.jpg
