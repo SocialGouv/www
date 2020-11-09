@@ -22,8 +22,8 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^1.6.19",
-    "@mdx-js/mdx": "^1.6.19",
+    "@mdx-js/loader": "^1.6.21",
+    "@mdx-js/mdx": "^1.6.21",
     "@mdx-js/tag": "^0.20.3",
     "@socialgouv/eslint-config-react": "^1.46.0",
     "@socialgouv/eslint-config-recommended": "^1.46.0",
