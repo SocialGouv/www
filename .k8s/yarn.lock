@@ -104,6 +104,16 @@
     kubernetes-models "^0.8.1"
     tslib "^1.10.0"
 
+"@kubernetes-models/sealed-secrets@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@kubernetes-models/sealed-secrets/-/sealed-secrets-1.0.1.tgz#2d887f4f33483c69bd155e82979d5db185d9832e"
+  integrity sha512-FMh6DwD78rBU5Y3kDy27vq3nfcw/QPpOE8WwyPy/E/GV8iFZQKtz9z2mZdFgHzG1Uc/0qqkwoDu+eX9+X4lcWA==
+  dependencies:
+    "@kubernetes-models/base" "^1.0.0"
+    "@kubernetes-models/validate" "^1.0.0"
+    kubernetes-models "^1.0.1"
+    tslib "^2.0.3"
+
 "@kubernetes-models/validate@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@kubernetes-models/validate/-/validate-0.1.2.tgz#49954fcbf8b9076f3b6e6f9eb67c457b65ceef52"
