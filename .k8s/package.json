@@ -10,7 +10,7 @@
     "gitlab:prod": "yarn --silent gitlab --env prod"
   },
   "dependencies": {
-    "@kosko/env": "^0.5.2",
+    "@kosko/env": "^1.0.1",
     "@socialgouv/kosko-charts": "^2.7.2",
     "kubernetes-models": "^1.0.1",
     "toml": "^3.0.0"
