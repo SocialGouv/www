@@ -1,3 +1,10 @@
+# [2.15.0](https://github.com/SocialGouv/www/compare/v2.14.1...v2.15.0) (2020-12-08)
+
+
+### Features
+
+* **membres:** add jo.gottfreund ([#783](https://github.com/SocialGouv/www/issues/783)) ([99e5509](https://github.com/SocialGouv/www/commit/99e55091e9a151e35bd04c401060d60dd9f13ebb))
+
 ## [2.14.1](https://github.com/SocialGouv/www/compare/v2.14.0...v2.14.1) (2020-11-05)
 
 
