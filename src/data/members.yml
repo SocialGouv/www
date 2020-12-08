@@ -571,5 +571,8 @@
   structure: freelance
   startups:
     - e-mjpm
+  missions:
+    - start: "2020-12-07"
+      startup: e-mjpm
   role: développeur
   picture: /images/members/jo.gottfreund.jpg
