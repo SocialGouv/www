@@ -1,3 +1,10 @@
+## [2.15.1](https://github.com/SocialGouv/www/compare/v2.15.0...v2.15.1) (2020-12-10)
+
+
+### Bug Fixes
+
+* **members:** udpate Thomas Glatt missions ([9cdb160](https://github.com/SocialGouv/www/commit/9cdb160265758d4682ea9b82529ebad585de25ad))
+
 # [2.15.0](https://github.com/SocialGouv/www/compare/v2.14.1...v2.15.0) (2020-12-08)
 
 
