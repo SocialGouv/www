@@ -40,11 +40,13 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de la fabrique numérique et se présenter sur [~fabrique/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/fabrique-nouveaux)
  - [ ] Consulter les [bonnes pratiques mattermost](https://github.com/SocialGouv/socialgouv.github.io/wiki/Mattermost)
  - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de la fabrique numérique
+ - [ ] Demander un accès à [GitLab](https://gitlab.factory.social.gouv.fr/)
  - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
  - [ ] (optionnel) Rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de la fabrique numérique
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.fabrique.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès au cluster dev
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.fabrique.social.gouv.fr)
+ - [ ] (optionnel) : Demander un accès à [Rancher](https://rancher.fabrique.social.gouv.fr/)
 
 ### A tout moment
 
