@@ -165,6 +165,13 @@
   structure: freelance
   startups:
     - tremplin
+    - e-mjpm
+  missions:
+    - start: "2020-01-01"
+      startup: e-mjpm
+    - start: "2019-02-01"
+      end: "2020-01-01"
+      startup: tremplin
   role: développeur
   picture: /images/members/thomas-glatt.jpg
 - id: jean-rene.duscher
