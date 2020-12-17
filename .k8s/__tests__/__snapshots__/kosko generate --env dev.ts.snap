@@ -14,7 +14,7 @@ metadata:
     app.gitlab.com/env.name: master-dev2
   labels:
     azure-pg-admin-user: www
-    application: master-www
+    application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
@@ -29,7 +29,7 @@ metadata:
     app.gitlab.com/env.name: master-dev2
   labels:
     app: app
-    application: master-www
+    application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
@@ -49,7 +49,7 @@ spec:
         app.gitlab.com/env.name: master-dev2
       labels:
         app: app
-        application: master-www
+        application: master-dev2-www
         owner: www
         team: www
         cert: wildcard
@@ -98,7 +98,7 @@ kind: Deployment
 metadata:
   labels:
     app: app
-    application: master-www
+    application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
@@ -127,7 +127,7 @@ metadata:
     app.gitlab.com/env.name: master-dev2
   labels:
     app: app
-    application: master-www
+    application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
@@ -135,7 +135,7 @@ metadata:
   namespace: www-85-master-dev2
 spec:
   rules:
-    - host: master-www.dev2.fabrique.social.gouv.fr
+    - host: master-dev2-www.dev2.fabrique.social.gouv.fr
       http:
         paths:
           - backend:
@@ -144,7 +144,7 @@ spec:
             path: /
   tls:
     - hosts:
-        - master-www.dev2.fabrique.social.gouv.fr
+        - master-dev2-www.dev2.fabrique.social.gouv.fr
       secretName: wildcard-crt
 apiVersion: extensions/v1beta1
 kind: Ingress
