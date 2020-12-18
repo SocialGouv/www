@@ -1,3 +1,10 @@
+## [2.17.1](https://github.com/SocialGouv/www/compare/v2.17.0...v2.17.1) (2020-12-18)
+
+
+### Bug Fixes
+
+* update gh-stats ([#788](https://github.com/SocialGouv/www/issues/788)) ([fb831ed](https://github.com/SocialGouv/www/commit/fb831ed90009793f980f750ee25b328b4ed0d177))
+
 # [2.17.0](https://github.com/SocialGouv/www/compare/v2.16.0...v2.17.0) (2020-12-18)
 
 
