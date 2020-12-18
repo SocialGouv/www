@@ -1,3 +1,10 @@
+# [2.17.0](https://github.com/SocialGouv/www/compare/v2.16.0...v2.17.0) (2020-12-18)
+
+
+### Features
+
+* add yarn run beta-sync ([#766](https://github.com/SocialGouv/www/issues/766)) ([9e2bc53](https://github.com/SocialGouv/www/commit/9e2bc534c09a0523a324347b690d84cdccf7a408))
+
 # [2.16.0](https://github.com/SocialGouv/www/compare/v2.15.1...v2.16.0) (2020-12-17)
 
 
