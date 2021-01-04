@@ -3,6 +3,9 @@ const info = debug.bind(null, "[INFO]: ");
 const error = debug.bind(null, "[ERROR]: ");
 const fetch = require("node-fetch");
 
+console.log("process.env.GITHUB_TOKEN:", process.env.GITHUB_TOKEN);
+console.log("process.env:", process.env);
+
 const sum = arr => arr.reduce((sum, i) => sum + i, 0);
 
 const query = `
