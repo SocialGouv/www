@@ -2,7 +2,7 @@ name: Github Stats
 
 on:
   push:
-    branches: [stats-job]
+    branches: [stats-job2]
   # schedule:
   #   - cron: "42 23 * * *"
 
@@ -35,7 +35,7 @@ jobs:
       - name: Download stats
         run: yarn github-stats
         env:
-          GITHUB_TOKEN: ${{ secrets.SOCIALGROOVYBOT_BOTO_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GH_API_TOKEN }}
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
