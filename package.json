@@ -18,7 +18,7 @@
     "test": "exit 0",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
-    "github-stats": "node ./scripts/github-stats.js > ./public/github-stats.json",
+    "github-stats": "node ./scripts/github-stats.js",
     "beta-sync": "node ./scripts/beta-sync.js",
     "k8s": "yarn --silent --cwd .k8s"
   },
