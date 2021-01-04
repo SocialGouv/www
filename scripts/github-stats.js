@@ -79,8 +79,11 @@ if (require.main === module) {
     try {
       const stats = await fetchGraphQLStats();
       info(stats);
-      const json = JSON.stringify(stats, null, 2);
-      fs.writeFileSync("./public/github-stats.json", json);
+      const { count, issues, commits, contributors } = stats;
+      if (count && issues && commits && contributors) {
+        const json = JSON.stringify(stats, null, 2);
+        fs.writeFileSync("./public/github-stats.json", json);
+      }
     } catch (e) {
       error(e);
       console.log("e", e);

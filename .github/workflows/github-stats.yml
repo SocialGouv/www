@@ -39,7 +39,7 @@ jobs:
 
       - name: Check stats validity
         run: |
-          cat ./public/github-stats.json
+          cat ./public/github-stats.json | jq .
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
