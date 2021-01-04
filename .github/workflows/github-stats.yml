@@ -37,13 +37,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_API_TOKEN }}
 
-      # - name: Check stats validity
-      #   run: |
-      #     cat ./public/github-stats.json | jq
       - name: Check stats validity
-        uses: r26d/jq-action@master
-        with:
-          cmd: cat ./public/github-stats.json | jq
+        run: |
+          cat ./public/github-stats.json
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
