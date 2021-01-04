@@ -1,3 +1,10 @@
+## [2.17.3](https://github.com/SocialGouv/www/compare/v2.17.2...v2.17.3) (2021-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([#795](https://github.com/SocialGouv/www/issues/795)) ([3abfc6d](https://github.com/SocialGouv/www/commit/3abfc6d9572a9d6662dd39848cc49de40f6c3c8f))
+
 ## [2.17.2](https://github.com/SocialGouv/www/compare/v2.17.1...v2.17.2) (2020-12-28)
 
 
