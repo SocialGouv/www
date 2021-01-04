@@ -1,0 +1,41 @@
+name: Github Stats
+
+on:
+  push:
+    branches: [stats-job]
+  schedule:
+    - cron: "42 23 * * *"
+
+jobs:
+  udpate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          token: ${{ secrets.SOCIALGROOVYBOT_BOTO_PAT }}
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Get yarn cache
+        uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install
+        run: yarn --frozen-lockfile --perfer-offline
+
+      - name: Download stats
+        run: yarn github-stats
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Github stats
