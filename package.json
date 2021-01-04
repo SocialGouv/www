@@ -30,7 +30,7 @@
     "@socialgouv/eslint-config-recommended": "^1.46.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-mdx": "^1.2.0",
-    "eslint": "^7.14.0",
+    "eslint": "^7.17.0",
     "js-yaml-loader": "^1.2.2",
     "next": "^10.0.4",
     "next-images": "^1.6.2",
