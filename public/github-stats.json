@@ -1,6 +1,4 @@
-{
-  "count": 109,
-  "issues": 3064,
-  "commits": 31654,
-  "contributors": 64
-}
+e TypeError: Cannot read property 'organization' of undefined
+    at computeResults (/home/runner/work/www/www/scripts/github-stats.js:59:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /home/runner/work/www/www/scripts/github-stats.js:79:21
