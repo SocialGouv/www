@@ -2,7 +2,13 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
-let stats = {};
+let stats = {
+  count: 0,
+  issues: 0,
+  commits: 0,
+  contributors: 0
+};
+
 try {
   stats = require("../public/github-stats.json");
 } catch (error) {
@@ -31,11 +37,11 @@ const chiffres = [
   },
   {
     title: "Projets open-source",
-    value: stats.count || 0
+    value: stats.count
   },
   {
     title: "Commits",
-    value: stats.commits || 0
+    value: stats.commits
   }
 ];
 
