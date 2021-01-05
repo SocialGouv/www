@@ -1,10 +1,8 @@
 name: Github Stats
 
 on:
-  push:
-    branches: [stats-job2]
-  # schedule:
-  #   - cron: "42 23 * * *"
+  schedule:
+    - cron: "42 23 * * *"
 
 jobs:
   udpate:
@@ -13,7 +11,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          # ref: master
           token: ${{ secrets.SOCIALGROOVYBOT_BOTO_PAT }}
 
       - name: Get yarn cache directory path
