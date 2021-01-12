@@ -5,8 +5,6 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
  - clé `href` : permet de lier un contenu "en savoir plus"
  - clé `promote: true` : permet d'afficher la news sur la page d'accueil
 
-
-
 */
 
 module.exports = [
