@@ -1,3 +1,10 @@
+## [2.17.5](https://github.com/SocialGouv/www/compare/v2.17.4...v2.17.5) (2021-01-12)
+
+
+### Bug Fixes
+
+* add new CDTN 3M ([#800](https://github.com/SocialGouv/www/issues/800)) ([7a21b6e](https://github.com/SocialGouv/www/commit/7a21b6ec1e917119cd750be811da30afed77d5aa))
+
 ## [2.17.4](https://github.com/SocialGouv/www/compare/v2.17.3...v2.17.4) (2021-01-04)
 
 
