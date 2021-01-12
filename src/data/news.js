@@ -11,6 +11,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 
 module.exports = [
   {
+    date: "7 Janvier 2019",
+    promote: true,
+    author: "julien.bouquillon",
+    img: "/static/images/actus/taking-notes.jpg",
+    title: "3 millions de visiteurs !",
+    href: "https://code.travail.gouv.fr",
+    html: `Cette semaine le code du travail numérique a dépassé le cap des 3 millions de visiteurs depuis son lancement officiel il y a tout juste un an.`
+  },
+  {
     author: "julien.bouquillon",
     date: "23 Septembre 2019",
     href: "/startups/code-du-travail-numerique/release-v3.2.0",
