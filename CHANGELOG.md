@@ -1,3 +1,10 @@
+# [2.18.0](https://github.com/SocialGouv/www/compare/v2.17.5...v2.18.0) (2021-01-14)
+
+
+### Features
+
+* Github action to fetch Github Stats ([#797](https://github.com/SocialGouv/www/issues/797)) ([f24e7fe](https://github.com/SocialGouv/www/commit/f24e7fef22024540664c50771755a853e985acaf))
+
 ## [2.17.5](https://github.com/SocialGouv/www/compare/v2.17.4...v2.17.5) (2021-01-12)
 
 
