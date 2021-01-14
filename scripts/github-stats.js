@@ -2,6 +2,7 @@ const debug = require("debug")("github-stats");
 const info = debug.bind(null, "[INFO]: ");
 const error = debug.bind(null, "[ERROR]: ");
 const fetch = require("node-fetch");
+const fs = require("fs");
 
 const sum = arr => arr.reduce((sum, i) => sum + i, 0);
 
@@ -78,7 +79,11 @@ if (require.main === module) {
     try {
       const stats = await fetchGraphQLStats();
       info(stats);
-      console.log(JSON.stringify(stats, null, 2));
+      const { count, issues, commits, contributors } = stats;
+      if (count && issues && commits && contributors) {
+        const json = JSON.stringify(stats, null, 2);
+        fs.writeFileSync("./public/github-stats.json", json);
+      }
     } catch (e) {
       error(e);
       console.log("e", e);

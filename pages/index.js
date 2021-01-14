@@ -2,34 +2,47 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
-import stats from "../public/github-stats.json";
+let stats = {
+  count: 0,
+  issues: 0,
+  commits: 0,
+  contributors: 0
+};
+
+try {
+  stats = require("../public/github-stats.json");
+} catch (error) {
+  console.log("Error: Cannot read json stats file.");
+}
+
 import {
   AllActus,
   BlocChiffres,
   Hero,
   Layout,
   Section,
-  SectionCards,
+  SectionCards
 } from "../src/composants";
+
 import startups from "../src/data/startups.yml";
 
 const chiffres = [
   {
     title: "Startups",
-    value: startups.length,
+    value: startups.length
   },
   {
     title: "Intrapreneurs",
-    value: 11,
+    value: 11
   },
   {
     title: "Projets open-source",
-    value: stats.count,
+    value: stats.count
   },
   {
     title: "Commits",
-    value: stats.commits,
-  },
+    value: stats.commits
+  }
 ];
 
 const Homepage = () => (
@@ -102,7 +115,7 @@ const Homepage = () => (
                 height="286"
                 style={{
                   borderRadius: "50px",
-                  margin: " 0 auto",
+                  margin: " 0 auto"
                 }}
               />
               <br />
