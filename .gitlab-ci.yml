@@ -1,5 +1,5 @@
 stages:
-  - Toto
+  - test
 
 variables:
   POF: "pif"
@@ -19,7 +19,7 @@ variables:
       - $POF
 
 myjob:
-  stage: Toto
+  stage: test
   extends:
     - .subjob_1
     - .subjob_2
