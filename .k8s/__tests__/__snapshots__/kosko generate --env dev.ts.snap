@@ -28,19 +28,18 @@ metadata:
     app.gitlab.com/env: master-dev2
     app.gitlab.com/env.name: master-dev2
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
-    component: nginx
-  name: app
+  name: www
   namespace: www-85-master-dev2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app
+      app: www
   template:
     metadata:
       annotations:
@@ -48,32 +47,31 @@ spec:
         app.gitlab.com/env: master-dev2
         app.gitlab.com/env.name: master-dev2
       labels:
-        app: app
+        app: www
         application: master-dev2-www
         owner: www
         team: www
         cert: wildcard
-        component: nginx
     spec:
       containers:
         - image: >-
-            registry.gitlab.factory.social.gouv.fr/socialgouv/www/app:0123456789abcdefghijklmnopqrstuvwxyz0123
+            harbor.fabrique.social.gouv.fr/undefined/socialgouv:0123456789abcdefghijklmnopqrstuvwxyz0123
           livenessProbe:
             failureThreshold: 6
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
-          name: app
+          name: www
           ports:
-            - containerPort: 80
+            - containerPort: 3000
               name: http
           readinessProbe:
             failureThreshold: 15
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             initialDelaySeconds: 0
             periodSeconds: 5
@@ -82,14 +80,14 @@ spec:
           resources:
             limits:
               cpu: 500m
-              memory: 128Mi
+              memory: 1280Mi
             requests:
-              cpu: 5m
-              memory: 32Mi
+              cpu: 100m
+              memory: 128Mi
           startupProbe:
             failureThreshold: 12
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             periodSeconds: 5
 apiVersion: apps/v1
@@ -97,12 +95,12 @@ kind: Deployment
 ---
 metadata:
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
-  name: app
+  name: www
   annotations:
     app.gitlab.com/app: socialgouv-www
     app.gitlab.com/env: master-dev2
@@ -112,9 +110,9 @@ spec:
   ports:
     - name: http
       port: 80
-      targetPort: 80
+      targetPort: 3000
   selector:
-    app: app
+    app: www
   type: ClusterIP
 apiVersion: v1
 kind: Service
@@ -126,12 +124,12 @@ metadata:
     app.gitlab.com/env: master-dev2
     app.gitlab.com/env.name: master-dev2
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
-  name: app
+  name: www
   namespace: www-85-master-dev2
 spec:
   rules:
@@ -139,7 +137,7 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: app
+              serviceName: www
               servicePort: 80
             path: /
   tls:
