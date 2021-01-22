@@ -8,18 +8,6 @@ const manifests = create("www", {
   env,
   deployment: {
     image: getHarborImagePath({ name: "www" }),
-    container: {
-      resources: {
-        requests: {
-          cpu: "100m",
-          memory: "128Mi"
-        },
-        limits: {
-          cpu: "500m",
-          memory: "1280Mi"
-        }
-      }
-    }
   }
 });
 
