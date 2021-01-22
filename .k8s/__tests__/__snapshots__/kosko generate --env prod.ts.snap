@@ -8,18 +8,18 @@ metadata:
     app.gitlab.com/env: prod2
     app.gitlab.com/env.name: prod2
   labels:
-    app: app
+    app: www
     application: www
     owner: www
     team: www
     component: nginx
-  name: app
+  name: www
   namespace: www
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app
+      app: www
   template:
     metadata:
       annotations:
@@ -27,14 +27,14 @@ spec:
         app.gitlab.com/env: prod2
         app.gitlab.com/env.name: prod2
       labels:
-        app: app
+        app: www
         application: www
         owner: www
         team: www
         component: nginx
     spec:
       containers:
-        - image: 'registry.gitlab.factory.social.gouv.fr/socialgouv/www/app:1.2.3'
+        - image: 'harbor.fabrique.social.gouv.fr/fabrique/www:1.2.3'
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -43,7 +43,7 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
-          name: app
+          name: www
           ports:
             - containerPort: 80
               name: http
@@ -74,11 +74,11 @@ kind: Deployment
 ---
 metadata:
   labels:
-    app: app
+    app: www
     application: www
     owner: www
     team: www
-  name: app
+  name: www
   annotations:
     app.gitlab.com/app: socialgouv-www
     app.gitlab.com/env: prod2
@@ -90,7 +90,7 @@ spec:
       port: 80
       targetPort: 80
   selector:
-    app: app
+    app: www
   type: ClusterIP
 apiVersion: v1
 kind: Service
@@ -104,11 +104,11 @@ metadata:
     app.gitlab.com/env: prod2
     app.gitlab.com/env.name: prod2
   labels:
-    app: app
+    app: www
     application: www
     owner: www
     team: www
-  name: app
+  name: www
   namespace: www
 spec:
   rules:
@@ -116,13 +116,13 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: app
+              serviceName: www
               servicePort: 80
             path: /
   tls:
     - hosts:
         - www.fabrique.social.gouv.fr
-      secretName: app-crt
+      secretName: www-crt
 apiVersion: extensions/v1beta1
 kind: Ingress
 "

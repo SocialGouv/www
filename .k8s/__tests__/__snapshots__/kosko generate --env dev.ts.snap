@@ -28,19 +28,19 @@ metadata:
     app.gitlab.com/env: master-dev2
     app.gitlab.com/env.name: master-dev2
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
     component: nginx
-  name: app
+  name: www
   namespace: www-85-master-dev2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app
+      app: www
   template:
     metadata:
       annotations:
@@ -48,7 +48,7 @@ spec:
         app.gitlab.com/env: master-dev2
         app.gitlab.com/env.name: master-dev2
       labels:
-        app: app
+        app: www
         application: master-dev2-www
         owner: www
         team: www
@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
         - image: >-
-            registry.gitlab.factory.social.gouv.fr/socialgouv/www/app:0123456789abcdefghijklmnopqrstuvwxyz0123
+            harbor.fabrique.social.gouv.fr/fabrique/www:0123456789abcdefghijklmnopqrstuvwxyz0123
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -66,7 +66,7 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
-          name: app
+          name: www
           ports:
             - containerPort: 80
               name: http
@@ -97,12 +97,12 @@ kind: Deployment
 ---
 metadata:
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
-  name: app
+  name: www
   annotations:
     app.gitlab.com/app: socialgouv-www
     app.gitlab.com/env: master-dev2
@@ -114,7 +114,7 @@ spec:
       port: 80
       targetPort: 80
   selector:
-    app: app
+    app: www
   type: ClusterIP
 apiVersion: v1
 kind: Service
@@ -126,12 +126,12 @@ metadata:
     app.gitlab.com/env: master-dev2
     app.gitlab.com/env.name: master-dev2
   labels:
-    app: app
+    app: www
     application: master-dev2-www
     owner: www
     team: www
     cert: wildcard
-  name: app
+  name: www
   namespace: www-85-master-dev2
 spec:
   rules:
@@ -139,7 +139,7 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: app
+              serviceName: www
               servicePort: 80
             path: /
   tls:
