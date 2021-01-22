@@ -11,7 +11,7 @@ const manifests = create("www", {
   env,
   config: { containerPort: 3000 },
   deployment: {
-    image: getHarborImagePath({ name: "socialgouv" }),
+    image: getHarborImagePath({ name: "fabrique" }),
     container: {
       resources: {
         requests: {
