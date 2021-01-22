@@ -12,6 +12,7 @@ metadata:
     application: www
     owner: www
     team: www
+    component: nginx
   name: www
   namespace: www
 spec:
@@ -30,13 +31,14 @@ spec:
         application: www
         owner: www
         team: www
+        component: nginx
     spec:
       containers:
         - image: 'harbor.fabrique.social.gouv.fr/fabrique/www:1.2.3'
           livenessProbe:
             failureThreshold: 6
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             initialDelaySeconds: 30
             periodSeconds: 5
@@ -48,7 +50,7 @@ spec:
           readinessProbe:
             failureThreshold: 15
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             initialDelaySeconds: 0
             periodSeconds: 5
@@ -64,7 +66,7 @@ spec:
           startupProbe:
             failureThreshold: 12
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             periodSeconds: 5
 apiVersion: apps/v1

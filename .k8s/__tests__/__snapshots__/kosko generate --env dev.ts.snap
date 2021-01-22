@@ -33,6 +33,7 @@ metadata:
     owner: www
     team: www
     cert: wildcard
+    component: nginx
   name: www
   namespace: www-85-master-dev2
 spec:
@@ -52,6 +53,7 @@ spec:
         owner: www
         team: www
         cert: wildcard
+        component: nginx
     spec:
       containers:
         - image: >-
@@ -59,7 +61,7 @@ spec:
           livenessProbe:
             failureThreshold: 6
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             initialDelaySeconds: 30
             periodSeconds: 5
@@ -71,7 +73,7 @@ spec:
           readinessProbe:
             failureThreshold: 15
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             initialDelaySeconds: 0
             periodSeconds: 5
@@ -87,7 +89,7 @@ spec:
           startupProbe:
             failureThreshold: 12
             httpGet:
-              path: /healthz
+              path: /index.html
               port: http
             periodSeconds: 5
 apiVersion: apps/v1

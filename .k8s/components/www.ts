@@ -1,6 +1,6 @@
 import env from "@kosko/env";
 
-import { create } from "@socialgouv/kosko-charts/components/app";
+import { create } from "@socialgouv/kosko-charts/components/nginx";
 import { getHarborImagePath } from "@socialgouv/kosko-charts/utils/getHarborImagePath";
 
 const IMAGE_TAG = process.env.CI_COMMIT_TAG
@@ -9,7 +9,7 @@ const IMAGE_TAG = process.env.CI_COMMIT_TAG
 
 const manifests = create("www", {
   env,
-  config: { containerPort: 80 },
+  // config: { containerPort: 80 },
   deployment: {
     image: getHarborImagePath({ name: "www" }),
     container: {
