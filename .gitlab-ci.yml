@@ -51,7 +51,3 @@ Build:
 # NOTE(julienbouquillon): use custom register job
 # By default, kosko-charts use a "/app" for default docker images names
 # TODO: discuss
-# Register image:
-#   extends: .autodevops_register_image
-#   variables:
-#     IMAGE_NAME: $CI_REGISTRY_IMAGE/app
