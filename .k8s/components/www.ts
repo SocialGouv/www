@@ -9,7 +9,6 @@ const IMAGE_TAG = process.env.CI_COMMIT_TAG
 
 const manifests = create("www", {
   env,
-  // config: { containerPort: 80 },
   deployment: {
     image: getHarborImagePath({ name: "www" }),
     container: {
