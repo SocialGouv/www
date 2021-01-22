@@ -32,7 +32,7 @@ spec:
         team: www
     spec:
       containers:
-        - image: 'harbor.fabrique.social.gouv.fr/undefined/fabrique:1.2.3'
+        - image: 'harbor.fabrique.social.gouv.fr/fabrique/www:1.2.3'
           livenessProbe:
             failureThreshold: 6
             httpGet:
