@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/SocialGouv/www/compare/v2.18.8...v2.19.0) (2021-01-22)
+
+
+### Features
+
+* kaniko ([#801](https://github.com/SocialGouv/www/issues/801)) ([c70f9e6](https://github.com/SocialGouv/www/commit/c70f9e60f0d12b19ac4fc955c43c9fa9a1f49214))
+
 ## [2.18.8](https://github.com/SocialGouv/www/compare/v2.18.7...v2.18.8) (2021-01-22)
 
 
