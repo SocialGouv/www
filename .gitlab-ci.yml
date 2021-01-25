@@ -45,9 +45,3 @@ Build:
     expire_in: 1 day
     paths:
       - out
-#
-#
-
-# NOTE(julienbouquillon): use custom register job
-# By default, kosko-charts use a "/app" for default docker images names
-# TODO: discuss
