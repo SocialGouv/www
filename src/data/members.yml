@@ -583,3 +583,13 @@
       startup: e-mjpm
   role: développeur
   picture: /images/members/jo.gottfreund.jpg
+- id: benjamin.guedj
+  name: Benjamin Guedj
+  structure: Freelance
+  startups:
+    - 1000jours
+  missions:
+    - start: "2021-02-08"
+      startup: 1000jours
+  role: Développeur Mobile
+  picture: /images/members/benjamin.guedj.jpg
