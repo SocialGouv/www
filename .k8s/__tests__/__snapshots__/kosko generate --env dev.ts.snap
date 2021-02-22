@@ -5,7 +5,7 @@ exports[`kosko generate --dev 1`] = `
 metadata:
   annotations:
     field.cattle.io/creatorId: gitlab
-    field.cattle.io/projectId: 'c-kk8xm:p-s5gkl'
+    field.cattle.io/projectId: c-kk8xm:p-s5gkl
     git/branch: master
     git/remote: >-
       https://gitlab-ci-token:[MASKED]@gitlab.factory.social.gouv.fr/SocialGouv/www.git
@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
         - image: >-
-            harbor.fabrique.social.gouv.fr/fabrique/www:0123456789abcdefghijklmnopqrstuvwxyz0123
+            harbor.fabrique.social.gouv.fr/undefined/www:0123456789abcdefghijklmnopqrstuvwxyz0123
           livenessProbe:
             failureThreshold: 6
             httpGet:
