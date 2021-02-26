@@ -1,3 +1,10 @@
+## [2.19.24](https://github.com/SocialGouv/www/compare/v2.19.23...v2.19.24) (2021-02-26)
+
+
+### Bug Fixes
+
+* Switch to no-k8s mode. ([#808](https://github.com/SocialGouv/www/issues/808)) ([fb57340](https://github.com/SocialGouv/www/commit/fb573409cbe2f97c91110d3033bdf7a67d612021))
+
 ## [2.19.23](https://github.com/SocialGouv/www/compare/v2.19.22...v2.19.23) (2021-02-25)
 
 
