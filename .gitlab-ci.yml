@@ -1,11 +1,12 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v20.5.1
+    ref: v20.7.9
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
   AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
+  AUTO_DEVOPS_ENABLE_KAPP: "🚀"
   AUTO_DEVOPS_KANIKO: "enabled"
 
 # NOTE(douglasduteil): No install :(
