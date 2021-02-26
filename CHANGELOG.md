@@ -1,3 +1,10 @@
+## [2.19.25](https://github.com/SocialGouv/www/compare/v2.19.24...v2.19.25) (2021-02-26)
+
+
+### Bug Fixes
+
+* Update Github stats. ([e631ca8](https://github.com/SocialGouv/www/commit/e631ca8869af9f2cf87e7cb420553af5dbe7c1ca))
+
 ## [2.19.24](https://github.com/SocialGouv/www/compare/v2.19.23...v2.19.24) (2021-02-26)
 
 
