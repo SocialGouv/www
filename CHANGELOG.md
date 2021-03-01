@@ -1,3 +1,15 @@
+# [2.20.0](https://github.com/SocialGouv/www/compare/v2.19.27...v2.20.0) (2021-03-01)
+
+
+### Bug Fixes
+
+* Update Github stats. ([7ca303f](https://github.com/SocialGouv/www/commit/7ca303ff0f62cbdedb516c12b864bafcc37ff3ff))
+
+
+### Features
+
+* **membres:** add martial.maillot ([#809](https://github.com/SocialGouv/www/issues/809)) ([eacc8a7](https://github.com/SocialGouv/www/commit/eacc8a78955c53e0aa252cf7ee822f35622fbb45))
+
 ## [2.19.27](https://github.com/SocialGouv/www/compare/v2.19.26...v2.19.27) (2021-03-01)
 
 
