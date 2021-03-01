@@ -583,3 +583,13 @@
       startup: e-mjpm
   role: développeur
   picture: /images/members/jo.gottfreund.jpg
+- id: martial.maillot
+  name: Martial Maillot
+  structure: Freelance
+  startups:
+    - code-du-travail-numerique
+  missions:
+    - start: "2021-02-08"
+      startup: code-du-travail-numerique
+  role: développeur
+  picture: /images/members/martial.maillot.jpg
