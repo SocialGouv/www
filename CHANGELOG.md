@@ -1,3 +1,10 @@
+# [2.21.0](https://github.com/SocialGouv/www/compare/v2.20.3...v2.21.0) (2021-03-05)
+
+
+### Features
+
+* add benguedj ([#816](https://github.com/SocialGouv/www/issues/816)) ([0ec8ffe](https://github.com/SocialGouv/www/commit/0ec8ffe73437e511864a0e42759a99f4dc1861d8))
+
 ## [2.20.3](https://github.com/SocialGouv/www/compare/v2.20.2...v2.20.3) (2021-03-04)
 
 
