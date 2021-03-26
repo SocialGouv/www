@@ -217,7 +217,15 @@
     - title: Github
       subTitle: code source
       href: "https://github.com/SocialGouv/monsuivipsy"
-      description: Bientôt ! Le code source de l'application'
+      description: Code source de l'application mobile
+    - title: Github
+      subTitle: code source site web
+      href: "https://github.com/SocialGouv/monsuivipsy-site"
+      description: Code source du site internet
+    - title: Matomo
+      subTitle: Stats d'utilisation
+      href: "https://matomo.fabrique.social.gouv.fr/index.php?module=CoreHome&action=index&idSite=37&period=day&date=today"
+      description: Statistiques d'utilisation de l'application mobile
 - id: ops
   href: /startups/ops
   img: /images/startups/ops.jpg
