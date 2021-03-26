@@ -1,3 +1,10 @@
+# [2.22.0](https://github.com/SocialGouv/www/compare/v2.21.19...v2.22.0) (2021-03-26)
+
+
+### Features
+
+* add MSP links ([#820](https://github.com/SocialGouv/www/issues/820)) ([b75eaaa](https://github.com/SocialGouv/www/commit/b75eaaa9bbde2a9723a7457c68ba6c77c4ac896e))
+
 ## [2.21.19](https://github.com/SocialGouv/www/compare/v2.21.18...v2.21.19) (2021-03-25)
 
 
