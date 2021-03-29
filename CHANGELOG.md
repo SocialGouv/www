@@ -1,3 +1,10 @@
+## [2.22.4](https://github.com/SocialGouv/www/compare/v2.22.3...v2.22.4) (2021-03-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-tooltip to ^4.2.17 ([#821](https://github.com/SocialGouv/www/issues/821)) ([9f7a722](https://github.com/SocialGouv/www/commit/9f7a7226ba2a2a2ef0981c95a28929d062af79d4))
+
 ## [2.22.3](https://github.com/SocialGouv/www/compare/v2.22.2...v2.22.3) (2021-03-28)
 
 
