@@ -1,5 +1,6 @@
 # [www.fabrique.social.gouv.fr](https://www.fabrique.social.gouv.fr) [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=dev)](https://travis-ci.com/SocialGouv/socialgouv.github.io) [![pipeline status](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/badges/dev/pipeline.svg)](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/commits/dev)
 
+
 Site de la fabrique numérique des Ministères sociaux
 
 ## Editer le site
