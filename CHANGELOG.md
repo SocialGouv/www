@@ -1,3 +1,11 @@
+## [2.22.10](https://github.com/SocialGouv/www/compare/v2.22.9...v2.22.10) (2021-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to ^5.2.3 ([#824](https://github.com/SocialGouv/www/issues/824)) ([6c5471e](https://github.com/SocialGouv/www/commit/6c5471eab9be757575e57419a5dd97dfaff6d5dc))
+* Update Github stats. ([717dfe1](https://github.com/SocialGouv/www/commit/717dfe164ccd49ad6650a5e7c4cc96059db31648))
+
 ## [2.22.9](https://github.com/SocialGouv/www/compare/v2.22.8...v2.22.9) (2021-04-02)
 
 
