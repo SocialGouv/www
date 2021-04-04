@@ -53,7 +53,7 @@
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^3.3.3",
     "remark-highlight.js": "^6.0.0",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.2.3",
     "template.data.gouv.fr": "1.1.8",
     "trim-right": "^1.0.1"
   },
