@@ -1,3 +1,10 @@
+# [2.23.0](https://github.com/SocialGouv/www/compare/v2.22.25...v2.23.0) (2021-04-19)
+
+
+### Features
+
+* **members:** update photo nicolas toublanc ([d9396b9](https://github.com/SocialGouv/www/commit/d9396b922f779796580fe8944e49aa51f7013046))
+
 ## [2.22.25](https://github.com/SocialGouv/www/compare/v2.22.24...v2.22.25) (2021-04-18)
 
 
