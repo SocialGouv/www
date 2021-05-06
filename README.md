@@ -51,3 +51,9 @@ Les modifs sur la branche `master` sont automatiquement déployées sur https://
 ## A propos
 
 Template basé sur [template.data.gouv.fr](https://github.com/etalab/template.data.gouv.fr)
+
+## Synchro beta.gouv
+
+Pour synchroniser le contenu depuis beta.gouv, lancer la commande `yarn beta-sync` et commiter le résultat.
+
+Les produits doivent être définis dans [./data/startups.yml](https://github.com/SocialGouv/www/blob/master/src/data/startups.yml) et comporter un identifiant `beta` si différent
