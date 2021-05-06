@@ -57,6 +57,7 @@ async function sync() {
     const markdown = decodeURIComponent(
       startup.attributes.content_url_encoded_markdown
     );
+    console.log(`Startup ${startup.id} updated`);
     replaceStartupContent(startup.id, markdown);
   });
 
