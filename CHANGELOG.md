@@ -1,3 +1,10 @@
+## [2.23.18](https://github.com/SocialGouv/www/compare/v2.23.17...v2.23.18) (2021-05-06)
+
+
+### Bug Fixes
+
+* **1000jours:** update beta content ([#832](https://github.com/SocialGouv/www/issues/832)) ([0d5fc2a](https://github.com/SocialGouv/www/commit/0d5fc2a30e9e0654f7a8f9ae01ab9f8a00291c51))
+
 ## [2.23.17](https://github.com/SocialGouv/www/compare/v2.23.16...v2.23.17) (2021-05-05)
 
 
