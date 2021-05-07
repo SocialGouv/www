@@ -1,3 +1,10 @@
+## [2.23.20](https://github.com/SocialGouv/www/compare/v2.23.19...v2.23.20) (2021-05-07)
+
+
+### Bug Fixes
+
+* Update Github stats. ([e35b7c2](https://github.com/SocialGouv/www/commit/e35b7c2b9b733a8b1adc68997a91ac769cc663c2))
+
 ## [2.23.19](https://github.com/SocialGouv/www/compare/v2.23.18...v2.23.19) (2021-05-06)
 
 
