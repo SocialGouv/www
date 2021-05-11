@@ -18,6 +18,7 @@ LogoImg.propTypes = {
 
 // verticalAlign: 'middle', marginRight: 10
 const Logo = styled(LogoImg)`
+  width: 94px;
   height: 50px;
   vertical-align: middle;
   margin-right: 10px;
