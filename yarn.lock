@@ -502,6 +502,11 @@
     eslint-plugin-simple-import-sort "~7.0.0"
     eslint-plugin-sort-keys-fix "~1.1.1"
 
+"@socialgouv/matomo-next@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@socialgouv/matomo-next/-/matomo-next-1.2.1.tgz#2adf7fdf0fc2275216122505c3ca62643df1466e"
+  integrity sha512-ImnL6V5ICxxHOVqKillcq8KsiuXtQwtbDiHGKjDjE/Bygbe1wgaefA2xCNFOPmjLDPs9QgssVTfxtnr2MSn68w==
+
 "@typeform/embed@^0.5.8":
   version "0.5.12"
   resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-0.5.12.tgz#f3b68817df8859bdc2bcb49cc258e92331a91c26"
@@ -3791,11 +3796,6 @@ react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-piwik@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/react-piwik/-/react-piwik-1.11.0.tgz#55f29b3aad4693e7fe4407518c9c0dbbaa446e42"
-  integrity sha512-um1iShqCcvI36aIzI6Ih9lJpIhu12uB68AG64nkFgWv61zR9rpIijAwWaFzNKOZDHzFZ8cuqiMC8byT23TMotg==
 
 react-refresh@0.8.3:
   version "0.8.3"

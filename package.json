@@ -40,6 +40,7 @@
     "remark-autolink-headings": "^6.0.1"
   },
   "dependencies": {
+    "@socialgouv/matomo-next": "^1.2.1",
     "github-base": "^1.0.0",
     "react": "^16.14.0",
     "react-accessible-accordion": "^3.3.4",
@@ -48,7 +49,6 @@
     "react-feather": "^2.0.9",
     "react-github-fork-ribbon": "^0.6.0",
     "react-icons": "^4.2.0",
-    "react-piwik": "^1.11.0",
     "react-tooltip": "^4.2.17",
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^3.3.3",
