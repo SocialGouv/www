@@ -1,3 +1,10 @@
+## [2.23.23](https://github.com/SocialGouv/www/compare/v2.23.22...v2.23.23) (2021-05-12)
+
+
+### Bug Fixes
+
+* minors and headers ([#836](https://github.com/SocialGouv/www/issues/836)) ([0d32515](https://github.com/SocialGouv/www/commit/0d32515dcca40bff77cdfecb24eb07bd84c797f0))
+
 ## [2.23.22](https://github.com/SocialGouv/www/compare/v2.23.21...v2.23.22) (2021-05-11)
 
 
