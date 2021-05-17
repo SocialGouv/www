@@ -1,3 +1,10 @@
+## [2.23.28](https://github.com/SocialGouv/www/compare/v2.23.27...v2.23.28) (2021-05-17)
+
+
+### Bug Fixes
+
+* force release ([1c7304f](https://github.com/SocialGouv/www/commit/1c7304f6e1fc3e43effbaf3b05d5091d2e87873e))
+
 ## [2.23.27](https://github.com/SocialGouv/www/compare/v2.23.26...v2.23.27) (2021-05-17)
 
 
