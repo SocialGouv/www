@@ -1,3 +1,15 @@
+# [2.24.0](https://github.com/SocialGouv/www/compare/v2.23.28...v2.24.0) (2021-05-18)
+
+
+### Bug Fixes
+
+* Update Github stats. ([eb8fe7e](https://github.com/SocialGouv/www/commit/eb8fe7ec538d571fc1637354b96fdbe19f204aba))
+
+
+### Features
+
+* **startups:** end of Work In France ([#838](https://github.com/SocialGouv/www/issues/838)) ([08e861d](https://github.com/SocialGouv/www/commit/08e861dbeab6195c3a4886ce56743ab99df59bd3))
+
 ## [2.23.28](https://github.com/SocialGouv/www/compare/v2.23.27...v2.23.28) (2021-05-17)
 
 
