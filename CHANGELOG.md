@@ -1,3 +1,10 @@
+## [2.24.4](https://github.com/SocialGouv/www/compare/v2.24.3...v2.24.4) (2021-05-19)
+
+
+### Bug Fixes
+
+* Move redirection to yaml folder. ([d99926d](https://github.com/SocialGouv/www/commit/d99926d2d234e0a78f4290828c421b5fa656113c))
+
 ## [2.24.3](https://github.com/SocialGouv/www/compare/v2.24.2...v2.24.3) (2021-05-19)
 
 
