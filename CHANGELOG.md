@@ -1,3 +1,10 @@
+## [2.24.3](https://github.com/SocialGouv/www/compare/v2.24.2...v2.24.3) (2021-05-19)
+
+
+### Bug Fixes
+
+* **docker:** use ghcr ([d5079cd](https://github.com/SocialGouv/www/commit/d5079cdbc00df18c699338530638423c97206082))
+
 ## [2.24.2](https://github.com/SocialGouv/www/compare/v2.24.1...v2.24.2) (2021-05-19)
 
 
