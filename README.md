@@ -1,4 +1,4 @@
-# [www.fabrique.social.gouv.fr](https://www.fabrique.social.gouv.fr) [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=dev)](https://travis-ci.com/SocialGouv/socialgouv.github.io) [![pipeline status](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/badges/dev/pipeline.svg)](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/commits/dev)
+# [www.fabrique.social.gouv.fr](https://www.fabrique.social.gouv.fr) [![Build Status](https://travis-ci.com/SocialGouv/socialgouv.github.io.svg?branch=master)](https://travis-ci.com/SocialGouv/socialgouv.github.io) [![pipeline status](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/badges/master/pipeline.svg)](https://gitlab.factory.social.gouv.fr/SocialGouv/socialgouv-github-io/commits/master)
 
 
 Site de la fabrique numérique des Ministères sociaux
@@ -9,17 +9,17 @@ Faire les changements directement sur GitHub ou sur une branche locale, et soume
 
 ### Ajouter son profil :
 
-Editer [members.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/members.yml) et ajouter votre photo :)
+Editer [members.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/master/src/data/members.yml) et ajouter votre photo :)
 
 ### Ajouter une startup :
 
-📝 ajouter la startup dans [src/data/startups.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/startups.yml)
+📝 ajouter la startup dans [src/data/startups.yml](https://github.com/SocialGouv/socialgouv.github.io/edit/master/src/data/startups.yml)
 
 📝 ajouter la fiche produit dans `pages/startups/startup.mdx`. Copier le fichier work-in-france.mdx par exemple.
 
 ### Ajouter une brève :
 
-📝 éditer [src/data/news.js](https://github.com/SocialGouv/socialgouv.github.io/edit/dev/src/data/news.js)
+📝 éditer [src/data/news.js](https://github.com/SocialGouv/socialgouv.github.io/edit/master/src/data/news.js)
 
 Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
