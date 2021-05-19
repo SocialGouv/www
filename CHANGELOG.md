@@ -1,3 +1,10 @@
+## [2.24.5](https://github.com/SocialGouv/www/compare/v2.24.4...v2.24.5) (2021-05-19)
+
+
+### Bug Fixes
+
+* Update autodevops version. ([c696456](https://github.com/SocialGouv/www/commit/c69645607d20f1ffc1663a077cd49e8cf5fae530))
+
 ## [2.24.4](https://github.com/SocialGouv/www/compare/v2.24.3...v2.24.4) (2021-05-19)
 
 
