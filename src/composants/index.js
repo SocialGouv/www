@@ -1,6 +1,6 @@
+export { default as AllActus } from "./AllActus";
 export { default as Article } from "./Article";
 export { default as AuthorPanel } from "./AuthorPanel";
-export { default as SectionCards } from "./SectionCards";
 export { default as BlocChiffres } from "./BlocChiffres";
 export { default as Card } from "./Card";
 export { default as Cards } from "./Cards";
@@ -16,9 +16,9 @@ export { default as Nav } from "./Nav";
 export { default as Notes } from "./Notes";
 export { default as Notifications } from "./Notifications";
 export { default as Section } from "./Section";
+export { default as SectionCards } from "./SectionCards";
 export { default as SectionColors } from "./SectionColors";
 export { default as StartupMembers } from "./StartupMembers";
 export { default as SvgIcons } from "./SvgIcons";
-export { default as AllActus } from "./AllActus";
 export { default as Timeline } from "./Timeline";
 export { default as TimelineEvent } from "./TimelineEvent";
