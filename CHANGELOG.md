@@ -1,3 +1,10 @@
+## [2.25.1](https://github.com/SocialGouv/www/compare/v2.25.0...v2.25.1) (2021-05-25)
+
+
+### Bug Fixes
+
+* onboarding links to https://mattermost.incubateur.net ([#842](https://github.com/SocialGouv/www/issues/842)) ([a8e7070](https://github.com/SocialGouv/www/commit/a8e7070e31985a45f4229c7d32855105e482e17d))
+
 # [2.25.0](https://github.com/SocialGouv/www/compare/v2.24.8...v2.25.0) (2021-05-25)
 
 
