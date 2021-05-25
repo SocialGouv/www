@@ -1,3 +1,17 @@
+# [2.25.0](https://github.com/SocialGouv/www/compare/v2.24.8...v2.25.0) (2021-05-25)
+
+
+### Bug Fixes
+
+* Update Github stats. ([1f8b268](https://github.com/SocialGouv/www/commit/1f8b268666f055fffb05ab9ce07d1ead67cd42a3))
+* Update Github stats. ([680cabb](https://github.com/SocialGouv/www/commit/680cabb62b4e0b27bc496dc4a3a1dea79f705c28))
+* Update Github stats. ([5b884a0](https://github.com/SocialGouv/www/commit/5b884a05b12eee3804b1e9c0fbccf247ddb83808))
+
+
+### Features
+
+* news CDTN + lint ([#841](https://github.com/SocialGouv/www/issues/841)) ([85961a0](https://github.com/SocialGouv/www/commit/85961a0480bd870954f20f26ac0b32fe55edefe6))
+
 ## [2.24.8](https://github.com/SocialGouv/www/compare/v2.24.7...v2.24.8) (2021-05-21)
 
 
