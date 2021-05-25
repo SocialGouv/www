@@ -1,3 +1,10 @@
+## [2.25.2](https://github.com/SocialGouv/www/compare/v2.25.1...v2.25.2) (2021-05-25)
+
+
+### Bug Fixes
+
+* **ci:** update gitlab-ci-yml ([d0960a8](https://github.com/SocialGouv/www/commit/d0960a88838249d7a5ade71f455ca245d096e14b))
+
 ## [2.25.1](https://github.com/SocialGouv/www/compare/v2.25.0...v2.25.1) (2021-05-25)
 
 
