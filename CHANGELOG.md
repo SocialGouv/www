@@ -1,3 +1,10 @@
+## [2.25.3](https://github.com/SocialGouv/www/compare/v2.25.2...v2.25.3) (2021-05-25)
+
+
+### Bug Fixes
+
+* **k8s:** fix CSP ([ead0ef1](https://github.com/SocialGouv/www/commit/ead0ef1b49ae42ddef6065e52994f6d798e6b28e))
+
 ## [2.25.2](https://github.com/SocialGouv/www/compare/v2.25.1...v2.25.2) (2021-05-25)
 
 
