@@ -40,7 +40,7 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
  - [ ] Email `*@fabrique.social.gouv.fr` : demander une invitation à votre marraine/parrain
  - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de la fabrique numérique
  - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)
- - [ ] (optionnel) Rejoindre le [slack beta.gouv](https://startups-detat.slack.com) : demander une invitation à un membre de la fabrique numérique
+ - [ ] (optionnel) Rejoindre le [Mattermost beta.gouv](https://mattermost.incubateur.net) : demander une invitation à un membre de la fabrique numérique
  - [ ] (optionnel) : Demander un accès à [Sentry](https://sentry.fabrique.social.gouv.fr)
  - [ ] (optionnel) : Demander un accès à [Matomo](https://matomo.fabrique.social.gouv.fr)
 
