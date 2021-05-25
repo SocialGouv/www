@@ -11,13 +11,22 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 
 module.exports = [
   {
-    date: "7 Janvier 2019",
-    promote: true,
     author: "julien.bouquillon",
-    img: "/static/images/actus/taking-notes.jpg",
-    title: "3 millions de visiteurs !",
+    date: "25 Mai 2021",
     href: "https://code.travail.gouv.fr",
-    html: `Cette semaine le code du travail numérique a dépassé le cap des 3 millions de visiteurs depuis son lancement officiel il y a tout juste un an.`
+    html: `Cette semaine le code du travail numérique a dépassé le cap des 5 millions de visites depuis son lancement officiel le 1er Janvier 2020.`,
+    img: "/static/images/actus/taking-notes.jpg",
+    promote: true,
+    title: "5 millions de visiteurs !",
+  },
+  {
+    author: "julien.bouquillon",
+    date: "7 Janvier 2019",
+    href: "https://code.travail.gouv.fr",
+    html: `Cette semaine le code du travail numérique a dépassé le cap des 3 millions de visiteurs depuis son lancement officiel il y a tout juste un an.`,
+    img: "/static/images/actus/taking-notes.jpg",
+    promote: true,
+    title: "3 millions de visiteurs !",
   },
   {
     author: "julien.bouquillon",
