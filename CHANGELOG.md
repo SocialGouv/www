@@ -1,3 +1,11 @@
+## [2.25.5](https://github.com/SocialGouv/www/compare/v2.25.4...v2.25.5) (2021-05-27)
+
+
+### Bug Fixes
+
+* Update autodevops. ([#843](https://github.com/SocialGouv/www/issues/843)) ([cbb997f](https://github.com/SocialGouv/www/commit/cbb997ff6554cc21810f919de18787310255db76))
+* Update Github stats. ([307e9cc](https://github.com/SocialGouv/www/commit/307e9cc91e89e036a3967568d97e27fa8082ab1e))
+
 ## [2.25.4](https://github.com/SocialGouv/www/compare/v2.25.3...v2.25.4) (2021-05-26)
 
 
