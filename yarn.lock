@@ -502,10 +502,10 @@
     eslint-plugin-simple-import-sort "~7.0.0"
     eslint-plugin-sort-keys-fix "~1.1.1"
 
-"@socialgouv/matomo-next@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@socialgouv/matomo-next/-/matomo-next-1.2.1.tgz#2adf7fdf0fc2275216122505c3ca62643df1466e"
-  integrity sha512-ImnL6V5ICxxHOVqKillcq8KsiuXtQwtbDiHGKjDjE/Bygbe1wgaefA2xCNFOPmjLDPs9QgssVTfxtnr2MSn68w==
+"@socialgouv/matomo-next@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@socialgouv/matomo-next/-/matomo-next-1.2.2.tgz#0fe3c8978a38f23411fbbdcaf4e3a7edaf8eecbf"
+  integrity sha512-VWIToHeF0rFtLlGGkjdfUCtLckZebwXwYlnAVYwqMivUboqRgxl7wsUGkGfp6HM4cfYla9NQw4mbqRPXfTGu5Q==
 
 "@typeform/embed@^0.5.8":
   version "0.5.12"
@@ -3802,10 +3802,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-tooltip@^4.2.17:
-  version "4.2.17"
-  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.17.tgz#4884ce253ab298ee395950b24b752282efa8ac5d"
-  integrity sha512-LzwUbQYzeRyrjbuuCbYUB0dlJpFPGPwigWS052umr1QulcF5N4czabDiWJ+Y585Q7ijvMFuBbeOvnI/azoTusw==
+react-tooltip@^4.2.21:
+  version "4.2.21"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.21.tgz#840123ed86cf33d50ddde8ec8813b2960bfded7f"
+  integrity sha512-zSLprMymBDowknr0KVDiJ05IjZn9mQhhg4PRsqln0OZtURAJ1snt1xi5daZfagsh6vfsziZrc9pErPTDY1ACig==
   dependencies:
     prop-types "^15.7.2"
     uuid "^7.0.3"
