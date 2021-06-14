@@ -1,3 +1,14 @@
+## [2.25.14](https://github.com/SocialGouv/www/compare/v2.25.13...v2.25.14) (2021-06-14)
+
+
+### Bug Fixes
+
+* Update Github stats. ([d6f90c8](https://github.com/SocialGouv/www/commit/d6f90c80f1e496f007a547f1b9d8c9b019e62a6a))
+* Update Github stats. ([efdd659](https://github.com/SocialGouv/www/commit/efdd659504424fbed8ec4ee8a8e14339a961a4fc))
+* Update Github stats. ([cc0804c](https://github.com/SocialGouv/www/commit/cc0804c37ae14a23046fec8823d978035d6c6b5b))
+* Update Github stats. ([ccdf924](https://github.com/SocialGouv/www/commit/ccdf924088183eb3f0f62a68da0f137793e0169b))
+* Update Github stats. ([3739ded](https://github.com/SocialGouv/www/commit/3739ded9a4bb579740acd9e06a8d9da94f659a20))
+
 ## [2.25.13](https://github.com/SocialGouv/www/compare/v2.25.12...v2.25.13) (2021-06-08)
 
 
