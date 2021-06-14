@@ -1,7 +1,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v22.1.9
+    ref: renovate/socialgouvdocker-images
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
