@@ -1,3 +1,10 @@
+## [2.25.15](https://github.com/SocialGouv/www/compare/v2.25.14...v2.25.15) (2021-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies (patch) ([#847](https://github.com/SocialGouv/www/issues/847)) ([c9aa143](https://github.com/SocialGouv/www/commit/c9aa143f28b50c3c1c54169a7a83d464052bd592))
+
 ## [2.25.14](https://github.com/SocialGouv/www/compare/v2.25.13...v2.25.14) (2021-06-14)
 
 
