@@ -1,3 +1,3 @@
-FROM ghcr.io/socialgouv/docker/nginx4spa:6.11.0
+FROM ghcr.io/socialgouv/docker/nginx4spa:6.11.1
 
 COPY ./out /usr/share/nginx/html
