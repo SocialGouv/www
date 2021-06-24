@@ -168,10 +168,14 @@
     - e-mjpm
   missions:
     - start: "2020-01-01"
+      end: "2021-01-01"
       startup: e-mjpm
     - start: "2019-02-01"
       end: "2020-01-01"
       startup: tremplin
+    - start: "2021-06-28"
+      end: "2021-10-30"
+      startup: carnet.de.bord
   role: développeur
   picture: /images/members/thomas-glatt.jpg
 - id: jean-rene.duscher
