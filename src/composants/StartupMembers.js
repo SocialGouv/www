@@ -15,7 +15,7 @@ const shuffled = (arr) =>
 const StartupMembers = ({ startup }) => {
   const startupMembers = shuffled(getStartupMembers(startup));
   return (
-    (startupMembers && (
+    (startupMembers && startupMembers.length && (
       <div className="container">
         <div
           style={{
