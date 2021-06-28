@@ -1,3 +1,15 @@
+# [2.26.0](https://github.com/SocialGouv/www/compare/v2.25.23...v2.26.0) (2021-06-28)
+
+
+### Bug Fixes
+
+* Update Github stats. ([dd9299e](https://github.com/SocialGouv/www/commit/dd9299e9eaf9ddcdf37ce3592533d839f58ad634))
+
+
+### Features
+
+* startups DGEFP ([#850](https://github.com/SocialGouv/www/issues/850)) ([949364f](https://github.com/SocialGouv/www/commit/949364f5de65cb8474e72a878fa7cd0cd4c70622))
+
 ## [2.25.23](https://github.com/SocialGouv/www/compare/v2.25.22...v2.25.23) (2021-06-26)
 
 
