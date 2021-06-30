@@ -55,7 +55,7 @@
     "remark-highlight.js": "^6.0.0",
     "styled-components": "^5.2.3",
     "template.data.gouv.fr": "1.1.8",
-    "trim-right": "^1.0.1"
+    "trim-right": "^2.0.0"
   },
   "private": true
 }
