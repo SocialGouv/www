@@ -1,3 +1,10 @@
+## [2.26.15](https://github.com/SocialGouv/www/compare/v2.26.14...v2.26.15) (2021-08-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-accessible-accordion to ^3.3.5 ([#867](https://github.com/SocialGouv/www/issues/867)) ([5dfade3](https://github.com/SocialGouv/www/commit/5dfade3904537ccc35a56e1d720fb68d80b1405a))
+
 ## [2.26.14](https://github.com/SocialGouv/www/compare/v2.26.13...v2.26.14) (2021-08-02)
 
 
