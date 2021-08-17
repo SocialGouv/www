@@ -1,3 +1,10 @@
+## [2.26.18](https://github.com/SocialGouv/www/compare/v2.26.17...v2.26.18) (2021-08-17)
+
+
+### Bug Fixes
+
+* use docker/nginx ([6f0ab3d](https://github.com/SocialGouv/www/commit/6f0ab3df3920a9a685a9ce5e50a903032655b3fe))
+
 ## [2.26.17](https://github.com/SocialGouv/www/compare/v2.26.16...v2.26.17) (2021-08-16)
 
 
