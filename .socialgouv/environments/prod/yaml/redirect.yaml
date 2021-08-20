@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/component: redirect
     app.kubernetes.io/name: www
   name: www-redirect
-  namespace: www
+  namespace: incubateur
 spec:
   rules:
     - host: www.incubateur.social.gouv.fr
