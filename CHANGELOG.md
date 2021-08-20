@@ -1,3 +1,10 @@
+## [2.26.19-alpha.6](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.5...v2.26.19-alpha.6) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use ncubateur as app name. ([c8e9313](https://github.com/SocialGouv/www/commit/c8e93137b439f16a5d1cf48f23d96a27b6723544))
+
 ## [2.26.19-alpha.5](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.4...v2.26.19-alpha.5) (2021-08-20)
 
 
