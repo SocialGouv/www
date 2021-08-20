@@ -1,3 +1,10 @@
+## [2.26.19-alpha.7](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.6...v2.26.19-alpha.7) (2021-08-20)
+
+
+### Bug Fixes
+
+* Rename images. ([38c6205](https://github.com/SocialGouv/www/commit/38c6205f531d9214bd713fa0cef5f98499bade1e))
+
 ## [2.26.19-alpha.6](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.5...v2.26.19-alpha.6) (2021-08-20)
 
 
