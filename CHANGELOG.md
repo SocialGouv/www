@@ -1,3 +1,10 @@
+## [2.26.19-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.2...v2.26.19-alpha.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* Docker file. ([c0cbc35](https://github.com/SocialGouv/www/commit/c0cbc35e892b831b8c53063205cfb5856076e424))
+
 ## [2.26.19-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.1...v2.26.19-alpha.2) (2021-08-20)
 
 
