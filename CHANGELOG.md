@@ -1,3 +1,10 @@
+## [2.26.19-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.3...v2.26.19-alpha.4) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use fabrique as project name. ([38c61f3](https://github.com/SocialGouv/www/commit/38c61f3e1e7b8327df0ab659224a874e6da81098))
+
 ## [2.26.19-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.2...v2.26.19-alpha.3) (2021-08-20)
 
 
