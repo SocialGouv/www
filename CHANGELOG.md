@@ -1,3 +1,10 @@
+## [2.26.19-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.18...v2.26.19-alpha.1) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use github actions. ([6d5f4a6](https://github.com/SocialGouv/www/commit/6d5f4a6c0537bc0145a767210464d5a1f9ddf6f8))
+
 ## [2.26.18](https://github.com/SocialGouv/www/compare/v2.26.17...v2.26.18) (2021-08-17)
 
 
