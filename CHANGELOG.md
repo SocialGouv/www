@@ -1,3 +1,10 @@
+## [2.26.19-alpha.5](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.4...v2.26.19-alpha.5) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change ingress namesapce. ([c44063c](https://github.com/SocialGouv/www/commit/c44063c42bbadd216408290c3dc0d3096bc159ec))
+
 ## [2.26.19-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.3...v2.26.19-alpha.4) (2021-08-20)
 
 
