@@ -1,3 +1,10 @@
+## [2.26.19-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.1...v2.26.19-alpha.2) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change image path. ([7d86bf3](https://github.com/SocialGouv/www/commit/7d86bf3b7848837d68db9c2df518a5377c5d6053))
+
 ## [2.26.19-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.18...v2.26.19-alpha.1) (2021-08-20)
 
 
