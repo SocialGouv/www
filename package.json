@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "build-start": "next build && next start",
     "test": "exit 0",
@@ -23,23 +24,23 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^1.6.22",
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/tag": "^0.20.3",
     "@socialgouv/eslint-config-react": "^1.53.0",
     "@socialgouv/eslint-config-recommended": "^1.53.0",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-mdx": "^1.2.0",
     "eslint": "^7.21.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
     "js-yaml-loader": "^1.2.2",
+    "raw-loader": "^4.0.2",
+    "remark-autolink-headings": "^6.0.1",
     "next": "^10.0.9",
     "next-images": "^1.7.0",
     "node-fetch": "^2.6.1",
-    "prettier": "^2.2.1",
-    "raw-loader": "^4.0.2",
-    "remark-autolink-headings": "^6.0.1"
-  },
-  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-mdx": "^1.2.0",
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/tag": "^0.20.3",
     "@socialgouv/matomo-next": "^1.2.2",
     "github-base": "^1.0.0",
     "react": "^16.14.0",
