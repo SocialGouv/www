@@ -182,7 +182,7 @@ jobs:
     - name: Generate k8s manifests
       run: |
         echo SOCIALGOUV_BASE_DOMAIN: $SOCIALGOUV_BASE_DOMAIN
-        yarn --cwd /tmp/autodevops --silent generate:prod > manifests-prod.yml
+        yarn --cwd /tmp/autodevops --silent generate --env prod > manifests-prod.yml
       env:
         SOCIALGOUV_PRODUCTION: true
         SOCIALGOUV_CONFIG_PATH: /tmp/autodevops/config.json
