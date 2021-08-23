@@ -2,27 +2,6 @@
 
 exports[`generate production k8s manifests 1`] = `
 "---
-apiVersion: v1
-kind: Namespace
-metadata:
-  annotations:
-    socialgouv/creator: autodevops
-    field.cattle.io/creatorId: gitlab
-    field.cattle.io/projectId: ''
-    git/branch: refs/heads/mybranch
-    git/remote: socialgouv/carnets
-    app.github.com/job: '5678'
-    app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/carnets
-    app.github.com/run: '1234'
-    app.github.com/sha: '0123456'
-  labels:
-    azure-pg-admin-user: carnets
-    application: carnets
-    owner: carnets
-    team: carnets
-  name: carnets
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -35,18 +14,18 @@ metadata:
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   labels:
-    app: incubateur
+    app: www
     application: carnets
     owner: carnets
     team: carnets
     component: nginx
-  name: incubateur
+  name: www
   namespace: carnets
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: incubateur
+      app: www
   template:
     metadata:
       annotations:
@@ -58,7 +37,7 @@ spec:
         app.github.com/run: '1234'
         app.github.com/sha: '0123456'
       labels:
-        app: incubateur
+        app: www
         application: carnets
         owner: carnets
         team: carnets
@@ -66,7 +45,7 @@ spec:
     spec:
       containers:
         - image: >-
-            ghcr.io/socialgouv/fabrique/incubateur:sha-0123456789abcdefghijklmnopqrstuvwxyz0123
+            ghcr.io/socialgouv/fabrique/www:sha-0123456789abcdefghijklmnopqrstuvwxyz0123
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -75,7 +54,7 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
-          name: incubateur
+          name: www
           ports:
             - containerPort: 80
               name: http
@@ -106,11 +85,11 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: incubateur
+    app: www
     application: carnets
     owner: carnets
     team: carnets
-  name: incubateur
+  name: www
   annotations:
     kapp.k14s.io/disable-default-ownership-label-rules: ''
     kapp.k14s.io/disable-default-label-scoping-rules: ''
@@ -126,7 +105,7 @@ spec:
       port: 80
       targetPort: 80
   selector:
-    app: incubateur
+    app: www
   type: ClusterIP
 ---
 apiVersion: networking.k8s.io/v1
@@ -155,11 +134,11 @@ metadata:
 
       more_set_headers \\"X-Content-Type-Options: nosniff\\";
   labels:
-    app: incubateur
+    app: www
     application: carnets
     owner: carnets
     team: carnets
-  name: incubateur
+  name: www
   namespace: carnets
 spec:
   rules:
@@ -168,7 +147,7 @@ spec:
         paths:
           - backend:
               service:
-                name: incubateur
+                name: www
                 port:
                   name: http
             path: /
@@ -176,7 +155,7 @@ spec:
   tls:
     - hosts:
         - www.dev.fabrique.social.gouv.fr
-      secretName: incubateur-crt
+      secretName: www-crt
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
