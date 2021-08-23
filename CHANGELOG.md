@@ -1,3 +1,10 @@
+## [2.26.19-alpha.10](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.9...v2.26.19-alpha.10) (2021-08-23)
+
+
+### Bug Fixes
+
+* Update tests. ([45e6af3](https://github.com/SocialGouv/www/commit/45e6af3e0a9a0041f48b5d8e93533abab31e9a4b))
+
 ## [2.26.19-alpha.9](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.8...v2.26.19-alpha.9) (2021-08-23)
 
 
