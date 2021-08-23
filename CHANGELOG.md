@@ -1,3 +1,10 @@
+## [2.26.19-alpha.12](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.11...v2.26.19-alpha.12) (2021-08-23)
+
+
+### Bug Fixes
+
+* Use SOCIALGOUV_PRODUCTION_NAMESPACE. ([d39f4f9](https://github.com/SocialGouv/www/commit/d39f4f9e82a24411b14babfd55a8d59e8c9190bc))
+
 ## [2.26.19-alpha.11](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.10...v2.26.19-alpha.11) (2021-08-23)
 
 
