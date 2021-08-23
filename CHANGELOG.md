@@ -1,3 +1,10 @@
+## [2.26.19-alpha.11](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.10...v2.26.19-alpha.11) (2021-08-23)
+
+
+### Bug Fixes
+
+* Prod manifests generation. ([1159849](https://github.com/SocialGouv/www/commit/11598492a6c479220335e8712ee5e803e926e7c0))
+
 ## [2.26.19-alpha.10](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.9...v2.26.19-alpha.10) (2021-08-23)
 
 
