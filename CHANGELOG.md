@@ -1,3 +1,10 @@
+## [2.26.19-alpha.8](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.7...v2.26.19-alpha.8) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add prod workflow test. ([7da481a](https://github.com/SocialGouv/www/commit/7da481a7b9c643c9f5155a07d033da22c6ab4fec))
+
 ## [2.26.19-alpha.7](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.6...v2.26.19-alpha.7) (2021-08-20)
 
 
