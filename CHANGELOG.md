@@ -1,3 +1,10 @@
+## [2.26.19-alpha.9](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.8...v2.26.19-alpha.9) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add tests folder. ([4b9e7ab](https://github.com/SocialGouv/www/commit/4b9e7ab820000328ff4751c20d0e4f111dba875f))
+
 ## [2.26.19-alpha.8](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.7...v2.26.19-alpha.8) (2021-08-23)
 
 
