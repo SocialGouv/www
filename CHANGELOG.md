@@ -1,3 +1,94 @@
+## [2.26.19-alpha.13](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.12...v2.26.19-alpha.13) (2021-08-23)
+
+
+### Bug Fixes
+
+* Redirection namespace. ([e79ce2d](https://github.com/SocialGouv/www/commit/e79ce2ddbde683c7a40c66ab1e7e0da0c3797fdd))
+
+## [2.26.19-alpha.12](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.11...v2.26.19-alpha.12) (2021-08-23)
+
+
+### Bug Fixes
+
+* Use SOCIALGOUV_PRODUCTION_NAMESPACE. ([d39f4f9](https://github.com/SocialGouv/www/commit/d39f4f9e82a24411b14babfd55a8d59e8c9190bc))
+
+## [2.26.19-alpha.11](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.10...v2.26.19-alpha.11) (2021-08-23)
+
+
+### Bug Fixes
+
+* Prod manifests generation. ([1159849](https://github.com/SocialGouv/www/commit/11598492a6c479220335e8712ee5e803e926e7c0))
+
+## [2.26.19-alpha.10](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.9...v2.26.19-alpha.10) (2021-08-23)
+
+
+### Bug Fixes
+
+* Update tests. ([45e6af3](https://github.com/SocialGouv/www/commit/45e6af3e0a9a0041f48b5d8e93533abab31e9a4b))
+
+## [2.26.19-alpha.9](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.8...v2.26.19-alpha.9) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add tests folder. ([4b9e7ab](https://github.com/SocialGouv/www/commit/4b9e7ab820000328ff4751c20d0e4f111dba875f))
+
+## [2.26.19-alpha.8](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.7...v2.26.19-alpha.8) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add prod workflow test. ([7da481a](https://github.com/SocialGouv/www/commit/7da481a7b9c643c9f5155a07d033da22c6ab4fec))
+
+## [2.26.19-alpha.7](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.6...v2.26.19-alpha.7) (2021-08-20)
+
+
+### Bug Fixes
+
+* Rename images. ([38c6205](https://github.com/SocialGouv/www/commit/38c6205f531d9214bd713fa0cef5f98499bade1e))
+
+## [2.26.19-alpha.6](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.5...v2.26.19-alpha.6) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use ncubateur as app name. ([c8e9313](https://github.com/SocialGouv/www/commit/c8e93137b439f16a5d1cf48f23d96a27b6723544))
+
+## [2.26.19-alpha.5](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.4...v2.26.19-alpha.5) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change ingress namesapce. ([c44063c](https://github.com/SocialGouv/www/commit/c44063c42bbadd216408290c3dc0d3096bc159ec))
+
+## [2.26.19-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.3...v2.26.19-alpha.4) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use fabrique as project name. ([38c61f3](https://github.com/SocialGouv/www/commit/38c61f3e1e7b8327df0ab659224a874e6da81098))
+
+## [2.26.19-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.2...v2.26.19-alpha.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* Docker file. ([c0cbc35](https://github.com/SocialGouv/www/commit/c0cbc35e892b831b8c53063205cfb5856076e424))
+
+## [2.26.19-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.1...v2.26.19-alpha.2) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change image path. ([7d86bf3](https://github.com/SocialGouv/www/commit/7d86bf3b7848837d68db9c2df518a5377c5d6053))
+
+## [2.26.19-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.18...v2.26.19-alpha.1) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use github actions. ([6d5f4a6](https://github.com/SocialGouv/www/commit/6d5f4a6c0537bc0145a767210464d5a1f9ddf6f8))
+
 ## [2.26.18](https://github.com/SocialGouv/www/compare/v2.26.17...v2.26.18) (2021-08-17)
 
 

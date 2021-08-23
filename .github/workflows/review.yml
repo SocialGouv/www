@@ -1,0 +1,171 @@
+name: Review
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - v*
+
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.ref }}
+
+jobs:
+
+  ##############################################################################
+  ## BUILD AND REGISTER DOCKER IMAGES
+  ##############################################################################
+  register:
+    name: Build & Register images
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Get project name
+      run: |
+        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+
+    - name: Create image labels and tags
+      id: docker_meta
+      uses: "crazy-max/ghaction-docker-meta@2e1a5c7fa42123697f82d479b551a1bbdb1bef88"
+      with:
+        images: ghcr.io/socialgouv/fabrique/${{ env.project }}
+        labels: |
+          org.opencontainers.image.title=${{ env.project }}
+          org.opencontainers.image.documentation=https://github.com/SocialGouv/${{ env.project }}/tree/${{ github.sha }}
+        tags: |
+          type=sha
+          type=ref,event=pr
+          type=ref,event=branch
+          type=semver,pattern={{version}}
+          type=raw,value=sha-${{ github.sha }}
+          type=semver,pattern={{major}}.{{minor}}
+
+    - name: Set up Buildx
+      id: buildx
+      uses: docker/setup-buildx-action@master
+      with:
+        install: true
+
+    - name: Registry authentication
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Image build and register
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        push: 'true'
+        cache-from: "type=gha"
+        cache-to: "type=gha,mode=max"
+        builder: "${{ steps.buildx.outputs.name }}"
+        tags: "${{ steps.docker_meta.outputs.tags }}"
+        labels: "${{ steps.docker_meta.outputs.labels }}"
+
+  ##############################################################################
+  ## GENERATE KUBERNETES MANIFESTS
+  ##############################################################################
+  manifests:
+    name: Generate k8s manifests
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Load review environment variables
+      run: |
+        cat ".github/review.env" >> $GITHUB_ENV
+
+    - name: Yarn cache setup
+      uses: c-hive/gha-yarn-cache@v1
+
+    - name: Install kosko-charts autodevops
+      run: |
+        npx degit SocialGouv/kosko-charts/templates/autodevops /tmp/autodevops
+        yarn --cwd /tmp/autodevops
+
+    - name: Copy application k8s config to autodevops
+      run: cp -r .socialgouv/environments .socialgouv/config.json /tmp/autodevops/
+
+    - name: Generate k8s manifests
+      run: |
+        echo SOCIALGOUV_BASE_DOMAIN: $SOCIALGOUV_BASE_DOMAIN
+        yarn --cwd /tmp/autodevops --silent generate:dev > manifests.yml
+      env:
+        SOCIALGOUV_CONFIG_PATH: /tmp/autodevops/config.json
+        SOCIALGOUV_BASE_DOMAIN: ${{ env.SOCIALGOUV_BASE_DOMAIN }}
+
+    - name: Archive k8s manifests
+      uses: actions/upload-artifact@v2
+      with:
+        name: manifests.yml
+        path: manifests.yml
+
+  ##############################################################################
+  ## DEPLOY APPLICATION OVER KUBERNETES
+  ##############################################################################
+  deploy:
+    name: Deploy application
+    runs-on: ubuntu-latest
+    needs: [register, manifests]
+    steps:
+  
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Get project and namespace names
+      run: |
+        cat ".github/review.env" >> $GITHUB_ENV
+        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+        echo "namespace=${GITHUB_REPOSITORY#*/}-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+    - name: Download k8s manifests
+      uses: actions/download-artifact@v2
+      with:
+        name: manifests.yml
+
+    - name: Notify deployment start
+      uses: bobheadxi/deployments@v0.4.3
+      id: deployment
+      with:
+        step: start
+        env: ${{ env.namespace }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        desc: "Deploying environment: ${{ env.namespace }}"
+
+    - name: Install Kapp
+      uses: vmware-tanzu/carvel-setup-action@v1
+      with:
+        only: kapp
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create kubernetes config
+      run: |
+        mkdir ~/.kube
+        touch ~/.kube/config
+        echo ${{ secrets.SOCIALGOUV_KUBE_CONFIG_DEV }} | base64 -d > ~/.kube/config
+
+    - name: Create k8s namespace and annotations
+      run: |
+        kubectl create ns ${{ env.namespace }} || true
+        kubectl annotate ns ${{ env.namespace }} azure-pg-admin-user=${{ env.project }} || true
+
+    - name: Deploy application
+      run: kapp --dangerous-override-ownership-of-existing-resources -y deploy -a ${{ env.project }} --namespace ${{ env.namespace }} -f manifests.yml
+
+    - name: Notify deployment end
+      uses: bobheadxi/deployments@v0.4.3
+      if: always()
+      with:
+        step: finish
+        status: ${{ job.status }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+        env_url: https://${{ env.namespace }}.${{ env.SOCIALGOUV_BASE_DOMAIN }}
