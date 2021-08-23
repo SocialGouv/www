@@ -1,3 +1,10 @@
+## [2.26.19-alpha.13](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.12...v2.26.19-alpha.13) (2021-08-23)
+
+
+### Bug Fixes
+
+* Redirection namespace. ([e79ce2d](https://github.com/SocialGouv/www/commit/e79ce2ddbde683c7a40c66ab1e7e0da0c3797fdd))
+
 ## [2.26.19-alpha.12](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.11...v2.26.19-alpha.12) (2021-08-23)
 
 
