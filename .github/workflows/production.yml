@@ -30,7 +30,7 @@ jobs:
       id: docker_meta
       uses: "crazy-max/ghaction-docker-meta@2e1a5c7fa42123697f82d479b551a1bbdb1bef88"
       with:
-        images: ghcr.io/socialgouv/fabrique/incubateur
+        images: ghcr.io/socialgouv/fabrique/${{ env.project }}
         labels: |
           org.opencontainers.image.title=${{ env.project }}
           org.opencontainers.image.documentation=https://github.com/SocialGouv/${{ env.project }}/tree/${{ github.sha }}
@@ -111,7 +111,7 @@ jobs:
   ## DEPLOY PREPRODUCTION APPLICATION
   ##############################################################################
   deploy:
-    name: Deploy application
+    name: Deploy preproduction
     runs-on: ubuntu-latest
     needs: [register, manifests]
     environment:
@@ -198,7 +198,7 @@ jobs:
   ## DEPLOY PRODUCTION APPLICATION
   ##############################################################################
   deploy-prod:
-    name: Deploy application
+    name: Deploy production
     runs-on: ubuntu-latest
     needs: [manifests-prod, deploy]
     environment:
