@@ -185,6 +185,7 @@ jobs:
         yarn --cwd /tmp/autodevops --silent generate --env prod > manifests-prod.yml
       env:
         SOCIALGOUV_PRODUCTION: true
+        SOCIALGOUV_PRODUCTION_NAMESPACE: "incubateur"
         SOCIALGOUV_CONFIG_PATH: /tmp/autodevops/config.json
         SOCIALGOUV_BASE_DOMAIN: ${{ env.SOCIALGOUV_BASE_DOMAIN }}
 

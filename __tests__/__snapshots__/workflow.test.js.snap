@@ -20,7 +20,7 @@ metadata:
     team: carnets
     component: nginx
   name: www
-  namespace: carnets
+  namespace: incubateur
 spec:
   replicas: 1
   selector:
@@ -98,7 +98,7 @@ metadata:
     app.github.com/repo: socialgouv/carnets
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
-  namespace: carnets
+  namespace: incubateur
 spec:
   ports:
     - name: http
@@ -139,7 +139,7 @@ metadata:
     owner: carnets
     team: carnets
   name: www
-  namespace: carnets
+  namespace: incubateur
 spec:
   rules:
     - host: www.dev.fabrique.social.gouv.fr

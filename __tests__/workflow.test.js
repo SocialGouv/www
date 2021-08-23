@@ -10,7 +10,7 @@ test(
   "generate production k8s manifests",
   async () => {
     const dir = tempy.directory();
-
+    console.log("dir", dir);
     const env = {
       GITHUB_JOB: "5678",
       GITHUB_REF: "refs/heads/mybranch",
@@ -21,6 +21,7 @@ test(
       SOCIALGOUV_CONFIG_PATH: __dirname + "/../.socialgouv/config.json",
       SOCIALGOUV_PREPRODUCTION: "",
       SOCIALGOUV_PRODUCTION: "true",
+      SOCIALGOUV_PRODUCTION_NAMESPACE: "incubateur",
     };
 
     Object.assign(process.env, env);
