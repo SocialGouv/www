@@ -607,3 +607,13 @@
       startup: 1000jours
   role: Développeur Mobile
   picture: /images/members/benjamin.guedj.jpg
+- id: maxime.golfier
+  name: Maxime Golfier
+  picture: /images/members/maxime.golfier.jpg
+  startups:
+    - code-du-travail-numerique
+  role: Développeur
+  missions:
+    - start: "2021-08-30"
+      startup: octo
+  structure: Octo
