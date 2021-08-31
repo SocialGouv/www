@@ -1,3 +1,10 @@
+## [2.26.22-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.2...v2.26.22-alpha.3) (2021-08-31)
+
+
+### Bug Fixes
+
+* Update tests. ([c0d37ef](https://github.com/SocialGouv/www/commit/c0d37ef855f54742880622634559a40d08cb5e84))
+
 ## [2.26.22-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.1...v2.26.22-alpha.2) (2021-08-31)
 
 
