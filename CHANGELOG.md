@@ -1,3 +1,10 @@
+## [2.26.22-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.1...v2.26.22-alpha.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* Rename env files. ([5371825](https://github.com/SocialGouv/www/commit/5371825d40bfd7932f7905a2e45c8343370f2c1c))
+
 ## [2.26.22-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22-alpha.1) (2021-08-31)
 
 
