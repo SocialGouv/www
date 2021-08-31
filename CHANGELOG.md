@@ -1,3 +1,10 @@
+## [2.26.22-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.3...v2.26.22-alpha.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* Clean workflows. ([dfc5db1](https://github.com/SocialGouv/www/commit/dfc5db151f87ca51ec5b2daf9e32db0bac48c884))
+
 ## [2.26.22-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.2...v2.26.22-alpha.3) (2021-08-31)
 
 
