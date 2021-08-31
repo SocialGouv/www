@@ -1,3 +1,10 @@
+## [2.26.22](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([#878](https://github.com/SocialGouv/www/issues/878)) ([32081f7](https://github.com/SocialGouv/www/commit/32081f77cd4d7ab78c6b20a59eee29cf82a1b6d7))
+
 ## [2.26.22-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.3...v2.26.22-alpha.4) (2021-08-31)
 
 
