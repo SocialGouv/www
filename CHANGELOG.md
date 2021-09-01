@@ -1,3 +1,10 @@
+## [2.26.23](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([#888](https://github.com/SocialGouv/www/issues/888)) ([da9bebb](https://github.com/SocialGouv/www/commit/da9bebb84f6d200d6de7e2e8ec50f62483e9aed5))
+
 ## [2.26.23-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.2...v2.26.23-alpha.3) (2021-09-01)
 
 
