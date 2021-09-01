@@ -74,6 +74,7 @@ jobs:
       uses: SocialGouv/actions/autodevops-manifests@master
       with:
         environment: "prod"
+        productionNamespace: "incubateur"
 
   ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
