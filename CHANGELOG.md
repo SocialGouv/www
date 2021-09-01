@@ -1,3 +1,24 @@
+## [2.26.23-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.2...v2.26.23-alpha.3) (2021-09-01)
+
+
+### Bug Fixes
+
+* Update tests. ([c276827](https://github.com/SocialGouv/www/commit/c276827928bc13faa96022114bdc7464101fb3d1))
+
+## [2.26.23-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.1...v2.26.23-alpha.2) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add rancher ID. ([166a66b](https://github.com/SocialGouv/www/commit/166a66b2513b53707f7f02bf9983d60e36ce1e32))
+
+## [2.26.23-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23-alpha.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([89a094f](https://github.com/SocialGouv/www/commit/89a094f1e86c504ac33311354abe87750269b65b))
+
 ## [2.26.22](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22) (2021-08-31)
 
 
