@@ -1,3 +1,10 @@
+# [2.30.0](https://github.com/SocialGouv/www/compare/v2.29.1...v2.30.0) (2021-09-02)
+
+
+### Features
+
+* Ajout de florian.briand ([#854](https://github.com/SocialGouv/www/issues/854)) ([73dd216](https://github.com/SocialGouv/www/commit/73dd216d6fb5e04ca3df23aed69fcb32cbfef33c))
+
 ## [2.29.1](https://github.com/SocialGouv/www/compare/v2.29.0...v2.29.1) (2021-09-02)
 
 
