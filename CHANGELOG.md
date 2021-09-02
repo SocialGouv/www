@@ -1,3 +1,10 @@
+## [2.27.1](https://github.com/SocialGouv/www/compare/v2.27.0...v2.27.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* dummy ([15f32fa](https://github.com/SocialGouv/www/commit/15f32fad0984338168417e50e49ae8afa6ec8728))
+
 # [2.27.0](https://github.com/SocialGouv/www/compare/v2.26.23...v2.27.0) (2021-09-02)
 
 

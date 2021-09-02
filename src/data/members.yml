@@ -618,6 +618,16 @@
       startup: carnet.de.bord
   role: développeur
   picture: /images/members/augustin.ragon.jpg
+- id: maxime.golfier
+  name: Maxime Golfier
+  picture: /images/members/maxime.golfier.jpg
+  startups:
+    - code-du-travail-numerique
+  role: Développeur
+  missions:
+    - start: "2021-08-30"
+      startup: code-du-travail-numerique
+  structure: Octo
 - id: lsagetlethias
   name: Lilian Saget-Lethias
   structure: Freelance
