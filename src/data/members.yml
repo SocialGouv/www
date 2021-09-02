@@ -607,3 +607,13 @@
       startup: 1000jours
   role: Développeur Mobile
   picture: /images/members/benjamin.guedj.jpg
+- id: lsagetlethias
+  name: Lilian Saget-Lethias
+  structure: Freelance
+  startups:
+    - archifiltre
+  missions:
+    - start: "2021-09-01"
+      startup: archifiltre
+  role: Dév
+  picture: /images/members/lsagetlethias.jpg
