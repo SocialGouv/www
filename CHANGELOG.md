@@ -1,3 +1,10 @@
+# [2.29.0](https://github.com/SocialGouv/www/compare/v2.28.0...v2.29.0) (2021-09-02)
+
+
+### Features
+
+* **members:** arrivée Augustin Ragon ([#877](https://github.com/SocialGouv/www/issues/877)) ([3909b29](https://github.com/SocialGouv/www/commit/3909b291664ec0e25f045449fabde6ef993be792))
+
 # [2.28.0](https://github.com/SocialGouv/www/compare/v2.27.1...v2.28.0) (2021-09-02)
 
 
