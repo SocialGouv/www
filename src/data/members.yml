@@ -617,3 +617,34 @@
     - reva
   role: Coach / Product Owner
   picture: /images/members/florian.briand.jpg
+- id: augustin.ragon
+  name: Augustin Ragon
+  structure: freelance
+  startups:
+    - carnet.de.bord
+  missions:
+    - start: "2021-09-01"
+      end: "2021-10-30"
+      startup: carnet.de.bord
+  role: développeur
+  picture: /images/members/augustin.ragon.jpg
+- id: maxime.golfier
+  name: Maxime Golfier
+  picture: /images/members/maxime.golfier.jpg
+  startups:
+    - code-du-travail-numerique
+  role: Développeur
+  missions:
+    - start: "2021-08-30"
+      startup: code-du-travail-numerique
+  structure: Octo
+- id: lsagetlethias
+  name: Lilian Saget-Lethias
+  structure: Freelance
+  startups:
+    - archifiltre
+  missions:
+    - start: "2021-09-01"
+      startup: archifiltre
+  role: Dév
+  picture: /images/members/lsagetlethias.jpg

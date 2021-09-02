@@ -2,7 +2,7 @@ name: Github Stats
 
 on:
   schedule:
-    - cron: "42 23 * * *"
+    - cron: "42 23 * * 1"
 
 jobs:
   udpate:

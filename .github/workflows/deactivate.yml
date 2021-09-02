@@ -1,0 +1,41 @@
+name: Deactivate
+
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+  prune:
+    name: Deactivate environment
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Get branch, project and namespace names
+      run: |
+        echo "branch=${GITHUB_HEAD_REF##*/}" >> $GITHUB_ENV
+        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+        echo "namespace=${GITHUB_REPOSITORY#*/}-${GITHUB_HEAD_REF##*/}" >> $GITHUB_ENV
+
+    - name: Install Kapp
+      uses: vmware-tanzu/carvel-setup-action@v1
+      with:
+        only: kapp
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create kubernetes config
+      run: |
+        mkdir ~/.kube
+        touch ~/.kube/config
+        echo ${{ secrets.SOCIALGOUV_KUBE_CONFIG_DEV }} | base64 -d > ~/.kube/config
+
+    - name: Delete k8s environment
+      run: kapp -y delete --namespace ${{ env.namespace }}
+      # run: kapp -y delete -a ${{ env.project }} --namespace ${{ env.namespace }}
+
+    - name: Mark environment as deactivated
+      uses: bobheadxi/deployments@v0.4.3
+      with:
+        step: deactivate-env
+        env: ${{ env.branch }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        desc: "Environment ${{ env.namespace }} has been deactivated"

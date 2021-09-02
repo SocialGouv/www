@@ -1,3 +1,323 @@
+## [2.29.1](https://github.com/SocialGouv/www/compare/v2.29.0...v2.29.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* **docker:** use standard nginx image ([#889](https://github.com/SocialGouv/www/issues/889)) ([670807a](https://github.com/SocialGouv/www/commit/670807af52f6ba9d599a2d62a35cbcc157e0b33d))
+
+# [2.29.0](https://github.com/SocialGouv/www/compare/v2.28.0...v2.29.0) (2021-09-02)
+
+
+### Features
+
+* **members:** arrivée Augustin Ragon ([#877](https://github.com/SocialGouv/www/issues/877)) ([3909b29](https://github.com/SocialGouv/www/commit/3909b291664ec0e25f045449fabde6ef993be792))
+
+# [2.28.0](https://github.com/SocialGouv/www/compare/v2.27.1...v2.28.0) (2021-09-02)
+
+
+### Features
+
+* **members:** new maxime.golfier ([#876](https://github.com/SocialGouv/www/issues/876)) ([ca24da9](https://github.com/SocialGouv/www/commit/ca24da9fb3019e896682237455c1ef06a31e4afd))
+
+## [2.27.1](https://github.com/SocialGouv/www/compare/v2.27.0...v2.27.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* dummy ([15f32fa](https://github.com/SocialGouv/www/commit/15f32fad0984338168417e50e49ae8afa6ec8728))
+
+# [2.27.0](https://github.com/SocialGouv/www/compare/v2.26.23...v2.27.0) (2021-09-02)
+
+
+### Features
+
+* Add new member lsagetlethias ([#874](https://github.com/SocialGouv/www/issues/874)) ([#879](https://github.com/SocialGouv/www/issues/879)) ([4cefdd0](https://github.com/SocialGouv/www/commit/4cefdd0e734b904c577dea30321d7e91e3801fc3))
+
+## [2.26.23](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([#888](https://github.com/SocialGouv/www/issues/888)) ([da9bebb](https://github.com/SocialGouv/www/commit/da9bebb84f6d200d6de7e2e8ec50f62483e9aed5))
+
+## [2.26.23-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.2...v2.26.23-alpha.3) (2021-09-01)
+
+
+### Bug Fixes
+
+* Update tests. ([c276827](https://github.com/SocialGouv/www/commit/c276827928bc13faa96022114bdc7464101fb3d1))
+
+## [2.26.23-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.1...v2.26.23-alpha.2) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add rancher ID. ([166a66b](https://github.com/SocialGouv/www/commit/166a66b2513b53707f7f02bf9983d60e36ce1e32))
+
+## [2.26.23-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23-alpha.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([89a094f](https://github.com/SocialGouv/www/commit/89a094f1e86c504ac33311354abe87750269b65b))
+
+## [2.26.22](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([#878](https://github.com/SocialGouv/www/issues/878)) ([32081f7](https://github.com/SocialGouv/www/commit/32081f77cd4d7ab78c6b20a59eee29cf82a1b6d7))
+
+## [2.26.22-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.3...v2.26.22-alpha.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* Clean workflows. ([dfc5db1](https://github.com/SocialGouv/www/commit/dfc5db151f87ca51ec5b2daf9e32db0bac48c884))
+
+## [2.26.22-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.2...v2.26.22-alpha.3) (2021-08-31)
+
+
+### Bug Fixes
+
+* Update tests. ([c0d37ef](https://github.com/SocialGouv/www/commit/c0d37ef855f54742880622634559a40d08cb5e84))
+
+## [2.26.22-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.1...v2.26.22-alpha.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* Rename env files. ([5371825](https://github.com/SocialGouv/www/commit/5371825d40bfd7932f7905a2e45c8343370f2c1c))
+
+## [2.26.22-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22-alpha.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([bd22781](https://github.com/SocialGouv/www/commit/bd227813bfbe00c3a37168c6cc0a6acbebd49ef0))
+
+## [2.26.21](https://github.com/SocialGouv/www/compare/v2.26.20...v2.26.21) (2021-08-30)
+
+
+### Bug Fixes
+
+* Update Github stats. ([2ffbb30](https://github.com/SocialGouv/www/commit/2ffbb30c454373145d5151d6f6d2a9028f34ef49))
+
+## [2.26.20](https://github.com/SocialGouv/www/compare/v2.26.19...v2.26.20) (2021-08-23)
+
+
+### Bug Fixes
+
+* Update Github stats. ([7e2ea87](https://github.com/SocialGouv/www/commit/7e2ea87f17b8befed0296e35a1caf82124379b32))
+
+## [2.26.19](https://github.com/SocialGouv/www/compare/v2.26.18...v2.26.19) (2021-08-23)
+
+
+### Bug Fixes
+
+* Use github actions. ([#873](https://github.com/SocialGouv/www/issues/873)) ([8e5ac70](https://github.com/SocialGouv/www/commit/8e5ac70b16c35b05def868a4714938da850b048a))
+
+## [2.26.19-alpha.13](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.12...v2.26.19-alpha.13) (2021-08-23)
+
+
+### Bug Fixes
+
+* Redirection namespace. ([e79ce2d](https://github.com/SocialGouv/www/commit/e79ce2ddbde683c7a40c66ab1e7e0da0c3797fdd))
+
+## [2.26.19-alpha.12](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.11...v2.26.19-alpha.12) (2021-08-23)
+
+
+### Bug Fixes
+
+* Use SOCIALGOUV_PRODUCTION_NAMESPACE. ([d39f4f9](https://github.com/SocialGouv/www/commit/d39f4f9e82a24411b14babfd55a8d59e8c9190bc))
+
+## [2.26.19-alpha.11](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.10...v2.26.19-alpha.11) (2021-08-23)
+
+
+### Bug Fixes
+
+* Prod manifests generation. ([1159849](https://github.com/SocialGouv/www/commit/11598492a6c479220335e8712ee5e803e926e7c0))
+
+## [2.26.19-alpha.10](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.9...v2.26.19-alpha.10) (2021-08-23)
+
+
+### Bug Fixes
+
+* Update tests. ([45e6af3](https://github.com/SocialGouv/www/commit/45e6af3e0a9a0041f48b5d8e93533abab31e9a4b))
+
+## [2.26.19-alpha.9](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.8...v2.26.19-alpha.9) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add tests folder. ([4b9e7ab](https://github.com/SocialGouv/www/commit/4b9e7ab820000328ff4751c20d0e4f111dba875f))
+
+## [2.26.19-alpha.8](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.7...v2.26.19-alpha.8) (2021-08-23)
+
+
+### Bug Fixes
+
+* Add prod workflow test. ([7da481a](https://github.com/SocialGouv/www/commit/7da481a7b9c643c9f5155a07d033da22c6ab4fec))
+
+## [2.26.19-alpha.7](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.6...v2.26.19-alpha.7) (2021-08-20)
+
+
+### Bug Fixes
+
+* Rename images. ([38c6205](https://github.com/SocialGouv/www/commit/38c6205f531d9214bd713fa0cef5f98499bade1e))
+
+## [2.26.19-alpha.6](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.5...v2.26.19-alpha.6) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use ncubateur as app name. ([c8e9313](https://github.com/SocialGouv/www/commit/c8e93137b439f16a5d1cf48f23d96a27b6723544))
+
+## [2.26.19-alpha.5](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.4...v2.26.19-alpha.5) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change ingress namesapce. ([c44063c](https://github.com/SocialGouv/www/commit/c44063c42bbadd216408290c3dc0d3096bc159ec))
+
+## [2.26.19-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.3...v2.26.19-alpha.4) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use fabrique as project name. ([38c61f3](https://github.com/SocialGouv/www/commit/38c61f3e1e7b8327df0ab659224a874e6da81098))
+
+## [2.26.19-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.2...v2.26.19-alpha.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* Docker file. ([c0cbc35](https://github.com/SocialGouv/www/commit/c0cbc35e892b831b8c53063205cfb5856076e424))
+
+## [2.26.19-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.19-alpha.1...v2.26.19-alpha.2) (2021-08-20)
+
+
+### Bug Fixes
+
+* Change image path. ([7d86bf3](https://github.com/SocialGouv/www/commit/7d86bf3b7848837d68db9c2df518a5377c5d6053))
+
+## [2.26.19-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.18...v2.26.19-alpha.1) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use github actions. ([6d5f4a6](https://github.com/SocialGouv/www/commit/6d5f4a6c0537bc0145a767210464d5a1f9ddf6f8))
+
+## [2.26.18](https://github.com/SocialGouv/www/compare/v2.26.17...v2.26.18) (2021-08-17)
+
+
+### Bug Fixes
+
+* use docker/nginx ([6f0ab3d](https://github.com/SocialGouv/www/commit/6f0ab3df3920a9a685a9ce5e50a903032655b3fe))
+
+## [2.26.17](https://github.com/SocialGouv/www/compare/v2.26.16...v2.26.17) (2021-08-16)
+
+
+### Bug Fixes
+
+* Update Github stats. ([505e7a9](https://github.com/SocialGouv/www/commit/505e7a9a03146be2f343b2da842aaa09eb79c610))
+
+## [2.26.16](https://github.com/SocialGouv/www/compare/v2.26.15...v2.26.16) (2021-08-09)
+
+
+### Bug Fixes
+
+* Update Github stats. ([3fa673a](https://github.com/SocialGouv/www/commit/3fa673a3012188a929f817020ead0b0350bf3dfd))
+
+## [2.26.15](https://github.com/SocialGouv/www/compare/v2.26.14...v2.26.15) (2021-08-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-accessible-accordion to ^3.3.5 ([#867](https://github.com/SocialGouv/www/issues/867)) ([5dfade3](https://github.com/SocialGouv/www/commit/5dfade3904537ccc35a56e1d720fb68d80b1405a))
+
+## [2.26.14](https://github.com/SocialGouv/www/compare/v2.26.13...v2.26.14) (2021-08-02)
+
+
+### Bug Fixes
+
+* Update Github stats. ([c56d2b0](https://github.com/SocialGouv/www/commit/c56d2b0c796b2afc31c41562a8c4635c3ce0b71d))
+* Update Github stats. ([9889273](https://github.com/SocialGouv/www/commit/9889273e7f8310366d9763a7178ed51c55a00dca))
+
+## [2.26.13](https://github.com/SocialGouv/www/compare/v2.26.12...v2.26.13) (2021-07-23)
+
+
+### Bug Fixes
+
+* Update Github stats. ([4c72f28](https://github.com/SocialGouv/www/commit/4c72f28c5675b3403f89e6de509c59088893a86c))
+* Update Github stats. ([cb21840](https://github.com/SocialGouv/www/commit/cb218406c2f7044cf80c5fe7f68979f3f7d146ff))
+* Update Github stats. ([33a584b](https://github.com/SocialGouv/www/commit/33a584b1075b16739da3c24bacc8751377322242))
+
+## [2.26.12](https://github.com/SocialGouv/www/compare/v2.26.11...v2.26.12) (2021-07-19)
+
+
+### Bug Fixes
+
+* Update Github stats. ([13229cc](https://github.com/SocialGouv/www/commit/13229cce1475161b83ad42e698db5bfd754fb9dd))
+* Update Github stats. ([8b071a4](https://github.com/SocialGouv/www/commit/8b071a4f376b703eacb0d106bee61d7d204c3248))
+
+## [2.26.11](https://github.com/SocialGouv/www/compare/v2.26.10...v2.26.11) (2021-07-17)
+
+
+### Bug Fixes
+
+* Update Github stats. ([c3aa3bb](https://github.com/SocialGouv/www/commit/c3aa3bb971f213d0613a989db6c2c8b06ee41756))
+* Update Github stats. ([5ddca02](https://github.com/SocialGouv/www/commit/5ddca0214f3dd273fef89ec0ed6ec6eada13ed12))
+
+## [2.26.10](https://github.com/SocialGouv/www/compare/v2.26.9...v2.26.10) (2021-07-15)
+
+
+### Bug Fixes
+
+* Update Github stats. ([47d7a15](https://github.com/SocialGouv/www/commit/47d7a157452bd1091ae004308449adb560b3bfe3))
+
+## [2.26.9](https://github.com/SocialGouv/www/compare/v2.26.8...v2.26.9) (2021-07-14)
+
+
+### Bug Fixes
+
+* Update Github stats. ([54620af](https://github.com/SocialGouv/www/commit/54620af094815e11bfd5fcd676b3f51ecac65822))
+* Update Github stats. ([c67966f](https://github.com/SocialGouv/www/commit/c67966f21e8dcaa6098949ceb7108aec4c92610d))
+* Update Github stats. ([e7814ae](https://github.com/SocialGouv/www/commit/e7814ae603d9ee4cea80a55a7b30da32c2c62573))
+* Update Github stats. ([09a8b30](https://github.com/SocialGouv/www/commit/09a8b30946b519aa6cd81edba01ceb00f9852cc9))
+
+## [2.26.8](https://github.com/SocialGouv/www/compare/v2.26.7...v2.26.8) (2021-07-10)
+
+
+### Bug Fixes
+
+* Update Github stats. ([990a73f](https://github.com/SocialGouv/www/commit/990a73f6848a17be793549a93da993cd9950a271))
+
+## [2.26.7](https://github.com/SocialGouv/www/compare/v2.26.6...v2.26.7) (2021-07-09)
+
+
+### Bug Fixes
+
+* Update Github stats. ([aab158d](https://github.com/SocialGouv/www/commit/aab158ddafbb5a3ed27f371b18f31385f187c229))
+* Update Github stats. ([1fd5169](https://github.com/SocialGouv/www/commit/1fd516956a1b452e422dc11024bf5a48e2399427))
+
+## [2.26.6](https://github.com/SocialGouv/www/compare/v2.26.5...v2.26.6) (2021-07-07)
+
+
+### Bug Fixes
+
+* Update Github stats. ([585ac23](https://github.com/SocialGouv/www/commit/585ac23802f186eed33ea0c576056124c1817208))
+* Update Github stats. ([20df884](https://github.com/SocialGouv/www/commit/20df88481a1d1ce041719670b8ccf7472006b9bc))
+
+## [2.26.5](https://github.com/SocialGouv/www/compare/v2.26.4...v2.26.5) (2021-07-05)
+
+
+### Bug Fixes
+
+* Update Github stats. ([a8eac31](https://github.com/SocialGouv/www/commit/a8eac313a248aa01f998ac2a2254813da3b24f43))
+* Update Github stats. ([3ceb462](https://github.com/SocialGouv/www/commit/3ceb462f3f94f3041c26d2ace43a7a5a968f5ea9))
+* Update Github stats. ([8bd46c7](https://github.com/SocialGouv/www/commit/8bd46c7cd1ec050723f4e36e62be3137dc9cc976))
+
 ## [2.26.4](https://github.com/SocialGouv/www/compare/v2.26.3...v2.26.4) (2021-07-02)
 
 

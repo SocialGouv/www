@@ -1,6 +1,5 @@
 .git
 .github
-.k8s
 *.md
 **/node_modules
-**/.next/cache
+.next
