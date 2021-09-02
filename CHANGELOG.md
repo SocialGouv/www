@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/SocialGouv/www/compare/v2.26.23...v2.27.0) (2021-09-02)
+
+
+### Features
+
+* Add new member lsagetlethias ([#874](https://github.com/SocialGouv/www/issues/874)) ([#879](https://github.com/SocialGouv/www/issues/879)) ([4cefdd0](https://github.com/SocialGouv/www/commit/4cefdd0e734b904c577dea30321d7e91e3801fc3))
+
 ## [2.26.23](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23) (2021-09-01)
 
 
