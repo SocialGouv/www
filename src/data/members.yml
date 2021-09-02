@@ -607,6 +607,16 @@
       startup: 1000jours
   role: Développeur Mobile
   picture: /images/members/benjamin.guedj.jpg
+- id: florian.briand
+  name: Florian Briand
+  missions:
+    - start: "2021-07-01"
+      startup: reva
+  structure: beNext / LLL
+  startups:
+    - reva
+  role: Coach / Product Owner
+  picture: /images/members/florian.briand.jpg
 - id: augustin.ragon
   name: Augustin Ragon
   structure: freelance
