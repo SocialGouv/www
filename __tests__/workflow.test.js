@@ -14,7 +14,7 @@ test(
     const env = {
       GITHUB_JOB: "5678",
       GITHUB_REF: "refs/heads/mybranch",
-      GITHUB_REPOSITORY: `socialgouv/carnets`,
+      GITHUB_REPOSITORY: `socialgouv/www`,
       GITHUB_RUN_ID: "1234",
       GITHUB_SHA: "0123456789abcdefghijklmnopqrstuvwxyz0123",
       SOCIALGOUV_BASE_DOMAIN: "dev.fabrique.social.gouv.fr",
