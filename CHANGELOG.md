@@ -1,3 +1,10 @@
+## [2.30.1](https://github.com/SocialGouv/www/compare/v2.30.0...v2.30.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* update beta content ([#890](https://github.com/SocialGouv/www/issues/890)) ([d88909b](https://github.com/SocialGouv/www/commit/d88909bf0b9e345ea376a7a7811b4a627088fa71))
+
 # [2.30.0](https://github.com/SocialGouv/www/compare/v2.29.1...v2.30.0) (2021-09-02)
 
 
