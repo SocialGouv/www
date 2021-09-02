@@ -607,6 +607,17 @@
       startup: 1000jours
   role: Développeur Mobile
   picture: /images/members/benjamin.guedj.jpg
+- id: augustin.ragon
+  name: Augustin Ragon
+  structure: freelance
+  startups:
+    - carnet.de.bord
+  missions:
+    - start: "2021-09-01"
+      end: "2021-10-30"
+      startup: carnet.de.bord
+  role: développeur
+  picture: /images/members/augustin.ragon.jpg
 - id: maxime.golfier
   name: Maxime Golfier
   picture: /images/members/maxime.golfier.jpg
