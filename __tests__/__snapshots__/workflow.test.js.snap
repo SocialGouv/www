@@ -10,15 +10,15 @@ metadata:
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/carnets
+    app.github.com/repo: socialgouv/www
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   labels:
     app: www
-    application: carnets
-    owner: carnets
-    team: carnets
+    application: www
     component: nginx
+    owner: www
+    team: www
   name: www
   namespace: incubateur
 spec:
@@ -33,15 +33,15 @@ spec:
         kapp.k14s.io/disable-default-label-scoping-rules: ''
         app.github.com/job: '5678'
         app.github.com/ref: refs/heads/mybranch
-        app.github.com/repo: socialgouv/carnets
+        app.github.com/repo: socialgouv/www
         app.github.com/run: '1234'
         app.github.com/sha: '0123456'
       labels:
         app: www
-        application: carnets
-        owner: carnets
-        team: carnets
+        application: www
         component: nginx
+        owner: www
+        team: www
     spec:
       containers:
         - image: >-
@@ -86,16 +86,17 @@ kind: Service
 metadata:
   labels:
     app: www
-    application: carnets
-    owner: carnets
-    team: carnets
+    application: www
+    component: nginx
+    owner: www
+    team: www
   name: www
   annotations:
     kapp.k14s.io/disable-default-ownership-label-rules: ''
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/carnets
+    app.github.com/repo: socialgouv/www
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   namespace: incubateur
@@ -113,13 +114,13 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
-    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/cluster-issuer: letsencrypt-prod
     kubernetes.io/tls-acme: 'true'
     kapp.k14s.io/disable-default-ownership-label-rules: ''
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/carnets
+    app.github.com/repo: socialgouv/www
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
     nginx.ingress.kubernetes.io/configuration-snippet: >-
@@ -135,9 +136,10 @@ metadata:
       more_set_headers \\"X-Content-Type-Options: nosniff\\";
   labels:
     app: www
-    application: carnets
-    owner: carnets
-    team: carnets
+    application: www
+    component: nginx
+    owner: www
+    team: www
   name: www
   namespace: incubateur
 spec:
@@ -163,7 +165,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/permanent-redirect: https://www.fabrique.social.gouv.fr$request_uri
-    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/cluster-issuer: letsencrypt-prod
     kubernetes.io/tls-acme: 'true'
   labels:
     app.kubernetes.io/component: redirect

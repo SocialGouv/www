@@ -1,3 +1,73 @@
+# [2.27.0](https://github.com/SocialGouv/www/compare/v2.26.23...v2.27.0) (2021-09-02)
+
+
+### Features
+
+* Add new member lsagetlethias ([#874](https://github.com/SocialGouv/www/issues/874)) ([#879](https://github.com/SocialGouv/www/issues/879)) ([4cefdd0](https://github.com/SocialGouv/www/commit/4cefdd0e734b904c577dea30321d7e91e3801fc3))
+
+## [2.26.23](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([#888](https://github.com/SocialGouv/www/issues/888)) ([da9bebb](https://github.com/SocialGouv/www/commit/da9bebb84f6d200d6de7e2e8ec50f62483e9aed5))
+
+## [2.26.23-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.2...v2.26.23-alpha.3) (2021-09-01)
+
+
+### Bug Fixes
+
+* Update tests. ([c276827](https://github.com/SocialGouv/www/commit/c276827928bc13faa96022114bdc7464101fb3d1))
+
+## [2.26.23-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.23-alpha.1...v2.26.23-alpha.2) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add rancher ID. ([166a66b](https://github.com/SocialGouv/www/commit/166a66b2513b53707f7f02bf9983d60e36ce1e32))
+
+## [2.26.23-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.22...v2.26.23-alpha.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add productionNamespace to manifests generation. ([89a094f](https://github.com/SocialGouv/www/commit/89a094f1e86c504ac33311354abe87750269b65b))
+
+## [2.26.22](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([#878](https://github.com/SocialGouv/www/issues/878)) ([32081f7](https://github.com/SocialGouv/www/commit/32081f77cd4d7ab78c6b20a59eee29cf82a1b6d7))
+
+## [2.26.22-alpha.4](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.3...v2.26.22-alpha.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* Clean workflows. ([dfc5db1](https://github.com/SocialGouv/www/commit/dfc5db151f87ca51ec5b2daf9e32db0bac48c884))
+
+## [2.26.22-alpha.3](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.2...v2.26.22-alpha.3) (2021-08-31)
+
+
+### Bug Fixes
+
+* Update tests. ([c0d37ef](https://github.com/SocialGouv/www/commit/c0d37ef855f54742880622634559a40d08cb5e84))
+
+## [2.26.22-alpha.2](https://github.com/SocialGouv/www/compare/v2.26.22-alpha.1...v2.26.22-alpha.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* Rename env files. ([5371825](https://github.com/SocialGouv/www/commit/5371825d40bfd7932f7905a2e45c8343370f2c1c))
+
+## [2.26.22-alpha.1](https://github.com/SocialGouv/www/compare/v2.26.21...v2.26.22-alpha.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([bd22781](https://github.com/SocialGouv/www/commit/bd227813bfbe00c3a37168c6cc0a6acbebd49ef0))
+
 ## [2.26.21](https://github.com/SocialGouv/www/compare/v2.26.20...v2.26.21) (2021-08-30)
 
 

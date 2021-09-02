@@ -618,3 +618,13 @@
       startup: carnet.de.bord
   role: développeur
   picture: /images/members/augustin.ragon.jpg
+- id: lsagetlethias
+  name: Lilian Saget-Lethias
+  structure: Freelance
+  startups:
+    - archifiltre
+  missions:
+    - start: "2021-09-01"
+      startup: archifiltre
+  role: Dév
+  picture: /images/members/lsagetlethias.jpg
