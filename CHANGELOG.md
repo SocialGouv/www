@@ -1,3 +1,10 @@
+## [2.29.1](https://github.com/SocialGouv/www/compare/v2.29.0...v2.29.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* **docker:** use standard nginx image ([#889](https://github.com/SocialGouv/www/issues/889)) ([670807a](https://github.com/SocialGouv/www/commit/670807af52f6ba9d599a2d62a35cbcc157e0b33d))
+
 # [2.29.0](https://github.com/SocialGouv/www/compare/v2.28.0...v2.29.0) (2021-09-02)
 
 
