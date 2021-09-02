@@ -1,3 +1,10 @@
+# [2.28.0](https://github.com/SocialGouv/www/compare/v2.27.1...v2.28.0) (2021-09-02)
+
+
+### Features
+
+* **members:** new maxime.golfier ([#876](https://github.com/SocialGouv/www/issues/876)) ([ca24da9](https://github.com/SocialGouv/www/commit/ca24da9fb3019e896682237455c1ef06a31e4afd))
+
 ## [2.27.1](https://github.com/SocialGouv/www/compare/v2.27.0...v2.27.1) (2021-09-02)
 
 
