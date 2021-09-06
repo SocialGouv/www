@@ -285,6 +285,9 @@
 - id: douglas.duteil
   name: Douglas Duteil
   structure: Fabrique numérique des ministères sociaux
+  missions:
+    - start: "2019-10-01"
+      end: "2021-10-01"
   startups:
     - code-du-travail-numerique
     - e-mjpm
