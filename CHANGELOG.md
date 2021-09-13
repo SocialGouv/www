@@ -1,3 +1,10 @@
+## [2.30.3](https://github.com/SocialGouv/www/compare/v2.30.2...v2.30.3) (2021-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-fetch to ^2.6.2 ([#892](https://github.com/SocialGouv/www/issues/892)) ([e6690ba](https://github.com/SocialGouv/www/commit/e6690ba2b60e9de623d6bf751951efd935696db9))
+
 ## [2.30.2](https://github.com/SocialGouv/www/compare/v2.30.1...v2.30.2) (2021-09-06)
 
 
