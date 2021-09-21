@@ -55,7 +55,7 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@master
+      uses: SocialGouv/actions/autodevops-deploy@test-create-ns
       with:
         environment: "dev"
         token: ${{ secrets.GITHUB_TOKEN }}
