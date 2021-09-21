@@ -59,4 +59,4 @@ jobs:
       with:
         environment: "dev"
         token: ${{ secrets.GITHUB_TOKEN }}
-        kubeconfig: ${{ secrets.SOCIALGOUV_KUBE_CONFIG_DEV }}
+        kubeconfig: ${{ secrets.KUBECONFIG }}
