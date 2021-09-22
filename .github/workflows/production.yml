@@ -57,7 +57,7 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@test-create-ns
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "preprod"
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -92,7 +92,7 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@test-create-ns
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "prod"
         token: ${{ secrets.GITHUB_TOKEN }}
