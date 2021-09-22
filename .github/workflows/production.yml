@@ -42,6 +42,7 @@ jobs:
       uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "preprod"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
 
   ##############################################################################
   ## DEPLOY PREPRODUCTION APPLICATION
@@ -61,6 +62,7 @@ jobs:
         environment: "preprod"
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
 
   ##############################################################################
   ## GENERATE PRODUCTION MANIFESTS
@@ -74,7 +76,8 @@ jobs:
       uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "prod"
-        productionNamespace: "incubateur"
+        #productionNamespace: "incubateur"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
 
   ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
@@ -94,3 +97,4 @@ jobs:
         environment: "prod"
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
