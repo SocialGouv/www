@@ -26,7 +26,7 @@ jobs:
         echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
     - name: Use autodevops build and register
-      uses: SocialGouv/actions/autodevops-build-register@master
+      uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -41,9 +41,11 @@ jobs:
     steps:
 
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@master
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "dev"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
 
   ##############################################################################
   ## DEPLOY APPLICATION OVER KUBERNETES
@@ -55,8 +57,10 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@master
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "dev"
         token: ${{ secrets.GITHUB_TOKEN }}
-        kubeconfig: ${{ secrets.SOCIALGOUV_KUBE_CONFIG_DEV }}
+        kubeconfig: ${{ secrets.KUBECONFIG }}
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
