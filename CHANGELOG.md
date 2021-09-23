@@ -1,3 +1,10 @@
+## [2.30.6](https://github.com/SocialGouv/www/compare/v2.30.5...v2.30.6) (2021-09-23)
+
+
+### Bug Fixes
+
+* use regular secrets ([#894](https://github.com/SocialGouv/www/issues/894)) ([16826b1](https://github.com/SocialGouv/www/commit/16826b16f66f231bcc2aa35b74eb6644fd915a13))
+
 ## [2.30.5](https://github.com/SocialGouv/www/compare/v2.30.4...v2.30.5) (2021-09-20)
 
 
