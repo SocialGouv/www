@@ -41,7 +41,7 @@ jobs:
     steps:
 
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "dev"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
@@ -57,7 +57,7 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "dev"
         token: ${{ secrets.GITHUB_TOKEN }}
