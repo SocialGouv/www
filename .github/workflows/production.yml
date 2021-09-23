@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "preprod"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
@@ -56,7 +56,7 @@ jobs:
       url: https://www-preprod.dev.fabrique.social.gouv.fr
     steps:
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "preprod"
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -76,13 +76,13 @@ jobs:
       url: https://www.fabrique.social.gouv.fr
     steps:
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "prod"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@RANCHER_PROJECT_ID
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "prod"
         token: ${{ secrets.GITHUB_TOKEN }}
