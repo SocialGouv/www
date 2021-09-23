@@ -1,3 +1,10 @@
+## [2.30.9](https://github.com/SocialGouv/www/compare/v2.30.8...v2.30.9) (2021-09-23)
+
+
+### Bug Fixes
+
+* prod namespace ([2d1701d](https://github.com/SocialGouv/www/commit/2d1701dcfe12d6817f3b11022b4e250d786770c2))
+
 ## [2.30.8](https://github.com/SocialGouv/www/compare/v2.30.7...v2.30.8) (2021-09-23)
 
 
