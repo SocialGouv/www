@@ -38,11 +38,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@v1
+      uses: SocialGouv/actions/autodevops-manifests@RANCHER_PROJECT_ID
       with:
         environment: "preprod"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
+        
   ##############################################################################
   ## DEPLOY PREPRODUCTION APPLICATION
   ##############################################################################
@@ -79,6 +80,7 @@ jobs:
       with:
         environment: "prod"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
     - name: Use autodevops deployment
       uses: SocialGouv/actions/autodevops-deploy@RANCHER_PROJECT_ID
       with:
