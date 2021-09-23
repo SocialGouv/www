@@ -1,3 +1,10 @@
+## [2.30.8](https://github.com/SocialGouv/www/compare/v2.30.7...v2.30.8) (2021-09-23)
+
+
+### Bug Fixes
+
+* ci ([a204e71](https://github.com/SocialGouv/www/commit/a204e7106d9a5b5d010f35745bddf1e3f215fd91))
+
 ## [2.30.7](https://github.com/SocialGouv/www/compare/v2.30.6...v2.30.7) (2021-09-23)
 
 
