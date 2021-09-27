@@ -1,3 +1,10 @@
+## [2.30.10](https://github.com/SocialGouv/www/compare/v2.30.9...v2.30.10) (2021-09-27)
+
+
+### Bug Fixes
+
+* release ([61ff081](https://github.com/SocialGouv/www/commit/61ff081ef903b4a90c02947a7b5d948887f5cf1f))
+
 ## [2.30.9](https://github.com/SocialGouv/www/compare/v2.30.8...v2.30.9) (2021-09-23)
 
 
