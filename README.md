@@ -1,7 +1,6 @@
 # [www.fabrique.social.gouv.fr](https://www.fabrique.social.gouv.fr)
 
 
-
 Site de la fabrique numérique des Ministères sociaux
 
 ## Editer le site
