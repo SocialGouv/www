@@ -1,3 +1,10 @@
+## [2.30.11](https://github.com/SocialGouv/www/compare/v2.30.10...v2.30.11) (2021-09-27)
+
+
+### Bug Fixes
+
+* test productionNamespace ([9a83aa6](https://github.com/SocialGouv/www/commit/9a83aa647aa50afe9ccad09e477d4115edc64fc0))
+
 ## [2.30.10](https://github.com/SocialGouv/www/compare/v2.30.9...v2.30.10) (2021-09-27)
 
 
