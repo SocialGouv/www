@@ -651,3 +651,13 @@
       startup: archifiltre
   role: Dév
   picture: /images/members/lsagetlethias.jpg
+- id: pibouu
+  name: Olivier Leung
+  structure: Freelance
+  startups:
+    - domifa
+  missions:
+    - start: "2021-10-04"
+      startup: domifa
+  role: Développeur
+  picture:
