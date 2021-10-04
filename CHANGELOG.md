@@ -1,3 +1,10 @@
+# [2.31.0](https://github.com/SocialGouv/www/compare/v2.30.13...v2.31.0) (2021-10-04)
+
+
+### Features
+
+* **members:** add new member Olivier Leung ([#903](https://github.com/SocialGouv/www/issues/903)) ([e2c001d](https://github.com/SocialGouv/www/commit/e2c001d61e2c46958a9be84e8db81338d502c9b9))
+
 ## [2.30.13](https://github.com/SocialGouv/www/compare/v2.30.12...v2.30.13) (2021-09-28)
 
 
