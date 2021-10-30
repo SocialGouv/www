@@ -33,7 +33,7 @@ jobs:
       # run: kapp -y delete -a ${{ env.project }} --namespace ${{ env.namespace }}
 
     - name: Mark environment as deactivated
-      uses: bobheadxi/deployments@v0.4.3
+      uses: bobheadxi/deployments@v0.6.1
       with:
         step: deactivate-env
         env: ${{ env.branch }}
