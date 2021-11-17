@@ -1,3 +1,10 @@
+# [2.32.0](https://github.com/SocialGouv/www/compare/v2.31.7...v2.32.0) (2021-11-17)
+
+
+### Features
+
+* **secu:** add CODEOWNERS ([#912](https://github.com/SocialGouv/www/issues/912)) ([99fa546](https://github.com/SocialGouv/www/commit/99fa54616320b33d387d55382d2c9d5f834c6a20))
+
 ## [2.31.7](https://github.com/SocialGouv/www/compare/v2.31.6...v2.31.7) (2021-11-15)
 
 
