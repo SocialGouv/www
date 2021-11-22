@@ -15,10 +15,10 @@ metadata:
     app.github.com/sha: '0123456'
   labels:
     app: www
-    application: www
+    application: incubateur
     component: nginx
-    owner: www
-    team: www
+    owner: incubateur
+    team: incubateur
   name: www
   namespace: incubateur
 spec:
@@ -38,10 +38,10 @@ spec:
         app.github.com/sha: '0123456'
       labels:
         app: www
-        application: www
+        application: incubateur
         component: nginx
-        owner: www
-        team: www
+        owner: incubateur
+        team: incubateur
     spec:
       containers:
         - image: >-
@@ -86,10 +86,10 @@ kind: Service
 metadata:
   labels:
     app: www
-    application: www
+    application: incubateur
     component: nginx
-    owner: www
-    team: www
+    owner: incubateur
+    team: incubateur
   name: www
   annotations:
     kapp.k14s.io/disable-default-ownership-label-rules: ''
@@ -136,10 +136,10 @@ metadata:
       more_set_headers \\"X-Content-Type-Options: nosniff\\";
   labels:
     app: www
-    application: www
+    application: incubateur
     component: nginx
-    owner: www
-    team: www
+    owner: incubateur
+    team: incubateur
   name: www
   namespace: incubateur
 spec:
