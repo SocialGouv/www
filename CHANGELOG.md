@@ -1,3 +1,10 @@
+## [2.33.2](https://github.com/SocialGouv/www/compare/v2.33.1...v2.33.2) (2021-11-22)
+
+
+### Bug Fixes
+
+* **workflows:** Split preprod and prod workflows ([e2c3b49](https://github.com/SocialGouv/www/commit/e2c3b49181ddc5da10c5957a30f8f4625b16c3ef))
+
 ## [2.33.1](https://github.com/SocialGouv/www/compare/v2.33.0...v2.33.1) (2021-11-22)
 
 
