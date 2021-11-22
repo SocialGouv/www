@@ -6,7 +6,7 @@ on:
       - v*
 
 concurrency:
-  group: preproduction
+  group: production
   cancel-in-progress: true
 
 jobs:
