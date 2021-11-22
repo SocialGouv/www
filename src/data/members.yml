@@ -280,7 +280,8 @@
   structure: Freelance
   startups:
     - code-du-travail-numerique
-  role: développeur backend
+    - enfants-du-spectacle
+  role: développeur web
   picture: /images/members/adrien.dipasquale.jpg
 - id: douglas.duteil
   name: Douglas Duteil
@@ -661,3 +662,17 @@
       startup: Domifa
   role: Développeur
   picture: /images/members/olivier-leung.jpg
+- id: margaux.nonclercq
+  name: Margaux Nonclercq
+  structure: Octo
+  startups:
+    - enfants-du-spectacle
+  role: Coach, co-PO
+  picture: /images/members/margaux.nonclercq.png
+- id: selim.amara
+  name: Selim Amara
+  structure: DRIEETS
+  startups:
+    - enfants-du-spectacle
+  role: Product Owner
+  picture: /images/members/selim.amara.jpg
