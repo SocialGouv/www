@@ -1,15 +1,15 @@
-name: Review
+name: Preproduction
 
 on:
   push:
-    branches-ignore:
+    branches:
       - master
     tags-ignore:
       - v*
 
 concurrency:
   cancel-in-progress: true
-  group: review-${{ github.ref }}
+  group: preproduction
 
 jobs:
 
@@ -28,6 +28,7 @@ jobs:
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
+        environment: preprod
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
         imageName: fabrique/${{ env.project }}
@@ -43,7 +44,7 @@ jobs:
     - name: Use autodevops manifests generation
       uses: SocialGouv/actions/autodevops-manifests@v1
       with:
-        environment: "dev"
+        environment: preprod
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
 
@@ -59,7 +60,7 @@ jobs:
     - name: Use autodevops deployment
       uses: SocialGouv/actions/autodevops-deploy@v1
       with:
-        environment: "dev"
+        environment: preprod
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}

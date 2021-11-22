@@ -26,42 +26,10 @@ jobs:
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
+        environment: prod
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
         imageName: fabrique/${{ env.project }}
-
-  ##############################################################################
-  ## GENERATE PREPRODUCTION MANIFESTS
-  ##############################################################################
-  manifests:
-    name: Preproduction manifests
-    runs-on: ubuntu-latest
-    steps:
-    - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@v1
-      with:
-        environment: "preprod"
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-        
-  ##############################################################################
-  ## DEPLOY PREPRODUCTION APPLICATION
-  ##############################################################################
-  deploy-preprod:
-    name: Deploy preproduction
-    runs-on: ubuntu-latest
-    needs: [register, manifests]
-    environment:
-      name: preproduction
-      url: https://www-preprod.dev.fabrique.social.gouv.fr
-    steps:
-    - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@v1
-      with:
-        environment: "preprod"
-        token: ${{ secrets.GITHUB_TOKEN }}
-        kubeconfig: ${{ secrets.KUBECONFIG }}
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         
   ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
@@ -69,11 +37,12 @@ jobs:
   deploy-prod:
     name: Deploy production
     runs-on: ubuntu-latest
-    needs: [deploy-preprod]
+    needs: [register]
     environment:
       name: production
       url: https://www.fabrique.social.gouv.fr
     steps:
+
     - name: Use autodevops manifests generation
       uses: SocialGouv/actions/autodevops-manifests@v1
       with:
@@ -81,6 +50,7 @@ jobs:
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
         productionNamespace: "fabrique"
+
     - name: Use autodevops deployment
       uses: SocialGouv/actions/autodevops-deploy@v1
       with:
