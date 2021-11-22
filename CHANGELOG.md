@@ -1,3 +1,10 @@
+## [2.33.1](https://github.com/SocialGouv/www/compare/v2.33.0...v2.33.1) (2021-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([#905](https://github.com/SocialGouv/www/issues/905)) ([f64eec3](https://github.com/SocialGouv/www/commit/f64eec3715d6948aacdac2f05bb5b5156434d55e))
+
 # [2.33.0](https://github.com/SocialGouv/www/compare/v2.32.0...v2.33.0) (2021-11-22)
 
 
