@@ -1,3 +1,10 @@
+# [2.33.0](https://github.com/SocialGouv/www/compare/v2.32.0...v2.33.0) (2021-11-22)
+
+
+### Features
+
+* add enfants du spectacle ([#913](https://github.com/SocialGouv/www/issues/913)) ([c3ee098](https://github.com/SocialGouv/www/commit/c3ee098e5444508a6d5fb76ec8bfaa78b9ac6a99))
+
 # [2.32.0](https://github.com/SocialGouv/www/compare/v2.31.7...v2.32.0) (2021-11-17)
 
 
