@@ -4618,10 +4618,10 @@ needle@^2.1.1, needle@^2.2.2:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
-next-images@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.8.2.tgz#5d2da95db70874c14e5b8ec79c0c5cf90c5d4d25"
-  integrity sha512-D2UBfrFY4X61zVYLc0Nd0QYqMvk4p9A9gmapBW9vUVEVzoVVDADK52hCP2KGIYMJqeQx5+YP9Y6WxNO5iHUlCw==
+next-images@^1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.8.4.tgz#3b3d4840dae50893fc2a15906266532ec5fa58f0"
+  integrity sha512-E6JV+aMxeUCh8A+cwn1xgmlh/zINSW4JC/XLNbM+PWQd5LBdfB+m1IDCAfNnGOKMo96kzw+4LsKxnX/Kldw78Q==
   dependencies:
     file-loader "^6.2.0"
     url-loader "^4.1.0"
