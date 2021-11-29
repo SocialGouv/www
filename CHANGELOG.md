@@ -1,3 +1,10 @@
+## [2.33.5](https://github.com/SocialGouv/www/compare/v2.33.4...v2.33.5) (2021-11-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-images to ^1.8.4 ([#914](https://github.com/SocialGouv/www/issues/914)) ([b09c390](https://github.com/SocialGouv/www/commit/b09c3900ef94035c39c04d904e0a25175e433abb))
+
 ## [2.33.4](https://github.com/SocialGouv/www/compare/v2.33.3...v2.33.4) (2021-11-22)
 
 
