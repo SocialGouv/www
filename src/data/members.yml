@@ -676,3 +676,11 @@
     - enfants-du-spectacle
   role: Product Owner
   picture: /images/members/selim.amara.jpg
+  - id: louisegouzee
+  name: Gouzee Louise
+  structure: DREETS
+  startups:
+    - transition-collective
+  role: intrapreneuse
+  picture: /images/members/avatar.jpg
+
