@@ -1,3 +1,10 @@
+## [2.33.8](https://github.com/SocialGouv/www/compare/v2.33.7...v2.33.8) (2021-12-07)
+
+
+### Bug Fixes
+
+* update content from betagouv ([#925](https://github.com/SocialGouv/www/issues/925)) ([40cc36b](https://github.com/SocialGouv/www/commit/40cc36b5ab1423e78c09df3dc9b1f514f09743c1))
+
 ## [2.33.7](https://github.com/SocialGouv/www/compare/v2.33.6...v2.33.7) (2021-12-06)
 
 
