@@ -300,14 +300,15 @@
   meta: Juin 2021
   description: Le guichet unique de la VAE
 - id: enfantsduspectacle
+  betaId: enfants-du-spectacle
   href: /startups/enfantsduspectacle
-  img:  /images/startups/enfants-du-spectacle.png
+  img: /images/startups/enfants-du-spectacle.png
   title: Enfants du Spectacle
   meta: Octobre 2020
   description: Simplifier la démarche, Protéger les enfants
 - id: transitioncollective
   href: /startups/transitioncollective
-  img:  /images/startups/transition-collective.png
+  img: /images/startups/transition-collective.png
   title: Transitions Collectives
   meta: Décembre 2021
   description: Accompagner la reconversion professionnelle sur les territoires
