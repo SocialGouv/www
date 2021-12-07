@@ -676,3 +676,24 @@
     - enfants-du-spectacle
   role: Product Owner
   picture: /images/members/selim.amara.jpg
+- id: louisegouzee
+  name: Gouzee Louise
+  structure: DREETS
+  startups:
+    - transition-collective
+  role: intrapreneuse
+  picture: /images/members/avatar.jpg
+- id: stephaniemontagnon
+  name: Stéphanie Montagnon-Lion
+  structure: DREETS
+  startups:
+    - transition-collective
+  role: intrapreneuse
+  picture: /images/members/avatar.jpg
+- id: francoiscollobert
+  name: François Collobert
+  structure: DRIEETS
+  startups:
+    - transition-collective
+  role: intrapreneur
+  picture: /images/members/avatar.jpg
