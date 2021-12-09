@@ -1,3 +1,10 @@
+## [2.33.9](https://github.com/SocialGouv/www/compare/v2.33.8...v2.33.9) (2021-12-09)
+
+
+### Bug Fixes
+
+* add mention a11y ([#929](https://github.com/SocialGouv/www/issues/929)) ([66aa096](https://github.com/SocialGouv/www/commit/66aa0960897650baca2bf677477c3bf7b57b610f))
+
 ## [2.33.8](https://github.com/SocialGouv/www/compare/v2.33.7...v2.33.8) (2021-12-07)
 
 
