@@ -65,6 +65,14 @@ const Footer = ({
             </Link>
           </li>
         ))}
+        <li>
+          <a
+            href="/declaration-accessibilite"
+            title="déclaration d'accessibilité"
+          >
+            Accessibilité : non conforme
+          </a>
+        </li>
       </ul>
       <ul className="footer__links" />
     </div>
