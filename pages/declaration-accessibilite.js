@@ -45,7 +45,7 @@ const Mentions = () => (
         vers une alternative accessible ou obtenir le contenu sous une autre
         forme.
       </p>
-      <ul class="basic-information feedback h-card">
+      <ul className="basic-information feedback h-card">
         <li>
           E-mail :{" "}
           <a href="mailto:contact@fabrique.social.gouv.fr">
