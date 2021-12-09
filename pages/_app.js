@@ -11,6 +11,7 @@ import React from "react";
 const MATOMO_URL =
   process.env.NEXT_PUBLIC_MATOMO_URL ||
   "https://matomo.fabrique.social.gouv.fr";
+
 const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID || 2;
 
 export default class MyApp extends App {
@@ -24,6 +25,10 @@ export default class MyApp extends App {
       <>
         <Head>
           <title>La fabrique numérique des Ministères sociaux</title>
+          <meta
+            name="viewport"
+            content="width=device-width, user-scalable=yes"
+          />
         </Head>
         <Component {...pageProps} />
       </>

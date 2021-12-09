@@ -1,19 +1,19 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import React from "react";
 import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();
-    const page = renderPage((App) => (props) =>
-      sheet.collectStyles(<App {...props} />)
+    const page = renderPage(
+      (App) => (props) => sheet.collectStyles(<App {...props} />)
     );
     const styleTags = sheet.getStyleElement();
     return { ...page, styleTags };
   }
   render() {
     return (
-      <html lang="fr">
+      <Html lang="fr">
         <Head>
           <link
             rel="apple-touch-icon"
@@ -32,10 +32,6 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/images/favicons/favicon-32x32.png"
           />
-          <meta
-            name="viewport"
-            content="width=device-width, user-scalable=yes"
-          />
           <script src="/polyfill.js" />
           {this.props.styleTags}
         </Head>
@@ -43,7 +39,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
