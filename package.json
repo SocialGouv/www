@@ -24,11 +24,11 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "devDependencies": {
-    "@socialgouv/eslint-config-react": "^1.85.4",
-    "@socialgouv/eslint-config-recommended": "^1.85.4",
+    "@socialgouv/eslint-config-react": "^1.100.0",
+    "@socialgouv/eslint-config-recommended": "^1.100.0",
     "eslint": "^7.32.0",
-    "jest": "^27.0.6",
-    "prettier": "^2.3.2",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
     "tempy": "1.0.1"
   },
   "dependencies": {
