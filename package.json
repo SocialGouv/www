@@ -54,8 +54,8 @@
     "react-tooltip": "^4.2.21",
     "react-typeform-embed-2": "0.2.1",
     "react-vertical-timeline-component": "^3.3.3",
-    "remark-autolink-headings": "^6.1.0",
-    "remark-highlight.js": "^6.0.0",
+    "remark-autolink-headings": "^7.0.0",
+    "remark-highlight.js": "^7.0.0",
     "styled-components": "^5.3.3",
     "template.data.gouv.fr": "1.1.8",
     "trim-right": "^1.0.1"
