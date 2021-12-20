@@ -49,7 +49,7 @@ jobs:
         environment: "prod"
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-        productionNamespace: "fabrique"
+        productionNamespace: "www"
 
     - name: Use autodevops deployment
       uses: SocialGouv/actions/autodevops-deploy@v1
