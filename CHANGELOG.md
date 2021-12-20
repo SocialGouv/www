@@ -1,3 +1,10 @@
+## [2.33.12](https://github.com/SocialGouv/www/compare/v2.33.11...v2.33.12) (2021-12-20)
+
+
+### Bug Fixes
+
+* **k8s:** fix production namespace ([46bf23e](https://github.com/SocialGouv/www/commit/46bf23ee2e5d20bde8ccc24df677f6d786e7757b))
+
 ## [2.33.11](https://github.com/SocialGouv/www/compare/v2.33.10...v2.33.11) (2021-12-20)
 
 
