@@ -1,3 +1,10 @@
+## [2.33.11](https://github.com/SocialGouv/www/compare/v2.33.10...v2.33.11) (2021-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v11 [security] ([#928](https://github.com/SocialGouv/www/issues/928)) ([015b424](https://github.com/SocialGouv/www/commit/015b42425417eb452bf47203bb2e7ceae5a99a5e))
+
 ## [2.33.10](https://github.com/SocialGouv/www/compare/v2.33.9...v2.33.10) (2021-12-13)
 
 
