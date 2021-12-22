@@ -1,3 +1,10 @@
+## [2.33.14](https://github.com/SocialGouv/www/compare/v2.33.13...v2.33.14) (2021-12-22)
+
+
+### Bug Fixes
+
+* **k8s:** use correct ingress apiVersion ([2c7d223](https://github.com/SocialGouv/www/commit/2c7d223398003181c5cde1166cda00a8398c44c6))
+
 ## [2.33.13](https://github.com/SocialGouv/www/compare/v2.33.12...v2.33.13) (2021-12-20)
 
 
