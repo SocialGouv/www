@@ -16,7 +16,7 @@
     "export": "next export",
     "start": "next start",
     "build-start": "next build && next start",
-    "test": "jest --ci",
+    "test": "jest --ci --passWithNoTests",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
     "github-stats": "node ./scripts/github-stats.js",
