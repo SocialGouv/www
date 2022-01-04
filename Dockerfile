@@ -6,7 +6,7 @@ RUN yarn --production --frozen-lockfile --prefer-offline && yarn cache clean
 RUN yarn build
 RUN yarn export
 
-FROM ghcr.io/socialgouv/docker/nginx:nginx-non-root
+FROM ghcr.io/socialgouv/docker/nginx:v6.65.0
 
 ## switch to non-root user
 USER 101
