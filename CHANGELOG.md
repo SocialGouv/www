@@ -1,3 +1,10 @@
+## [2.33.17](https://github.com/SocialGouv/www/compare/v2.33.16...v2.33.17) (2022-01-04)
+
+
+### Bug Fixes
+
+* **secu:** use unprivilegied user ([#930](https://github.com/SocialGouv/www/issues/930)) ([b7604a7](https://github.com/SocialGouv/www/commit/b7604a72505a01871cadb737731dfc7f8968d8e6))
+
 ## [2.33.16](https://github.com/SocialGouv/www/compare/v2.33.15...v2.33.16) (2022-01-03)
 
 
