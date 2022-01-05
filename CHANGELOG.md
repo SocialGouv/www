@@ -1,3 +1,10 @@
+## [2.33.18](https://github.com/SocialGouv/www/compare/v2.33.17...v2.33.18) (2022-01-05)
+
+
+### Bug Fixes
+
+* test ([#933](https://github.com/SocialGouv/www/issues/933)) ([50f5091](https://github.com/SocialGouv/www/commit/50f50916863f931a9334133f90a1a2d251e3d0fb))
+
 ## [2.33.17](https://github.com/SocialGouv/www/compare/v2.33.16...v2.33.17) (2022-01-04)
 
 
