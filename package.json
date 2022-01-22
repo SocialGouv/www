@@ -42,7 +42,7 @@
     "js-yaml-loader": "^1.2.2",
     "next": "^11.0.0",
     "next-images": "^1.8.4",
-    "node-fetch": "^2.6.6",
+    "node-fetch": "^3.0.0",
     "raw-loader": "^4.0.2",
     "react": "^16.14.0",
     "react-accessible-accordion": "^3.3.5",
