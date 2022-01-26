@@ -1,3 +1,10 @@
+## [2.33.22](https://github.com/SocialGouv/www/compare/v2.33.21...v2.33.22) (2022-01-26)
+
+
+### Bug Fixes
+
+* update dora content from beta ([2bf6e44](https://github.com/SocialGouv/www/commit/2bf6e44386a243fbf35de173c24be56e56795d0c))
+
 ## [2.33.21](https://github.com/SocialGouv/www/compare/v2.33.20...v2.33.21) (2022-01-24)
 
 
