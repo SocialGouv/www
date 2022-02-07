@@ -1,3 +1,10 @@
+## [2.33.24](https://github.com/SocialGouv/www/compare/v2.33.23...v2.33.24) (2022-02-07)
+
+
+### Bug Fixes
+
+* domifa ([#940](https://github.com/SocialGouv/www/issues/940)) ([5eb03e3](https://github.com/SocialGouv/www/commit/5eb03e3959f8d69b4113d1a09af91820abf9df81))
+
 ## [2.33.23](https://github.com/SocialGouv/www/compare/v2.33.22...v2.33.23) (2022-01-31)
 
 
