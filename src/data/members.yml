@@ -697,3 +697,17 @@
     - transition-collective
   role: intrapreneur
   picture: /images/members/avatar.jpg
+- id: ledugong
+  name: Anne-Laure Pilloy
+  structure: BeNext
+  startups:
+    - domifa
+  role: Product Owner
+  picture: /images/members/avatar.jpg
+- id: Chirazh
+  name: Chiraz Herizi
+  structure: Freelance
+  startups:
+    - domifa
+  role: Chargée de déploiement
+  picture: /images/members/avatar.jpg

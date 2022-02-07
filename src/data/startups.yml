@@ -114,13 +114,17 @@
   description: Faciliter la domiciliation pour les personnes sans domicile stable.
   links:
     - title: Page d'accueil
-      subTitle: https://domifa.fabrique.social.gouv.fr/
+      subTitle: Découvrir DomiFa
       href: https://domifa.fabrique.social.gouv.fr/
       description: Page officielle du produit
-    - title: Github
-      subTitle: code source
+    - title: Nos statistiques
+      subTitle: Statistiques DomiFa
+      href: https://domifa.fabrique.social.gouv.fr/stats
+      description: Nos statistiques sur le territoire
+    - title: Code source
+      subTitle: Code source
       href: https://github.com/SocialGouv/domifa
-      description: Bientôt ! Le code source de l'application DomiFa
+      description: Le code source de l'application DomiFa
 - id: tremplin
   finished: 01/01/2020
   href: /startups/tremplin
