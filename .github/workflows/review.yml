@@ -33,21 +33,6 @@ jobs:
         imageName: fabrique/${{ env.project }}
 
   ##############################################################################
-  ## GENERATE KUBERNETES MANIFESTS
-  ##############################################################################
-  manifests:
-    name: Generate k8s manifests
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@v1
-      with:
-        environment: "dev"
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-
-  ##############################################################################
   ## DEPLOY APPLICATION OVER KUBERNETES
   ##############################################################################
   deploy:
