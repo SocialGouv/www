@@ -1,3 +1,10 @@
+## [2.33.28](https://github.com/SocialGouv/www/compare/v2.33.27...v2.33.28) (2022-02-22)
+
+
+### Bug Fixes
+
+* **ci:** autodevops-helm ([#945](https://github.com/SocialGouv/www/issues/945)) ([15fba1d](https://github.com/SocialGouv/www/commit/15fba1dbe3cdfcee7c133dcf06fc09482d9f06f0))
+
 ## [2.33.27](https://github.com/SocialGouv/www/compare/v2.33.26...v2.33.27) (2022-02-21)
 
 
