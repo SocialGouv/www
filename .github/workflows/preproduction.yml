@@ -58,7 +58,7 @@ jobs:
     steps:
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@v1
+      uses: SocialGouv/actions/autodevops-helm-deploy@v1
       with:
         environment: preprod
         token: ${{ secrets.GITHUB_TOKEN }}
