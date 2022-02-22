@@ -1,5 +1,5 @@
 resources:
-- ./kustomization.autodevops.yaml
+- ../autodevops/base
 
 patches:
 - target:
