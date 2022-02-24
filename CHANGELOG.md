@@ -1,3 +1,10 @@
+## [2.33.29](https://github.com/SocialGouv/www/compare/v2.33.28...v2.33.29) (2022-02-24)
+
+
+### Bug Fixes
+
+* **docker:** upgrade and skip envsubst ([b142295](https://github.com/SocialGouv/www/commit/b1422956cc744406d9ec8c55d237a1a1caa7cbc2))
+
 ## [2.33.28](https://github.com/SocialGouv/www/compare/v2.33.27...v2.33.28) (2022-02-22)
 
 
