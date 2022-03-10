@@ -711,3 +711,8 @@
     - domifa
   role: Chargée de déploiement
   picture: /images/members/avatar.jpg
+- id: adrien.chauve
+  name: Adrien Chauve
+  structure: Freelance
+  role: Devops SRE / Tech lead
+  picture: /images/members/avatar.jpg
