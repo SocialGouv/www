@@ -1,3 +1,15 @@
+# [2.34.0](https://github.com/SocialGouv/www/compare/v2.33.34...v2.34.0) (2022-03-18)
+
+
+### Bug Fixes
+
+* update startup data tumeplay ([#950](https://github.com/SocialGouv/www/issues/950)) ([f2441dc](https://github.com/SocialGouv/www/commit/f2441dce60509d2bc7cf65bc7386cc718c3d369f))
+
+
+### Features
+
+* Add new member adrien.chauve ([#951](https://github.com/SocialGouv/www/issues/951)) ([0be3f82](https://github.com/SocialGouv/www/commit/0be3f82db6bcc50618dce137b6fa7f3415202ae6))
+
 ## [2.33.34](https://github.com/SocialGouv/www/compare/v2.33.33...v2.33.34) (2022-03-14)
 
 
