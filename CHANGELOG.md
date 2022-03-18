@@ -1,3 +1,10 @@
+## [2.34.1](https://github.com/SocialGouv/www/compare/v2.34.0...v2.34.1) (2022-03-18)
+
+
+### Bug Fixes
+
+* Migrate to kube-workflow ([#952](https://github.com/SocialGouv/www/issues/952)) ([0ab7c4a](https://github.com/SocialGouv/www/commit/0ab7c4a4b85091354a88f7ef54561e1952125d7a))
+
 # [2.34.0](https://github.com/SocialGouv/www/compare/v2.33.34...v2.34.0) (2022-03-18)
 
 
