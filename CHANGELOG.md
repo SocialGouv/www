@@ -1,3 +1,10 @@
+## [2.34.2](https://github.com/SocialGouv/www/compare/v2.34.1...v2.34.2) (2022-03-18)
+
+
+### Bug Fixes
+
+* redirect namespace ([#954](https://github.com/SocialGouv/www/issues/954)) ([426b721](https://github.com/SocialGouv/www/commit/426b72140d8f8409755c9ab6c983cff7ccb18f0d))
+
 ## [2.34.1](https://github.com/SocialGouv/www/compare/v2.34.0...v2.34.1) (2022-03-18)
 
 
