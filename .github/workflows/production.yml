@@ -10,30 +10,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
-  ##############################################################################
-  ## BUILD AND REGISTER DOCKER IMAGE
-  ##############################################################################
   register:
     name: Build & Register application
     runs-on: ubuntu-latest
     steps:
-
-    - name: Get project name
-      run: |
-        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         environment: prod
-        project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        imageName: fabrique/${{ env.project }}
+        imagePackage: app
 
-  ##############################################################################
-  ## DEPLOY PRODUCTION APPLICATION
-  ##############################################################################
   deploy-prod:
     name: Deploy production
     runs-on: ubuntu-latest
@@ -42,15 +29,12 @@ jobs:
       name: production
       url: https://www.fabrique.social.gouv.fr
     steps:
-
-    - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-helm-deploy@v1
+    - name: Use kube-workflow deployment
+      uses: SocialGouv/kube-workflow@master
       with:
-        environment: "prod"
+        environment: prod
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-        productionNamespace: "www"
-        imageName: fabrique/www
+        rancherProjectId: ${{ secrets.RANCHER_PROJECT_ID }}
+        rancherProjectName: ${{ secrets.RANCHER_PROJECT_NAME }}
 

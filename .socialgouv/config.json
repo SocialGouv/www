@@ -1,7 +1,0 @@
-{
-  "name": "www",
-  "type": "static",
-  "subdomain": "www",
-  "registry": "ghcr",
-  "project": "fabrique"
-}
