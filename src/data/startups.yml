@@ -197,7 +197,7 @@
   links:
     - title: Github
       subTitle: code source
-      href: "https://github.com/SocialGouv/tumeplay-app"
+      href: "https://github.com/SocialGouv/tumeplay"
       description: Le code source de l'application
 - id: medle
   href: /startups/medle
