@@ -1,0 +1,6 @@
+app:
+  host: www.fabrique.social.gouv.fr
+  redirectFrom:
+    - www.incubateur.social.gouv.fr
+    - incubateur.social.gouv.fr
+    - fabrique.social.gouv.fr
