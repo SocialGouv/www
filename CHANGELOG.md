@@ -1,3 +1,10 @@
+## [2.34.4](https://github.com/SocialGouv/www/compare/v2.34.3...v2.34.4) (2022-03-24)
+
+
+### Bug Fixes
+
+* Use kube-workflow redirect ([#955](https://github.com/SocialGouv/www/issues/955)) ([e65fb55](https://github.com/SocialGouv/www/commit/e65fb5580757884554d77ea52075f499715f8e57))
+
 ## [2.34.3](https://github.com/SocialGouv/www/compare/v2.34.2...v2.34.3) (2022-03-21)
 
 
