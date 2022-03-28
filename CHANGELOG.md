@@ -1,3 +1,10 @@
+## [2.34.5](https://github.com/SocialGouv/www/compare/v2.34.4...v2.34.5) (2022-03-28)
+
+
+### Bug Fixes
+
+* use new nginx image ([#957](https://github.com/SocialGouv/www/issues/957)) ([5368118](https://github.com/SocialGouv/www/commit/5368118a5ded7ec0fc9cefbe8ce9a31fbf4378fa))
+
 ## [2.34.4](https://github.com/SocialGouv/www/compare/v2.34.3...v2.34.4) (2022-03-24)
 
 
