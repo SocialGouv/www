@@ -1,3 +1,0 @@
-app:
-  enabled: true
-  containerPort: 8080
