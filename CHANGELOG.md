@@ -1,3 +1,10 @@
+## [2.35.2](https://github.com/SocialGouv/www/compare/v2.35.1...v2.35.2) (2022-04-19)
+
+
+### Bug Fixes
+
+* **general:** mise à jour de liens ([#963](https://github.com/SocialGouv/www/issues/963)) ([3651cd6](https://github.com/SocialGouv/www/commit/3651cd61ad27b386c239eb5e9bdb822af7362c2a))
+
 ## [2.35.1](https://github.com/SocialGouv/www/compare/v2.35.0...v2.35.1) (2022-04-19)
 
 
