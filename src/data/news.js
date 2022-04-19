@@ -12,6 +12,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 module.exports = [
   {
     author: "julien.bouquillon",
+    date: "19 Avril 2022",
+    href: "/startups/ressourcerie/",
+    html: `Lancement de la ressourcerie du Ministère du travail, de l'emploi et de l'insertion : un espace pour recenser et partager les projets numériques et créer une communauté de communs dans la sphère Travail.`,
+    img: "/static/images/actus/taking-notes.jpg",
+    promote: true,
+    title: "Ressourcerie du MTEI",
+  },
+  {
+    author: "julien.bouquillon",
     date: "25 Mai 2021",
     href: "https://code.travail.gouv.fr",
     html: `Cette semaine le code du travail numérique a dépassé le cap des 5 millions de visites depuis son lancement officiel le 1er Janvier 2020.`,
