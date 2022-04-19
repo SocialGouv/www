@@ -34,9 +34,9 @@ N'hésites pas à corriger/améliorer cette issue ou le wiki qui sont en amélio
 
  - [ ] Choisir [un(e) marraine](https://socialgouv.github.io/members/) qui t'accompagnera dans tes premiers pas.  
  - [ ] [Assigne le(la) à cette issue](https://help.github.com/en/github/managing-your-work-on-github/assigning-issues-and-pull-requests-to-other-github-users) :ok_hand:
- - [ ] Créer ta fiche sur le [site de la fabrique numérique](https://github.com/SocialGouv/socialgouv.github.io)
- - [ ] Rejoindre [Mattermost](https://mattermost.num.social.gouv.fr) : demander une invitation à un membre de la fabrique numérique et se présenter sur [~incub/nouveaux](https://mattermost.num.social.gouv.fr/default/channels/incub-nouveaux)
- - [ ] Consulter les [bonnes pratiques mattermost](https://github.com/SocialGouv/socialgouv.github.io/wiki/Mattermost)
+ - [ ] Créer ta fiche sur le [site de la fabrique numérique](https://github.com/SocialGouv/www)
+ - [ ] Rejoindre [Mattermost](https://mattermost.fabrique.social.gouv.fr) : demander une invitation à un membre de la fabrique numérique et se présenter sur [~incub/nouveaux](https://mattermost.fabrique.social.gouv.fr/default/channels/incub-nouveaux)
+ - [ ] Consulter les [bonnes pratiques mattermost](https://github.com/SocialGouv/www/wiki/Mattermost)
  - [ ] Email `*@fabrique.social.gouv.fr` : demander une invitation à votre marraine/parrain
  - [ ] Rejoindre l'[organisation GitHub SocialGouv](https://github.com/SocialGouv) : demander une invitation à un membre de la fabrique numérique
  - [ ] (optionnel) Créer ta fiche sur le [site de la communauté beta.gouv](https://github.com/betagouv/beta.gouv.fr/blob/master/CONTRIBUTING.md#ajouter-ou-modifier-un-membre-%C3%A0-la-communaut%C3%A9-betagouv)

@@ -26,7 +26,7 @@ const Saison2 = () => (
         résoudre un vrai problème ?<br />
         <h3 align="center">
           <a
-            href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+            href="https://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -51,7 +51,7 @@ const Saison2 = () => (
         </div>
         <br />
         <a
-          href="http://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
+          href="https://incubateur-des-ministres-sociaux-saison-2.selecteev.io/apply"
           rel="noopener noreferrer"
           target="_blank"
         >
