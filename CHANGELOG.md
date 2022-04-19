@@ -1,3 +1,10 @@
+# [2.35.0](https://github.com/SocialGouv/www/compare/v2.34.10...v2.35.0) (2022-04-19)
+
+
+### Features
+
+* add ressourcerie ([#960](https://github.com/SocialGouv/www/issues/960)) ([3333ec9](https://github.com/SocialGouv/www/commit/3333ec9620d70887d73e0724d479500c0b7f66f9))
+
 ## [2.34.10](https://github.com/SocialGouv/www/compare/v2.34.9...v2.34.10) (2022-04-18)
 
 
