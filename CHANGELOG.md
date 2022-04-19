@@ -1,3 +1,10 @@
+## [2.35.1](https://github.com/SocialGouv/www/compare/v2.35.0...v2.35.1) (2022-04-19)
+
+
+### Bug Fixes
+
+* add Floriane ([0979fe0](https://github.com/SocialGouv/www/commit/0979fe0a869f1c103936244188e43d73783bd86e))
+
 # [2.35.0](https://github.com/SocialGouv/www/compare/v2.34.10...v2.35.0) (2022-04-19)
 
 
