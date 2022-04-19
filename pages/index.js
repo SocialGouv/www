@@ -76,7 +76,7 @@ const Homepage = () => (
         <br />
         La fabrique numérique des ministères sociaux reprend la démarche et les
         grands principes de{" "}
-        <a href="http://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
+        <a href="https://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
           beta.gouv
         </a>
         , à savoir :<br />
