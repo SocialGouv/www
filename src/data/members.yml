@@ -721,3 +721,5 @@
   structure: Freelance
   role: Dev front
   picture: /images/members/avatar.jpg
+  startups:
+    - domifa
