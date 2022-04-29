@@ -1,3 +1,10 @@
+## [2.35.4](https://github.com/SocialGouv/www/compare/v2.35.3...v2.35.4) (2022-04-29)
+
+
+### Bug Fixes
+
+* update fiche cdb ([e114680](https://github.com/SocialGouv/www/commit/e114680b5499e7ea9f257d4ff1c06a25b5e80515))
+
 ## [2.35.3](https://github.com/SocialGouv/www/compare/v2.35.2...v2.35.3) (2022-04-25)
 
 
