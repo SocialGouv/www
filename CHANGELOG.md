@@ -1,3 +1,10 @@
+## [2.35.11](https://github.com/SocialGouv/www/compare/v2.35.10...v2.35.11) (2022-06-09)
+
+
+### Bug Fixes
+
+* upgrade nginx image ([f456982](https://github.com/SocialGouv/www/commit/f4569825be77580377bbf8bd680022f6299d922d))
+
 ## [2.35.10](https://github.com/SocialGouv/www/compare/v2.35.9...v2.35.10) (2022-06-06)
 
 
