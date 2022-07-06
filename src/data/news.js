@@ -12,6 +12,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 module.exports = [
   {
     author: "julien.bouquillon",
+    date: "6 Juillet 2022",
+    href: "https://code.travail.gouv.fr",
+    html: `Au mois de Juin, plus d'un million de visites sur le site du Code du travail numérique !`,
+    img: "/static/images/actus/taking-notes.jpg",
+    promote: true,
+    title: "1 millions de visites en Juin 2022 !",
+  },
+  {
+    author: "julien.bouquillon",
     date: "19 Avril 2022",
     href: "/startups/ressourcerie/",
     html: `Lancement de la ressourcerie du Ministère du travail, de l'emploi et de l'insertion : un espace pour recenser et partager les projets numériques et créer une communauté de communs dans la sphère Travail.`,
