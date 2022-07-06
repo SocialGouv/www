@@ -1,3 +1,10 @@
+## [2.35.17](https://github.com/SocialGouv/www/compare/v2.35.16...v2.35.17) (2022-07-06)
+
+
+### Bug Fixes
+
+* add news CDTN ([5967e06](https://github.com/SocialGouv/www/commit/5967e060742fd28a1a331d5c23f69bc71983f320))
+
 ## [2.35.16](https://github.com/SocialGouv/www/compare/v2.35.15...v2.35.16) (2022-07-04)
 
 
