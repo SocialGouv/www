@@ -17,7 +17,7 @@ module.exports = [
     html: `Au mois de Juin, plus d'un million de visites sur le site du Code du travail numérique !`,
     img: "/static/images/actus/taking-notes.jpg",
     promote: true,
-    title: "1 millions de visites en Juin 2022 !",
+    title: "1 million de visites en Juin 2022 !",
   },
   {
     author: "julien.bouquillon",
