@@ -1,3 +1,10 @@
+## [2.35.18](https://github.com/SocialGouv/www/compare/v2.35.17...v2.35.18) (2022-07-06)
+
+
+### Bug Fixes
+
+* typo ([04172f8](https://github.com/SocialGouv/www/commit/04172f8b32c60ff5ef245bf6cba3856dbfeb36d3))
+
 ## [2.35.17](https://github.com/SocialGouv/www/compare/v2.35.16...v2.35.17) (2022-07-06)
 
 
