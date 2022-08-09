@@ -1,3 +1,10 @@
+## [2.35.24](https://github.com/SocialGouv/www/compare/v2.35.23...v2.35.24) (2022-08-09)
+
+
+### Bug Fixes
+
+* add news ([e0b373e](https://github.com/SocialGouv/www/commit/e0b373e7af77db1e0d3d82aee8a28a0ec87ab8a2))
+
 ## [2.35.23](https://github.com/SocialGouv/www/compare/v2.35.22...v2.35.23) (2022-08-08)
 
 
