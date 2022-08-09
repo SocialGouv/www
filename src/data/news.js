@@ -12,6 +12,15 @@ Les entrées de ce fichier (les plus récentes en haut) permettent d'afficher le
 module.exports = [
   {
     author: "julien.bouquillon",
+    date: "9 Août 2022",
+    href: "https://socialgouv.github.io",
+    html: `Publication d'une page reprenant nos composants open-source réutilisables`,
+    img: "/static/images/actus/taking-notes.jpg",
+    promote: true,
+    title: "Publications en open-source!",
+  },
+  {
+    author: "julien.bouquillon",
     date: "6 Juillet 2022",
     href: "https://code.travail.gouv.fr",
     html: `Au mois de Juin, plus d'un million de visites sur le site du Code du travail numérique !`,
