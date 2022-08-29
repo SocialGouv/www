@@ -1,3 +1,11 @@
+## [2.35.28](https://github.com/SocialGouv/www/compare/v2.35.27...v2.35.28) (2022-08-29)
+
+
+### Bug Fixes
+
+* emjpm email ([29265fd](https://github.com/SocialGouv/www/commit/29265fddd2717c2bdfac0abf7b45daaddaf9e125))
+* emjpm email ([d9e935a](https://github.com/SocialGouv/www/commit/d9e935a6a60b39d686c882156a943e59ad6beefb))
+
 ## [2.35.27](https://github.com/SocialGouv/www/compare/v2.35.26...v2.35.27) (2022-08-22)
 
 
