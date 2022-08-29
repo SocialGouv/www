@@ -257,7 +257,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     date: "2 Août 2018",
     html: `Nouvelle livraison de l'application e-MJPM avant la pause estivale :
       <ul>
-        <li>Possibilité pour un mandataire de <a href="https://emjpm.num.social.gouv.fr/inscription/">s'inscrire dans l'application</a></li>
+        <li>Possibilité pour un mandataire de <a href="https://emjpm.fabrique.social.gouv.fr/inscription/">s'inscrire dans l'application</a></li>
         <li>Nouvelles fonctionnalités pour filtrer les mesures sur un fond de carte OpenStreetMap</li>
         <li>Améliorations cosmétiques et "UX" sur les parties mandataires individuels</li>
         <li>L'interface des tribunaux d'instance a été enrichie</li>
@@ -272,7 +272,7 @@ Un bel encouragement pour les intrapreneurs Daniel BALMY de la DIRECCTE Ile-de-F
     Et aussi :
     <ul>
       <li><a href="/startups/e-mjpm">En savoir plus sur e-MJPM</a></li>
-      <li>Contactez l'équipe : <a href="mailto:contact@emjpm.beta.gouv.fr">contact@emjpm.beta.gouv.fr</a></li>
+      <li>Contactez l'équipe : <a href="mailto:support.emjpm@fabrique.social.gouv.fr">support.emjpm@fabrique.social.gouv.fr </a></li>
       <li><a href="https://github.com/SocialGouv/eMJPM-app/releases/tag/1.2">La release sur GitHub</a></li>
     </ul>
     `,
