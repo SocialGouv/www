@@ -48,7 +48,7 @@ const actuEmjpmParis = () => (
         développée par la fabrique numérique des Ministères Sociaux, nous vous
         invitions à regarder une vidéo explicative
         (https://www.dailymotion.com/video/x6z9qkc) ou nous contacter
-        directement par email (contact@emjpm.beta.gouv.fr).
+        directement par email (support.emjpm@fabrique.social.gouv.fr ).
       </div>
     </Section>
   </Layout>
