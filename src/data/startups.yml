@@ -265,6 +265,7 @@
 - id: didoc
   href: /startups/didoc
   img: /images/startups/bill-oxford-tR0PPLuN6Pw-unsplash.jpg
+  finished: 01/04/2022
   title: DIDOC
   meta: Février 2020
   description: Dématérialisation des Invitations au Dépistage Organisé des Cancers
@@ -311,6 +312,7 @@
   meta: Octobre 2020
   description: Simplifier la démarche, Protéger les enfants
 - id: transitioncollective
+  finished: 01/09/2022
   href: /startups/transitioncollective
   img: /images/startups/transition-collective.png
   title: Transitions Collectives
