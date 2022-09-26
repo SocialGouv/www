@@ -1,6 +1,6 @@
-const news = require("../../src/data/news");
+const news = require("../../src/data/news.yml");
 
-const convertNews = news => {
+const convertNews = (news) => {
   return `
   <item>
     <title>${news.title}</title>
