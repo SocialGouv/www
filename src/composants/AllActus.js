@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import news from "../data/news";
+import news from "../data/news.yml";
 
 // https://github.com/facebook/react/issues/377
 const News = ({ title, href, date, html }) => (

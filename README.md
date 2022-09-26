@@ -18,7 +18,7 @@ Editer [members.yml](https://github.com/SocialGouv/www/blob/master/src/data/memb
 
 ### Ajouter une brève :
 
-📝 éditer [src/data/news.js](https://github.com/SocialGouv/www/edit/master/src/data/news.js)
+📝 éditer [src/data/news.yml](https://github.com/SocialGouv/www/edit/master/src/data/news.yml)
 
 Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
@@ -26,7 +26,7 @@ Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
 - éditer/ajouter des pages dans `./pages`
 - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
-- référencer l'article dans une news dans `./src/data/news.js` si nécessaire.
+- référencer l'article dans une news dans `./src/data/news.yml` si nécessaire.
 
 Les fichiers peuvent être au format `.js` ou `.mdx` (prendre exemple sur les fichiers actuels)
 
@@ -57,5 +57,3 @@ Template basé sur [template.data.gouv.fr](https://github.com/etalab/template.da
 Pour synchroniser le contenu depuis beta.gouv, lancer la commande `yarn beta-sync` et commiter le résultat.
 
 Les produits doivent être définis dans [./data/startups.yml](https://github.com/SocialGouv/www/blob/master/src/data/startups.yml) et comporter un identifiant `betaId` si différent
-
-
