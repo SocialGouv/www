@@ -1,3 +1,10 @@
+# [2.36.0](https://github.com/SocialGouv/www/compare/v2.35.33...v2.36.0) (2022-09-26)
+
+
+### Features
+
+* use YAML for news feed ([#969](https://github.com/SocialGouv/www/issues/969)) ([d5a5ca9](https://github.com/SocialGouv/www/commit/d5a5ca903bb220d40ddac0a5c19fe62b4f96ad73))
+
 ## [2.35.33](https://github.com/SocialGouv/www/compare/v2.35.32...v2.35.33) (2022-09-19)
 
 
