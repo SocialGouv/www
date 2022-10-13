@@ -57,3 +57,6 @@ Template basé sur [template.data.gouv.fr](https://github.com/etalab/template.da
 Pour synchroniser le contenu depuis beta.gouv, lancer la commande `yarn beta-sync` et commiter le résultat.
 
 Les produits doivent être définis dans [./data/startups.yml](https://github.com/SocialGouv/www/blob/master/src/data/startups.yml) et comporter un identifiant `betaId` si différent
+
+
+
