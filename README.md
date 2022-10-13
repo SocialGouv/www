@@ -24,6 +24,7 @@ Les données des `startups` et `members` sont dans [./src/data](./src/data)
 
 ### Modifier/Créer un article :
 
+
 - éditer/ajouter des pages dans `./pages`
 - placer les éventuelles images dans `./static/images` et les référencer en tant que `/static/images/xxxx.jpg`.
 - référencer l'article dans une news dans `./src/data/news.yml` si nécessaire.
