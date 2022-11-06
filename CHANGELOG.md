@@ -1,3 +1,10 @@
+## [2.36.7](https://github.com/SocialGouv/www/compare/v2.36.6...v2.36.7) (2022-11-06)
+
+
+### Bug Fixes
+
+* update tumeplay.mdx informations ([#978](https://github.com/SocialGouv/www/issues/978)) ([1942d82](https://github.com/SocialGouv/www/commit/1942d82867cd5cc03143bc696f8746a515a322f5))
+
 ## [2.36.6](https://github.com/SocialGouv/www/compare/v2.36.5...v2.36.6) (2022-10-31)
 
 
