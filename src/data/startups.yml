@@ -240,7 +240,7 @@
   links:
     - title: GitLab
       subTitle: Code source de la Fabrique
-      href: "https://gitlab.factory.social.gouv.fr"
+      href: "https://gitlab.fabrique.social.gouv.fr"
     - title: Rancher
       subTitle: Kubernetes Management
       href: "https://rancher.fabrique.social.gouv.fr/"
