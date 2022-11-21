@@ -1,4 +1,11 @@
 - author: julien.bouquillon
+  date: 21 Novembre 2022
+  href: https://socialgouv.github.io
+  html: Hello, world !
+  img: /static/images/actus/taking-notes.jpg
+  promote: true
+  title: Publications en open-source!
+- author: julien.bouquillon
   date: 9 Août 2022
   href: https://socialgouv.github.io
   html: Publication d'une page reprenant nos composants open-source réutilisables
