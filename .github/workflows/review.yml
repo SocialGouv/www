@@ -27,11 +27,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: [register]
     steps:
-    - name: Use kube-workflow deployment
-      uses: SocialGouv/kube-workflow@master
+    - name: Use kontinuous deployment
+      uses: SocialGouv/kontinuous/.github/actions/deploy-via-github@v1
       with:
         environment: dev
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
         rancherProjectId: ${{ secrets.RANCHER_PROJECT_ID }}
-        rancherProjectName: ${{ secrets.RANCHER_PROJECT_NAME }}
+        ciNamespace: ${{ secrets.RANCHER_PROJECT_NAME }}-ci
+        disableDiff: true

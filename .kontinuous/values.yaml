@@ -1,5 +1,7 @@
+global:
+  imageProject: socialgouv
+
 app:
-  enabled: true
   containerPort: 8080
   ingress:
     annotations:
