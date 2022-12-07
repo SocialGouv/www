@@ -1,3 +1,10 @@
+## [2.36.14](https://github.com/SocialGouv/www/compare/v2.36.13...v2.36.14) (2022-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update ghcr.io/socialgouv/docker/nginx docker tag to v7.3.0 ([#983](https://github.com/SocialGouv/www/issues/983)) ([82d9664](https://github.com/SocialGouv/www/commit/82d96642c8d01e810b5438a89aec126cd29d9d10))
+
 ## [2.36.13](https://github.com/SocialGouv/www/compare/v2.36.12...v2.36.13) (2022-12-05)
 
 
