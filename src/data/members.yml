@@ -333,11 +333,14 @@
 - id: clement.chapalain
   name: Clément Chapalain
   structure: Freelance
+  missions:
+    - start: "2019-10-01"
+      end: "2021-06-01"
   startups:
     - code-du-travail-numerique
     - didoc
   role: coach
-  picture: /images/members/clement.chapalain.jpg
+  picture: /images/members/avatar.jpg
 - id: helene.
   name: "Hélène "
   structure: Benext
