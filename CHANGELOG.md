@@ -1,3 +1,10 @@
+## [2.36.15](https://github.com/SocialGouv/www/compare/v2.36.14...v2.36.15) (2022-12-08)
+
+
+### Bug Fixes
+
+* release ([c7cd07a](https://github.com/SocialGouv/www/commit/c7cd07a53b7f62353da5b8af29270a9504fdaadc))
+
 ## [2.36.14](https://github.com/SocialGouv/www/compare/v2.36.13...v2.36.14) (2022-12-07)
 
 
