@@ -9,7 +9,7 @@ const BETA_STARTUPS_URL =
 const readFile = (path) => fs.readFileSync(path, "utf8");
 const writeFile = (path, content) => fs.writeFileSync(path, content, "utf8");
 
-const socialStartups = yaml.safeLoad(readFile("./src/data/startups.yml"));
+const socialStartups = yaml.load(readFile("./src/data/startups.yml"));
 
 const getBetaStartups = () =>
   fetch(BETA_STARTUPS_URL)
