@@ -1,3 +1,10 @@
+## [2.36.20](https://github.com/SocialGouv/www/compare/v2.36.19...v2.36.20) (2023-01-09)
+
+
+### Bug Fixes
+
+* update from betagouv ([42d1417](https://github.com/SocialGouv/www/commit/42d1417704f9ddd5a38dbcc12fbb9063d53943b4))
+
 ## [2.36.19](https://github.com/SocialGouv/www/compare/v2.36.18...v2.36.19) (2023-01-02)
 
 
