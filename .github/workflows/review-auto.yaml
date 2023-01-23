@@ -1,0 +1,27 @@
+name: 👓 Review Auto
+on:
+  push:
+    branches:
+      - "feat/**"
+      - "fix/**"
+
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.ref }}
+
+jobs:
+  build:
+    name: Build & Register application
+    runs-on: ubuntu-latest
+    steps:
+    - name: Use autodevops build and register
+      uses: socialgouv/workflows/actions/build-image@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        imagePackage: app
+
+  kontinuous:
+    name: "Deploy on Kubernetes 🐳"
+    needs: [build]
+    uses: socialgouv/workflows/.github/workflows/use-ks-gh-review-auto.yaml@v1
+    secrets: inherit
