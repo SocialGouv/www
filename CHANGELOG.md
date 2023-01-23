@@ -1,3 +1,10 @@
+## [2.36.24](https://github.com/SocialGouv/www/compare/v2.36.23...v2.36.24) (2023-01-23)
+
+
+### Bug Fixes
+
+* dummy ([7997729](https://github.com/SocialGouv/www/commit/799772926dcf83822f9979824ba71d6d0d22dc8b))
+
 ## [2.36.23](https://github.com/SocialGouv/www/compare/v2.36.22...v2.36.23) (2023-01-16)
 
 
