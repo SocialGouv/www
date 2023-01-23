@@ -3,3 +3,4 @@
 *.md
 **/node_modules
 .next
+.kontinuous

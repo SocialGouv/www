@@ -1,6 +1,7 @@
 app:
-  enabled: true
+  ~chart: app # implicit
   containerPort: 8080
+  imagePackage: app # implicit
   ingress:
     annotations:
       nginx.ingress.kubernetes.io/configuration-snippet: |
