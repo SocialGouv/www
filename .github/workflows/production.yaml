@@ -13,7 +13,6 @@ jobs:
   build:
     name: Build & Register application
     runs-on: ubuntu-latest
-    environment: production
     steps:
     - name: Use autodevops build and register
       uses: socialgouv/workflows/actions/build-image@v1
