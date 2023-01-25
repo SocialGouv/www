@@ -324,3 +324,15 @@
   title: Ressourcerie
   meta: Février 2022
   description: Recenser les projets et créer une communauté de communs numériques de la sphère Travail
+- id: nata
+  href: /startups/nata
+  img: /images/startups/nata.jpg
+  title: Nata
+  meta: Janvier 2023
+  description: Proposer aux femmes enceintes en précarité un parcours éclairé et sécurisant qui prend en compte leurs spécificités, potentialités et facteurs de vulnérabilité
+- id: bpco
+  href: /startups/bpco
+  img: /images/startups/bpco.png
+  title: Bpco
+  meta: Janvier 2023
+  description: Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations

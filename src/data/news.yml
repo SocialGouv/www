@@ -1,4 +1,10 @@
 - author: julien.bouquillon
+  date: 25 janvier 2023
+  html: Les Startups d'état Nata et BPCO ont terminé leur phase d'investigation et lancent leur construction
+  img: /static/images/actus/taking-notes.jpg
+  promote: true
+  title: Lancement de 2 nouvelles statups d'état
+- author: julien.bouquillon
   date: 9 Août 2022
   href: https://socialgouv.github.io
   html: Publication d'une page reprenant nos composants open-source réutilisables
