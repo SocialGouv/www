@@ -1,3 +1,10 @@
+# [2.37.0](https://github.com/SocialGouv/www/compare/v2.36.25...v2.37.0) (2023-01-25)
+
+
+### Features
+
+* new SE ([#991](https://github.com/SocialGouv/www/issues/991)) ([7eb23d8](https://github.com/SocialGouv/www/commit/7eb23d8fd41699876ab5b956ac1c5555dfe7c47f))
+
 ## [2.36.25](https://github.com/SocialGouv/www/compare/v2.36.24...v2.36.25) (2023-01-23)
 
 
