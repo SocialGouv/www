@@ -62,8 +62,16 @@ const Homepage = () => (
       <BlocChiffres chiffres={chiffres} />
     </Section>
     <div id="produits" />
-    <SectionCards className="section-color" title="Nos startups" />
-
+    <SectionCards
+      className="section-color"
+      title="Nos startups"
+      filter={(startup) => !startup.finished}
+    />
+    <SectionCards
+      className="section-color"
+      title="Startups terminées"
+      filter={(startup) => !!startup.finished}
+    />
     <Section
       title="La fabrique numérique des ministères sociaux, qu'est-ce donc ?"
       subTitle=""
@@ -76,7 +84,11 @@ const Homepage = () => (
         <br />
         La fabrique numérique des ministères sociaux reprend la démarche et les
         grands principes de{" "}
-        <a href="https://beta.gouv.fr" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://beta.gouv.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           beta.gouv
         </a>
         , à savoir :<br />
@@ -126,7 +138,6 @@ const Homepage = () => (
         </Link>{" "}
       </div>
     </Section>
-
     <Section title="Dernières actualités" className="section-color" subTitle="">
       <br />
       <AllActus count={3} promote={true} />

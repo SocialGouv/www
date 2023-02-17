@@ -29,6 +29,7 @@ TimelineEvent.propTypes = {
 };
 
 const colors = {
+  Cessation: "rgb(255, 88, 88)",
   Déploiement: "rgb(181, 201, 55)",
   Pilotage: "rgb(102, 140, 194)",
   Usage: "rgb(102, 140, 194)",

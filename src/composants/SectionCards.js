@@ -21,6 +21,7 @@ const cardStyle = { flex: "1 0 30%", margin: 5 };
 const SectionCards = ({
   title = "Nos autres startups",
   className,
+  filter = () => true,
   startups,
 }) => (
   <section className={"section " + className}>
@@ -35,14 +36,17 @@ const SectionCards = ({
           padding: 5,
         }}
       >
-        {startups.reverse().map((startup) => (
-          <Card
-            style={cardStyle}
-            className={startup.finished && "startup--finished"}
-            key={startup.href}
-            {...startup}
-          />
-        ))}
+        {startups
+          .reverse()
+          .filter(filter)
+          .map((startup) => (
+            <Card
+              style={cardStyle}
+              className={startup.finished && "startup--finished"}
+              key={startup.href}
+              {...startup}
+            />
+          ))}
       </div>
     </div>
   </section>
@@ -51,6 +55,7 @@ const SectionCards = ({
 SectionCards.propTypes = {
   cards: PropTypes.arrayOf(PropTypes.object),
   className: PropTypes.string,
+  filter: PropTypes.func,
   startups: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string,
 };
