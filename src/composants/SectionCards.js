@@ -35,7 +35,7 @@ const SectionCards = ({
           padding: 5,
         }}
       >
-        {startups.map((startup) => (
+        {startups.reverse().map((startup) => (
           <Card
             style={cardStyle}
             className={startup.finished && "startup--finished"}
