@@ -98,8 +98,6 @@ div.article__author .article__author-role {
 }
 
 .card.startup--finished {
-  opacity: 20%;
-  filter: grayscale(100%);
 }
 
 @media (max-width: 549px) {

@@ -24,7 +24,7 @@ const Mentions = () => (
       Tél : 01 40 56 60 00
       <br />
       <h3>Directeur de la publication</h3>
-      Hélène Brisset - Directrice du Numérique
+      Anne JeanJean - Directrice du Numérique
       <h3>Hébergement de la plateforme</h3>
       Ce site est hébergé par Microsoft Azure France (région France centre) :
       <br />

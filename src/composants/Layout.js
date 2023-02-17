@@ -12,7 +12,7 @@ const components = {
 const headerLinks = [
   {
     href: "/#produits",
-    title: "Nos produits",
+    title: "Nos startups",
   },
   {
     href: "/actus",
