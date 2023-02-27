@@ -37,6 +37,7 @@
         entreprises simplifie la démarche de demande d'autorisation de travail
         pour les étudiants étrangers.
 - id: e-mjpm
+  finished: 01/02/2023
   href: /startups/e-mjpm
   img: /images/startups/e-MJPM.jpg
   title: e-MJPM
@@ -200,6 +201,7 @@
       href: "https://github.com/SocialGouv/tumeplay"
       description: Le code source de l'application
 - id: medle
+  finished: 01/02/2023
   href: /startups/medle
   img: /images/startups/medle.jpg
   title: MedLé
@@ -287,12 +289,14 @@
       href: "https://github.com/SocialGouv/1000jours"
       description: Bientôt ! Le code source de l'application
 - id: dora
+  finished: 01/01/2023
   href: /startups/dora
   img: /images/startups/photo-1506755594592-349d12a7c52a.jpg
   title: DORA
   meta: Juin 2021
   description: Mobiliser rapidement l’offre d’insertion adaptée aux besoins des bénéficiaires
 - id: carnet.de.bord
+  finished: 01/01/2023
   href: /startups/carnet.de.bord
   img: /images/startups/photo-1473163928189-364b2c4e1135.jpg
   title: Carnet de bord

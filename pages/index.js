@@ -69,7 +69,7 @@ const Homepage = () => (
     />
     <SectionCards
       className="section-color"
-      title="Startups terminées"
+      title="Partenariats terminées"
       filter={(startup) => !!startup.finished}
     />
     <Section
