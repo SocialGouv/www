@@ -131,7 +131,7 @@ const LayoutArticle = ({ meta, footer, children, startupData }) => {
               padding: 10,
             }}
           >
-            Cette startup a cessé son activité au {startupData.finished}
+            Partenariat terminé au {startupData.finished}
           </div>
         )}
         {children}
