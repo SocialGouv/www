@@ -1,3 +1,10 @@
+## [2.37.8](https://github.com/SocialGouv/www/compare/v2.37.7...v2.37.8) (2023-03-01)
+
+
+### Bug Fixes
+
+* set partenariats terminés ([#996](https://github.com/SocialGouv/www/issues/996)) ([4587db6](https://github.com/SocialGouv/www/commit/4587db6f7b96ee05a4a799285b930dc31f93553d))
+
 ## [2.37.7](https://github.com/SocialGouv/www/compare/v2.37.6...v2.37.7) (2023-02-27)
 
 
