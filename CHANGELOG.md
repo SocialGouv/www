@@ -1,3 +1,10 @@
+## [2.37.13](https://github.com/SocialGouv/www/compare/v2.37.12...v2.37.13) (2023-03-29)
+
+
+### Bug Fixes
+
+* release ([4bfeedc](https://github.com/SocialGouv/www/commit/4bfeedcae460a5ecc66c5338916fbb111911481e))
+
 ## [2.37.12](https://github.com/SocialGouv/www/compare/v2.37.11...v2.37.12) (2023-03-27)
 
 
