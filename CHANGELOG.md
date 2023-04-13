@@ -1,3 +1,10 @@
+## [2.37.16](https://github.com/SocialGouv/www/compare/v2.37.15...v2.37.16) (2023-04-13)
+
+
+### Bug Fixes
+
+* upgrade nginx@7.3.1 ([#999](https://github.com/SocialGouv/www/issues/999)) ([cc12e53](https://github.com/SocialGouv/www/commit/cc12e539fef0e86c9a5effd0bde807e2b2dc6328))
+
 ## [2.37.15](https://github.com/SocialGouv/www/compare/v2.37.14...v2.37.15) (2023-04-10)
 
 
