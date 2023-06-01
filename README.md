@@ -58,3 +58,5 @@ Pour synchroniser le contenu depuis beta.gouv, lancer la commande `yarn beta-syn
 
 Les produits doivent être définis dans [./data/startups.yml](https://github.com/SocialGouv/www/blob/master/src/data/startups.yml) et comporter un identifiant `betaId` si différent
 
+
+
