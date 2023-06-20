@@ -1,3 +1,10 @@
+## [2.37.27](https://github.com/SocialGouv/www/compare/v2.37.26...v2.37.27) (2023-06-20)
+
+
+### Bug Fixes
+
+* use harbor ([#1005](https://github.com/SocialGouv/www/issues/1005)) ([f83f775](https://github.com/SocialGouv/www/commit/f83f775ba6ac770fb13478c5e12f54bb3c2aae4c))
+
 ## [2.37.26](https://github.com/SocialGouv/www/compare/v2.37.25...v2.37.26) (2023-06-19)
 
 
