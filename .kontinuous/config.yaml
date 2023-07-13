@@ -1,8 +1,11 @@
 projectName: fabrique
 ciNamespace: ci-fabrique
-kubeconfigContext: ovh-dev
+
+kubeconfigContext:
+  dev: ovh-dev
+  preprod: ovh-dev
 dependencies:
   fabrique:
     extends:
-      - name: ovh
-    import: socialgouv/kontinuous/plugins/fabrique
+    - name: ovh
+      ifEnv: [dev,preprod]
