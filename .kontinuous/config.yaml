@@ -2,8 +2,8 @@ projectName: fabrique
 ciNamespace: ci-fabrique
 
 kubeconfigContext:
-  dev: ovh-dev
-  preprod: ovh-dev
+  dev: ovh
+  preprod: ovh
 dependencies:
   fabrique:
     extends:
