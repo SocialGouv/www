@@ -32,7 +32,7 @@ const Footer = ({
         >
           beta.gouv.fr
         </a>{" "}
-        et la DNUM des ministères sociaux. Hébergé sur OVH :)
+        et la DNUM des ministères sociaux. :)
         <ul className="footer__social">
           <li>
             <a href="https://github.com/SocialGouv" title="GitHub">
