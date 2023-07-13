@@ -1,3 +1,10 @@
+# [2.38.0](https://github.com/SocialGouv/www/compare/v2.37.30...v2.38.0) (2023-07-13)
+
+
+### Features
+
+* ovh ([#1006](https://github.com/SocialGouv/www/issues/1006)) ([e25641a](https://github.com/SocialGouv/www/commit/e25641a6875cc5e88d15505779a019addd228880))
+
 ## [2.37.30](https://github.com/SocialGouv/www/compare/v2.37.29...v2.37.30) (2023-07-10)
 
 
