@@ -6,3 +6,5 @@ dependencies:
     extends:
     - name: ovh
       ifEnv: [dev,preprod]
+    - name: buildkit-service
+      ifEnv: [dev,preprod]
