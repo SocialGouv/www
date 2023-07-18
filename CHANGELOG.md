@@ -1,3 +1,10 @@
+# [2.39.0](https://github.com/SocialGouv/www/compare/v2.38.1...v2.39.0) (2023-07-18)
+
+
+### Features
+
+* enable buildkit-service for ovh ([#1007](https://github.com/SocialGouv/www/issues/1007)) ([7819ec9](https://github.com/SocialGouv/www/commit/7819ec93ff78e775a6107d54591b881099fe415c))
+
 ## [2.38.1](https://github.com/SocialGouv/www/compare/v2.38.0...v2.38.1) (2023-07-17)
 
 
