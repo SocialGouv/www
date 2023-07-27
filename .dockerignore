@@ -1,6 +1,0 @@
-.git
-.github
-*.md
-**/node_modules
-.next
-.kontinuous

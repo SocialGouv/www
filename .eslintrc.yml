@@ -1,6 +1,0 @@
----
-extends:
-  - "@socialgouv/eslint-config-react"
-rules:
-  react/prop-types: warn
-  jest/no-deprecated-functions: off
