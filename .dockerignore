@@ -1,0 +1,8 @@
+.dockerignore
+Dockerfile
+node_modules
+.git
+.github
+.kontinuous
+.gitignore
+.nvmrc

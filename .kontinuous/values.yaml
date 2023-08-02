@@ -3,6 +3,7 @@ app:
   ~needs: [build-app]
   containerPort: 8080
   imagePackage: app # implicit
+  probesPath: /api/healthz
   ingress:
     annotations:
       nginx.ingress.kubernetes.io/configuration-snippet: |

@@ -1,19 +1,35 @@
-.DS_Store
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env*
+!.env.sample
+
+# Next.js build output
 .next
-node_modules
-out
 
-package-lock.json
+# VSCode
+.vscode
 
-*.js~
+# dev assets
+.assets
 
-npm-debug\.log
+# yarn
+yarn-error.log
 
-*.css~
+# jest's coverage output
+coverage
 
+# LHCI
+.lighthouseci
 
-pages/startups/e-mjpm\.mdx~
-
-\.vscode/
+# Yarn Berry
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 old-source
