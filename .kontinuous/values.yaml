@@ -1,7 +1,7 @@
 app:
   ~chart: app # implicit
   ~needs: [build-app]
-  containerPort: 8080
+  containerPort: 3000
   imagePackage: app # implicit
   probesPath: /api/healthz
   ingress:
