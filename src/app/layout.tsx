@@ -6,7 +6,7 @@ import "./globals.css";
 import { defaultColorScheme } from "./defaultColorScheme";
 import Link from "next/link";
 import type { Metadata } from "next";
-import CustomHeader from "./components/CustomHeader";
+import { Header, Footer } from "./components/HeaderAndFooter";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -38,8 +38,9 @@ export default function RootLayout({ children }: { children: JSX.Element }) {
       </head>
       <body>
         <DsfrProvider lang={lang}>
-          <CustomHeader />
+          <Header />
           {children}
+          <Footer />
         </DsfrProvider>
       </body>
     </html>
