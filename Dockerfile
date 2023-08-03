@@ -11,12 +11,13 @@ ENV NEXT_PUBLIC_MATOMO_SITE_ID $NEXT_PUBLIC_MATOMO_SITE_ID
 ENV NEXT_TELEMETRY_DISABLED 1
 
 # install deps
-COPY yarn.lock .yarnrc.yml ./
-COPY .yarn ./.yarn
-RUN yarn fetch
+# COPY yarn.lock .yarnrc.yml ./
+# COPY .yarn ./.yarn
+# RUN yarn fetch
 
 # build
 COPY . .
+RUN yarn install --frozen-lockfile --production
 RUN yarn build
 
 # Production image, copy all the files and run next

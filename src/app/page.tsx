@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { fr } from "@codegouvfr/react-dsfr";
 
 export default function Home() {
