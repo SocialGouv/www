@@ -17,7 +17,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 
 # build
 COPY . .
-RUN yarn install --frozen-lockfile --production
+RUN yarn install --frozen-lockfile --production --ignore-scripts
 RUN yarn build
 
 # Production image, copy all the files and run next
