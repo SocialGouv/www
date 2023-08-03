@@ -2,6 +2,16 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+import { defaultColorScheme } from "./defaultColorScheme";
+import { DsfrHead } from "@codegouvfr/react-dsfr/next-appdir/DsfrHead";
+import { DsfrProvider } from "@codegouvfr/react-dsfr/next-appdir/DsfrProvider";
+import { getHtmlAttributes } from "@codegouvfr/react-dsfr/next-appdir/getHtmlAttributes";
+import { StartDsfr } from "./StartDsfr";
+
+import Link from "next/link";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -14,9 +24,32 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const lang = "fr";
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html {...getHtmlAttributes({ defaultColorScheme, lang })}>
+      <head>
+        <StartDsfr />
+        <DsfrHead Link={Link}
+        preloadFonts={[
+          //"Marianne-Light",
+          //"Marianne-Light_Italic",
+          "Marianne-Regular",
+          //"Marianne-Regular_Italic",
+          "Marianne-Medium",
+          //"Marianne-Medium_Italic",
+          "Marianne-Bold",
+          //"Marianne-Bold_Italic",
+          //"Spectral-Regular",
+          //"Spectral-ExtraBold"
+        ]} />
+      </head>
+      <body className={inter.className}>
+        <DsfrProvider lang={lang}>
+          <Header />
+          {children}
+          <Footer />
+        </DsfrProvider>
+      </body>
     </html>
   )
 }

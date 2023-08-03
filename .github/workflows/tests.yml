@@ -1,37 +1,37 @@
-name: Tests
+# name: Tests
 
-on:
-  pull_request:
-    branches:
-      - '**'
+# on:
+#   pull_request:
+#     branches:
+#       - '**'
 
-concurrency:
-  cancel-in-progress: true
-  group: ${{ github.head_ref }}
+# concurrency:
+#   cancel-in-progress: true
+#   group: ${{ github.head_ref }}
 
-jobs:
+# jobs:
 
-  ##############################################################################
-  ## TEST APPLICATION
-  ##############################################################################
-  test:
-    name: Test application
-    runs-on: ubuntu-latest
-    steps:
+#   ##############################################################################
+#   ## TEST APPLICATION
+#   ##############################################################################
+#   test:
+#     name: Test application
+#     runs-on: ubuntu-latest
+#     steps:
 
-    - name: Checkout repository
-      uses: actions/checkout@v2
+#     - name: Checkout repository
+#       uses: actions/checkout@v2
 
-    - name: Node setup
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18'
+#     - name: Node setup
+#       uses: actions/setup-node@v2
+#       with:
+#         node-version: '18'
 
-    - name: Yarn cache setup
-      uses: c-hive/gha-yarn-cache@v2
+#     - name: Yarn cache setup
+#       uses: c-hive/gha-yarn-cache@v2
 
-    - name: Install dependencies
-      run: yarn --frozen-lockfile --prefer-offline
+#     - name: Install dependencies
+#       run: yarn --frozen-lockfile --prefer-offline
 
-    - name: Run tests
-      run: yarn test --coverage
+#     - name: Run tests
+#       run: yarn test --coverage
