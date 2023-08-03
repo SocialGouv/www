@@ -78,26 +78,27 @@ const navigation: MainNavigationProps.Item[] = [
   },
 ];
 
-const initLinks: FooterProps.LinkList.List = [{ categoryName: "Autres", links: [] }];
-const navigationToFooterLinkList: FooterProps.LinkList.List = navigation.reduce(
-  (linkList, item) => {
-    const otherLinks = linkList[linkList.length - 1];
-    const previousLinks = linkList.slice(0, linkList.length - 1);
-    if (item.menuLinks) {
+const otherLinks: FooterProps.LinkList.Column = {
+  categoryName: "Autres",
+  links: navigation.filter((item) => !item.menuLinks) as FooterProps.LinkList.Links,
+};
+
+const navigationToFooterLinkList: FooterProps.LinkList.List = [
+  ...navigation
+    .filter((item) => !!item.menuLinks?.length)
+    .map((item: MainNavigationProps.Item) => {
+      item = item as MainNavigationProps.Item.Menu;
       const listColumn: FooterProps.LinkList.Column = {
         categoryName: item.text as string,
-        links: item.menuLinks.map((menuLink) => {
+        links: item.menuLinks?.map((menuLink) => {
           const link = menuLink as FooterProps.LinkList.Link;
           return link;
-        }),
+        }) as FooterProps.LinkList.Links,
       };
-      return [...previousLinks, listColumn, otherLinks];
-    }
-    otherLinks.links.push(item as FooterProps.LinkList.Link);
-    return [...previousLinks, otherLinks];
-  },
-  initLinks
-);
+      return listColumn;
+    }),
+  otherLinks,
+] as unknown as FooterProps.LinkList.List;
 
 export function Header() {
   return (
