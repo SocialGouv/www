@@ -1,5 +1,6 @@
-"use client";
-import { fr } from "@codegrouvfr/react-dsfr";
+"use client"
+
+import { fr } from "@codegouvfr/react-dsfr"
 import { Header } from "@codegouvfr/react-dsfr/Header";
 
 export default function CustomHeader() {
@@ -14,7 +15,7 @@ export default function CustomHeader() {
       }
       homeLinkProps={{
         href: "/",
-        title: "Accueil - Nom de l’entité (ministère, secrétariat d‘état, gouvernement)",
+        title: "Accueil - Nom de l'entité (ministère, secrétariat d'état, gouvernement)",
       }}
       id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
       navigation={[
