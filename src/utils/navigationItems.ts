@@ -1,35 +1,33 @@
-import {
-  MainNavigation,
-  type MainNavigationProps,
-} from "@codegouvfr/react-dsfr/MainNavigation"
+import { type MainNavigationProps } from "@codegouvfr/react-dsfr/MainNavigation"
+import { type HeaderProps } from "@codegouvfr/react-dsfr/Header"
 
-export const items: MainNavigationProps.Item[] = [
+const navigationItems: MainNavigationProps.Item[] = [
   {
     menuLinks: [
       {
         linkProps: {
-          href: "#",
+          href: "/startups?categorie=travail",
           target: "_self",
         },
         text: "Travail",
       },
       {
         linkProps: {
-          href: "#",
+          href: "/startups?categorie=solidarites",
           target: "_self",
         },
         text: "Solidarités",
       },
       {
         linkProps: {
-          href: "#",
+          href: "/startups?categorie=sante",
           target: "_self",
         },
         text: "Santé",
       },
       {
         linkProps: {
-          href: "#",
+          href: "/startups",
           target: "_self",
         },
         text: "Tout voir",
@@ -41,21 +39,21 @@ export const items: MainNavigationProps.Item[] = [
     menuLinks: [
       {
         linkProps: {
-          href: "#",
+          href: "/about",
           target: "_self",
         },
         text: "À propos",
       },
       {
         linkProps: {
-          href: "#",
+          href: "/notre-offre",
           target: "_self",
         },
         text: "Notre offre",
       },
       {
         linkProps: {
-          href: "#",
+          href: "/equipe",
           target: "_self",
         },
         text: "L'équipe",
@@ -65,20 +63,28 @@ export const items: MainNavigationProps.Item[] = [
   },
   {
     linkProps: {
-      href: "#",
+      href: "/proposez-vous-idees",
       target: "_self",
     },
     text: "Proposez vos idées",
   },
   {
     linkProps: {
-      href: "#",
+      href: "/recrutement",
       target: "_self",
     },
     text: "Recrutement",
   },
 ]
 
-export default function Navigation() {
-  return <MainNavigation items={items} />
-}
+const quickAccessItems: HeaderProps.QuickAccessItem[] = [
+  {
+    iconId: "fr-icon-file-text-line",
+    linkProps: {
+      href: "/documentation",
+    },
+    text: "Documentation",
+  },
+]
+
+export { navigationItems, quickAccessItems }
