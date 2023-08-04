@@ -1,11 +1,16 @@
-import { Footer as DSFRFooter, type FooterProps } from "@codegouvfr/react-dsfr/Footer";
+import {
+  Footer as DSFRFooter,
+  type FooterProps,
+} from "@codegouvfr/react-dsfr/Footer"
 
-import { items as navigationItems } from "./Navigation";
+import { items as navigationItems } from "./Navigation"
 
 const otherLinks: FooterProps.LinkList.Column = {
   categoryName: "Autres",
-  links: navigationItems.filter((item) => !item.menuLinks) as FooterProps.LinkList.Links,
-};
+  links: navigationItems.filter(
+    (item) => !item.menuLinks
+  ) as FooterProps.LinkList.Links,
+}
 
 const navigationToFooterLinkList: FooterProps.LinkList.List = [
   ...navigationItems
@@ -14,14 +19,14 @@ const navigationToFooterLinkList: FooterProps.LinkList.List = [
       const listColumn: FooterProps.LinkList.Column = {
         categoryName: item.text as string,
         links: item.menuLinks?.map((menuLink) => {
-          const link = menuLink as FooterProps.LinkList.Link;
-          return link;
+          const link = menuLink as FooterProps.LinkList.Link
+          return link
         }) as FooterProps.LinkList.Links,
-      };
-      return listColumn;
+      }
+      return listColumn
     }),
   otherLinks,
-] as unknown as FooterProps.LinkList.List;
+] as unknown as FooterProps.LinkList.List
 
 export default function Footer() {
   return (
@@ -59,5 +64,5 @@ export default function Footer() {
       }}
       linkList={navigationToFooterLinkList}
     />
-  );
+  )
 }
