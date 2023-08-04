@@ -1,4 +1,7 @@
-import { MainNavigation, type MainNavigationProps } from "@codegouvfr/react-dsfr/MainNavigation";
+import {
+  MainNavigation,
+  type MainNavigationProps,
+} from "@codegouvfr/react-dsfr/MainNavigation"
 
 export const items: MainNavigationProps.Item[] = [
   {
@@ -74,7 +77,7 @@ export const items: MainNavigationProps.Item[] = [
     },
     text: "Recrutement",
   },
-];
+]
 
 export default function Navigation() {
   return <MainNavigation items={items} />

@@ -1,5 +1,5 @@
-import Navigation from "./Navigation";
-import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header";
+import Navigation from "./Navigation"
+import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
 
 export default function Header() {
   return (
@@ -13,7 +13,8 @@ export default function Header() {
       }
       homeLinkProps={{
         href: "/",
-        title: "Accueil - Nom de l'entité (ministère, secrétariat d'état, gouvernement)",
+        title:
+          "Accueil - Nom de l'entité (ministère, secrétariat d'état, gouvernement)",
       }}
       id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
       navigation={<Navigation />}
@@ -29,5 +30,5 @@ export default function Header() {
       serviceTagline="Un incubateur betagouv 🥸"
       serviceTitle="La Fabrique des Ministères Sociaux"
     />
-  );
+  )
 }
