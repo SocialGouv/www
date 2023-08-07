@@ -1,5 +1,5 @@
 import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
-import { quickAccessItems } from "@/utils/navigationItems"
+import { quickAccessItems } from "@/utils/quickAccessItems"
 import Navigation from "./Navigation"
 
 export default function Header() {

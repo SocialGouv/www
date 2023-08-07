@@ -39,7 +39,7 @@ const navigationItems: MainNavigationProps.Item[] = [
     menuLinks: [
       {
         linkProps: {
-          href: "/about",
+          href: "/a-propos",
           target: "_self",
         },
         text: "À propos",
@@ -77,14 +77,4 @@ const navigationItems: MainNavigationProps.Item[] = [
   },
 ]
 
-const quickAccessItems: HeaderProps.QuickAccessItem[] = [
-  {
-    iconId: "fr-icon-file-text-line",
-    linkProps: {
-      href: "/documentation",
-    },
-    text: "Documentation",
-  },
-]
-
-export { navigationItems, quickAccessItems }
+export { navigationItems }
