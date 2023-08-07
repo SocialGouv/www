@@ -1,5 +1,6 @@
-import Navigation from "./Navigation"
 import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
+import { quickAccessItems } from "@/utils/quickAccessItems"
+import Navigation from "./Navigation"
 
 export default function Header() {
   return (
@@ -18,15 +19,7 @@ export default function Header() {
       }}
       id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
       navigation={<Navigation />}
-      quickAccessItems={[
-        {
-          iconId: "fr-icon-file-text-line",
-          linkProps: {
-            href: "/documentation",
-          },
-          text: "Documentation",
-        },
-      ]}
+      quickAccessItems={quickAccessItems}
       serviceTagline="Un incubateur betagouv 🥸"
       serviceTitle="La Fabrique des Ministères Sociaux"
     />
