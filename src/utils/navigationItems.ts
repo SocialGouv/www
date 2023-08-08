@@ -1,5 +1,4 @@
 import { type MainNavigationProps } from "@codegouvfr/react-dsfr/MainNavigation"
-import { type HeaderProps } from "@codegouvfr/react-dsfr/Header"
 
 const navigationItems: MainNavigationProps.Item[] = [
   {
@@ -13,10 +12,10 @@ const navigationItems: MainNavigationProps.Item[] = [
       },
       {
         linkProps: {
-          href: "/startups?categorie=solidarites",
+          href: "/startups?categorie=solidarite",
           target: "_self",
         },
-        text: "Solidarités",
+        text: "Solidarité",
       },
       {
         linkProps: {

@@ -1,4 +1,6 @@
-import { NextResponse } from "next/server"
+// disabled fast refresh ? https://nextjs.org/docs/architecture/fast-refresh#tips
+// @refresh reset
+import { NextResponse, NextRequest } from "next/server"
 import type { Incubator } from "@/types/incubator"
 import type { StartupBetaGouv, StartupLocal, Startup } from "@/types/startup"
 import fs from "fs"
@@ -15,7 +17,7 @@ interface BetaGouvStartupsData {
   included: Incubator[]
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   // we can't fetch the data from beta.gouv.fr directly in /app/startups/page.tsx
   // because the json is too big to be cached
   // we have to fetch the data from beta.gouv.fr through a server-side API call
@@ -74,7 +76,21 @@ export async function GET() {
     }
   })
 
-  console.log("mergedData", mergedData)
+  const categorie = request.nextUrl.searchParams.get("categorie")
+
+  if (categorie) {
+    return NextResponse.json(
+      mergedData.filter((startup) => {
+        if (categorie === "solidarite") {
+          return startup.attributes.ministere === "solidarité"
+        }
+        if (categorie === "sante") {
+          return startup.attributes.ministere === "santé"
+        }
+        return startup.attributes.ministere === categorie
+      })
+    )
+  }
 
   return NextResponse.json(mergedData)
 }

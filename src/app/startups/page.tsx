@@ -3,13 +3,17 @@ import { fr } from "@codegouvfr/react-dsfr"
 import Card from "@codegouvfr/react-dsfr/Card"
 import type { Startup } from "@/types/startup"
 
-async function getData() {
+async function getData(searchParams) {
   // we can't fetch the startups.json data from beta.gouv.fr directly in here
   // because the json is too big to be cached
   // we have to fetch the data from beta.gouv.fr through a server-side API call in api/startups/route.ts
   // then filter out the data we need there, then this request here will be cached
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_HOST}/api/startups`)
+  let url = new URL(`${process.env.NEXT_PUBLIC_API_HOST}/api/startups`)
+  if (searchParams.categorie) {
+    url.searchParams.append("categorie", searchParams.categorie)
+  }
+  const res = await fetch(url.toString())
 
   if (!res.ok) {
     throw new Error("Failed to fetch data")
@@ -20,8 +24,14 @@ async function getData() {
 
 export const revalidate = 3600
 
-export default async function Recrutement() {
-  const data: Startup[] = await getData()
+export default async function Startups({
+  params,
+  searchParams,
+}: {
+  params: { slug: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}) {
+  const data: Startup[] = await getData(searchParams)
 
   return (
     <section>
