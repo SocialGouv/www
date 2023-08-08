@@ -34,39 +34,58 @@ export default async function Startups({
   const data: Startup[] = await getData(searchParams)
 
   return (
-    <section>
-      <h1 className={fr.cx("fr-h1")}>Nos Startups</h1>
-      <div className={clsx(fr.cx("fr-container"), fr.cx("fr-py-6w"))}>
-        <div className={fr.cx("fr-container--fluid")}>
-          <div
-            className={clsx(
-              fr.cx("fr-grid-row"),
-              fr.cx("fr-grid-row--gutters")
-            )}
-          >
-            {data?.map((startup) => {
-              return (
-                <div
-                  key={startup.id}
-                  className={clsx(fr.cx("fr-col-12"), fr.cx("fr-col-md-3"))}
-                >
-                  <Card
-                    title={startup.attributes.name}
-                    desc={startup.attributes.pitch}
-                    detail={startup.attributes.ministere?.toLocaleUpperCase()}
-                    enlargeLink
-                    imageAlt={`Logo de ${startup.attributes.name}`}
-                    imageUrl={`https://beta.gouv.fr/img/startups/${startup.id}.png`}
-                    linkProps={{
-                      href: `/startups/${startup.id}`,
-                    }}
-                  />
-                </div>
-              )
-            })}
+    <>
+      <section className="p-24 bg-white">
+        <h1 className={fr.cx("fr-h1")}>Nos Startups</h1>
+        <div className={clsx(fr.cx("fr-container"), fr.cx("fr-py-6w"))}>
+          <div className={fr.cx("fr-container--fluid")}>
+            <div
+              className={clsx(
+                fr.cx("fr-grid-row"),
+                fr.cx("fr-grid-row--gutters")
+              )}
+            >
+              {data?.map((startup) => {
+                return (
+                  <div
+                    key={startup.id}
+                    className={clsx(fr.cx("fr-col-12"), fr.cx("fr-col-md-3"))}
+                  >
+                    <Card
+                      title={startup.attributes.name}
+                      className={clsx(fr.cx("fr-card--grey"))}
+                      desc={startup.attributes.pitch}
+                      detail={startup.attributes.ministere?.toLocaleUpperCase()}
+                      enlargeLink
+                      imageAlt={`Logo de ${startup.attributes.name}`}
+                      imageUrl={`https://beta.gouv.fr/img/startups/${startup.id}.png`}
+                      linkProps={{
+                        href: `/startups/${startup.id}`,
+                      }}
+                    />
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        className={clsx(
+          fr.cx("fr-follow"),
+          "w-full px-24",
+          fr.cx("fr-grid-row")
+        )}
+      >
+        <div className={clsx(fr.cx("fr-col-12"), fr.cx("fr-col-md-8"))}>
+          <div className={fr.cx("fr-follow__newsletter")}>
+            <h2 className={fr.cx("fr-h5")}>Proposez une idée</h2>
+            <p className={fr.cx("fr-text--sm")}>
+              Eh oui, vous aussi vous pouvez proposer une idée de startup d'État
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </>
   )
 }
