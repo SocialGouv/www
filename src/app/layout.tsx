@@ -24,7 +24,7 @@ export default function RootLayout({
   const lang = "fr"
 
   return (
-    <html {...getHtmlAttributes({ defaultColorScheme, lang })}>
+    <html {...getHtmlAttributes({ defaultColorScheme: "light", lang })}>
       <head>
         <StartDsfr />
         <DsfrHead
