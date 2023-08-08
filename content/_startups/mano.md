@@ -1,0 +1,4 @@
+---
+name: MANO
+ministere: solidarité
+---

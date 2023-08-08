@@ -1,0 +1,4 @@
+---
+name: maraudes
+ministere: solidarité
+---

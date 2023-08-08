@@ -4,7 +4,7 @@ import { DsfrHead } from "@codegouvfr/react-dsfr/next-appdir/DsfrHead"
 import { DsfrProvider } from "@codegouvfr/react-dsfr/next-appdir/DsfrProvider"
 import { getHtmlAttributes } from "@codegouvfr/react-dsfr/next-appdir/getHtmlAttributes"
 
-import "@/styles/globals.css"
+import "@/styles/global.css"
 import { defaultColorScheme } from "@/styles/defaultColorScheme"
 import { StartDsfr } from "@/components/StartDsfr"
 import Header from "@/components/Header"
