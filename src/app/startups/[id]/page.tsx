@@ -93,15 +93,6 @@ export default async function Details({
           </div>
         </div>
       </div>
-      {/* <div>
-        <b>image</b>:{" "}
-        <Image
-          width={400}
-          height={250}
-          alt="image d'illustration de la startup"
-          src={`https://beta.gouv.fr/img/startups/${id}.png`}
-        />
-      </div> */}
       <div className="fr-py-6w">
         <div className="fr-container">
           <MDXRemote source={markdown} components={component} />
