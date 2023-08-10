@@ -58,7 +58,7 @@ export default async function Details({
       <div className="fr-py-6w">
         <div className="fr-container flex">
           <div className="flex-1">
-            <h1 className={fr.cx("fr-h1")}>{name}</h1>
+            <h1 className="fr-h1">{name}</h1>
             <p className="fr-h3">{pitch}</p>
             <div>
               <a href={link} target="_blank" rel="noopener">
