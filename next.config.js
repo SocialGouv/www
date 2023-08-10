@@ -8,6 +8,16 @@ const nextConfig = {
     })
     return config
   },
+  images: {
+    remotePatterns: [
+      {
+        port: "",
+        protocol: "https",
+        hostname: "beta.gouv.fr",
+        pathname: "/img/startups/**",
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig
