@@ -1,10 +1,10 @@
 import {
-  Footer as DSFRFooter,
   type FooterProps,
+  Footer as DSFRFooter,
 } from "@codegouvfr/react-dsfr/Footer"
 
-import { navigationItems } from "@/utils/navigationItems"
-import { quickAccessItems } from "@/utils/quickAccessItems"
+import { navigationItems } from "@/utils/navigation-items"
+import { quickAccessItems } from "@/utils/quick-access-items"
 
 const otherLinks: FooterProps.LinkList.Column = {
   categoryName: "Autres",

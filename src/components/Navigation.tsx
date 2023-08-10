@@ -1,7 +1,7 @@
 "use client"
 
 import { useMemo } from "react"
-import { navigationItems } from "@/utils/navigationItems"
+import { navigationItems } from "@/utils/navigation-items"
 import { usePathname, useSearchParams } from "next/navigation"
 import {
   MainNavigation,

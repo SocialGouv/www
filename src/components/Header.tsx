@@ -1,9 +1,8 @@
-import { quickAccessItems } from "@/utils/quickAccessItems"
+import { Suspense } from "react"
+import { quickAccessItems } from "@/utils/quick-access-items"
 import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
 
-import Navigation from "./Navigation"
-
-import { Suspense } from "react"
+import Navigation from "@/components/navigation"
 
 const NavigationFallback = () => <>NavigationFallback</>
 
