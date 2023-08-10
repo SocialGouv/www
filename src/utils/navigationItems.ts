@@ -1,40 +1,6 @@
 import { type MainNavigationProps } from "@codegouvfr/react-dsfr/MainNavigation"
-import { type HeaderProps } from "@codegouvfr/react-dsfr/Header"
 
 const navigationItems: MainNavigationProps.Item[] = [
-  {
-    menuLinks: [
-      {
-        linkProps: {
-          href: "/startups?categorie=travail",
-          target: "_self",
-        },
-        text: "Travail",
-      },
-      {
-        linkProps: {
-          href: "/startups?categorie=solidarites",
-          target: "_self",
-        },
-        text: "Solidarités",
-      },
-      {
-        linkProps: {
-          href: "/startups?categorie=sante",
-          target: "_self",
-        },
-        text: "Santé",
-      },
-      {
-        linkProps: {
-          href: "/startups",
-          target: "_self",
-        },
-        text: "Tout voir",
-      },
-    ],
-    text: "Nos startups",
-  },
   {
     menuLinks: [
       {
@@ -60,6 +26,13 @@ const navigationItems: MainNavigationProps.Item[] = [
       },
     ],
     text: "La Fabrique",
+  },
+  {
+    linkProps: {
+      href: "/startups",
+      target: "_self",
+    },
+    text: "Nos startups",
   },
   {
     linkProps: {

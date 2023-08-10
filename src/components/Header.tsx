@@ -7,21 +7,20 @@ export default function Header() {
     <DSFRHeader
       brandTop={
         <>
-          LA FABRIQUE
+          MINISTÈRES
           <br />
-          DES MINISTÈRES SOCIAUX
+          SOCIAUX
         </>
       }
       homeLinkProps={{
         href: "/",
-        title:
-          "Accueil - Nom de l'entité (ministère, secrétariat d'état, gouvernement)",
+        title: "Accueil - La Fabrique Numérique",
       }}
       id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
       navigation={<Navigation />}
       quickAccessItems={quickAccessItems}
-      serviceTagline="Un incubateur betagouv 🥸"
-      serviceTitle="La Fabrique des Ministères Sociaux"
+      serviceTagline="L'incubateur des ministères sociaux"
+      serviceTitle="La Fabrique Numérique"
     />
   )
 }
