@@ -5,7 +5,7 @@ import { DsfrProvider } from "@codegouvfr/react-dsfr/next-appdir/DsfrProvider"
 import { getHtmlAttributes } from "@codegouvfr/react-dsfr/next-appdir/getHtmlAttributes"
 
 import "@/styles/globals.css"
-import { defaultColorScheme } from "@/styles/defaultColorScheme"
+// import { defaultColorScheme } from "@/styles/defaultColorScheme"
 import { StartDsfr } from "@/components/StartDsfr"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
@@ -46,12 +46,7 @@ export default function RootLayout({
       <body>
         <DsfrProvider lang={lang}>
           <Header />
-          <main
-          // id="contenu"
-          // className="flex min-h-screen flex-col items-center justify-between p-24"
-          >
-            {children}
-          </main>
+          <main>{children}</main>
           <Footer />
         </DsfrProvider>
       </body>
