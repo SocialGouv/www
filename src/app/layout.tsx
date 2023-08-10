@@ -44,11 +44,11 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <DsfrProvider lang={lang}>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </DsfrProvider>
+        {/* <DsfrProvider lang={lang}> */}
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        {/* </DsfrProvider> */}
       </body>
     </html>
   )

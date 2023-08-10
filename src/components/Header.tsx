@@ -1,6 +1,17 @@
-import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
 import { quickAccessItems } from "@/utils/quickAccessItems"
+import { Header as DSFRHeader } from "@codegouvfr/react-dsfr/Header"
+
 import Navigation from "./Navigation"
+
+import { Suspense } from "react"
+
+const NavigationFallback = () => <>NavigationFallback</>
+
+const NavigationSuspense = () => (
+  <Suspense fallback={<NavigationFallback />}>
+    <Navigation />
+  </Suspense>
+)
 
 export default function Header() {
   return (
@@ -12,15 +23,12 @@ export default function Header() {
           SOCIAUX
         </>
       }
-      homeLinkProps={{
-        href: "/",
-        title: "Accueil - La Fabrique Numérique",
-      }}
-      id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
-      navigation={<Navigation />}
+      navigation={<NavigationSuspense />}
       quickAccessItems={quickAccessItems}
-      serviceTagline="L'incubateur des ministères sociaux"
       serviceTitle="La Fabrique Numérique"
+      serviceTagline="L'incubateur des ministères sociaux"
+      homeLinkProps={{ href: "/", title: "Accueil - La Fabrique Numérique" }}
+      id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
     />
   )
 }

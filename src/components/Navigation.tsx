@@ -1,11 +1,12 @@
 "use client"
+
 import { useMemo } from "react"
+import { navigationItems } from "@/utils/navigationItems"
 import { usePathname, useSearchParams } from "next/navigation"
 import {
   MainNavigation,
   type MainNavigationProps,
 } from "@codegouvfr/react-dsfr/MainNavigation"
-import { navigationItems } from "@/utils/navigationItems"
 
 export default function Navigation() {
   const pathname = usePathname()
@@ -33,6 +34,7 @@ export default function Navigation() {
         }
       }
     )
+
     return activeNavigationItems
   }, [pathname, searchParams])
 
