@@ -47,8 +47,8 @@ export default function RootLayout({
         <DsfrProvider lang={lang}>
           <Header />
           <main
-            id="contenu"
-            className="flex min-h-screen flex-col items-center justify-between p-24"
+          // id="contenu"
+          // className="flex min-h-screen flex-col items-center justify-between p-24"
           >
             {children}
           </main>
