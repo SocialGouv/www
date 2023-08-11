@@ -22,17 +22,19 @@ export default async function Details({
 }) {
   const startup = getStartup(id)
 
-  const { attributes } = startup
   const {
-    name,
-    link,
-    pitch,
-    contact,
-    stats_url,
-    repository,
-    accessibility_status,
-    content_url_encoded_markdown,
-  } = attributes
+    attributes: {
+      name,
+      link,
+      pitch,
+      phases,
+      contact,
+      stats_url,
+      repository,
+      accessibility_status,
+      content_url_encoded_markdown,
+    },
+  } = startup
 
   const markdown = await remark().process(
     decodeURIComponent(content_url_encoded_markdown)
@@ -102,8 +104,18 @@ export default async function Details({
           <div>
             <b>accessibility status</b>: {accessibility_status}
           </div>
+          <div>
+            {phases.map((phase, i) => (
+              <div key={i}>
+                <div>{phase.name}</div>
+                <div>{phase.start}</div>
+                <div>{phase.end}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
       <div className="fr-py-6w">
         <div className="fr-container">
           <MDXRemote source={markdown} components={component} />
