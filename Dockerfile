@@ -1,5 +1,3 @@
-# ARG NODE_VERSION=16-alpine3.18@sha256:82bcf77a5de631c6b19f4449ccec82bfbb7d8f6c94d6ae3bdf760ed67e080cb1
-
 # Install dependencies only when needed
 FROM node:16-alpine3.18 AS base
 RUN apk add --no-cache libc6-compat=1.2.4-r1
@@ -19,13 +17,6 @@ RUN yarn install --frozen-lockfile --ignore-scripts
 
 # Rebuild the source code only when needed
 FROM node:16-alpine3.18 AS builder
-
-# ARG PRODUCTION
-# ENV PRODUCTION $PRODUCTION
-# ARG COMMIT_SHA
-# ENV COMMIT_SHA $COMMIT_SHA
-# ARG NEXT_PUBLIC_SITE_URL
-# ENV NEXT_PUBLIC_SITE_URL $NEXT_PUBLIC_SITE_URL
 
 ENV NODE_ENV production
 WORKDIR /app
