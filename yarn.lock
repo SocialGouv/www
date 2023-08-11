@@ -2416,7 +2416,7 @@ semver@^7.3.5, semver@^7.3.7, semver@^7.5.4:
   dependencies:
     lru-cache "^6.0.0"
 
-sharp@^0.32.4:
+sharp@0.32.4:
   version "0.32.4"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.32.4.tgz#0354653b7924f2520b2264ac9bcd10a58bf411b6"
   integrity sha512-exUnZewqVZC6UXqXuQ8fyJJv0M968feBi04jb9GcUHrWtkRoAKnbJt8IfwT4NJs7FskArbJ14JAFGVuooszoGg==

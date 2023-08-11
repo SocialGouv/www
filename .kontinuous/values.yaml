@@ -1,9 +1,9 @@
 app:
-  ~chart: app # implicit
+  # ~chart: app # implicit
   ~needs: [build-app]
-  containerPort: 3000
+  containerPort: 8080
   imagePackage: app # implicit
-  probesPath: /api/healthz
+  # probesPath: /api/healthz
   # ingress:
   #   annotations:
   #     nginx.ingress.kubernetes.io/configuration-snippet: |
@@ -20,3 +20,4 @@ jobs:
         imagePackage: app
         buildArgs:
           COMMIT_SHA: "{{ $.Values.global.sha }}"
+          NEXT_PUBLIC_SITE_URL: "https://{{ $.Values.global.host }}"

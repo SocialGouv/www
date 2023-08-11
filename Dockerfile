@@ -1,44 +1,47 @@
-FROM node:18-alpine as base
-RUN apk add --no-cache libc6-compat
+ARG NODE_VERSION=16-alpine3.18@sha256:82bcf77a5de631c6b19f4449ccec82bfbb7d8f6c94d6ae3bdf760ed67e080cb1
+
+# Install dependencies only when needed
+FROM node:$NODE_VERSION AS prepare
+RUN apk add --no-cache libc6-compat=1.2.4-r1
 WORKDIR /app
+COPY package.json yarn.lock ./
+
+# Keep yarn install cache when bumping version and dependencies still the sames
+RUN node -e " \
+  const package = JSON.parse(fs.readFileSync('/app/package.json')); \
+  const packageZero = { ...package, version: '0.0.0' };  \
+  fs.writeFileSync('/app/package.json', JSON.stringify(packageZero));"
+
+FROM node:$NODE_VERSION as deps
+WORKDIR /app
+COPY --from=prepare /app/package.json /app/yarn.lock ./
+RUN yarn install --frozen-lockfile
 
 # Rebuild the source code only when needed
-FROM base AS builder
-ARG NEXT_PUBLIC_MATOMO_URL
-ENV NEXT_PUBLIC_MATOMO_URL $NEXT_PUBLIC_MATOMO_URL
-ARG NEXT_PUBLIC_MATOMO_SITE_ID
-ENV NEXT_PUBLIC_MATOMO_SITE_ID $NEXT_PUBLIC_MATOMO_SITE_ID
-ENV NEXT_TELEMETRY_DISABLED 1
+FROM node:$NODE_VERSION AS builder
 
-# install deps
-# COPY yarn.lock .yarnrc.yml ./
-# COPY .yarn ./.yarn
-# RUN yarn fetch
+ARG PRODUCTION
+ENV PRODUCTION $PRODUCTION
+ARG COMMIT_SHA
+ENV COMMIT_SHA $COMMIT_SHA
+ARG NEXT_PUBLIC_SITE_URL
+ENV NEXT_PUBLIC_SITE_URL $NEXT_PUBLIC_SITE_URL
 
-# build
+ENV NODE_ENV production
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN yarn install --frozen-lockfile --production --ignore-scripts
+# RUN if [ -z "$PRODUCTION" ]; then \
+#   echo "Overriding .env for staging"; \
+#   cp .env.staging .env.production; \
+#   fi && \
+#   yarn build:export 
 RUN yarn build
 
 # Production image, copy all the files and run next
-FROM base AS runner
+FROM ghcr.io/socialgouv/docker/nginx:sha-1d70757 AS runner
 
-ENV NODE_ENV production
+COPY --from=builder /app/out /usr/share/nginx/html
+
+# Disable nextjs telemetry
 ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN addgroup --system --gid 1001 nodejs && \
-  adduser --system --uid 1001 nextjs
-
-# You only need to copy next.config.js if you are NOT using the default configuration
-COPY --from=builder /app/next.config.js ./
-COPY --from=builder /app/public ./public
-
-# Automatically leverage output traces to reduce image size
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER 1001
-EXPOSE 3000
-ENV PORT 3000
-
-CMD ["node", "server.js"]

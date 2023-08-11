@@ -6,3 +6,5 @@ node_modules
 .kontinuous
 .gitignore
 .nvmrc
+.next
+out
