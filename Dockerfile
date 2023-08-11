@@ -15,7 +15,7 @@ RUN node -e " \
 FROM node:16-alpine3.18 as deps
 WORKDIR /app
 COPY --from=base /app/package.json /app/yarn.lock ./
-RUN yarn install --frozen-lockfile
+RUN yarn install --frozen-lockfile --ignore-scripts
 
 # Rebuild the source code only when needed
 FROM node:16-alpine3.18 AS builder
@@ -31,11 +31,6 @@ ENV NODE_ENV production
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-# RUN if [ -z "$PRODUCTION" ]; then \
-#   echo "Overriding .env for staging"; \
-#   cp .env.staging .env.production; \
-#   fi && \
-#   yarn build:export 
 RUN yarn build
 
 # Production image, copy all the files and run next
