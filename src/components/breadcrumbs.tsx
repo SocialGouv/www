@@ -16,7 +16,7 @@ export default function Breadcrumbs() {
   const crumbs = pathname.split("/")
 
   // TODO: rewrite
-  let lastLabel = ""
+  let currentPageLabel = ""
   let segments: {
     label: ReactNode
     linkProps: RegisteredLinkProps
@@ -25,9 +25,9 @@ export default function Breadcrumbs() {
   crumbs.shift()
 
   if (crumbs.length === 1) {
-    lastLabel = capitalizeFirstLetter(crumbs[0])
+    currentPageLabel = capitalizeFirstLetter(crumbs[0])
   } else {
-    lastLabel = getStartup(crumbs[1]).attributes.name
+    currentPageLabel = getStartup(crumbs[1]).attributes.name
     segments = [
       {
         label: capitalizeFirstLetter(crumbs[0]),
@@ -42,8 +42,8 @@ export default function Breadcrumbs() {
     <div className="fr-container">
       <Breadcrumb
         segments={segments}
-        currentPageLabel={lastLabel}
         homeLinkProps={{ href: "/" }}
+        currentPageLabel={currentPageLabel}
       />
     </div>
   )
