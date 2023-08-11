@@ -1,44 +1,35 @@
-FROM node:18-alpine as base
-RUN apk add --no-cache libc6-compat
+# Install dependencies only when needed
+FROM node:16-alpine3.18 AS base
+RUN apk add --no-cache libc6-compat=1.2.4-r1
 WORKDIR /app
+COPY package.json yarn.lock ./
+
+# Keep yarn install cache when bumping version and dependencies still the sames
+RUN node -e " \
+  const package = JSON.parse(fs.readFileSync('/app/package.json')); \
+  const packageZero = { ...package, version: '0.0.0' };  \
+  fs.writeFileSync('/app/package.json', JSON.stringify(packageZero));"
+
+FROM node:16-alpine3.18 as deps
+WORKDIR /app
+COPY --from=base /app/package.json /app/yarn.lock ./
+RUN yarn install --frozen-lockfile --ignore-scripts
 
 # Rebuild the source code only when needed
-FROM base AS builder
-ARG NEXT_PUBLIC_MATOMO_URL
-ENV NEXT_PUBLIC_MATOMO_URL $NEXT_PUBLIC_MATOMO_URL
-ARG NEXT_PUBLIC_MATOMO_SITE_ID
-ENV NEXT_PUBLIC_MATOMO_SITE_ID $NEXT_PUBLIC_MATOMO_SITE_ID
-ENV NEXT_TELEMETRY_DISABLED 1
+FROM node:16-alpine3.18 AS builder
 
-# install deps
-# COPY yarn.lock .yarnrc.yml ./
-# COPY .yarn ./.yarn
-# RUN yarn fetch
-
-# build
+ENV NODE_ENV production
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN yarn install --frozen-lockfile --production --ignore-scripts
 RUN yarn build
 
 # Production image, copy all the files and run next
-FROM base AS runner
+FROM ghcr.io/socialgouv/docker/nginx:sha-1d70757 AS runner
 
-ENV NODE_ENV production
+USER 101
+
+COPY --from=builder /app/out /usr/share/nginx/html
+
+# Disable nextjs telemetry
 ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN addgroup --system --gid 1001 nodejs && \
-  adduser --system --uid 1001 nextjs
-
-# You only need to copy next.config.js if you are NOT using the default configuration
-COPY --from=builder /app/next.config.js ./
-COPY --from=builder /app/public ./public
-
-# Automatically leverage output traces to reduce image size
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER 1001
-EXPOSE 3000
-ENV PORT 3000
-
-CMD ["node", "server.js"]

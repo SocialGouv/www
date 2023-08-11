@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export",
   webpack: (config) => {
     config.module.rules.push({
       test: /\.woff2$/,
       type: "asset/resource",
     })
     return config
+  },
+  images: {
+    unoptimized: true,
   },
 }
 
