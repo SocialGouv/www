@@ -1,7 +1,7 @@
-ARG NODE_VERSION=16-alpine3.18@sha256:82bcf77a5de631c6b19f4449ccec82bfbb7d8f6c94d6ae3bdf760ed67e080cb1
+# ARG NODE_VERSION=16-alpine3.18@sha256:82bcf77a5de631c6b19f4449ccec82bfbb7d8f6c94d6ae3bdf760ed67e080cb1
 
 # Install dependencies only when needed
-FROM node:$NODE_VERSION AS prepare
+FROM node:16-alpine3.18@sha256:82bcf77a5de631c6b19f4449ccec82bfbb7d8f6c94d6ae3bdf760ed67e080cb1 AS base
 RUN apk add --no-cache libc6-compat=1.2.4-r1
 WORKDIR /app
 COPY package.json yarn.lock ./
@@ -12,13 +12,13 @@ RUN node -e " \
   const packageZero = { ...package, version: '0.0.0' };  \
   fs.writeFileSync('/app/package.json', JSON.stringify(packageZero));"
 
-FROM node:$NODE_VERSION as deps
+FROM base as deps
 WORKDIR /app
-COPY --from=prepare /app/package.json /app/yarn.lock ./
+COPY --from=base /app/package.json /app/yarn.lock ./
 RUN yarn install --frozen-lockfile
 
 # Rebuild the source code only when needed
-FROM node:$NODE_VERSION AS builder
+FROM base AS builder
 
 ARG PRODUCTION
 ENV PRODUCTION $PRODUCTION
@@ -40,6 +40,8 @@ RUN yarn build
 
 # Production image, copy all the files and run next
 FROM ghcr.io/socialgouv/docker/nginx:sha-1d70757 AS runner
+
+USER 101
 
 COPY --from=builder /app/out /usr/share/nginx/html
 
