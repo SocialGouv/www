@@ -6,6 +6,8 @@ import { MDXRemote } from "next-mdx-remote/rsc"
 
 import getStartup from "./get-startup"
 import getStartups from "../get-startups"
+import CodeDuTravail from "@/content/startups/codedutravail.mdx"
+import dynamic from "next/dynamic"
 
 export async function generateStaticParams() {
   const startups = getStartups()
@@ -39,6 +41,13 @@ export default async function Details({
   const markdown = await remark().process(
     decodeURIComponent(content_url_encoded_markdown)
   )
+
+  // const MD = await import(`../../../content/startups/${id}.mdx`)
+  // const MD = dynamic(import(`../../../content/startups/${id}.mdx`), {
+  //   ssr: false,
+  // })
+  const Toto = dynamic(import(`../../../content/startups/${id}.mdx`))
+  console.log("MD", Toto)
 
   const component = {
     h1: ({ children }: { children: React.ReactNode }) => (
@@ -116,6 +125,8 @@ export default async function Details({
         </div>
       </div>
 
+      <CodeDuTravail />
+      <Toto />
       <div className="fr-py-6w">
         <div className="fr-container">
           <MDXRemote source={markdown} components={component} />
