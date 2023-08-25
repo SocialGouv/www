@@ -1,5 +1,7 @@
 import json from "./startups.json"
 
+export type Startup = (typeof json.data)[number]
+
 export default function getStartups() {
   const { data } = json
   const excludedPhases = ["transfer", "alumni"]
