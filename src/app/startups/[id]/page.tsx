@@ -15,7 +15,7 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function Details({
+export default async function StartupPage({
   params: { id },
 }: {
   params: { id: string }
@@ -51,10 +51,11 @@ export default async function Details({
               </a>
             </div>
           </div>
-          <div>
+          <div className="relative flex-1">
             <Image
-              width={400}
-              height={200}
+              fill
+              sizes="500px"
+              style={{ objectFit: "contain" }}
               alt="image d'illustration de la startup"
               src={`https://beta.gouv.fr/img/startups/${id}.png`}
             />
