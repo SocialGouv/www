@@ -6,6 +6,7 @@ import getStartup from "./get-startup"
 import getStartups from "../get-startups"
 import RemoteContent from "./remote-content"
 import LocalContent from "./local-content"
+import RandomStartups from "@/components/random-startups"
 
 export async function generateStaticParams() {
   const startups = getStartups()
@@ -89,10 +90,11 @@ export default async function StartupPage({
         </div>
       </div>
 
-      <LocalContent id={id} />
       <RemoteContent
         content_url_encoded_markdown={content_url_encoded_markdown}
       />
+      <LocalContent id={id} />
+      <RandomStartups />
     </div>
   )
 }
