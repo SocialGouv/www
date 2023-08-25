@@ -7,6 +7,7 @@ import getStartups from "../get-startups"
 import RemoteContent from "./remote-content"
 import LocalContent from "./local-content"
 import RandomStartups from "@/components/random-startups"
+import CallForIdeas from "@/components/call-for-ideas"
 
 export async function generateStaticParams() {
   const startups = getStartups()
@@ -40,7 +41,7 @@ export default async function StartupPage({
   } = startup
 
   return (
-    <div className="startups-details">
+    <div className="startup-page">
       <div className="fr-py-6w">
         <div className="fr-container flex">
           <div className="flex-1">
@@ -95,6 +96,7 @@ export default async function StartupPage({
       />
       <LocalContent id={id} />
       <RandomStartups />
+      <CallForIdeas />
     </div>
   )
 }
