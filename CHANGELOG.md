@@ -1,3 +1,10 @@
+## [2.39.7](https://github.com/SocialGouv/www/compare/v2.39.6...v2.39.7) (2023-08-30)
+
+
+### Bug Fixes
+
+* **secu:** securityContect ([#1043](https://github.com/SocialGouv/www/issues/1043)) ([f026e8e](https://github.com/SocialGouv/www/commit/f026e8ee585318cd4e98f8022da2e4a3dce0a288))
+
 ## [2.39.6](https://github.com/SocialGouv/www/compare/v2.39.5...v2.39.6) (2023-08-28)
 
 
