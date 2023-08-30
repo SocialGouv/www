@@ -4,7 +4,5 @@ ciNamespace: ci-fabrique
 dependencies:
   fabrique:
     extends:
-    - name: ovh
-      ifEnv: [dev,preprod]
-    - name: buildkit-service
-      ifEnv: [dev,preprod]
+      - name: ovh
+      - name: buildkit-service
