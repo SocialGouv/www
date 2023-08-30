@@ -2,7 +2,11 @@ app:
   ~chart: app # implicit
   ~needs: [build-app]
   containerPort: 8080
-  imagePackage: app # implicit
+  securityContext:
+    fsGroup: 101
+    runAsGroup: 101
+    runAsNonRoot: true
+    runAsUser: 101
   ingress:
     annotations:
       nginx.ingress.kubernetes.io/configuration-snippet: |
