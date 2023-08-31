@@ -1,12 +1,12 @@
 import { Card } from "@codegouvfr/react-dsfr/Card"
 import { Badge } from "@codegouvfr/react-dsfr/Badge"
 
-import type { Startup } from "../../app/startups/get-startups"
+import { type Startup } from "../../app/startups/[id]/get-startup"
 
 export default function StartupsListItem({ startup }: { startup: Startup }) {
   const {
     id,
-    attributes: { name, pitch, phases },
+    attributes: { name, pitch, phases, organisation },
   } = startup
   const phase = phases.pop()?.name
   const severity = phase === "success" ? "success" : "info"
@@ -15,7 +15,7 @@ export default function StartupsListItem({ startup }: { startup: Startup }) {
     <Card
       key={id}
       enlargeLink
-      title={name}
+      title={`${name} (${organisation?.acronym})`}
       desc={pitch}
       linkProps={{ href: `/startups/${id}` }}
       imageAlt="image d'illustration de la startup"

@@ -1,0 +1,768 @@
+[
+    
+        {
+            "id": "acoss"
+            ,"name": "Agence Centrale des Organismes de Sécurité Sociale"
+            ,"acronym": "ACOSS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "securite-sociale"
+        }
+        ,
+    
+        {
+            "id": "action-logement"
+            ,"name": "Action logement"
+            ,"acronym": "AL"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "ademe"
+            ,"name": "Agence de la transition écologique"
+            ,"acronym": "ADEME"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "agence-bio"
+            ,"name": "Agence Française pour le Développement et la Promotion de l&#39;Agriculture Biologique"
+            ,"acronym": "Agence Bio"
+            ,"domaine_ministeriel": "agriculture"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "anah"
+            ,"name": "Agence nationale de l’habitat"
+            ,"acronym": "ANAH"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "anct"
+            ,"name": "Agence Nationale de la Cohésion des Territoires"
+            ,"acronym": "ANCT"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "ans"
+            ,"name": "Agence du numérique en santé"
+            ,"acronym": "ANS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "anssi"
+            ,"name": "Agence nationale de la sécurité des systèmes d&#39;information"
+            ,"acronym": "ANSSI"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "armees"
+            ,"name": "Ministère des Armées"
+            ,"acronym": "MA"
+            ,"domaine_ministeriel": "armees"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "ars-franche-comte"
+            ,"name": "Agence régionale de sante"
+            ,"acronym": "ARS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "service-deconcentre"
+        }
+        ,
+    
+        {
+            "id": "assemblee-nationale"
+            ,"name": "Assemblée nationale"
+            ,"acronym": "Assemblée nationale"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "bdf"
+            ,"name": "Banque de France"
+            ,"acronym": "BDF"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "c-comptes"
+            ,"name": "La Cours des Comptes"
+            ,"acronym": "C. comptes"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "cdc"
+            ,"name": "Caisse des dépôts et consignations"
+            ,"acronym": "Caisse des dépôts"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "cerema"
+            ,"name": "Centre d&#39;études et d&#39;expertise sur les risques, l&#39;environnement, la mobilité et l&#39;aménagement"
+            ,"acronym": "CEREMA"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "cgdd"
+            ,"name": "Commissariat général au développement durable"
+            ,"acronym": "CGDD"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "cma-haut-de-france"
+            ,"name": "Chambre de Métiers et de l&#39;Artisanat Hauts-de-France"
+            ,"acronym": "CMA Hauts de France"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "collectivite-territoriale"
+        }
+        ,
+    
+        {
+            "id": "cnam"
+            ,"name": "Caisse nationale d&#39;assurance maladie"
+            ,"acronym": "CNAM"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "cnav"
+            ,"name": "CNAV"
+            ,"acronym": "CNAV"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "securite-sociale"
+        }
+        ,
+    
+        {
+            "id": "cnsa"
+            ,"name": "Caisse nationale pour la solidarite et l&#39;autonomie"
+            ,"acronym": "CNSA"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "securite-sociale"
+        }
+        ,
+    
+        {
+            "id": "cstb"
+            ,"name": "Centre scientifique et technique du bâtiment"
+            ,"acronym": "CSTB"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "ddd"
+            ,"name": "Défenseur des Droits"
+            ,"acronym": "DDD"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "departement-oise"
+            ,"name": "Département du Oise"
+            ,"acronym": "Oise"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "collectivite-territoriale"
+        }
+        ,
+    
+        {
+            "id": "departement-pas-de-calais"
+            ,"name": "Département du Pas-de-calais"
+            ,"acronym": "Pas-de-calais"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "collectivite-territoriale"
+        }
+        ,
+    
+        {
+            "id": "departement-var"
+            ,"name": "Département du Var"
+            ,"acronym": "Var"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "collectivite-territoriale"
+        }
+        ,
+    
+        {
+            "id": "dg-tresor"
+            ,"name": "Direction générale du Trésor"
+            ,"acronym": "DG Trésor"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgac"
+            ,"name": "Direction générale de l’aviation civile"
+            ,"acronym": "DGAC"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgafp"
+            ,"name": "Direction générale de l’administration et de la fonction publique"
+            ,"acronym": "DGAFP"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgal"
+            ,"name": "Direction générale de l&#39;alimentation"
+            ,"acronym": "DGAL"
+            ,"domaine_ministeriel": "agriculture"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgaln"
+            ,"name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature"
+            ,"acronym": "DGALN"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgca"
+            ,"name": "Direction générale de la création artistique"
+            ,"acronym": "DGCA"
+            ,"domaine_ministeriel": "culture"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgccrf"
+            ,"name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes"
+            ,"acronym": "DGCCRF"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgcs"
+            ,"name": "Direction générale de la cohésion sociale"
+            ,"acronym": "DGCS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgddi"
+            ,"name": "Direction Générale des Douanes et Droits Indirects"
+            ,"acronym": "DGDDI"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dge"
+            ,"name": "Direction générale des entreprises"
+            ,"acronym": "DGE"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgeb"
+            ,"name": "Direction de l&#39;Eau et de la Biodiversité"
+            ,"acronym": "DGEB"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgec"
+            ,"name": "Direction generale de l&#39;Energie et du Climat"
+            ,"acronym": "DGEC"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgefp"
+            ,"name": "Délégation générale à l&#39;emploi et à la formation professionnelle"
+            ,"acronym": "DGEFP"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgesco"
+            ,"name": "Direction générale de l&#39;enseignement scolaire"
+            ,"acronym": "DGESCO"
+            ,"domaine_ministeriel": "education"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgesip"
+            ,"name": "Direction générale de l&#39;enseignement supérieur et de l&#39;insertion professionnelle"
+            ,"acronym": "DGESIP"
+            ,"domaine_ministeriel": "enseignement-sup"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgfip"
+            ,"name": "Direction générale des Finances publiques"
+            ,"acronym": "DGFiP"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgitm"
+            ,"name": "Direction générale des infrastructures, des transports et des mobilités"
+            ,"acronym": "DGITM"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgos"
+            ,"name": "Direction generale de l’offre de soins"
+            ,"acronym": "DGOS"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgpat"
+            ,"name": "Direction générale des patrimoines"
+            ,"acronym": "DGPat"
+            ,"domaine_ministeriel": "culture"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgpr"
+            ,"name": "Direction générale de la Prévention des risques"
+            ,"acronym": "DGPR"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgs"
+            ,"name": "Direction generale de la sante"
+            ,"acronym": "DGS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dgt"
+            ,"name": "Délégation générale du travail"
+            ,"acronym": "DGT"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dhup"
+            ,"name": "Direction de l&#39;habitat, de l&#39;urbanisme et des paysages"
+            ,"acronym": "DHUP"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dia-tnd"
+            ,"name": "Délégation interministérielle à la stratégie nationale pour l&#39;autisme au sein des troubles du neuro-développement"
+            ,"acronym": "DIA-TND"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dihal"
+            ,"name": "Délégation interministérielle à l&#39;hébergement et à l&#39;accès au logement"
+            ,"acronym": "DIHAL"
+            ,"domaine_ministeriel": "territoires"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dinum"
+            ,"name": "Direction interministérielle du numérique"
+            ,"acronym": "DINUM"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "ditp"
+            ,"name": "Direction interministérielle de la transformation publique"
+            ,"acronym": "DITP"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "djepva"
+            ,"name": "Direction de la jeunesse, de l’éducation populaire et de la vie associative"
+            ,"acronym": "DJEPVA"
+            ,"domaine_ministeriel": "education"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "dns"
+            ,"name": "Délégation du numérique en santé"
+            ,"acronym": "DNS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "drieat"
+            ,"name": "Direction régionale et interdépartementale de l’Environnement, de l’Aménagement et des Transports d’Île-de-France"
+            ,"acronym": "DRIEAT"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "dsr"
+            ,"name": "Délégation à la sécurité routière"
+            ,"acronym": "DSR"
+            ,"domaine_ministeriel": "interieur"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "fnccr"
+            ,"name": "Fédération Nationale des Collectivités Concédantes et des Régies"
+            ,"acronym": "FNCCR"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "gip-inclusion"
+            ,"name": "GIP Plateforme de l&#39;inclusion"
+            ,"acronym": "gip-inclusion"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "hcc"
+            ,"name": "Haut commissariat aux compétences"
+            ,"acronym": "HCC"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "hcp"
+            ,"name": "Haut Commissariat au Plan"
+            ,"acronym": "HCP"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "igj"
+            ,"name": "Inspection générale de la Justice"
+            ,"acronym": "IGJ"
+            ,"domaine_ministeriel": "justice"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "ign"
+            ,"name": "Institut national de l&#39;information géographique et forestière"
+            ,"acronym": "IGN"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "igpn"
+            ,"name": "Inspection Générale de la Police Nationale"
+            ,"acronym": "IGPN"
+            ,"domaine_ministeriel": "interieur"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "inca"
+            ,"name": "Institut national du cancer"
+            ,"acronym": "INCA"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "interieur"
+            ,"name": "Ministère de l&#39;Intérieur"
+            ,"acronym": "MI"
+            ,"domaine_ministeriel": "interieur"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "justice"
+            ,"name": "Ministère de la Justice"
+            ,"acronym": "MJ"
+            ,"domaine_ministeriel": "justice"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mc"
+            ,"name": "Ministère de la Culture"
+            ,"acronym": "MC"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mctrct"
+            ,"name": "Ministère de la Cohésion des territoires et des relations avec les collectivités territoriales"
+            ,"acronym": "MCTRCT"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "meae"
+            ,"name": "Ministère de l&#39;Europe et des Affaires Etrangères"
+            ,"acronym": "MEAE"
+            ,"domaine_ministeriel": "affaires-etrangeres"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mefr"
+            ,"name": "Ministère de l&#39;économie, des finances et de la relance"
+            ,"acronym": "MEFR"
+            ,"domaine_ministeriel": "bercy"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "menjs"
+            ,"name": "Ministère de l’Éducation nationale, de la Jeunesse et des Sports"
+            ,"acronym": "MENJS"
+            ,"domaine_ministeriel": "education"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mesr"
+            ,"name": "Ministère Enseignement Supérieur et de la Recherche et de l&#39;Innovation"
+            ,"acronym": "MESRI"
+            ,"domaine_ministeriel": "enseignement-sup"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mj"
+            ,"name": "Ministère de la Justice"
+            ,"acronym": "MJ"
+            ,"domaine_ministeriel": "justice"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "msjop"
+            ,"name": "Ministère des Sports et des Jeux olympiques et paralympiques"
+            ,"acronym": "MSJOP"
+            ,"domaine_ministeriel": "sport"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mtei"
+            ,"name": "Ministère du Travail, de l&#39;Emploi et de l&#39;Insertion"
+            ,"acronym": "MTEI"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mtes"
+            ,"name": "Ministère de la Transition Écologique"
+            ,"acronym": "MTE"
+            ,"domaine_ministeriel": "environnement"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "mtfp"
+            ,"name": "Ministère de la Transformation et de la fonction publiques"
+            ,"acronym": "MTFP"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "nouvelle-caledonie"
+            ,"name": "Gouvernement de la Nouvelle-Calédonie"
+            ,"acronym": "NC"
+            ,"domaine_ministeriel": "autres"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "onisep"
+            ,"name": "Office national diInformations sur les enseignements et les professions"
+            ,"acronym": "ONISEP"
+            ,"domaine_ministeriel": "education"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "pole-emploi"
+            ,"name": "Pôle emploi"
+            ,"acronym": "PE"
+            ,"domaine_ministeriel": "travail"
+            ,"type": "operateur"
+        }
+        ,
+    
+        {
+            "id": "sgdsn"
+            ,"name": "Secrétariat général de la défense et de la sécurité nationale"
+            ,"acronym": "SGDSN"
+            ,"domaine_ministeriel": "spm"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "shom"
+            ,"name": "Service hydrographique et océanographique de la Marine"
+            ,"acronym": "SHOM"
+            ,"domaine_ministeriel": "armees"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "sndv"
+            ,"name": "Agence Nationale des Données de Voyage"
+            ,"acronym": "ANDV"
+            ,"domaine_ministeriel": "interieur"
+            ,"type": "autre"
+        }
+        ,
+    
+        {
+            "id": "solidarite-sante"
+            ,"name": "Ministère des Solidarités et de la Santé"
+            ,"acronym": "MSS"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "administration-centrale"
+        }
+        ,
+    
+        {
+            "id": "urssaf"
+            ,"name": "Urssaf Caisse nationale"
+            ,"acronym": "Urssaf"
+            ,"domaine_ministeriel": "solidarite-sante"
+            ,"type": "securite-sociale"
+        }
+        
+    
+]
