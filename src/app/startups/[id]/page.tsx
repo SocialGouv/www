@@ -33,8 +33,10 @@ export default async function StartupPage({
       pitch,
       phases,
       contact,
+      sponsors,
       stats_url,
       repository,
+      organisation,
       accessibility_status,
       content_url_encoded_markdown,
     },
@@ -78,6 +80,12 @@ export default async function StartupPage({
           </div>
           <div>
             <b>accessibility status</b>: {accessibility_status}
+          </div>
+          <div>
+            <b>sponsors</b>: {sponsors}
+          </div>
+          <div>
+            <b>organisation</b>: {organisation.name} ({organisation.acronym})
           </div>
           <div>
             {phases.map((phase, i) => (

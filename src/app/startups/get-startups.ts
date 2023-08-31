@@ -1,15 +1,18 @@
 import json from "./startups.json"
-
-export type Startup = (typeof json.data)[number]
+import { Startup } from "./[id]/get-startup"
+import getOrganisation from "./[id]/get-organisation"
 
 export default function getStartups() {
-  const { data } = json
+  const data = json.data as Startup[]
   const excludedPhases = ["transfer", "alumni"]
 
   return data.reduce(
     (startups, startup) => {
       const {
-        attributes: { phases },
+        attributes: {
+          phases,
+          sponsors: [sponsor, ...rest],
+        },
       } = startup
 
       if (
@@ -17,6 +20,12 @@ export default function getStartups() {
         startup.relationships.incubator.data.id === "sgmas" &&
         !phases.some((phase) => excludedPhases.includes(phase.name))
       ) {
+        const organisation = getOrganisation(
+          sponsor.replace("/organisations/", "")
+        )
+        if (organisation) {
+          startup.attributes.organisation = organisation
+        }
         startups.push(startup)
       }
 
