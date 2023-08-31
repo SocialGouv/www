@@ -1,5 +1,5 @@
 import json from "./startups.json"
-import { Startup } from "./[id]/get-startup"
+import type { Startup } from "./[id]/get-startup"
 import getOrganisation from "./[id]/get-organisation"
 
 export default function getStartups(): Startup[] {

@@ -15,9 +15,9 @@ export default function StartupsListItem({ startup }: { startup: Startup }) {
     <Card
       key={id}
       enlargeLink
-      title={`${name} (${organisation?.acronym})`}
       desc={pitch}
       linkProps={{ href: `/startups/${id}` }}
+      title={`${name} (${organisation?.acronym})`}
       imageAlt="image d'illustration de la startup"
       imageUrl={`https://beta.gouv.fr/img/startups/${id}.png`}
       start={
