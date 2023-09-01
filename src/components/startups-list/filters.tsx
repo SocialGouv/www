@@ -1,16 +1,16 @@
 import Link from "next/link"
 
 export default function Filters() {
-  const statuses = ["investigation", "construction", "accélération", "succès"]
+  const phases = ["investigation", "construction", "acceleration", "success"]
 
   return (
     <div className="filters">
-      {statuses.map((status, i) => (
+      {phases.map((phase, i) => (
         <>
-          <Link key={i} href={{ query: { statut: status } }}>
-            {status}
+          <Link key={i} href={{ query: { phase } }}>
+            {phase}
           </Link>
-          &nbsp;|&nbsp;
+          {i < phases.length - 1 && <>&nbsp;|&nbsp;</>}
         </>
       ))}
     </div>

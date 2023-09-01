@@ -4,10 +4,10 @@ import { fr } from "@codegouvfr/react-dsfr"
 
 import getStartup from "./get-startup"
 import getStartups from "../get-startups"
-import RemoteContent from "./remote-content"
 import LocalContent from "./local-content"
-import RandomStartups from "@/components/random-startups"
+import RemoteContent from "./remote-content"
 import CallForIdeas from "@/components/call-for-ideas"
+import RandomStartups from "@/components/random-startups"
 
 export async function generateStaticParams() {
   const startups = getStartups()

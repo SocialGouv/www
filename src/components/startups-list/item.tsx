@@ -10,6 +10,7 @@ export default function StartupsListItem({ startup }: { startup: Startup }) {
   } = startup
   const phase = phases.pop()?.name
   const severity = phase === "success" ? "success" : "info"
+  // console.log("PHASE", id, phase)
 
   return (
     <Card
