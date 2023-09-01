@@ -2,6 +2,8 @@ import { fr } from "@codegouvfr/react-dsfr"
 import StartupsList from "@/components/startups-list"
 import Filters from "@/components/startups-list/filters"
 
+export const dynamic = "force-static"
+
 export default function StartupsPage({
   searchParams: { phase },
 }: {

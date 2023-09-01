@@ -1,7 +1,7 @@
 import { Card } from "@codegouvfr/react-dsfr/Card"
 import { Badge } from "@codegouvfr/react-dsfr/Badge"
 
-import { type Startup } from "../../app/startups/[id]/get-startup"
+import type { Startup } from "@/utils/get-startups"
 
 export default function StartupsListItem({ startup }: { startup: Startup }) {
   const {
@@ -10,7 +10,6 @@ export default function StartupsListItem({ startup }: { startup: Startup }) {
   } = startup
   const phase = phases.pop()?.name
   const severity = phase === "success" ? "success" : "info"
-  // console.log("PHASE", id, phase)
 
   return (
     <Card
