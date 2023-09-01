@@ -1,4 +1,4 @@
-import organisations from "../organisations.json"
+import organisations from "@/data/organisations.json"
 
 export type Organisation = (typeof organisations)[number]
 

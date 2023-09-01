@@ -1,5 +1,5 @@
 import Item from "@/components/startups-list/item"
-import getStartups from "@/app/startups/get-startups"
+import getStartups from "@/utils/get-startups"
 import getRandomEntries from "@/utils/get-random-entries"
 
 export default function RandomStartups() {

@@ -2,12 +2,11 @@ import Image from "next/image"
 
 import { fr } from "@codegouvfr/react-dsfr"
 
-import getStartup from "./get-startup"
-import getStartups from "../get-startups"
-import RemoteContent from "./remote-content"
 import LocalContent from "./local-content"
-import RandomStartups from "@/components/random-startups"
+import RemoteContent from "./remote-content"
+import getStartups from "@/utils/get-startups"
 import CallForIdeas from "@/components/call-for-ideas"
+import RandomStartups from "@/components/random-startups"
 
 export async function generateStaticParams() {
   const startups = getStartups()
@@ -22,7 +21,7 @@ export default async function StartupPage({
 }: {
   params: { id: string }
 }) {
-  const startup = getStartup(id)
+  const [startup, ...rest] = getStartups({ id })
   const theme = fr.getColors(false)
   const blueCumulus = theme.decisions.background.alt.blueCumulus.default
 
