@@ -27,7 +27,6 @@ export default function getStartups({
     } = startup
 
     const currentPhase = phases[phases.length - 1]
-    // console.log("CURRENT PHASE", phase, startup.id, currentPhase)
 
     if (
       startup.type === "startup" &&
@@ -43,7 +42,6 @@ export default function getStartups({
       if (organisation) {
         startup.attributes.organisation = organisation
       }
-      // console.log("PUSH", phase, startup.id, phases, currentPhase)
 
       startups.push(startup)
     }

@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export default function Filters({
   selectedPhase,
   onClick,
@@ -10,12 +8,12 @@ export default function Filters({
   const phases = ["investigation", "construction", "acceleration", "success"]
 
   return (
-    <div className="filters">
+    <div className="filters flex">
       {phases.map((phase, i) => (
-        <div className="filter" key={i}>
+        <div className="filter flex" key={`phase-filter-${phase}`}>
           <div
             onClick={() => onClick(phase)}
-            className={selectedPhase === phase ? "selected" : ""}
+            className={selectedPhase === phase ? "selected text-red-700" : ""}
           >
             {phase}
           </div>

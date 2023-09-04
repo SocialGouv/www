@@ -8,7 +8,7 @@ export default function StartupsListItem({ startup }: { startup: Startup }) {
     id,
     attributes: { name, pitch, phases, organisation },
   } = startup
-  const phase = phases.pop()?.name
+  const phase = phases.slice(-1).pop()?.name
   const severity = phase === "success" ? "success" : "info"
 
   return (

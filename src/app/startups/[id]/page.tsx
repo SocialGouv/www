@@ -22,8 +22,7 @@ export default async function StartupPage({
   params: { id: string }
 }) {
   const [startup, ...rest] = getStartups({ id })
-  const theme = fr.getColors(false)
-  const blueCumulus = theme.decisions.background.alt.blueCumulus.default
+  const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
 
   const {
     attributes: {
