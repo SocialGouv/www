@@ -2,8 +2,7 @@ import { fr } from "@codegouvfr/react-dsfr"
 import Image from "next/image"
 
 export default function AboutPage() {
-  const theme = fr.getColors(false)
-  const blueCumulus = theme.decisions.background.alt.blueCumulus.default
+  const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
 
   return (
     <section>

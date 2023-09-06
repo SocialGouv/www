@@ -7,7 +7,7 @@ import { getHtmlAttributes } from "@codegouvfr/react-dsfr/next-appdir/getHtmlAtt
 // import { defaultColorScheme } from "@/styles/defaultColorScheme"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { StartDsfr } from "@/utils/start-dsfr"
+import { StartDsfr } from "@/components/start-dsfr"
 
 import "@/styles/globals.css"
 

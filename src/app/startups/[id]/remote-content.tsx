@@ -1,6 +1,6 @@
 import { remark } from "remark"
 
-import MDXComponent from "@/utils/mdx-component"
+import MDXComponent from "@/components/mdx-component"
 
 export default async function RemoteContent({
   content_url_encoded_markdown,

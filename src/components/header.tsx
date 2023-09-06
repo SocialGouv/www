@@ -23,7 +23,7 @@ export default function Header() {
         </>
       }
       navigation={<NavigationSuspense />}
-      quickAccessItems={quickAccessItems}
+      // quickAccessItems={quickAccessItems}
       serviceTitle="La Fabrique Numérique"
       serviceTagline="L'incubateur des ministères sociaux"
       homeLinkProps={{ href: "/", title: "Accueil - La Fabrique Numérique" }}

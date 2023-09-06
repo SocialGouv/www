@@ -19,10 +19,10 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@codegouvfr/react-dsfr@0.73.2":
-  version "0.73.2"
-  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-0.73.2.tgz#765f6306936c9b3eb9d766151a78d54aff6705ea"
-  integrity sha512-hBdlD27/LR8IZ6ZE99vM70UdoJX83LsBpude+Lu2qxxoFNhFQ00aOmHdfYqnUYXH/M7bwWX8xBHV87V9T1zLUg==
+"@codegouvfr/react-dsfr@0.75.3":
+  version "0.75.3"
+  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-0.75.3.tgz#8f9218d134693d6b296a1ee23ee28c961664a786"
+  integrity sha512-ltOlkdh35oCJG0P1iIRx0DNLYVbBBTrhNdFoxRczC1Q9WVQIVN5NnyniMMIEWszysg9zRQBWHfOqkcbact7Ngw==
   dependencies:
     tsafe "^1.6.3"
 
