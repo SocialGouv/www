@@ -1,3 +1,10 @@
+## [2.39.10](https://github.com/SocialGouv/www/compare/v2.39.9...v2.39.10) (2023-09-06)
+
+
+### Bug Fixes
+
+* update member jo ([6dde12a](https://github.com/SocialGouv/www/commit/6dde12ae5951691a3595c098fda46a17ea033e6e))
+
 ## [2.39.9](https://github.com/SocialGouv/www/compare/v2.39.8...v2.39.9) (2023-09-04)
 
 
