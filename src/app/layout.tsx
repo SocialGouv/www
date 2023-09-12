@@ -46,7 +46,7 @@ export default function RootLayout({
       <body>
         <DsfrProvider lang={lang}>
           <Header />
-          <main>{children}</main>
+          <main className="py-24">{children}</main>
           <Footer />
         </DsfrProvider>
       </body>
