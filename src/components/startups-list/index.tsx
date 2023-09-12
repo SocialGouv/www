@@ -47,9 +47,17 @@ export default function StartupsList() {
     return groups
   }, {} as groupedStartups)
 
+  function handleClick(phase: string) {
+    if (phase === selectedPhase) {
+      setSelectedPhase(undefined)
+    } else {
+      setSelectedPhase(phase)
+    }
+  }
+
   return (
-    <div className="startups">
-      <Filters onClick={setSelectedPhase} selectedPhase={selectedPhase} />
+    <div className="startups relative">
+      <Filters onClick={handleClick} selectedPhase={selectedPhase} />
       <div className="list">
         {Object.entries(groupedStartups).map(([domain, startups]) => (
           <section key={`group-${domain}`} className="fr-mt-6w">

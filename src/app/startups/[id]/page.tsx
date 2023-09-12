@@ -1,5 +1,4 @@
 import Image from "next/image"
-
 import { fr } from "@codegouvfr/react-dsfr"
 
 import LocalContent from "./local-content"
