@@ -21,7 +21,7 @@ export default function Methods() {
         numériques. Cela permet de garantir un cadre à la fois pour les équipes
         mais également pour nos partenaires.
       </p>
-      <div className="flex gap-x-12 my-16">
+      <div className="flex gap-x-12 my-12">
         <div className="flex-1 flex flex-col items-center">
           <div className="h-52">
             <Image

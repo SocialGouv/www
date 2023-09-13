@@ -58,9 +58,9 @@ export default function StartupsList() {
   return (
     <div className="startups relative">
       <Filters onClick={handleClick} selectedPhase={selectedPhase} />
-      <div className="list">
+      <div className="list flex flex-col gap-12">
         {Object.entries(groupedStartups).map(([domain, startups]) => (
-          <section key={`group-${domain}`} className="fr-mt-6w">
+          <section key={`group-${domain}`}>
             <h2 className="fr-h2">{getGroupTitle(domain)}</h2>
             <div className="grid grid-cols-4 gap-6">
               {startups.map((startup) => (
