@@ -12,7 +12,7 @@
     "prebuild": "only-include-used-icons"
   },
   "dependencies": {
-    "@codegouvfr/react-dsfr": "0.75.3",
+    "@codegouvfr/react-dsfr": "0.75.8",
     "@next/mdx": "13.4.13",
     "@types/node": "20.4.6",
     "@types/react": "18.2.18",
