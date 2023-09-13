@@ -12,7 +12,7 @@ export default function NotreOffre() {
         simplification des démarches administratives, l&apos;automatisation de
         processus, etc.
       </p>
-      <h2 className="fr-h2">Incubateur de services numériques</h2>
+      <h2 className="fr-h2 my-12">Incubateur de services numériques</h2>
       <div className="flex flex-col gap-12">
         <section>
           <h3 className="fr-h3 text-blue-900">
