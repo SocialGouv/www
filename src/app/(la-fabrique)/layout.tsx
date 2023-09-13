@@ -1,6 +1,6 @@
 import Breadcrumbs from "@/components/breadcrumbs"
 
-export default function StartupsLayout({
+export default function FabriqueLayout({
   children,
 }: {
   children: React.ReactNode
