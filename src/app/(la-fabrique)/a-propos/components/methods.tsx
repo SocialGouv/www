@@ -1,12 +1,12 @@
 import Image from "next/image"
 import { fr } from "@codegouvfr/react-dsfr"
 
-import imageAgile from "./agile.svg"
-import imageMethod1 from "./method-1.svg"
-import imageMethod2 from "./method-2.svg"
-import imageMethod3 from "./method-3.svg"
-import imageMethod4 from "./method-4.svg"
-import imageMethod5 from "./method-5.svg"
+import imageAgile from "../images/agile.svg"
+import imageMethod1 from "../images/method-1.svg"
+import imageMethod2 from "../images/method-2.svg"
+import imageMethod3 from "../images/method-3.svg"
+import imageMethod4 from "../images/method-4.svg"
+import imageMethod5 from "../images/method-5.svg"
 
 export default function Methods() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default

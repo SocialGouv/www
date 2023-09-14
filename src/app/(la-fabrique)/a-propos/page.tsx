@@ -1,7 +1,7 @@
-import Kpis from "./kpis"
-import Intro from "./intro"
-import Methods from "./methods"
-import History from "./history"
+import Kpis from "./components/kpis"
+import Intro from "./components/intro"
+import Methods from "./components/methods"
+import History from "./components/history"
 
 export default function AboutPage() {
   return (
