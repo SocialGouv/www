@@ -1,3 +1,10 @@
+## [2.39.12](https://github.com/SocialGouv/www/compare/v2.39.11...v2.39.12) (2023-09-15)
+
+
+### Bug Fixes
+
+* typo ([068f5c2](https://github.com/SocialGouv/www/commit/068f5c2b79dfad1d0e6d35f1f4605a1fd412c37b))
+
 ## [2.39.11](https://github.com/SocialGouv/www/compare/v2.39.10...v2.39.11) (2023-09-11)
 
 
