@@ -15,7 +15,6 @@ export default function NotreOffre() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
 
   return (
-    // <div className="fr-container">
     <>
       <div className="fr-container">
         <h1 className="fr-h1">Notre offre</h1>
@@ -64,7 +63,7 @@ export default function NotreOffre() {
           </p>
           <div className="flex gap-x-12">
             <div className="flex-1 flex flex-col items-center">
-              <div className="h-32 flex items-center h-44">
+              <div className="flex items-center h-44">
                 <Image
                   width={200}
                   height={125}
@@ -110,7 +109,7 @@ export default function NotreOffre() {
               </p>
             </div>
             <div className="flex-1 flex flex-col items-center">
-              <div className="h-32 flex items-center h-44">
+              <div className="flex items-center h-44">
                 <Image
                   width={200}
                   height={125}
@@ -164,7 +163,7 @@ export default function NotreOffre() {
             <p>Elle se caractérise en 4 phases :</p>
             <div className="flex mt-6">
               <div className="flex-1 flex flex-col mt-28">
-                <div className="h-32 flex items-center h-56">
+                <div className="flex items-center h-56">
                   <Image
                     sizes="100vw"
                     src={selectingTeamImage}
@@ -195,7 +194,7 @@ export default function NotreOffre() {
                 </div>
               </div>
               <div className="flex-1 flex flex-col">
-                <div className="h-32 flex items-center h-56">
+                <div className="flex items-center h-56">
                   <Image
                     sizes="100vw"
                     src={teamWorkImage}
@@ -227,7 +226,7 @@ export default function NotreOffre() {
                 </div>
               </div>
               <div className="flex-1 flex flex-col mt-28">
-                <div className="h-32 flex items-center h-56">
+                <div className="flex items-center h-56">
                   <Image
                     sizes="100vw"
                     src={launchingImage}
@@ -259,7 +258,7 @@ export default function NotreOffre() {
                 </div>
               </div>
               <div className="flex-1 flex flex-col items-center">
-                <div className="h-32 flex items-center h-56">
+                <div className="flex items-center h-56">
                   <Image
                     sizes="100vw"
                     src={investingImage}
@@ -282,6 +281,5 @@ export default function NotreOffre() {
         </section>
       </div>
     </>
-    // </div>
   )
 }
