@@ -1,13 +1,17 @@
-import { fr } from "@codegouvfr/react-dsfr"
+import Image from "next/image"
+
+import imageHome from "./tour-mirabeau.jpg"
 
 export default function Home() {
   return (
-    <>
-      <section>
-        <h1 className={fr.cx("fr-h1")}>
-          Santé, Solidarité, Travail: nos startups à votre service
-        </h1>
-      </section>
-    </>
+    <div className="fr-container">
+      <Image
+        sizes="100vw"
+        src={imageHome}
+        alt="photo de la tour Mirabeau"
+        style={{ width: "auto", height: "100%" }}
+      />
+      <h2 className="fabnum-title-h2">La Fabrique Numérique</h2>
+    </div>
   )
 }
