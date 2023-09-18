@@ -3,6 +3,7 @@ import { fr } from "@codegouvfr/react-dsfr"
 
 import "./styles/index.css"
 import imageLightBulb from "./images/lightbulb.svg"
+import Link from "next/link"
 
 export default function CallForIdeas() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
@@ -21,7 +22,7 @@ export default function CallForIdeas() {
           Participez à l&apos;amélioration du service public des Ministères
           Sociaux en nous proposant vos idées de startups
         </p>
-        <button className="fr-btn">JE POSTULE !</button>
+        <button className="fr-btn px-24">JE POSTULE !</button>
         <Image
           width={130}
           height={130}

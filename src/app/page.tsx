@@ -7,6 +7,7 @@ import imageCoreTeam from "./(la-fabrique)/equipe/images/core-team.svg"
 import launchingImage from "./(la-fabrique)/notre-offre/images/launching.svg"
 import RandomStartups from "@/components/random-startups"
 import CallForIdeas from "@/components/call-for-ideas"
+import Link from "next/link"
 
 export default function Home() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
@@ -31,9 +32,12 @@ export default function Home() {
                 style={{ width: "80%", height: "auto" }}
               />
             </div>
-            <div className="font-bold text-2xl text-blue-900 mt-6">
+            <Link
+              href="/a-propos"
+              className="font-bold text-2xl text-blue-900 mt-6 no-underline"
+            >
               A propos
-            </div>
+            </Link>
           </div>
           <div className="flex flex-col items-center flex-1">
             <div className="flex h-60 items-center justify-center">
@@ -44,9 +48,12 @@ export default function Home() {
                 style={{ width: "80%", height: "auto" }}
               />
             </div>
-            <div className="font-bold text-2xl text-blue-900 mt-6">
+            <Link
+              href="/notre-offre"
+              className="font-bold text-2xl text-blue-900 mt-6 no-underline"
+            >
               Notre offre
-            </div>
+            </Link>
           </div>
           <div className="flex flex-col items-center flex-1">
             <div className="flex h-60 items-center justify-center">
@@ -57,9 +64,12 @@ export default function Home() {
                 style={{ width: "100%", height: "auto" }}
               />
             </div>
-            <div className="font-bold text-2xl text-blue-900 mt-6">
+            <Link
+              href="/equipe"
+              className="font-bold text-2xl text-blue-900 mt-6 no-underline"
+            >
               L&apos;équipe
-            </div>
+            </Link>
           </div>
         </section>
       </div>
@@ -68,11 +78,14 @@ export default function Home() {
           <RandomStartups />
         </div>
         <div className="flex justify-center">
-          <button className="fr-btn">TOUTES LES STARTUPS</button>
+          <Link href="/startups" className="fr-btn px-24">
+            TOUTES LES STARTUPS
+          </Link>
+          {/* <button className="fr-btn px-24">TOUTES LES STARTUPS</button> */}
         </div>
       </section>
       <section>
-        <div className="fr-container flex font-bold text-xl text-blue-900 py-12">
+        <div className="fr-container flex font-bold text-xl text-blue-900 py-12 pl-24">
           <div className="flex flex-col flex-1">
             <div className="text-5xl">27</div>
             <div>Startups</div>
