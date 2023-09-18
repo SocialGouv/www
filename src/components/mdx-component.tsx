@@ -13,7 +13,7 @@ export default function MDXComponent({
       <h1 className="fr-h1">{children}</h1>
     ),
     h2: ({ children }: { children: React.ReactNode }) => (
-      <h2 className="fr-h2">{children}</h2>
+      <h2 className="fr-h2 text-blue-900">{children}</h2>
     ),
     h3: ({ children }: { children: React.ReactNode }) => (
       <h2 className="fr-h3">{children}</h2>

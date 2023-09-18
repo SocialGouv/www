@@ -39,3 +39,24 @@ body {
   border: 1px solid black;
   @apply border-blue-900;
 }
+
+.fabnum-title-h2 {
+  @apply
+  flex
+  pb-6
+  relative
+  items-center
+  justify-center;
+}
+
+.fabnum-title-h2::after {
+  content: " ";
+  @apply
+  w-1/4
+  border
+  absolute
+  bottom-0
+  border-b-2
+  border-blue-900
+  ;
+}

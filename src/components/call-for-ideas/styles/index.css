@@ -1,0 +1,19 @@
+.call-for-ideas {
+
+}
+
+.call-for-ideas .fr-container {
+  @apply text-center mt-12 py-12 relative;
+}
+
+.call-for-ideas .fr-container h3 {
+  @apply text-blue-900;
+}
+
+.call-for-ideas .fr-container p:last-child {
+  @apply font-bold text-blue-900 text-lg py-3;
+}
+
+.call-for-ideas .fr-container img {
+  @apply absolute -top-14 left-0;
+}
