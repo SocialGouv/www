@@ -10,7 +10,7 @@
   @apply text-blue-900;
 }
 
-.call-for-ideas .fr-container p:last-child {
+.call-for-ideas .fr-container .fr-text--xl {
   @apply font-bold text-blue-900 text-lg py-3;
 }
 
