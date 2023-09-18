@@ -67,6 +67,42 @@ export default async function StartupPage({
       <div className="fr-py-6w" style={{ backgroundColor: blueCumulus }}>
         <div className="fr-container">
           <div>
+            <Image
+              width={300}
+              height={300}
+              alt="logo de la startup"
+              src="https://placehold.co/300x300"
+            />
+          </div>
+          <div>
+            <div>
+              <div>Date de création</div>
+              <div>2022</div>
+            </div>
+            <div>
+              <div>Contact</div>
+              <div>{contact}</div>
+            </div>
+            <div>
+              <div>Statistiques</div>
+              <div>{stats_url}</div>
+            </div>
+            <div>
+              <div>Code source</div>
+              <div>{repository}</div>
+            </div>
+            <div>
+              <div>Sponsor</div>
+              <div>{sponsors}</div>
+            </div>
+            <div>
+              <div>Organisation</div>
+              <div>
+                {organisation.name} ({organisation.acronym})
+              </div>
+            </div>
+          </div>
+          {/* <div>
             <b>stats</b>: {stats_url}
           </div>
           <div>
@@ -92,7 +128,7 @@ export default async function StartupPage({
                 <div>{phase.end}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 
