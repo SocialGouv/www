@@ -26,11 +26,13 @@ export default function NotreOffre() {
           informations, la simplification des démarches administratives,
           l&apos;automatisation de processus, etc.
         </p>
-        <h2 className="fr-h2 my-12">Incubateur de services numériques</h2>
+        <h2 className="fr-h2 my-12 fabnum-title--h2">
+          Incubateur de services numériques
+        </h2>
       </div>
       <div className="flex flex-col gap-12">
         <section className="fr-container">
-          <h3 className="fr-h3 text-blue-900 fabnum-title">
+          <h3 className="fr-h3 text-blue-900 fabnum-title--h3">
             Qui peut proposer un projet de services numériques ?
           </h3>
           <p className="fr-text--md">
@@ -54,13 +56,13 @@ export default function NotreOffre() {
         </section>
 
         <section className="fr-container">
-          <h3 className="fr-h3 text-blue-900 fabnum-title">
+          <h3 className="fr-h3 text-blue-900 fabnum-title--h3">
             Comment proposer son projet pour bénéficier du programme
             d&apos;incubation ?
           </h3>
-          <p className="fr-text--md font-bold">
+          {/* <p className="fr-text--md font-bold">
             Les voies d&apos;entrée des SE à la Fabrique
-          </p>
+          </p> */}
           <div className="flex gap-x-12">
             <div className="flex-1 flex flex-col items-center">
               <div className="flex items-center h-44">
@@ -153,7 +155,7 @@ export default function NotreOffre() {
 
         <section style={{ backgroundColor: blueCumulus }}>
           <div className="fr-container py-12">
-            <h3 className="fr-h3 text-blue-900 fabnum-title">
+            <h3 className="fr-h3 text-blue-900 fabnum-title--h3">
               Comment se déroule l&apos;incubation ?
             </h3>
             <p className="fr-text--md">

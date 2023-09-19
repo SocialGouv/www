@@ -3,7 +3,7 @@ import { fr } from "@codegouvfr/react-dsfr"
 export default function History() {
   return (
     <section className="fr-container">
-      <h2 className={fr.cx("fr-h2")}>Quelle est notre histoire ?</h2>
+      <h2 className="fr-h2 fabnum-title-h2">Quelle est notre histoire ?</h2>
       <div className="px-10 py-4 text-2xl text-blue-900 font-bold">2013</div>
       <p className="fr-text pl-10 py-2 border-l ml-16 border-blue-900 text-justify">
         En 2013, pour répondre au besoin d&apos;innovation et de refonte de la

@@ -1,13 +1,14 @@
+import Link from "next/link"
 import Image from "next/image"
 import { fr } from "@codegouvfr/react-dsfr"
+
+import RandomStartups from "@/components/random-startups"
+import CallForIdeas from "@/components/call-for-ideas"
 
 import imageHome from "./tour-mirabeau.jpg"
 import imageAgile from "./(la-fabrique)/a-propos/images/agile.svg"
 import imageCoreTeam from "./(la-fabrique)/equipe/images/core-team.svg"
-import launchingImage from "./(la-fabrique)/notre-offre/images/launching.svg"
-import RandomStartups from "@/components/random-startups"
-import CallForIdeas from "@/components/call-for-ideas"
-import Link from "next/link"
+import imageLaunching from "./(la-fabrique)/notre-offre/images/launching.svg"
 
 export default function Home() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
@@ -43,7 +44,7 @@ export default function Home() {
             <div className="flex h-60 items-center justify-center">
               <Image
                 sizes="100vw"
-                src={launchingImage}
+                src={imageLaunching}
                 alt="illustration de la méthode 1"
                 style={{ width: "80%", height: "auto" }}
               />

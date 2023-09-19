@@ -14,7 +14,7 @@ export default function Methods() {
   return (
     <section>
       <div className="fr-container">
-        <h2 className={fr.cx("fr-h2")}>
+        <h2 className="fr-h2 fabnum-title-h2">
           Quelles sont nos méthodes de travail ?
         </h2>
         <h3 className={fr.cx("fr-h3")}>L&apos;approche</h3>
