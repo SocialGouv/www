@@ -22,7 +22,7 @@ export default function Home() {
           alt="photo de la tour Mirabeau"
           style={{ width: "auto", height: "100%" }}
         />
-        <h2 className="fr-h2 fabnum-title-h2 mt-12">La Fabrique Numérique</h2>
+        <h2 className="fr-h2 fabnum-title--h2 mt-12">La Fabrique Numérique</h2>
         <section className="flex">
           <div className="flex flex-col items-center flex-1">
             <div className="flex h-60 items-center justify-center">

@@ -8,125 +8,80 @@ import imageMethod3 from "../images/method-3.svg"
 import imageMethod4 from "../images/method-4.svg"
 import imageMethod5 from "../images/method-5.svg"
 
+const methods = [
+  {
+    image: imageMethod1,
+    title: "Une recherche d'impact",
+    text: "Un pilotage par la finalité et non par les moyens. L'objectif est d'avoir des utilisateurs satisfaits et non de créer un outil.",
+  },
+  {
+    image: imageMethod2,
+    title: "Des usagers au centre du projet",
+    text: "Un produit centré sur les besoins des usagers et non de l'administration.",
+  },
+  {
+    image: imageMethod3,
+    title: "De l'amélioration continue",
+    text: "Un produit développé de manière itérative et incrémentale en confrontation permanente au terrain.",
+  },
+  {
+    image: imageMethod4,
+    title: "Un porteur dédié",
+    text: "Le porteur du produit vient du terrain, il a un temps dédié au projet et est capable de travailler selon les méthodes des startups d'État.",
+  },
+  {
+    image: imageMethod5,
+    title: "Des équipes autonomes",
+    text: "Qui prennent leurs décisions seules, pour atteindre leurs objectifs, et qui produisent des ressources ouvertes. Les équipes sont pluridisciplinaires et mélangent des compétences privé-public.",
+  },
+]
+
+function Method({
+  method,
+  index,
+}: {
+  method: (typeof methods)[number]
+  index: number
+}) {
+  return (
+    <div className="flex-1 flex flex-col items-center">
+      <div className="h-52">
+        <Image
+          sizes="100vw"
+          src={method.image}
+          style={{ width: "auto", height: "100%" }}
+          alt={`illustration de la méthode ${index + 1}`}
+        />
+      </div>
+      <div className="flex items-center gap-3">
+        <div className="text-9xl font-bold text-blue-900">{index + 1}</div>
+        <div className="text-blue-900 font-bold">{method.title}</div>
+      </div>
+      <p className="fr-text--sm">{method.text}</p>
+    </div>
+  )
+}
+
 export default function Methods() {
   const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
 
   return (
     <section>
       <div className="fr-container">
-        <h2 className="fr-h2 fabnum-title-h2">
+        <h2 className="fr-h2 fabnum-title--h2">
           Quelles sont nos méthodes de travail ?
         </h2>
-        <h3 className={fr.cx("fr-h3")}>L&apos;approche</h3>
-        <p className="fr-text--md">
+        <h3 className="fr-h3 fabnum-title--h3">L&apos;approche</h3>
+        <p className="fr-text--lg text-justify">
           L&apos;approche startup d&apos;Etat introduit une nouvelle manière de
           concevoir l&apos;action publique et le développement de produits
           numériques. Cela permet de garantir un cadre à la fois pour les
           équipes mais également pour nos partenaires.
         </p>
-        <div className="flex gap-x-12 my-12">
-          <div className="flex-1 flex flex-col items-center">
-            <div className="h-52">
-              <Image
-                sizes="100vw"
-                src={imageMethod1}
-                alt="illustration de la méthode 1"
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="text-9xl font-bold text-blue-900">1</div>
-              <div className="text-blue-900 font-bold">
-                Une recherche d&apos;impact
-              </div>
-            </div>
-            <p className="fr-text--sm">
-              Un pilotage par la finalité et non par les moyens. L&apos;objectif
-              est d&apos;avoir des utilisateurs satisfaits et non de créer un
-              outil.
-            </p>
-          </div>
-          <div className="flex-1 flex flex-col items-center">
-            <div className="h-52">
-              <Image
-                sizes="100vw"
-                src={imageMethod2}
-                alt="illustration de la méthode 2"
-                style={{ width: "auto", height: "100%" }}
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="text-9xl font-bold text-blue-900">2</div>
-              <div className="text-blue-900 font-bold">
-                Des usagers au centre du projet
-              </div>
-            </div>
-            <p className="fr-text--sm">
-              Un produit centré sur les besoins des usagers et non de
-              l&apos;administration.
-            </p>
-          </div>
-          <div className="flex-1 flex flex-col items-center">
-            <div className="h-52">
-              <Image
-                sizes="100vw"
-                src={imageMethod3}
-                alt="illustration de la méthode 3"
-                style={{ width: "auto", height: "100%" }}
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="text-9xl font-bold text-blue-900">3</div>
-              <div className="text-blue-900 font-bold">
-                De l&apos;amélioration continue
-              </div>
-            </div>
-            <p className="fr-text--sm">
-              Un produit développé de manière itérative et incrémentale en
-              confrontation permanente au terrain.
-            </p>
-          </div>
-          <div className="flex-1 flex flex-col items-center">
-            <div className="h-52">
-              <Image
-                sizes="100vw"
-                src={imageMethod4}
-                alt="illustration de la méthode 4"
-                style={{ width: "auto", height: "100%" }}
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="text-9xl font-bold text-blue-900">4</div>
-              <div className="text-blue-900 font-bold">Un porteur dédié</div>
-            </div>
-            <p className="fr-text--sm">
-              Le porteur du produit vient du terrain, il a un temps dédié au
-              projet et est capable de travailler selon les méthodes des
-              startups d&apos;État.
-            </p>
-          </div>
-          <div className="flex-1 flex flex-col items-center">
-            <div className="h-52">
-              <Image
-                sizes="100vw"
-                src={imageMethod5}
-                alt="illustration de la méthode 5"
-                style={{ width: "auto", height: "100%" }}
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="text-9xl font-bold text-blue-900">5</div>
-              <div className="text-blue-900 font-bold">
-                Des équipes autonomes
-              </div>
-            </div>
-            <p className="fr-text--sm">
-              Qui prennent leurs décisions seules, pour atteindre leurs
-              objectifs, et qui produisent des ressources ouvertes. Les équipes
-              sont pluridisciplinaires et mélangent des compétences
-              privé-public.
-            </p>
-          </div>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-12 mb-12 mt-12">
+          {methods.map((method, i) => (
+            <Method key={`method-${i}`} method={method} index={i} />
+          ))}
         </div>
         <p className="fr-text--lg text-center text-blue-900 font-bold">
           L&apos;approche &quot;Startup d&apos;État&quot; n&apos;est autre que
@@ -134,9 +89,10 @@ export default function Methods() {
           l&apos;État.
         </p>
       </div>
+
       <div className="p-12" style={{ backgroundColor: blueCumulus }}>
         <div className="fr-container">
-          <h3 className={fr.cx("fr-h3")}>La méthode Agile</h3>
+          <h3 className="fr-h3 fabnum-title--h3">La méthode Agile</h3>
           <div className="flex gap-12 items-center mt-12">
             <div className="w-96">
               <Image

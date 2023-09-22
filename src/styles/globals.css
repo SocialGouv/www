@@ -60,3 +60,7 @@ body {
   border-blue-900
   ;
 }
+
+.toto {
+  background-color: var(--background-alt-blue-france);
+}
