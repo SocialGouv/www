@@ -1,6 +1,6 @@
 # Install dependencies only when needed
 FROM node:16-alpine3.18 AS base
-RUN apk add --no-cache libc6-compat=1.2.4-r1
+RUN apk add --no-cache libc6-compat=1.2.4-r2
 WORKDIR /app
 COPY package.json yarn.lock ./
 

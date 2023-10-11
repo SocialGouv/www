@@ -11,8 +11,8 @@ type Titles = {
 }
 
 const titles: Titles = {
-  travail: "Travail",
-  "solidarite-sante": "Santé & Solidarité",
+  travail: "Travail, Emploi & Formation Professionnelle",
+  "solidarite-sante": "Santé & Cohésion Sociale",
 }
 
 type groupedStartups = Record<keyof Titles, Startup[]>
@@ -61,7 +61,7 @@ export default function StartupsList() {
       <div className="list flex flex-col gap-12">
         {Object.entries(groupedStartups).map(([domain, startups]) => (
           <section key={`group-${domain}`}>
-            <h2 className="fr-h2">{getGroupTitle(domain)}</h2>
+            <h2 className="fr-h2 fabnum-title--h2">{getGroupTitle(domain)}</h2>
             <div className="grid grid-cols-4 gap-6">
               {startups.map((startup) => (
                 <Item key={startup.id} startup={startup} />

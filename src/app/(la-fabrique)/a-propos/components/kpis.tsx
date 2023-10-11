@@ -4,7 +4,7 @@ export default function Kpis() {
   return (
     <section>
       <div className="fr-container">
-        <h2 className={fr.cx("fr-h2")}>
+        <h2 className="fr-h2 fabnum-title--h2">
           Quels sont nos indicateurs de performance (KPI) ?
         </h2>
         <div className="kpis mt-12 mx-12 flex flex-col gap-12">
