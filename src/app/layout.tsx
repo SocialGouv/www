@@ -46,7 +46,7 @@ export default function RootLayout({
       <body>
         <DsfrProvider lang={lang}>
           <Header />
-          <main className="pb-16">{children}</main>
+          <main className="pb-16x">{children}</main>
           <Footer />
         </DsfrProvider>
       </body>

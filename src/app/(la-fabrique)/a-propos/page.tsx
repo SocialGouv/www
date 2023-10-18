@@ -5,7 +5,7 @@ import History from "./components/history"
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col gap-y-24">
+    <div className="flex flex-col gap-y-24 pb-16">
       <Intro />
       <History />
       <Methods />

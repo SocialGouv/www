@@ -173,7 +173,7 @@ export default function Team() {
         </div>
       </section>
       <section
-        className="fr-container mt-24 pt-24 pb-16 pr-24 flex gap-x-12 items-center relative overflow-hidden"
+        className="fr-container mt-24 pt-24 pb-16 pr-24 flex gap-x-12 items-center relative overflow-hidden mb-16"
         style={{ backgroundColor: blueCumulus }}
       >
         <Image
