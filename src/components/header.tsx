@@ -28,6 +28,11 @@ export default function Header() {
       serviceTagline="L'incubateur des ministères sociaux"
       homeLinkProps={{ href: "/", title: "Accueil - La Fabrique Numérique" }}
       id="fr-header-header-with-quick-access-items-nav-items-and-search-engine"
+      operatorLogo={{
+        orientation: "horizontal",
+        imgUrl: "/logo-fabrique.svg",
+        alt: "Logo de la Fabrique Numérique des ministères sociaux",
+      }}
     />
   )
 }

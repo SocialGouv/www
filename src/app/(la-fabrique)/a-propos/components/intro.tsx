@@ -1,15 +1,18 @@
 import Image from "next/image"
 
+import imageMapPin from "../images/map-pin.svg"
+import imageLogoFabrique from "../images/logo-fabrique.svg"
+
 export default function Intro() {
   return (
-    <section>
-      <div className="fr-container gap-6 flex">
+    <section className="fr-container">
+      <h1 className="fr-h1">À propos de la Fabrique</h1>
+      <p className="fr-text--lead text-blue-950">
+        La Fabrique du numérique c&apos;est l&apos;incubateur de startups
+        d&apos;État des Ministères Sociaux (Santé | Solidarité | Travail).
+      </p>
+      <div className="mt-16 gap-x-28 flex">
         <div className="flex-1">
-          <h1 className="fr-display--md">À propos de la Fabrique</h1>
-          <p className="fr-text--lead">
-            La Fabrique du numérique c&apos;est l&apos;incubateur de startups
-            d&apos;État des Ministères Sociaux (Santé | Solidarité | Travail).
-          </p>
           <p className="fr-text--md text-justify">
             L&apos;incubateur vise à encourager l&apos;innovation numérique et
             la transformation digitale au sein des ministères et des services
@@ -26,22 +29,32 @@ export default function Intro() {
             (RGDP, RGAA, RGS) et mettons une core team à disposition des
             produits.
           </p>
-          <address className="font-bold">
-            Nos locaux se situent dans la tour Mirabeau à Paris :<br />
-            39 Quai André Citroën
-            <br />
-            75015 Paris
-          </address>
         </div>
-        <div className="flex align-center">
+        <div className="relative">
           <Image
-            width={500}
-            height={400}
-            src="https://placehold.co/500x400"
-            alt="Illustration de la Fabrique numérique"
+            height={220}
+            src={imageLogoFabrique}
+            style={{ objectFit: "contain" }}
+            alt={`Logo de la Fabrique Numérique des ministères sociaux`}
           />
         </div>
       </div>
+      <address className="font-bold">
+        Nos locaux se situent dans la tour Mirabeau à Paris :<br />
+        <div className="flex mt-2">
+          <Image
+            width={48}
+            height={48}
+            src={imageMapPin}
+            alt="illustration de l'addresse"
+          />
+          <div className="ml-2">
+            39 Quai André Citroën
+            <br />
+            75015 Paris
+          </div>
+        </div>
+      </address>
     </section>
   )
 }

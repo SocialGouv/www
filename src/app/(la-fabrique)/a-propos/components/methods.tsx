@@ -44,12 +44,12 @@ function Method({
   index: number
 }) {
   return (
-    <div className="flex-1 flex flex-col items-center">
-      <div className="h-52">
+    <div className="flex-1 flex flex-col">
+      <div className="h-52 relative">
         <Image
-          sizes="100vw"
+          fill
           src={method.image}
-          style={{ width: "auto", height: "100%" }}
+          style={{ objectFit: "contain" }}
           alt={`illustration de la méthode ${index + 1}`}
         />
       </div>
@@ -68,9 +68,7 @@ export default function Methods() {
   return (
     <section>
       <div className="fr-container">
-        <h2 className="fr-h2 fabnum-title--h2">
-          Quelles sont nos méthodes de travail ?
-        </h2>
+        <h2 className="fr-h2">Quelles sont nos méthodes de travail ?</h2>
         <h3 className="fr-h3 fabnum-title--h3">L&apos;approche</h3>
         <p className="fr-text--lg text-justify">
           L&apos;approche startup d&apos;Etat introduit une nouvelle manière de
@@ -78,12 +76,12 @@ export default function Methods() {
           numériques. Cela permet de garantir un cadre à la fois pour les
           équipes mais également pour nos partenaires.
         </p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-12 mb-12 mt-12">
+        <div className="grid grid-cols-3 gap-x-12 mb-12 mt-12 mx-12">
           {methods.map((method, i) => (
             <Method key={`method-${i}`} method={method} index={i} />
           ))}
         </div>
-        <p className="fr-text--lg text-center text-blue-900 font-bold">
+        <p className="fr-text--xl text-center text-blue-900 font-bold">
           L&apos;approche &quot;Startup d&apos;État&quot; n&apos;est autre que
           la transposition des pratiques produit et lean startup au sein de
           l&apos;État.
@@ -92,7 +90,7 @@ export default function Methods() {
 
       <div className="p-12" style={{ backgroundColor: blueCumulus }}>
         <div className="fr-container">
-          <h3 className="fr-h3 fabnum-title--h3">La méthode Agile</h3>
+          <h3 className="fr-h3 fabnum-title--h3">Méthode Agile</h3>
           <div className="flex gap-12 items-center mt-12">
             <div className="w-96">
               <Image

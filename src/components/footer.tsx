@@ -67,6 +67,12 @@ export default function Footer() {
         ],
       }}
       linkList={navigationToFooterLinkList}
+      // Does not work ?
+      operatorLogo={{
+        orientation: "horizontal",
+        imgUrl: "/logo-fabrique.svg",
+        alt: "Logo de la Fabrique Numérique des ministères sociaux",
+      }}
     />
   )
 }

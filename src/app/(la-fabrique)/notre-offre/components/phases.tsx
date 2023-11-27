@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { fr } from "@codegouvfr/react-dsfr"
 
 import arrow1Image from "../images/arrow-1.svg"
 import arrow2Image from "../images/arrow-2.svg"
@@ -52,38 +53,49 @@ const phases = [
   },
 ]
 
+const blueCumulus = fr.colors.decisions.background.alt.blueCumulus.default
+
 export default function Phases() {
   return (
-    // <div className="flex mt-6">
-    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
-      {phases.map(({ image, title, text }, i) => (
-        <>
-          <div key={`applications-${i + 1}`} className="flex flex-col">
-            <div className="flex flex-col justify-center h-52">
-              <Image
-                src={image}
-                sizes="100vw"
-                alt={`illustration de la méthode ${i + 1}`}
-                className="sm:w-auto sm:h-full lg:w-full lg:h-auto"
-              />
-            </div>
-            <h4 className="fr-h5 text-blue-900 mt-6 mb-3">{title}</h4>
-            <p className="fr-text--sm">{text}</p>
-          </div>
-          {arrows[i] !== undefined && (
-            // <div className="w-20 relative bg-pink-100">
-            <div className={`absolute z-10 ${arrows[i].position}`}>
-              <Image
-                src={arrows[i].image}
-                alt={`fleche ${i + 1}`}
-                width={arrows[i].width}
-                height={arrows[i].height}
-              />
-            </div>
-            // </div>
-          )}
-        </>
-      ))}
-    </div>
+    <section style={{ backgroundColor: blueCumulus }}>
+      <div className="fr-container py-12">
+        <h3 className="fr-h3 text-blue-900 fabnum-title--h3">
+          Comment se déroule l&apos;incubation ?
+        </h3>
+        <p className="fr-text--md">
+          À la Fabrique, nous avons une méthode de travail bien établie pour
+          vous accompagner dans le développement du produit.
+        </p>
+        <p className="fr-text--md">Elle se caractérise en 4 phases :</p>
+        <div className="grid grid-cols-2 gap-x-40 gap-y-20 mx-12 relative">
+          {phases.map(({ image, title, text }, i) => (
+            <>
+              <div key={`applications-${i + 1}`} className="flex flex-col">
+                <div className="flex flex-col justify-center h-52 relative">
+                  <Image
+                    fill
+                    src={image}
+                    style={{ objectFit: "contain" }}
+                    alt={`illustration de la phase ${i + 1}`}
+                  />
+                </div>
+                <h4 className="fr-h5 text-blue-900 mt-6 mb-3">{title}</h4>
+                <p className="fr-text--sm">{text}</p>
+              </div>
+              {/* {arrows[i] !== undefined && (
+                <div className={`absolute z-10 ${arrows[i].position}`}>
+                  <Image
+                    src={arrows[i].image}
+                    alt={`fleche ${i + 1}`}
+                    width={arrows[i].width}
+                    height={arrows[i].height}
+                  />
+                </div>
+              )} */}
+            </>
+          ))}
+        </div>
+      </div>
+    </section>
   )
 }

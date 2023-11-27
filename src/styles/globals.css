@@ -26,8 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+h1.fr-h1 {
+  @apply uppercase text-blue-950;
+}
+
 .fabnum-title--h3 {
-  @apply flex items-center text-blue-900;
+  @apply flex items-center text-blue-950;
 }
 
 .fabnum-title--h3::before {
@@ -59,6 +63,10 @@ body {
   border-b-2
   border-blue-900
   ;
+}
+
+.fr-header__operator img {
+  @apply w-16 h-full;
 }
 
 .toto {
