@@ -16,10 +16,10 @@ export default function Team() {
 
   return (
     <>
-      <h1 className={fr.cx("fr-h1", "fr-container")}>L&apos;équipe</h1>
+      <h1 className="fr-h1 fr-container">L&apos;équipe</h1>
 
       <section className="fr-container">
-        <h2 className="fr-h2 fabnum-title--h2">La core team</h2>
+        <h2 className="fr-h2 fabnum-title--h3">La core team</h2>
         <div className="flex items-center gap-x-12 mb-12">
           <div className="flex-1">
             <p className="fr-text--md">
@@ -64,7 +64,7 @@ export default function Team() {
       </section>
 
       <section className="fr-container">
-        <h2 className="fr-h2 fabnum-title--h2">Les freelances</h2>
+        <h2 className="fr-h2 fabnum-title--h3">Les freelances</h2>
         <p>
           En fonction des défis auxquels nous devons faire face, les équipes
           évoluent tout au long de la vie du produit.

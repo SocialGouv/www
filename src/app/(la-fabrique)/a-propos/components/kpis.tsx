@@ -1,5 +1,3 @@
-import { fr } from "@codegouvfr/react-dsfr"
-
 export default function Kpis() {
   return (
     <section>

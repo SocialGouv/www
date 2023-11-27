@@ -1,6 +1,6 @@
 import Phases from "./components/phases"
-import Applications from "./components/applications"
 import Parties from "./components/parties"
+import Applications from "./components/applications"
 
 export default function NotreOffre() {
   return (
