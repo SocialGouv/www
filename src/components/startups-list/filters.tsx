@@ -8,14 +8,14 @@ export default function Filters({
   const phases = ["investigation", "construction", "acceleration", "success"]
 
   return (
-    <div className="filters flex absolute right-0 top-3.5">
+    <div className="filters flex absolute right-0 top-8 fr-text--lg">
       {phases.map((phase, i) => (
         <div className="filter flex" key={`phase-filter-${phase}`}>
           <div
             onClick={() => onClick(phase)}
             className={`${
               selectedPhase === phase ? `selected font-bold` : ""
-            } cursor-pointer hover:font-bold`}
+            } cursor-pointer hover:font-bold capitalize`}
           >
             {phase}
           </div>
