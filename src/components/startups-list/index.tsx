@@ -60,9 +60,11 @@ export default function StartupsList() {
       <Filters onClick={handleClick} selectedPhase={selectedPhase} />
       <div className="list flex flex-col gap-12">
         {Object.entries(groupedStartups).map(([domain, startups]) => (
-          <section key={`group-${domain}`}>
-            <h2 className="fr-h2 fabnum-title--h2">{getGroupTitle(domain)}</h2>
-            <div className="grid grid-cols-4 gap-6">
+          <section key={`group-${domain}`} className="mt-6">
+            <h2 className="fr-h2 mb-12 fabnum-title--h3">
+              {getGroupTitle(domain)}
+            </h2>
+            <div className="grid grid-cols-4 gap-x-6 gap-y-8 mx-12">
               {startups.map((startup) => (
                 <Item key={startup.id} startup={startup} />
               ))}

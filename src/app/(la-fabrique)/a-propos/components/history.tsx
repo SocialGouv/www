@@ -2,8 +2,8 @@ export default function History() {
   return (
     <section>
       <div className="fr-container">
-        <h2 className="fr-h2 fabnum-title--h2">Quelle est notre histoire ?</h2>
-        <div className="px-10 py-4 text-2xl text-blue-900 font-bold">2013</div>
+        <h2 className="fr-h2">Quelle est notre histoire ?</h2>
+        <div className="px-10 py-4 text-4xl text-blue-950 font-bold">2013</div>
         <p className="fr-text pl-10 py-2 border-l ml-16 mr-6 border-blue-900 text-justify">
           En 2013, pour répondre au besoin d&apos;innovation et de refonte de la
           plateforme de données publiques data.gouv.fr, une première équipe de
@@ -15,7 +15,7 @@ export default function History() {
           s&apos;attaquer à des problèmes concrets rencontrés par les citoyens
           et les entreprises.
         </p>
-        <div className="px-10 py-4 text-2xl text-blue-900 font-bold">2015</div>
+        <div className="px-10 py-4 text-4xl text-blue-950 font-bold">2015</div>
         <p className="fr-text pl-10 py-2 border-l ml-16 mr-6 border-blue-900 text-justify">
           L&apos;incubateur des services numériques, mission de la Direction
           interministérielle du numérique DINUM (anciennement DINSIC: direction
@@ -24,7 +24,7 @@ export default function History() {
           regrouper les Startups d&apos;État et d&apos;animer sa communauté. Son
           site beta.gouv.fr est alors lancé.
         </p>
-        <div className="px-10 py-4 text-2xl text-blue-900 font-bold">2017</div>
+        <div className="px-10 py-4 text-4xl text-blue-950 font-bold">2017</div>
         <p className="fr-text pl-10 py-2 border-l ml-16 mr-6 border-blue-900 text-justify">
           Depuis 2015, l&apos;incubateur de services numériques accompagne
           plusieurs administrations dans la construction de leurs Startups
@@ -33,7 +33,7 @@ export default function History() {
           qu&apos;en 2017 la Fabrique du Numérique des ministères sociaux est
           créée au sein de la DNUM.
         </p>
-        <div className="px-10 py-4 text-2xl text-blue-900 font-bold">
+        <div className="px-10 py-4 text-4xl text-blue-950 font-bold">
           Aujourd&apos;hui
         </div>
         <p className="fr-text pl-10 py-2 border-l ml-16 mr-6 border-blue-900 text-justify">

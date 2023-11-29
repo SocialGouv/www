@@ -3,6 +3,25 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge"
 
 import type { Startup } from "@/utils/get-startups"
 
+function loadImage(url: string): Promise<HTMLImageElement> {
+  return new Promise((resolve) => {
+    const image = new Image()
+
+    image.onload = () => {
+      resolve(image)
+    }
+
+    image.onerror = () => {
+      // En cas d'échec, on utilise l'image par défaut
+      const defaultImage = new Image()
+      defaultImage.src = "https://beta.gouv.fr/img/betagouv-rectangle.png"
+      resolve(defaultImage)
+    }
+
+    image.src = url
+  })
+}
+
 export default function StartupsListItem({ startup }: { startup: Startup }) {
   const {
     id,
