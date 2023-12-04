@@ -1,3 +1,10 @@
+## [2.39.24](https://github.com/SocialGouv/www/compare/v2.39.23...v2.39.24) (2023-12-04)
+
+
+### Bug Fixes
+
+* Update Github stats. ([45671ce](https://github.com/SocialGouv/www/commit/45671ce09adc08bb5c6f5dfc951c91dd34ab875d))
+
 ## [2.39.23](https://github.com/SocialGouv/www/compare/v2.39.22...v2.39.23) (2023-11-27)
 
 
