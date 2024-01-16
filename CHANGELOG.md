@@ -1,3 +1,10 @@
+## [2.39.31](https://github.com/SocialGouv/www/compare/v2.39.30...v2.39.31) (2024-01-16)
+
+
+### Bug Fixes
+
+* yarn berry + yarn fetch + docker opti ([#1064](https://github.com/SocialGouv/www/issues/1064)) ([023c74a](https://github.com/SocialGouv/www/commit/023c74ad6a417152c95351559826ef91c2b14c22))
+
 ## [2.39.30](https://github.com/SocialGouv/www/compare/v2.39.29...v2.39.30) (2024-01-15)
 
 
