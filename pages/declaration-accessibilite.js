@@ -25,11 +25,11 @@ const Mentions = () => (
         </b>
         .
         <span>
-          <span>Le site n'a encore pas été audité.</span>
+          <span>{"Le site n'a encore pas été audité."}</span>
         </span>
       </p>
       <h2>Contenus non accessibles</h2>
-      <h2>Établissement de cette déclaration d'accessibilité</h2>
+      <h2>{"Établissement de cette déclaration d'accessibilité"}</h2>
       <p>
         Cette déclaration a été établie le{" "}
         <b>
@@ -84,10 +84,10 @@ const Mentions = () => (
       </ul>
       <hr />
       <p>
-        Cette déclaration d'accessibilité a été créé le{" "}
+        {"Cette déclaration d'accessibilité a été créé le "}
         <span>9 décembre 2021</span> grâce au{" "}
         <a href="https://betagouv.github.io/a11y-generateur-declaration/#create">
-          Générateur de Déclaration d'Accessibilité de BetaGouv
+          {"Générateur de Déclaration d'Accessibilité de BetaGouv"}
         </a>
         .
       </p>

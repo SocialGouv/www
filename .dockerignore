@@ -4,3 +4,7 @@
 **/node_modules
 .next
 .kontinuous
+Dockerfile
+.kontinuous
+.socialgouv.yaml
+.releaserc.yml

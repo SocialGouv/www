@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install
-        run: yarn --frozen-lockfile --perfer-offline
+        run: yarn --immutable
 
       - name: Download stats
         run: yarn github-stats
