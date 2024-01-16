@@ -31,7 +31,7 @@ jobs:
       uses: c-hive/gha-yarn-cache@v2
 
     - name: Install dependencies
-      run: yarn --frozen-lockfile --prefer-offline
+      run: yarn --immutable
 
     - name: Run tests
       run: yarn test --coverage
