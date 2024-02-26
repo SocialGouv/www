@@ -1,3 +1,10 @@
+## [2.39.37](https://github.com/SocialGouv/www/compare/v2.39.36...v2.39.37) (2024-02-26)
+
+
+### Bug Fixes
+
+* update mentions legales ([#1066](https://github.com/SocialGouv/www/issues/1066)) ([bb79eb4](https://github.com/SocialGouv/www/commit/bb79eb40f82bcc545de070db1cd330833aa91eb9))
+
 ## [2.39.36](https://github.com/SocialGouv/www/compare/v2.39.35...v2.39.36) (2024-02-19)
 
 
