@@ -1,3 +1,10 @@
+## [2.39.44](https://github.com/SocialGouv/www/compare/v2.39.43...v2.39.44) (2024-04-03)
+
+
+### Bug Fixes
+
+* bump version ([4f49046](https://github.com/SocialGouv/www/commit/4f49046e42a10d671e55a64d32855a9606f692b1))
+
 ## [2.39.43](https://github.com/SocialGouv/www/compare/v2.39.42...v2.39.43) (2024-04-01)
 
 
