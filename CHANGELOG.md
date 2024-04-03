@@ -1,3 +1,10 @@
+## [2.39.45](https://github.com/SocialGouv/www/compare/v2.39.44...v2.39.45) (2024-04-03)
+
+
+### Bug Fixes
+
+* crop email signature ([9a19ae1](https://github.com/SocialGouv/www/commit/9a19ae11f21a77e0945217d0c3b047a0086ea48e))
+
 ## [2.39.44](https://github.com/SocialGouv/www/compare/v2.39.43...v2.39.44) (2024-04-03)
 
 
