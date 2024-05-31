@@ -1,3 +1,10 @@
+## [2.39.54](https://github.com/SocialGouv/www/compare/v2.39.53...v2.39.54) (2024-05-31)
+
+
+### Bug Fixes
+
+* disable autoscale on preprod ([54fba8f](https://github.com/SocialGouv/www/commit/54fba8f1e11c20d23f2e1df9b14d22fd3058c579))
+
 ## [2.39.53](https://github.com/SocialGouv/www/compare/v2.39.52...v2.39.53) (2024-05-27)
 
 
