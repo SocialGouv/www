@@ -1,6 +1,4 @@
 app:
-  autoscale:
-    enabled: true
   resources:
     requests:
       cpu: 10m
