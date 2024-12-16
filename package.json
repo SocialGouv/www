@@ -62,5 +62,5 @@
     "trim-right": "^1.0.1"
   },
   "private": true,
-  "packageManager": "yarn@3.7.0"
+  "packageManager": "yarn@3.8.7"
 }
