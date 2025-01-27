@@ -10,6 +10,6 @@ COPY . .
 RUN yarn build
 RUN yarn export
 
-FROM ghcr.io/socialgouv/docker/nginx:8.2.0
+FROM ghcr.io/socialgouv/docker/nginx:8.2.3
 
 COPY --from=builder --chown=nginx:nginx /app/out /usr/share/nginx/html
